@@ -1,19 +1,30 @@
 body {
+  padding-top: 100px;
   overflow-x: hidden;
   overflow-y: hidden;
   margin-top: 150px;
   background-image: url('./assets/site/mygoditsfullofstars.gif');
 }
 
-#gridthing{
+#topgridthing{
   display: block;
   width: 100vw;
-  top: -250px;
+  height: 30vh;
+  top:0;
   z-index: -1000;
-  position:relative;
+  position:fixed;
 }
 
-.header{
+#lowgridthing{
+  display: block;
+  width: 100vw;
+  height: 30vh;
+  bottom: 0;
+  z-index: -1000;
+  position:fixed;
+}
+
+.TopHeader{
   position: fixed;
   top:50px;
   left: 50%;
@@ -36,14 +47,15 @@ body {
  /* Navbutton Bar & Button Positioning*/
 .navbuttons {
   display: flex;
+  padding-top: 30px;
+  scale: 80%;
   justify-content: center;
+  align-items: center;
 }
 
 .navbutton-button {
-  height: 35px;
-  display: flex;
-  justify-content: center;
-  position:relative;
+  position: relative;
+  padding: 0;
 }
 
  /* Navbutton Button Image Behaviours*/
