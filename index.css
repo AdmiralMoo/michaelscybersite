@@ -1,9 +1,14 @@
+:root {
+  --box-bordersize: 4px;
+}
+
 body {
   padding-top: 100px;
   overflow-x: hidden;
   overflow-y: hidden;
   margin-top: 150px;
   background-image: url('./assets/site/mygoditsfullofstars.gif');
+  background-color: #000000;
 }
 
 #topgridthing{
@@ -84,4 +89,203 @@ body {
   font-style: normal;
   color: black;
   pointer-events: none;
+}
+
+#infobox{
+  position:relative;
+}
+
+.maincontent {
+  display: flex;
+  justify-content: center;  /* Center the box horizontally */
+  width: 100vw;             /* Ensure it takes the full viewport width */
+  height: 100vh;            /* Ensure it takes the full viewport height if you want full page centering */
+  margin: 0;                /* Remove default margin */
+  padding: 0;
+  box-sizing: border-box;    /* Ensure padding and borders don't affect centering */
+}
+
+#obiwan{
+  padding-right:10px;
+}
+
+#vertstack {
+  flex-direction: column;
+}
+
+/* Scalable Box */
+
+.dynbox {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  grid-template-rows: auto 1fr auto;
+  width: fit-content;
+  height: fit-content;
+}
+
+.dynbox-corner {
+  width: var(--box-bordersize);;
+  height: var(--box-bordersize);;
+  background-size: contain; /* Ensure corners aren't stretched */
+  background-repeat: no-repeat;
+}
+
+.dynbox-side {
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* Windows 95 Window themed scalable box */
+
+.win-nw{
+  background-image: url('./assets/ui/winbox_nw.jpg');
+  grid-column: 1;
+  grid-row: 1;
+}
+
+.win-ne {
+  background-image: url('./assets/ui/winbox_ne.jpg');
+  grid-column: 3;
+  grid-row: 1;
+}
+
+.win-sw {
+  background-image: url('./assets/ui/winbox_sw.jpg');
+  grid-column: 1;
+  grid-row: 3;
+}
+
+.win-se {
+  background-image: url('./assets/ui/winbox_se.jpg');
+  grid-column: 3;
+  grid-row: 3;
+}
+
+.win-n {
+  background-image: url('./assets/ui/winbox_n.jpg');
+  background-size: 100% 100%; 
+  grid-column: 2;
+  grid-row: 1;
+  height: var(--box-bordersize);
+}
+
+.win-s {
+  background-image: url('./assets/ui/winbox_s.jpg');
+  background-size: 100% 100%; 
+  grid-column: 2;
+  grid-row: 3;
+  height: var(--box-bordersize);
+}
+
+.win-w {
+  background-image: url('./assets/ui/winbox_w.jpg');
+  background-size: 100% 100%; 
+  grid-column: 1;
+  grid-row: 2;
+  width: var(--box-bordersize);
+}
+
+.win-e {
+  background-image: url('./assets/ui/winbox_e.jpg');
+  background-size: 100% 100%;
+  grid-column: 3;
+  grid-row: 2;
+  width: var(--box-bordersize);
+}
+
+.win-c {
+  background-image: url('./assets/ui/winbox_c.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  grid-column: 2;
+  grid-row: 2;
+  padding: 10px; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: none; /* Scrollbars will appear if content overflows */
+  max-height: 300px; /* Optional: Set a max height to limit content space */
+  max-width: 50vw;  /* Optional: Set a max width to limit content space */
+}
+
+.win-c p {
+  margin: 0;
+}
+
+/* Windows 95 Text Entry Box themed scalable box */
+
+.wintxt-nw{
+  background-image: url('./assets/ui/wintext_nw.jpg');
+  grid-column: 1;
+  grid-row: 1;
+}
+
+.wintxt-ne {
+  background-image: url('./assets/ui/wintext_ne.jpg');
+  grid-column: 3;
+  grid-row: 1;
+}
+
+.wintxt-sw {
+  background-image: url('./assets/ui/wintext_sw.jpg');
+  grid-column: 1;
+  grid-row: 3;
+}
+
+.wintxt-se {
+  background-image: url('./assets/ui/wintext_se.jpg');
+  grid-column: 3;
+  grid-row: 3;
+}
+
+.wintxt-n {
+  background-image: url('./assets/ui/wintext_n.jpg');
+  background-size: 100% 100%; 
+  grid-column: 2;
+  grid-row: 1;
+  height: var(--box-bordersize);
+}
+
+.wintxt-s {
+  background-image: url('./assets/ui/wintext_s.jpg');
+  background-size: 100% 100%; 
+  grid-column: 2;
+  grid-row: 3;
+  height: var(--box-bordersize);
+}
+
+.wintxt-w {
+  background-image: url('./assets/ui/wintext_w.jpg');
+  background-size: 100% 100%; 
+  grid-column: 1;
+  grid-row: 2;
+  width: var(--box-bordersize);
+}
+
+.wintxt-e {
+  background-image: url('./assets/ui/wintext_e.jpg');
+  background-size: 100% 100%;
+  grid-column: 3;
+  grid-row: 2;
+  width: var(--box-bordersize);
+}
+
+.wintxt-c {
+  background-image: url('./assets/ui/wintext_c.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  grid-column: 2;
+  grid-row: 2;
+  padding: 10px; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: none; /* Scrollbars will appear if content overflows */
+  max-width: 50vw;  /* Optional: Set a max width to limit content space */
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 13pt;
+}
+
+.wintxt-c p {
+  margin: 0;
 }

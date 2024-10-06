@@ -2,7 +2,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Michael's Cybersite</title>
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="/index.css">
+    <link rel="icon" type="image/x-icon" href="/assets/site/favicon.ico">
     <link rel="preload" href="./assets/ui/button_down.jpg" as="image">
     <link rel="preload" href="./assets/ui/button_hover.jpg" as="image">
 </head>
@@ -12,30 +13,64 @@
         <img draggable="false" id="topgridthing" src="./assets/site/topgrid.gif" alt="Website Banner">
         <div class="TopHeader">
             <div class="sitelogo">
-                <img draggable="false" src="./assets/site/sitebanner_home.png" alt="Website Banner">
+                <a href="/index.html"><img draggable="false" src="./assets/site/sitebanner_home.png" alt="Website Banner"></a>
             </div>
             <div class="navbuttons">
                 <div class="navbutton-button" >
-                    <img draggable="false" src="./assets/ui/button_up.jpg" alt="nav button"> 
+                    <a href="/index.html"><img draggable="false" src="./assets/ui/button_up.jpg" alt="nav button"></a>
                     <div class="button-text">Home</div>
                 </div>
                 <div class="navbutton-button">
-                    <img draggable="false" src="./assets/ui/button_up.jpg" alt="nav button"> 
+                    <a href="/pages/main/about.html"><img draggable="false" src="./assets/ui/button_up.jpg" alt="nav button"></a>
                     <div class="button-text">About</div>
                 </div>
                 <div class="navbutton-button">
-                    <img draggable="false" src="./assets/ui/button_up.jpg" alt="nav button"> 
+                    <a href="/pages/main/music.html"><img draggable="false" src="./assets/ui/button_up.jpg" alt="nav button"></a>
                     <div class="button-text">Music</div>
                 </div>
                 <div class="navbutton-button">
-                    <img draggable="false" src="./assets/ui/button_up.jpg" alt="nav button"> 
-                    <div class="button-text">Portals</div>
+                    <a href="/pages/main/photography.html"><img draggable="false" src="./assets/ui/button_up.jpg" alt="nav button"></a>
+                    <div class="button-text">Photography</div>
                 </div>
             </div>
         </div>
     </header>
 
     <main>
+        <div class="maincontent">
+            <div id="infobox" class="dynbox">
+                <div class="dynbox-corner win-nw"></div>
+                <div class="dynbox-side win-n"></div>
+                <div class="dynbox-corner win-ne"></div>
+            
+                <div class="dynbox-side win-w"></div>
+                <div class="win-c">
+                    <img id="obiwan" src="./assets/gifs/hellothere.gif" width="auto" height ="100eh">
+                    <div id="infobox" class="dynbox">
+                        <div class="dynbox-corner wintxt-nw"></div>
+                        <div class="dynbox-side wintxt-n"></div>
+                        <div class="dynbox-corner wintxt-ne"></div>
+                    
+                        <div class="dynbox-side wintxt-w"></div>
+                        <div class="wintxt-c">
+                            <p>
+                                I'm Michael, and welcome to my corner of the internet! I'm building this site to host some of my passions and interests. Hopefully, this site will get better over time as I learn HTML and CSS. I want to make it as interesting as possible because I miss the days when The Internet was cool. Click around and explore; I hope you enjoy your stay!
+                            </p>
+                        </div>
+                        <div class="dynbox-side wintxt-e"></div>
+                    
+                        <div class="dynbox-corner wintxt-sw"></div>
+                        <div class="dynbox-side wintxt-s"></div>
+                        <div class="dynbox-corner wintxt-se"></div>
+                    </div>
+                </div>
+                <div class="dynbox-side win-e"></div>
+            
+                <div class="dynbox-corner win-sw"></div>
+                <div class="dynbox-side win-s"></div>
+                <div class="dynbox-corner win-se"></div>
+            </div>
+        </div>
     </main>
 
     <footer>
