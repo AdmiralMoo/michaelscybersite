@@ -1,18 +1,31 @@
 body {
+  overflow-x: hidden;
+  overflow-y: hidden;
+  margin-top: 150px;
   background-image: url('./assets/site/mygoditsfullofstars.gif');
 }
 
 #gridthing{
   display: block;
-  margin-left: auto;
-  margin-right: auto;
-  height: fit-content;
+  width: 100vw;
+  top: -250px;
+  z-index: -1000;
+  position:relative;
+}
+
+.header{
+  position: fixed;
+  top:50px;
+  left: 50%;
+  transform: translate(-50%);
+  padding: 10px;
+  z-index: 1000;
 }
 
 .sitelogo {
   display:flex;
+  scale: 128px;
   justify-content: center;
-  transform:translate(0,-350%)
 }
 
 .sitelogo img {
@@ -24,10 +37,10 @@ body {
 .navbuttons {
   display: flex;
   justify-content: center;
-  transform:translate(0%,-1000%)
 }
 
 .navbutton-button {
+  height: 35px;
   display: flex;
   justify-content: center;
   position:relative;
@@ -55,6 +68,7 @@ body {
   left: 50%;
   transform: translate(-50%,-50%);
   font-family: 'Times New Roman', Times, serif;
+  font-size: 28px;
   font-style: normal;
   color: black;
   pointer-events: none;
