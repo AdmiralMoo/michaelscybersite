@@ -93,6 +93,7 @@ body {
 
 #infobox{
   position:relative;
+  flex-direction: row;
 }
 
 .maincontent {
