@@ -58,6 +58,30 @@ body {
   align-items: center;
 }
 
+#smallbutton {
+  display: flex;
+  scale: 80%;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbutton-button-disabled {
+  position: relative;
+  padding: 0;
+}
+
+.navbutton-button-disabled .button-text {
+  position:absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 28px;
+  font-style: normal;
+  color: #868686;
+  pointer-events: none;
+}
+
 .navbutton-button {
   position: relative;
   padding: 0;
@@ -98,7 +122,8 @@ body {
 
 .maincontent {
   display: flex;
-  justify-content: center;  /* Center the box horizontally */
+  flex-direction: column;
+  align-items: center;
   width: 100vw;             /* Ensure it takes the full viewport width */
   height: 100vh;            /* Ensure it takes the full viewport height if you want full page centering */
   margin: 0;                /* Remove default margin */
@@ -205,7 +230,7 @@ body {
   align-items: center;
   justify-content: center;
   overflow: none; /* Scrollbars will appear if content overflows */
-  max-height: 300px; /* Optional: Set a max height to limit content space */
+  max-height: 500px; /* Optional: Set a max height to limit content space */
   max-width: 50vw;  /* Optional: Set a max width to limit content space */
 }
 
@@ -279,12 +304,13 @@ body {
   grid-row: 2;
   padding: 10px; 
   display: flex;
-  align-items: center;
-  justify-content: center;
+  flex-direction: column;
+  align-items: left;
   overflow: none; /* Scrollbars will appear if content overflows */
   max-width: 50vw;  /* Optional: Set a max width to limit content space */
   font-family: 'Times New Roman', Times, serif;
   font-size: 13pt;
+  /*hello there */ 
 }
 
 .wintxt-c p {

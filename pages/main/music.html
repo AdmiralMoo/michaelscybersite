@@ -3,7 +3,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Michael's Cybersite - Music</title>
     <base href="https://admiralmoo.github.io/michaelscybersite/">
+    <!--<base href="https://admiralmoo.github.io/michaelscybersite/">-->
     <link rel="icon" type="image/x-icon" href="/assets/site/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="music.css"/>
     <link rel="stylesheet" type="text/css" href="index.css"/>
     <link rel="preload" href="/assets/ui/button_down.jpg" as="image">
     <link rel="preload" href="/assets/ui/button_hover.jpg" as="image">
@@ -14,7 +16,7 @@
         <img draggable="false" id="topgridthing" src="./assets/site/topgrid.gif" alt="Website Banner">
         <div class="TopHeader">
             <div class="sitelogo">
-                <a href="index.html"><img draggable="false" src="./assets/site/sitebanner_home.png" alt="Website Banner"></a>
+                <a href="index.html"><img draggable="false" src="./assets/site/sitebanner_generic.png" alt="Website Banner"></a>
             </div>
             <div class="navbuttons">
                 <div class="navbutton-button" >
@@ -38,16 +40,16 @@
     </header>
 
     <main>
-        <div id="vertstack" class="maincontent">
+        <div class="maincontent">
             <!--Music Intro-->
-            <div id="vertstack" class="dynbox">
+            <div class="dynbox">
                 <div class="dynbox-corner win-nw"></div>
                 <div class="dynbox-side win-n"></div>
                 <div class="dynbox-corner win-ne"></div>
             
                 <div class="dynbox-side win-w"></div>
                 <div id="infobox" class="win-c" >
-                    <div id="vertstack" class="dynbox" >
+                    <div class="dynbox" >
                         <div class="dynbox-corner wintxt-nw"></div>
                         <div class="dynbox-side wintxt-n"></div>
                         <div class="dynbox-corner wintxt-ne"></div>
@@ -55,14 +57,38 @@
                         <div class="dynbox-side wintxt-w"></div>
                         <div class="wintxt-c">
                             <p>Music is a huge part of my life. I'm always listening to something, no matter where I am. When I'm at home, I have my CD collection and a Sony CDP-CE315 5-Disc changer. When i'm out and about, I bring my music library around with me using an Apple iPod Classic (6th gen).</p>
-                            <p>Some of my favourite bands include:</p>
-                            <ul>
-                                <li>Green Day</li>
-                                <li>Alice In Chains</li>
-                                <li>The Smashing Pumpkins</li>
-                                <li>Nine Inch Nails</li>
-                                <li>Pink Floyd</li>
-                            </ul>
+                            <div style="display: flex; justify-content: space-evenly; padding-top:7px;">
+                                <div>
+                                    <p>Some of my favourite bands include:</p>
+                                    <ul>
+                                        <li>Green Day</li>
+                                        <li>Alice In Chains</li>
+                                        <li>The Smashing Pumpkins</li>
+                                        <li>Nine Inch Nails</li>
+                                        <li>Pink Floyd</li>
+                                    </ul>
+                                </div>
+                                <div>
+                                    <p>Some of my favourite albums include:</p>
+                                    <ul>
+                                        <li>Skin Yard/1000 Smiling Knuckles</li>
+                                        <li>Pink Floyd/The Dark Side of The Moon</li>
+                                        <li>Blind Melon/Blind Melon</li>
+                                        <li>Mother Love Bone/Apple</li>
+                                        <li>Alice In Chains/Dirt</li>
+                                    </ul>
+                                </div>
+                                <div>
+                                    <p>Some of my favourite classical works are:</p>
+                                    <ul>
+                                        <li>Richard Strauss/Also Sprach Zarathustra</li>
+                                        <li>Antonín Dvořák/Symphony No. 9</li>
+                                        <li>Gustav Holst/The Planets Suite</li>
+                                        <li>Edvard Grieg/Peer Gynt Suites Nos. 1 & 2</li>
+                                        <li>Georges Bizet/Carmen Suites Nos. 1 & 2</li>
+                                    </ul>
+                                </div>
+                            </div>
                         </div>
                         <div class="dynbox-side wintxt-e"></div>
                     
@@ -78,39 +104,6 @@
                 <div class="dynbox-corner win-se"></div>
             </div>
             <div class="linksbox">
-                <!-- CD Library Box-->
-                <div id="infobox" class="dynbox">
-                    <div class="dynbox-corner win-nw"></div>
-                    <div class="dynbox-side win-n"></div>
-                    <div class="dynbox-corner win-ne"></div>
-                
-                    <div class="dynbox-side win-w"></div>
-                    <div id="vertstack" class="win-c">
-                        <img src="assets/site/error.png" width="180px">
-                        <div id="infobox" class="dynbox">
-                            <div class="dynbox-corner wintxt-nw"></div>
-                            <div class="dynbox-side wintxt-n"></div>
-                            <div class="dynbox-corner wintxt-ne"></div>
-                        
-                            <div class="dynbox-side wintxt-w"></div>
-                            <div class="wintxt-c">
-                                <p>
-                                    Take a look at my personal music library! 
-                                </p>
-                            </div>
-                            <div class="dynbox-side wintxt-e"></div>
-                        
-                            <div class="dynbox-corner wintxt-sw"></div>
-                            <div class="dynbox-side wintxt-s"></div>
-                            <div class="dynbox-corner wintxt-se"></div>
-                        </div>
-                    </div>
-                    <div class="dynbox-side win-e"></div>
-                
-                    <div class="dynbox-corner win-sw"></div>
-                    <div class="dynbox-side win-s"></div>
-                    <div class="dynbox-corner win-se"></div>
-                </div>
                 <!-- The CD Chronicles Box-->
                 <div id="infobox" class="dynbox">
                     <div class="dynbox-corner win-nw"></div>
@@ -119,8 +112,8 @@
                 
                     <div class="dynbox-side win-w"></div>
                     <div id="vertstack" class="win-c">
-                        <img src="assets/site/cdchronicles.png" width="180px">
-                        <div id="infobox" class="dynbox">
+                        <img src="assets/site/cdchronicles.png" height="90px">
+                        <div id="infobox" class="dynbox" style="padding-top:5px;">
                             <div class="dynbox-corner wintxt-nw"></div>
                             <div class="dynbox-side wintxt-n"></div>
                             <div class="dynbox-corner wintxt-ne"></div>
@@ -136,6 +129,48 @@
                             <div class="dynbox-corner wintxt-sw"></div>
                             <div class="dynbox-side wintxt-s"></div>
                             <div class="dynbox-corner wintxt-se"></div>
+                        </div>
+                        <div id="smallbutton" class="navbutton-button-disabled" >
+                            <img draggable="false" src="./assets/ui/button_up.jpg" alt="nav button"></a>
+                            <div class="button-text">Ok</div>
+                        </div>
+                    </div>
+                    
+                    <div class="dynbox-side win-e"></div>
+                
+                    <div class="dynbox-corner win-sw"></div>
+                    <div class="dynbox-side win-s"></div>
+                    <div class="dynbox-corner win-se"></div>
+                </div>
+                <!-- CD Library Box-->
+                <div id="infobox" class="dynbox">
+                    <div class="dynbox-corner win-nw"></div>
+                    <div class="dynbox-side win-n"></div>
+                    <div class="dynbox-corner win-ne"></div>
+                
+                    <div class="dynbox-side win-w"></div>
+                    <div id="vertstack" class="win-c">
+                        <img src="assets/images/discogs.png" height="90px">
+                        <div id="infobox" class="dynbox" style="padding-top:5px;">
+                            <div class="dynbox-corner wintxt-nw"></div>
+                            <div class="dynbox-side wintxt-n"></div>
+                            <div class="dynbox-corner wintxt-ne"></div>
+                        
+                            <div class="dynbox-side wintxt-w"></div>
+                            <div class="wintxt-c">
+                                <p>
+                                    Take a look at my music library on Discogs! If an album doesn't have a rating, I haven't listened to it enough to decide yet.
+                                </p>
+                            </div>
+                            <div class="dynbox-side wintxt-e"></div>
+                        
+                            <div class="dynbox-corner wintxt-sw"></div>
+                            <div class="dynbox-side wintxt-s"></div>
+                            <div class="dynbox-corner wintxt-se"></div>
+                        </div>
+                        <div id="smallbutton" class="navbutton-button" >
+                            <a href="https://www.discogs.com/user/AngryTurboprop/collection?header=1"><img draggable="false" src="./assets/ui/button_up.jpg" alt="nav button"></a>
+                            <div class="button-text">Ok</div>
                         </div>
                     </div>
                     <div class="dynbox-side win-e"></div>

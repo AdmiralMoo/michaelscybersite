@@ -1,0 +1,9 @@
+.linksbox {
+    display: flex;
+    flex-direction: column; /* This will ensure they are placed side by side */
+    align-items: center; /* Optional: aligns the items at the start */
+}
+
+.linksbox > .dynbox {
+    max-width: 70%;
+}
