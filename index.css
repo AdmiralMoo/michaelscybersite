@@ -230,7 +230,7 @@ body {
   align-items: center;
   justify-content: center;
   overflow: none; /* Scrollbars will appear if content overflows */
-  max-height: 500px; /* Optional: Set a max height to limit content space */
+  /*  max-height: 500px; Optional: Set a max height to limit content space */
   max-width: 50vw;  /* Optional: Set a max width to limit content space */
 }
 
