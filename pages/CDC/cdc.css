@@ -25,30 +25,51 @@ body {
     bottom:0;
 }
 
-.intro{
-  display:flex;
-  margin: 0 auto;
+.Intro {
+  display: flex;
+  flex-direction: column; /* Stack content vertically */
+  align-items: center; /* Center content horizontally */
   justify-content: center;
+  margin: 0 auto;
   height: 40vw;
-  background-image: url('/assets/site/badassteroid.png'); /* Set the asteroid as the background */
-  background-size: contain; /* Make sure the asteroid covers the entire div */
-  background-position: center; /* Center the asteroid background */
-  background-repeat: no-repeat; /* Avoid tiling the image */
+  background-image: url('/assets/site/badassteroid.png');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.intro-text {
+  text-align: left;
+  position: absolute;
+  left:31cqw;
+  top: 6cqw;
+  z-index: 3; 
+  color: white; 
+  font-size: 1vw;
+}
+
+.intro-text h1 {
+  line-height: 0.5em;
+}
+
+.intro-text p {
+  line-height: 0.2em;
 }
 
 .albumart {
   display: flex;
-  justify-content: center; /* Center the album art horizontally */
-  align-items: center; /* Center the album art vertically */
+  justify-content: center;
+  align-items: center;
   position: relative;
   margin-top: 7.5cqw;
-  margin-left:28cqw;
-  z-index: 2; /* Ensure it's above the asteroid background */
+  margin-left: 28cqw;
+  z-index: 2;
 }
 
 .cdshowcase {
-  position: relative; /* Establish a relative positioning context */
-  width:fit-content;
+  position: relative;
+  width: fit-content;
   height: 17.5vw;
   aspect-ratio: 662/600;
   max-width: 662px;
@@ -56,23 +77,23 @@ body {
 }
 
 .cdshowcase img {
-  position:relative;
+  position: relative;
   max-height: 662px;
   height: 100%;
   width: 100%;
-  z-index: 2; 
+  z-index: 2;
 }
 
 .cdart {
   position: absolute;
-  top: 0; /* Align the top of the CD art with the top of the case */
-  right: 0; /* Align the CD art to the right of the case */
-  z-index: 1; /* Place the CD art behind the case */
+  top: 0;
+  right: 0;
+  z-index: 1;
   height: 100%;
   width: 100%;
 }
 
-.cdart img{
+.cdart img {
   height: 100%;
   width: 100%;
 }
