@@ -11,6 +11,17 @@ body {
   z-index: -100;
 }
 
+#headerlogo{
+  position: absolute;
+  margin: auto;
+  display: block;
+  left: 0;
+  right: 0;
+  top:30;
+  z-index: 10;
+  height: 150px;
+}
+
 .content {
     position: relative; /* Keeps #space1 positioned relative to this container */
     min-height: 50vh;  /* Ensures the container takes up the full viewport height */
@@ -42,8 +53,8 @@ body {
 .intro-text {
   text-align: left;
   position: absolute;
-  left:31cqw;
-  top: 6cqw;
+  left:32cqw;
+  top: 7cqw;
   z-index: 3; 
   color: white; 
   font-size: 1vw;
@@ -62,8 +73,12 @@ body {
   justify-content: center;
   align-items: center;
   position: relative;
+  /*
   margin-top: 7.5cqw;
   margin-left: 28cqw;
+  */
+  margin-bottom: -20cqw;
+  margin-left: -50cqw;
   z-index: 2;
 }
 
@@ -74,6 +89,7 @@ body {
   aspect-ratio: 662/600;
   max-width: 662px;
   max-height: 600px;
+  rotate: -12deg;
 }
 
 .cdshowcase img {
