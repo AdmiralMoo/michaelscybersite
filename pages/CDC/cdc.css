@@ -23,10 +23,10 @@ body {
 }
 
 .content {
-    position: relative; /* Keeps #space1 positioned relative to this container */
-    min-height: 50vh;  /* Ensures the container takes up the full viewport height */
-    max-width: 1080px;    /* Limits the width to 50% of the viewport */
-    margin: 0 auto;     /* Centers the content horizontally */
+    position: relative;
+    min-height: 50vh;  
+    max-width: 1080px;  
+    margin: 0 auto; 
     padding: 00px;
 }
 
@@ -38,8 +38,8 @@ body {
 
 .Intro {
   display: flex;
-  flex-direction: column; /* Stack content vertically */
-  align-items: center; /* Center content horizontally */
+  flex-direction: column; 
+  align-items: center; 
   justify-content: center;
   margin: 0 auto;
   height: 40vw;
@@ -53,18 +53,38 @@ body {
 .intro-text {
   text-align: left;
   position: absolute;
-  left:32cqw;
-  top: 7cqw;
+  left:27.5cqw;
+  top: 8.25cqw;
+  z-index: 3; 
+  color: white; 
+  font-size: 1vw;
+  
+}
+
+.intro-text h1 {
+  padding-bottom: 2cqw;
+  line-height: 0.5em;
+}
+
+.intro-text p {
+  line-height: 0.2em;
+}
+
+.tracklisting {
+  text-align: left;
+  position: absolute;
+  left:45cqw;
+  top: 12.5cqw;
   z-index: 3; 
   color: white; 
   font-size: 1vw;
 }
 
-.intro-text h1 {
+.tracklisting h3 {
   line-height: 0.5em;
 }
 
-.intro-text p {
+.tracklisting p {
   line-height: 0.2em;
 }
 
@@ -77,8 +97,8 @@ body {
   margin-top: 7.5cqw;
   margin-left: 28cqw;
   */
-  margin-bottom: -20cqw;
-  margin-left: -50cqw;
+  margin-bottom: -15cqw;
+  margin-left: 40cqw;
   z-index: 2;
 }
 
@@ -148,6 +168,42 @@ body {
   #spacecd{
     position:absolute;
     height: 30vh;
-    top: 10;
+    bottom: 10;
     right:0;
   }
+
+  .favtext{
+    position:relative;
+    display:inline-block;
+    margin: 0 auto;
+    left: 14em;
+    bottom: 4em;
+  }
+
+  .favtext h2 {
+    line-height: 0.5em;
+  }
+  
+  .favtext p {
+    line-height: 0.2em;
+  }
+
+  .images {
+    display:flex;
+  }
+
+  .images {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 5px;
+    max-width: 1080px; 
+    overflow-y: auto; 
+    margin: 0 auto;
+}
+
+.images img {
+    width: 100%; 
+    max-width: 300px;
+    height: auto;
+    display: block;
+}
