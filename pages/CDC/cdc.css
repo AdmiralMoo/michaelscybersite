@@ -201,6 +201,12 @@ body {
     margin: 0 auto;
 }
 
+.images p{
+  text-align: center;
+  margin-top: 5;
+  font-size: 14pt;
+}
+
 .images img {
     width: 100%; 
     max-width: 300px;
