@@ -5,10 +5,74 @@ body {
     background-image: url('/assets/site/mygoditsfullofstars.gif');
     background-color: #000000;
     color:white;
-  }
+}
 
 .header{
   z-index: -100;
+}
+
+.backbutton {
+  position:absolute;
+  top:5cqw;
+  left:10.5cqw;
+  height: 10vh;
+  z-index: 10;
+}
+
+ /* Navbutton Button Image Behaviours*/
+.backbutton:hover img {
+  display:block;
+  left:10.5cqw;
+  height: 10vh;
+  z-index: 10;
+  content: url("/assets/ui/backbutton_hover.png")
+}
+
+.backbutton:active img {
+  display:block;
+  left:10.5cqw;
+  height: 10vh;
+  z-index: 10;
+  content: url("/assets/ui/backbutton_active.png")
+}
+
+.backbutton img {
+  left:10.5cqw;
+  height: 10vh;
+  z-index: 10;
+  display:block;
+}
+
+.homebutton {
+  position:absolute;
+  top:3cqw;
+  left:12cqw;
+  height: 16vh;
+  z-index: 10;
+}
+
+ /* Navbutton Button Image Behaviours*/
+.homebutton:hover img {
+  display:block;
+  left:12cqw;
+  height: 16vh;
+  z-index: 10;
+  content: url("/assets/ui/homebutton_hover.png")
+}
+
+.homebutton:active img {
+  display:block;
+  left:12cqw;
+  height: 16vh;
+  z-index: 10;
+  content: url("/assets/ui/homebutton_active.png")
+}
+
+.homebutton img {
+  left:12cqw;
+  height: 16vh;
+  z-index: 10;
+  display:block;
 }
 
 #headerlogo{
@@ -24,10 +88,10 @@ body {
 
 .content {
     position: relative;
-    min-height: 50vh;  
+    min-height: 10vh;  
     max-width: 1080px;  
     margin: 0 auto; 
-    padding: 00px;
+    padding-top: 170px;
 }
 
 .footer{
