@@ -2,7 +2,7 @@ body {
     overflow-x: hidden;
     overflow-y: scroll;
     margin-top: 100px;
-    background-image: url('/assets/site/mygoditsfullofstars.gif');
+    background-image: url('assets/site/mygoditsfullofstars.gif');
     background-color: #000000;
     color:white;
 }
@@ -25,7 +25,7 @@ body {
   left:10.5cqw;
   height: 10vh;
   z-index: 10;
-  content: url("/assets/ui/backbutton_hover.png")
+  content: url("assets/ui/backbutton_hover.png")
 }
 
 .backbutton:active img {
@@ -33,7 +33,7 @@ body {
   left:10.5cqw;
   height: 10vh;
   z-index: 10;
-  content: url("/assets/ui/backbutton_active.png")
+  content: url("assets/ui/backbutton_active.png")
 }
 
 .backbutton img {
@@ -57,7 +57,7 @@ body {
   left:12cqw;
   height: 16vh;
   z-index: 10;
-  content: url("/assets/ui/homebutton_hover.png")
+  content: url("assets/ui/homebutton_hover.png")
 }
 
 .homebutton:active img {
@@ -65,7 +65,7 @@ body {
   left:12cqw;
   height: 16vh;
   z-index: 10;
-  content: url("/assets/ui/homebutton_active.png")
+  content: url("assets/ui/homebutton_active.png")
 }
 
 .homebutton img {
@@ -107,7 +107,7 @@ body {
   justify-content: center;
   margin: 0 auto;
   height: 40vw;
-  background-image: url('/assets/site/badassteroid.png');
+  background-image: url('assets/site/badassteroid.png');
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
