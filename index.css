@@ -3,39 +3,31 @@
 }
 
 body {
-  padding-top: 100px;
+  padding-top: 0;
+  margin: 0;
   overflow-x: hidden;
-  overflow-y: hidden;
-  margin-top: 150px;
+  overflow-y: auto;
   background-image: url('./assets/site/mygoditsfullofstars.gif');
   background-color: #000000;
 }
 
-#topgridthing{
-  display: block;
+
+#topgridthing {
   width: 100vw;
   height: 30vh;
-  top:0;
+  position: relative;
+  top: 0;
+  left: 0;
   z-index: -1000;
-  position:fixed;
 }
 
-#lowgridthing{
-  display: block;
-  width: 100vw;
-  height: 30vh;
-  bottom: 0;
-  z-index: -1000;
-  position:fixed;
-}
-
-.TopHeader{
-  position: fixed;
-  top:50px;
+.TopHeader {
+  position: absolute; /* Ensures it's positioned independently */
+  top: 5vh; /* Places it just below #topgridthing */
   left: 50%;
-  transform: translate(-50%);
+  transform: translateX(-50%);
   padding: 10px;
-  z-index: 1000;
+  z-index: 10; /* Higher than #topgridthing (-1) */
 }
 
 .sitelogo {
@@ -315,4 +307,30 @@ body {
 
 .wintxt-c p {
   margin: 0;
+}
+
+footer {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  height: 1vh; /* Adjust as needed */
+}
+
+#lowgridthing {
+  position: absolute;
+  bottom: 0;
+  width: 100vw;
+  height: 30vh;
+  z-index: -1; /* Keeps it behind other elements */
+}
+
+header {
+  position: relative;
+  width: 100%;
+  height: 30vh;
+}
+
+.spacer {
+  height: 10px; /* Vertical space */
+  width: 100%;  /* Ensure it spans full width */
 }
