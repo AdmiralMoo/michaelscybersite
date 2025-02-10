@@ -11,32 +11,14 @@
 </head>
 
 <body>
-    <header>
-        <img draggable="false" id="topgridthing" src="./assets/site/topgrid.gif" alt="Website Banner">
-        <div class="TopHeader">
-            <div class="sitelogo">
-                <a href="index.html"><img draggable="false" src="./assets/site/sitebanner_home.png" alt="Website Banner"></a>
-            </div>
-            <div class="navbuttons">
-                <div class="navbutton-button" >
-                    <a href="index.html"><img draggable="false" src="./assets/ui/button_up.jpg" alt="nav button"></a>
-                    <div class="button-text">Home</div>
-                </div>
-                <div class="navbutton-button">
-                    <a href="pages/main/about.html"><img draggable="false" src="./assets/ui/button_up.jpg" alt="nav button"></a>
-                    <div class="button-text">About</div>
-                </div>
-                <div class="navbutton-button">
-                    <a href="pages/main/music.html"><img draggable="false" src="./assets/ui/button_up.jpg" alt="nav button"></a>
-                    <div class="button-text">Music</div>
-                </div>
-                <div class="navbutton-button">
-                    <a href="pages/main/photography.html"><img draggable="false" src="./assets/ui/button_up.jpg" alt="nav button"></a>
-                    <div class="button-text">Photography</div>
-                </div>
-            </div>
-        </div>
-    </header>
+    <div id="header-container"></div>
+    <script>
+        fetch("pages/header.html")
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById("header-container").innerHTML = data;
+            });
+    </script>
 
     <main>
         <div class="maincontent">

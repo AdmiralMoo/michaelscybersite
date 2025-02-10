@@ -1,0 +1,116 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Michael's Cybersite - Books</title>
+    <base href="https://admiralmoo.github.io/michaelscybersite/">
+    <!--<base href="http://127.0.0.1:5500/">-->
+    <link rel="icon" type="image/x-icon" href="/assets/site/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="index.css"/>
+    <link rel="preload" href="/assets/ui/button_down.jpg" as="image">
+    <link rel="preload" href="/assets/ui/button_hover.jpg" as="image">
+</head>
+
+<body>
+    <div id="header-container"></div>
+    <script>
+        fetch("pages/header.html")
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById("header-container").innerHTML = data;
+            });
+    </script>
+
+    <main>
+        <div class="maincontent">
+            <!--Music Intro-->
+            <div class="dynbox">
+                <div class="dynbox-corner win-nw"></div>
+                <div class="dynbox-side win-n"></div>
+                <div class="dynbox-corner win-ne"></div>
+            
+                <div class="dynbox-side win-w"></div>
+                <div id="infobox" class="win-c" >
+                    <div class="dynbox" >
+                        <div class="dynbox-corner wintxt-nw"></div>
+                        <div class="dynbox-side wintxt-n"></div>
+                        <div class="dynbox-corner wintxt-ne"></div>
+                    
+                        <div class="dynbox-side wintxt-w"></div>
+                        <div class="wintxt-c" id="columnbox">
+                            <p>I like reading. There's a list of books that I've read since this site started:</p>
+                            <div id="book-columns">
+                                <div>
+                                    <p>February 2025:</p>
+                                    <ul>
+                                        <li><i>Factotum</i> by Charles Bukowski</li>
+                                        <li><i>Persuasion</i> by Jane Austen</li>
+                                        <li><i>The Epic of Gilgamesh</i> by The Ancients</li>
+                                        <li><i>Waterloo: A Novel</i> by Manuel Komroff</li>
+                                        <li><i>The Martian Chronicles</i> by Ray Bradbury</li>
+                                        <li><i>Chariots of The Gods?</i> by Erich Von Däniken</li>
+                                    </ul>
+                                </div>
+                                <div>
+                                    <p>January 2025:</p>
+                                    <ul>
+                                        <li><i>Layman's Report</i> by Eugene Martin</li>
+                                        <li><i>Showdown on the Hogback</i> by Louis L'Amour</li>
+                                        <li><i>Anxious People</i> by Frederik Backman</li>
+                                        <li><i>Remarkably Bright Creatures</i> by Shelby Van Pelt</li>
+                                    </ul>
+                                </div>
+                            </div>              
+                            <div id="book-columns">
+                                <div>
+                                    <p>December 2024:</p>
+                                    <ul>
+                                        <li><i>Ulysses</i> by James Joyce</li>
+                                        <li><i>Hondo</i> by Louis L'Amour</li>
+                                        <li><i>True Grit</i> by Charles Portis</li>
+                                        <li><i>Synchronicity: An Acasual Connecting Principle</i> by Carl Jung</li>
+                                    </ul>
+                                </div>
+                                <div>
+                                    <p>November 2024:</p>
+                                    <ul>
+                                        <li><i>The Lost World</i> by Sir Arthur Conan Doyle</li>
+                                        <li><i>No Traveller Returns</i> by Louis L'Amour</li>
+                                        <li><i>Code of The West</i> by Zane Grey</li>
+                                        <li><i>Thus Spoke Zarathustra</i> by Friedrich Nietzsche</li>
+                                        <li><i>The Virginian</i> by Owen Wister</li>
+                                    </ul>
+                                </div>
+                            </div>    
+                            <div id="book-columns">
+                                <div>
+                                    <p>October 2024:</p>
+                                    <ul>
+                                        <li><i>Shalako</i> by Louis L'Amour</li>
+                                        <li><i>Kiowa Trail</i> by Louis L'Amour</li>
+                                        <li><i>High Lonesome</i> by Louis L'Amour</li>
+                                        <li><i>Shane</i> by Jack Schaefer</li>
+                                        <li><i>The Ox-Bow Incident</i> by Walter Van Tilburg Clark</li>
+                                    </ul>
+                                </div>
+                            </div>                
+                        </div>
+                        <div class="dynbox-side wintxt-e"></div>
+                    
+                        <div class="dynbox-corner wintxt-sw"></div>
+                        <div class="dynbox-side wintxt-s"></div>
+                        <div class="dynbox-corner wintxt-se"></div>
+                    </div>
+                </div>
+                <div class="dynbox-side win-e"></div>
+            
+                <div class="dynbox-corner win-sw"></div>
+                <div class="dynbox-side win-s"></div>
+                <div class="dynbox-corner win-se"></div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <img draggable="false" id="lowgridthing" src="assets/site/bottomgrid.gif" alt="Website Banner">
+    </footer>
+</body>

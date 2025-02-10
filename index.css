@@ -334,3 +334,16 @@ header {
   height: 10px; /* Vertical space */
   width: 100%;  /* Ensure it spans full width */
 }
+
+#book-columns {
+  display: flex;
+  flex-wrap: wrap; /* Allows items to wrap onto new lines */
+  justify-content: space-between; /* Distributes columns evenly */
+  gap: 20px; /* Adds spacing between columns */
+  padding-top: 10px;
+}
+
+#book-columns > div {
+  flex: 1 1 30%; /* Makes each column take about 30% of space */
+  min-width: 250px; /* Prevents items from shrinking too much */
+}
