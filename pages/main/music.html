@@ -10,7 +10,6 @@
     <link rel="preload" href="/assets/ui/button_down.jpg" as="image">
     <link rel="preload" href="/assets/ui/button_hover.jpg" as="image">
 </head>
-
 <body>
     <div id="header-container"></div>
     <script>
@@ -20,6 +19,7 @@
                 document.getElementById("header-container").innerHTML = data;
             });
     </script>
+
 
     <main>
         <div class="maincontent">
@@ -83,6 +83,7 @@
                 <div class="dynbox-side win-s"></div>
                 <div class="dynbox-corner win-se"></div>
             </div>
+            <div class="spacer"></div>
             <div class="spacer"></div>
             <div class="linksbox">
                 <!-- The CD Chronicles Box-->
@@ -164,9 +165,15 @@
                 </div>
             </div>
         </div>
+        
     </main>
+
+    <div class="scrolling-albums"></div>
+    <script src="./scripts/scrolling-albums.js"></script>
 
     <footer>
         <img draggable="false" id="lowgridthing" src="assets/site/bottomgrid.gif" alt="Website Banner">
     </footer>
+
+
 </body>
