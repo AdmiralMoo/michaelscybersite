@@ -1,0 +1,42 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Music Statter</title>
+    <base href="https://admiralmoo.github.io/michaelscybersite/">
+    <!--<base href="http://127.0.0.1:5500/">-->
+    <link rel="stylesheet" type="text/css" href="/pages/cdc/statter.css"/>
+    <link rel="icon" type="image/x-icon" href="/assets/site/favicon.ico">
+
+    <!--<link rel="stylesheet" type="text/css" href="index.css"/>-->
+</head>
+<body>
+    <main>
+        <div class="maincontent">
+            <span style="font-size: 40px"><P>The Music Statter</P></span>
+
+            <button onclick="loadTextFile('/assets/statfiles/2025-jan.txt')">January 2025</button>
+            <button onclick="loadTextFile('/assets/statfiles/2024-all.txt')">2024 Year-End</button>
+
+            <pre id="text-container"></pre>
+            
+            <pre id="text-display">Click a button to load a text file...</pre>
+
+            <script>
+                function loadTextFile(filename) {
+                    fetch(filename)
+                        .then(response => response.text())
+                        .then(text => {
+                            document.getElementById('text-display').textContent = text;
+                        })
+                        .catch(error => {
+                            console.error('Error loading file:', error);
+                            document.getElementById('text-display').textContent = "Error loading file.";
+                        }
+                    );
+                }
+            </script>
+
+            <a href="/pages/main/music.html">BACK</a>
+        </div>
+    </main>
+</body>
