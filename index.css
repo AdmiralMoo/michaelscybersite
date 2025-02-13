@@ -350,7 +350,6 @@ header {
 
 /* Scrolling effect */
 
-/* The background container that holds all moving album covers */
 .scrolling-albums {
   position: fixed;
   bottom: 0;
@@ -362,7 +361,6 @@ header {
   z-index: -1; 
 }
 
-/* Individual album covers */
 .album-cover {
   position: absolute;
   background-size: cover;
@@ -371,7 +369,14 @@ header {
   animation: scroll-left linear infinite;
 }
 
-/* Animation to move the images from right to left */
+.book-cover {
+  background-size: contain; 
+  background-repeat: no-repeat; 
+  background-position: center;
+  display: block; 
+  aspect-ratio: auto; 
+}
+
 @keyframes scroll-left {
   from {
       transform: translateX(100vw);

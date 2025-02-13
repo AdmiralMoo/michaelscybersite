@@ -2,7 +2,7 @@ import os
 import json
 
 # Set the directory containing the images
-image_dir = "albumart"  # Adjust this to your actual path
+image_dir = "games"  # Adjust this to your actual path
 output_file = "images.json"
 
 # Allowed image extensions
