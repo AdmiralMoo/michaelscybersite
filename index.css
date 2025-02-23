@@ -350,12 +350,24 @@ header {
 
 /* Scrolling effect */
 
+
 .scrolling-albums {
-  position: fixed;
+  position: absolute;
   bottom: 0;
   left: 0;
   width: 100vw;
   height: 100vh;
+  overflow: visible;
+  pointer-events: none;
+  z-index: -1; 
+}
+
+.scrolling-books {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
   overflow: hidden;
   pointer-events: none;
   z-index: -1; 
@@ -370,18 +382,27 @@ header {
 }
 
 .book-cover {
-  background-size: contain; 
-  background-repeat: no-repeat; 
+  position: absolute;
+  background-size: cover;
   background-position: center;
-  display: block; 
-  aspect-ratio: auto; 
+  opacity: 0.7;
+  animation: scroll-left linear infinite;
+}
+
+@keyframes scrollBook {
+  from {
+      transform: translateX(120vw); /* Start off-screen on the right */
+  }
+  to {
+      transform: translateX(-150px); /* Move off-screen to the left */
+  }
 }
 
 @keyframes scroll-left {
   from {
-      transform: translateX(100vw);
+      transform: translateX(120vw);
   }
   to {
-      transform: translateX(-100vw);
+      transform: translateX(-120vw);
   }
 }
