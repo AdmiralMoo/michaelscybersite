@@ -1,0 +1,63 @@
+body {
+  padding-top: 0;
+  margin: 0;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow-x: hidden;
+  overflow-y: auto;
+  background-image: url('/assets/site/bgpaper1.jpg');
+  background-color: #ffffff;
+  font-size: 2.7vh;
+}
+
+.container
+{
+  width: 50vw;
+}
+
+.container img
+{
+  width:100%;
+  height:auto;
+}
+
+.heading
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.fontbox
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.fontbox img
+{
+  width:50%;
+  height:auto;
+}
+
+.sidebysidebox
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.gridgridbox
+{
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
