@@ -225,8 +225,51 @@ body {
   max-width: 50vw;  
 }
 
+.win-c-invisible {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: row;
+  overflow: none; 
+  max-width: 50vw;  
+}
+
+.win-c-b {
+  background-image: url('./assets/ui/winbox_c.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  grid-column: 2;
+  grid-row: 2;
+  padding: 10px; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column;
+  overflow: none; 
+  max-width: 50vw;  
+}
+
 .win-c p {
   margin: 0;
+}
+
+.win-c-newstitle
+{
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+  width: 100%;
+  font-size: 16pt;
+  font-family:'Times New Roman', Times, serif;
+  font-weight: bold;
+  margin:0;
+  padding-bottom:10;
+  line-height: 1;
+}
+
+.win-c-newstitle > * {
+  margin: 0;
+  padding: 0;
 }
 
 /* Windows 95 Text Entry Box themed scalable box */
