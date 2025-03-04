@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?><XnView_script version="1.0" name="cdchroniclesimages">
     <Set_DPI x="300" y="300" keep="false" active="false"/>
     <Automatic_crop method="1" position="0" color="#000000" tolerance="0" direction="15" active="false"/>
-    <Resize mode="1" width="800" height="0" unit="0" ratio="false" orientation="true" enlarge="0" resample="1" gamma_correct="false"/>
+    <Resize mode="1" width="600" height="0" unit="0" ratio="false" orientation="true" enlarge="0" resample="1" gamma_correct="false"/>
     <Crop method="1" value_1="175" value_2="179" value_3="120" value_4="120" active="false"/>
-    <Output folder="C:/Users/mvogl/GitHub/michaelscybersite/assets/cdchronicles" filename="nineinchnailsbroken-#" case="0" startIndex="1" format="JPEG">
-        <Options overwrite="3" orgDate="true" keepMeta="true" keepICC="true" keepFolder="false" checkFilesize="false" keepParentFolder="false" keepExtension="false" delOrg="false" multipage="false" allPages="false" openExplorer="false" beep="true" openBrowser="false" clearItems="true"/>
+    <Output folder="C:/Users/mvogl/GitHub/michaelscybersite/assets/albumart" filename="{Filename}" case="0" startIndex="1" format="JPEG">
+        <Options overwrite="2" orgDate="true" keepMeta="true" keepICC="true" keepFolder="false" checkFilesize="false" keepParentFolder="false" keepExtension="false" delOrg="false" multipage="false" allPages="false" openExplorer="false" beep="true" openBrowser="false" clearItems="true"/>
         <JPEG quality="70" progressive="false" optimizeHuffman="true" rebuildThumb="true" orgQuality="false" DCTMethod="2" subSampling="0" smoothFactor="2"/>
     </Output>
 </XnView_script>
