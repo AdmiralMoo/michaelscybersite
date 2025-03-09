@@ -170,7 +170,7 @@ const albumsByMonth = [
             { artist: "The Clash", album: "The Clash", cover: "./assets/albumart/the clash - the clash.jpg" },
             { artist: "Pink Floyd", album: "The Dark Side of The Moon", cover: "./assets/albumart/pink floyd - dark side of the moon.jpg" },
             { artist: "Rush", album: "Moving Pictures", cover: "./assets/albumart/rush - moving pictures.jpg" },
-            { artist: "Johann Strauss II", album: "An Der Schonen, Blauen Donau", cover: "./assets/albumart/johann strauss ii - an der schonen, blauen donau [ii].jpg" }
+            { artist: "Johann Strauss II", album: "An Der Schönen, Blauen Donau", cover: "./assets/albumart/johann strauss ii - an der schonen, blauen donau [ii].jpg" }
         ]
     },
     {
@@ -178,7 +178,7 @@ const albumsByMonth = [
         albums: [
             { artist: "The Sex Pistols", album: "Never Mind The Bollocks", cover: "./assets/albumart/sex pistols - never mind the bollocks.jpg" },
             { artist: "Babe Ruth", album: "First Base", cover: "./assets/albumart/babe ruth - first base.jpg" },
-            { artist: "Johann Strauss II", album: "An Der Schonen, Blauen Donau", cover: "./assets/albumart/johann strauss ii - an der schonen, blauen donau [ii].jpg" },
+            { artist: "Johann Strauss II", album: "An Der Schönen, Blauen Donau", cover: "./assets/albumart/johann strauss ii - an der schonen, blauen donau [ii].jpg" },
             { artist: "The Clash", album: "The Clash", cover: "./assets/albumart/the clash - the clash.jpg" },
             { artist: "Rush", album: "Moving Pictures", cover: "./assets/albumart/rush - moving pictures.jpg" }
         ]
