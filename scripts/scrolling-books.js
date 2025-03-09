@@ -1,3 +1,12 @@
+function updateScrollingBooksHeight() {
+    const scrollingBooks = document.querySelector(".scrolling-books");
+    scrollingBooks.style.height = document.documentElement.scrollHeight + "px";
+}
+
+// Update height on load and when the page resizes
+window.addEventListener("load", updateScrollingBooksHeight);
+window.addEventListener("resize", updateScrollingBooksHeight);
+
 document.addEventListener("DOMContentLoaded", function () {
     const albumContainer = document.querySelector(".scrolling-books");
     let albumImages = [];
@@ -47,7 +56,13 @@ document.addEventListener("DOMContentLoaded", function () {
         img.style.backgroundSize = "contain";
         img.style.backgroundRepeat = "no-repeat";
         img.style.backgroundPosition = "center";
-        const pageHeight = document.body.scrollHeight;
+
+        var body = document.body,
+        html = document.documentElement;
+    
+        var pageHeight = Math.max( body.scrollHeight, body.offsetHeight, 
+            html.clientHeight, html.scrollHeight, html.offsetHeight );
+
         img.style.top = Math.random() * pageHeight + "px";
         img.style.animationDuration = Math.random() * 10 + 20 + "s";
 
@@ -57,5 +72,5 @@ document.addEventListener("DOMContentLoaded", function () {
         setTimeout(() => img.remove(), 30000);
     }
 
-    setInterval(createBookCover, 1200);
+    setInterval(createBookCover, 2500);
 });

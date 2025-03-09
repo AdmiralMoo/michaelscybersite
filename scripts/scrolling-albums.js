@@ -1,3 +1,12 @@
+function updateScrollingAlbumsHeight() {
+    const scrollingalbums = document.querySelector(".scrolling-albums");
+    scrollingalbums.style.height = document.documentElement.scrollHeight + "px";
+}
+
+// Update height on load and when the page resizes
+window.addEventListener("load", updateScrollingAlbumsHeight);
+window.addEventListener("resize", updateScrollingAlbumsHeight);
+
 document.addEventListener("DOMContentLoaded", function () {
     const albumContainer = document.querySelector(".scrolling-albums");
     let albumImages = [];

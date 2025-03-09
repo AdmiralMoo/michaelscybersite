@@ -2,8 +2,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Michael's Cybersite - Music</title>
-    <base href="https://admiralmoo.github.io/michaelscybersite/">
-    <!--<base href="http://127.0.0.1:5500/">-->
+    <!--<base href="https://admiralmoo.github.io/michaelscybersite/">-->
+    <base href="http://127.0.0.1:5500/">
     <link rel="icon" type="image/x-icon" href="/assets/site/favicon.ico">
     <link rel="stylesheet" type="text/css" href="music.css"/>
     <link rel="stylesheet" type="text/css" href="index.css"/>
@@ -21,8 +21,168 @@
     </script>
 
     <main>
-        <div class="maincontent">
-            <!--Music Intro-->
+        <div class="maincontent" style="height: 2000px;">
+            <!--
+            Header Start
+            -->
+            <div class="dynbox">
+                <div class="dynbox-corner win-nw"></div>
+                <div class="dynbox-side win-n"></div>
+                <div class="dynbox-corner win-ne"></div>
+                
+                <div class="dynbox-side win-w"></div>
+                <div id="infobox" class="win-c" style="flex-flow:column;" >
+                    <div style="width: 100%;">
+                        <div class="dynbox" style="display: flex; justify-content: space-between;">
+                            <h1>Music</h1>
+                            <img src="./assets/site/CD_2.png" style="height: 40px; width: auto; object-fit: contain; ">
+                        </div>
+                    </div>
+                </div>
+                <div class="dynbox-side win-e"></div>
+                <div class="dynbox-corner win-sw"></div>
+                <div class="dynbox-side win-s"></div>
+                <div class="dynbox-corner win-se"></div>
+            </div>
+            <div class="dynbox">
+                <div class="dynbox-corner win-nw"></div>
+                <div class="dynbox-side win-n"></div>
+                <div class="dynbox-corner win-ne"></div>
+                
+                <div class="dynbox-side win-w"></div>
+                <div id="infobox" class="win-c" style="flex-flow:column;" >
+                    <!--Introduction Box Start-->
+                    <div style="display:flex;justify-content: space-between;">
+                        <div class="win-c-invisible">
+                            <div id="infobox" class="dynbox">
+                                <div class="dynbox-corner wintxt-nw"></div>
+                                <div class="dynbox-side wintxt-n"></div>
+                                <div class="dynbox-corner wintxt-ne"></div>
+                            
+                                <div class="dynbox-side wintxt-w"></div>
+                                <div style="display: flex; flex-flow: row; justify-content: space-between; background-color: white;">
+                                    <!--Hyperlinks Box Start-->
+                                    <div class="wintxt-c" style="width:auto; height:fit-content;">
+                                        <h3 style="margin:0;">Hyperlinks</h3>
+                                        <li><a href="pages/main/music.html#topalbums">My Top Albums By Month</li></a>
+                                        <li><a href="pages/main/music.html#alltimefavouritemusic">My All-Time Favourites</li></a>
+                                        <li><a href="https://www.discogs.com/user/AngryTurboprop/collection?header=1">My CD Collection on <i>Discogs</i></a></li>
+                                        <li><a href="pages/CDC/statterpage.html"><i>The Music Statter</i> monthly stats</a></li>
+                                        <li><s>The CD Chronicles</s></a></li>
+                                    </div>
+                                    <!--Hyperlinks Box End-->
+                                    <div class="wintxt-c"style="max-width:70%;height:auto;">
+                                        <p>Music is a huge part of my life; for as long as I can remember, I've always been listening to something, no matter where I am. When I'm home, I've got my CD collection playing on a Sony CDP-CE315 5-Disc changer. When I'm out and about, I bring my music library with me using an Apple iPod Classic (6th Gen).<br><br>On this page, you can find links to my listening statistics, check out my CD collection, and much more! Scroll down and take a gander. </p>
+                                    </div>
+                                </div>
+                                <div class="dynbox-side wintxt-e"></div>
+                            
+                                <div class="dynbox-corner wintxt-sw"></div>
+                                <div class="dynbox-side wintxt-s"></div>
+                                <div class="dynbox-corner wintxt-se"></div>
+                            </div>
+                        </div>
+                        <!--
+                        Introduction Box End
+                        -->
+                    </div>
+                </div>
+                <div class="dynbox-side win-e"></div>
+                <div class="dynbox-corner win-sw"></div>
+                <div class="dynbox-side win-s"></div>
+                <div class="dynbox-corner win-se"></div>
+            </div>
+            <!--
+            Header End
+            -->
+
+            <!--
+            Most Listened-To Albums Begin
+            -->
+            <!--Most Listened to Albums Header Begin-->
+            <div id="topalbums"></div>
+            <div class="dynbox" style="padding-top:25px">
+                <div class="dynbox-corner win-nw"></div>
+                <div class="dynbox-side win-n"></div>
+                <div class="dynbox-corner win-ne"></div>
+                
+                <div class="dynbox-side win-w"></div>
+                <div id="infobox" class="win-c" >
+                    <div class="dynbox" style="display: flex; justify-content: space-between;">
+                        <h2 id="monthDisplay">Most Listened-To Albums</h2>
+                        <img src="./assets/site/CD_1.PNG" style="height: 32px; width: auto; object-fit: contain; ">
+                    </div>
+                </div>
+                <div class="dynbox-side win-e"></div>
+                <div class="dynbox-corner win-sw"></div>
+                <div class="dynbox-side win-s"></div>
+                <div class="dynbox-corner win-se"></div>
+            </div>
+            <!--Most Listened to Albums Header End-->
+            <!--Most Listened to Albums Begin-->
+            <div class="dynbox">
+                <div class="dynbox-corner win-nw"></div>
+                <div class="dynbox-side win-n"></div>
+                <div class="dynbox-corner win-ne"></div>
+            
+                <div class="dynbox-side win-w"></div>
+                <div id="vertstack" class="win-c" >
+                    <div class="dynbox" >
+                        <div class="dynbox-corner wintxt-nw"></div>
+                        <div class="dynbox-side wintxt-n"></div>
+                        <div class="dynbox-corner wintxt-ne"></div>
+                    
+                        <div class="dynbox-side wintxt-w"></div>
+                        <div>
+                            <div id="albumContainer" class="album-grid">
+                                <!-- Albums will be inserted here dynamically -->
+                            </div>
+                        </div>
+                        
+                        <div class="dynbox-side wintxt-e"></div>
+                        
+                        <div class="dynbox-corner wintxt-sw"></div>
+                        <div class="dynbox-side wintxt-s"></div>
+                        <div class="dynbox-corner wintxt-se"></div>
+                    </div>
+                    <div class="navigation">
+                        <button id="leftButton">⬅</button>
+                        <button id="rightButton">➡</button>
+                    </div>
+                </div>
+                <div class="dynbox-side win-e"></div>
+            
+                <div class="dynbox-corner win-sw"></div>
+                <div class="dynbox-side win-s"></div>
+                <div class="dynbox-corner win-se"></div>
+            </div>
+            <!--
+            Most Listened to Albums End
+            -->
+
+            <!--
+            All Time Favourites Begin
+            -->
+            <!--All Time Favourites Header Begin-->
+            <div id="alltimefavouritemusic"></div>
+            <div class="dynbox" style="padding-top:25px">
+                <div class="dynbox-corner win-nw"></div>
+                <div class="dynbox-side win-n"></div>
+                <div class="dynbox-corner win-ne"></div>
+                
+                <div class="dynbox-side win-w"></div>
+                <div id="infobox" class="win-c" >
+                    <div class="dynbox" style="display: flex; justify-content: space-between;">
+                        <h2>All-Time Favourites</h2>
+                        <img src="./assets/site/CD_3.PNG" style="height: 32px; width: auto; object-fit: contain; ">
+                    </div>
+                </div>
+                <div class="dynbox-side win-e"></div>
+                <div class="dynbox-corner win-sw"></div>
+                <div class="dynbox-side win-s"></div>
+                <div class="dynbox-corner win-se"></div>
+            </div>
+            <!--All Time Favourites Header End-->
             <div class="dynbox">
                 <div class="dynbox-corner win-nw"></div>
                 <div class="dynbox-side win-n"></div>
@@ -37,10 +197,10 @@
                     
                         <div class="dynbox-side wintxt-w"></div>
                         <div class="wintxt-c">
-                            <p>Music is a huge part of my life. I'm always listening to something, no matter where I am. When I'm at home, I have my CD collection and a Sony CDP-CE315 5-Disc changer. When i'm out and about, I bring my music library around with me using an Apple iPod Classic (6th gen).</p>
+                            <p>It's hard to pick favourites! I'm not quite sure what my all-time favourite are, but my list of favourite bands is pretty much set in stone. That list has grown slowly but surely, and I know those bands aren't going anywhere. It's much easier to pick out my favourite classical works than it is albums as a whole. For the following list, I've chosen classical <i>releases</i>, rather than works or compositions specifically. I love a lot of albums, and <i>The Dark Side of The Moon</i> is the only one I can confidently put on a list like this.</p>
                             <div style="display: flex; justify-content: space-evenly; padding-top:7px;">
                                 <div>
-                                    <p>Some of my favourite bands include:</p>
+                                    <p><b>My Favourite bands:</b></p>
                                     <ul>
                                         <li>Green Day</li>
                                         <li>Alice In Chains</li>
@@ -50,22 +210,78 @@
                                     </ul>
                                 </div>
                                 <div>
-                                    <p>Some of albums I'm particularly fond of:</p>
-                                    <ul>
-                                        <li>Skin Yard/1000 Smiling Knuckles</li>
-                                        <li>Pink Floyd/The Dark Side of The Moon</li>
-                                        <li>Blind Melon/Blind Melon</li>
-                                    </ul>
-                                </div>
-                                <div>
-                                    <p>Some of my favourite classical works are:</p>
+                                    <p><b>My Favourite Classical Releases:</b></p>
                                     <ul>
                                         <li>Richard Strauss/Also Sprach Zarathustra</li>
                                         <li>Antonín Dvořák/Symphony No. 9</li>
-                                        <li>Gustav Holst/The Planets Suite</li>
-                                        <li>Edvard Grieg/Peer Gynt Suites Nos. 1 & 2</li>
+                                        <li>Gustav Holst/The Planets</li>
+                                        <li>Johann Strauss II/An Der Schonen, Blauen Donau</li>
                                         <li>Georges Bizet/Carmen Suites Nos. 1 & 2</li>
                                     </ul>
+                                </div>
+                            </div>
+                            <div style="display: flex; justify-content: space-evenly; padding-top:7px;">
+                                <div>
+                                    <p><b>My Favourite Albums:</b></p>
+                                    <ul>
+                                        <li>Pink Floyd/The Dark Side of The Moon</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <hr>
+                            <p><br>It is, however, much easier for me to pick out my favourite albums from my favourite bands. They are as follows:</p>
+                            <div style="display: flex; justify-content: space-evenly; padding-top:7px;">
+                                <div>
+                                    <p><b>Green Day:</b></p>
+                                    <ol>
+                                        <li>1039/Smoothed Out Slappy Hours</li>
+                                        <li>Dookie</li>
+                                        <li>Revolution Radio</li>
+                                        <li>21st Century Breakdown</li>
+                                        <li>Nimrod</li>
+                                    </ol>
+                                </div>
+                                <div>
+                                    <p><b>Alice In Chains:</b></p>
+                                    <ul>
+                                        <li>Black Gives Way To Blue</li>
+                                        <li>Dirt</li>
+                                        <li>Alice In Chains</li>
+                                        <li>Jar of Flies</li>
+                                        <li>The Devil Put Dinosaurs Here</li>
+                                    </ul>
+                                </div>
+                                <div>
+                                    <p><b>The Smashing Pumpkins:</b></p>
+                                    <ol>
+                                        <li>Gish</li>
+                                        <li>Mellon Collie And The Infinite Sadness</li>
+                                        <li>Siamese Dream</li>
+                                        <li>Machina</li>
+                                        <li>Pisces Iscariot</li>
+                                    </ol>
+                                </div>
+                            </div>
+                            <div style="display: flex; justify-content: space-evenly; padding-top:7px;">
+                                <div>
+                                    <p><b>Pink Floyd:</b></p>
+                                    <ol>
+                                        <li>The Dark Side of The Moon</li>
+                                        <li>The Wall</li>
+                                        <li>Atom Heart Mother</li>
+                                        <li>Animals</li>
+                                        <li>Wish You Were Here</li>
+                                    </ol>
+                                </div>
+                                <div>
+                                    <p><B>Nine Inch Nails</B></p>
+                                    <ol>
+                                        <li>Broken</li>
+                                        <li>With Teeth</li>
+                                        <li>The Downward Spiral</li>
+                                        <li>Pretty Hate Machine</li>
+                                        <li>Hesitation Marks</li>
+                                    </ol>
                                 </div>
                             </div>
                         </div>
@@ -82,6 +298,7 @@
                 <div class="dynbox-side win-s"></div>
                 <div class="dynbox-corner win-se"></div>
             </div>
+
             <div class="spacer"></div>
 
             <div class="linksbox">
@@ -212,6 +429,7 @@
 
     <div class="scrolling-albums"></div>
     <script src="./scripts/scrolling-albums.js"></script>
+    <script src="./scripts/most-listened-music.js"></script>
 
     <footer>
         <img draggable="false" id="lowgridthing" src="assets/site/bottomgrid.gif" alt="Website Banner">

@@ -7,3 +7,32 @@
 .linksbox > .dynbox {
     max-width: 70%;
 }
+
+.album-grid {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.album {
+    text-align: center;
+}
+
+.album img {
+    width: 160px;
+    height: 160px;
+    object-fit: cover;
+}
+
+.navigation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+button {
+    padding: 5px 10px;
+    margin: 5px;
+    cursor: pointer;
+}

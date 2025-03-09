@@ -2,8 +2,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Michael's Cybersite - Home</title>
-    <base href="https://admiralmoo.github.io/michaelscybersite/">
-    <!--<<base href="http://127.0.0.1:5500/">-->
+    <!--<base href="https://admiralmoo.github.io/michaelscybersite/">-->
+    <base href="http://127.0.0.1:5500/">
     <link rel="icon" type="image/x-icon" href="/assets/site/favicon.ico">
     <link rel="stylesheet" type="text/css" href="index.css"/>
     <link rel="preload" href="/assets/ui/button_down.jpg" as="image">
@@ -22,6 +22,32 @@
 
     <main>
         <div class="maincontent" style="height: 13vh;">
+            <!--
+            Home Page Header
+            -->
+            <div class="dynbox">
+                <div class="dynbox-corner win-nw"></div>
+                <div class="dynbox-side win-n"></div>
+                <div class="dynbox-corner win-ne"></div>
+                
+                <div class="dynbox-side win-w"></div>
+                <div id="infobox" class="win-c" style="flex-flow:column;" >
+                    <div style="width: 100%;">
+                        <div class="dynbox" style="display: flex; justify-content: space-between;">
+                            <h1>Home</h1>
+                            <img src="./assets/site/homeicon.png" style="height: 40px; width: auto; object-fit: contain; ">
+                        </div>
+                    </div>
+                </div>
+                <div class="dynbox-side win-e"></div>
+                <div class="dynbox-corner win-sw"></div>
+                <div class="dynbox-side win-s"></div>
+                <div class="dynbox-corner win-se"></div>
+            </div>
+
+            <!--
+            Home Page Welcome box
+            -->
             <div id="infobox" class="dynbox">
                 <div class="dynbox-corner win-nw"></div>
                 <div class="dynbox-side win-n"></div>
@@ -38,7 +64,7 @@
                         <div class="dynbox-side wintxt-w"></div>
                         <div class="wintxt-c">
                             <p>
-                                I'm Michael, and welcome to my corner of the internet! I'm building this site to host some of my passions and interests. Hopefully, this site will get better over time as I learn HTML and CSS. I want to make it as interesting as possible because I miss the days when The Internet was cool. Click around and explore; I hope you enjoy your stay!
+                                I'm Michael—welcome to my corner of the internet! I'm building this site to showcase my passions and interests while using it as a project to learn CSS and HTML. Click around and explore—I hope you enjoy your stay!
                             </p>
                         </div>
                         <div class="dynbox-side wintxt-e"></div>
@@ -54,9 +80,31 @@
                 <div class="dynbox-side win-s"></div>
                 <div class="dynbox-corner win-se"></div>
             </div>
+            
+            <div style="padding-top:10px"></div>
+            
+            <!--
+            Cybersite Times Header
+            -->
+            <div class="dynbox" style="z-index: 1;">
+                <div class="dynbox-corner win-nw"></div>
+                <div class="dynbox-side win-n"></div>
+                <div class="dynbox-corner win-ne"></div>
+                
+                <div class="dynbox-side win-w"></div>
+                <div id="infobox" class="win-c" style="flex-flow:column;" >
+                    <img src="assets\site\sitebanner_gazette_1.png" style="height: 40px;right:50%">
+                </div>
+                <div class="dynbox-side win-e"></div>
+                <div class="dynbox-corner win-sw"></div>
+                <div class="dynbox-side win-s"></div>
+                <div class="dynbox-corner win-se"></div>
+            </div>
 
-            <img src="assets\site\sitebanner_gazette_1.png" style="z-index: 1;margin-top:10px; width: auto; height: 130px; left:0;">
-            <div id="infobox" class="dynbox" style="padding-top: 10px">
+            <!--
+            Cybersite Times Box
+            -->
+            <div id="infobox" class="dynbox">
                 <div class="dynbox-corner win-nw"></div>
                 <div class="dynbox-side win-n"></div>
                 <div class="dynbox-corner win-ne"></div>
@@ -96,7 +144,7 @@
             </div>
         </div>
 
-        <img src="./assets/images/Nada!.png" style="display: block; margin-left: auto; margin-right: auto; width: 80%;">
+        <img src="./assets/images/Nada!.png" style="display: block; margin-left: auto; margin-right: auto; width: 80%; z-index: -999;">
     </main>
 
     <footer style="height: 17vh;">
