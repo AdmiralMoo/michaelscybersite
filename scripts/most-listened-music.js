@@ -202,7 +202,7 @@ function updateDisplay() {
 
         albumElement.innerHTML = `
             <img src="${album.cover}" alt="${album.album}">
-            <p>${album.artist} - ${album.album}</p>
+            <p>${album.artist}<br><i>${album.album}</i></p>
         `;
         
         albumContainer.appendChild(albumElement);

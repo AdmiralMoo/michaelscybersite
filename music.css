@@ -10,18 +10,29 @@
 
 .album-grid {
     display: flex;
-    gap: 10px;
+    gap: 5px;
     justify-content: center;
+    align-items: stretch; 
 }
 
 .album {
     text-align: center;
+    padding:5px;
+    border:outset;
 }
 
 .album img {
-    width: 160px;
-    height: 160px;
+    width: 95%;
+    height: auto;
     object-fit: cover;
+    border:outset;
+    margin:1px;
+}
+
+.album p
+{
+    padding-top:5px;
+    min-height: 65px;
 }
 
 .navigation {

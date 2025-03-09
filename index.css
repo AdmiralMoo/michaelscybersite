@@ -57,6 +57,15 @@ body {
   align-items: center;
 }
 
+.smallbutton {
+  position: relative;
+  padding: 0;
+  display: flex;
+  scale: 80%;
+  justify-content: center;
+  align-items: center;
+}
+
 .navbutton-button-disabled {
   position: relative;
   padding: 0;
@@ -77,6 +86,21 @@ body {
 .navbutton-button {
   position: relative;
   padding: 0;
+}
+
+ /* Navbutton Button Image Behaviours*/
+ .smallbutton:hover img {
+  display:block;
+  content: url("./assets/ui/button_hover.jpg")
+}
+
+.smallbutton:active img {
+  display:block;
+  content: url("./assets/ui/button_down.jpg")
+}
+
+.smallbutton img {
+  display:block;
 }
 
  /* Navbutton Button Image Behaviours*/
