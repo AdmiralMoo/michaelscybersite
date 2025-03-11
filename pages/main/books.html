@@ -5,9 +5,9 @@
     <!--<base href="https://michaelscybersite.net/">-->
     <base href="http://127.0.0.1:5500/">
     <link rel="icon" type="image/x-icon" href="/assets/site/favicon.ico">
-    <link rel="stylesheet" type="text/css" href="index.css"/>
-    <link rel="preload" href="/assets/ui/button_down.jpg" as="image">
-    <link rel="preload" href="/assets/ui/button_hover.jpg" as="image">
+    <link rel="stylesheet" type="text/css" href="/assets/css/base.css"/>
+    <link rel="stylesheet" type="text/css" href="/assets/css/win98.css"/>
+    <link rel="stylesheet" type="text/css" href="/assets/css/books.css"/>
     <script defer src="./scripts/scrolling-books.js"></script>
 </head>
 
@@ -22,194 +22,101 @@
     </script>
 
     <main>
-        <div class="maincontent" style="height: 95vh;">
-            <!--
-            Header Start
-            -->
-            <div class="dynbox">
-                <div class="dynbox-corner win-nw"></div>
-                <div class="dynbox-side win-n"></div>
-                <div class="dynbox-corner win-ne"></div>
-                
-                <div class="dynbox-side win-w"></div>
-                <div id="infobox" class="win-c" style="flex-flow:column;" >
-                    <div style="width: 100%;">
-                        <div class="dynbox" style="display: flex; justify-content: space-between;">
-                            <h1>Books</h1>
-                            <img src="./assets/site/icon_book_virginian.png" style="height: 40px; width: auto; object-fit: contain; ">
-                        </div>
-                    </div>
-                </div>
-                <div class="dynbox-side win-e"></div>
-                <div class="dynbox-corner win-sw"></div>
-                <div class="dynbox-side win-s"></div>
-                <div class="dynbox-corner win-se"></div>
+        <div class="maincontent-centred">
+            <!--Books Page Header-->
+            <div class="header-one-box outsideborder">
+                <h1>Books</h1>
+                <img src="./assets/site/icon_book_virginian.png">
             </div>
-            <!--
-            Header End
-            -->
-            <div class="dynbox">
-                <div class="dynbox-corner win-nw"></div>
-                <div class="dynbox-side win-n"></div>
-                <div class="dynbox-corner win-ne"></div>
-                
-                <div class="dynbox-side win-w"></div>
-                <div id="infobox" class="win-c" style="flex-flow:column;" >
-                    <!--Introduction Box Start-->
-                    <div style="display:flex;justify-content: space-between;">
-                        <div class="win-c-invisible">
-                            <div id="infobox" class="dynbox">
-                                <div class="dynbox-corner wintxt-nw"></div>
-                                <div class="dynbox-side wintxt-n"></div>
-                                <div class="dynbox-corner wintxt-ne"></div>
-                            
-                                <div class="dynbox-side wintxt-w"></div>
-                                <div style="display: flex; flex-flow: row; justify-content: space-between; background-color: white;">
-                                    <!--Hyperlinks Box Start-->
-                                    <div class="wintxt-c" style="width:auto; height:fit-content;">
-                                        <h3 style="margin:0;">Hyperlinks</h3>
-                                        <li><a href="pages/main/books.html#booksread">List of Books I've Read</li></a>
-                                        <li><a href="https://www.gutenberg.org/cache/epub/4300/pg4300-images.html">James Joyce's <i>Ulysses</i> Free!</a></li>
-                                    </div>
-                                    <!--Hyperlinks Box End-->
-                                    <div class="wintxt-c"style="max-width:70%;height:auto;">
-                                        <p>Welcome to the landing page for books!<br><br>On this page, you'll find a list of books I've read since the site started, some recommendations, and links to book-related things found elsewhere on the net. Check out the hyperlinks to the left or scroll down to get started.<br><br>The books flying past in the background are a selection of ones I've read or own.</p>
-                                    </div>
-                                </div>
-                                <div class="dynbox-side wintxt-e"></div>
-                            
-                                <div class="dynbox-corner wintxt-sw"></div>
-                                <div class="dynbox-side wintxt-s"></div>
-                                <div class="dynbox-corner wintxt-se"></div>
-                            </div>
-                        </div>
-                        <!--
-                        Introduction Box End
-                        -->
+            <!--Books Page Welcome Box-->
+            <div  class="body-box outsideborder">
+                <div class="body-box grid-box-container shrink-box">
+                    <div style="word-wrap: break-word;">
+                        <h4>Pages In This Section</h4>
+                            <li><a href="pages/main/books.html#booksread">Books I've Read Recently</li></a>
+                        <h4>Great Public Domain Books</h4>
+                            <li><a href="https://www.gutenberg.org/cache/epub/4300/pg4300-images.html">James Joyce's <i>Ulysses</i></a></li>
+                            <li><a href="https://www.gutenberg.org/cache/epub/1298/pg1298-images.html">Owen Wister's <i>The Virginian</i></a></li>
+                            <li><a href="https://www.gutenberg.org/cache/epub/107/pg107-images.html">Thomas Hardy's <i>Far From The Madding Crowd</i></a></li>
+                            <li><a href="https://www.gutenberg.org/cache/epub/105/pg105-images.html">Jane Austen's <i>Persuasion</i></a></li>
                     </div>
                 </div>
-                <div class="dynbox-side win-e"></div>
-                <div class="dynbox-corner win-sw"></div>
-                <div class="dynbox-side win-s"></div>
-                <div class="dynbox-corner win-se"></div>
+                <div class="box-container" style="">
+                    <p>Welcome to the landing page for books!<br><br>On this page, you'll find a list of books I've read since the site started, some recommendations, and links to book-related things found elsewhere on the net. Check out the hyperlinks to the left or scroll down to get started.<br><br>The books flying past in the background are a selection of ones I've read or own.</p>
+                </div>
             </div>
-            <br>
-            <!--
-            Books I've read
-            -->
-            <!--Header 2 Start-->
-            <div class="dynbox" style="padding-top:25px">
-                <div class="dynbox-corner win-nw"></div>
-                <div class="dynbox-side win-n"></div>
-                <div class="dynbox-corner win-ne"></div>
-                
-                <div class="dynbox-side win-w"></div>
-                <div id="infobox" class="win-c" >
-                    <div class="dynbox" style="display: flex; justify-content: space-between;">
-                        <h2 id="booksread">Books I've Read</h2>
-                        <img src="./assets/site/icon_book_ulysses.png" style="height: 32px; width: auto; object-fit: contain; ">
-                    </div>
-                </div>
-                <div class="dynbox-side win-e"></div>
-                <div class="dynbox-corner win-sw"></div>
-                <div class="dynbox-side win-s"></div>
-                <div class="dynbox-corner win-se"></div>
+
+            <div style="padding-top:10px"></div>
+
+            <!--Books I've Read Header-->
+            <div class="header-two-box outsideborder">
+                <h2>Books I've Read</h2>
+                <img src="./assets/site/icon_book_ulysses.png">
             </div>
-            <!--Header 2 End-->
-            <div class="dynbox">
-                <div class="dynbox-corner win-nw"></div>
-                <div class="dynbox-side win-n"></div>
-                <div class="dynbox-corner win-ne"></div>
-                
-                <div class="dynbox-side win-w"></div>
-                <div id="infobox" class="win-c" style="flex-direction: column";>
-                    <div class="dynbox" >
-                        <div class="dynbox-corner wintxt-nw"></div>
-                        <div class="dynbox-side wintxt-n"></div>
-                        <div class="dynbox-corner wintxt-ne"></div>
-                        
-                        <div class="dynbox-side wintxt-w"></div>
-                        <div class="wintxt-c" id="columnbox">
-                            <p>Here's a list of books I've read since this site started:</p>
-                            <hr>
-                            <div id="book-columns">
-                                <div>
-                                    <p>March 2025:</p>
-                                    <ul>
-                                        <li><i>Brionne</i> by Louis L'Amour</li>
-                                    </ul>
-                                </div> 
-                            </div>
-                            <div id="book-columns">
-                                <div>
-                                    <p>February 2025:</p>
-                                    <ul>
-                                        <li><i>Far From The Madding Crowd</i> by Thomas Hardy</li>
-                                        <li><i>Go Ask Alice</i> by Beatrice Sparks</li>
-                                        <li><i>Factotum</i> by Charles Bukowski</li>
-                                        <li><i>Persuasion</i> by Jane Austen</li>
-                                        <li><i>The Epic of Gilgamesh</i> by The Ancients</li>
-                                        <li><i>Waterloo: A Novel</i> by Manuel Komroff</li>
-                                        <li><i>The Martian Chronicles</i> by Ray Bradbury</li>
-                                        <li><i>Chariots of The Gods?</i> by Erich Von Däniken</li>
-                                    </ul>
-                                </div>
-                                <div>
-                                    <p>January 2025:</p>
-                                    <ul>
-                                        <li><i>Layman's Report</i> by Eugene Martin</li>
-                                        <li><i>Showdown on the Hogback</i> by Louis L'Amour</li>
-                                        <li><i>Anxious People</i> by Frederik Backman</li>
-                                        <li><i>Remarkably Bright Creatures</i> by Shelby Van Pelt</li>
-                                    </ul>
-                                </div>
-                            </div>              
-                            <div id="book-columns">
-                                <div>
-                                    <p>December 2024:</p>
-                                    <ul>
-                                        <li><i>Ulysses</i> by James Joyce</li>
-                                        <li><i>Hondo</i> by Louis L'Amour</li>
-                                        <li><i>True Grit</i> by Charles Portis</li>
-                                        <li><i>Synchronicity: An Acasual Connecting Principle</i> by Carl Jung</li>
-                                    </ul>
-                                </div>
-                                <div>
-                                    <p>November 2024:</p>
-                                    <ul>
-                                        <li><i>The Lost World</i> by Sir Arthur Conan Doyle</li>
-                                        <li><i>No Traveller Returns</i> by Louis L'Amour</li>
-                                        <li><i>Code of The West</i> by Zane Grey</li>
-                                        <li><i>Thus Spoke Zarathustra</i> by Friedrich Nietzsche</li>
-                                        <li><i>The Virginian</i> by Owen Wister</li>
-                                    </ul>
-                                </div>
-                            </div>    
-                            <div id="book-columns">
-                                <div>
-                                    <p>October 2024:</p>
-                                    <ul>
-                                        <li><i>Shalako</i> by Louis L'Amour</li>
-                                        <li><i>Kiowa Trail</i> by Louis L'Amour</li>
-                                        <li><i>High Lonesome</i> by Louis L'Amour</li>
-                                        <li><i>Shane</i> by Jack Schaefer</li>
-                                        <li><i>The Ox-Bow Incident</i> by Walter Van Tilburg Clark</li>
-                                    </ul>
-                                </div>
-                            </div>                
-                        </div>
-                        <div class="dynbox-side wintxt-e"></div>
-                    
-                        <div class="dynbox-corner wintxt-sw"></div>
-                        <div class="dynbox-side wintxt-s"></div>
-                        <div class="dynbox-corner wintxt-se"></div>
+            <!--Books I've Read Big Box-->
+            <div class="body-box outsideborder" style="flex-direction: column; gap:0px;">
+                <div class="box-container">
+                    <p style="padding: 1px;">Here's a list of books I've read since this site started:</p>
+                </div>
+                <div class="grid-box-container" style="flex-wrap: wrap;">
+                    <div class="book-month">
+                        <h4>March 2025:</h4>
+                        <ul>
+                            <li><i>Brionne</i> by Louis L'Amour</li>
+                        </ul>
+                    </div> 
+                    <div class="book-month">
+                        <h4>February 2025:</h4>
+                        <ul>
+                            <li><i>Far From The Madding Crowd</i> by Thomas Hardy</li>
+                            <li><i>Go Ask Alice</i> by Beatrice Sparks</li>
+                            <li><i>Factotum</i> by Charles Bukowski</li>
+                            <li><i>Persuasion</i> by Jane Austen</li>
+                            <li><i>The Epic of Gilgamesh</i> by The Ancients</li>
+                            <li><i>Waterloo: A Novel</i> by Manuel Komroff</li>
+                            <li><i>The Martian Chronicles</i> by Ray Bradbury</li>
+                            <li><i>Chariots of The Gods?</i> by Erich Von Däniken</li>
+                        </ul>
+                    </div>            
+                    <div class="book-month">
+                        <h4>January 2025:</h4>
+                        <ul>
+                            <li><i>Layman's Report</i> by Eugene Martin</li>
+                            <li><i>Showdown on the Hogback</i> by Louis L'Amour</li>
+                            <li><i>Anxious People</i> by Frederik Backman</li>
+                            <li><i>Remarkably Bright Creatures</i> by Shelby Van Pelt</li>
+                        </ul>
+                    </div>
+                    <div class="book-month">
+                        <h4>December 2024:</h4>
+                        <ul>
+                            <li><i>Ulysses</i> by James Joyce</li>
+                            <li><i>Hondo</i> by Louis L'Amour</li>
+                            <li><i>True Grit</i> by Charles Portis</li>
+                            <li><i>Synchronicity: An Acasual Connecting Principle</i> by Carl Jung</li>
+                        </ul>
+                    </div>
+                    <div class="book-month">
+                        <h4>November 2024:</h4>
+                        <ul>
+                            <li><i>The Lost World</i> by Sir Arthur Conan Doyle</li>
+                            <li><i>No Traveller Returns</i> by Louis L'Amour</li>
+                            <li><i>Code of The West</i> by Zane Grey</li>
+                            <li><i>Thus Spoke Zarathustra</i> by Friedrich Nietzsche</li>
+                            <li><i>The Virginian</i> by Owen Wister</li>
+                        </ul>
+                    </div>
+                    <div class="book-month">
+                        <h4>October 2024:</h4>
+                        <ul>
+                            <li><i>Shalako</i> by Louis L'Amour</li>
+                            <li><i>Kiowa Trail</i> by Louis L'Amour</li>
+                            <li><i>High Lonesome</i> by Louis L'Amour</li>
+                            <li><i>Shane</i> by Jack Schaefer</li>
+                            <li><i>The Ox-Bow Incident</i> by Walter Van Tilburg Clark</li>
+                        </ul>
                     </div>
                 </div>
-                <div class="dynbox-side win-e"></div>
-            
-                <div class="dynbox-corner win-sw"></div>
-                <div class="dynbox-side win-s"></div>
-                <div class="dynbox-corner win-se"></div>
             </div>
         </div>
     </main>
