@@ -217,7 +217,12 @@
     <div class="scrolling-books"></div>
     <script src="./scripts/scrolling-books.js"></script>
 
-    <footer>
-        <img draggable="false" id="lowgridthing" src="assets/site/bottomgrid.gif" alt="Website Banner">
-    </footer>
+    <div id="footer-container"></div>
+    <script>
+        fetch("pages/templates/footer.html")
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById("footer-container").innerHTML = data;
+            });
+    </script>
 </body>

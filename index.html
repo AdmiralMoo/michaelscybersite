@@ -2,7 +2,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Michael's Cybersite - Home</title>
-    <base href="https://michaelscybersite.net/">
+      <base href="https://michaelscybersite.net/">
     <!--<base href="http://127.0.0.1:5500/">-->
     <link rel="icon" type="image/x-icon" href="/assets/site/favicon.ico">
     <link rel="stylesheet" type="text/css" href="index.css"/>
@@ -21,7 +21,7 @@
     </script>
 
     <main>
-        <div class="maincontent" style="height: 13vh;">
+        <div class="maincontent" style="height: 18vh;">
             <!--
             Home Page Header
             -->
@@ -82,7 +82,91 @@
             </div>
             
             <div style="padding-top:10px"></div>
-            
+
+            <!--
+            Header Start
+            -->
+            <div class="dynbox" style="z-index: 1;">
+                <div class="dynbox-corner win-nw"></div>
+                <div class="dynbox-side win-n"></div>
+                <div class="dynbox-corner win-ne"></div>
+                
+                <div class="dynbox-side win-w"></div>
+                <div id="infobox" class="win-c" >
+                    <div class="dynbox" style="display: flex; justify-content: space-between;">
+                        <h2 id="booksread">Links</h2>
+                        <img src="./assets/site/click.png" style="height: 32px; width: auto; object-fit: contain; ">
+                    </div>
+                </div>
+                <div class="dynbox-side win-e"></div>
+                <div class="dynbox-corner win-sw"></div>
+                <div class="dynbox-side win-s"></div>
+                <div class="dynbox-corner win-se"></div>
+            </div>
+
+            <!--
+            Header End
+            -->
+            <div class="dynbox" style="z-index: 1;">
+                <div class="dynbox-corner win-nw"></div>
+                <div class="dynbox-side win-n"></div>
+                <div class="dynbox-corner win-ne"></div>
+                
+                <div class="dynbox-side win-w"></div>
+                <div id="infobox" class="win-c" style="flex-flow:column;" >
+                    <!--Introduction Box Start-->
+                    <div style="display:flex;justify-content: space-between;">
+                        <div class="win-c-invisible">
+                            <div id="infobox" class="dynbox">
+                                <div class="dynbox-corner wintxt-nw"></div>
+                                <div class="dynbox-side wintxt-n"></div>
+                                <div class="dynbox-corner wintxt-ne"></div>
+                            
+                                <div class="dynbox-side wintxt-w"></div>
+                                <div style="display: flex; flex-flow: row; justify-content: space-between; background-color: white;">
+                                    <!--Hyperlinks Box Start-->
+                                    <div class="wintxt-c" style="width:auto; height:fit-content;">
+                                        <h3 style="margin:0;">My Compendiums & Lists</h3>
+                                        <li><a href="pages/special/panopoly/panopolymain.html">The Panopoly: A Collection of Words</li></a>
+                                        <li><a href="pages/main/books.html#booksread">Books I've Read Recently</li></a>
+                                    </div>
+                                    <div class="wintxt-c" style="width:auto; height:fit-content;">
+                                        <h3 style="margin:0;">Free Books!</h3>
+                                        <li><a href="https://www.gutenberg.org/">Project Gutenberg</li></a>
+                                        <li><a href="https://marhamilresearch4.blob.core.windows.net/gutenberg-public/Website/browse.html">Project Gutenberg's Open Audiobook Collection</li></a>
+                                        <li><a href="https://librivox.org/">LibriVox Audiobooks</li></a>
+                                        <li><a href="https://openlibrary.org/">Open Library</li></a>
+                                        <li><a href="https://www.openculture.com/freeaudiobooks">Open Culture</li></a>
+                                        <!--<li><a href="https://www.historyisaweapon.com/">History Is A Weapon</li>-->
+                                    </div>
+                                    <div class="wintxt-c" style="width:auto; height:fit-content;">
+                                        <h3 style="margin:0;">The Best Site On The Internet</h3>
+                                        <li><a href="https://archive.org/">The Internet Archive</li></a>
+                                        <li><a href="https://archive.org/details/SciFi_Horror">Sci-Fi & Horror Films</li></a>
+                                        <li><a href="https://archive.org/details/internetarchivebooks">Books</li></a>
+                                        <li><a href="https://archive.org/details/cd-roms">CD-ROM Software</li></a>
+                                    </div>
+                                </div>
+                                <div class="dynbox-side wintxt-e"></div>
+                            
+                                <div class="dynbox-corner wintxt-sw"></div>
+                                <div class="dynbox-side wintxt-s"></div>
+                                <div class="dynbox-corner wintxt-se"></div>
+                            </div>
+                        </div>
+                        <!--
+                        Introduction Box End
+                        -->
+                    </div>
+                </div>
+                <div class="dynbox-side win-e"></div>
+                <div class="dynbox-corner win-sw"></div>
+                <div class="dynbox-side win-s"></div>
+                <div class="dynbox-corner win-se"></div>
+            </div>
+
+            <div style="padding-top:10px"></div>
+
             <!--
             Cybersite Times Header
             -->
@@ -147,7 +231,12 @@
         <img src="./assets/images/Nada!.png" style="display: block; margin-left: auto; margin-right: auto; width: 80%; z-index: -999;">
     </main>
 
-    <footer style="height: 17vh;">
-        <img draggable="false" id="lowgridthing" src="./assets/site/bottomgrid.gif" alt="Website Banner">
-    </footer>
+    <div id="footer-container"></div>
+    <script>
+        fetch("pages/templates/footer.html")
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById("footer-container").innerHTML = data;
+            });
+    </script>
 </body>

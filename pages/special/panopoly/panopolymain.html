@@ -1,0 +1,51 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Michael's Cybersite - Home</title>
+    <base href="https://michaelscybersite.net/">
+    <!--<base href="http://127.0.0.1:5500/">-->
+    <link rel="icon" type="image/x-icon" href="/assets/site/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="/pages/special/panopoly/panopoly.css"/>
+    <link rel="preload" href="/assets/ui/button_down.jpg" as="image">
+    <link rel="preload" href="/assets/ui/button_hover.jpg" as="image">
+</head>
+
+<div id="header-container"></div>
+<script>
+    fetch("pages/templates/subsiteheader.html")
+        .then(response => response.text())
+        .then(data => {
+            document.getElementById("header-container").innerHTML = data;
+        });
+</script>
+
+<body>
+    <main>
+        <div style="display:flex; justify-content: center;">
+            <div class="panopolyheader">
+                <img src="/assets/site/ThePanopolyLogo.png">
+                <hr style="transform: translate(0,-10px); border-width:1px; border-color: #303030; border-style:solid">
+                <img src="/assets/site/ThePanopolySubtitle.png" style="transform: translate(0,-15px);">
+            </div>
+        </div>
+        <h1 style="margin: 0">About</h1>
+            <div style="display:flex; justify-content: center;">
+                <div class="paragraph">
+                    <p>This page is currently under construction</p>
+                    <p>Since September of 2024, I've been carrying around a notebook in my pocket on which I write things down throughout the day. Not knowing what to do with the top of the page, I decided to start recording words I didn't know or wanted to use more. This is the digital version of that list. I started off by listing some of my favourite words, then I added more as I encountered them. </p>
+                </div>
+            </div>
+        <h1 style="">The Words</h1>
+        <!--
+        <button onclick="sortWordsAlphabetically()">Sort A-Z</button>
+        <button onclick="shuffleWords()">Shuffle</button>
+        -->
+        <div id="wordContainer"></div>
+
+        <script src="./pages/special/panopoly/panopoly.js"></script>
+    </main>
+
+    <footer style="height: 17vh;">
+        
+    </footer>
+</body>
