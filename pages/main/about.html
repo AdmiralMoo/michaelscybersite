@@ -1,13 +1,8 @@
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Michael's Cybersite—About Me</title>
-    <base href="https://michaelscybersite.net/">
-    <!--<base href="http://127.0.0.1:5500/">-->
-    <link rel="icon" type="image/x-icon" href="/assets/site/favicon.ico">
-    <link rel="stylesheet" type="text/css" href="index.css"/>
-    <link rel="preload" href="/assets/ui/button_down.jpg" as="image">
-    <link rel="preload" href="/assets/ui/button_hover.jpg" as="image">
+<script src="/head-inject.js"></script>
+<head onloadstart="injectHead();">
+    <title>Michael's Cybersite - About</title>
+    <link rel="stylesheet" type="text/css" href="/assets/css/win98.css"/>
+    <link rel="stylesheet" type="text/css" href="/assets/css/music.css"/>
 </head>
 
 <body>
@@ -21,173 +16,246 @@
     </script>
 
     <main>
-        <div class="maincontent" style="height: 35vh;">
-            <div id="infobox" class="dynbox">
-                <div class="dynbox-corner win-nw"></div>
-                <div class="dynbox-side win-n"></div>
-                <div class="dynbox-corner win-ne"></div>
-            
-                <div class="dynbox-side win-w"></div>
-                <div id="vertstack" class="win-c">
-                    <div id="infobox" class="dynbox" style="max-height: 50vh;">
-                        <div class="dynbox-corner wintxt-nw"></div>
-                        <div class="dynbox-side wintxt-n"></div>
-                        <div class="dynbox-corner wintxt-ne"></div>
-                    
-                        <div class="dynbox-side wintxt-w"></div>
-                        <div class="wintxt-c" style="overflow-y:scroll;"">
-                            <!--
-                            <p>
-                                My name is Michael, and I'm a college student studying programming in Canada. I've been messing about with computers since I was two years old, and for as long as I can remember, investigating technologies has been one of my greatest interests. Whether it's new or old, playing around with something I've never seen before and understanding how it works is always fun. I'm an avid listener of music and I enjoy an ever expanding variety of sounds, but my interests are mainly rooted in Grunge and Progressive Rock. I listen to all my music on CD or the digital rips of my CD's on my iPod. I really enjoy everything about the format, including organizing and cataloguing my library. In addition, I also have a small collection of cassette tapes, DVD's, Blu-Ray's and VHS tapes. 
-                                <br><br>
-                                Since my Dad passed his Nikon D40 down to me in 2018, I've been regularly photographing the world around me. I've taken over 180,000 photographs as of October 2024 and I'm waiting to see how far I can push this camera before it dies and I have to replace it. I really enjoy getting the most out of simple hardware and using dedicated devices; I strongly believe that today's tech tries to do too much more than what it's supposed to do. Another passion introduced to me by my Dad is cycling; I try to ride my bike—a 2023 Kona Rove AL-700—as often as possible. When it's warm enough, I use it to commute to work and school. I think a bike and camera are the perfect companions on an adventure into the unknown. 
-                                <br><br>
-                                I started programming in 2015 when I taught myself Python 2.7, and I regularly use Python 3.x as my every-day "fun" language for messing around and developing utilities. I also know C#, C++, Visual Basic and I'm teaching myself HTML and CSS through the construction of this website. I enjoy making 3D models using Blender from time to time, as well as doing special effects editing in Adobe After Effects; the latter of which I haven't done much of since 2020. I have a couple of old computers including an IBM ThinkCentre 8183, an IBM ThinkPad x201 and a Windows XP-era gaming computer I've built up over the years to enjoy my childhood games and era-appropriate software. 
-                                <br><br>
-                                I play a lot of sandbox and simulation games, a good chunk of which I've been enjoying since I was young. SimCity 4, Zoo Tycoon 2 and Microsoft Flight Simulator 2004 are a trio that have been with me for as long as I can remember, and they're some of my all time favourites. I'm very fond of the PlayStation 2 and games such as Gran Turismo 3, ATV Offroad Fury 2 and MVP Baseball 2005 amongst many others. Recently, in terms of modern games, I've been playing primarily sim racing titles such as Automobilista 2 and Assetto Corsa. 
-                                <br><br>
-                                My favourite movie is <i>The Terminator (1984)</i>, while <i>Star Wars (1977)</i> and <i>Jurassic Park (1993)</i> follow closely behind. <i>Independence Day (1996)</i>, <i>2001: A Space Odyssyey (1968)</i>, <i>Top Gun (1986)</i> and <i>The Transformers Movie (1986)</i> make it into the Top 10. My favourite TV show (at least the one I'm most fond of) is probably <i>Star Trek Voyager (1995-2001)</i> or <i>The Transformers (1984-1987)</i>. BBC's <i>Walking With Dinosaurs (1999)</i> is hands down my all time favourite documentary. I can't yet figure out what my favourite book is, but <i>Duma Key</i> by Stephen King has stuck vividly in my mind since I first read it over a decade ago. My favourite fonts are Helvetica, Roboto and Quartz.
-                                <br><br>
-                                I've had an interest in racing for as long as I can remember, and I follow Formula 1 closely along with WEC and IMSA. I've always really liked airplanes—I wanted to be some sort of pilot when I was younger—and my favourite airplane is the North American XB-70 Valkyrie. If I could own any plane, it would be a Douglas DC-3. I've also always loved the BAC/Aerospatiale Concorde and the Boeing 747-400. The Avro CF-104 Arrow is really cool, as is the Consolidated PBY Catalina, CF-101 Voodoo and the Boeing 737-700. I really like that the latter is a very small big plane. If I could drive any car, it would be a Porsche 991.2 911 GT3 R. I've always really liked the Toyota GT-One, Corvette C5-R and the Dodge Viper amongst others, but in terms of cars that are still racing, I'm a big fan of the Porsche 963, Ferrari 499p, Porsche 992 911 GT3.R, Ferrari 296 GT3 and the Oreca 07 LMP2. Modern F1 cars are kind of fat.
-                                <br><br>
-                                I'm quiet and I keep to myself most of the time, but I enjoy making people laugh. I value the few close relationships I have rather than talking to a lot of people and trying to know everyone. The grand majority of the time, I'm very happy spending time alone. As Friedrich Nietzsche said, "I hate who steals my solitude without, in exchange, offering me true company". I do a lot of thinking. That thinking is often accompanied by writing. My favourite colours are green and purple. In short, I'm a huge nerd with lots of hobbies to keep me busy. 
-                            </p>-->
-                            <h3>About This Site</h3>
-                            <p>
-                                As I said, this site is a fun little side project so that I can learn HTML and CSS; something i've wanted to do for a while. I don't particularly like the direction which the internet has gone in the past 15 years, and I think that it does more harm than good nowadays. So, instead of hating it and being bitter, I'm making this site to host my passions and interests just like the sites I came across browsing the web as a kid in the mid to late 2000's. I want this to be my own little corner of the internet, just as I've always wanted. I don't really expect anyone to see this and I would be surprised if it came up at all in any kind of Google search. Either way, it doesn't really matter. 
-                                <br><br>
-                                Although I tried to build the original incarnation of this site from September of 2024 using a website-builder called OpenElement, I quickly learned why people don't recommend such tools. At the beginning of October, I started from scratch in Visual Studio Code and built the whole thing from the ground up by myself. It ain't much, but it's honest work and I'm really proud of it. It'll continue to evolve over time as I better understand how the language works and how it can be applied in cooler ways. 
-                            </p>
-                            <h3>My Computers</h3>
-                            <h4>The EverythingBagel</h4>
-                            <p>
-                                I built this computer during the summer of 2019, and it's the main one I use for pretty much everything. 
-                                <li>Motherboard: ASUS Prime Z370-A II</li>
-                                <li>CPU: Intel i7-9700k</li>
-                                <li>CPU Cooler: be quiet! Dark Rock 4</li>
-                                <li>GPU: Nvidia GeForce RTX 2070 8GB</li>
-                                <li>RAM: 4x8GB Corsair Vengeance LPX DDR4-3200</li>
-                                <li>PSU: Corsair RMx 650W 80+ Fully Modular ATX</li>
-                                <li>Case: be quiet! Pure Base 600 ATX Mid Tower</li>
-                                <li>Additional Components: LG WH16NS40 Blu-Ray/DVD/CD Drive, ASUS PCE-AC66 Wi-Fi Adapter, AC 600M PCI-E Bluetooth Card, axGear CH-528L Multifunction Front Panel Hub, Hauppage ImpactVCB PCI-E</li>
-                            </p>
-                            <h4>Big XP</h4>
-                            <p>
-                                This was originally a security camera/DVR computer from a job I worked at which I saved from the garbage in early 2019. Since then, I've upgraded it so that I can enjoy my childhood games from the Windows XP era. I named it after the family computer that introduced me to the world of computing: an HP Pavilion 4445 I called Big Beige. 
-                                <li>Motherboard: ASUS P5K-E/WIFI-AP</li>
-                                <li>CPU: Intel Core Duo E8200</li>
-                                <li>CPU Cooler: ZALMAN CNPS80F</li>
-                                <li>GPU: Nvidia GeForce GTX 285</li>
-                                <li>RAM: 2x1GB Hynix Korea 09 DDR2, 2x1GB Crucial DDR2</li>
-                                <li>PSU: AZZA PSAZ 550w 80+ ATX</li>
-                                <li>Case: CHENBRO PC61122-BK ATX Mid Tower</li>
-                                <li>Additional Components: LG GH22NS30 DVD-RW Drive, Lite-On DH-16ACSH DVD-RW Drive, Hitachi/LG GH50N DVD-RW Drive, axGear CH-528L Multifunction Front Panel Hub, Mitsumi D359M3D 3<sup>1/4</sup>" Floppy Drive, Hauppage WinTV 39101 Rev B410 NTSC Tuner Card</li>
-                            </p>
-                            <h4>Teletraan-I</h4>
-                            <p>
-                                This is the laptop that I use for school. I named it after the Autobots' computer in <i>The Transformers</i>.
-                                <li>Make: Gigabyte</li>
-                                <li>Model: A5 X1</li>
-                                <li>CPU: AMD Ryzen 9 5900HX</li>
-                                <li>GPU: Nvidia GeForce RTX 3070 8GB</li>
-                                <li>RAM: 24GB...of something I can't recall</li>
-                            </p>
-                            <h4>"The Typewriter" x201</h4>
-                            <p>
-                                I don't really have a name for this guy yet, but I often call it "The Typewriter". I rescued this ThinkPad from the trash in early 2024 and it's helped remind me why I loved computers in the first place. It's very simple and runs Windows 7, so it's without any of the internet-driven frustrations my modern computers cause. I have a Debian Linux dual boot as well if I want to watch YouTube or do some browsing. I love this thing so much becuase it has a physical internet switch, which I have turned off most of the time other than to sync my OneNote notebook. I recently thrifted an Ultrabase x200 for it over the summer—an addon which latches on using the docking port underneath and adds more USB ports and a CD/DVD drive. This laptop also fulfills a bucket-list dream of using a laptop that has a fingerprint reader. What a nifty thing this is!
-                                <li>Make: Lenovo</li>
-                                <li>Model: x201</li>
-                                <li>CPU: Intel Core i5 540M</li>
-                                <li>GPU: [Intel Onboard Graphics]</li>
-                                <li>RAM: I'll have to check</li>
-                            </p>
-                            <h4>The Media Server</h4>
-                            <p>
-                                This is a retired school computer that one of my high school teachers willfully turned his head away and let me take home towards the end of the school year. I stuck a 2TB hard drive in it, and now it's used as a Jellyfin media server to host rips of my DVD's, Blu-Rays and CD's for me and my family to access. It's also what I use to sync my iPod.
-                                <li>Make: Dell</li>
-                                <li>Model: Precision T1500</li>
-                                <li>CPU: Intel Core i7 860</li>
-                                <li>GPU: [Intel Onboard Graphics]</li>
-                                <li>RAM: 4x2GB Crucial DDR3</li>
-                            </p>
-                            <h4>The ThinkCentre</h4>
-                            <p>
-                                Another retired school computer which one of my high school teachers had just sitting around, so he let me take it home since nobody was using it. I've had a lot of fun with this one since it's the oldest hardware I have at the moment. I'm a big fan of old IBM's and Dell's, becuase that's what I had in my school when I was in kindergarten.
-                                <li>Make: IBM</li>
-                                <li>Model: ThinkCentre S50 8183</li>
-                                <li>CPU: Intel Pentium 4 2.66GHz/512/533 SL6PE</li>
-                                <li>RAM: 2x512MB DDR1</li>
-                                <li>Additional Components: IBM 1.44MB 3<sup>1/4</sup>" Slim Floppy Drive, CD/DVD-ROM Drive</li>
-                            </p>
-                            <h3>My Hi-Fi Stack</h3>
-                            <p>
-                                I'm in the process of building an all-Sony Hi-Fi stack, something i've wanted for a really long time. I started off with all-in-one micro Hi-Fi's like the Sony MHC-GX99 and the Sony CMT-HPX9, but I wore out the CD drives on those quickly and they conked out. I wanted <i>real</i> Hi-Fi, so I started getting components for cheap at thrift stores as I find them earlier in 2024. Eventually, I'd like to acquire a tape deck and an individual CD player to go along with what I already have.
-                                <li>Sony CDP-CE315 5-Disc Changer</li>
-                                <li>Sony STR-AV720 AV Control Center</li>
-                                <li>Sony DVP-S360 DVD-Video Player</li>
-                            </p>
-                            <h3>Other Computer Peripherals</h3>
-                                Other miscellaneous things I've got attached to my computers:
-                                <li>Ducky Origin Vintage Keyboard with Blue switches</li>
-                                <li>Saitek Cyborg Evo flightstick</li>
-                                <s><li>Logitech Driving Force GT Racing Wheel</li></s>
-                                <li>Logitech G29 Racing Wheel</li>
-                                
-                            <h3>
-                                My Music Players
-                            </h3>
-                            <h4>Apple iPod Classic (6th Gen)</h4>
-                            <p>
-                                After quitting streaming services in January 2024, I wanted a device with expandable storage and finally fulfilled my long-time desire for an iPod Classic. I bought a broken one, repaired and upgraded it extensively (battery, casing, headphone jack, display), and converted it to a fat-backed model with a high-capacity 3200mAh battery. This device has become an essential part of my life, providing a deeply enjoyable music experience, especially when paired with my Sony WH-1000XM3 headphones.
-                            </p>
-                            <h4>Apple iPod Touch (6th Gen)</h4>
-                            <p>
-                                I received this iPod as a Christmas gift in 2015 to replace my dad’s old iPod Touch (1st Gen). It became my daily driver for a few years until I got a smartphone. However, I disliked the music apps on my low-quality Android phone, so I continued using the iPod until I upgraded to an iPhone 12 Mini in 2021. The phone’s 64GB storage and familiar music app made the iPod redundant, and now its battery is nearly dead.
-                            </p>
-                            <h4>Apple iPod Touch (1st Gen)</h4>
-                            <p>
-                                Originally gifted to my dad by his company for outstanding team performance, this engraved iPod Touch replaced his Samsung YP-K3 and was eventually passed down to me. It was my primary music player from 2014 until I received the 6th Generation iPod Touch in 2015. When I experimented with transitioning from streaming back to an iPod in late 2023, I used this device as a test unit and enjoyed it so much that I canceled my Apple Music subscription. Remarkably, its battery still lasts about a day and a half with moderate use.
-                            </p>
-                            <h4>Samsung YP-K3</h4>
-                            <p>
-                                My first MP3 player was a 2GB Samsung device resembling a 3rd Generation iPod Nano. It featured an equalizer, FM radio, and image storage but lacked album art display.  Unfortunately, the YP-K3’s screen began failing in 2017 and is now nearly unreadable, making it effectively e-waste with no viable repair options.
-                            </p>
-                            <h3>My Camera Stuff</h3>
-                            <h4>Nikon D40</h4>
-                            <p>
-                                As previously mentioned, my Dad gave me his Nikon D40, and that's the only DSLR I've ever owned and used regularly. He grew up with a Canon AE-1, so he wanted to switch back to that more familiar brand after buying Nikon in the early 2000's when it was cheaper. The only lens that I've ever bought is the Sigma Super Telephoto lens, which I got used in the Summer of 2023 to shoot air-shows, motor races and birds. The other two are the kit lens which came with the camera, and the zoom lens my Dad bought before going to the 2008 Hungarian Grand Prix. I've had this camera since September of 2018. As of the time of writing, it's at 194,432 shutter actuations: 389% of it's expected shutter life. I often wonder if this is the most used Nikon D40 out there.
-                            </p>
-                            <h4>Nikon FM2</h4>
-                            <p>
-                                I haven't shot with this camera yet—film is rather expensive—but I will soon!
-                            </p>
-                            <h4>F Mount Lenses</h4>
-                                I've got a couple F Mount lenses for my Nikon cameras.
-                                <li>AF-S DX Nikkor 18-55mm f/3.5-5.6G</li>
-                                <li>AF-S DX Nikkor 55-200mm f/4.5-5.6G ED VR</li>
-                                <li>Sigma 150-500mm f/5-6.3 APO DG HSM</li>
-                                <li>Nikon 35mm f/2.8 Series E</li>
-                                <li>Nikon 100mm f/2.8 Series E</li>
-                                <br> </br>
-                                The 18-55mm is a kit lens which came with the D40; my Dad bought the 55-200mm before going to the 2008 Hungarian Grand Prix; I got the 150-500mm to take photos of airshows, birds and racecars; the 35mm f/2.8 is my dream lens—I only got it recently, but it's quickly become my favourite; the 100mm f/2.8 came with the FM2.
-                                
-                            <h4>Canon PowerShot A2200 HD</h4>
-                            <p>
-                                I've had this little point-and-shoot digital camera since 2012 when my Dad bought it for me for christmas. I've started using it regularly again since 2020, as I quite enjoy it's simplicity and somewhat nostalgic image quality. It's just another single-use device I enjoy having around. 
-                            </p>
-                        </div>
-                        <div class="dynbox-side wintxt-e"></div>
-                    
-                        <div class="dynbox-corner wintxt-sw"></div>
-                        <div class="dynbox-side wintxt-s"></div>
-                        <div class="dynbox-corner wintxt-se"></div>
+        <div class="maincontent-centred">
+            <!--About Page Header-->
+            <div class="header-one-box outsideborder">
+                <h1>About</h1>
+                <img src="./assets/site/homeicon.png">
+            </div>
+            <!--Books Page Welcome Box-->
+            <div class="body-box outsideborder">
+                <div class="body-box grid-box-container shrink-box">
+                    <div style="word-wrap: break-word;">
+                        <h4>Table of Contents</h4>
+                            <li><a href="pages/main/about.html#aboutsite">About This Website</li></a>
+                            <li><a href="pages/main/about.html#aboutme">About Me</li></a>
+                            <li><a href="pages/main/about.html#aboutcomputers">My Computers</li></a>
+                            <li><a href="pages/main/about.html#aboutmusic">Music Stuff</li></a>
+                            <li><a href="pages/main/about.html#aboutcameras">Camera Stuff</li></a>
                     </div>
                 </div>
-                <div class="dynbox-side win-e"></div>
-            
-                <div class="dynbox-corner win-sw"></div>
-                <div class="dynbox-side win-s"></div>
-                <div class="dynbox-corner win-se"></div>
+                <div class="box-container">
+                    <p>On this page, you can find out more about me, this site and I</p>
+                </div>
+            </div>
+
+            <!--About this site-->
+            <div id="aboutsite"></div>
+            <div class="header-two-box outsideborder">
+                <h2>About This Site</h2>
+                <img src="./assets/site/click.png">
+            </div>
+            <div class="body-box outsideborder" style="flex-direction: column;align-items: center; ">
+                <div class="box-container">
+                    <p>
+                        I started this site in September of 2024 to learn CSS and HTML. I've been interested in making my own website since I played around with the web builder in Microsoft Publisher 2003, but I haven't gotten around to learning it for real until now. 
+                    </p>
+                    <p>
+                        I'm trying to grow this into a platform where I can show off my creations, store my lists and compendiums. I'm very passionate about the things I'm interested in, so this is a great way to indulge those interests further. 
+                    </p>
+                </div>
+                <a id="noformat" href="/pages/main/changelog.html">
+                    <div class="navbutton outsideborder"style="min-width: 256px; width: 90%; max-width: 90%; text-wrap:nowrap;">
+                        <p>Site Changelog</p>
+                    </div>
+                </a>
+            </div>
+
+            <!--About Me-->
+            <div id="aboutme"></div>
+            <div class="header-two-box outsideborder">
+                <h2>About Me</h2>
+                <img src="./assets/site/icon_book_ulysses.png">
+            </div>
+            <div class="body-box outsideborder">
+                <div class="box-container"style="padding:10px;">
+                    <h4><i>Me</i></h4>
+                    <p>
+                        My name is Michael, and I'm a college student studying programming in Canada. Most of the time, you'll find me listening to music or quoting <i>The Terminator</i> in an Austrian accent. I enjoy learning about things and messing around with them. I read books, on occasion, and I take photos sometimes too; those things have their own page on this site, so I won't say much more about them. 
+                    </p>
+                    <h4><i>Cycling</i></h4>
+                    <p>
+                        When it's above eight degrees, I enjoy cycling; when it's not, I think about cycling. It's a vicious cycle, really. 
+                    </p>
+                    <h4><i>Computer-Based Activities</i></h4>
+                    <p>
+                        On the computer, I do a lot of programming in Python and C#, though I also know C++, Visual Basic, a bit of JavaScript and—hence the website you're reading this on—I'm learning HTML and CSS. I've done a lot of 3D Modelling in Blender, a fair bit of special-effects and video editing in Adobe After Effects and Premiere Pro, and some audio editing in Adobe Audition; I've picked up all sorts of skills getting into things here and there. 
+                    </p>
+                    <h4><i>Games</i></h4>
+                    <p>
+                        I used to play a lot of games, but not so much anymore. On the computer, my all-time favourite games have always been <a href="https://en.wikipedia.org/wiki/SimCity_4"><i>SimCity 4 (2003)</i></a>, <a href="https://en.wikipedia.org/wiki/Zoo_Tycoon_2"><i>Zoo Tycoon 2 (2004)</i></a> and <a href="https://en.wikipedia.org/wiki/Microsoft_Flight_Simulator_2004:_A_Century_of_Flight"><i>Microsoft Flight Simulator 2004</i></a>, and I still play a lot of those. In terms of modern games, I've played a decent amount of <a href="https://en.wikipedia.org/wiki/Automobilista_2"><i>Automobilista 2 (2020)</i></a> and <a href="https://en.wikipedia.org/wiki/Assetto_Corsa"><i>Assetto Corsa (2014)</i></a>. The only console I really play is the PlayStation 2; <a href=""><i>MVP Baseball 2005 (2005)</i></a>, <a href="https://en.wikipedia.org/wiki/Gran_Turismo_3:_A-Spec"><i>Gran Turismo 3 (2001)</i></a> and <a href="https://en.wikipedia.org/wiki/ATV_Offroad_Fury_2"><i>ATV Offroad Fury 2 (2002)</i></a> are the games I play most often on there. 
+                    </p>
+                    <h4><i>Movies</i></h4>
+                    <p>
+                        My favourite movie is <a href="https://en.wikipedia.org/wiki/The_Terminator"><i>The Terminator (1984)</i></a>, while <a href="https://en.wikipedia.org/wiki/Star_Wars_(film)"><i>Star Wars (1977)</i></a> and <a href="https://en.wikipedia.org/wiki/Jurassic_Park_(film)"><i>Jurassic Park (1993)</i></a> follow closely behind. <a href="https://en.wikipedia.org/wiki/Independence_Day_(1996_film)"><i>Independence Day (1996)</i></a>, <a href="https://en.wikipedia.org/wiki/2001:_A_Space_Odyssey"><i>2001: A Space Odyssyey (1968)</i></a>, <a href="https://en.wikipedia.org/wiki/Top_Gun"><i>Top Gun (1986)</i></a>, <a href="https://en.wikipedia.org/wiki/The_Outlaw_Josey_Wales"><i>The Outlaw Josey Wales (1971)</i></a>, and <a href="https://en.wikipedia.org/wiki/The_Transformers:_The_Movie"><i>The Transformers Movie (1986)</i></a> make it into the Top 10.
+                    </p>
+                    <p>
+                        I don't watch movies very often, but when I do, it's usually <i>The Terminator</i>.
+                    </p>
+                    <h4><i>TV Shows</i></h4>
+                    <p>
+                        I've watched a lot of Star Trek—the entirety of <a href="https://en.wikipedia.org/wiki/Star_Trek:_The_Original_Series"><i>TOS</i></a> (three times), <a href="https://en.wikipedia.org/wiki/Star_Trek:_The_Next_Generation"><i>TNG</i></a>, <a href="https://en.wikipedia.org/wiki/Star_Trek:_Voyager"><i>Voyager</i></a> (twice), <a href="https://en.wikipedia.org/wiki/Star_Trek:_Deep_Space_Nine"><i>DS9</i></a> and <a href="https://en.wikipedia.org/wiki/Star_Trek:_Enterprise"><i>Enterprise</i></a>. It sounds ridiculous that I've watched <i>TOS</i> thrice, but I was introduced to it by my dad—as with a lot of my interests—when I was very young, so I've had time. 
+                    </p>
+                    <p>
+                        Other than that, I'm a big fan of <a href="https://en.wikipedia.org/wiki/The_Transformers_(TV_series)"><i>The Transformers (1984-1987)</i></a>.
+                    </p>
+                    <p>
+                        I don't watch much TV anymore, really. I guess that goes for all my screen-based hobbies: I don't do much of them anymore unless I'm creating something.
+                    </p>
+                    <p>
+                        BBC's <a href="https://en.wikipedia.org/wiki/Walking_with_Dinosaurs"><i>Walking With Dinosaurs (1999)</i></a> is hands down my all time favourite documentary.
+                    </p>
+                    <h4><i>Racing</i></h4>
+                    <p>
+                        What I do watch a lot of is racing: I've been a fan of <a href="https://en.wikipedia.org/wiki/Formula_One">Formula 1</a> for quite some time, but my real interest is sporstscar endurance racing in series such as <a href="https://en.wikipedia.org/wiki/IMSA_SportsCar_Championship">IMSA</a> and <a href="https://en.wikipedia.org/wiki/FIA_World_Endurance_Championship">WEC</a>. Watching cars go in circles for twelve hours is a truly wonderful thing. 
+                    </p>
+                </div>
+            </div>
+
+            <!--About My Computers-->
+            <div id="aboutcomputers"></div>
+            <div class="header-two-box outsideborder">
+                <h2>My Computers</h2>
+                <img src="./assets/site/homeicon.png">
+            </div>
+            <div class="body-box outsideborder">
+                <div class="box-container"style="padding:10px;">
+                    <p>
+                        I like computer hardware. I've got lots of old parts laying around, and I sometimes throw together a computer and install an operating system for fun. 
+                    </p>
+                    <h4>The EverythingBagel</h4>
+                    <p>
+                        I built this computer during the summer of 2019, and it's the main one I use for pretty much everything. 
+                        <li>Motherboard: ASUS Prime Z370-A II</li>
+                        <li>CPU: Intel i7-9700k</li>
+                        <li>CPU Cooler: be quiet! Dark Rock 4</li>
+                        <li>GPU: Nvidia GeForce RTX 2070 8GB</li>
+                        <li>RAM: 4x8GB Corsair Vengeance LPX DDR4-3200</li>
+                        <li>PSU: Corsair RMx 650W 80+ Fully Modular ATX</li>
+                        <li>Case: be quiet! Pure Base 600 ATX Mid Tower</li>
+                        <li>Additional Components: LG WH16NS40 Blu-Ray/DVD/CD Drive, ASUS PCE-AC66 Wi-Fi Adapter, AC 600M PCI-E Bluetooth Card, axGear CH-528L Multifunction Front Panel Hub, Hauppage ImpactVCB PCI-E</li>
+                    </p>
+                    <h4>Big XP</h4>
+                    <p>
+                        This was originally a security camera/DVR computer from a job I worked at which I saved from the garbage in early 2019. Since then, I've upgraded it so that I can enjoy my childhood games from the Windows XP era. I use it for writing since Word 2003 and Windows XP is devoid of AI and other distractions. I named it after the family computer that introduced me to the world of computing: an HP Pavilion 4445 I called Big Beige. 
+                        <li>Motherboard: ASUS P5K-E/WIFI-AP</li>
+                        <li>CPU: Intel Core Duo E8200</li>
+                        <li>CPU Cooler: ZALMAN CNPS80F</li>
+                        <li>GPU: Nvidia GeForce GTX 285</li>
+                        <li>RAM: 2x1GB Hynix Korea 09 DDR2, 2x1GB Crucial DDR2</li>
+                        <li>PSU: AZZA PSAZ 550w 80+ ATX</li>
+                        <li>Case: CHENBRO PC61122-BK ATX Mid Tower</li>
+                        <li>Additional Components: LG GH22NS30 DVD-RW Drive, Lite-On DH-16ACSH DVD-RW Drive, Hitachi/LG GH50N DVD-RW Drive, axGear CH-528L Multifunction Front Panel Hub, Mitsumi D359M3D 3<sup>1/4</sup>" Floppy Drive, Hauppage WinTV 39101 Rev B410 NTSC Tuner Card</li>
+                    </p>
+                    <h4>Teletraan-I</h4>
+                    <p>
+                        This is the laptop that I use for school. I named it after the Autobots' computer in <i>The Transformers</i>.
+                        <li>Make: Gigabyte</li>
+                        <li>Model: A5 X1</li>
+                        <li>CPU: AMD Ryzen 9 5900HX</li>
+                        <li>GPU: Nvidia GeForce RTX 3070 8GB</li>
+                        <li>RAM: 24GB...of something I can't recall</li>
+                    </p>
+                    <h4>"The Typewriter" x201</h4>
+                    <p>
+                        I rescued this ThinkPad from the trash in early 2024 and it's helped remind me why I loved computers in the first place. It's very simple and runs Windows 7, so it's without any of the internet-driven frustrations my modern computers cause. It's got ports out the wazoo, and with the Ultrabase x200, it does everything I need. 
+                        <li>Make: Lenovo</li>
+                        <li>Model: x201</li>
+                        <li>CPU: Intel Core i5 540M</li>
+                        <li>GPU: [Intel Onboard Graphics]</li>
+                        <li>RAM: I'll have to check</li>
+                    </p>
+                    <h4>The Media Server</h4>
+                    <p>
+                        This is a retired school computer that one of my high school teachers willfully turned his head away and let me take home towards the end of the school year. I stuck a 2TB hard drive in it, and now it's used as a Jellyfin media server to host rips of my DVD's, Blu-Rays and CD's for me and my family to access. It's also what I use to sync my iPod.
+                        <li>Make: Dell</li>
+                        <li>Model: Precision T1500</li>
+                        <li>CPU: Intel Core i7 860</li>
+                        <li>GPU: [Intel Onboard Graphics]</li>
+                        <li>RAM: 4x2GB Crucial DDR3</li>
+                    </p>
+                    <h4>The ThinkCentre</h4>
+                    <p>
+                        Another retired school computer which one of my high school teachers had just sitting around, so he let me take it home. I've had a lot of fun with this one since it's the oldest hardware I have at the moment. I'm a big fan of old IBM's like these.
+                        <li>Make: IBM</li>
+                        <li>Model: ThinkCentre S50 8183</li>
+                        <li>CPU: Intel Pentium 4 2.66GHz/512/533 SL6PE</li>
+                        <li>RAM: 2x512MB DDR1</li>
+                        <li>Additional Components: IBM 1.44MB 3<sup>1/4</sup>" Slim Floppy Drive, CD/DVD-ROM Drive</li>
+                    </p>
+                    <h4>Other Computer Peripherals</h4>
+                        Other miscellaneous things I've got attached to my computers:
+                        <li>Ducky Origin Vintage Keyboard with Blue switches</li>
+                        <li>Saitek Cyborg Evo flightstick</li>
+                        <s><li>Logitech Driving Force GT Racing Wheel</li></s>
+                        <li>Logitech G29 Racing Wheel</li>
+                </div>
+            </div>
+
+            <!--About Music-->
+            <div id="aboutmusic"></div>
+            <div class="header-two-box outsideborder">
+                <h2>Audio Stuff</h2>
+                <img src="./assets/site/icon_clef_file.png">
+            </div>
+            <div class="body-box outsideborder">
+                <div class="box-container"style="padding:10px;">
+                        I listen to music on CD or the rips of CD's on my iPod. I like being disconnected from everything, and these devices enable that. 
+                    
+                    <br>
+                    <br>
+
+                    <h3>Music Players</h3>
+                    <h4>Apple iPod Classic (6th Gen)</h4>
+                        The device I carry around with me wherever I go. It flash modded with a 512GB MicroSD card and a 3000mah battery. 
+                    <h4>Apple iPod Touch (6th Gen)</h4>
+                        The battery on this old guy is pretty much dead, and becuase it's been replaced by the iPod Classic, I don't plan on replacing it. It's served me well over the years. 
+                    <h4>Apple iPod Classic (1st Gen)</h4>
+                        My first iPod which my Dad gave to me when he got an iPhone. The battery still holds a full charge, and I use it occasionally
+
+                    <br>
+                    <br>
+
+                    <h3>Hi-Fi</h3>
+                        I'm on a quest to build an entirely Sony Hi-Fi stack from thrift stores. I'm still looking for a tape deck. 
+                        <li>Sony CDP-CE315 5-Disc Changer</li>
+                        <li>Sony STR-AV720 AV Control Center</li>
+                        <li>Sony DVP-S360 DVD-Video Player</li>
+                </div>
+            </div>
+
+            <!--About Camera-->
+            <div id="aboutcameras"></div>
+            <div class="header-two-box outsideborder">
+                <h2>Camera Stuff</h2>
+                <img src="./assets/site/icon_film.png">
+            </div>
+            <div class="body-box outsideborder">
+                <div class="box-container" style="padding:10px;">
+                        I said earlier that I occasionally take photos, but it's more like all the time. 
+                    
+                    <br>
+                    <br>
+
+                    <h3>Cameras</h3>
+                    <h4>Nikon D40</h4>
+                        Once my Dad's camera, I've been using this D40 since around 2018, and I've taken roughly 190,000 photos with it. 
+                    <h4>Nikon FM2</h4>
+                        I haven't shot with this camera yet—the cost of film is rather prohibitive—but I plan to very soon.
+                    <h4>Canon PowerShot A2200 HD</h4>
+                        I've had this point and shoot camera for a long time, and it's fun sometimes for it's simplicity
+
+                    <br>
+                    <br>
+
+                    <h3>F-Mount Lenses</h3>
+                        I've got a couple of lenses for my Nikon cameras.
+                        <li>AF-S DX Nikkor 18-55mm f/3.5-5.6G</li>
+                        <li>AF-S DX Nikkor 55-200mm f/4.5-5.6G ED VR</li>
+                        <li>Sigma 150-500mm f/5-6.3 APO DG HSM</li>
+                        <li>Nikon 35mm f/2.8 Series E</li>
+                        <li>Nikon 100mm f/2.8 Series E</li>
+                </div>
             </div>
         </div>
     </main>

@@ -1,13 +1,7 @@
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="./head-inject.js"></script>
+<head onloadstart="injectHead();">
     <title>Michael's Cybersite - Home</title>
-      <base href="https://michaelscybersite.net/">
-    <!--<base href="http://127.0.0.1:5500/">-->
-    <link rel="icon" type="image/x-icon" href="/assets/site/favicon.ico">
-    <link rel="stylesheet" type="text/css" href="index.css"/>
-    <link rel="preload" href="/assets/ui/button_down.jpg" as="image">
-    <link rel="preload" href="/assets/ui/button_hover.jpg" as="image">
+    <link rel="stylesheet" type="text/css" href="/assets/css/win98.css"/>
 </head>
 
 <body>
@@ -21,214 +15,126 @@
     </script>
 
     <main>
-        <div class="maincontent" style="height: 18vh;">
-            <!--
-            Home Page Header
-            -->
-            <div class="dynbox">
-                <div class="dynbox-corner win-nw"></div>
-                <div class="dynbox-side win-n"></div>
-                <div class="dynbox-corner win-ne"></div>
+        <div class="maincontent-centred">
+            <!--Home Page Header-->
+            <div class="header-one-box outsideborder">
+                <h1>Home</h1>
+                <img src="./assets/site/homeicon.png">
+            </div>
+            <!--Home Page Welcome box-->
+            <div  class="body-box outsideborder">
+                <div class="img-container">
+                    <img src="./assets/gifs/hellothere.gif">
+                </div>
+                <div class="box-container">
+                    <p>
+                        I'm Michael—welcome to my corner of the internet! I'm building this site to showcase my passions and interests while using it as a project to learn CSS and HTML. Click around and explore—I hope you enjoy your stay!
+                    </p>
+                    <p>
+                        Above, you can find links to the <i>About</i>, <i>Music</i> and <i>Books</i> pages; you can find out about this website, the music I listen to and the books I've read recently. There are more links down below to other pages on this site and resources from across the web
+                    </p>
+                </div>
+            </div>
                 
-                <div class="dynbox-side win-w"></div>
-                <div id="infobox" class="win-c" style="flex-flow:column;" >
-                    <div style="width: 100%;">
-                        <div class="dynbox" style="display: flex; justify-content: space-between;">
-                            <h1>Home</h1>
-                            <img src="./assets/site/homeicon.png" style="height: 40px; width: auto; object-fit: contain; ">
-                        </div>
-                    </div>
-                </div>
-                <div class="dynbox-side win-e"></div>
-                <div class="dynbox-corner win-sw"></div>
-                <div class="dynbox-side win-s"></div>
-                <div class="dynbox-corner win-se"></div>
-            </div>
-
-            <!--
-            Home Page Welcome box
-            -->
-            <div id="infobox" class="dynbox">
-                <div class="dynbox-corner win-nw"></div>
-                <div class="dynbox-side win-n"></div>
-                <div class="dynbox-corner win-ne"></div>
-            
-                <div class="dynbox-side win-w"></div>
-                <div class="win-c">
-                    <img id="obiwan" src="./assets/gifs/hellothere.gif" width="auto" height ="100eh">
-                    <div id="infobox" class="dynbox">
-                        <div class="dynbox-corner wintxt-nw"></div>
-                        <div class="dynbox-side wintxt-n"></div>
-                        <div class="dynbox-corner wintxt-ne"></div>
-                    
-                        <div class="dynbox-side wintxt-w"></div>
-                        <div class="wintxt-c">
-                            <p>
-                                I'm Michael—welcome to my corner of the internet! I'm building this site to showcase my passions and interests while using it as a project to learn CSS and HTML. Click around and explore—I hope you enjoy your stay!
-                            </p>
-                        </div>
-                        <div class="dynbox-side wintxt-e"></div>
-                    
-                        <div class="dynbox-corner wintxt-sw"></div>
-                        <div class="dynbox-side wintxt-s"></div>
-                        <div class="dynbox-corner wintxt-se"></div>
-                    </div>
-                </div>
-                <div class="dynbox-side win-e"></div>
-            
-                <div class="dynbox-corner win-sw"></div>
-                <div class="dynbox-side win-s"></div>
-                <div class="dynbox-corner win-se"></div>
-            </div>
-            
             <div style="padding-top:10px"></div>
 
-            <!--
-            Header Start
-            -->
-            <div class="dynbox" style="z-index: 1;">
-                <div class="dynbox-corner win-nw"></div>
-                <div class="dynbox-side win-n"></div>
-                <div class="dynbox-corner win-ne"></div>
-                
-                <div class="dynbox-side win-w"></div>
-                <div id="infobox" class="win-c" >
-                    <div class="dynbox" style="display: flex; justify-content: space-between;">
-                        <h2 id="booksread">Links</h2>
-                        <img src="./assets/site/click.png" style="height: 32px; width: auto; object-fit: contain; ">
+            <!--Header Start-->
+            <div class="header-two-box outsideborder">
+                <h2>Links</h2>
+                <img src="./assets/site/click.png">
+            </div>
+            <!--Header End-->
+            <div class="body-box outsideborder">
+                <div class="grid-box-container">
+                    <div>
+                        <h3>My Compendiums & Lists</h3>
+                        <li><a href="pages/special/panopoly/panopolymain.html">The Panopoly: A Collection of Words</li></a>
+                        <li><a href="pages/main/books.html#booksread">Books I've Read Recently</li></a>
+                    </div>
+                    <div >
+                        <h3>Free Books!</h3>
+                        <li><a href="https://www.gutenberg.org/">Project Gutenberg</li></a>
+                        <li><a href="https://marhamilresearch4.blob.core.windows.net/gutenberg-public/Website/browse.html">Project Gutenberg's Open Audiobook Collection</li></a>
+                        <li><a href="https://librivox.org/">LibriVox Audiobooks</li></a>
+                        <li><a href="https://openlibrary.org/">Open Library</li></a>
+                        <li><a href="https://www.openculture.com/freeaudiobooks">Open Culture</li></a>
+                        <!--<li><a href="https://www.historyisaweapon.com/">History Is A Weapon</li>-->
+                    </div>
+                    <div>
+                        <h3>The Best Site On The Internet</h3>
+                        <li><a href="https://archive.org/">The Internet Archive</li></a>
+                        <li><a href="https://archive.org/details/SciFi_Horror">Sci-Fi & Horror Films</li></a>
+                        <li><a href="https://archive.org/details/internetarchivebooks">Books</li></a>
+                        <li><a href="https://archive.org/details/cd-roms">CD-ROM Software</li></a>
                     </div>
                 </div>
-                <div class="dynbox-side win-e"></div>
-                <div class="dynbox-corner win-sw"></div>
-                <div class="dynbox-side win-s"></div>
-                <div class="dynbox-corner win-se"></div>
             </div>
 
-            <!--
-            Header End
-            -->
-            <div class="dynbox" style="z-index: 1;">
-                <div class="dynbox-corner win-nw"></div>
-                <div class="dynbox-side win-n"></div>
-                <div class="dynbox-corner win-ne"></div>
-                
-                <div class="dynbox-side win-w"></div>
-                <div id="infobox" class="win-c" style="flex-flow:column;" >
-                    <!--Introduction Box Start-->
-                    <div style="display:flex;justify-content: space-between;">
-                        <div class="win-c-invisible">
-                            <div id="infobox" class="dynbox">
-                                <div class="dynbox-corner wintxt-nw"></div>
-                                <div class="dynbox-side wintxt-n"></div>
-                                <div class="dynbox-corner wintxt-ne"></div>
-                            
-                                <div class="dynbox-side wintxt-w"></div>
-                                <div style="display: flex; flex-flow: row; justify-content: space-between; background-color: white;">
-                                    <!--Hyperlinks Box Start-->
-                                    <div class="wintxt-c" style="width:auto; height:fit-content;">
-                                        <h3 style="margin:0;">My Compendiums & Lists</h3>
-                                        <li><a href="pages/special/panopoly/panopolymain.html">The Panopoly: A Collection of Words</li></a>
-                                        <li><a href="pages/main/books.html#booksread">Books I've Read Recently</li></a>
-                                    </div>
-                                    <div class="wintxt-c" style="width:auto; height:fit-content;">
-                                        <h3 style="margin:0;">Free Books!</h3>
-                                        <li><a href="https://www.gutenberg.org/">Project Gutenberg</li></a>
-                                        <li><a href="https://marhamilresearch4.blob.core.windows.net/gutenberg-public/Website/browse.html">Project Gutenberg's Open Audiobook Collection</li></a>
-                                        <li><a href="https://librivox.org/">LibriVox Audiobooks</li></a>
-                                        <li><a href="https://openlibrary.org/">Open Library</li></a>
-                                        <li><a href="https://www.openculture.com/freeaudiobooks">Open Culture</li></a>
-                                        <!--<li><a href="https://www.historyisaweapon.com/">History Is A Weapon</li>-->
-                                    </div>
-                                    <div class="wintxt-c" style="width:auto; height:fit-content;">
-                                        <h3 style="margin:0;">The Best Site On The Internet</h3>
-                                        <li><a href="https://archive.org/">The Internet Archive</li></a>
-                                        <li><a href="https://archive.org/details/SciFi_Horror">Sci-Fi & Horror Films</li></a>
-                                        <li><a href="https://archive.org/details/internetarchivebooks">Books</li></a>
-                                        <li><a href="https://archive.org/details/cd-roms">CD-ROM Software</li></a>
-                                    </div>
-                                </div>
-                                <div class="dynbox-side wintxt-e"></div>
-                            
-                                <div class="dynbox-corner wintxt-sw"></div>
-                                <div class="dynbox-side wintxt-s"></div>
-                                <div class="dynbox-corner wintxt-se"></div>
+            <div style="padding-top:10px"></div>
+
+            <!--Cybersite Times Header-->
+            <script src="./scripts/pseudo-newspaper.js"></script>
+            <div class="header-one-box outsideborder" style="justify-content: center; flex-direction:column;">
+                <img id="newspaper-banner" src="assets\site\sitebanner_gazette_1.png" style="min-width: 28px; height: auto; right:50%">
+                <p id="newspaper-header" style="margin:0; padding:0; align-self: center; font-family: 'EB Garamond', serif; font-weight:bold;">GOOD AFTERNOON–TODAY IS MARCH 10TH</p>
+            </div>
+            <div class="body-box outsideborder">
+                <div class="scroll-container">
+                    <div  class="newsbox body-box grooveborder" style="flex-direction: column; gap:0; margin:0">
+                        <div class="side-by-side newstitle">
+                            <p><i>michaelscybersite.net is now live!</i></p>
+                            <p>03/09/2025</p>
+                        </div>
+                        <div class="body-box" style="padding:0;">
+                            <div class="img-container">
+                                <img src="/assets/pictures/DSC_192669.webp">
+                            </div>
+                            <div class="box-container">
+                                <p>
+                                    This website is now live at the new domain, <i>michaelscybersite.net</i>! How cool does that sound? A <i>dot net</i> site...look at me now Mom!<br><br>Although this site has been on the internet in some form or another since September of 2024, it's been hosted at the default GitHub pages URL. It's a minor change, I suppose, but it makes things feel a lot more official. I've changed the site logo to reflect this new domain as well.<br><br>Since a web domain is a nonphysical, abstract concept, here's a photo of my cat.
+                                </p>
                             </div>
                         </div>
-                        <!--
-                        Introduction Box End
-                        -->
                     </div>
-                </div>
-                <div class="dynbox-side win-e"></div>
-                <div class="dynbox-corner win-sw"></div>
-                <div class="dynbox-side win-s"></div>
-                <div class="dynbox-corner win-se"></div>
-            </div>
-
-            <div style="padding-top:10px"></div>
-
-            <!--
-            Cybersite Times Header
-            -->
-            <div class="dynbox" style="z-index: 1;">
-                <div class="dynbox-corner win-nw"></div>
-                <div class="dynbox-side win-n"></div>
-                <div class="dynbox-corner win-ne"></div>
-                
-                <div class="dynbox-side win-w"></div>
-                <div id="infobox" class="win-c" style="flex-flow:column;" >
-                    <img src="assets\site\sitebanner_gazette_1.png" style="height: 40px;right:50%">
-                </div>
-                <div class="dynbox-side win-e"></div>
-                <div class="dynbox-corner win-sw"></div>
-                <div class="dynbox-side win-s"></div>
-                <div class="dynbox-corner win-se"></div>
-            </div>
-
-            <!--
-            Cybersite Times Box
-            -->
-            <div id="infobox" class="dynbox">
-                <div class="dynbox-corner win-nw"></div>
-                <div class="dynbox-side win-n"></div>
-                <div class="dynbox-corner win-ne"></div>
-            
-                <div class="dynbox-side win-w"></div>
-                <div class="win-c-b">
-                    <div class="win-c-newstitle">
-                        <p><i>Ferrari Finish 1-2-3 in Qatar</i></p>
-                        <p>02/28/2025</p>
+                    <div  class="newsbox body-box grooveborder" style="flex-direction: column; gap:0; margin:0">
+                        <div class="side-by-side newstitle">
+                            <p><i>Microsoft Publisher to be Discontined in 2026</i></p>
+                            <p>03/01/2025</p>
+                        </div>
+                        <div class="body-box" style="padding:0;">
+                            <div class="img-container">
+                                <img style="width: 70%" src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Microsoft_Office_Publisher_%282019-present%29.svg/268px-Microsoft_Office_Publisher_%282019-present%29.svg.png">
+                            </div>
+                            <div class="box-container">
+                                <p>
+                                    Microsoft has announced to Office 365 subscribers yesterday that Publisher will no longer be supported after October of 2026. While not many people (if any) really use Publisher anymore, I'm finding myself a little misty-eyed at the announcement. <br><br>When I was a kid, I played around with Publisher 2003 and made my own websites. You could say that it's only becuase of Publisher that this site exists right now, since that program was (oddly) my entry into web development. <br><br>You never really did live up to your potential, did you Publisher? But hey, fulfillment of potential is just an achievement in societal perception, and it's got nothing to do with personal fulfillment. <i>RIP Publisher (1991-2026)—you'll be remembered, occasionally!</i>
+                                </p>
+                            </div>
+                        </div>
                     </div>
-                    <div class="win-c-invisible">
-                        <img id="obiwan" src="https://cdn.ferrari.com/cms/network/media/img/resize/67c24833c77e3b005697343f-2025-qatar-lmh-race-news-l" height=150vw">
-                        <div id="infobox" class="dynbox">
-                            <div class="dynbox-corner wintxt-nw"></div>
-                            <div class="dynbox-side wintxt-n"></div>
-                            <div class="dynbox-corner wintxt-ne"></div>
-                        
-                            <div class="dynbox-side wintxt-w"></div>
-                            <div class="wintxt-c">
+                    <div  class="newsbox body-box grooveborder" style="flex-direction: column; gap:0; margin:0">
+                        <div class="side-by-side newstitle">
+                            <p><i>Ferrari Finish 1-2-3 in Qatar</i></p>
+                            <p>02/28/2025</p>
+                        </div>
+                        <div class="body-box" style="padding:0;">
+                            <div class="img-container">
+                                <img src="https://cdn.ferrari.com/cms/network/media/img/resize/67c24833c77e3b005697343f-2025-qatar-lmh-race-news-l">
+                            </div>
+                            <div class="box-container">
                                 <p>
                                     At the 1812km of Qatar, Ferrari made history by sweeping the podium with their 499p hypercars. Antonio Fuoco in the #50 car was followed across the line by Robert Kubica in the privateer #83 and Alessandro Pier Guidi in the #51.<br><br>This was such a special thing to watch, and I'm so excited for the rest of the World Endurance Championship season. This is truly a platinum era for sportscar racing, and sportscar racing is truly the pinnacle of motorsport. Forza Ferrari!
                                 </p>
                             </div>
-                            <div class="dynbox-side wintxt-e"></div>
-                        
-                            <div class="dynbox-corner wintxt-sw"></div>
-                            <div class="dynbox-side wintxt-s"></div>
-                            <div class="dynbox-corner wintxt-se"></div>
                         </div>
                     </div>
                 </div>
-                <div class="dynbox-side win-e"></div>
-            
-                <div class="dynbox-corner win-sw"></div>
-                <div class="dynbox-side win-s"></div>
-                <div class="dynbox-corner win-se"></div>
             </div>
-        </div>
+            <div class="header-one-box outsideborder" style="justify-content: center; flex-direction:column;">
+                <p id="newspaper-footer" style="margin:0; padding:0; align-self: center; font-family: 'EB Garamond', serif; font-weight:bold;">MORE</p>
+            </div>
 
-        <img src="./assets/images/Nada!.png" style="display: block; margin-left: auto; margin-right: auto; width: 80%; z-index: -999;">
+        <!--<img src="./assets/images/Nada!.png" style="display: block; margin-left: auto; margin-right: auto; width: 80%; z-index: -999;">-->
     </main>
 
     <div id="footer-container"></div>

@@ -1,0 +1,32 @@
+<script src="/head-inject.js"></script>
+<head onloadstart="injectHead();">
+    <title>The Changelog</title>
+    <link rel="stylesheet" type="text/css" href="/assets/css/win98.css"/>
+    <link rel="stylesheet" type="text/css" href="/assets/css/music.css"/>
+</head>
+
+<body>
+    <div id="header-container"></div>
+    <script>
+        fetch("pages/templates/header.html")
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById("header-container").innerHTML = data;
+            });
+    </script>
+
+    <main>
+        <div class="maincontent-centred" style="min-height:60vh;">
+
+        </div>
+    </main>
+
+    <div id="footer-container"></div>
+    <script>
+        fetch("pages/templates/footer.html")
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById("footer-container").innerHTML = data;
+            });
+    </script>
+</body>

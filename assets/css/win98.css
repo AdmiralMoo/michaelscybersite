@@ -1,0 +1,102 @@
+/*
+Header And Navbutton Properties
+*/
+
+.navbutton
+{
+    background-color: #c0c0c0;
+}
+
+.navbutton:hover {
+    background-color:rgb(224, 224, 224);
+}
+
+.navbutton:active  {
+    background-color:rgb(136, 136, 136);
+    border-image: url("/assets/ui/Win98BorderInv.bmp") 8;
+}
+
+.navbutton:disabled 
+{
+    background-color:red;
+}
+
+/*
+Border properties
+*/
+.outsideborder
+{
+  border: 4px solid;
+  box-sizing: border-box;
+  border-image: url("/assets/ui/Win98Border.bmp") 8;
+}
+
+.insideborder
+{
+  border: 4px solid;
+  box-sizing: border-box;
+  border-image: url("/assets/ui/Win98TextBorder.bmp") 3;
+}
+
+.grooveborder
+{
+    border: 4px ;
+    border-style:groove;
+    border-color:white;
+    box-sizing: border-box;
+}
+
+/*
+Overrides For Borders & Colours
+*/
+
+.body-box {
+    background-color: #c0c0c0;
+}
+
+.body-box .grid-box-container
+{
+    border: 4px solid;
+    box-sizing: border-box;
+    border-image: url("/assets/ui/Win98TextBorderV2.bmp") 8;
+}
+
+.body-box .box-container {
+    border: 4px solid;
+    box-sizing: border-box;
+    border-image: url("/assets/ui/Win98TextBorderV2.bmp") 8;
+}
+
+.body-box img {  
+    border: 4px solid;
+    box-sizing: border-box;
+    border-image: url("/assets/ui/Win98TextBorderV2.bmp") 8;
+}
+
+.header-two-box
+{
+  background-color:#c0c0c0;
+}
+
+.header-one-box
+{
+  background-color:#c0c0c0;
+}
+
+/* Music Specific Properties */
+
+.album {
+    border: 4px solid;
+    box-sizing: border-box;
+    border-image: url("/assets/ui/Win98Border.bmp") 8;
+}
+
+.album img {
+    border-image: url("/assets/ui/Win98Border.bmp") 8;
+}
+
+.album p
+{
+    border: 4px solid;
+    border-image: url("/assets/ui/Win98Border.bmp") 8;
+}
