@@ -3,7 +3,7 @@
 .album-grid {
     display: flex;
     justify-content: center;
-    align-items: stretch; 
+    align-items: stretch;
     border: 4px solid;
     border-style: inset;
 }
@@ -19,6 +19,12 @@
     object-fit: cover;
 }
 
+#albumNumber
+{
+    min-height:0;
+    font-weight: bolder;
+}
+
 .album p
 {
     min-height: 65px;
@@ -27,7 +33,39 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin:0;
 }
+
+/* For dynamic resizing of elements */
+@media (max-width: 900px) {
+    .album-grid {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        display: flex;
+
+        flex-wrap: wrap;
+        
+        flex-basis: 100%;  
+        align-items: stretch;
+    }
+
+    .album
+    {
+        flex: 1 1 50%;
+    }
+
+    .album-grid :first-child
+    {
+        flex-basis: 100%;
+    }
+}
+
+/*
+    .album-grid :nth-child(1) {
+        order: 1;
+      }
+        */
 
 /* For scrolling animations */
 .scrolling-albums {

@@ -196,13 +196,16 @@ function updateDisplay() {
     monthDisplay.textContent = "Most Listened-To Albums: " + monthData.month;
     albumContainer.innerHTML = ""; // Clear existing albums
 
+    let albumIndex = 0;
     monthData.albums.forEach(album => {
+        albumIndex++;
         const albumElement = document.createElement("div");
         albumElement.classList.add("album");
 
         albumElement.innerHTML = `
             <img src="${album.cover}" alt="${album.album}">
-            <p>${album.artist}<br><i>${album.album}</i></p>
+            <p id="albumNumber">#${albumIndex}</p>
+            <p id="albumLabel">${album.artist}<br><i>${album.album}</i></p>
         `;
         
         albumContainer.appendChild(albumElement);
