@@ -1,0 +1,246 @@
+<script src="/head-inject.js"></script>
+<head onloadstart="injectHead();">
+    <title>The Changelog</title>
+    <link rel="stylesheet" type="text/css" href="/assets/css/win98.css"/>
+    <link rel="stylesheet" type="text/css" href="/assets/css/music.css"/>
+</head>
+
+<body>
+    <div id="header-container"></div>
+    <script>
+        fetch("pages/templates/header.html")
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById("header-container").innerHTML = data;
+            });
+    </script>
+
+    <main>
+        <div class="maincontent-centred" style="min-height:60vh; font-family: Arial, Helvetica, sans-serif; color:yellow; h2 { margin:10px; padding:10px;}">
+            <h1>
+                The Changelog 
+            </h1>
+
+            <h2>03/12/25–2 Commits</h2>
+                <li>The CSS Rewrite is complete and live!</li>
+                <li>Added a button to go to The Changelog from About</li>
+                <li>Converted some ico's to png's and put them to use</li>
+                <li>Added default page template with automatic everything injection</li>
+                <li>Added The Changelog page</li>
+                <li>Rewrote the contents of the About section</li>
+                <li>Rewrote the CSS for the About section</li>
+                <li>Finished CSS rewrite of the Music page</li>
+                <li>Improved the mobile viewing experience for the Most Listened Albums section</li>
+                <li>Added number rankings to Most Listened Albums</li>
+            <h2>03/11/25–5 Commits</h2>
+                <li>Began a big rewrite of the CSS code for the entire site</li>
+                <li>Ridid the home page with the new CSS code and structure</li>
+                <li>Redid the footer using the new CSS code and structure</li>
+                <li>Added dynamically changing fake news headlines to the bottom of The Cyberverse Times</li>
+                <li>Redid the code for the header</li>
+                <li>Completed the CSS rewrite of teh books page</li>
+                <li>Migrated some CSS files into the Assets/CSS folder</li>
+                <li>Separated some CSS properties out of Base.css into Win98.css so that new themes can be created</li>
+                <li>Completed redo of the CSS button rewrite</li>
+                <li>Added new links to public domain books on the book page</li>
+                <li>Added a mobile display mode for displays under 900px</li>
+                <li>Added a 4:3 display mode for displays around 1200px wide</li>
+                <li>Began rewriting the music page</li>
+                <li>Head code is now automatically injected into each page via JavaScript</li>
+                <li>Rewrote parts of the Most-Listened albums page</li>
+                <li>Removed base.js</li>
+                <li>Moved music.css to CSS folder</li>
+            <h2>03/10/25–1 Commit</h2>
+                <li>Updated site logo featuring Helvetica Black and the <i>.net</i> branding</li>
+                <li>Added EB Garamond to the font files</li>
+                <li>Added new badges and links to the site's footer</li>
+                <li>Added a "Last Updated On" to the site's footer</li>
+                <li>Added new links to the home page</li>
+                <li>The site now runs Doom</li>
+                <li>Added a page with a collection of words and their definitions</li>
+            <h2>03/09/25–4 Commits</h2>
+                <li>File paths in The Music Statter have been udpated to work with the new URL </li>
+                <li>Improved formatting of the new Most-Listened albums section</li>
+                <li>Completed the implementation of the Most-Listened albums section</li>
+                <li>Re-Encoded album art so that it loads faster. All album covers have ben reduced from 51.3MB->28.1MB (~54% reduction)</li>
+                <li>Added a "How It Works" section and an introductory paragraph to The Music Statter page</li>
+                <li>Moved The Music Statter into it's own folder</li>
+            <h2>03/08/25–4 Commits</h2>
+                <li>Fixed the ugly broken box in the books page</li>
+                <li>Fixed the book spawning and display area on the books page</li>
+                <li>Fixed the album cover spawning and display area on the albums page</li>
+                <li>Updated the landing description on the Music Page</li>
+                <li>Added a "Most Listened-To Albums" section to the music page</li>
+                <li>Added new headers to the music page</li>
+                <li>Added the "All-Time Favourites" section to the music page</li>
+                <li>Added the hyperlinks section to the music page</li>
+                <li>Updated the home page description</li>
+                <li>Added a home header to the home page</li>
+                <li>Added a proper header to The Cyberverse Times on the home page</li>
+                <li>Updated CNAME with new site URL</li>
+                <li><i>michaelscybersite.net</i> is now live!</li>
+                <li>Corrected capitalizations of file paths</li>
+            <h2>03/06/25–1 Commit</h2>
+                <li>Updated images.json for books added yesterday</li>
+            <h2>03/05/25–1 Commit</h2>
+            <li>Corrected spelling of Far From The Madding Crowd</li>
+            <li>Added the following books to the book waterfall:</li>
+            <ul>
+                <li>Jane Austen/Pride and Prejudice</li>
+                <li>Jane Austen/Sense and Sensibility</li>
+                <li>Jane Austen/Unfinished Works</li>
+                <li>Jane Austen/Northanger Abbey</li>
+                <li>Jane Austen/Mansfield Park</li>
+            </ul>
+            <h2>03/03/25–2 Commits</h2>
+            <li>Added the following albums to the album waterfall:</li>
+                <ul>
+                    <li>R.E.M./Reveal</li>
+                    <li>R.E.M./Accelerate</li>
+                    <li>R.E.M./New Adventures in Hi-Fi</li>
+                    <li>R.E.M./Collapse Into Now</li>
+                    <li>Rush/Counterparts</li>
+                    <li>Richard Strauss/Eine Alpensimphonine</li>
+                    <li>Gustav Holst/The Planets</li>
+                    <li>Marcy Playground/Shapeshifter</li>
+                    <li>Supertramp/Supertramp</li>
+                    <li>Billy Joel/Storm Front</li>
+                </ul>
+                <li>Added the following books to the books waterfall:</li>
+                <ul>
+                    <li>Meditations by Marcus Aurelius</li>
+                    <li>Picture of Dorian Grey by Oscar Wilde</li>
+                    <li>Watership Down by Richard Adams</li>
+                    <li>Anna Karenina by Leo Tolstoy</li>
+                </ul>
+            <h2>03/02/25–1 Commit</h2>
+                <li>Added Brionne by Louis L'Amour to read books in March and the book cover waterfall</li>
+                <li>Added an XNConvert preset for book covers for convenience</li>
+            <h2>03/01/25–1 Commit</h2>
+                <li>Made revisions to the books page</li>
+            <h2>02/28/25–6 Commits</h2>
+                <li>Added February 2025 Music Statter stats</li>
+                <li>Made an attempt at fixing the broken statter page; it works locally, I swear!</li>
+                <li>Added February 2025 Music Statter stats</li>
+                <li>Fixed formatting on statter page</li>
+                <li>Fixed file retrieval on statter page</li>
+                <li>Added button for february on statter page</li>
+                <li>Renamed files so that they're sorted by year then month</li>
+                <li>Added column for March on book page</li>
+                <li>Added faux newspaper sectino to index page</li>
+                <li>Corrected path to statter files</li>
+                <li>Corrected path to cyberverse times banner</li>
+            <h2>02/27/25–1 Commit</h2>
+                <li>Worked on the new Nada! page</li>
+                <li>Added a new book to the books page for February</li>
+            <h2>02/24/25–6 Commits</h2>
+                <li>Fixed formatting of the about page</li>
+                <li>Attempted to fix formatting of the music statter page</li>
+                <li>Added some more background textures for later use</li>
+                <li>Wrote attempt at adding automatic head injection via javascript</li>
+            <h2>02/22/25–1 Commit</h2>
+                <li>Updated scrolling book background script so that it actually works</li>
+                <li>Updated the album scrolling background so that it doesn't repeat images until every image has been shown</li>
+                <li>Expanded albumjson.py to work with books, games and CD's</li>
+                <li>Added a text interface to albumjson.py</li>
+                <li>Added more books to the books cover list</li>
+                <li>Removed a certain book by a certain mustached man...</li>
+                <li>Resized all books to be smaller and more efficient</li>
+                <li>Books and albums now scroll up and down with the page</li>
+                <li>Updated the about page with a new section for lenses and computer peripherals.</li>
+            <h2>02/12/25–2 Commits</h2>
+                <li>Fixed alignment of elements in the music page</li>
+                <li>Laid groundwork for scrolling books</li>
+                <li>Made other, undisclosed changes (I can't remember)</li>
+            <h2>02/10/25–3 Commits</h2>
+                <li>Added a new page to display Music Statter results</li>
+                <li>Added a new font to the website</li>
+                <li>Updated album art images.json</li>
+                <li>Removed some redundant album art</li>
+                <li>Reordered the elements on the music page</li>
+            <h2>02/09/25–4 Commits</h2>
+                <li>Worked on the formatting of the music page</li>
+                <li>The CD Chronicles page is unavailable until it's formatting has been fixed completely</li>
+                <li>Adjusted the CSS so that pages scale automatically and the header and footer graphics are anchored to their respective edges</li>
+                <li>Added spacers to the music page</li>
+                <li>Moved header buttons into header.html file</li>
+                <li>Header is now loaded into each page via javascript</li>
+                <li>Added books page</li>
+                <li>Added list of books I've read since I started the site</li>
+                <li>Replaced hyphens with Em Dashes</li>
+                <li>Corrected sizing of pages with the new footer code</li>
+                <li>Corrected borders on the about page</li>
+                <li>Added new lens to the about page</li>
+                <li>Added cool album art scrolling effect</li>
+                <li>Added scaled down album art collection</li>
+                <li>Added python script to manage a JSON file of album art filenames</li>
+                <li>Removed extra spacer on the music page</li>
+            <h2>11/05/24–8 Commits</h2>
+                <li>Added more background textures for later use</li>
+                <li>Renamed paths to fix broken links</li>
+                <li>Worked on the CD Chronicles Page</li>
+            <h2>10/15/24–2 Commits</h2>
+                <li>Completed the layout of the CD Chronicles homepage</li>
+                <li>First version of the site with the CD Chronicles online!</li>
+            <h2>10/14/24–1 Commit</h2>
+                <li>Created the CD Chronicles homepage</li>
+            <h2>10/12/24–2 Commits</h2>
+                <li>Finished the CSS and HTML layout for the CD Chronicles</li>
+            <h2>10/11/24–1 Commits</h2>
+                <li>Worked on CSS and HTML layout for the CD Chronicles</li>
+            <h2>10/10/24–5 Commits</h2>
+                <li>Worked on the layout of the album review template</li>
+                <li>Fixed sizing of the dynamic text box in the about me page</li>
+                <li>Filled out the About Me section</li>
+            <h2>10/08/24–10 Commits</h2>
+                <li>Worked on the music page and added some text boxes</li>
+                <li>Added fix to the page head for the relative paths issue</li>
+                <li>Updated the CD Chronicles logo</li>
+                <li>Finalized the initial design of the music page</li>
+            <h2>10/07/24–1 Commit</h2>
+                <li><i>Michael's Cybersite 2.0</i> is now live!</li>
+                <li>Merged <i>Cybersite 2.0</i> into main</li>
+            <h2>10/06/24–3 Commits</h2>
+                <li>Prevented navbuttons from being dragged</li>
+                <li>Fixed top grid positioning</li>
+                <li>Fixed navbutton formatting</li>
+                <li>Added bottom grid</li>
+                <li>Established proper header, main and footer layout</li>
+                <li>Made grid animation slower and optimized files</li>
+                <li>The grid now scales with screen size</li>
+                <li>Added content to the home page</li>
+                <li>Wrote a dynamically sized box to contain things</li>
+                <li>Created Windows 95/98 themed assets for the outer container and text box inner container</li>
+                <li>Created "About", "Music" and "Photography" pages</li>
+                <li>Added under construction message on incomplete pages</li>
+            <h2>10/05/24–4 Commits</h2>            
+                <li>Updated the bottom grid's formatting</li>
+                <li>Finagled with the top grid's formatting</li>
+                <li>Finished the home page layout</li>
+                <li>Widened grid and replaced stars background with animated GIF</li>
+            <h2>10/02/24–1 Commit</h2>
+                <li>Fresh start. The old Cybersite made with OpenElement has been abandoned. This is now being done in Visual Studio Code in raw CSS and HTML</li>
+            <h2>09/29/24–1 Commit</h2>
+                <li>Updated home screen grid</li>
+            <h2>09/09/24–8 Commits</h2>
+                <li>Created repository</li>
+                <li>Created basic layout</li>
+                <li>Removed GitHub Jekyll formatting</li>
+                <li>Added Photography section</li>
+                <li>Added Downloads section</li>
+                <li>Fixed broken home link</li>
+                <li>Added more detail to Nine Inch Nails/Broken album review</li>
+                <li>Added introduction to home page</li>
+                <li>Added links section</li>
+        </div>
+    </main>
+
+    <div id="footer-container"></div>
+    <script>
+        fetch("pages/templates/footer.html")
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById("footer-container").innerHTML = data;
+            });
+    </script>
+</body>

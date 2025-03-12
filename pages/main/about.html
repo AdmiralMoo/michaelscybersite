@@ -1,6 +1,6 @@
 <script src="/head-inject.js"></script>
 <head onloadstart="injectHead();">
-    <title>Michael's Cybersite - Music</title>
+    <title>Michael's Cybersite - About</title>
     <link rel="stylesheet" type="text/css" href="/assets/css/win98.css"/>
     <link rel="stylesheet" type="text/css" href="/assets/css/music.css"/>
 </head>
@@ -20,7 +20,7 @@
             <!--About Page Header-->
             <div class="header-one-box outsideborder">
                 <h1>About</h1>
-                <img src="./assets/site/icon_book_virginian.png">
+                <img src="./assets/site/homeicon.png">
             </div>
             <!--Books Page Welcome Box-->
             <div class="body-box outsideborder">
@@ -30,8 +30,8 @@
                             <li><a href="pages/main/about.html#aboutsite">About This Website</li></a>
                             <li><a href="pages/main/about.html#aboutme">About Me</li></a>
                             <li><a href="pages/main/about.html#aboutcomputers">My Computers</li></a>
-                            <li><a href="pages/main/about.html#aboutcameras">Camera Stuff</li></a>
                             <li><a href="pages/main/about.html#aboutmusic">Music Stuff</li></a>
+                            <li><a href="pages/main/about.html#aboutcameras">Camera Stuff</li></a>
                     </div>
                 </div>
                 <div class="box-container">
@@ -43,9 +43,9 @@
             <div id="aboutsite"></div>
             <div class="header-two-box outsideborder">
                 <h2>About This Site</h2>
-                <img src="./assets/site/icon_book_virginian.png">
+                <img src="./assets/site/click.png">
             </div>
-            <div class="body-box outsideborder">
+            <div class="body-box outsideborder" style="flex-direction: column;align-items: center; ">
                 <div class="box-container">
                     <p>
                         I started this site in September of 2024 to learn CSS and HTML. I've been interested in making my own website since I played around with the web builder in Microsoft Publisher 2003, but I haven't gotten around to learning it for real until now. 
@@ -54,16 +54,21 @@
                         I'm trying to grow this into a platform where I can show off my creations, store my lists and compendiums. I'm very passionate about the things I'm interested in, so this is a great way to indulge those interests further. 
                     </p>
                 </div>
+                <a id="noformat" href="/pages/main/changelog.html">
+                    <div class="navbutton outsideborder"style="min-width: 256px; width: 90%; max-width: 90%; text-wrap:nowrap;">
+                        <p>Site Changelog</p>
+                    </div>
+                </a>
             </div>
 
             <!--About Me-->
             <div id="aboutme"></div>
             <div class="header-two-box outsideborder">
                 <h2>About Me</h2>
-                <img src="./assets/site/icon_book_virginian.png">
+                <img src="./assets/site/icon_book_ulysses.png">
             </div>
             <div class="body-box outsideborder">
-                <div class="box-container">
+                <div class="box-container"style="padding:10px;">
                     <h4><i>Me</i></h4>
                     <p>
                         My name is Michael, and I'm a college student studying programming in Canada. Most of the time, you'll find me listening to music or quoting <i>The Terminator</i> in an Austrian accent. I enjoy learning about things and messing around with them. I read books, on occasion, and I take photos sometimes too; those things have their own page on this site, so I won't say much more about them. 
@@ -108,13 +113,13 @@
             </div>
 
             <!--About My Computers-->
-            <div id="aboutsite"></div>
+            <div id="aboutcomputers"></div>
             <div class="header-two-box outsideborder">
                 <h2>My Computers</h2>
-                <img src="./assets/site/icon_book_virginian.png">
+                <img src="./assets/site/homeicon.png">
             </div>
             <div class="body-box outsideborder">
-                <div class="box-container">
+                <div class="box-container"style="padding:10px;">
                     <p>
                         I like computer hardware. I've got lots of old parts laying around, and I sometimes throw together a computer and install an operating system for fun. 
                     </p>
@@ -191,10 +196,10 @@
             <div id="aboutmusic"></div>
             <div class="header-two-box outsideborder">
                 <h2>Audio Stuff</h2>
-                <img src="./assets/site/icon_book_virginian.png">
+                <img src="./assets/site/icon_clef_file.png">
             </div>
             <div class="body-box outsideborder">
-                <div class="box-container">
+                <div class="box-container"style="padding:10px;">
                         I listen to music on CD or the rips of CD's on my iPod. I like being disconnected from everything, and these devices enable that. 
                     
                     <br>
@@ -220,13 +225,13 @@
             </div>
 
             <!--About Camera-->
-            <div id="aboutmusic"></div>
+            <div id="aboutcameras"></div>
             <div class="header-two-box outsideborder">
                 <h2>Camera Stuff</h2>
-                <img src="./assets/site/icon_book_virginian.png">
+                <img src="./assets/site/icon_film.png">
             </div>
             <div class="body-box outsideborder">
-                <div class="box-container">
+                <div class="box-container" style="padding:10px;">
                         I said earlier that I occasionally take photos, but it's more like all the time. 
                     
                     <br>
@@ -251,103 +256,6 @@
                         <li>Nikon 35mm f/2.8 Series E</li>
                         <li>Nikon 100mm f/2.8 Series E</li>
                 </div>
-            </div>
-
-        </div>
-
-
-        <div class="maincontent" style="height: 35vh;">
-            <div id="infobox" class="dynbox">
-                <div class="dynbox-corner win-nw"></div>
-                <div class="dynbox-side win-n"></div>
-                <div class="dynbox-corner win-ne"></div>
-            
-                <div class="dynbox-side win-w"></div>
-                <div id="vertstack" class="win-c">
-                    <div id="infobox" class="dynbox" style="max-height: 50vh;">
-                        <div class="dynbox-corner wintxt-nw"></div>
-                        <div class="dynbox-side wintxt-n"></div>
-                        <div class="dynbox-corner wintxt-ne"></div>
-                    
-                        <div class="dynbox-side wintxt-w"></div>
-                        <div class="wintxt-c" style="overflow-y:scroll;"">
-                            <h3>About This Site</h3>
-                            <p>
-                                As I said, this site is a fun little side project so that I can learn HTML and CSS; something i've wanted to do for a while. I don't particularly like the direction which the internet has gone in the past 15 years, and I think that it does more harm than good nowadays. So, instead of hating it and being bitter, I'm making this site to host my passions and interests just like the sites I came across browsing the web as a kid in the mid to late 2000's. I want this to be my own little corner of the internet, just as I've always wanted. I don't really expect anyone to see this and I would be surprised if it came up at all in any kind of Google search. Either way, it doesn't really matter. 
-                                <br><br>
-                                Although I tried to build the original incarnation of this site from September of 2024 using a website-builder called OpenElement, I quickly learned why people don't recommend such tools. At the beginning of October, I started from scratch in Visual Studio Code and built the whole thing from the ground up by myself. It ain't much, but it's honest work and I'm really proud of it. It'll continue to evolve over time as I better understand how the language works and how it can be applied in cooler ways. 
-                            </p>
-                            <h3>My Computers</h3>
-                            
-                            <h3>My Hi-Fi Stack</h3>
-                            <p>
-                                I'm in the process of building an all-Sony Hi-Fi stack, something i've wanted for a really long time. I started off with all-in-one micro Hi-Fi's like the Sony MHC-GX99 and the Sony CMT-HPX9, but I wore out the CD drives on those quickly and they conked out. I wanted <i>real</i> Hi-Fi, so I started getting components for cheap at thrift stores as I find them earlier in 2024. Eventually, I'd like to acquire a tape deck and an individual CD player to go along with what I already have.
-                                <li>Sony CDP-CE315 5-Disc Changer</li>
-                                <li>Sony STR-AV720 AV Control Center</li>
-                                <li>Sony DVP-S360 DVD-Video Player</li>
-                            </p>
-                            <h3>Other Computer Peripherals</h3>
-                                Other miscellaneous things I've got attached to my computers:
-                                <li>Ducky Origin Vintage Keyboard with Blue switches</li>
-                                <li>Saitek Cyborg Evo flightstick</li>
-                                <s><li>Logitech Driving Force GT Racing Wheel</li></s>
-                                <li>Logitech G29 Racing Wheel</li>
-                                
-                            <h3>
-                                My Music Players
-                            </h3>
-                            <h4>Apple iPod Classic (6th Gen)</h4>
-                            <p>
-                                After quitting streaming services in January 2024, I wanted a device with expandable storage and finally fulfilled my long-time desire for an iPod Classic. I bought a broken one, repaired and upgraded it extensively (battery, casing, headphone jack, display), and converted it to a fat-backed model with a high-capacity 3200mAh battery. This device has become an essential part of my life, providing a deeply enjoyable music experience, especially when paired with my Sony WH-1000XM3 headphones.
-                            </p>
-                            <h4>Apple iPod Touch (6th Gen)</h4>
-                            <p>
-                                I received this iPod as a Christmas gift in 2015 to replace my dad’s old iPod Touch (1st Gen). It became my daily driver for a few years until I got a smartphone. However, I disliked the music apps on my low-quality Android phone, so I continued using the iPod until I upgraded to an iPhone 12 Mini in 2021. The phone’s 64GB storage and familiar music app made the iPod redundant, and now its battery is nearly dead.
-                            </p>
-                            <h4>Apple iPod Touch (1st Gen)</h4>
-                            <p>
-                                Originally gifted to my dad by his company for outstanding team performance, this engraved iPod Touch replaced his Samsung YP-K3 and was eventually passed down to me. It was my primary music player from 2014 until I received the 6th Generation iPod Touch in 2015. When I experimented with transitioning from streaming back to an iPod in late 2023, I used this device as a test unit and enjoyed it so much that I canceled my Apple Music subscription. Remarkably, its battery still lasts about a day and a half with moderate use.
-                            </p>
-                            <h4>Samsung YP-K3</h4>
-                            <p>
-                                My first MP3 player was a 2GB Samsung device resembling a 3rd Generation iPod Nano. It featured an equalizer, FM radio, and image storage but lacked album art display.  Unfortunately, the YP-K3’s screen began failing in 2017 and is now nearly unreadable, making it effectively e-waste with no viable repair options.
-                            </p>
-                            <h3>My Camera Stuff</h3>
-                            <h4>Nikon D40</h4>
-                            <p>
-                                As previously mentioned, my Dad gave me his Nikon D40, and that's the only DSLR I've ever owned and used regularly. He grew up with a Canon AE-1, so he wanted to switch back to that more familiar brand after buying Nikon in the early 2000's when it was cheaper. The only lens that I've ever bought is the Sigma Super Telephoto lens, which I got used in the Summer of 2023 to shoot air-shows, motor races and birds. The other two are the kit lens which came with the camera, and the zoom lens my Dad bought before going to the 2008 Hungarian Grand Prix. I've had this camera since September of 2018. As of the time of writing, it's at 194,432 shutter actuations: 389% of it's expected shutter life. I often wonder if this is the most used Nikon D40 out there.
-                            </p>
-                            <h4>Nikon FM2</h4>
-                            <p>
-                                I haven't shot with this camera yet—film is rather expensive—but I will soon!
-                            </p>
-                            <h4>F Mount Lenses</h4>
-                                I've got a couple F Mount lenses for my Nikon cameras.
-                                <li>AF-S DX Nikkor 18-55mm f/3.5-5.6G</li>
-                                <li>AF-S DX Nikkor 55-200mm f/4.5-5.6G ED VR</li>
-                                <li>Sigma 150-500mm f/5-6.3 APO DG HSM</li>
-                                <li>Nikon 35mm f/2.8 Series E</li>
-                                <li>Nikon 100mm f/2.8 Series E</li>
-                                <br> </br>
-                                The 18-55mm is a kit lens which came with the D40; my Dad bought the 55-200mm before going to the 2008 Hungarian Grand Prix; I got the 150-500mm to take photos of airshows, birds and racecars; the 35mm f/2.8 is my dream lens—I only got it recently, but it's quickly become my favourite; the 100mm f/2.8 came with the FM2.
-                                
-                            <h4>Canon PowerShot A2200 HD</h4>
-                            <p>
-                                I've had this little point-and-shoot digital camera since 2012 when my Dad bought it for me for christmas. I've started using it regularly again since 2020, as I quite enjoy it's simplicity and somewhat nostalgic image quality. It's just another single-use device I enjoy having around. 
-                            </p>
-                        </div>
-                        <div class="dynbox-side wintxt-e"></div>
-                    
-                        <div class="dynbox-corner wintxt-sw"></div>
-                        <div class="dynbox-side wintxt-s"></div>
-                        <div class="dynbox-corner wintxt-se"></div>
-                    </div>
-                </div>
-                <div class="dynbox-side win-e"></div>
-            
-                <div class="dynbox-corner win-sw"></div>
-                <div class="dynbox-side win-s"></div>
-                <div class="dynbox-corner win-se"></div>
             </div>
         </div>
     </main>
