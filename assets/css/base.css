@@ -492,3 +492,18 @@ hr
 {
   width:90%;
 }
+
+/* elements that are nested, self contained lists within a space */
+.list-package
+{
+  flex: 1 1 30%;
+  
+  padding: 10px;
+  width: 20vw;
+  min-width: 370px;
+
+  display: flex;
+  flex-direction: column;
+  height: 100%; 
+  min-height:200px;
+}

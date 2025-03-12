@@ -1,0 +1,59 @@
+/* For albums display */
+
+.album-grid {
+    display: flex;
+    justify-content: center;
+    align-items: stretch; 
+    border: 4px solid;
+    border-style: inset;
+}
+
+.album {
+    text-align: center;
+    padding:5px;
+}
+
+.album img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.album p
+{
+    min-height: 65px;
+    height:max-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* For scrolling animations */
+.scrolling-albums {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow: visible;
+    pointer-events: none;
+    z-index: -1; 
+  }
+
+.album-cover {
+    position: absolute;
+    background-size: cover;
+    background-position: center;
+    opacity: 0.7;
+    animation: scroll-left linear infinite;
+  }
+
+@keyframes scroll-left {
+    from {
+        transform: translateX(120vw);
+    }
+    to {
+        transform: translateX(-120vw);
+    }
+  }

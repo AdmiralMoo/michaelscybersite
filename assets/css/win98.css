@@ -82,3 +82,21 @@ Overrides For Borders & Colours
 {
   background-color:#c0c0c0;
 }
+
+/* Music Specific Properties */
+
+.album {
+    border: 4px solid;
+    box-sizing: border-box;
+    border-image: url("/assets/ui/Win98Border.bmp") 8;
+}
+
+.album img {
+    border-image: url("/assets/ui/Win98Border.bmp") 8;
+}
+
+.album p
+{
+    border: 4px solid;
+    border-image: url("/assets/ui/Win98Border.bmp") 8;
+}
