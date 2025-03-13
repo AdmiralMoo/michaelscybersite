@@ -4,6 +4,76 @@ document.addEventListener("DOMContentLoaded", () => {
 
 const albumsByMonth = [
     {
+        month: "January 2023",
+        albums: [
+            { artist: "Rush", album: "2112", cover: "./assets/albumart/rush - 2112.jpg" },
+            { artist: "Skin Yard", album: "1000 Smiling Knuckles", cover: "./assets/albumart/skin yard - 1000 smiling knuckles.jpg" },
+            { artist: "Metallica", album: "...And Justice For All", cover: "./assets/albumart/metallica - and justice for all.jpg" },
+            { artist: "Filter", album: "The Amalgamut", cover: "./assets/albumart/filter - the amalgamut.jpg" },
+            { artist: "Alice In Chains", album: "Alice In Chains", cover: "./assets/albumart/alice in chains - alice in chains.jpg" }
+        ]
+    },
+    {
+        month: "February 2023",
+        albums: [
+            { artist: "Fleetwood Mac", album: "Rumours", cover: "./assets/albumart/fleetwood mac - rumours.jpg" },
+            { artist: "Fiona Apple", album: "Tidal", cover: "./assets/albumart/fiona apple - tidal.jpg" },
+            { artist: "Breaking Benjamin", album: "Ember", cover: "./assets/albumart/breaking benjamin - ember.jpg" },
+            { artist: "King Crimson", album: "In The Court of The Crimson King", cover: "./assets/albumart/king crimson - in the court of the crimson king [colour corrected].jpg" },
+            { artist: "The Smashing Pumpkins", album: "Pisces Iscariot", cover: "./assets/albumart/the smashing pumpkins - pisces iscariot.jpg" }
+        ]
+    },
+    {
+        month: "March 2023",
+        albums: [
+            { artist: "Nine Inch Nails", album: "The Downward Spiral", cover: "./assets/albumart/nine inch nails - the downward spiral.jpg" },
+            { artist: "Pink Floyd", album: "The Dark Side of The Moon", cover: "./assets/albumart/pink floyd - dark side of the moon.jpg" },
+            { artist: "Fleetwood Mac", album: "Rumours", cover: "./assets/albumart/fleetwood mac - rumours.jpg" },
+            { artist: "Bruce Springsteen", album: "Born In The U.S.A.", cover: "./assets/albumart/bruce springsteen - born in the usa.jpg" },
+            { artist: "Temple of The Dog", album: "Temple of The Dog", cover: "./assets/albumart/temple of the dog - temple of the dog.jpg" }
+        ]
+    },
+    {
+        month: "April 2023",
+        albums: [
+            { artist: "Fleetwood Mac", album: "Rumours", cover: "./assets/albumart/fleetwood mac - rumours.jpg" },
+            { artist: "Dire Straits", album: "Dire Straits", cover: "./assets/albumart/dire straits - dire straits.jpg" },
+            { artist: "Pink Floyd", album: "The Dark Side of The Moon", cover: "./assets/albumart/pink floyd - dark side of the moon.jpg" },
+            { artist: "Nine Inch Nails", album: "The Downward Spiral", cover: "./assets/albumart/nine inch nails - the downward spiral.jpg" },
+            { artist: "Antonín Dvořák", album: "Sinfonie Nr. 9 »Aus Der Neuen Welt«", cover: "./assets/albumart/antonin dvorak - symphonie no 9.jpg" }
+        ]
+    },
+    {
+        month: "May 2023",
+        albums: [
+            { artist: "No Data...Apparently", album: "Did I forget to keep track?", cover: "./assets/site/cd_tray.jpg" },
+            { artist: "No Data...Apparently", album: "Maybe I just can't find it", cover: "./assets/site/cd_tray.jpg" },
+            { artist: "No Data...Apparently", album: "I've misplaced this month", cover: "./assets/site/cd_tray.jpg" },
+            { artist: "No Data...Apparently", album: "Can't find the next one, too", cover: "./assets/site/cd_tray.jpg" },
+            { artist: "No Data...Apparently", album: "Well, this sucks, doesn't it?", cover: "./assets/site/cd_tray.jpg" }
+        ]
+    },
+    {
+        month: "June 2023",
+        albums: [
+            { artist: "No Data...Apparently", album: "Did I forget to keep track?", cover: "./assets/site/cd_tray.jpg" },
+            { artist: "No Data...Apparently", album: "Maybe I just can't find it", cover: "./assets/site/cd_tray.jpg" },
+            { artist: "No Data...Apparently", album: "I've misplaced this month", cover: "./assets/site/cd_tray.jpg" },
+            { artist: "No Data...Apparently", album: "Can't find the previous one, too", cover: "./assets/site/cd_tray.jpg" },
+            { artist: "No Data...Apparently", album: "Well, this sucks, doesn't it?", cover: "./assets/site/cd_tray.jpg" }
+        ]
+    },
+    {
+        month: "July 2023",
+        albums: [
+            { artist: "Silverchair", album: "Frogstomp", cover: "./assets/albumart/silverchair - frogstomp.jpg" },
+            { artist: "Green Day", album: "Dookie", cover: "./assets/albumart/green day - dookie.jpg" },
+            { artist: "Alice In Chains", album: "Facelift", cover: "./assets/albumart/alice in chains - facelift.jpg" },
+            { artist: "Green Day", album: "Insomniac", cover: "./assets/albumart/green day - insomniac.jpg" },
+            { artist: "Hedley", album: "Hedley", cover: "./assets/albumart/hedley - hedley.jpg" }
+        ]
+    },
+    {
         month: "August 2023",
         albums: [
             { artist: "Counting Crows", album: "August And Everything After", cover: "./assets/albumart/counting crows - august and everything after.jpg" },
@@ -185,7 +255,7 @@ const albumsByMonth = [
     }
 ];
 
-let currentMonthIndex = 17;
+let currentMonthIndex = 24;
 
 function updateDisplay() {
     const monthDisplay = document.getElementById("monthDisplay");

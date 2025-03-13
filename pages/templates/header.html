@@ -1,12 +1,14 @@
-<head>
-    <link rel="preload" href="./assets/ui/button_down.jpg" as="image">
-    <link rel="preload" href="./assets/ui/button_hover.jpg" as="image">
-</head>
 <header>
     <img draggable="false" id="topgridthing" src="./assets/site/topgrid.gif" alt="Website Banner">
     <div class="TopHeader">
         <div class="sitelogo">
-            <a href="index.html"><img draggable="false" src="./assets/site/sitebanner_generic.png" alt="Website Banner"></a>
+            
+            <a href="index.html">
+                <picture>
+                    <source srcset="./assets/site/sitebanner_compact.png" media="(max-width: 900px)">
+                    <img draggable="false" src="./assets/site/sitebanner_generic.png" alt="Website Banner">
+                </picture>  
+            </a>
         </div>
         <div class="nav-bar">
             <a id="noformat" href="/index.html">
