@@ -177,6 +177,7 @@ footer span
     text-align: center;
     font-size: 1.8em;
     pointer-events: none;
+    user-select: none;
     margin:0;
     line-height:1;
   }
@@ -205,6 +206,7 @@ footer span
       flex-wrap:wrap;
       width: 90%;
     }
+
     .navbutton {
         background-color: white;
         flex: 1 1  50%;
@@ -216,11 +218,24 @@ footer span
 
   @media (max-width: 550px)
   {
+
     .sitelogo 
     {
-      min-width:90%;
-      justify-content: center;
-      align-items: center;
+      min-width:100%;
+      max-height: 128px;
+      padding-top:10px;
+    }
+  
+    .sitelogo a
+    {
+      padding-top:0;
+      padding:0;
+    }
+  
+    .sitelogo img
+    {
+      object-fit:contain;
+      height: 100%;
     }
 
     ul, li, ol
@@ -228,7 +243,11 @@ footer span
       font-size: 0.95em;
     }
 
-    .
+    .nav-bar {
+      display:flex;
+      flex-wrap:wrap;
+      width: 100%;
+    }
   }
 
 
@@ -332,7 +351,10 @@ Formatting for header boxes
   display: flex; 
   justify-content: space-between;
   margin:0px;
-  padding:7px
+  padding:7px;
+
+  color: #FFFFFF;
+  background-image: linear-gradient(to right, #000080 , #1084d0);
 }
 
 .header-one-box img
@@ -350,7 +372,10 @@ Formatting for header boxes
   display: flex; 
   justify-content: space-between;
   margin:0px;
-  padding:7px
+  padding:7px;
+
+  color: #FFFFFF;
+  background-image: linear-gradient(to right, #000080 , #1084d0);
 }
 
 .header-two-box img
@@ -418,6 +443,7 @@ Formatting for body boxes
     display: flex;
     justify-content:space-evenly;
     flex-direction: row;
+    width: 100%;
 
     background-color: white;
     font-family: 'Times New Roman', Times, serif;
@@ -474,7 +500,7 @@ Formatting for body boxes
 .scroll-container {
     display: flex;         
     flex-direction: column;
-    height: 500px;         
+    height: 600px;         
     overflow-y: auto;             
     width: 100%;       
     gap: 10px;
@@ -482,12 +508,14 @@ Formatting for body boxes
 }
 
 .newsbox {
-    flex-shrink: 0;         
+  /*
+  flex-shrink: 0;         
     
-    display: flex;          
-    flex-direction: column; 
-    gap: 0;                 
-    margin: 0;              
+  display: flex;          
+  flex-direction: column; 
+  gap: 0;                 
+  margin: 0;
+  */
 }
 
 .newsbox img
@@ -521,23 +549,24 @@ Formatting for body boxes
 
     .body-box .grid-box-container
     {
-        /*flex-direction: column;*/
+      flex-direction: column;
     }
 
     .newstitle
     {
         font-size: 1.1em;
         word-wrap:break-word;
+        padding-top:10px;
+        padding-bottom:20px;
     }
 
     .newsbox {
-        height: 100em;
-        flex-grow: 1;             
-        flex-shrink: 1;
+        min-height: fit-content;
+        
     }
 
     .scroll-container {
-        height: 600px;              
+        height: 500px;              
     }
 }
 
@@ -558,7 +587,8 @@ hr
 
 ul, li, ol
 {
-  margin-left: 1em;
+  margin-left: 0.1em;
+  margin-top: 0;
 }
 
 /* elements that are nested, self contained lists within a space */
@@ -581,8 +611,21 @@ ul, li, ol
   .list-package
   {
     flex: 1 1 30%;
-    
+    min-width: 100%;
     padding: 10px;
     min-height:50%;
   }
+
+  ul, li, ol
+  {
+    margin-left: 0.5em;
+  }
+  
+  h1, h2, h3, h4, p
+{
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 0;
+  margin-left:1px;
+}
 }

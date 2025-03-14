@@ -95,3 +95,9 @@
         transform: translateX(-120vw);
     }
   }
+
+  .header-one-box, .header-two-box
+{
+  color: #FFFFFF;
+  background-image: linear-gradient(to right, #1a8000 , #10d03a);
+}

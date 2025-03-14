@@ -1,0 +1,41 @@
+<script src="/head-inject.js"></script>
+<head onloadstart="injectHead();">
+    <title>Michael's Cybersite - Music</title>
+    <link rel="stylesheet" type="text/css" href="/assets/css/music.css"/>
+
+    <style>
+        body
+        {
+            background-color:blue;
+            background-image:none;
+        }
+    </style>
+</head>
+
+<div id="header-container"></div>
+<script>
+    fetch("pages/templates/subsiteheader.html")
+        .then(response => response.text())
+        .then(data => {
+            document.getElementById("header-container").innerHTML = data;
+        });
+</script>
+
+<body>
+    <main>
+        <div class="maincontent-centred" style="display: flex; flex-direction: column; align-items: center; flex-wrap:wrap;">
+            <p style="padding-bottom:0; margin-bottom:0; margin-top:0px; font-size:5em; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; color:red;">THIS IS A</p>
+            <img src="/assets/site/logo_skinyard_2_filled.png" style="max-width:386px">
+            <p style="padding-bottom:0; margin-bottom:0; margin-top:0px; font-size:5em; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; color:red;">FANPAGE</p>
+        </div>
+        <div class="maincontent-centred" style="display: flex; flex-direction: row; align-items: center; flex-wrap:wrap;">
+            <img src="/assets/images/skinyard_fistsized_cd.webp" style="max-width:386px">
+            <img src="/assets/images/skinyard_fistsized_full.jpg" style="max-width:386px">
+            <img src="/assets/images/skinyard_skinyard_cd.webp" style="max-width:386px">
+            <img src="/assets/images/skinyard_skinyard_full.jpg" style="max-width:386px">
+            <img src="/assets/images/skinyard_knuckles_full.jpg" style="max-width:386px">
+            <img src="/assets/images/skinyard_eye_full.jpg" style="max-width:386px">
+            <img src="/assets/gifs/theydontknow.jpg" style="max-width:386px">
+        </div>
+    </main>
+</body>
