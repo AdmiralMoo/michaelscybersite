@@ -101,3 +101,45 @@
   color: #FFFFFF;
   background-image: linear-gradient(to right, #1a8000 , #10d03a);
 }
+
+/*
+Album showcase
+*/
+
+.body-box .albumShowcaseBody
+{
+    background-color: #c0c0c0;
+    
+    border-style: inset; 
+    border-width: 4px; 
+    border-image: none;
+}
+
+.body-box .albumShowcaseContent
+{
+    display:flex;
+    flex-direction: row;
+}
+
+#showcaseAlbumCover
+{
+    max-width: 30%;
+    max-height:386px;
+}
+
+.albumShowcaseTopDisplay
+{
+    max-height:386px;
+}
+
+.albumShowcaseContent li
+{
+}
+
+.albumShowcaseBody .newstitle p
+{
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}

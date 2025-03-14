@@ -1,0 +1,35 @@
+[
+    {
+        "artist": "Rush",
+        "album": "2112",
+        "year": "1976",
+        "cover": "./assets/albumart/rush - 2112.jpg",
+        "description": "Description coming soon",
+        "genre": "Progressive Rock",
+        "duration": "38:42",
+        "tracks": [
+            "2112",
+            "A Passage To Bangkok",
+            "The Twilight Zone",
+            "Lessons",
+            "Tears",
+            "Something For Nothing"
+        ]
+    },
+    {
+        "artist": "Nine Inch Nails",
+        "album": "Add Violence [EP]",
+        "year": "2017",
+        "cover": "./assets/albumart/nine inch nails - add violence.jpg",
+        "description": "Description coming soon",
+        "genre": "Industrial Rock",
+        "duration": "27:14",
+        "tracks": [
+            "Less Than",
+            "The Lovers",
+            "This Isn't The Place",
+            "Not Anymore",
+            "The Background World"
+        ]
+    }
+]
