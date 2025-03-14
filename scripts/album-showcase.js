@@ -9,7 +9,7 @@ function updateDisplay() {
     fetch('./assets/json/albumShowcaseData.json')
     .then(response => response.json())
     .then(data => {
-        albumsDatabase = data; // Assign fetched data to albumsDatabase
+        albumsDatabase = data; 
         console.log(albumsDatabase);
 
         const albumShowcaseParent = document.getElementById("albumShowcaseBody");
