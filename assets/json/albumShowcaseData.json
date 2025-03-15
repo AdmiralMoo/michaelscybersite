@@ -4,8 +4,9 @@
         "album": "2112",
         "year": "1976",
         "cover": "./assets/albumart/rush - 2112.jpg",
-        "description": "Description coming soon",
+        "description": "This album is so good, they named the time (21:12) after it.<br><br>Rush is a band of best friends who loved music—you can feel it in the spirit of all their albums. <i>2112</i> is an album of two halves: the former tells a 20-minute, seven part story of a dystopian future where the high priests of the Temples of Syrinx control the media humanity consumes. The music is larger than life and the vocals are epic. The second side is more conventional Rush, and it's awesome too. '2112' and 'Lessons' are my favourite tracks. ",
         "genre": "Progressive Rock",
+        "rating" : "90",
         "duration": "38:42",
         "tracks": [
             "2112",
@@ -21,8 +22,9 @@
         "album": "Add Violence [EP]",
         "year": "2017",
         "cover": "./assets/albumart/nine inch nails - add violence.jpg",
-        "description": "Description coming soon",
+        "description": "Some people complain that Trent Reznor got soft in the early 2010's with the synth-driven <i>Hesitation Marks</i>. They're the same kinds of people who crap on Green Day's <i>Warning</i>, argue that The Clash isn't punk, Alice In Chains shouldn't have continued and Prog bands all committed treason in the 1980s: they're missing out on the good things in life. <br><br>The aforementioned Nine Inch Nails releases are undoubtedly Nine Inch Nails—they ooze the craftsmanship and quality of Trent Reznor's work, and they're a lot of fun to listen to. Add Violence has a bit of an angrier, harder edge than the former, and I quite like it. This certainly feels like an artist growing and evolving.<br><br>The long, repetitve breakdown of 'The Background World' bothered me at first, but I don't mind it anymore. 'Less Than' and 'Not Anymore' are my favourite tracks off this one; the former is up there with NIN's best.",
         "genre": "Industrial Rock",
+        "rating" : "75",
         "duration": "27:14",
         "tracks": [
             "Less Than",
@@ -30,6 +32,138 @@
             "This Isn't The Place",
             "Not Anymore",
             "The Background World"
+        ]
+    },
+    {
+        "artist": "Pink Floyd",
+        "album": "The Dark Side of The Moon",
+        "year": "1973",
+        "cover": "./assets/albumart/pink floyd - dark side of the moon.jpg",
+        "description": "The greatest album of all time. The forth best-selling album of all time. Two sides of the record, two continuous pieces of music. How do you put the power and might of this album into words? You don't—just listen to it! If you don't like it, listen to it again. Listen to it while walking, while thinking, in a house, with a mouse; this album works anywhere, any time. It's your new best friend. 'Time' contains one of the most legendary guitar solos, too. I could go on and on about this album forever. There's nothing else like it.",
+        "genre": "Progressive Rock",
+        "rating" : "100",
+        "duration": "42:57",
+        "tracks": [
+            "Speak To Me",
+            "Breathe (In The Air)",
+            "On The Run",
+            "Time",
+            "The Great Gig In The Sky",
+            "Money",
+            "Us And Them",
+            "Any Colour You Like",
+            "Brain Damage",
+            "Eclipse"
+        ]
+    },
+    {
+        "artist": "Skin Yard",
+        "album": "1000 Smiling Knuckles",
+        "year": "1991",
+        "cover": "./assets/albumart/skin yard - 1000 smiling knuckles.jpg",
+        "description": "Described as their most complete work, <i>1000 Smiling Knuckles</i> is the forth album from Seattle Grunge pioneers Skin Yard. I don't see enough people talking about this one, and I can't recommend it enough; this EP-sized album is a pleasure to listen to over and over again.<br><br> Ben McMillan's signature disjointed, surrealist lyrics sounds so good over these energetic and sometimes ominous riffs. You can find meaning in these songs, or you don't have to. They're just words that sound good over music that sounds good. Good stuff! <br><br>I think it's one of the best Grunge albums any Seattle group put out. 'Burn A Hole', 'River Throat' and the titular track are my favourites off this one. I <i>highly</i> recommend this one.",
+        "genre": "Grunge",
+        "rating" : "95",
+        "duration": "34:42",
+        "tracks": [
+            "1000 Smiling Knuckles",
+            "River Throat",
+            "Words on Bone",
+            "Living Pool",
+            "Headswill",
+            "Psychoriflehypnotized",
+            "Material Freak",
+            "Jezechrist",
+            "Nietzche with a Pizza",
+            "Burn a Hole"
+        ]
+    },
+    {
+        "artist": "Nine Inch Nails",
+        "album": "Broken [EP]",
+        "year": "1992",
+        "cover": "./assets/albumart/nine inch nails - broken.jpg",
+        "description": "Pure, raw, relentless energy. This album spurs you up and sends you on a non-stop half-hour journey of colossal, aggressive guitars and distorted vocals. This EP unleashes the bitterness, hate and anger you can tangibly feel in the passionate—albeit subdued—singing on Pretty Hate Machine. It's an outburst of so many emotions, and I love it.<br><br>This EP was experimental for NIN; it served as a sandbox to test and refine sounds that would be used on <i>The Downward Spiral</i>. In fact, if you listen to this between the albums which come before and after it, it feels like a bridge between the two. This is my favourite NIN release. It's very heavy, and I think this isn't something you can recommend to just about anybody, but I think it's great. <br><br>My favourite tracks off this one are 'Last' and 'Happiness In Slavery', the latter of which is in my top three NIN songs overall.",
+        "genre": "Industrial Metal",
+        "rating" : "10",
+        "duration": "33:09",
+        "tracks": [
+            "Pinion",
+            "Wish",
+            "Last",
+            "Help Me I Am In Hell",
+            "Happiness In Slavery",
+            "Gave Up",
+            "Physical [Bonus Track]",
+            "Suck [Bonus Track]"
+        ]
+    },
+    {
+        "artist": "Hater",
+        "album": "Hater",
+        "year": "1993",
+        "cover": "./assets/albumart/hater - hater.jpg",
+        "description": "Why didn't anyone tell me about Hater? How did I not find out about this sooner? There are many questions which will go unanswered in life.<br><br>If you like Grunge, or you're not allergic to fun, give this album a chance. It's the first effort of the emponymous supergrop featuring Matt Cameron (Skin Yard, Soundgarden, Temple of The Dog, Pearl Jam), John McBain (Monster Magnet), Brian Shepherd (Soundgarden) and Brian Wood (brother of Andy Wood). <br><br>This is <i>good</i>. It doesn't take itself too seriously, nor does it overstay its welcome. In fact, I would've liked it to take off it's jacket and stay awhile, but it had somewhere else to be. The eclectic mix of musicians blend their grunge, psychedelic rock and garage rock influences into a weird and enjoyable ride. My favourite track off this one is probably 'Tot Finder' or 'Sad McBain'. 'Lion and Lamb' reminds me of the beginning of Led Zeppelin's 'The Rain Song'.<br><br>Be a hater lover. ",
+        "genre": "Grunge",
+        "rating" : "80",
+        "duration": "31:03",
+        "tracks": [
+            "Mona Bone Jakon",
+            "Who Do I Kill?",
+            "Tot Finder",
+            "Lion and Lamb",
+            "Roadside",
+            "Down Undershoe",
+            "Circles",
+            "Putrid",
+            "Blistered",
+            "Sad McBain"
+        ]
+    },
+    {
+        "artist": "The Tuesdays",
+        "album": "The Tuesdays",
+        "year": "1998",
+        "cover": "./assets/albumart/the tuesdays - the tuesdays.jpg",
+        "description": "Do you like The Bangles? If so, here's the <i>Norwegian Bangles</i>—The Tuesdays—with what seems to be their first album in this incarnation of the band. I found this one at a thrift store and bought it thinking 'I bet they sound like The Bangles, but with the 90's alternative edge'. Somehow, I got that right, and I enjoy this half-decent album from time to time.<br><br>It's certainly not amazing, but it's energetic, catchy and enjoyable. The music is awesome, but it's more often than not let down by the songwriting. I'm realizing this album doesn't really exist online, so I don't know where you'll listen to it if you want to. But hey, a wise man once said, 'life, uh, finds a way'. My favourite track off this one is 'It's up to you'.",
+        "genre": "Power Pop",
+        "rating" : "65",
+        "duration": "44:33",
+        "tracks": [
+            "Too Late to Be Good",
+            "It's Up to You",
+            "I'll Be Here",
+            "Changing The Moods",
+            "Take Me Home",
+            "What Is Love",
+            "I Was Thinking of You",
+            "I Wish It Was Yesterday",
+            "Wheels",
+            "Gone With The Wind",
+            "When You're a Tuesday Girl"
+        ]
+    },
+    {
+        "artist": "The Tuesdays",
+        "album": "The Tuesdays",
+        "year": "1998",
+        "cover": "./assets/albumart/the tuesdays - the tuesdays.jpg",
+        "description": "Do you like The Bangles? If so, here's the <i>Norwegian Bangles</i>—The Tuesdays—with what seems to be their first album in this incarnation of the band. I found this one at a thrift store and bought it thinking 'I bet they sound like The Bangles, but with the 90's alternative edge'. Somehow, I got that right, and I enjoy this half-decent album from time to time.<br><br>It's certainly not amazing, but it's energetic, catchy and enjoyable. The music is awesome, but it's more often than not let down by the songwriting. I'm realizing this album doesn't really exist online, so I don't know where you'll listen to it if you want to. But hey, a wise man once said, 'life, uh, finds a way'. My favourite track off this one is 'It's up to you'.",
+        "genre": "Power Pop",
+        "rating" : "65",
+        "duration": "44:33",
+        "tracks": [
+            "Too Late to Be Good",
+            "It's Up to You",
+            "I'll Be Here",
+            "Changing The Moods",
+            "Take Me Home",
+            "What Is Love",
+            "I Was Thinking of You",
+            "I Wish It Was Yesterday",
+            "Wheels",
+            "Gone With The Wind",
+            "When You're a Tuesday Girl"
         ]
     }
 ]

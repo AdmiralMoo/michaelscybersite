@@ -280,6 +280,35 @@ function updateDisplay() {
         
         albumContainer.appendChild(albumElement);
     });
+
+    updateListenedButtons();
+}
+
+function updateListenedButtons()
+{
+    if ((currentMonthIndex + 1) === (albumsByMonth.length))
+    {
+        // Select the link
+        var link = document.getElementById('rightButton');
+        link.classList.add('disabled');
+    }
+    else
+    {
+        var link = document.getElementById('rightButton');
+        link.classList.remove('disabled');
+    }
+
+    if ((currentMonthIndex) === (0))
+    {
+        // Select the link
+        var link = document.getElementById('leftButton');
+        link.classList.add('disabled');
+    }
+    else
+    {
+        var link = document.getElementById('leftButton');
+        link.classList.remove('disabled');
+    }
 }
 
 function shiftMonth(direction) {

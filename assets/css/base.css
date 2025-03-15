@@ -196,6 +196,12 @@ footer span
     background-color:red;
   }
 
+  .disabled {
+    color: rgb(83, 83, 83);
+    pointer-events: none;
+    cursor: not-allowed;
+}
+
   @media (max-width: 900px)
   {
     .nav-bar {

@@ -79,16 +79,27 @@
 
             <!--Random Album Showcase-->
             <div id="albumShowcaseParent" class="body-box outsideborder" style="flex-direction: column;">
-                <div class="box-container albumShowcaseBody" id="albumShowcaseBody">
-                    fuck
-                </div>
                 <div class="nav-bar" style="padding-top:0">
+                    <a id="noformat" >
+                        <div class="navbutton outsideborder" id="shiftAlbumLeft" style="width: 200px; max-width: 200px;">
+                            <p>Previous</p>
+                        </div>
+                    </a>
                     <a id="noformat" >
                         <div class="navbutton outsideborder" id="shuffleAlbum" style="width: 200px; max-width: 200px;">
                             <p>Random Album</p>
                         </div>
                     </a>
+                    <a id="noformat" >
+                        <div class="navbutton outsideborder" id="shiftAlbumRight" style="width: 200px; max-width: 200px;">
+                            <p>Next</p>
+                        </div>
+                    </a>
+
                 </div>  
+                <div class="box-container albumShowcaseBody" id="albumShowcaseBody">
+                    <i>Nada!</i>
+                </div>
             </div>
 
             <div style="padding-top:10px"></div>
@@ -196,9 +207,9 @@
     </main>
 
     <div class="scrolling-albums"></div>
-    <script src="./scripts/scrolling-albums.js"></script>
-    <script src="./scripts/most-listened-music.js"></script>
     <script src="./scripts/album-showcase.js"></script>
+    <script src="./scripts/most-listened-music.js"></script>
+    <script src="./scripts/scrolling-albums.js"></script>
 
     <div id="footer-container"></div>
     <script>

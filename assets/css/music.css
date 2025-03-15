@@ -62,10 +62,10 @@
 }
 
 /*
-    .album-grid :nth-child(1) {
-        order: 1;
-      }
-        */
+.album-grid :nth-child(1) {
+order: 1;
+}
+*/
 
 /* For scrolling animations */
 .scrolling-albums {
@@ -125,15 +125,7 @@ Album showcase
 {
     max-width: 30%;
     max-height:386px;
-}
-
-.albumShowcaseTopDisplay
-{
-    max-height:386px;
-}
-
-.albumShowcaseContent li
-{
+    object-fit: scale-down;
 }
 
 .albumShowcaseBody .newstitle p
@@ -142,4 +134,74 @@ Album showcase
     padding-bottom: 0;
     margin-top: 0;
     margin-bottom: 0;
+}
+
+#albumShowcaseTopTitle p
+{
+    margin:0;
+    padding-left: 4px;
+    padding-right: 4px;
+    font-weight:bolder;
+    font-size: 1.2em;
+}
+
+#albumShowcaseBottomTitle p
+{
+    margin:0;
+    padding-top:1px;
+    padding-bottom:1px;
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
+#albumShowcaseTopTitle
+{
+    border-style: outset; 
+    border-width: 4px; 
+    border-image: url("/assets/ui/Win98Border.bmp") 8;
+
+    box-sizing: border-box;
+}
+
+#albumShowcaseBottomTitle
+{
+    border-style: outset; 
+    border-width: 4px; 
+    border-image: url("/assets/ui/Win98Border.bmp") 8;
+
+    box-sizing: border-box;
+}
+
+#showcaseAlbumTracklist {
+    column-count: 2;
+    column-width: 200px;
+    column-gap: 40px;
+    list-style-position: inside;
+    padding: 0;
+    margin: 0;
+}
+
+#showcaseAlbumTracklist li {
+    break-inside: avoid; 
+    white-space: nowrap; 
+}
+
+@media (max-width:500px)
+{
+    .albumShowcaseTopDisplay
+    {
+        max-height:none;
+        min-height:fit-content;
+        flex-direction:column;
+    }
+
+    #showcaseAlbumCover
+    {
+        max-width:100%;
+        max-height:none;
+    }
+
+    .albumShowcaseContent li
+    {
+    }
 }
