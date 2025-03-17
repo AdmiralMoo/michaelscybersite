@@ -642,13 +642,14 @@ ul, li, ol
   display: flex;
   flex-direction: row;
   width: 100%;
+  height:fit-content;
   gap:10px;
+  align-items:stretch;
 }
 
 .halfboxChild
 {
   flex: 1; 
-  width: 50%; 
   text-align: center;
 }
 
