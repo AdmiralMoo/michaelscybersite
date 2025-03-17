@@ -1,4 +1,10 @@
 window.onload = function() {
+
+    //Set the newspaper name:
+    const newspaperBanner = document.getElementById("newspaper-banner");
+    let newPath = "assets\\site\\sitebanner_gazette_" + Math.floor(Math.random() * 14 + 1) + ".png";
+    newspaperBanner.setAttribute("src", newPath);
+
     const date = new Date();
 
     // Define greeting based on the time of day

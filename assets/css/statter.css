@@ -8,23 +8,32 @@
 body {
     display: flex;
     justify-content: center;
-    height: 100vh;
     top: 0;
     background-color: #000000;
+    background-image: none;
     color: rgb(0, 255, 0);
     font-family: 'Codepage437', sans-serif;
     font-size: 18px;
 }
 
-.maincontent {
-    text-align: center;
+.maincontent-centred {
+    text-align: left;
+    max-width: 90vw;
+    width:90vw;
 }
 
 #text-display {
     font-family: 'Codepage437', monospace;
     white-space: pre-wrap;
     text-wrap: nowrap;
-    font-size: 1.2vw;
+    font-size: 1.15vw;
+    text-align: center;
+}
+
+hr
+{
+    width: 100%;
+    color: rgb(0, 255, 0);
 }
 
 @media (max-width: 500px) {

@@ -1,12 +1,21 @@
-<script src="./head-inject.js"></script>
+<script src="/head-inject.js"></script>
 <head onloadstart="injectHead();">
     <title>The Music Statter</title>
     <link rel="stylesheet" type="text/css" href="/assets/css/statter.css"/>
 </head>
 
 <body>
-    <main>
-        <div class="maincontent-centred">
+    <main>        
+        <div id="header-container" style="width: 100vw"></div>
+        <script>
+            fetch("/pages/templates/subsiteheader.html")
+                .then(response => response.text())
+                .then(data => {
+                    document.getElementById("header-container").innerHTML = data;
+                });
+        </script>
+        <div class="maincontent-centred ">
+
             <span style="font-size: 40px"><P>The Music Statter</P></span>
             <p style="max-width: 70vw; font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif">In 2024, I started keeping track of the albums I listened to every day. Towards the end of that year, I began developing a Python script called <i>The Music Statter</i> to parse my listening data and generate statistics. This page lets you view the output of my program. <br><br>Click on one of the buttons below to see what I listened to during that period.</p>
             <hr>

@@ -635,3 +635,46 @@ ul, li, ol
   margin-left:1px;
 }
 }
+
+/* Code for half boxes and stacking boxes of sorts */
+.halfboxParent
+{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  gap:10px;
+}
+
+.halfboxChild
+{
+  flex: 1; 
+  width: 50%; 
+  text-align: center;
+}
+
+@media (max-width:500px)
+{
+  .halfboxParent
+  {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap:10px;
+  }
+
+  .halfboxChild
+  {
+    flex: 1; 
+    width: 100%; 
+    text-align: center;
+  }
+}
+
+/*Override to make box contents stacked*/
+.stacked
+{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

@@ -94,7 +94,7 @@
         "cover": "./assets/albumart/nine inch nails - broken.jpg",
         "description": "Pure, raw, relentless energy. This album spurs you up and sends you on a non-stop half-hour journey of colossal, aggressive guitars and distorted vocals. This EP unleashes the bitterness, hate and anger you can tangibly feel in the passionate—albeit subdued—singing on Pretty Hate Machine. It's an outburst of so many emotions, and I love it.<br><br>This EP was experimental for NIN; it served as a sandbox to test and refine sounds that would be used on <i>The Downward Spiral</i>. In fact, if you listen to this between the albums which come before and after it, it feels like a bridge between the two. This is my favourite NIN release. It's very heavy, and I think this isn't something you can recommend to just about anybody, but I think it's great. <br><br>My favourite tracks off this one are 'Last' and 'Happiness In Slavery', the latter of which is in my top three NIN songs overall.",
         "genre": "Industrial Metal",
-        "rating" : "10",
+        "rating" : "100",
         "duration": "33:09",
         "tracks": [
             "Pinion",
@@ -181,6 +181,57 @@
             "Seed To A Tree",
             "Drive",
             "Time"
+        ],
+        "applemusic":"https://music.apple.com/us/album/blind-melon/725821342",
+        "spotify":"https://open.spotify.com/artist/5sD1ZLf2dGQ9gQ3YJl1eAd"
+    },
+    {
+        "artist": "The Sex Pistols",
+        "album": "Never Mind The Bollocks",
+        "year": "1976",
+        "cover": "./assets/albumart/sex pistols - never mind the bollocks.jpg",
+        "description": "You know that part in <i>Pride and Prejudice</i> when Elizabeth says 'Yes! A thousand times yes!'? Due to a lost manuscript, Jane Austen's most famous story has been misprinted for hundreds of years; Elizabeth was not accepting a proposal of marriage, but emphatically agreeting to listen to <i>Never Mind The Bollocks</i> for the tenth time that day.<br><br>This album is just awesome all the way through. It led a massive wave of Punk Rock in the 1970s and despite massive controversy, quickly established itself as one of the greatest albums of all time. Just listen to it! I can't recommend it enough.<br><br>My favourite tracks off this one are 'Holidays in The Sun', 'Problems' and 'God Save The Queen'. Now you got a reason now you got a reason now you got a reason to listen to this album! Now you got a reason now you got a reason now you got a reason and you're waitiiiiiing?",
+        "genre": "Punk Rock",
+        "rating" : "98",
+        "duration": "38:48",
+        "tracks": [
+            "Holidays In The Sun",
+            "Bodies",
+            "No Feelings",
+            "Liar",
+            "Problems",
+            "God Save The Queen",
+            "Seventeen",
+            "Anarchy In The UK",
+            "Submission",
+            "Pretty Vacant",
+            "New York",
+            "EMI"
+        ],
+        "applemusic":"https://music.apple.com/us/album/blind-melon/725821342",
+        "spotify":"https://open.spotify.com/artist/5sD1ZLf2dGQ9gQ3YJl1eAd"
+    },
+    {
+        "artist": "The Killers",
+        "album": "Pressure Machine",
+        "year": "2021",
+        "cover": "./assets/albumart/the killers - pressure machine.jpg",
+        "description": "I liked The Killers before <i>Pressure Machine</i>, I'll openly admit it. <i>Hot Fuss</i> is a good album, no matter what people might say about 'Mr. Brightside' being overplayed. That said, I didn't really take them seriously until I heard Pressure Machine.<br><br>This album is unbelievably good. Brandon Flowers woke up one day and said, 'today, I'm going to be Bruce Springsteen'. And so he did. <i>Pressure Machine</i> is a lot like <i>Nebraska</i>: a stark, semi-autobiographical album about life in small town america. It's really, really good. I know they changed a lot with their second effort, <i>Sam's Town</i>, but I think the execution is just masterful here on this album. They're in their prime, and I can't wait to see what they put out next. It's also helped me look at the rest of their discography differently and re-evaluate my opinion of <i>The Killers</i> as a whole.<br><br>My favourite tracks off this one are the titular track 'Pressure Machine', and 'In Another Life' and 'In The Car Outside'.",
+        "genre": "Heartland Rock",
+        "rating" : "90",
+        "duration": "51:22",
+        "tracks": [
+            "West Hills",
+            "Quiet Town",
+            "Terrible Thing",
+            "Cody",
+            "Sleepwalker",
+            "Runaway Horses",
+            "In The Car Outside",
+            "In Another Life",
+            "Desperate Things",
+            "Pressure Machine",
+            "The Getting By"
         ],
         "applemusic":"https://music.apple.com/us/album/blind-melon/725821342",
         "spotify":"https://open.spotify.com/artist/5sD1ZLf2dGQ9gQ3YJl1eAd"
