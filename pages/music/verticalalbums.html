@@ -1,19 +1,63 @@
 <script src="/head-inject.js"></script>
 <head onloadstart="injectHead();">
-    <title>The Changelog</title>
+    <title>Album Cover Design Parallels</title>
     <link rel="stylesheet" type="text/css" href="/assets/css/win98.css"/>
     <link rel="stylesheet" type="text/css" href="/assets/css/music.css"/>
     <style>
-        .grid-box-album img
+        .grid-box-album
         {
-            max-width:100px;
+            flex: 20%;
+            word-wrap: break-word;
         }
 
-        .list-package
+        .grid-box-album img
         {
-            max-width: 128px;
-            word-break: break-all;
-            word-wrap: break-word;
+            object-fit: fill;
+            max-width: 100%;
+            min-width: 100%;
+            height:auto;
+            flex-grow:1;
+        }
+
+        .grid-box-container
+        {
+            display:flex;
+            flex-wrap:wrap;
+        }
+
+        .grid-box-container > *
+        {
+            text-align: center;
+        }
+
+        @media(max-width:900px)
+        {
+            .body-box .grid-box-container
+            {
+                flex-direction: row;
+                word-wrap: break-word;
+            }
+
+            .grid-box-album
+            {
+                flex: 30%;
+            }
+        }
+
+        @media(max-width:600px)
+        {
+            .body-box .grid-box-container
+            {
+                flex-direction: row;
+                word-break: break-all;
+                word-wrap: break-word;
+                font-size: 1.0em;
+            }
+
+            .grid-box-album
+            {
+                flex: 50%;
+            }
         }
     </style>
 </head>
@@ -31,8 +75,13 @@
     <main>
         <div class="maincontent-centred" style="min-height:60vh;">
             <div class="header-one-box outsideborder">
-                <h1>Album Cover Design Paralells</h1>
+                <h1>Album Cover Design Parallels</h1>
                 <img src="./assets/images/icon_cd1.png">
+            </div>
+            <div class="body-box outsideborder">
+                <div class="box-container">
+                    <p>On this page, you'll find a couple lists of albums whose covers share common design themes. It's mildly interesting, at most.</p>
+                </div>
             </div>
 
             <!--The Vertical Album Phenomenon-->
@@ -41,66 +90,87 @@
                 <img src="./assets/images/icon_cd1.png">
             </div>
             <div class="body-box outsideborder" style="flex-direction: column; gap:0px;">
-                <div class="box-container">
-                    <p>Did you ever notice all those Grunge albums with the vertical text? I suppose it's not surprising considering so many bands played together in that scene, but it's interesting nonetheless.</p>
-                </div>
                 <div class="grid-box-container" style="flex-wrap: wrap;">
-                    <div class="list-package grid-box-album">
+                    <p style="text-align: left;">Did you ever notice all those Grunge albums and EPs with the vertical text? I suppose it's not surprising considering so many bands played together in that scene, but it's mildly interesting nonetheless.<br><br>I like them; I think they look really good. I've kept a list of these over the past couple of years and these are the ones I've noticed. </p>
+                    <div class="grid-box-album">
                         <img src="/assets/albumart/skin yard - 1000 smiling knuckles.jpg">
-                        <p>Skin Yard/1000 Smiling Knuckles</p>
+                        <p>Skin Yard<br>1000 Smiling Knuckles</p>
                     </div> 
-                    <div class="list-package grid-box-album">
+                    <div class="grid-box-album">
                         <img src="/assets/albumart/green river - dry as a bone.jpg">
-                        <p>Green River/Dry As A Bone</p>
+                        <p>Green River<br>Dry As A Bone</p>
                     </div> 
-                    <div class="list-package grid-box-album">
+                    <div class="grid-box-album">
                         <img src="/assets/albumart/soundgarden - louder than love.jpg">
-                        <p>Soundgarden/Louder Than Love</p>
+                        <p>Soundgarden<br>Louder Than Love</p>
                     </div> 
-                    <div class="list-package grid-box-album">
+                    <div class="grid-box-album">
                         <img src="https://upload.wikimedia.org/wikipedia/en/0/04/Mother_Love_Bone_-_Shine.JPG">
-                        <p>Mother Love Bone/Shine</p>
+                        <p>Mother Love Bone<br>Shine</p>
                     </div> 
-                    <div class="list-package grid-box-album">
+                    <div class="grid-box-album">
                         <img src="/assets/albumart/mother love bone - apple.jpg">
-                        <p>Mother Love Bone/Apple</p>
+                        <p>Mother Love Bone<br>Apple</p>
                     </div>
-                    <div class="list-package grid-box-album">
+                    <div class="grid-box-album">
                         <img src="https://upload.wikimedia.org/wikipedia/en/a/ac/InvisibleLantern.jpg">
-                        <p>Screaming Trees/Invisible Lantern</p>
+                        <p>Screaming Trees<br>Invisible Lantern</p>
                     </div>
-                    <div class="list-package grid-box-album">
+                    <div class="grid-box-album">
                         <img src="https://i.discogs.com/sk2hlEgJLl4BICXIK6Y940z6Abdkl-QKFm1l-vQg39A/rs:fit/g:sm/q:90/h:256/w:256/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE5MTc5/MTYtMTMzMTY3NTcw/OC5qcGVn.jpeg">
                         <p>Gruntruck/Inside Yours</p>
                     </div> 
-                    <div class="list-package grid-box-album">
+                    <div class="grid-box-album">
                         <img src="./assets/albumart/Gruntruck - push.jpg">
-                        <p>Gruntruck/Push</p>
+                        <p>Gruntruck<br>Push</p>
                     </div> 
-                    <div class="list-package grid-box-album">
-                        <img src="https://i.discogs.com/1jPcCdHqLZSwzHKD4rfVsktbWHf07D7nKXbtk0DdpaY/rs:fit/g:sm/q:90/h:600/w:588/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTgyNjQz/MC0xNTA5MTQ0MDk2/LTUyMDMuanBlZw.jpeg">
-                        <p>Gruntruck/Crazy Love [Single]</p>
-                    </div>
-                    <div class="list-package grid-box-album">
+                    <div class="grid-box-album">
                         <img src="https://e.snmc.io/i/600/s/403222de3fb5d766f079df4a20ec64d2/6977167/gruntruck-crazy-love-Cover-Art.jpg">
-                        <p>Gruntruck/Crazy Love [Single]</p>
+                        <p>Gruntruck<br>Crazy Love [Single]</p>
                     </div>
-                    <div class="list-package grid-box-album">
+                    <div class="grid-box-album">
                         <img src="https://e.snmc.io/i/600/s/2b0204c1e6de9bccbfe59157aec1fa92/1951059/gruntruck-above-me-Cover-Art.jpg">
-                        <p>Gruntruck/Above Me [Single]</p>
+                        <p>Gruntruck<br>Above Me [Single]</p>
                     </div>
-                    <div class="list-package grid-box-album">
+                    <div class="grid-box-album">
                         <img src="https://www.decibelmagazine.com/wp-content/uploads/2017/10/gruntruck-album-3000-585x585.jpg">
-                        <p>Gruntruck/Phoenix</p>
+                        <p>Gruntruck<br>Phoenix</p>
                     </div> 
-                    <div class="list-package grid-box-album">
+                    <div class="grid-box-album">
                         <img src="https://upload.wikimedia.org/wikipedia/en/6/6c/Melvins-lysol-melvins.jpg">
-                        <p>Melvins/Lysol</p>
+                        <p>Melvins<br>Lysol</p>
                     </div> 
-                    <div class="list-package grid-box-album">
+                    <div class="grid-box-album">
                         <img src="https://upload.wikimedia.org/wikipedia/en/e/e7/My_Sisters_Machine_Diva.jpg">
-                        <p>My Sister's Machine/Diva</p>
+                        <p>My Sister's Machine<br>Diva</p>
                     </div>
+                </div>
+            </div>
+
+                <!--The Typewriter Font Albums-->
+            <div class="header-two-box outsideborder">
+                <h2>Typewriter Font Albums</h2>
+                <img src="./assets/images/icon_cd1.png">
+            </div>
+            <div class="body-box outsideborder" style="flex-direction: column; gap:0px;">
+                <div class="grid-box-container" style="flex-wrap: wrap;">
+                    <p style="text-align: left;">This is a broader trend that touched many artists throughout the 1990's. It tells the prospective listener that this artist is authentic and their music posesses a raw quality to it. They've got an imperfect aesthetic, which sets them apart from everyone else; they're different from the in-crowd, just like you. It's a very utilitarian, understated, anti-commercial aesthetic that tells you to read the lyrics and feel something: "we're here for the music, not the money".<br><br>These albums all share that typewriter font, are generally from the 1990s and usually use muted colours. I've noticed only a couple, and I'm sure there's plenty more out there. </p>
+                    <div class="grid-box-album">
+                        <img src="/assets/albumart/the rembrandts - lp.jpg">
+                        <p>The Rembrandts<br>L.P</p>
+                    </div> 
+                    <div class="grid-box-album">
+                        <img src="/assets/albumart/alanis morissette - jagged little pill.jpg">
+                        <p>Alanis Morissette<br>Jagged Little Pill</p>
+                    </div> 
+                    <div class="grid-box-album">
+                        <img src="/assets/albumart/various artists - singles original motion picture soundtrack.jpg">
+                        <p>Singles<br>Original Motion Picture Soundtrack</p>
+                    </div> 
+                    <div class="grid-box-album">
+                        <img src="/assets/albumart/the tuesdays - the tuesdays.jpg">
+                        <p>The Tuesdays<br>The Tuesdays</p>
+                    </div> 
                 </div>
             </div>
         </main>

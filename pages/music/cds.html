@@ -1,0 +1,156 @@
+<script src="/head-inject.js"></script>
+<head onloadstart="injectHead();">
+    <title>CDs</title>
+    <link rel="stylesheet" type="text/css" href="/assets/css/win98.css"/>
+    <link rel="stylesheet" type="text/css" href="/assets/css/music.css"/>
+
+    <style>
+        .grid-box-album
+        {
+            flex: 20%;
+            word-wrap: break-word;
+        }
+
+        .grid-box-album img
+        {
+            object-fit: fill;
+            max-width: 100%;
+            min-width: 100%;
+            height:auto;
+            flex-grow:1;
+        }
+
+        .body-box .grid-box-container
+        {
+            display:flex;
+            flex-wrap:wrap;
+            align-items: start;
+            justify-content: start;
+        }
+
+        #tapecontainer img:last-child
+        {
+            display:flex;
+            flex-basis: 100%;
+            align-items: start;
+            justify-content: start;
+
+            max-width :20%;
+        }
+
+        .grid-box-container > *
+        {
+            text-align: center;
+        }
+
+        .body-box img
+        {
+            padding:0;
+            border: none;
+        }
+
+        @media(max-width:900px)
+        {
+            .body-box .grid-box-container
+            {
+                flex-direction: row;
+                word-wrap: break-word;
+            }
+
+            #tapecontainer img:last-child
+            {
+                min-width: 33%;
+                max-width: 33%;
+                width: 33%;
+                flex-basis:100%;
+            }
+
+            .grid-box-album
+            {
+                flex: 30%;
+            }
+        }
+
+        @media(max-width:600px)
+        {
+            .body-box .grid-box-container
+            {
+                flex-direction: row;
+                word-break: break-all;
+                word-wrap: break-word;
+                font-size: 1.0em;
+            }
+
+            #tapecontainer img:last-child
+            {
+                min-width: 50%;
+                max-width: 50%;
+                width: 50%;
+                flex-basis:100%;
+            }
+
+            .grid-box-album
+            {
+                flex: 50%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div id="header-container"></div>
+    <script>
+        fetch("pages/templates/header.html")
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById("header-container").innerHTML = data;
+            });
+    </script>
+
+    <main>
+        <div class="maincontent-centred" style="min-height:60vh;">
+            <!--Music Page Header-->
+            <div class="header-one-box outsideborder">
+                <h1>Compact Discs</h1>
+                <img src="./assets/images/icon_cd1.png">
+            </div>
+
+            <div class="body-box outsideborder stacked">
+                <div class="box-container">
+                    <p>This is my CD collection. I've been collecting CDs since 2019; it's something I've always dreamed I would have, and I'm so happy that I've got all of these albums. The grand majority of these are from thrift stores; very few were bought new. As you can imagine, I love music, and this is my favourite way to listen to it. The CD—I think—is the perfect medium for listening to music: the packaging is durable and easily replaceable; the discs are indestructible when handled correctly; they put you in the studio with the artist when you've got a good recording and master; they don't wear out over time. I could go on and on about why I love the compact disc, and I reckon I will on this site someday.<br><br>The first CD's I bought were <i>Green Day/Dookie</i>, <i>Nirvana/In Utero</i> and <i>Paramore/All We Know Is Falling</i>, all of which were found at a thrift store.</p>
+                </div>
+                <div id="tapecontainer" class="grid-box-container">
+                </div>
+            </div>
+
+            <script>
+                let albumImages = [];
+
+                // Get images
+                fetch("./assets/albumart/images.json")
+                    .then(response => response.json())
+                    .then(data => {
+                        albumImages = data.map(img => `./assets/albumart/${encodeURIComponent(img)}`);
+
+                        for (let i = 0; i < albumImages.length; i++)
+                        {
+                            const albumContainer = document.getElementById("tapecontainer");
+                            const img = document.createElement("img");
+                            img.src = albumImages[i];
+                            img.classList.add('grid-box-album');
+                            albumContainer.appendChild(img);
+                        }
+                    })
+                    .catch(error => console.error("Error loading album images:", error));            
+            </script>
+    </main>
+
+    <div id="footer-container"></div>
+    <script>
+        fetch("pages/templates/footer.html")
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById("footer-container").innerHTML = data;
+            });
+    </script>
+</body>

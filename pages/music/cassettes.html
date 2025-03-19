@@ -1,0 +1,158 @@
+<script src="/head-inject.js"></script>
+<head onloadstart="injectHead();">
+    <title>Tapes</title>
+    <link rel="stylesheet" type="text/css" href="/assets/css/win98.css"/>
+    <link rel="stylesheet" type="text/css" href="/assets/css/music.css"/>
+
+    <style>
+        .grid-box-album
+        {
+            flex: 20%;
+            word-wrap: break-word;
+        }
+
+        .grid-box-album img
+        {
+            object-fit: fill;
+            max-width: 100%;
+            min-width: 100%;
+            height:auto;
+            flex-grow:1;
+        }
+
+        .body-box .grid-box-container
+        {
+            display:flex;
+            flex-wrap:wrap;
+            align-items: start;
+            justify-content: start;
+        }
+
+        #tapecontainer img:last-child
+        {
+            display:flex;
+            flex-basis: 100%;
+            align-items: start;
+            justify-content: start;
+
+            max-width :20%;
+        }
+
+        .grid-box-container > *
+        {
+            text-align: center;
+        }
+
+        .body-box img
+        {
+            padding:0;
+            border: none;
+        }
+
+        @media(max-width:900px)
+        {
+            .body-box .grid-box-container
+            {
+                flex-direction: row;
+                word-wrap: break-word;
+            }
+
+            #tapecontainer img:last-child
+            {
+                min-width: 33%;
+                max-width: 33%;
+                width: 33%;
+                flex-basis:100%;
+            }
+
+            .grid-box-album
+            {
+                flex: 30%;
+            }
+        }
+
+        @media(max-width:600px)
+        {
+            .body-box .grid-box-container
+            {
+                flex-direction: row;
+                word-break: break-all;
+                word-wrap: break-word;
+                font-size: 1.0em;
+            }
+
+            #tapecontainer img:last-child
+            {
+                min-width: 50%;
+                max-width: 50%;
+                width: 50%;
+                flex-basis:100%;
+            }
+
+            .grid-box-album
+            {
+                flex: 50%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div id="header-container"></div>
+    <script>
+        fetch("pages/templates/header.html")
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById("header-container").innerHTML = data;
+            });
+    </script>
+
+    <main>
+        <div class="maincontent-centred" style="min-height:60vh;">
+            <!--Music Page Header-->
+            <div class="header-one-box outsideborder">
+                <h1>Tapes</h1>
+                <img src="./assets/images/dsotm_256.webp">
+            </div>
+
+            <div class="body-box outsideborder stacked">
+                <div class="box-container">
+                    <p>This is my collection of cassette tapes: they're all real scans because it's too difficult to find images of cassette tape covers online. I've been collecting them sporadically since around 2020; <i>Mötley Crüe/Dr. Feelgood</i> and <i>Mötley Crüe/Theatre of Pain</i> were the two first albums I got at a thrift store. Since then, I've collected them sporadically. I don't have many, but I've listened to the ones I do have a crap ton, and I'm quite fond of them. There were a lot of albums I first listened to and learned to love on tape before I got a copy of them on CD. I first discovered <i>Pink Floyd/The Dark Side of The Moon</i> after finding it randomly at a thrift store one day in the fall of 2020—what a find that was!<br><br>For the longest time, I listened to these on my Sony Walkman WM-FX38, but that device has unfortunately died. I don't have a tape deck or a personal stereo, so I haven't listend to these in a couple months. I will get one again soon.<br><br>I'm not a fan of Vinyl; when I want my analog fix, I go for cassettes. I like the tape noise and the feel of them; I think they're nifty.</p>
+                </div>
+                <div id="tapecontainer" class="grid-box-container">
+                </div>
+            </div>
+
+            <script>
+                let albumImages = [];
+
+                // Get images
+                fetch("./assets/cassettes/images.json")
+                    .then(response => response.json())
+                    .then(data => {
+                        albumImages = data.map(img => `./assets/cassettes/${encodeURIComponent(img)}`);
+
+                        for (let i = 0; i < albumImages.length; i++)
+                        {
+                            const albumContainer = document.getElementById("tapecontainer");
+                            const img = document.createElement("img");
+                            img.src = albumImages[i];
+                            img.classList.add('grid-box-album');
+                            albumContainer.appendChild(img);
+                        }
+
+                        
+                    })
+                    .catch(error => console.error("Error loading album images:", error));            
+            </script>
+    </main>
+
+    <div id="footer-container"></div>
+    <script>
+        fetch("pages/templates/footer.html")
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById("footer-container").innerHTML = data;
+            });
+    </script>
+</body>

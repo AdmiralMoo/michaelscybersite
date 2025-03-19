@@ -14,7 +14,7 @@ def BuildFile(image_dir, output_file):
 
     print(f"Generated {output_file} with {len(images)} images.")
 
-print("A. Books\nB. CDs\nC. Games")
+print("A. Books\nB. CDs\nC. Games\nD. Cassettes")
 image_dir = "none"
 uinput = input(">")
 if "a" in uinput.lower():
@@ -23,6 +23,8 @@ elif "b" in uinput.lower():
     image_dir = r"\assets\lbumart"
 elif "c" in uinput.lower():
     image_dir = r"\assets\games"
+elif "d" in uinput.lower(): 
+    image_dir = r"\assets\cassettes"
 else:
     print("bad input: " + uinput)
 
