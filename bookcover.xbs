@@ -3,8 +3,8 @@
     <Automatic_crop method="1" position="0" color="#000000" tolerance="0" direction="15" active="false"/>
     <Crop method="1" value_1="10" value_2="0" value_3="10" value_4="10" active="false"/>
     <Resize mode="1" width="512" height="0" unit="0" ratio="false" orientation="true" enlarge="0" resample="1" gamma_correct="false"/>
-    <Output folder="C:/Users/mvogl/GitHub/michaelscybersite/assets/books" filename="{Filename}" case="0" startIndex="1" format="JPEG">
+    <Output folder="C:/Users/mvogl/GitHub/michaelscybersite/assets/books" filename="{Filename}" case="0" startIndex="1" format="WEBP">
         <Options overwrite="3" orgDate="true" keepMeta="true" keepICC="true" keepFolder="false" checkFilesize="false" keepParentFolder="false" keepExtension="false" delOrg="false" multipage="false" allPages="false" openExplorer="false" beep="true" openBrowser="false" clearItems="true"/>
-        <JPEG quality="100" progressive="false" optimizeHuffman="true" rebuildThumb="true" orgQuality="false" DCTMethod="2" subSampling="0" smoothFactor="2"/>
+        <WEBP method="0" quality="90" filesize="128" compress="6" strength="60" sharpness="5" preset="0" sharpyuv="false"/>
     </Output>
 </XnView_script>
