@@ -1,0 +1,111 @@
+<script src="/head-inject.js"></script>
+<head onloadstart="injectHead();">
+    <title>CDs</title>
+    <link rel="stylesheet" type="text/css" href="/assets/css/win98.css"/>
+    <link rel="stylesheet" type="text/css" href="/assets/css/music.css"/>
+    <style>
+        h4
+        {
+            margin-top:10px;
+            margin-bottom:3px;
+        }
+
+        .box-container
+        {
+            padding:5px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="header-container"></div>
+    <script>
+        fetch("pages/templates/header.html")
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById("header-container").innerHTML = data;
+            });
+    </script>
+
+    <main>
+        <div class="maincontent-centred">
+            <!--Music Page Header-->
+            <div class="header-one-box outsideborder">
+                <h1>The Great Re-Ripping</h1>
+                <img src="./assets/images/icon_cd1.png">
+            </div>
+
+            <div class="ImageHeader outsideborder">
+                <div class="insideborder">
+                    <img src="/assets/pictures/DSC_183277.webp">
+                </div>
+                <div class="ImageHeader-Text"><h1>The Great<br>Re-Ripping</h1></div>
+            </div>
+
+            <div class="body-box outsideborder stacked">
+                <div class="box-container">
+                    <p>Kind of a silly name, isn't it? "The Great Re-Ripping" was a month-long project which saw me re-rip my entire CD collection. This is just me rambling about that experience.</p>
+                    <h4>September 22nd, 2024 – The ALAC Conundrum</h4>
+                    <p>When I first started collecting CD's, I ripped everything using iTunes just like my Dad did when I was younger. I was perfectly happy with the default 320kb/s AAC codec iTunes uses; it sounds a lot better than most other codecs at that bitrate, and it doesn't break the bank in terms of storage space. I'm pretty sure that's what Apple Music uses by default when it's not set to lossless, while Spotify uses some lesser codec at a similar bitrate—one that doesn't sound as good.</p>
+                    <p>I'm not going to sit here and pretend that I'm some kind of high-end audio enthusiast, but I can pick up on audio compression in most scenarios becuase of the amount of finagling I've done over the years. I like good-sounding audio. CD's are the ultimate format for listening, becuase they offer lossless audio right off the disc, no matter how old they are; as long as you've got a good master, each disc has to put you in the studio with the artist or take you back to the concert hall. I was hapy with my 320kb/s AAC's for quite a few years until I started listening to my CD player with headphones.</p>
+                    <p>The first album I noticed it on was <i>Alanis Morissette/Jagged Little Pill</i>. Of all things, it was on the bonus track, "Your House", where there there's nothing but Alanis' voice and a whole lotta reverb. I was bewildered! I thought it was a problem wtih my iPod at first—some kind of clipping becuase of an equalizer turned on accidentally or some mishap with the DAC. I listened to the CD over the same pair of headphones, and it wasn't there. I listened to the file on my computer, and the compression was there.</p>
+                    <p>This kind of thing, it's all in your head, really. Audio is a mental thing: if you know there might be something wrong, suddenly, it's <i>everywhere</i>. I tried to remain very objective about this. I knew that it was in that Alanis Morissette song for sure, and I noticed it in a couple of other releases as well, namely classical music and stuff focused on vocal performances.</p>
+                    <p>I was naive at first. I thought I'd only have to re-rip a couple of CD's as lossless—the aforementioned <i>Alanis Morissette</i>, <i>Fiona Apple</i>, <i>August And Everything After</i>, some classical music, too. But wait! It couldn't hurt to re-rip <i>The Dark Side of The Moon</i>, could it? My favourite album could only benefit from such a thing, surely. Well, this copy of <i>Born in The U.S.A.</i> is a very early master from the CD era, I wonder what fidelity is hiding in there? <i>90125</i>? Sure, why not.</p>
+                    <p>After a couple of days, I decided that I'd have to go through my entire collection, and so I did.</p>
+                    <h4>September 23rd, 2024 – The Verdict</h4>
+                    <p>Before I got started, there was lots of research to do. I didn't know much about lossless file formats, but I did my research—this is serious business! I only plan on doing this tedious once, at least this decade. The iPod Classic doesn't have native FLAC support, so despite it being the standard for lossless audio, I went with ALAC—the Apple-ized version of that which already existed.</p>
+                    <p>I read on some sites that iPods have a hard time with large lossless files becuase they don't have enough RAM, but that wasn't an issue for me. I tried it on an iPod Classic 6.5th Generation, and an iPod Classic 7th Generation, and they both worked fine. Once Pink Floyd's "Atom Heart Mother" played through the whole twenty minutes without a skip, I knew I was off to the races.</p>
+                    <p>The last time I did a complete re-rip of my collection was in 2020, and back then, I had around fifty or sixty CD's. I felt like I had a lot back then, but it took me around an afternoon to do all of those. It was all through iTunes, too; I wasn't grabbing any extra metadata or anything. This time around, I decided to use a program called "EZ-CD Audio Converter". It allows me to configure presets for single and multi-disc albums, and I like the amount of control it gives me. </p>
+                    <p>So, I started. The sixty-something gigabyte music library was to balloon to over one-hundred and fifty gigabytes</p>
+                    <h4>September 25th, 2024 – The Start</h4>
+                    <p>I decided to start off with my favourite albums, and the albums I was litening to a lot of at the time. </p>
+                    <p>I love my CD collection: I love looking at their spines all nice in a line; I love flipping through their booklets; I love the music these shiny, futuristic plastic discs contain—sacred objects that bring awe, joy and wonder. The whole experience is such a joy, and this operation gave me an excuse to look at every single one of my discs all at once. It's not often that they all get to come out at the same time. Only five ever leave the shelves at a time—one for each slot in the CD-Changer. </p>
+                    <p>Even though I listen to my CD's every day, I really enjoyed having an excuse to pull them all out and put them in a disc drive. I really enjoyed having an excuse to look at them all and enjoy them in a different way.</p>
+                    <p><i>Led Zeppelin's discography, most of Metallica, Paramore's discography, some Taylor Swift</i></p>
+                    <h4>October 3rd, 2024 – Ripping...31.2%</h4>
+                    <p>I fell into a routine rather quickly.</p>
+                    <p>By early October, this was all I was doing in my free-time. I would ride my bike to school in the morning, attend my classes, do my work, then come home and rip some CDs. In the evenings, I would write in my journal between changing discs and tracking down metadata. I realized how much I liked having this library of media I could manage and sort; I can be as anal as I want. 1500x1500px album art for everything, colour corrected, and accurate to my physical release. I had most of it on the media server, but I had to scan some. The stuff that I couldn't find online I uploaded to <i>albumartexchange.com</i> after I made my own scans.</p>
+                    <div class="block-quote">
+                        <p>I've ripped all of the original Smashing Pumpkins material, and now that I'm moving on to the late 2000's, I'm really seeing how badly these albums got hit by bad mastering and bad production. This modern stuff is just too loud! There's too much brickwalling and not enough dynamic range; I don't understand how someone like Billy Corgan—an artist who seems like he really cares—could let his music be massacred like this.</p>
+                        <p>The albums before Cyr weren't too bad, really; there was stuff to appreciate there. Zeitgeist is a decent album, but it's missing something. Still, it's mastered better than Oceania or Monuments to an Elegy. I liked Shiny and Oh So Bright, but you feel really fatigued after listening to it becuase it's such a loud album: the quiet parts have become so loud in mastering that there is no break for the listener. I think Machina suffered from that too, but it wasn't as bad back then as it is now.</p>
+                    </div>
+                    <p>I judged a lot of albums by their loudness. I've always known about perceived loudness, the loudness wars and how dynamic range affects our perception of music, but seeing the actual ReplayGain metadata coming off the disc turned those intangible feelings to actual facts. I felt like it was too loud, but now I can quantify how "too loud" it actually is. That was something very interesting I learned during this whole re-ripping process.</p>
+                    <div class="block-quote">
+                        <i><p>I've never wanted to be an audio snob and I never wanted to get into the whole mastering and lossless debates; those are two hostile camps that will die with their opinions. I've got to give it to them though, they have a point, they just take their points to an extreme. Well mastered music is nice to listen to, and so is music without artifacts that remind you you're listening to a recording.</p></i>
+                    </div>
+                    <h4>October 4th, 2024 – The CD Sorting System</h4>
+                    <p>There are so many ways to sort CD's, aren't there? You can sort anything any number of ways, if you're a certain kind of person: maybe you're the guy who tries his best to maintain a simple A-to-Z sort, or the girl who attempts to sort her books using the dewey decimal system. Maybe you're one of those sick people that organizes by spine colour; please, there's help out there. </p>
+                    <p>The topic of organization crossed my mind as I started from the top of the alphabet—<i>Alexisonfire, Audioslave, Asia</i>. Is this really where I want to put this back? Should I sort remasters of albums beside their originals, and do it by release date? Should I keep my compilations with the artists, or separate them into a separate section? Heavy questions of this nature weighed on my mind. </p>
+                    <p>I decided to take the leap and physically separate compilations into their own little area. Soundtracks already had a section, and they would be joined by said compilations—<i>The Essential Alice In Chains</i> had to say goodbye to <i>Alice In Chains: MTV Unplugged</i> and <i>Black Gives Way To Blue</i>. </p>
+                    <p>The metadata was a whole other story. I've always found iTunes hard to deal with, and I didn't like the way it was laid out. Throughout this process, I discovered that iTunes has everything you need to manage a CD library as big as mine. iTunes can seem overcomplicated to the casual user, but once you get in this deep, everything actually makes sense; I quite like iTunes now, and I take back everything terrible I ever said about it and it's family.</p>
+                    <p>Things are sorted differently on the iPod depending on which albums screen you're looking at. "Cover Flow" sorts by Album Artist then Album Name, but the "Albums" view sorts by Album Artist then Year then Album Name. To ensure that every album appears in correct chronological order (Artist->Year->Name), I went about setting the "Sort As" field for each album name. <i>The Dark Side of The Moon</i>—the seventh release by Pink Floyd—is sorted as "Pink Floyd 1.007" rather than just "Pink Floyd". It's more meticulous work that doesn't need to be done, but the result was satisfying and—I dare say—worth it. It satisfies an idiosyncrasy, I suppose. </p>
+                    <p>I took some inspiration from Nine Inch Nails' "Halo" system, where every release has a "Halo Number": <i>Pretty Hate Machine</i>—the band's first album and second overall release becomes "Halo 02" in their numbering system. My CD's are name</p>
+                    <h4>October 7th, 2024 – Ripping...37.7%</h4>
+                    <p>Every time I was done ripping an album, I would add its name to a list and divide the amount of items in the list by the amount of CD's in my collection: that's where I got the '37.7%' from. I excitedly watched that number go up, but it still felt like there was a long way to go.</p>
+                    <h4>October 13th, 2024 – Maybe In Another Few Years</h4>
+                    <div class="block-quote">
+                        <p>I don't think I've listened to Van Halen's OU812 since I was in high school, and there's a very good reason for that. I gave it another chance today, and after the fourt track, I looked over at my CD player execting it—wanting it—to be over. I can't figure out what it is about this album which doesn't sit well with me; I can find stuff to appreciate in everything I listen to, usually. I can with this, I suppose, but the negatives outweigh the positives. </p>
+                        <p>I get why people hated Van Hagar. Their other stuff isn't this bad—it's just OU812 that doesn't sit right with me. I bet this is the album that made people hate synths and swear that 'real rock music' would never use such electronic abominations. I get it, I'd hate synths in rock too if this was the first thing I heard.</p>
+                        <p>Maybe it's just the problem with the listneer, not the music. Maybe I've got to give it a couple of years.</p>
+                    </div>
+                    <h4>October 17th, 2024 – Ripping...47.7%</h4>
+                    <p>Where are all the people on YouTube with big CD collections like mine? The ones my age, I mean. All I can find are girls showing off their Taylor Swift CD's, or middle-aged men with really good music taste who have ten-thousand of them sitting on custom-built shelves.</p>
+                    <p>Not that I've got anything against Taylor Swift, I've got a couple of her albums too. It's not something I'd listen to all the time, but you've got to appreciate at least some of it. There's an odd stigma around Taylor Swift: you're either an extremist who would die for her, or you vehemently hate her for seemingly no reason other than that she's popular. It's an odd knee-jerk reaction; I don't have much of any feelings towards her at all.</p>
+                    <p>The only real thought I've had about Taylor Swift is something along the lines of "you've got a rabid fan base that'll praise anything you put out; you could do something truly revolutionary and interesting that nobody's ever done before, and you release...that?"</p>
+                    <h4>October 19th, 2024 – Ripping...52.7%</h4>
+                    <p>It's such a shame that Joe Strummer died; apparently, there was a Clash reunion in the works with new material. I have so much respect for that band. I think The Clash are one of the coolest groups in music. They were true music lovers: they appreciated so many different forms, and they were able to master their craft by looking into other disciplines to compliment their own. It's the most punk-rock thing to play stuff that isn't punk-rock. I wish we could've had that Clash reunion. Sometimes, I think about Joe strummer's death, and it gives me the same feeling as Jane Austen's. Imagine all that could've been...</p>
+
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <div id="footer-container"></div>
+    <script>
+        fetch("pages/templates/footer.html")
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById("footer-container").innerHTML = data;
+            });
+    </script>
+</body>

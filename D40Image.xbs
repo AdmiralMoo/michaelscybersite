@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><XnView_script version="1.0" name="D40Image">
+    <Set_DPI x="72" y="72" keep="false" active="false"/>
+    <Automatic_crop method="1" position="0" color="#000000" tolerance="0" direction="15" active="false"/>
+    <Crop method="1" value_1="10" value_2="0" value_3="10" value_4="10" active="false"/>
+    <Resize mode="0" width="50" height="50" unit="1" ratio="true" orientation="true" enlarge="0" resample="7" gamma_correct="false"/>
+    <Output folder="" filename="{Filename}" case="0" startIndex="0" format="WEBP">
+        <Options overwrite="0" orgDate="true" keepMeta="true" keepICC="true" keepFolder="false" checkFilesize="false" keepParentFolder="false" keepExtension="false" delOrg="false" multipage="false" allPages="false" openExplorer="false" beep="true" openBrowser="false" clearItems="true"/>
+        <WEBP method="0" quality="100" filesize="128" compress="4" strength="60" sharpness="0" preset="0" sharpyuv="false"/>
+    </Output>
+</XnView_script>
