@@ -11,7 +11,7 @@ function updateAlbumShowcase() {
     .then(data => {
         albumsDatabase = data; 
         console.log(albumsDatabase);
-
+        //currentAlbumIndex = albumsDatabase.length - 1;
         if (currentAlbumIndex === -1)
         {
             shuffleAlbum();
