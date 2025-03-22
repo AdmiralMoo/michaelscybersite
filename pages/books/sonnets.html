@@ -1,0 +1,445 @@
+<script src="/head-inject.js"></script>
+<head onloadstart="injectHead();">
+    <title>The Changelog</title>
+    <link rel="stylesheet" type="text/css" href="/assets/css/win98.css"/>
+    <link rel="stylesheet" type="text/css" href="/assets/css/books.css"/>
+    <style>
+        main p
+        {
+            font-family: 'EB Garamond', serif;
+            text-indent: 1em;
+        }
+        
+        .subheading-date
+        {
+            font-family: 'EB Garamond', serif;
+            font-style: italic;
+            text-indent: 0.25em;
+            padding-bottom:10px;
+            border-bottom: 1px solid black;
+        }
+        
+        h3
+        {
+            font-family: 'EB Garamond', serif;
+            font-style: italic;
+            font-weight: bolder;
+        }
+
+        .halfboxParent
+        {
+            gap:00px;
+        }
+
+        .halfboxChild p
+        {
+            text-align: left;
+        }
+        
+        /*overrides*/
+        .ImageHeader-Text
+        {
+            line-height: 1.90em;
+        }
+        .ImageHeader img
+        {
+            height:40vw;
+            width:100%;
+            object-fit:cover;
+        }
+
+        @media (max-width: 600px)
+        {
+            .ImageHeader img
+            {
+                height: 80vw;
+            }
+
+            .ImageHeader-Text
+            {
+                font-size: 1.2em;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div id="header-container"></div>
+    <script>
+        fetch("pages/templates/header.html")
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById("header-container").innerHTML = data;
+            });
+    </script>
+
+    <main>
+        <div class="maincontent-centred" style="min-height:60vh;">
+            
+            <div class="ImageHeader outsideborder">
+                <div class="insideborder" style="width: 100%;">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/William_Shakespeare_by_John_Taylor%2C_edited.jpg/800px-William_Shakespeare_by_John_Taylor%2C_edited.jpg">
+                </div>
+                <div class="ImageHeader-Text"><h1>Shakespeare's<br>Sonnets</h1></div>
+            </div>
+            <div class="body-box outsideborder">
+                <div class="body-box grid-box-container shrink-box">
+                    <div style="word-wrap: break-word;">
+                        <h3 style="font-family: 'Times New Roman', Times, serif; font-style:normal;">Contents</h3>
+                        <li><a href="pages/books/sonnets#sonnet54">Sonnet 54</li></a>
+                        <li><a href="pages/books/sonnets#sonnet34">Sonnet 34</li></a>
+                        <li><a href="pages/books/sonnets#sonnet66">Sonnet 66</li></a>
+                        <li><a href="pages/books/sonnets#sonnet75">Sonnet 75</li></a>
+                        <li><a href="pages/books/sonnets#sonnet122">Sonnet 12</li></a>
+                        <li><a href="pages/books/sonnets#sonnet28">Sonnet 28</li></a>
+                        <li><a href="pages/books/sonnets#sonnet87">Sonnet 87</li></a>
+                        <li><a href="pages/books/sonnets#sonnet148">Sonnet 14</li></a>
+                        <li><a href="pages/books/sonnets#sonnet123">Sonnet 12</li></a>
+                        <li><a href="pages/books/sonnets#sonnet94">Sonnet 94</li></a>
+                        <li><a href="pages/books/sonnets#sonnet123">Sonnet 12</li></a>
+                        <li><a href="pages/books/sonnets#sonnet106">Sonnet 10</li></a>
+                        <li><a href="pages/books/sonnets#sonnet8">Sonnet 8</li></a>
+                        <li><a href="pages/books/sonnets#sonnet60">Sonnet 60</li></a>
+                    </div>
+                </div>
+                <div class="box-container" style="padding:10px;">
+                    <p>From time to time, when I find myself in the mood for some good ol' <i>iambic pentameter</i>, I open my copy of <i>The Complete Works of William Shakespeare</i> (wow, I really sound like a nerd, don't I?) and pick a random sonnet. Recently, I read through them all in one go and found that I'd read almost all of them already; this page is a collection of my favourites.<br><br>Prithee, dear reader: do your best impressions of Sir Patrick Stewart.</p>
+                </div>
+            </div>
+
+            <div class="header-two-box outsideborder">
+                <h2>Favourites from Shakespeare's <i>Sonnets</i></h2>
+                <img src="../assets/images/icon_book_shakespeare.png">
+            </div>
+
+            <div class="halfboxParent">
+                <div class="halfboxChild">
+                    <div id="sonnet54" class="body-box outsideborder">
+                        <div class="box-container" style="padding:10px;">
+                            <h3>No. 54</h3>
+                                <p>O, how much more doth beauty beauteous seem</p>
+                                <p>By that sweet ornament which truth doth give.</p>
+                                <p>The rose looks fair, but fairer we it deem</p>
+                                <p>For that sweet odor which doth in it live.</p>
+                                <p>The canker blooms have full as deep a dye</p>
+                                <p>As the perfumèd tincture of the roses,</p>
+                                <p>Hang on such thorns, and play as wantonly</p>
+                                <p>When summer’s breath their maskèd buds discloses;</p>
+                                <p>But, for their virtue only is their show,</p>
+                                <p>They live unwooed and unrespected fade,</p>
+                                <p>Die to themselves. Sweet roses do not so;</p>
+                                <p>Of their sweet deaths are sweetest odors made.</p>
+                                <p>And so of you, beauteous and lovely youth,</p>
+                                <p>When that shall vade, by verse distils your truth.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="halfboxChild">
+                    <div id="sonnet34" class="body-box outsideborder">
+                        <div class="box-container" style="padding:10px;">
+                            <h3>No. 34</h3>
+                                <p>Why didst thou promise such a beauteous day</p>
+                                <p>And make me travel forth without my cloak,</p>
+                                <p>To let base clouds o’ertake me in my way,</p>
+                                <p>Hiding thy brav’ry in their rotten smoke?</p>
+                                <p>’Tis not enough that through the cloud thou break</p>
+                                <p>To dry the rain on my storm-beaten face,</p>
+                                <p>For no man well of such a salve can speak</p>
+                                <p>That heals the wound and cures not the disgrace.</p>
+                                <p>Nor can thy shame give physic to my grief;</p>
+                                <p>Though thou repent, yet I have still the loss.</p>
+                                <p>Th’ offender’s sorrow lends but weak relief</p>
+                                <p>To him that bears the strong offense’s cross.</p>
+                                <p>Ah, but those tears are pearl which thy love sheds,</p>
+                                <p>And they are rich and ransom all ill deeds.</p>
+                        </div>
+                    </div>
+                </div>                
+            </div>  
+
+            <div class="halfboxParent">
+                <div class="halfboxChild">
+                    <div class="halfboxChild">
+                        <div id="sonnet66" class="body-box outsideborder">
+                            <div class="box-container" style="padding:10px;">
+                                <h3>No. 66</h3>
+                                <p>Tired with all these, for restful death I cry,</p>
+                                <p>As to behold desert a beggar born,</p>
+                                <p>And needy nothing trimm’d in jollity,</p>
+                                <p>And purest faith unhappily forsworn,</p>
+                                <p>And gilded honour shamefully misplac’d,</p>
+                                <p>And maiden virtue rudely strumpeted,</p>
+                                <p>And right perfection wrongfully disgrac’d,</p>
+                                <p>And strength by limping sway disabled</p>
+                                <p>And art made tongue-tied by authority,</p>
+                                <p>And folly, doctor-like, controlling skill,</p>
+                                <p>And simple truth miscall’d simplicity,</p>
+                                <p>And captive good attending captain ill:</p>
+                                <p>Tir’d with all these, from these would I be gone,</p>
+                                <p>Save that, to die, I leave my love alone.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="halfboxChild">
+                    <div id="sonnet75" class="body-box outsideborder">
+                        <div class="box-container" style="padding:10px;">
+                            <h3>No. 75</h3>
+                            <p>So are you to my thoughts as food to life,</p>
+                            <p>Or as sweet-season’d showers are to the ground;</p>
+                            <p>And for the peace of you I hold such strife</p>
+                            <p>As ‘twixt a miser and his wealth is found.</p>
+                            <p>Now proud as an enjoyer, and anon</p>
+                            <p>Doubting the filching age will steal his treasure;</p>
+                            <p>Now counting best to be with you alone,</p>
+                            <p>Then better’d that the world may see my pleasure:</p>
+                            <p>Sometime all full with feasting on your sight,</p>
+                            <p>And by and by clean starved for a look;</p>
+                            <p>Possessing or pursuing no delight</p>
+                            <p>Save what is had, or must from you be took.</p>
+                            <p>Thus do I pine and surfeit day by day,</p>
+                            <p>Or gluttoning on all, or all away.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="halfboxParent">
+                <div class="halfboxChild">
+                    <div class="halfboxChild">
+                        <div id="sonnet122" class="body-box outsideborder">
+                            <div class="box-container" style="padding:10px;">
+                                <h3>No. 122</h3>
+                                <p>Thy gift, thy tables, are within my brain</p>
+                                <p>Full charactered with lasting memory,</p>
+                                <p>Which shall above that idle rank remain,</p>
+                                <p>Beyond all date, even to eternity:</p>
+                                <p>Or, at the least, so long as brain and heart</p>
+                                <p>Have faculty by nature to subsist;</p>
+                                <p>Till each to razed oblivion yield his part</p>
+                                <p>Of thee, thy record never can be missed.</p>
+                                <p>That poor retention could not so much hold,</p>
+                                <p>Nor need I tallies thy dear love to score;</p>
+                                <p>Therefore to give them from me was I bold,</p>
+                                <p>To trust those tables that receive thee more:</p>
+                                <p>To keep an adjunct to remember thee</p>
+                                <p>Were to import forgetfulness in me.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="halfboxChild">
+                    <div id="sonnet28" class="body-box outsideborder">
+                        <div class="box-container" style="padding:10px;">
+                            <h3>No. 28</h3>
+                                <p>How can I then return in happy plight,</p>
+                                <p>That am debarred the benefit of rest?</p>
+                                <p>When day’s oppression is not eas’d by night,</p>
+                                <p>But day by night and night by day oppress’d,</p>
+                                <p>And each, though enemies to either’s reign,</p>
+                                <p>Do in consent shake hands to torture me,</p>
+                                <p>The one by toil, the other to complain</p>
+                                <p>How far I toil, still farther off from thee.</p>
+                                <p>I tell the day, to please him thou art bright,</p>
+                                <p>And dost him grace when clouds do blot the heaven:</p>
+                                <p>So flatter I the swart-complexion’d night,</p>
+                                <p>When sparkling stars twire not thou gild’st the even.</p>
+                                <p>But day doth daily draw my sorrows longer,</p>
+                                <p>And night doth nightly make grief’s length seem stronger.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="halfboxParent">
+                <div class="halfboxChild">
+                    <div id="sonnet87" class="body-box outsideborder">
+                        <div class="box-container" style="padding:10px;">
+                            <h3>No. 87</h3>
+                                <p>Farewell! thou art too dear for my possessing,</p>
+                                <p>And like enough thou know’st thy estimate,</p>
+                                <p>The charter of thy worth gives thee releasing;</p>
+                                <p>My bonds in thee are all determinate.</p>
+                                <p>For how do I hold thee but by thy granting?</p>
+                                <p>And for that riches where is my deserving?</p>
+                                <p>The cause of this fair gift in me is wanting,</p>
+                                <p>And so my patent back again is swerving.</p>
+                                <p>Thy self thou gavest, thy own worth then not knowing,</p>
+                                <p>Or me to whom thou gav’st it else mistaking;</p>
+                                <p>So thy great gift, upon misprision growing,</p>
+                                <p>Comes home again, on better judgement making.</p>
+                                <p>Thus have I had thee, as a dream doth flatter,</p>
+                                <p>In sleep a king, but waking no such matter.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="halfboxChild">
+                    <div id="sonnet148" class="body-box outsideborder">
+                        <div class="box-container" style="padding:10px;">
+                            <h3>No. 148</h3>
+                                <p>O me, what eyes hath love put in my head,</p>
+                                <p>Which have no correspondence with true sight!</p>
+                                <p>Or if they have, where is my judgment fled,</p>
+                                <p>That censures falsely what they see aright?</p>
+                                <p>If that be fair whereon my false eyes dote,</p>
+                                <p>What means the world to say it is not so?</p>
+                                <p>If it be not, then love doth well denote</p>
+                                <p>Love’s eye is not so true as all men’s “no.”</p>
+                                <p>How can it? O, how can love’s eye be true,</p>
+                                <p>That is so vexed with watching and with tears?</p>
+                                <p>No marvel then though I mistake my view;</p>
+                                <p>The sun itself sees not till heaven clears.</p>
+                                <p>O cunning love, with tears thou keep’st me blind,</p>
+                                <p>Lest eyes well-seeing thy foul faults should find.</p>
+                        </div>  
+                    </div>
+                </div>
+            </div>
+            
+            <div class="halfboxParent">
+                <div class="halfboxChild">
+                    <div id="sonnet123" class="body-box outsideborder">
+                        <div class="box-container" style="padding:10px;">
+                            <h3>No. 123</h3>
+                                <p>No, Time, thou shalt not boast that I do change</p>
+                                <p>Thy pyramids built up with newer might</p>
+                                <p>To me are nothing novel, nothing strange;</p>
+                                <p>They are but dressings of a former sight.</p>
+                                <p>Our dates are brief, and therefore we admire</p>
+                                <p>What thou dost foist upon us that is old;</p>
+                                <p>And rather make them born to our desire</p>
+                                <p>Than think that we before have heard them told.</p>
+                                <p>Thy registers and thee I both defy,</p>
+                                <p>Not wondering at the present nor the past,</p>
+                                <p>For thy records and what we see doth lie,</p>
+                                <p>Made more or less by thy continual haste.</p>
+                                <p>This I do vow and this shall ever be;</p>
+                                <p>I will be true despite thy scythe and thee.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="halfboxChild">
+                    <div id="sonnet94" class="body-box outsideborder">
+                        <div class="box-container" style="padding:10px;">
+                            <h3>No. 94</h3>
+                                <p>They that have power to hurt, and will do none,</p>
+                                <p>That do not do the thing they most do show,</p>
+                                <p>Who, moving others, are themselves as stone,</p>
+                                <p>Unmoved, cold, and to temptation slow;</p>
+                                <p>They rightly do inherit heaven’s graces,</p>
+                                <p>And husband nature’s riches from expense;</p>
+                                <p>They are the lords and owners of their faces,</p>
+                                <p>Others, but stewards of their excellence.</p>
+                                <p>The summer’s flower is to the summer sweet,</p>
+                                <p>Though to itself, it only live and die,</p>
+                                <p>But if that flower with base infection meet,</p>
+                                <p>The basest weed outbraves his dignity:</p>
+                                <p>For sweetest things turn sourest by their deeds;</p>
+                                <p>Lilies that fester, smell far worse than weeds.</p>
+                        </div>  
+                    </div>
+                </div>
+            </div>
+
+            <div class="halfboxParent">
+                <div class="halfboxChild">
+                    <div id="sonnet123" class="body-box outsideborder">
+                        <div class="box-container" style="padding:10px;">
+                            <h3>No. 104</h3>
+                                <p>To me, fair friend, you never can be old,</p>
+                                <p>For as you were when first your eye I ey’d,</p>
+                                <p>Such seems your beauty still. Three winters cold,</p>
+                                <p>Have from the forests shook three summers’ pride,</p>
+                                <p>Three beauteous springs to yellow autumn turn’d,</p>
+                                <p>In process of the seasons have I seen,</p>
+                                <p>Three April perfumes in three hot Junes burn’d,</p>
+                                <p>Since first I saw you fresh, which yet are green.</p>
+                                <p>Ah! yet doth beauty like a dial-hand,</p>
+                                <p>Steal from his figure, and no pace perceiv’d;</p>
+                                <p>So your sweet hue, which methinks still doth stand,</p>
+                                <p>Hath motion, and mine eye may be deceiv’d:</p>
+                                <p>For fear of which, hear this thou age unbred:</p>
+                                <p>Ere you were born was beauty’s summer dead.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="halfboxChild">
+                    <div id="sonnet106" class="body-box outsideborder">
+                        <div class="box-container" style="padding:10px;">
+                            <h3>No. 106</h3>
+                                <p>When in the chronicle of wasted time</p>
+                                <p>I see descriptions of the fairest wights,</p>
+                                <p>And beauty making beautiful old rhyme,</p>
+                                <p>In praise of ladies dead and lovely knights,</p>
+                                <p>Then, in the blazon of sweet beauty’s best,</p>
+                                <p>Of hand, of foot, of lip, of eye, of brow,</p>
+                                <p>I see their antique pen would have express’d</p>
+                                <p>Even such a beauty as you master now.</p>
+                                <p>So all their praises are but prophecies</p>
+                                <p>Of this our time, all you prefiguring;</p>
+                                <p>And for they looked but with divining eyes,</p>
+                                <p>They had not skill enough your worth to sing:</p>
+                                <p>For we, which now behold these present days,</p>
+                                <p>Have eyes to wonder, but lack tongues to praise.</p>
+                        </div>  
+                    </div>
+                </div>
+            </div>
+            
+            <div class="halfboxParent">
+                <div class="halfboxChild">
+                    <div id="sonnet8" class="body-box outsideborder">
+                        <div class="box-container" style="padding:10px;">
+                            <h3>No. 8</h3>
+                                <p>Music to hear, why hear’st thou music sadly?</p>
+                                <p>Sweets with sweets war not, joy delights in joy:</p>
+                                <p>Why lov’st thou that which thou receiv’st not gladly,</p>
+                                <p>Or else receiv’st with pleasure thine annoy?</p>
+                                <p>If the true concord of well-tuned sounds,</p>
+                                <p>By unions married, do offend thine ear,</p>
+                                <p>They do but sweetly chide thee, who confounds</p>
+                                <p>In singleness the parts that thou shouldst bear.</p>
+                                <p>Mark how one string, sweet husband to another,</p>
+                                <p>Strikes each in each by mutual ordering;</p>
+                                <p>Resembling sire and child and happy mother,</p>
+                                <p>Who, all in one, one pleasing note do sing:</p>
+                                <p>Whose speechless song being many, seeming one,</p>
+                                <p>Sings this to thee: ‘Thou single wilt prove none.’</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="halfboxChild">
+                    <div id="sonnet60" class="body-box outsideborder">
+                        <div class="box-container" style="padding:10px;">
+                            <h3>No. 60</h3>
+                                <p>Like as the waves make towards the pebbled shore,</p>
+                                <p>So do our minutes hasten to their end;</p>
+                                <p>Each changing place with that which goes before,</p>
+                                <p>In sequent toil all forwards do contend.</p>
+                                <p>Nativity, once in the main of light,</p>
+                                <p>Crawls to maturity, wherewith being crowned,</p>
+                                <p>Crooked eclipses ‘gainst his glory fight,</p>
+                                <p>And Time that gave doth now his gift confound.</p>
+                                <p>Time doth transfix the flourish set on youth</p>
+                                <p>And delves the parallels in beauty’s brow,</p>
+                                <p>Feeds on the rarities of nature’s truth,</p>
+                                <p>And nothing stands but for his scythe to mow:</p>
+                                <p>And yet to times in hope, my verse shall stand</p>
+                                <p>Praising thy worth, despite his cruel hand.</p>
+                        </div>  
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <div id="footer-container"></div>
+    <script>
+        fetch("pages/templates/footer.html")
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById("footer-container").innerHTML = data;
+            });
+    </script>
+</body>

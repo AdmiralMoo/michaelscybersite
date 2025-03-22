@@ -11,11 +11,13 @@ function updateAlbumShowcase() {
     .then(data => {
         albumsDatabase = data; 
         console.log(albumsDatabase);
-        //currentAlbumIndex = albumsDatabase.length - 1;
+        
         if (currentAlbumIndex === -1)
         {
             shuffleAlbum();
         }
+
+        //currentAlbumIndex = albumsDatabase.length - 1;
 
         const albumShowcaseParent = document.getElementById("albumShowcaseBody");
         const showcaseAlbum = albumsDatabase[currentAlbumIndex];

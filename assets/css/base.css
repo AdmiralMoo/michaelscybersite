@@ -163,6 +163,11 @@ footer span
   {
     all: unset;
   }
+
+  .noformat
+  {
+    all: unset;
+  }
   
   .navbutton {
     background-color: white;
@@ -719,6 +724,7 @@ ul, li, ol
 .ImageHeader
 {
   max-width:100%;
+  min-width: 100%;
   position: relative;
   display: inline-block
 }
@@ -727,7 +733,7 @@ ul, li, ol
 {
   display: block;
   width:100%;
-  height:20%;
+  height:50vw;
   object-fit:cover;
   image-rendering:optimizeQuality;
 }
@@ -755,7 +761,7 @@ ul, li, ol
 
   .ImageHeader img
   {
-    height: 10%;
+    height: 80vw;
   }
 }
 
@@ -777,4 +783,91 @@ ul, li, ol
   width:256px;
   image-rendering: optimizeQuality;
   align-self: center;
+}
+
+/*for articles in article display boxes*/
+.articleContainer
+{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+}
+
+.articleContainer .navbutton:hover {
+  border-image: url("/assets/ui/Win98OutBorderFlash_WhiteSpinX.gif") 3;
+  border-image-repeat: repeat;
+}
+
+.articleCard
+{
+  display: flex;
+  flex-direction: column;
+  max-height: 256px;
+  height: fit-content;
+  flex: 1 1;
+
+  padding: 5px;
+  gap:5px;
+}
+
+.articleCard .articleTitle h3
+{
+  margin:0;
+  padding:0;
+}
+
+.articleCard .articleImage
+{
+  width: fit-content;
+}
+
+.articleCard .articleImage img
+{
+  width:128px;
+  height:128px;
+
+  max-width:100%;
+  max-height:100%;
+  object-fit: cover;
+}
+
+.articleCardContent
+{
+  display:flex;
+  flex-direction:row;
+}
+
+.articleCardContent .articleDescription 
+{
+  width: 100%;
+}
+
+.articleCardContent .articleDescription p
+{
+  text-align: left;
+  margin: 0.025em;
+  font-size: 0.8em;
+}
+
+.articleContainer .navbutton
+{
+    min-width:none;
+    width:none;
+    max-width:none;
+    flex: 1 1;
+}
+
+#articleContainer .navbutton
+{
+  width:100%;
+}
+
+@media (max-width:500px)
+{
+    .articleContainer
+    {
+        min-width:100%;
+        flex-direction:column;
+    }
 }

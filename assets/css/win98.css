@@ -9,6 +9,8 @@ Header And Navbutton Properties
 
 .navbutton:hover {
     background-color:rgb(224, 224, 224);
+    border-image: url("/assets/ui/Win98OutBorder.png") 3;
+    border-image-repeat: repeat;
 }
 
 .navbutton:active  {
