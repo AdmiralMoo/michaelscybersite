@@ -347,6 +347,12 @@ main
       max-width: 90vw;
   }
 }
+
+.spacer
+{
+  padding-top:5px;
+  padding-bottom:5px;
+}
 /*
 Formatting for header boxes
 */
@@ -388,6 +394,35 @@ Formatting for header boxes
 {
   max-height: 30px;
   min-height: 25px;
+  width: auto; 
+  object-fit: contain;
+}
+
+.header-construction-box
+{
+  width: 100%;
+
+  display: flex; 
+  justify-content: space-between;
+  margin:0px;
+  padding:7px;
+
+  color: black;
+  text-shadow: 1px 1px 1px white;
+  background: yellow;
+}
+
+.header-construction-box p
+{
+  margin:0;
+  font-weight:bolder;
+  font-style:italic;
+}
+
+.header-construction-box img
+{
+  max-height: 22px;
+  min-height: 22px;
   width: auto; 
   object-fit: contain;
 }
