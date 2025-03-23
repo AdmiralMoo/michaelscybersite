@@ -94,6 +94,32 @@
                 flex: 50%;
             }
         }
+
+                /*overrides*/
+                .ImageHeader-Text
+        {
+            line-height: 1.90em;
+        }
+
+        .ImageHeader img
+        {
+            height:40vw;
+            width:100%;
+            object-fit:cover;
+        }
+
+        @media (max-width: 600px)
+        {
+            .ImageHeader img
+            {
+                height: 80vw;
+            }
+
+            .ImageHeader-Text
+            {
+                font-size: 1.2em;
+            }
+        }
     </style>
 </head>
 
@@ -113,6 +139,12 @@
             <div class="header-one-box outsideborder">
                 <h1>Tapes</h1>
                 <img src="./assets/images/dsotm_256.webp">
+            </div>
+            <div class="ImageHeader outsideborder">
+                <div class="insideborder">
+                    <img src="/assets/pictures/DSC_180790.webp">
+                </div>
+                <div class="ImageHeader-Text"><h1>Cassette Tapes</h1></div>
             </div>
 
             <div class="body-box outsideborder stacked">

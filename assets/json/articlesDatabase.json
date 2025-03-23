@@ -1,0 +1,51 @@
+[
+    {
+        "category":"books",
+        "name": "The Essays of Samuel Johnson",
+        "description": "A collection of my favourite essays by Samuel Johnson from his books \"The Rambler\", \"The Adventurer\" and \"The Idler\"",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Samuel_Johnson_Statue.jpg/1920px-Samuel_Johnson_Statue.jpg",
+        "link": "/pages/books/sjohnson"
+    },
+    {
+        "category":"books",
+        "name": "Shakespeare's Sonnets",
+        "description": "A collection of my favourite sonnets by William Shakespeare",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/William_Shakespeare_by_John_Taylor%2C_edited.jpg/800px-William_Shakespeare_by_John_Taylor%2C_edited.jpg",
+        "link": "/pages/books/sonnets"
+    },
+    {
+        "category":"music-x",
+        "name": "The Great Re-Ripping",
+        "description": "Remembering that time I re-ripped all five-hundred-something of my CDs because I wanted to switch to lossless on my iPod.",
+        "image": "/assets/pictures/DSC_183277.webp",
+        "link": "/pages/music/greatreripping"
+    },
+    {
+        "category":"music",
+        "name": "The Vertical Album Phenomenon",
+        "description": "Have you ever noticed all those Grunge albums with the vertical text? Or those albums from the 1990's with the typewriter fonts? This is a collection of albums of not too dissimilar origin which have similar cover design.",
+        "image": "/assets/pictures/DSC_193548.webp",
+        "link": "/pages/music/verticalalbums"
+    },
+    {
+        "category":"music-x",
+        "name": "The Skin Yard Fanpage",
+        "description": "Possibly the only fan page on the internet dedicated to <i>Skin Yard</i>: one of Grunge's pioneers.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Skin_Yard-1988.jpg/220px-Skin_Yard-1988.jpg",
+        "link": "/pages/music/skinyard"
+    },
+    {
+        "category":"music",
+        "name": "My CD Collection",
+        "description": "A very basic page which displays the album art of all my CD's. It might be better to take a look on Discogs for now. ",
+        "image": "/assets/pictures/DSC_185398.webp",
+        "link": "/pages/music/cds"
+    },
+    {
+        "category":"music",
+        "name": "My Tape Collection",
+        "description": "A very basic page which shows my cassette tape collection",
+        "image": "/assets/pictures/DSC_180790.webp",
+        "link": "/pages/music/cassettes"
+    }
+]

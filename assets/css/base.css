@@ -9,6 +9,19 @@ body {
     background-color: #000000;
   }
 
+  /*animate stuff: don't want that to run when the page first loads...
+  p, li, ol, ul, h1, h2, h3, h4, h5, text, span
+  {
+    transition: font-size 0.1s ease;
+  }
+    */
+
+img
+{
+  transition: width 1s ease;
+  transition: height 1s ease;
+}
+
 /*
 Header
 */
@@ -338,9 +351,13 @@ main
     display: flexbox;
     justify-content: center;
 
+    
     min-width:400px;
     width: 60vw;
     max-width: 60vw;
+
+    transition: max-width 0.5s ease;
+    transition: width 0.5s ease;
 }
 
 @media (max-width: 1200px)
@@ -789,8 +806,7 @@ ul, li, ol
 .articleContainer
 {
     display:flex;
-    flex-direction: row;
-    justify-content: center;
+    flex-wrap: wrap;
     align-items: stretch;
 }
 
@@ -801,11 +817,11 @@ ul, li, ol
 
 .articleCard
 {
+  flex: 30%;
   display: flex;
   flex-direction: column;
   max-height: 256px;
   height: fit-content;
-  flex: 1 1;
 
   padding: 5px;
   gap:5px;
@@ -815,11 +831,6 @@ ul, li, ol
 {
   margin:0;
   padding:0;
-}
-
-.articleCard .articleImage
-{
-  width: fit-content;
 }
 
 .articleCard .articleImage img
@@ -855,7 +866,7 @@ ul, li, ol
     min-width:none;
     width:none;
     max-width:none;
-    flex: 1 1;
+    flex: 30%;
 }
 
 #articleContainer .navbutton
@@ -863,11 +874,28 @@ ul, li, ol
   width:100%;
 }
 
+@media (max-width:900px)
+{
+  .articleCard
+  {
+    display: flex;
+    flex: 50%;
+
+    padding: 5px;
+    gap:5px;
+  }
+
+  .articleContainer .navbutton
+  {
+    flex: 50%;
+  }
+}
+
 @media (max-width:500px)
 {
-    .articleContainer
-    {
-        min-width:100%;
-        flex-direction:column;
-    }
+  .articleContainer
+  {
+      min-width:100%;
+      flex-direction:column;
+  }
 }

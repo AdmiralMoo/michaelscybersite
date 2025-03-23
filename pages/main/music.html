@@ -31,11 +31,6 @@
                             <li><a href="pages/main/music.html#topalbums">My Top Albums By Month</li></a>
                             <li><a href="pages/main/music.html#recommendations">Album Recommendations</li></a>
                             <li><a href="pages/main/music.html#alltimefavouritemusic">My All-Time Favourites</li></a>
-                            <li><a href="pages/music/statterpage.html"><i>The Music Statter</i> monthly stats</a></li>
-                            <li><a href="pages/music/verticalalbums.html">Album Design Parallels</li></a>
-                            <li><a href="pages/music/cds.html">My CD Collection</li></a>
-                            <li><a href="pages/music/cassettes.html">My Cassette Collection</li></a>
-                            <!--<li><s>The CD Chronicles</s></a></li>-->
                         <h4>Elsewhere On The Web</h4>
                             <li><a href="https://www.discogs.com/user/AngryTurboprop/collection?header=1&folder=3927445">My CD Collection on <i>Discogs</i></a></li>
                             <li><a href="https://www.discogs.com/user/AngryTurboprop/collection?header=1&folder=4725050">My Classical Music CD Collection on <i>Discogs</i></a></li>
@@ -71,6 +66,18 @@
                             <p>Next Month</p>
                         </div>
                     </a>
+                </div>
+            </div>
+
+            <div class="spacer"></div>
+
+            <!--Articles Loader-->
+            <div class="header-two-box outsideborder">
+                <h2>Featured Pages</h2>
+                <img src="../assets/images/icon_book_shakespeare.png">
+            </div>
+            <div class="body-box outsideborder" style="flex-direction: column; gap:0px;">
+                <div  id="articleContainer" class="articleContainer noformat">
                 </div>
             </div>
 
@@ -261,6 +268,8 @@
     <script src="./scripts/album-showcase.js"></script>
     <script src="./scripts/most-listened-music.js"></script>
     <script src="./scripts/scrolling-albums.js"></script>
+    <script>var currentPageCategory = "music";</script>
+    <script src="./scripts/articlesLoader.js"></script>
 
     <div id="footer-container"></div>
     <script>
