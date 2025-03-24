@@ -764,5 +764,30 @@
         ],
         "applemusic":"https://music.apple.com/us/album/blind-melon/725821342",
         "spotify":"https://open.spotify.com/artist/5sD1ZLf2dGQ9gQ3YJl1eAd"
+    },
+    {
+        "artist": "Panic At The Disco",
+        "album": "Pray For The Wicked",
+        "year": "2018",
+        "cover": "https://en.wikipedia.org/wiki/File:Pray_for_the_Wicked.png",
+        "description": "One of the worst albums I've ever had the displeasure of not only listening to, but also owning a physical copy of. Some of the songs are mildly catchy at first—they're written to be so—but they just get irritating. I don't feel this way about a lot of music; usually, I can find something to enjoy and appreciate in everything. There's just something about this album that cannot be enjoyed.<br><br>At first, this magic box was going to be album recommendations, but with the addition of this album, it's just commentary on all the albums I've ever owned.<br><br>If you like this album, good on you. I just can't get through the whole thing. People rag on Jared Leto, but the guy is actually half talented; he can write enjoyable songs and good music. Brendon Urie? He's always been insufferable, and the less of the band is in the band (this was a solo album, essentially), the more insufferable he becomes. It's one of the few albums I've purged from my collection; thankfully, I sold it!<br><br>I'm glad Brendon Urie said 'Amen' and disbanded this putrid act; dancing's not a crime, but this album should be one: it's got me standing on the overpass, dying in LA becuase my ears were assulted by it. ",
+        "genre": "Pop",
+        "rating" : "5",
+        "duration": "34:17",
+        "tracks": [
+            "(Fuck A) Silver Lining",
+            "Say Amen (Saturday Night)",
+            "Hey Look Ma, I Made It",
+            "High Hopes",
+            "Roaring 20s",
+            "Dancing's Not a Crime",
+            "One of the Drunks",
+            "The Overpass",
+            "King of the Clouds",
+            "Old Fashioned",
+            "Dying in LA"
+        ],
+        "applemusic":"https://music.apple.com/us/album/blind-melon/725821342",
+        "spotify":"https://open.spotify.com/artist/5sD1ZLf2dGQ9gQ3YJl1eAd"
     }
 ]

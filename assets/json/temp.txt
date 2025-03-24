@@ -1,0 +1,30 @@
+,
+    {
+        "artist": "The Rembrandts",
+        "album": "L.P.",
+        "year": "1995",
+        "cover": "I picked this album off the shelf at the thrift store becuase of the font on the spine, and I bought it because it had the theme from <i>Friends</i>. ",
+        "description": "./assets/albumart/the rembrandts - lp.jpg",
+        "genre": "Soft Rock",
+        "rating" : "70",
+        "duration": "62:15",
+        "tracks": [
+            "End of the Beginning",
+            "Easy to Forget",
+            "My Own Way",
+            "Don't Hide Your Love",
+            "Drowning In Your Tears",
+            "This House Is Not A Home",
+            "April 29",
+            "Lovin' Me Insane",
+            "There Goes Lucy",
+            "As Long as I Am Breathing",
+            "Call Me",
+            "Comin' Home",
+            "What Will It Take",
+            "The Other Side of The Night",
+            "I'll Be There For You"
+        ],
+        "applemusic":"https://music.apple.com/us/album/blind-melon/725821342",
+        "spotify":"https://open.spotify.com/artist/5sD1ZLf2dGQ9gQ3YJl1eAd"
+    }
