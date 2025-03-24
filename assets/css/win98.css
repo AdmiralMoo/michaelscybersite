@@ -24,6 +24,30 @@ Header And Navbutton Properties
     background-color:red;
 }
 
+.button-generic {
+    background-color: #c0c0c0;
+  }
+  
+.button-generic:hover {
+    background-color:rgb(224, 224, 224);
+    border-image: url("/assets/ui/Win98OutBorder.png") 3;
+    border-image-repeat: repeat;
+    filter: brightness(1.25);
+}
+
+.button-generic:active  {
+    background-color:rgb(136, 136, 136);
+    border-image: url("/assets/ui/Win98OutBorderInv.png") 3;
+    filter: brightness(0.9);
+}
+
+.button-generic:disabled 
+{
+    background-color:red;
+    filter: brightness(1.0);
+    filter: saturate(0.0);
+}
+
 /*
 Border properties
 */
@@ -56,6 +80,10 @@ Overrides For Borders & Colours
 */
 
 .body-box {
+    background-color: #c0c0c0;
+}
+
+.body-fill {
     background-color: #c0c0c0;
 }
 

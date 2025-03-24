@@ -1,0 +1,59 @@
+/*The image carousel itself*/
+.image-carousel-parent
+{
+    height: fit-content;
+    width:100%;
+}
+
+/*The active image of the carousel*/
+.image-carousel-activeimg
+{
+    display:flex;
+    justify-content:center;
+
+    padding:1%;
+}
+
+.image-carousel-activeimg img
+{
+    width: 100%;
+    max-width: 660px;
+}
+
+/*The filmstrip obeject which holds image icon buttons*/
+.image-carousel-filmstrip
+{
+    display: flex;
+    flex-direction: row;
+
+    padding:0.5%;
+}
+
+/*Buttons on the carousel to select images*/
+.carousel-button
+{
+    flex: 25%;
+    padding:0.25%;
+
+    border-width: 7px;
+}
+
+.carousel-button img
+{
+    object-fit: fill;
+    max-width:100%;
+    min-width:100%;
+}
+
+/*Buttons to advance to the next and previous rows of images*/
+.carousel-selector-button
+{
+    font-size:1.5em;
+    display:flex;
+    line-height: 0;
+}
+
+.carousel-selector-button span
+{
+    margin:auto;
+}

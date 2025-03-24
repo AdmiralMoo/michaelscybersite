@@ -126,12 +126,12 @@ footer span
   .TopHeader {
     display:flex;
     flex-direction: column;
-    padding: 10px;
+    padding: 5px;
     z-index: 10;
     justify-content: center;
     align-items: center;
     max-height: 386px;
-    min-height:256px;
+    min-height:215px;
   }
 
   .sitelogo 
@@ -150,9 +150,15 @@ footer span
 
   .sitelogo img
   {
+    display:flex;
+    align-self: center;
+    align-items: center;
+    justify-self: center;
+    justify-content: center;
+
     object-fit: stretch;
     height: 100%;
-    width: 100%;
+    width: 105%;
 
     image-rendering: optimizeSpeed;             /* STOP SMOOTHING, GIVE ME SPEED  */
     image-rendering: -moz-crisp-edges;          /* Firefox                        */
@@ -167,7 +173,7 @@ footer span
   .nav-bar {
     display: flex;
     flex-direction:row;
-    padding-top: 30px;
+    padding-top:5px;
     justify-content: center;
     align-items: center;
   }
@@ -271,6 +277,7 @@ footer span
       display:flex;
       flex-wrap:wrap;
       width: 100%;
+      padding-top:25px;
     }
   }
 
@@ -452,6 +459,12 @@ Formatting for header boxes
 /*
 Formatting for body boxes
 */
+
+.body-fill
+{
+  background-color: white;
+}
+
 .body-box {
     width: 100%;
     display: flex;
@@ -898,4 +911,26 @@ ul, li, ol
       min-width:100%;
       flex-direction:column;
   }
+}
+
+/* GENERIC BUTTONS */
+.button-generic {
+  background-color: white;
+}
+
+.button-generic:hover {
+  background-color:lime;
+  filter: brightness(1.25);
+}
+
+.button-generic:active  {
+  background-color:yellow;
+  filter: brightness(0.9);
+}
+
+.button-generic:disabled 
+{
+  background-color:red;
+  filter: brightness(1.0);
+  filter: saturate(0.0);
 }
