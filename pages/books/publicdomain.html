@@ -1,0 +1,129 @@
+<script src="/head-inject.js"></script>
+<head onloadstart="injectHead();">
+    <title>Public Domain Books</title>
+    <link rel="stylesheet" type="text/css" href="/assets/css/win98.css"/>
+    <link rel="stylesheet" type="text/css" href="/assets/css/books.css"/>
+    <style>
+        main p
+        {
+            font-family: 'EB Garamond', serif;
+            text-indent: 1em;
+        }
+        
+        .subheading-date
+        {
+            font-family: 'EB Garamond', serif;
+            font-style: italic;
+            text-indent: 0.25em;
+            padding-bottom:10px;
+            border-bottom: 1px solid black;
+        }
+        
+        h3
+        {
+            font-family: 'EB Garamond', serif;
+            font-style: italic;
+            font-weight: bolder;
+        }
+        
+        /*overrides*/
+        .ImageHeader-Text
+        {
+            line-height: 1.90em;
+        }
+        .ImageHeader img
+        {
+            height:35vw;
+        }
+
+        @media (max-width: 600px)
+        {
+            .ImageHeader img
+            {
+                height: 70vw;
+            }
+
+            .ImageHeader-Text
+            {
+                font-size: 1.2em;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div id="header-container"></div>
+    <script>
+        fetch("pages/templates/header.html")
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById("header-container").innerHTML = data;
+            });
+    </script>
+
+    <main>
+        <div class="maincontent-centred" style="min-height:60vh;">
+            
+            <div class="ImageHeader outsideborder">
+                <div class="insideborder">
+                    <img src="https://1drv.ms/i/c/19eb4e25e0b8e9bb/IQRTlAZoTuOPTKIuiaNv4gSnAV_sJdBXeIf9YKVjulG8osA?width=644">
+                </div>
+                <div class="ImageHeader-Text"><h1></h1></div>
+            </div>
+            <div class="header-construction-box outsideborder">
+                <img src="./assets/images/Warning.png">
+            </div>
+            <div class="body-box outsideborder">
+                <div class="body-box grid-box-container shrink-box">
+                    <div style="word-wrap: break-word;">
+                        <h3 style="font-family: 'Times New Roman', Times, serif; font-style:normal;">Contents</h3>
+                        <li><a href="pages/books/publicdomain#persuasion">Jane Austen's <i>Persuasion</i></li></a>
+                        <li><a href="pages/books/publicdomain#">Owen Wister's <i>The Virginian</i></a></li>
+                        <li><a href="pages/books/publicdomain#">Thomas Hardy's <i>Far From The Madding Crowd</i></a></li>
+                        <li><a href="pages/books/publicdomain#">James Joyce's <i>Ulysses</i></a></li>
+                        <h3 style="font-family: 'Times New Roman', Times, serif; font-style:normal;">Also Check Out...</h3>
+                            <li><a href="">Free (Legal) Digital Book Sites</a></li>
+                    </div>
+                </div>
+                <div class="box-container" style="padding:10px;">
+                    <p>While I enjoy reading physical books most, I think that having access to books, literature, arts and entertainment is very important—it's one of my favourite things about the internet. The original vision of this framework was to lower barriers to access and allow everyone to take advantage of this collective knowledge commons. As the distribution of information is stifled and censored by governments and monopolistic companies, there are some sites still carrying the torch of the World Wide Web's original vision.<br><br>Not all of those sites are legal, though.<br><br>The whole issue is a big one, and on this page, I'm just recommending some books. I've read them all, and I enjoyed them a lot, and you can read them for free right now. Isn't that cool?</p>
+                </div>
+            </div>
+
+            <div class="spacer"></div>
+
+            <div class="header-two-box outsideborder">
+                <h2>Jane Austen's <i>Persuasion</i></h2>
+            </div>
+            <div id="persuasion" class="body-box outsideborder">
+                <div class="box-container" style="padding:10px;">
+                    <div class="subheading-date">December 20th, 1817</div>
+                    <p>
+                        This was Jane Austen's last completed work before her death in 1817; as such, it's her most polished and streamlined work. You can feel that she's a much more mature and complete author, and it makes me feel sad about the idea of what could've come after had she not died so early.
+                    </p>
+                    <p>
+                        This book follows Anne Elliot - a woman born into an upper middle-class family of seven-and-twenty years. Eight years prior, she'd fallen in love with Frederick Wentworth, but her family persuaded her against marrying him because he was young and unproven. Wentworth returns as a storied Captain of the Navy and veteran of the Napoleonic wars. Most importantly, he's still single, leaving room for Anne to hope they can get back together.
+                    </p>
+                    <p>
+                        I guess you could say that not much happens over the course of the book, but I was enthralled throughout the whole thing. It's a brooding, suspenseful book, filled with tension, doubt and questioning throughout which kept me engaged over the two days I read it. It transports you into this world where people lived so differently than we do now. It was simpler, but at the same time, equally as complex in its own ways. It's so interesting to think that while farmers were living lives not too dissimilar to Thomas Hardy's <i>Far From The Madding Crowd</i> not too far away, there were people like the Elliots going about their business. 
+                    </p>
+                    <p>
+                        I enjoyed the descriptions of their way of life, and I enjoyed the overall story between Anne and Fredrick. Jane Austen has quickly become one of my favourite authors; I just really enjoy the worlds she builds and the way she writes. She lets you get into the minds of her characters who are put into complex social situations. 
+                    </p>
+                    <p>
+                        In particular, I also really liked the main character, Anne Elliot. I found her to be very likeable and mature right from the get-go. 
+                    </p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <div id="footer-container"></div>
+    <script>
+        fetch("pages/templates/footer.html")
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById("footer-container").innerHTML = data;
+            });
+    </script>
+</body>
