@@ -8,19 +8,20 @@
 .header-one-box, .header-two-box
 {
   color: #FFFFFF;
-  background-image: linear-gradient(to right, #800000 , #d01010);
+  background-image: linear-gradient(to right, #1c1c22 , #4e5472);
 }
 
 /*The Terminator Box*/
 .terminator-box-parent
 {
-  width: 30%;
   height: 256px;
+  max-width:300px;
 
   border: 4px outset;
 
   display: flex;
   flex-direction: column;
+  justify-content: center;
   
   background-color:black;
 
@@ -41,4 +42,77 @@
 
   margin-top:0;
   margin-bottom:0;
+}
+
+@media (max-width:500px)
+{
+  .terminator-box-parent
+  {
+    max-width: 100%;
+    width:100%;
+  }
+}
+
+/*Formatting for the movie list package thing*/
+.grid-box-movie
+{
+    flex: 0 0 calc(100% / 5);
+    word-wrap: break-word;
+}
+
+.grid-box-movie img
+{
+    object-fit: fill;
+    max-width: 100%;
+    min-width: 100%;
+    height:auto;
+    flex-grow:1;
+}
+
+.grid-box-container
+{
+    display:flex;
+    flex-wrap:wrap;
+    align-items:flex-start;
+}
+
+.grid-box-movie img:hover {
+  border:4px solid;
+  border-image: url("/assets/ui/Win98OutBorderFlash_Green.gif") 3;
+  border-image-repeat: repeat;
+}
+
+.grid-box-container > *
+{
+    text-align: center;
+}
+
+@media(max-width:900px)
+{
+    .body-box .grid-box-container
+    {
+        flex-direction: row;
+        word-wrap: break-word;
+    }
+
+    .grid-box-movie
+    {
+      flex: 0 0 calc(100% / 3);
+    }
+}
+
+@media(max-width:600px)
+{
+    .body-box .grid-box-container
+    {
+        flex-direction: row;
+        word-break: break-all;
+        word-wrap: break-word;
+        font-size: 1.0em;
+    }
+
+    .grid-box-movie
+    {
+      flex: 0 0 calc(100% / 2);
+    }
 }
