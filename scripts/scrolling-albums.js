@@ -51,3 +51,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
     setInterval(createAlbum, 1000);
 });
+
+/*
+I need to rewrite the scrolling albums and scrolling books scripts so that they use a fixed array of images, and those images just get reassigned when they go off screen. it'll be a much more efficient and optimized way to do things. Object pooling, I think we call it in the industry*/
