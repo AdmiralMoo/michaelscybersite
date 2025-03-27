@@ -1,5 +1,6 @@
-<script src="/head-inject.js"></script>
-<head onloadstart="injectHead();">
+<head>
+    <script src="/head-inject.js"></script>
+
     <title>Album Cover Design Parallels</title>
     <link rel="stylesheet" type="text/css" href="/assets/css/win98.css"/>
     <link rel="stylesheet" type="text/css" href="/assets/css/music.css"/>
@@ -81,15 +82,6 @@
 </head>
 
 <body>
-    <div id="header-container"></div>
-    <script>
-        fetch("pages/templates/header.html")
-            .then(response => response.text())
-            .then(data => {
-                document.getElementById("header-container").innerHTML = data;
-            });
-    </script>
-
     <main>
         <div class="maincontent-centred" style="min-height:60vh;">
             <div class="header-one-box outsideborder">
@@ -109,6 +101,7 @@
                     <img src="/assets/pictures/DSC_193548.webp">
                 </div>
                 <div class="ImageHeader-Text"><h1>The Vertical<br>Album Phenomenon</h1></div>
+                <div class="ImageHeader-MyPhoto">Photo: MichaelsCybersite.net, 2025</div>
             </div>
 
             <!--The Vertical Album Phenomenon-->

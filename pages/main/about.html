@@ -1,5 +1,6 @@
-<script src="/head-inject.js"></script>
-<head onloadstart="injectHead();">
+<head>
+    <script src="/head-inject.js"></script>
+
     <title>Michael's Cybersite - About</title>
     <link rel="stylesheet" type="text/css" href="/assets/css/win98.css"/>
     <style>
@@ -12,15 +13,6 @@
 </head>
 
 <body>
-    <div id="header-container"></div>
-    <script>
-        fetch("pages/templates/header.html")
-            .then(response => response.text())
-            .then(data => {
-                document.getElementById("header-container").innerHTML = data;
-            });
-    </script>
-
     <main>
         <div class="maincontent-centred">
             <!--About Page Header-->
@@ -59,7 +51,7 @@
                         I started this site in September of 2024 to learn CSS and HTML. I've been interested in making my own website since I played around with the web builder in Microsoft Publisher 2003, but I haven't gotten around to learning it for real until now. 
                     </p>
                     <p>
-                        I'm trying to grow this into a platform where I can show off my creations, store my lists and compendiums. I'm very passionate about the things I'm interested in, so this is a great way to indulge those interests further. 
+                        I'm trying to grow this into a platform where I can show off my creations, store my lists and compendiums. I'm very passionate about the things I'm interested in, so this is a great way to indulge those interests further. This is the ultimate ongoing project!
                     </p>
                 </div>
                 <a id="noformat" href="/pages/main/changelog.html">
@@ -263,15 +255,6 @@
             </div>
         </div>
     </main>
-
-    <div id="footer-container"></div>
-    <script>
-        fetch("pages/templates/footer.html")
-            .then(response => response.text())
-            .then(data => {
-                document.getElementById("footer-container").innerHTML = data;
-            });
-    </script>
 </body>
 
 <!--

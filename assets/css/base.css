@@ -782,6 +782,26 @@ ul, li, ol
   border-radius: 5px;
 }
 
+.ImageHeader-MyPhoto
+{
+  position: absolute;
+  bottom:0.1em;
+  right:0.5em;
+  color: #858585;  /* Text color (lime green as in your mockup) */
+  font-size: 1em; /* Adjust font size */
+  font-weight: bold;
+  line-height: 1.7em;
+
+  mix-blend-mode:luminosity;
+
+  transition: color 0.1s ease-in-out;
+}
+
+.ImageHeader-MyPhoto:hover
+{
+  color:#FFFFFF;
+}
+
 @media (max-width: 600px)
 {
   .ImageHeader-Text

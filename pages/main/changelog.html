@@ -1,5 +1,5 @@
-<script src="/head-inject.js"></script>
-<head onloadstart="injectHead();">
+<head>
+    <script src="/head-inject.js"></script>
     <title>The Changelog</title>
     <link rel="stylesheet" type="text/css" href="/assets/css/win98.css"/>
     <link rel="stylesheet" type="text/css" href="/assets/css/music.css"/>
@@ -13,21 +13,19 @@
 </head>
 
 <body>
-    <div id="header-container"></div>
-    <script>
-        fetch("pages/templates/header.html")
-            .then(response => response.text())
-            .then(data => {
-                document.getElementById("header-container").innerHTML = data;
-            });
-    </script>
-
     <main>
         <div class="maincontent-centred" style="min-height:60vh; font-family: Arial, Helvetica, sans-serif; color:yellow;">
             <h1>
                 The Changelog 
             </h1>
 
+            <h2>03/26/25–1 Commit</h2>
+                <li>Changed 'noformat' IDs to Classes</li>
+                <li>Added a label for photos on pages which are mine</li>
+                <li>Header and footer injection has been migrated to head-inject.js to simplify page templates</li>
+                <li>Rewrote the way header and footer injection works. It's twice as streamlined and five times as nifty!</li>
+                <li>The 'last updated' section of the footer is now dynamically updated</li>
+                <li>Fixed page tab name for the Movies page</li>
             <h2>03/25/25–1 Commit</h2>
                 <li>The Movies page is now live!</li>
                 <li>Completed JavaScript programming for "days since I've watched The Terminator"</li>
@@ -340,13 +338,4 @@
                 <li>Added links section</li>
         </div>
     </main>
-
-    <div id="footer-container"></div>
-    <script>
-        fetch("pages/templates/footer.html")
-            .then(response => response.text())
-            .then(data => {
-                document.getElementById("footer-container").innerHTML = data;
-            });
-    </script>
 </body>

@@ -1,5 +1,6 @@
-<script src="/head-inject.js"></script>
-<head onloadstart="injectHead();">
+<head>
+    <script src="/head-inject.js"></script>
+
     <title>Tapes</title>
     <link rel="stylesheet" type="text/css" href="/assets/css/win98.css"/>
     <link rel="stylesheet" type="text/css" href="/assets/css/music.css"/>
@@ -124,15 +125,6 @@
 </head>
 
 <body>
-    <div id="header-container"></div>
-    <script>
-        fetch("pages/templates/header.html")
-            .then(response => response.text())
-            .then(data => {
-                document.getElementById("header-container").innerHTML = data;
-            });
-    </script>
-
     <main>
         <div class="maincontent-centred" style="min-height:60vh;">
             <!--Music Page Header-->
@@ -145,6 +137,7 @@
                     <img src="/assets/pictures/DSC_180790.webp">
                 </div>
                 <div class="ImageHeader-Text"><h1>Cassette Tapes</h1></div>
+                <div class="ImageHeader-MyPhoto">Photo: MichaelsCybersite.net, 2024</div>
             </div>
 
             <div class="body-box outsideborder stacked">
@@ -178,13 +171,4 @@
                     .catch(error => console.error("Error loading album images:", error));            
             </script>
     </main>
-
-    <div id="footer-container"></div>
-    <script>
-        fetch("pages/templates/footer.html")
-            .then(response => response.text())
-            .then(data => {
-                document.getElementById("footer-container").innerHTML = data;
-            });
-    </script>
 </body>

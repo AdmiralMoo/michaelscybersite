@@ -1,19 +1,10 @@
 <script src="./head-inject.js"></script>
-<head onloadstart="injectHead();">
+
     <title>Michael's Cybersite - Home</title>
     <link rel="stylesheet" type="text/css" href="/assets/css/win98.css"/>
 </head>
 
 <body>
-    <div id="header-container"></div>
-    <script>
-        fetch("pages/templates/header.html")
-            .then(response => response.text())
-            .then(data => {
-                document.getElementById("header-container").innerHTML = data;
-            });
-    </script>
-
     <main>
         <div class="maincontent-centred">
             <!--Home Page Header-->
@@ -93,13 +84,4 @@
         </div>
         <!--<img src="./assets/images/Nada!.png" style="display: block; margin-left: auto; margin-right: auto; width: 80%; z-index: -999;">-->
     </main>
-
-    <div id="footer-container"></div>
-    <script>
-        fetch("pages/templates/footer.html")
-            .then(response => response.text())
-            .then(data => {
-                document.getElementById("footer-container").innerHTML = data;
-            });
-    </script>
 </body>

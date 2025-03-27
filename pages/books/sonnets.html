@@ -1,5 +1,6 @@
-<script src="/head-inject.js"></script>
-<head onloadstart="injectHead();">
+<head>
+    <script src="/head-inject.js"></script>
+
     <title>Sonnets</title>
     <link rel="stylesheet" type="text/css" href="/assets/css/win98.css"/>
     <link rel="stylesheet" type="text/css" href="/assets/css/books.css"/>
@@ -64,15 +65,6 @@
 </head>
 
 <body>
-    <div id="header-container"></div>
-    <script>
-        fetch("pages/templates/header.html")
-            .then(response => response.text())
-            .then(data => {
-                document.getElementById("header-container").innerHTML = data;
-            });
-    </script>
-
     <main>
         <div class="maincontent-centred" style="min-height:60vh;">
             
@@ -433,13 +425,4 @@
             </div>
         </div>
     </main>
-
-    <div id="footer-container"></div>
-    <script>
-        fetch("pages/templates/footer.html")
-            .then(response => response.text())
-            .then(data => {
-                document.getElementById("footer-container").innerHTML = data;
-            });
-    </script>
 </body>

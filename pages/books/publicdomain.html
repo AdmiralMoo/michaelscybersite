@@ -1,5 +1,6 @@
-<script src="/head-inject.js"></script>
-<head onloadstart="injectHead();">
+<head>
+    <script src="/head-inject.js"></script>
+
     <title>Public Domain Books</title>
     <link rel="stylesheet" type="text/css" href="/assets/css/win98.css"/>
     <link rel="stylesheet" type="text/css" href="/assets/css/books.css"/>
@@ -52,15 +53,6 @@
 </head>
 
 <body>
-    <div id="header-container"></div>
-    <script>
-        fetch("pages/templates/header.html")
-            .then(response => response.text())
-            .then(data => {
-                document.getElementById("header-container").innerHTML = data;
-            });
-    </script>
-
     <main>
         <div class="maincontent-centred" style="min-height:60vh;">
             
@@ -68,7 +60,8 @@
                 <div class="insideborder">
                     <img src="https://1drv.ms/i/c/19eb4e25e0b8e9bb/IQRTlAZoTuOPTKIuiaNv4gSnAV_sJdBXeIf9YKVjulG8osA?width=644">
                 </div>
-                <div class="ImageHeader-Text"><h1></h1></div>
+                <div class="ImageHeader-Text"><h1>Public Domain Book Recommendations</h1></div>
+                <div class="ImageHeader-MyPhoto">Photo: MichaelsCybersite.net, 2025</div>
             </div>
             <div class="header-construction-box outsideborder">
                 <img src="./assets/images/Warning.png">
@@ -82,11 +75,11 @@
                         <li><a href="pages/books/publicdomain#">Thomas Hardy's <i>Far From The Madding Crowd</i></a></li>
                         <li><a href="pages/books/publicdomain#">James Joyce's <i>Ulysses</i></a></li>
                         <h3 style="font-family: 'Times New Roman', Times, serif; font-style:normal;">Also Check Out...</h3>
-                            <li><a href="">Free (Legal) Digital Book Sites</a></li>
+                        <li><a href="">Free (Legal) Digital Book Sites</a></li>
                     </div>
                 </div>
                 <div class="box-container" style="padding:10px;">
-                    <p>While I enjoy reading physical books most, I think that having access to books, literature, arts and entertainment is very important—it's one of my favourite things about the internet. The original vision of this framework was to lower barriers to access and allow everyone to take advantage of this collective knowledge commons. As the distribution of information is stifled and censored by governments and monopolistic companies, there are some sites still carrying the torch of the World Wide Web's original vision.<br><br>Not all of those sites are legal, though.<br><br>The whole issue is a big one, and on this page, I'm just recommending some books. I've read them all, and I enjoyed them a lot, and you can read them for free right now. Isn't that cool?</p>
+                    <p>While I enjoy reading physical books most, I think that having access to books, literature, arts and entertainment is very important—it's one of my favourite things about the internet. The original vision of this framework was to lower barriers to access and allow everyone to take advantage of this collective knowledge commons. As the distribution of information is stifled and censored by governments and monopolistic companies, there are some sites still carrying the torch of the World Wide Web's original vision.<br><br>Not all of those sites are legal, though.<br><br>The whole issue is a big one, and on this page, I'm just recommending some books. I've read them all, and I enjoyed them a lot, and you can read them for free right now. Isn't that cool?<br><br>Remember, although I've used all of these sites from time to time, be on the lookout for anything suspicious. Use the internet with an Ad-Blocker!</p>
                 </div>
             </div>
 
@@ -97,7 +90,6 @@
             </div>
             <div id="persuasion" class="body-box outsideborder">
                 <div class="box-container" style="padding:10px;">
-                    <div class="subheading-date">December 20th, 1817</div>
                     <p>
                         This was Jane Austen's last completed work before her death in 1817; as such, it's her most polished and streamlined work. You can feel that she's a much more mature and complete author, and it makes me feel sad about the idea of what could've come after had she not died so early.
                     </p>
@@ -108,22 +100,25 @@
                         I guess you could say that not much happens over the course of the book, but I was enthralled throughout the whole thing. It's a brooding, suspenseful book, filled with tension, doubt and questioning throughout which kept me engaged over the two days I read it. It transports you into this world where people lived so differently than we do now. It was simpler, but at the same time, equally as complex in its own ways. It's so interesting to think that while farmers were living lives not too dissimilar to Thomas Hardy's <i>Far From The Madding Crowd</i> not too far away, there were people like the Elliots going about their business. 
                     </p>
                     <p>
-                        I enjoyed the descriptions of their way of life, and I enjoyed the overall story between Anne and Fredrick. Jane Austen has quickly become one of my favourite authors; I just really enjoy the worlds she builds and the way she writes. She lets you get into the minds of her characters who are put into complex social situations. 
+                        I enjoyed the descriptions of their way of life, and I enjoyed the overall story between Anne and Fredrick. Jane Austen has quickly become one of my favourite authors; I greatly enjoy the worlds she builds and the way she writes. She lets you get into the minds of her characters who are put into complex social situations. If I had Stephen King's trans-dimensional e-Reader from <i>Ur</i>, I'd read more Jane Austen!
                     </p>
                     <p>
-                        In particular, I also really liked the main character, Anne Elliot. I found her to be very likeable and mature right from the get-go. 
+                        In particular, I also really liked the main character, Anne Elliot. I found her to be very likeable and mature right from the get-go. She was the kind of character I could really root for and get attached to; a girl with "an elegance of mind and sweetness of character". She's persistent in her feelings and actions; still feeling the consequences of giving into her family's persuasion all those years ago, she remains steadfast in her wants and beliefs. Despite her maturity, she still shows the capacity to learn and grow from her experiences throughout the novel. All the characters show development throughout the novel, really. Captain Wentworth is also a very likeable character, and you'll find yourself rooting for him, too. 
                     </p>
+                    <p>
+                        It's an engaging, short and satisfying book. I'd recommend this one to anyone.
+                    </p>
+                    <hr>
+                    <p style="text-align: center;">Read online or download an ePub from the following links:</p>
+                    <div style="width:100%; height: fit-content; display: flex; flex-direction:row; justify-content: center; text-align: center;">
+                        <a class="noformat" href="https://manybooks.net/titles/austenjaetext94persu11.html">
+                            <div class="navbutton outsideborder">
+                                ManyBooks.net
+                            </div>
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
     </main>
-
-    <div id="footer-container"></div>
-    <script>
-        fetch("pages/templates/footer.html")
-            .then(response => response.text())
-            .then(data => {
-                document.getElementById("footer-container").innerHTML = data;
-            });
-    </script>
 </body>
