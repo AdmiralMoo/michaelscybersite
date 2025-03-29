@@ -35,7 +35,7 @@ function updateAlbumChartDisplay()
         albumElement.classList.add("album");
 
         albumElement.innerHTML = `
-            <img src="${album.cover}" alt="${album.album}">
+            <img src="/assets/gifs/DiscLoading.gif" data-src="${album.cover}" class="lazyload" alt="${album.album}">
             <p id="albumNumber">#${albumIndex}</p>
             <p id="albumLabel">${album.artist}<br><i>${album.album}</i></p>
         `;
@@ -44,6 +44,12 @@ function updateAlbumChartDisplay()
     });
 
     updateListenedButtons();
+
+    //This shouldn't be an issue if the head was injected correctly...
+    if (typeof lazyLoadImages === "function")
+    {
+        lazyLoadImages();
+    }
 }
 
 function updateListenedButtons()

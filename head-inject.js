@@ -69,3 +69,42 @@ function injectStandardHeader()
         document.body.insertAdjacentHTML("afterbegin", data);
     });
 }
+
+//Lazy loading. Dynamically lazy load images when HTML is injected by JS
+function lazyLoadImages() {
+    const lazyImages = document.querySelectorAll("img.lazyload");
+
+    if ("IntersectionObserver" in window) {
+        let observer = new IntersectionObserver((entries, observer) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    let img = entry.target;
+                    const realSrc = img.getAttribute("data-src");
+
+                    if (realSrc) {
+                        img.src = realSrc;
+                        img.onerror = () => handleImageError(img);
+                    }
+
+                    img.classList.add("loaded");
+                    observer.unobserve(img);
+                }
+            });
+        });
+
+        lazyImages.forEach(img => observer.observe(img));
+    } else {
+        lazyImages.forEach(img => {
+            img.src = img.getAttribute("data-src");
+            img.classList.add("loaded");
+        });
+    }
+}
+
+document.addEventListener("DOMContentLoaded", lazyLoadImages);
+
+function handleImageError(image)
+{
+    console.error(`lazyload img shit the bed! ${realSrc}`, error);
+    img.src = "/assets/images/noimage.jpg";
+}

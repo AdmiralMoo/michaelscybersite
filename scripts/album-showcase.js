@@ -45,7 +45,7 @@ function updateAlbumShowcase() {
             
             <div class="albumShowcaseContent outsideborder" style="display: flex; flex-direction: column;">
                 <div class="side-by-side albumShowcaseTopDisplay">
-                    <img id="showcaseAlbumCover" src="${showcaseAlbum.cover}">
+                    <img id="showcaseAlbumCover" class="lazyload" src="/assets/gifs/DiscLoading.gif" data-src="${showcaseAlbum.cover}">
                     <div class="box-container WrappedListBox">
                         <h4>Tracks</h4>
                         <ol id="showcaseAlbumTracklist">`
@@ -58,6 +58,11 @@ function updateAlbumShowcase() {
                 </div>
             </div>
         `;
+
+        if (typeof lazyLoadImages === "function")
+        {
+            lazyLoadImages();
+        }
     })
     .catch(error => console.error('Error loading JSON:', error));
 

@@ -15,6 +15,7 @@
     width: 100%;
     height: auto;
     object-fit: cover;
+    image-rendering: optimizeQuality;
 }
 
 #albumNumber
@@ -115,6 +116,7 @@ Album showcase
     max-width: 30%;
     max-height:386px;
     object-fit: scale-down;
+    image-rendering: optimizeQuality;
 }
 
 .albumShowcaseBody .newstitle p
