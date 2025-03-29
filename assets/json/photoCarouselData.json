@@ -1,0 +1,39 @@
+[
+    {
+        "setname" : "winterbw2025",
+        "displayname" : "Black & White Photos — Winter 2025",
+        "images" :
+        [
+            {
+                "url" : "https://1drv.ms/i/c/19eb4e25e0b8e9bb/IQR3vFvYePEsR4PSZuLzDd9VAW8y6zQ_SD9bf86Ypto064Y?width=256",
+                "name" : "DSC_192605",
+                "description" : "",
+                "datetaken" : "2025/03/04"
+            },
+            {
+                "url" : "https://1drv.ms/i/c/19eb4e25e0b8e9bb/IQR3vFvYePEsR4PSZuLzDd9VAW8y6zQ_SD9bf86Ypto064Y?width=256",
+                "name" : "DSC_191728",
+                "description" : "",
+                "datetaken" : "2025/02/16"
+            },
+            {
+                "url" : "https://1drv.ms/i/c/19eb4e25e0b8e9bb/IQQemYzryjFxQbfE9Pvlwxx4AT7WNw_8Fm2ZzQQ--5nsaPk?width=256",
+                "name" : "DSC_192574",
+                "description" : "",
+                "datetaken" : "2025/02/28"
+            },
+            {
+                "url" : "https://1drv.ms/i/c/19eb4e25e0b8e9bb/IQR3vFvYePEsR4PSZuLzDd9VAW8y6zQ_SD9bf86Ypto064Y?width=256",
+                "name" : "DSC_192565",
+                "description" : "",
+                "datetaken" : "2025/02/28"
+            },
+            {
+                "url" : "https://1drv.ms/i/c/19eb4e25e0b8e9bb/IQTNqPdSJPaBTbIdHcku61qyAQGpJJ1TDByUZuxkJ8S__So?width=256",
+                "name" : "DSC_192500",
+                "description" : "",
+                "datetaken" : "2025/02/28"
+            }
+        ]
+    }
+]

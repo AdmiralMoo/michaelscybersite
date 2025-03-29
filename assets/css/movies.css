@@ -24,6 +24,8 @@
   justify-content: center;
   
   background-color:black;
+  background-image: url('/assets/gifs/Blinky.gif');
+  background-size: cover;
 
   text-align: center;
 }
