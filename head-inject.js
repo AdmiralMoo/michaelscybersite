@@ -87,6 +87,7 @@ function lazyLoadImages() {
                     }
 
                     img.classList.add("loaded");
+                    //img.classList.remove("lazyload");
                     observer.unobserve(img);
                 }
             });
@@ -97,6 +98,7 @@ function lazyLoadImages() {
         lazyImages.forEach(img => {
             img.src = img.getAttribute("data-src");
             img.classList.add("loaded");
+            //img.classList.remove("lazyload");
         });
     }
 }
