@@ -248,5 +248,15 @@
             { "artist": "The Clash", "album": "The Clash", "cover": "./assets/albumart/the clash - the clash.jpg" },
             { "artist": "Rush", "album": "Moving Pictures", "cover": "./assets/albumart/rush - moving pictures.jpg" }
         ]
+    },
+    {
+        "month": "March 2025",
+        "albums": [
+            { "artist": "The Sex Pistols", "album": "Never Mind The Bollocks", "cover": "./assets/albumart/sex pistols - never mind the bollocks.jpg" },
+            { "artist": "Green Day", "album": "Revolution Radio", "cover": "./assets/albumart/green day - revolution radio.jpg" },
+            { "artist": "Johann Strauss II", "album": "An Der Schönen, Blauen Donau", "cover": "./assets/albumart/johann strauss ii - an der schonen, blauen donau [ii].jpg" },
+            { "artist": "Hammerbox", "album": "Numb", "cover": "./assets/albumart/hammerbox - numb.jpg" },
+            { "artist": "Supertramp", "album": "Supertramp", "cover": "./assets/albumart/supertramp - supertramp.jpg" }
+        ]
     }
 ]
