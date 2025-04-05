@@ -852,7 +852,7 @@ ul, li, ol
 
 .articleContainer .navbutton:hover {
   border-image: url("/assets/ui/Win98OutBorderFlash_WhiteSpinX.gif") 3;
-  border-image-repeat: repeat;
+  border-image-repeat:stretch;
 }
 
 .articleCard
