@@ -17,7 +17,7 @@ function updateAlbumShowcase() {
             shuffleAlbum();
         }
 
-        //currentAlbumIndex = albumsDatabase.length - 1;
+//        currentAlbumIndex = albumsDatabase.length - 1;
 
         const albumShowcaseParent = document.getElementById("albumShowcaseBody");
         const showcaseAlbum = albumsDatabase[currentAlbumIndex];

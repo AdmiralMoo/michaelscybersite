@@ -434,6 +434,27 @@ Formatting for header boxes
   object-fit: contain;
 }
 
+.header-three-box
+{
+  width: 100%;
+
+  display: flex; 
+  justify-content: space-between;
+  margin:0px;
+  padding:5px;
+
+  color: #FFFFFF;
+  background-image: linear-gradient(to right, #000080 , #1084d0);
+}
+
+.header-three-box img
+{
+  max-height: 25px;
+  min-height: 20px;
+  width: auto; 
+  object-fit: contain;
+}
+
 .header-construction-box
 {
   width: 100%;

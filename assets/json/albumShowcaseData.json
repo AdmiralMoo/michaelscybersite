@@ -1122,5 +1122,51 @@
         ],
         "applemusic":"https://music.apple.com/us/album/the-rembrandts-l-p/373220996",
         "spotify":"https://open.spotify.com/album/6koDBGMqurYl3EZnaxCF7N"
+    },
+    {
+        "artist": "Pink Floyd",
+        "album": "Atom Heart Mother",
+        "year": "1970",
+        "cover": "./assets/albumart/pink floyd - atom heart mother.jpg",
+        "description": "Look, a cow! <i>Moo!</i><br><br>After coming off the back of two movie soundtracks and a lineup change after the departure of Syd Barrett, Pink Floyd came out with <i>Atom Heart Mother</i>, part of what many might consider a transition era for the band. They were going from their rather inaccessible but very psychedelic roots to the sound which gave us 'The Dark Side of The Moon', 'Wish You Were Here', 'Animals' and 'The Wall'. The titular track of this album is a twenty-three minute long instrumental epic broken down into six sections. It's followed be three more convention five minute tracks, then another thirteen minute song with music between recordings of a guy getting his breakfast.<br><br>It sounds weird because it is, but it's a really good album. I think it's one of Pink Floyd's best, and certainly the best from this era of the band. The title track is <i>a lot</i> of fun, and it reminds me of some of classical works such as 'An American In Paris' or 'Eine Alpensinfonie' which invoke cinematic mental imagery. <br><br>Random thoguht: do you think the opening shots of <i>Kingdom of The Spiders (1977)</i> is inspired by this album cover? I like to think it is. <br><br>My favourite track on this one is undoubtedly 'Fat Old Sun', which is one of my favourite Pink Floyd songs overall. Get a <i>moo</i>ve on and listen to this album!",
+        "genre": "Progressive Rock",
+        "rating" : "80",
+        "duration": "52:06",
+        "tracks": [
+            "Atom Heart Mother",
+            "If",
+            "Summer '68",
+            "Fat Old Sun",
+            "Alan's Psychedelic Breakfast"
+        ],
+        "applemusic":"https://music.apple.com/us/album/the-rembrandts-l-p/373220996",
+        "spotify":"https://open.spotify.com/album/6koDBGMqurYl3EZnaxCF7N"
+    },
+    {
+        "artist": "Nine Inch Nails",
+        "album": "With Teeth",
+        "year": "2005",
+        "cover": "./assets/albumart/nine inch nails - with teeth [colour corrected].jpg",
+        "description": "While <i>Broken</i> is my favourite Nine Inch Nails release, <i>With Teeth</i> is my favourite album from the group. It reflects a new chapter of Trent Reznor's life: the album has a cleaner, more sober sound; while still angry and disillusioned, its not as despairing as previous albums and ends with a tone of absolution. This album is structured marvelously in a way the other albums weren't, and overall, I think it reflects Reznor's enormous growth both personally and as a musician.<br><br>Barring the first track, the album is neatly packaged into triplets which all share a common theme, and progressively become less angry. It starts with charging tracks riling against authority and the outside world, transitions to a more introspective and resigned tone, then to faster paced and slightly upbeat but sarcastic and cynical songs, finally ending with an existential soup of contemplation and absolution. If you play Nine Inch Nails' first five releases back-to-back, they tell the story of Trent Reznor's life up to that point. <i>With Teeth</i> tells the story of how he broke out of the cycle and how he picked himself up from rock bottom after <i>The Fragile</i>. It tells the story of someone blaming the outside world, losing their grip on reality as they sink into their own mind, and then realizing that they were their own worst enemy.<br><br>'Right Where It Belongs' is probably my favourite song ever becuase it reminds me of that feeling of absolution. It neatly ties up the theme of the whole album—finally being able to see things from the outside and breaking free from your own prison. I've rushed thorugh this whole explanation, and it probably makes no sense, but I'll explain it in full someday.<br><br>I really like this album. Hot take, maybe, but I think this is Nine Inch Nails' best album. I think it's extraordinarily well crafted and it's overlooked in their discography compared to things like 'The Downward Spiral'. This album is a marriage of pop and that brutal Nine Inch Nails sound; Atticus Ross' arrival is immediately felt. Listen to this album! My favourite songs off it are the aforementioned 'Right Where It Belongs', 'Sunspots', and 'The Hand That Feeds'.",
+        "genre": "Industrial Rock",
+        "rating" : "98",
+        "duration": "56:05",
+        "tracks": [
+            "All the Love in the World",
+            "You Know What You Are? ",
+            "The Collector",
+            "The Hand That Feeds",
+            "Love Is Not Enough",
+            "Every Day Is Exactly The Same",
+            "With Teeth",
+            "Only",
+            "Getting Smaller",
+            "Sunspots",
+            "The Line Begins to Blur",
+            "Beside You In Time",
+            "Right Where It Belongs"
+        ],
+        "applemusic":"https://music.apple.com/us/album/the-rembrandts-l-p/373220996",
+        "spotify":"https://open.spotify.com/album/6koDBGMqurYl3EZnaxCF7N"
     }
 ]
