@@ -90,10 +90,10 @@ order: 1;
 @keyframes scroll-left 
 {
     from {
-        transform: translateX(150vw);
+        transform: translateX(120vw);
     }
     to {
-        transform: translateX(-50vw);
+        transform: translateX(-10vw);
     }
 }
 

@@ -1,4 +1,6 @@
 let albumImages = [];
+let scrollingAlbums = new Array(10);
+let waterfallAlbumIndex = 0;
 /*
 Helper function to shuffle the array
 */
@@ -7,44 +9,76 @@ function shuffle(array)
     let currentIndex = array.length;
     
     while (currentIndex != 0) 
-        {
-            let randomIndex = Math.floor(Math.random() * currentIndex);
-            currentIndex--;
-            
-            [array[currentIndex], array[randomIndex]] = [
-                array[randomIndex], array[currentIndex]];
-            }
+    {
+        let randomIndex = Math.floor(Math.random() * currentIndex);
+        currentIndex--;
+        
+        [array[currentIndex], array[randomIndex]] = [array[randomIndex], array[currentIndex]];
+    }
 }
 
-function resetAlbum(album, time)
-{
-    album.style.animationDuration = (time * 1.5) + "s";
+function resetAlbum(album) {
+
+    let newImage = albumImages[albumImages.length - 1];
+    albumImages.pop();
+
+    if (albumImages.length <= 0)
+    {
+        initializeScrollingAlbums();
+    }
+
+    const duration = 7 + Math.random() * 7;
+    album.style.animationDuration = (duration * 1.5) + "s";
     album.style.top = Math.random() * 1024 + "px";
 
-    newImage = 
+    album.style.width = "100px";
+    album.style.height = "100px";
+    album.style.maxWidth = "100px";
+    album.style.maxHeight = "100px";
+    album.style.objectFit = "scale-down"
+
+    album.classList.remove("album-cover"); 
+    void album.offsetWidth;
+    album.classList.add("album-cover");
 
     album.src = "./assets/gifs/DiscLoading.gif";
-    
-}
+
+    setTimeout(() => {
+        album.src = newImage;
         
-/*
-Initialize the list of albums 
-*/
+        lazyLoadImages();
+    }, 500);
+
+    const totalTime = duration * 1500;
+    setTimeout(() => {
+        resetAlbum(album);
+    }, totalTime);
+}
+
+
+function spawnAlbums() {
+    if (scrollingAlbums.length === 0) return;
+
+    const album = scrollingAlbums[waterfallAlbumIndex];
+
+    resetAlbum(album);
+
+    waterfallAlbumIndex++;
+    if (waterfallAlbumIndex >= scrollingAlbums.length) {
+        waterfallAlbumIndex = 0;
+    }
+
+    const nextDelay = 3000 + Math.random() * 3000;
+
+    setTimeout(spawnAlbums, nextDelay);
+}
+    
 function initializeScrollingAlbums()
 {
-    let scrollingAlbums = new Array(10);
-
     //Find where we're putting these albums
     const albumDiv = document.querySelector(".scrolling-albums");
     const sizingElement = document.querySelector("main");
     let totalHeight = window.getComputedStyle(sizingElement).height;
-
-/*    albumDiv.setAttribute("style", `
-        width: 100vw;
-        background-color: #FFFFFF;
-        height:${totalHeight};
-        min-height:${totalHeight};
-    `);*/
 
     //Retrieve the list of images from the JSON file\\
     fetch("./assets/albumart/images.json")
@@ -66,11 +100,9 @@ function initializeScrollingAlbums()
                 scrollingAlbums[i] = newImage;
 
                 albumDiv.appendChild(scrollingAlbums[i]);
-
-                let duration = Math.floor(Math.random() * 7.0) + 15.0;
-                setTimeout(1000);
-                setInterval(resetAlbum(scrollingAlbums[i], duration), duration);
             }
+
+            spawnAlbums();
         })
 }
 
