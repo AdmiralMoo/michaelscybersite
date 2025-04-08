@@ -1,0 +1,885 @@
+<head>
+    <script src="/head-inject.js"></script>
+
+    <title>Music Favourites</title>
+    <link rel="stylesheet" type="text/css" href="/assets/css/win98.css"/>
+    <link rel="stylesheet" type="text/css" href="/assets/css/music.css"/>
+    <style>
+        .grid-box-album
+        {
+            flex: 20%;
+            word-wrap: break-word;
+        }
+
+        .grid-box-album img
+        {
+            object-fit: fill;
+            max-width: 100%;
+            min-width: 100%;
+            height:auto;
+            flex-grow:1;
+        }
+
+        .grid-box-container
+        {
+            display:flex;
+            flex-wrap:wrap;
+        }
+
+
+        .grid-box-album:last-child
+        {
+            
+        }
+
+        .grid-box-container > *
+        {
+            text-align: center;
+        }
+
+        @media(max-width:900px)
+        {
+            .body-box .grid-box-container
+            {
+                flex-direction: row;
+                word-wrap: break-word;
+            }
+
+            .grid-box-album
+            {
+                flex: 30%;
+            }
+
+            .grid-box-album:last-child
+            {
+                max-width :30%;
+            }
+        }
+
+        @media(max-width:600px)
+        {
+            .body-box .grid-box-container
+            {
+                flex-direction: row;
+                word-break: break-all;
+                word-wrap: break-word;
+                font-size: 1.0em;
+            }
+
+            .grid-box-album
+            {
+                flex: 50%;
+            }
+
+            .grid-box-album:last-child
+            {
+                max-width :50%;
+            }
+        }
+
+        .ImageHeader img
+        {
+            height:20vw;
+        }
+
+        @media (max-width: 600px)
+        {
+            .ImageHeader img
+            {
+                height: 50vw;
+            }
+
+            .ImageHeader-Text
+            {
+                font-size: 1.2em;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <div class="maincontent-centred" style="min-height:60vh;">
+            <div class="header-one-box outsideborder">
+                <h1>All Time Favourites</h1>
+                <img src="./assets/images/icon_cd1.png">
+            </div>
+
+            <div class="body-box outsideborder">
+                <div class="body-box grid-box-container shrink-box" style="min-width: calc(100% / 3.25); justify-content: left;">
+                    <div style="word-wrap: break-word; text-align: left; justify-self: left;">
+                        <h3 style="font-family: 'Times New Roman', Times, serif; font-style:normal;">Contents</h3>
+                        <li><a href="/pages/music/alltimefavourites#bands">Bands</li></a>
+                        <li><a href="/pages/music/alltimefavourites#bandalbums">Band Albums</li></a>
+                        <li><a href="/pages/music/alltimefavourites#albums">Overall Albums</li></a>
+                        <li><a href="/pages/music/alltimefavourites#classical">Classical Music</li></a>
+                        <li><a href="/pages/music/alltimefavourites#songs">Songs</li></a>
+                    </div>
+                </div>
+                <div class="box-container" style="padding:10px;">
+                    <p>It's hard to pick favourites! I don't admit things to my list of all time favourite things very often, so the things on this page are pretty rock solid. It's folly to hum, haw and deliberate what is and isn't a favourite when I love such a huge swath of music; I listen to everything in my library, and although I might not be super into some of it at all times, I always come back to things. On this page, you'll find the bands I always go back to, the albums I always go back to and the songs that mean a lot to me.</p>
+                    <p>To see my favourite albums <i>right now</i>, check out the "Most Listened Music" section to see what I listened to most (updated monthly).</p>
+                </div>
+            </div>
+
+            <div id="bands" class="spacer"></div>
+
+            <div class="ImageHeader outsideborder">
+                <div class="insideborder">
+                    <img class="lazyload" src="/assets/gifs/LoadingCloudsText.gif" data-src="https://1drv.ms/i/c/19eb4e25e0b8e9bb/IQS76bjgJU7rIIAZU34AAAAAAX2_x9sdUtNw7_Fb0FcGUfY?width=660">
+                </div>
+                <div class="ImageHeader-Text"><h1>Bands</h1></div>
+                <div class="ImageHeader-MyPhoto">Photo: MichaelsCybersite.net, 2023</div>
+            </div>
+
+            <!--The Vertical Album Phenomenon-->
+            <div class="body-box outsideborder" style="flex-direction: column; gap:0px;">
+                <div class="grid-box-container" style="flex-wrap: wrap;">
+                    <h3 style="text-align: left; width:100%"><i>The All-Time Favourites</i></h3>
+                    <div class="grid-box-container noborder" style="border:none;">
+                        <div class="grid-box-album">
+                            <a href="https://en.wikipedia.org/wiki/Green_Day" style="text-decoration: none; color:black">
+                                <img src="/assets/gifs/DiscLoading.gif" class="lazyload" data-src="/assets/images/artist_greenday.webp">
+                            </a>
+                            <p>Green Day</i></p>
+                        </div> 
+                        <div class="grid-box-album ">
+                            <a href="https://en.wikipedia.org/wiki/Alice_in_Chains" style="text-decoration: none; color:black;">
+                                <img src="/assets/gifs/DiscLoading.gif" class="lazyload" data-src="/assets/images/artist_aliceinchains.webp">
+                            </a>
+                            <p>Alice In Chains</i></p>
+                        </div> 
+                        <div class="grid-box-album">
+                            <a href="https://en.wikipedia.org/wiki/Nine_Inch_Nails" style="text-decoration: none; color:black;">
+                                <img src="/assets/gifs/DiscLoading.gif" class="lazyload" data-src="/assets/images/artist_thesmashingpumpkins.webp">
+                            </a>
+                            <p>The Smashing Pumpkins</i></p>
+                        </div> 
+                        <div class="grid-box-album">
+                            <a href="https://en.wikipedia.org/wiki/The_Smashing_Pumpkins" style="text-decoration: none; color:black;">
+                                <img src="/assets/gifs/DiscLoading.gif" class="lazyload" data-src="/assets/images/artist_nineinchnails.webp">
+                            </a>
+                            <p>Nine Inch Nails</i></p>
+                        </div> 
+                        <div class="grid-box-album">
+                            <a href="https://en.wikipedia.org/wiki/Pink_Floyd" style="text-decoration: none; color:black;">
+                                <img src="/assets/gifs/DiscLoading.gif" class="lazyload" data-src="/assets/images/artist_pinkfloyd.webp">
+                            </a>
+                            <p>Pink Floyd</p>
+                        </div>
+                    </div>
+                    <h3 style="text-align: left; width:100%"><i>Other Bands I Frequently Listen To</i></h3>
+                    <div class="noborder grid-box-container" style="border:none;">
+                        <div class="grid-box-album">
+                            <img src="/assets/gifs/DiscLoading.gif" class="lazyload" data-src="/assets/images/artist_ledzeppelin.webp">
+                            <p>Led Zeppelin</i></p>
+                        </div> 
+                        <div class="grid-box-album">
+                            <img src="/assets/gifs/DiscLoading.gif" class="lazyload" data-src="/assets/images/artist_theclash.webp">
+                            <p>The Clash</i></p>
+                        </div> 
+                        <div class="grid-box-album">
+                            <img src="/assets/gifs/DiscLoading.gif" class="lazyload" data-src="/assets/images/artist_rem.webp">
+                            <p>R.E.M.</i></p>
+                        </div> 
+                        <div class="grid-box-album">
+                            <img src="/assets/gifs/DiscLoading.gif" class="lazyload" data-src="/assets/images/artist_direstraits.webp">
+                            <p>Dire Straits</p>
+                        </div>
+                        <div class="grid-box-album">
+                            <img src="/assets/gifs/DiscLoading.gif" class="lazyload" data-src="/assets/images/artist_skinyard.webp">
+                            <p>Skin Yard</i></p>
+                        </div> 
+                    </div>
+                </div>
+            </div>
+
+            <div id="bandalbums" class="spacer"></div>
+
+            <div class="header-three-box outsideborder">
+                <h3 id="monthDisplay">Top Five Green Day Albums</h3>
+                <img src="./assets/images/icon_cd2.png">
+            </div>
+            <div class="body-box outsideborder" style="flex-direction: column;">
+                <div id="albumContainer" class="album-grid">
+                    <div class="album">
+                        <img src="/assets/gifs/DiscLoading.gif" data-src="/assets/albumart/green day - revolution radio.jpg" class="lazyload">
+                        <p id="albumNumber">#1</p>
+                        <p id="albumLabel"><i>Revolution Radio</i></p>
+                    </div>
+                    <div class="album">
+                        <img src="/assets/gifs/DiscLoading.gif" data-src="/assets/albumart/green day - 1039 smoothed out slappy hours.jpg" class="lazyload">
+                        <p id="albumNumber">#2</p>
+                        <p id="albumLabel"><i>1039/Smoothed Out Slappy Hours</i></p>
+                    </div>
+                    <div class="album">
+                        <img src="/assets/gifs/DiscLoading.gif" data-src="/assets/albumart/green day - dookie.jpg" class="lazyload">
+                        <p id="albumNumber">#3</p>
+                        <p id="albumLabel"><i>Dookie</i></p>
+                    </div>
+                    <div class="album">
+                        <img src="/assets/gifs/DiscLoading.gif" data-src="/assets/albumart/green day - 21st century breakdown.jpg" class="lazyload">
+                        <p id="albumNumber">#4</p>
+                        <p id="albumLabel"><i>21st Century Breakdown</i></p>
+                    </div>
+                    <div class="album">
+                        <img src="/assets/gifs/DiscLoading.gif" data-src="/assets/albumart/green day - nimrod.jpg" class="lazyload">
+                        <p id="albumNumber">#5</p>
+                        <p id="albumLabel"><i>Nimrod</i></p>
+                    </div>
+                </div>
+            </div>
+            <div class="header-three-box outsideborder">
+                <h3 id="monthDisplay">Top Five Alice In Chains Albums</h3>
+                <img src="./assets/images/icon_cd2.png">
+            </div>
+            <div class="body-box outsideborder" style="flex-direction: column;">
+                <div id="albumContainer" class="album-grid">
+                    <div class="album">
+                        <img src="/assets/gifs/DiscLoading.gif" data-src="/assets/albumart/alice in chains - black gives way to blue.jpg" class="lazyload">
+                        <p id="albumNumber">#1</p>
+                        <p id="albumLabel"><i>Black Gives Way To Blue</i></p>
+                    </div>
+                    <div class="album">
+                        <img src="/assets/gifs/DiscLoading.gif" data-src="/assets/albumart/alice in chains - dirt.jpg" class="lazyload">
+                        <p id="albumNumber">#2</p>
+                        <p id="albumLabel"><i>Dirt</i></p>
+                    </div>
+                    <div class="album">
+                        <img src="/assets/gifs/DiscLoading.gif" data-src="/assets/albumart/alice in chains - alice in chains.jpg" class="lazyload">
+                        <p id="albumNumber">#3</p>
+                        <p id="albumLabel"><i>Alice In Chains</i></p>
+                    </div>
+                    <div class="album">
+                        <img src="/assets/gifs/DiscLoading.gif" data-src="/assets/albumart/alice in chains - jar of flies.jpg" class="lazyload">
+                        <p id="albumNumber">#4</p>
+                        <p id="albumLabel"><i>Jar of Flies [EP]</i></p>
+                    </div>
+                    <div class="album">
+                        <img src="/assets/gifs/DiscLoading.gif" data-src="/assets/albumart/alice in chains - the devil put dinosaurs here.jpg" class="lazyload">
+                        <p id="albumNumber">#5</p>
+                        <p id="albumLabel"><i>The Devil Put Dinosaurs Here</i></p>
+                    </div>
+                </div>
+            </div>
+            <div class="header-three-box outsideborder">
+                <h3 id="monthDisplay">Top Five Smashing Pumpkins Albums</h3>
+                <img src="./assets/images/icon_cd2.png">
+            </div>
+            <div class="body-box outsideborder" style="flex-direction: column;">
+                <div id="albumContainer" class="album-grid">
+                    <div class="album">
+                        <img src="/assets/gifs/DiscLoading.gif" data-src="/assets/albumart/the smashing pumpkins - gish.jpg" class="lazyload">
+                        <p id="albumNumber">#1</p>
+                        <p id="albumLabel"><i>Gish</i></p>
+                    </div>
+                    <div class="album">
+                        <img src="/assets/gifs/DiscLoading.gif" data-src="/assets/albumart/the smashing pumpkins - mellon collie and the infinite sadness [2012 remaster].jpg" class="lazyload">
+                        <p id="albumNumber">#2</p>
+                        <p id="albumLabel"><i>Mellon Collie And The Infinite Sadness</i></p>
+                    </div>
+                    <div class="album">
+                        <img src="/assets/gifs/DiscLoading.gif" data-src="/assets/albumart/the smashing pumpkins - siamese dream.jpg" class="lazyload">
+                        <p id="albumNumber">#3</p>
+                        <p id="albumLabel"><i>Siamese Dream</i></p>
+                    </div>
+                    <div class="album">
+                        <img src="/assets/gifs/DiscLoading.gif" data-src="/assets/albumart/the smashing pumpkins - machina_themachinesofgod.jpg" class="lazyload">
+                        <p id="albumNumber">#4</p>
+                        <p id="albumLabel"><i>Machina/The Machines of God</i></p>
+                    </div>
+                    <div class="album">
+                        <img src="/assets/gifs/DiscLoading.gif" data-src="/assets/albumart/the smashing pumpkins - thirty-three [single].jpg" class="lazyload">
+                        <p id="albumNumber">#5</p>
+                        <p id="albumLabel"><i>Thirty-Three [Single]</i></p>
+                    </div>
+                </div>
+            </div>
+            <div class="header-three-box outsideborder">
+                <h3 id="monthDisplay">Top Five Nine Inch Nails Albums</h3>
+                <img src="./assets/images/icon_cd2.png">
+            </div>
+            <div class="body-box outsideborder" style="flex-direction: column;">
+                <div id="albumContainer" class="album-grid">
+                    <div class="album">
+                        <img src="/assets/gifs/DiscLoading.gif" data-src="/assets/albumart/nine inch nails - broken.jpg" class="lazyload">
+                        <p id="albumNumber">#1</p>
+                        <p id="albumLabel"><i>Broken [EP]</i></p>
+                    </div>
+                    <div class="album">
+                        <img src="/assets/gifs/DiscLoading.gif" data-src="/assets/albumart/nine inch nails - with teeth [colour corrected].jpg" class="lazyload">
+                        <p id="albumNumber">#2</p>
+                        <p id="albumLabel"><i>With Teeth</i></p>
+                    </div>
+                    <div class="album">
+                        <img src="/assets/gifs/DiscLoading.gif" data-src="/assets/albumart/nine inch nails - the downward spiral.jpg" class="lazyload">
+                        <p id="albumNumber">#3</p>
+                        <p id="albumLabel"><i>The Downward Spiral</i></p>
+                    </div>
+                    <div class="album">
+                        <img src="/assets/gifs/DiscLoading.gif" data-src="/assets/albumart/nine inch nails - pretty hate machine.jpg" class="lazyload">
+                        <p id="albumNumber">#4</p>
+                        <p id="albumLabel"><i>Pretty Hate Machine</i></p>
+                    </div>
+                    <div class="album">
+                        <img src="/assets/gifs/DiscLoading.gif" data-src="/assets/albumart/nine inch nails - hesitation marks [square].jpg" class="lazyload">
+                        <p id="albumNumber">#5</p>
+                        <p id="albumLabel"><i>Hesitation Marks</i></p>
+                    </div>
+                </div>
+            </div>
+            <div class="header-three-box outsideborder">
+                <h3 id="monthDisplay">Top Five Pink Floyd Albums</h3>
+                <img src="./assets/images/icon_cd2.png">
+            </div>
+            <div class="body-box outsideborder" style="flex-direction: column;">
+                <div id="albumContainer" class="album-grid">
+                    <div class="album">
+                        <img src="/assets/gifs/DiscLoading.gif" data-src="/assets/albumart/pink floyd - dark side of the moon.jpg" class="lazyload">
+                        <p id="albumNumber">#1</p>
+                        <p id="albumLabel"><i>The Dark Side of The Moon</i></p>
+                    </div>
+                    <div class="album">
+                        <img src="/assets/gifs/DiscLoading.gif" data-src="/assets/albumart/pink floyd - the wall.jpg" class="lazyload">
+                        <p id="albumNumber">#2</p>
+                        <p id="albumLabel"><i>The Wall</i></p>
+                    </div>
+                    <div class="album">
+                        <img src="/assets/gifs/DiscLoading.gif" data-src="/assets/albumart/pink floyd - atom heart mother.jpg" class="lazyload">
+                        <p id="albumNumber">#3</p>
+                        <p id="albumLabel"><i>Atom Heart Mother</i></p>
+                    </div>
+                    <div class="album">
+                        <img src="/assets/gifs/DiscLoading.gif" data-src="/assets/albumart/pink floyd - animals.jpg" class="lazyload">
+                        <p id="albumNumber">#4</p>
+                        <p id="albumLabel"><i>Animals</i></p>
+                    </div>
+                    <div class="album">
+                        <img src="/assets/gifs/DiscLoading.gif" data-src="/assets/albumart/pink floyd - wish you were here.jpg" class="lazyload">
+                        <p id="albumNumber">#5</p>
+                        <p id="albumLabel"><i>Wish You Were Here</i></p>
+                    </div>
+                </div>
+            </div>
+
+            <div id="albums" class="spacer"></div>
+            
+            <div class="ImageHeader outsideborder">
+                <div class="insideborder">
+                    <img class="lazyload" src="/assets/gifs/LoadingCloudsText.gif" data-src="https://1drv.ms/i/c/19eb4e25e0b8e9bb/IQS76bjgJU7rIIAZq3wAAAAAAaOeN1OTNUAT3Vly5WtrPVs?width=660">
+                </div>
+                <div class="ImageHeader-Text"><h1>Albums</h1></div>
+                <div class="ImageHeader-MyPhoto">Photo: MichaelsCybersite.net, 2023</div>
+            </div>
+            <div class="body-box outsideborder" style="flex-direction: column; gap:0px;">
+                <div class="grid-box-container" style="flex-wrap: wrap;">
+                    <div class="grid-box-album">
+                        <img src="/assets/gifs/DiscLoading.gif" class="lazyload" data-src="/assets/albumart/pink floyd - dark side of the moon.jpg">
+                        <p>Pink Floyd<br><i>The Dark Side of The Moon</i></p>
+                    </div> 
+                    <div class="grid-box-album">
+                        <img src="/assets/gifs/DiscLoading.gif" class="lazyload" data-src="/assets/albumart/pink floyd - dark side of the moon.jpg">
+                        <p>Pink Floyd<br><i>The Dark Side of The Moon</i></p>
+                    </div> 
+                    <div class="grid-box-album">
+                        <img src="/assets/gifs/DiscLoading.gif" class="lazyload" data-src="/assets/albumart/pink floyd - dark side of the moon.jpg">
+                        <p>Pink Floyd<br><i>The Dark Side of The Moon</i></p>
+                    </div> 
+                    <div class="grid-box-album">
+                        <img src="/assets/gifs/DiscLoading.gif" class="lazyload" data-src="/assets/albumart/pink floyd - dark side of the moon.jpg">
+                        <p>Pink Floyd<br><i>The Dark Side of The Moon</i></p>
+                    </div> 
+                    <div class="grid-box-album">
+                        <img src="/assets/gifs/DiscLoading.gif" class="lazyload" data-src="/assets/albumart/pink floyd - dark side of the moon.jpg">
+                        <p>Pink Floyd<br><i>The Dark Side of The Moon</i></p>
+                    </div> 
+                </div>
+            </div>
+            
+            <div id="classical" class="spacer"></div>
+            
+            <div class="ImageHeader outsideborder">
+                <div class="insideborder">
+                    <img class="lazyload" src="/assets/gifs/LoadingCloudsText.gif" data-src=https://1drv.ms/i/c/19eb4e25e0b8e9bb/IQS76bjgJU7rIIAZoLQAAAAAAQ-FB-hHUf7xpQ5r4ExabFM?width=660">
+                </div>
+                <div class="ImageHeader-Text"><h1>Classical Music</h1></div>
+                <div class="ImageHeader-MyPhoto">Photo: MichaelsCybersite.net, 2025</div>
+            </div>
+            <div class="body-box outsideborder" style="flex-direction: column; gap:0px;">
+                <div class="grid-box-container" style="flex-wrap: wrap;">
+                    <div class="grid-box-album">
+                        <img src="/assets/gifs/DiscLoading.gif" class="lazyload" data-src="/assets/albumart/berliner philharmoniker - richard strauss - also sprach zarathustra.jpg">
+                        <p>Richard Strauss<br><i>Also Sprach Zarathustra</i></p>
+                    </div> 
+                    <div class="grid-box-album">
+                        <img src="/assets/gifs/DiscLoading.gif" class="lazyload" data-src="/assets/albumart/gustav holst - the planets.jpg">
+                        <p>Gustav Holst<br><i>The Planets</i></p>
+                    </div> 
+                    <div class="grid-box-album">
+                        <img src="/assets/gifs/DiscLoading.gif" class="lazyload" data-src="/assets/albumart/johann strauss ii - an der schonen, blauen donau [ii].jpg">
+                        <p>Johann Strauss II<br><i>An Der Schönen, Blauen Donau</i></p>
+                    </div> 
+                    <div class="grid-box-album">
+                        <img src="/assets/gifs/DiscLoading.gif" class="lazyload" data-src="/assets/albumart/antonin dvorak - symphonie no 9.jpg">
+                        <p>Antonín Dvořák<br><i>Symphony No. 9</i></p>
+                    </div> 
+                    <div class="grid-box-album">
+                        <img src="/assets/gifs/DiscLoading.gif" class="lazyload" data-src="/assets/albumart/frederic chopin - nocturnes.jpg">
+                        <p>Frédéric  Chopin<br><i>Nocturnes</i></p>
+                    </div> 
+                </div>
+            </div>
+
+            <div id="songs" class="spacer"></div>
+            
+            <div class="ImageHeader outsideborder">
+                <div class="insideborder">
+                    <img class="lazyload" src="/assets/gifs/LoadingCloudsText.gif" data-src="//1drv.ms/i/c/19eb4e25e0b8e9bb/IQS76bjgJU7rIIAZf34AAAAAAaM1o6dlefsqWDmpWcgy-DI?width=660">
+                </div>
+                <div class="ImageHeader-Text"><h1>Songs</h1></div>
+                <div class="ImageHeader-MyPhoto">Photo: MichaelsCybersite.net, 2023</div>
+            </div>
+            <div class="body-box outsideborder" style="flex-direction: column; gap:0px;">
+                <a style="width:100%" href="https://www.youtube.com/watch?v=F-jZHMX-CJ0" target="_blank">
+                    <div class="playlist-songitem outsideborder">
+                        <img class="lazyload" src="/assets/gifs/DiscLoading.gif" data-src="/assets/albumart/nine inch nails - with teeth [colour corrected].jpg">
+                        <div class="songitem-name">
+                            <span>Right Where It Belongs</span>
+                        </div>
+                        <div class="songitem-artistalbumbox">
+                            <span class="songitem-artist">Nine Inch Nails</span>
+                            <span class="songitem-album">With Teeth</span>
+                        </div>
+                        <div class="songitem-duration">
+                            <span>5:05</span>
+                        </div>
+                    </div>
+                </a>
+                <a style="width:100%" href="https://www.youtube.com/watch?v=Yn1WbBaWTdc" target="_blank">
+                    <div class="playlist-songitem outsideborder">
+                        <img class="lazyload" src="/assets/gifs/DiscLoading.gif" data-src="/assets/albumart/blind melon - blind melon.jpg">
+                        <div class="songitem-name">
+                            <span>Change</span>
+                        </div>
+                        <div class="songitem-artistalbumbox">
+                            <span class="songitem-artist">Blind Melon</span>
+                            <span class="songitem-album">Blind Melon</span>
+                        </div>
+                        <div class="songitem-duration">
+                            <span>3:42</span>
+                        </div>
+                    </div>
+                </a>
+                <a style="width:100%" href="https://www.youtube.com/watch?v=I_izvAbhExY" target="_blank">
+                    <div class="playlist-songitem outsideborder">
+                        <img class="lazyload" src="/assets/gifs/DiscLoading.gif" data-src="/assets/albumart/soundtrack - saturday night fever - the original movie sound track.jpg">
+                        <div class="songitem-name">
+                            <span>Stayin' Alive</span>
+                        </div>
+                        <div class="songitem-artistalbumbox">
+                            <span class="songitem-artist">Bee Gees</span>
+                            <span class="songitem-album">Saturday Night Fever: The Original Movie Sound Track</span>
+                        </div>
+                        <div class="songitem-duration">
+                            <span>3:42</span>
+                        </div>
+                    </div>
+                </a>
+                <a style="width:100%" href="https://www.youtube.com/watch?v=dGUZ6Mn0jIA" target="_blank">
+                    <div class="playlist-songitem outsideborder">
+                        <img class="lazyload" src="/assets/gifs/DiscLoading.gif" data-src="https://upload.wikimedia.org/wikipedia/en/3/36/What_the_Hell_Have_I_Single.jpg">
+                        <div class="songitem-name">
+                            <span>A Little Bitter</span>
+                        </div>
+                        <div class="songitem-artistalbumbox">
+                            <span class="songitem-artist">Alice In Chains</span>
+                            <span class="songitem-album">What the Hell Have I [Single]</span>
+                        </div>
+                        <div class="songitem-duration">
+                            <span>3:48</span>
+                        </div>
+                    </div>
+                </a>
+                <a style="width:100%" href="https://www.youtube.com/watch?v=blPf0-WphFQ" target="_blank">
+                    <div class="playlist-songitem outsideborder">
+                        <img class="lazyload" src="/assets/gifs/DiscLoading.gif" data-src="/assets/albumart/dire straits - brothers in arms.jpg">
+                        <div class="songitem-name">
+                            <span>Your Latest Trick</span>
+                        </div>
+                        <div class="songitem-artistalbumbox">
+                            <span class="songitem-artist">Dire Straits</span>
+                            <span class="songitem-album">Brothers In Arms</span>
+                        </div>
+                        <div class="songitem-duration">
+                            <span>6:34</span>
+                        </div>
+                    </div>
+                </a>
+                <a style="width:100%" href="https://www.youtube.com/watch?v=IBuxFU-e4zA" target="_blank">
+                    <div class="playlist-songitem outsideborder">
+                        <img class="lazyload" src="/assets/gifs/DiscLoading.gif" data-src="/assets/albumart/alice in chains - black gives way to blue.jpg">
+                        <div class="songitem-name">
+                            <span>Private Hell</span>
+                        </div>
+                        <div class="songitem-artistalbumbox">
+                            <span class="songitem-artist">Alice In Chains</span>
+                            <span class="songitem-album">Black Gives Way To Blue</span>
+                        </div>
+                        <div class="songitem-duration">
+                            <span>5:38</span>
+                        </div>
+                    </div>
+                </a>
+                <a style="width:100%" href="https://www.youtube.com/watch?v=hOllF3TgAsM" target="_blank">
+                    <div class="playlist-songitem outsideborder">
+                        <img class="lazyload" src="/assets/gifs/DiscLoading.gif" data-src="/assets/albumart/bush x - sixteen stone.jpg">
+                        <div class="songitem-name">
+                            <span>Glycerine</span>
+                        </div>
+                        <div class="songitem-artistalbumbox">
+                            <span class="songitem-artist">Bush</span>
+                            <span class="songitem-album">Sixteen Stone</span>
+                        </div>
+                        <div class="songitem-duration">
+                            <span>4:27</span>
+                        </div>
+                    </div>
+                </a>
+                <a style="width:100%" href="https://www.youtube.com/watch?v=tUDjU4ygVew" target="_blank">
+                    <div class="playlist-songitem outsideborder">
+                        <img class="lazyload" src="/assets/gifs/DiscLoading.gif" data-src="/assets/albumart/three days grace - outsider.jpg">
+                        <div class="songitem-name">
+                            <span>Right Left Wrong</span>
+                        </div>
+                        <div class="songitem-artistalbumbox">
+                            <span class="songitem-artist">Three Days Grace</span>
+                            <span class="songitem-album">Outsider</span>
+                        </div>
+                        <div class="songitem-duration">
+                            <span>3:57</span>
+                        </div>
+                    </div>
+                </a>
+                <a style="width:100%" href="https://www.youtube.com/watch?v=mQ2-SkLfldk" target="_blank">
+                    <div class="playlist-songitem outsideborder">
+                        <img class="lazyload" src="/assets/gifs/DiscLoading.gif" data-src="/assets/albumart/nine inch nails - broken.jpg">
+                        <div class="songitem-name">
+                            <span>Happiness in Slavery</span>
+                        </div>
+                        <div class="songitem-artistalbumbox">
+                            <span class="songitem-artist">Nine Inch Nails</span>
+                            <span class="songitem-album">Broken [EP]</span>
+                        </div>
+                        <div class="songitem-duration">
+                            <span>5:21</span>
+                        </div>
+                    </div>
+                </a>
+                <a style="width:100%" href="https://www.youtube.com/watch?v=FNKPYhXmzoE" target="_blank">
+                    <div class="playlist-songitem outsideborder">
+                        <img class="lazyload" src="/assets/gifs/DiscLoading.gif" data-src="/assets/albumart/green day - american idiot.jpg">
+                        <div class="songitem-name">
+                            <span>Jesus of Suburbia</span>
+                        </div>
+                        <div class="songitem-artistalbumbox">
+                            <span class="songitem-artist">Green Day</span>
+                            <span class="songitem-album">American Idiot</span>
+                        </div>
+                        <div class="songitem-duration">
+                            <span>9:08</span>
+                        </div>
+                    </div>
+                </a>
+                <a style="width:100%" href="https://www.youtube.com/watch?v=udH7z_WcQlQ" target="_blank">
+                    <div class="playlist-songitem outsideborder">
+                        <img class="lazyload" src="/assets/gifs/DiscLoading.gif" data-src="/assets/albumart/hedley - hedley.jpg">
+                        <div class="songitem-name">
+                            <span>Saturday</span>
+                        </div>
+                        <div class="songitem-artistalbumbox">
+                            <span class="songitem-artist">Hedley</span>
+                            <span class="songitem-album">Saturday</span>
+                        </div>
+                        <div class="songitem-duration">
+                            <span>3:42</span>
+                        </div>
+                    </div>
+                </a>
+                <a style="width:100%" href="https://www.youtube.com/watch?v=ChAZDEvnwDA" target="_blank">
+                    <div class="playlist-songitem outsideborder">
+                        <img class="lazyload" src="/assets/gifs/DiscLoading.gif" data-src="/assets/albumart/alice in chains - the devil put dinosaurs here.jpg">
+                        <div class="songitem-name">
+                            <span>Hung on a Hook</span>
+                        </div>
+                        <div class="songitem-artistalbumbox">
+                            <span class="songitem-artist">Alice In Chains</span>
+                            <span class="songitem-album">The Devil Put Dinosaurs Here</span>
+                        </div>
+                        <div class="songitem-duration">
+                            <span>5:35</span>
+                        </div>
+                    </div>
+                </a>
+                <a style="width:100%" href="https://www.youtube.com/watch?v=Fe9dTVbAtcw" target="_blank">
+                    <div class="playlist-songitem outsideborder">
+                        <img class="lazyload" src="/assets/gifs/DiscLoading.gif" data-src="/assets/albumart/the smashing pumpkins - mellon collie and the infinite sadness [2012 remaster].jpg">
+                        <div class="songitem-name">
+                            <span>Porcelina of the Vast Oceans</span>
+                        </div>
+                        <div class="songitem-artistalbumbox">
+                            <span class="songitem-artist">The Smashing Pumpkins</span>
+                            <span class="songitem-album">Mellon Collie and the Infinite Sadness</span>
+                        </div>
+                        <div class="songitem-duration">
+                            <span>9:21</span>
+                        </div>
+                    </div>
+                </a>
+                <a style="width:100%" href="https://www.youtube.com/watch?v=eU0z9TwL89s" target="_blank">
+                    <div class="playlist-songitem outsideborder">
+                        <img class="lazyload" src="/assets/gifs/DiscLoading.gif" data-src="/assets/albumart/green day - saviors.jpg">
+                        <div class="songitem-name">
+                            <span>1981</span>
+                        </div>
+                        <div class="songitem-artistalbumbox">
+                            <span class="songitem-artist">Green Day</span>
+                            <span class="songitem-album">Saviors</span>
+                        </div>
+                        <div class="songitem-duration">
+                            <span>2:10</span>
+                        </div>
+                    </div>
+                </a>
+                <a style="width:100%" href="https://www.youtube.com/watch?v=ypJ9No2ktak" target="_blank">
+                    <div class="playlist-songitem outsideborder">
+                        <img class="lazyload" src="/assets/gifs/DiscLoading.gif" data-src="/assets/albumart/creed - my own prison.jpg">
+                        <div class="songitem-name">
+                            <span>Torn</span>
+                        </div>
+                        <div class="songitem-artistalbumbox">
+                            <span class="songitem-artist">Creed</span>
+                            <span class="songitem-album">My Own Prison</span>
+                        </div>
+                        <div class="songitem-duration">
+                            <span>6:24</span>
+                        </div>
+                    </div>
+                </a>
+                <a style="width:100%" href="https://www.youtube.com/watch?v=rKiw94M2v8A" target="_blank">
+                    <div class="playlist-songitem outsideborder">
+                        <img class="lazyload" src="/assets/gifs/DiscLoading.gif" data-src="/assets/albumart/mad season - above.jpg">
+                        <div class="songitem-name">
+                            <span>Wake Up</span>
+                        </div>
+                        <div class="songitem-artistalbumbox">
+                            <span class="songitem-artist">Mad Season</span>
+                            <span class="songitem-album">Above</span>
+                        </div>
+                        <div class="songitem-duration">
+                            <span>7:39</span>
+                        </div>
+                    </div>
+                </a>
+                <a style="width:100%" href="https://www.youtube.com/watch?v=kMXapsSOCD0" target="_blank">
+                    <div class="playlist-songitem outsideborder">
+                        <img class="lazyload" src="/assets/gifs/DiscLoading.gif" data-src="/assets/albumart/the smashing pumpkins - siamese dream.jpg">
+                        <div class="songitem-name">
+                            <span>Mayonaise</span>
+                        </div>
+                        <div class="songitem-artistalbumbox">
+                            <span class="songitem-artist">The Smashing Pumpkins</span>
+                            <span class="songitem-album">Siamese Dream</span>
+                        </div>
+                        <div class="songitem-duration">
+                            <span>5:49</span>
+                        </div>
+                    </div>
+                </a>
+                <a style="width:100%" href="https://www.youtube.com/watch?v=r00ikilDxW4" target="_blank">
+                    <div class="playlist-songitem outsideborder">
+                        <img class="lazyload" src="/assets/gifs/DiscLoading.gif" data-src="/assets/albumart/green day - 21st century breakdown.jpg">
+                        <div class="songitem-name">
+                            <span>21 Guns</span>
+                        </div>
+                        <div class="songitem-artistalbumbox">
+                            <span class="songitem-artist">Green Day</span>
+                            <span class="songitem-album">21st Century Breakdown</span>
+                        </div>
+                        <div class="songitem-duration">
+                            <span>5:21</span>
+                        </div>
+                    </div>
+                </a>
+                <a style="width:100%" href="https://www.youtube.com/watch?v=REdiItZvg_A" target="_blank">
+                    <div class="playlist-songitem outsideborder">
+                        <img class="lazyload" src="/assets/gifs/DiscLoading.gif" data-src="/assets/albumart/the smashing pumpkins - siamese dream.jpg">
+                        <div class="songitem-name">
+                            <span>Soma</span>
+                        </div>
+                        <div class="songitem-artistalbumbox">
+                            <span class="songitem-artist">The Smashing Pumpkins</span>
+                            <span class="songitem-album">Siamese Dream</span>
+                        </div>
+                        <div class="songitem-duration">
+                            <span>6:40</span>
+                        </div>
+                    </div>
+                </a>
+                <a style="width:100%" href="https://www.youtube.com/watch?v=0xWAfPXdV-0" target="_blank">
+                    <div class="playlist-songitem outsideborder">
+                        <img class="lazyload" src="/assets/gifs/DiscLoading.gif" data-src="/assets/albumart/alice in chains - rainier fog.jpg">
+                        <div class="songitem-name">
+                            <span>All I Am</span>
+                        </div>
+                        <div class="songitem-artistalbumbox">
+                            <span class="songitem-artist">Alice In Chains</span>
+                            <span class="songitem-album">Rainier Fog</span>
+                        </div>
+                        <div class="songitem-duration">
+                            <span>7:16</span>
+                        </div>
+                    </div>
+                </a>
+                <a style="width:100%" href="https://www.youtube.com/watch?v=V3ADK6gsDGg" target="_blank">
+                    <div class="playlist-songitem outsideborder">
+                        <img class="lazyload" src="/assets/gifs/DiscLoading.gif" data-src="/assets/albumart/slipknot - we are not your kind.jpg">
+                        <div class="songitem-name">
+                            <span>Solway Firth</span>
+                        </div>
+                        <div class="songitem-artistalbumbox">
+                            <span class="songitem-artist">Slipknot</span>
+                            <span class="songitem-album">We Are Not Your Kind</span>
+                        </div>
+                        <div class="songitem-duration">
+                            <span>5:18</span>
+                        </div>
+                    </div>
+                </a>
+                <a style="width:100%" href="https://www.youtube.com/watch?v=H0H5uFDDi3c" target="_blank">
+                    <div class="playlist-songitem outsideborder">
+                        <img class="lazyload" src="/assets/gifs/DiscLoading.gif" data-src="/assets/albumart/third eye blind - third eye blind.jpg">
+                        <div class="songitem-name">
+                            <span>God of Wine</span>
+                        </div>
+                        <div class="songitem-artistalbumbox">
+                            <span class="songitem-artist">Third Eye Blind</span>
+                            <span class="songitem-album">Third Eye Blind</span>
+                        </div>
+                        <div class="songitem-duration">
+                            <span>5:17</span>
+                        </div>
+                    </div>
+                </a>
+                <a style="width:100%" href="https://www.youtube.com/watch?v=LHPKOy3dtqQ" target="_blank">
+                    <div class="playlist-songitem outsideborder">
+                        <img class="lazyload" src="/assets/gifs/DiscLoading.gif" data-src="/assets/albumart/green day - revolution radio.jpg">
+                        <div class="songitem-name">
+                            <span>Revolution Radio</span>
+                        </div>
+                        <div class="songitem-artistalbumbox">
+                            <span class="songitem-artist">Green Day</span>
+                            <span class="songitem-album">Revolution Radio</span>
+                        </div>
+                        <div class="songitem-duration">
+                            <span>3:01</span>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </main>
+</body>
+
+ <!--
+TODO: transfer links for albums and artists from the old All Time Favourites Box to this page
+
+            <div class="body-box outsideborder" style="flex-direction: column; gap:0px;">
+                <div class="box-container">
+                    <p style="padding: 1px;">It's hard to pick favourites! These bands have been set in stone for a good number of years, but it's too difficult to decide on albums. Click on any one of them to see their Discogs page.</i></p>
+                    <hr>
+                    <div class="grid-box-container" style="flex-wrap: wrap; border: none; font-size: 1.0em;">
+                        <div class="list-package">
+                            <h4>My Favourite bands:</h4>
+                            <ul>
+                                <a href="https://en.wikipedia.org/wiki/Green_Day" style="text-decoration: none; color:black;"><li>Green Day</li></a>
+                                <a href="https://en.wikipedia.org/wiki/Alice_in_Chains" style="text-decoration: none; color:black;"><li>Alice In Chains</li></a>
+                                <a href="https://en.wikipedia.org/wiki/The_Smashing_Pumpkins" style="text-decoration: none; color:black;"><li>The Smashing Pumpkins</li></a>
+                                <a href="https://en.wikipedia.org/wiki/Nine_Inch_Nails" style="text-decoration: none; color:black;"><li>Nine Inch Nails</li></a>
+                                <a href="https://en.wikipedia.org/wiki/Pink_Floyd" style="text-decoration: none; color:black;"><li>Pink Floyd</li></a>
+                            </ul>
+                        </div> 
+                        <div class="list-package">
+                            <h4>My Favourite Classical Releases:</h4>
+                            <ul>
+                                <a href="https://www.discogs.com/release/28259617-Richard-Strauss-Berliner-Philharmoniker-Herbert-von-Karajan-Also-Sprach-Zarathustra-Till-Eulenspiege" style="text-decoration: none; color:black;"><li>Richard Strauss/Also Sprach Zarathustra</li></a>
+                                <a href="https://www.discogs.com/release/24892025-Dvo%C5%99%C3%A1k-Smetana-Wiener-Philharmoniker-Herbert-von-Karajan-Symphonie-Nr-9-Moldau" style="text-decoration: none; color:black;"><li>Antonín Dvořák/Symphony No. 9</li></a>
+                                <a href="https://www.discogs.com/release/5559634-Gustav-Holst-Berliner-Philharmoniker-Herbert-von-Karajan-The-Planets" style="text-decoration: none; color:black;"><li>Gustav Holst/The Planets</li></a>
+                                <a href="https://www.discogs.com/release/1375019-Johann-Strauss-Berliner-Philharmoniker-Herbert-von-Karajan-An-Der-Sch%C3%B6nen-Blauen-Donau-The-Blue-Dan" style="text-decoration: none; color:black;"><li>Johann Strauss II/An Der Schonen, Blauen Donau</li></a>
+                                <a href="https://www.discogs.com/release/24270464-Bizet-Grieg-Royal-Philharmonic-Orchestra-Conducted-By-Mark-Ermler-Carmen-Suites-No12-Peer-Gynt-Suite" style="text-decoration: none; color:black;"><li>Georges Bizet/Carmen Suites Nos. 1 & 2</li></a>
+                            </ul>
+                        </div>            
+                        <div class="list-package">
+                            <h4>My Favourite Albums:</h4>
+                            <ul>
+                                <a href="https://www.discogs.com/release/4520362-Pink-Floyd-The-Dark-Side-Of-The-Moon" style="text-decoration: none; color:black;"><li>Pink Floyd/The Dark Side of The Moon</li></a>
+                            </ul>
+                        </div>
+                    </div>
+                    <hr>
+                    <p style="padding: 1px;">It is, however, somewhat easier to pick my favourite albums from my favourite bands:</p>
+                    <hr>
+                    <div class="grid-box-container" style="flex-wrap: wrap; border: none; font-size: 1.0em;">
+                        <div class="list-package">
+                            <h4>Green Day:</h4>
+                            <ol>
+                                <a href="https://www.discogs.com/release/1091494-Green-Day-1039Smoothed-Out-Slappy-Hours" style="text-decoration: none; color:black;"><li>1039/Smoothed Out Slappy Hours</li></a>
+                                <a href="https://www.discogs.com/release/1283865-Green-Day-Dookie" style="text-decoration: none; color:black;"><li>Dookie</li></a>
+                                <a href="https://www.discogs.com/release/9242703-Green-Day-Revolution-Radio" style="text-decoration: none; color:black;"><li>Revolution Radio</li></a>
+                                <a href="https://www.discogs.com/release/6653752-Green-Day-21st-Century-Breakdown" style="text-decoration: none; color:black;"><li>21st Century Breakdown</li></a>
+                                <a href="https://www.discogs.com/release/1359357-Green-Day-Nimrod" style="text-decoration: none; color:black;"><li>Nimrod</li></a>
+                            </ol>
+                        </div>
+                        <div class="list-package">
+                            <h4>Alice In Chains:</h4>
+                            <ul>
+                                <a href="https://www.discogs.com/release/10224783-Alice-In-Chains-Black-Gives-Way-To-Blue" style="text-decoration: none; color:black;"><li>Black Gives Way To Blue</li></a>
+                                <a href="https://www.discogs.com/release/1745094-Alice-In-Chains-Dirt" style="text-decoration: none; color:black;"><li>Dirt</li></a>
+                                <a href="https://www.discogs.com/release/2971210-Alice-In-Chains-Alice-In-Chains" style="text-decoration: none; color:black;"><li>Alice In Chains</li></a>
+                                <a href="https://www.discogs.com/release/417191-Alice-In-Chains-Jar-Of-Flies" style="text-decoration: none; color:black;"><li>Jar of Flies</li></a>
+                                <a href="https://www.discogs.com/release/11272720-Alice-In-Chains-The-Devil-Put-Dinosaurs-Here" style="text-decoration: none; color:black;"><li>The Devil Put Dinosaurs Here</li></a>
+                            </ul>
+                        </div>
+                        <div class="list-package">
+                            <h4>The Smashing Pumpkins:</h4>
+                            <ol>
+                                <a href="https://www.discogs.com/release/510284-Smashing-Pumpkins-Gish" style="text-decoration: none; color:black;"><li>Gish</li></a>
+                                <a href="https://www.discogs.com/release/6524884-The-Smashing-Pumpkins-Mellon-Collie-And-The-Infinite-Sadness" style="text-decoration: none; color:black;"><li>Mellon Collie And The Infinite Sadness</li></a>
+                                <a href="https://www.discogs.com/release/7086501-Smashing-Pumpkins-Siamese-Dream" style="text-decoration: none; color:black;"><li>Siamese Dream</li></a>
+                                <a href="https://www.discogs.com/release/378885-The-Smashing-Pumpkins-Machina-The-Machines-Of-God" style="text-decoration: none; color:black;"><li>Machina</li></a>
+                                <a href="https://www.discogs.com/release/4831429-The-Smashing-Pumpkins-Thirty-Three" style="text-decoration: none; color:black;"><li>Thirty-Three</li></a>
+                            </ol>
+                        </div>
+                        <div class="list-package">
+                            <h4>Pink Floyd:</h4>
+                            <ol>
+                                <a href="https://www.discogs.com/release/4520362-Pink-Floyd-The-Dark-Side-Of-The-Moon" style="text-decoration: none; color:black;"><li>The Dark Side of The Moon</li></a>
+                                <a href="https://www.discogs.com/release/2515106-Pink-Floyd-The-Wall" style="text-decoration: none; color:black;"><li>The Wall</li></a>
+                                <a href="https://www.discogs.com/release/3326912-Pink-Floyd-Atom-Heart-Mother" style="text-decoration: none; color:black;"><li>Atom Heart Mother</li></a>
+                                <a href="https://www.discogs.com/release/1148897-Pink-Floyd-Animals" style="text-decoration: none; color:black;"><li>Animals</li></a>
+                                <a href="https://www.discogs.com/release/4879055-Pink-Floyd-Wish-You-Were-Here" style="text-decoration: none; color:black;"><li>Wish You Were Here</li></a>
+                            </ol>
+                        </div>
+                        <div class="list-package">
+                            <h4>Nine Inch Nails</h4>
+                            <ol>
+                                <a href="https://www.discogs.com/release/12203229-Nine-Inch-Nails-Broken" style="text-decoration: none; color:black;"><li>Broken</li></a>
+                                <a href="https://www.discogs.com/release/3481634-Nine-Inch-Nails-With-Teeth" style="text-decoration: none; color:black;"><li>With Teeth</li></a>
+                                <a href="https://www.discogs.com/release/12788239-Nine-Inch-Nails-The-Downward-Spiral" style="text-decoration: none; color:black;"><li>The Downward Spiral</li></a>
+                                <a href="https://www.discogs.com/release/9782676-Nine-Inch-Nails-Pretty-Hate-Machine" style="text-decoration: none; color:black;"><li>Pretty Hate Machine</li></a>
+                                <a href="https://www.discogs.com/release/5025611-Nine-Inch-Nails-Hesitation-Marks" style="text-decoration: none; color:black;"><li>Hesitation Marks</li></a>
+                            </ol>
+                        </div>
+                    </div> 
+                </div>
+            </div>
+-->

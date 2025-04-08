@@ -12,12 +12,14 @@ class photoCarousel
     {
         try
         {
-            const response = await fetch('./assets/json/photoCarouselData.json');
-            const data = await response.json();
+            fetch('./assets/json/photoCarouselData.json')
+            .then(response => response.json())
+            .then(data => {
 
             //the data has to be this.carouselID or it'll be set to []
             this.photosDatabase = data[this.carouselID] || [];
             this.stickSomeImagesInThere();
+            });
         }
         catch (error)
         {

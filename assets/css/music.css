@@ -97,7 +97,7 @@ order: 1;
     }
 }
 
-  .header-one-box, .header-two-box
+  .header-one-box, .header-two-box, .header-three-box
 {
   color: #FFFFFF;
   background-image: linear-gradient(to right, #1a8000 , #10d03a);
@@ -270,6 +270,7 @@ Album showcase
     {
         font-size:0.8em;
     }
+  
 }
 
 

@@ -61,6 +61,7 @@ function injectStandardFooter()
     });
 }
 
+//Injects the default header into the HTML document
 function injectStandardHeader()
 {
     fetch("pages/templates/header.html")
@@ -87,7 +88,7 @@ function lazyLoadImages() {
                     }
 
                     img.classList.add("loaded");
-                    //img.classList.remove("lazyload");
+                    img.classList.remove("lazyload");
                     observer.unobserve(img);
                 }
             });
@@ -98,13 +99,15 @@ function lazyLoadImages() {
         lazyImages.forEach(img => {
             img.src = img.getAttribute("data-src");
             img.classList.add("loaded");
-            //img.classList.remove("lazyload");
+            img.classList.remove("lazyload");
         });
     }
 }
 
+//Activate lazy loading
 document.addEventListener("DOMContentLoaded", lazyLoadImages);
 
+//Lazyload shit the bed
 function handleImageError(image)
 {
     console.error(`lazyload img shit the bed! ${realSrc}`, error);

@@ -1,0 +1,570 @@
+<head>
+    <script src="/head-inject.js"></script>
+
+    <title>Coffee Shop Rock</title>
+    <link rel="stylesheet" type="text/css" href="/assets/css/win98.css"/>
+    <link rel="stylesheet" type="text/css" href="/assets/css/music.css"/>
+    <style>
+        .grid-box-album
+        {
+            flex: 20%;
+            word-wrap: break-word;
+        }
+
+        .grid-box-album img
+        {
+            object-fit: fill;
+            max-width: 100%;
+            min-width: 100%;
+            height:auto;
+            flex-grow:1;
+        }
+
+        .grid-box-container
+        {
+            display:flex;
+            flex-wrap:wrap;
+        }
+
+
+        .grid-box-album:last-child
+        {
+            
+        }
+
+        .grid-box-container > *
+        {
+            text-align: center;
+        }
+
+        @media(max-width:900px)
+        {
+            .body-box .grid-box-container
+            {
+                flex-direction: row;
+                word-wrap: break-word;
+            }
+
+            .grid-box-album
+            {
+                flex: 30%;
+            }
+
+            .grid-box-album:last-child
+            {
+                max-width :30%;
+            }
+        }
+
+        @media(max-width:600px)
+        {
+            .body-box .grid-box-container
+            {
+                flex-direction: row;
+                word-break: break-all;
+                word-wrap: break-word;
+                font-size: 1.0em;
+            }
+
+            .grid-box-album
+            {
+                flex: 50%;
+            }
+
+            .grid-box-album:last-child
+            {
+                max-width :50%;
+            }
+        }
+
+        .ImageHeader img
+        {
+            height:20vw;
+        }
+
+        @media (max-width: 600px)
+        {
+            .ImageHeader img
+            {
+                height: 50vw;
+            }
+
+            .ImageHeader-Text
+            {
+                font-size: 1.2em;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <div class="maincontent-centred" style="min-height:60vh;">
+        
+        <div class="ImageHeader outsideborder">
+            <div class="insideborder">
+                <img class="lazyload" src="/assets/gifs/LoadingCloudsText.gif" data-src="https://1drv.ms/i/c/19eb4e25e0b8e9bb/IQScw1Cbsj06SoooUwO5f-SYAQa7hXMnh2GnBp3Du64JQ44?width=660">
+            </div>
+            <div class="ImageHeader-Text"><h1>Coffee Shop Rock</h1></div>
+            <div class="ImageHeader-MyPhoto">Photo: MichaelsCybersite.net, 2025</div>
+        </div>
+        
+        <div class="body-box outsideborder stacked">
+            <div class="box-container" style="padding:10px;">
+                <p>Imagine: you're in a coffee shop in the mid to late 90's and they're playing some pretty harmless, inoffensive music with a couple of sparse hits in between. Lots of Jangle-Pop and Power-Pop mixed in with the Grunge/Post-Grunge of the day. Sometimes they stand out, sometimes they're just filler</p>
+                <p>This is one of my favourite playlists to have on in the rare occasion I'm not in the mood for a full album. I use the term "coffee shop rock" to describe the kind of inoffensive background music in between the hits.</p>
+            </div>
+            <div class="body-box outsideborder" style="flex-direction: column; gap:0px;">
+                <div class="playlist-songitem grooveborder">
+                    <img class="lazyload" src="/assets/gifs/DiscLoading.gif" data-src="/assets/albumart/the rembrandts - lp.jpg">
+                    <div class="songitem-name">
+                        <span>Don't Hide Your Love</span>
+                    </div>
+
+                    <div class="songitem-artistalbumbox">
+                        <span class="songitem-artist">The Rembrandts</span>
+                        <span class="songitem-album">L.P.</span>
+                    </div>
+                    <div class="songitem-duration">
+                        <span>4:19</span>
+                    </div>
+                </div>
+                <div class="playlist-songitem grooveborder">
+                    <img class="lazyload" src="/assets/gifs/DiscLoading.gif" data-src="/assets/albumart/deep blue something - home.jpg">
+                    <div class="songitem-name">
+                        <span>Josey</span>
+                    </div>
+
+                    <div class="songitem-artistalbumbox">
+                        <span class="songitem-artist">Deep Blue Something</span>
+                        <span class="songitem-album">Home</span>
+                    </div>
+                    <div class="songitem-duration">
+                        <span>4:07</span>
+                    </div>
+                </div>
+                <div class="playlist-songitem grooveborder">
+                    <img class="lazyload" src="/assets/gifs/DiscLoading.gif" data-src="/assets/albumart/various artists - friends original television soundtrack.jpg">
+                    <div class="songitem-name">
+                        <span>I Go Blind</span>
+                    </div>
+
+                    <div class="songitem-artistalbumbox">
+                        <span class="songitem-artist">Hootie & The Blowfish</span>
+                        <span class="songitem-album">Friends</span>
+                    </div>
+                    <div class="songitem-duration">
+                        <span>3:09</span>
+                    </div>
+                </div>
+                <div class="playlist-songitem grooveborder">
+                    <img class="lazyload" src="/assets/gifs/DiscLoading.gif" data-src="/assets/albumart/rem - lifes rich pageant.jpg">
+                    <div class="songitem-name">
+                        <span>What If We Give It Away?</span>
+                    </div>
+
+                    <div class="songitem-artistalbumbox">
+                        <span class="songitem-artist">R.E.M.</span>
+                        <span class="songitem-album">Life's Rich Pageant</span>
+                    </div>
+                    <div class="songitem-duration">
+                        <span>3:55</span>
+                    </div>
+                </div>
+                <div class="playlist-songitem grooveborder">
+                    <img class="lazyload" src="/assets/gifs/DiscLoading.gif" data-src="/assets/albumart/various artists - singles original motion picture soundtrack.jpg">
+                    <div class="songitem-name">
+                        <span>Waiting For Somebody</span>
+                    </div>
+
+                    <div class="songitem-artistalbumbox">
+                        <span class="songitem-artist">Paul Westerberg</span>
+                        <span class="songitem-album">Singles</span>
+                    </div>
+                    <div class="songitem-duration">
+                        <span>3:28</span>
+                    </div>
+                </div>
+                <div class="playlist-songitem grooveborder">
+                    <img class="lazyload" src="/assets/gifs/DiscLoading.gif" data-src="/assets/albumart/semisonic - feeling strangely fine.jpg">
+                    <div class="songitem-name">
+                        <span>Closing Time</span>
+                    </div>
+
+                    <div class="songitem-artistalbumbox">
+                        <span class="songitem-artist">Semisonic</span>
+                        <span class="songitem-album">Feeling Strangely Fine</span>
+                    </div>
+                    <div class="songitem-duration">
+                        <span>4:34</span>
+                    </div>
+                </div>
+                <div class="playlist-songitem grooveborder">
+                    <img class="lazyload" src="/assets/gifs/DiscLoading.gif" data-src="/assets/albumart/collective soul - collective soul.jpg">
+                    <div class="songitem-name">
+                        <span>The World I Know</span>
+                    </div>
+
+                    <div class="songitem-artistalbumbox">
+                        <span class="songitem-artist">Collective Soul</span>
+                        <span class="songitem-album">Collective Soul</span>
+                    </div>
+                    <div class="songitem-duration">
+                        <span>4:17</span>
+                    </div>
+                </div>
+                <div class="playlist-songitem grooveborder">
+                    <img class="lazyload" src="/assets/gifs/DiscLoading.gif" data-src="/assets/albumart/the rembrandts - lp.jpg">
+                    <div class="songitem-name">
+                        <span>There Goes Lucy</span>
+                    </div>
+
+                    <div class="songitem-artistalbumbox">
+                        <span class="songitem-artist">The Rembrandts</span>
+                        <span class="songitem-album">L.P.</span>
+                    </div>
+                    <div class="songitem-duration">
+                        <span>3:37</span>
+                    </div>
+                </div>
+                <div class="playlist-songitem grooveborder">
+                    <img class="lazyload" src="/assets/gifs/DiscLoading.gif" data-src="/assets/albumart/deep blue something - home.jpg">
+                    <div class="songitem-name">
+                        <span>Breakfast At Tiffany's</span>
+                    </div>
+
+                    <div class="songitem-artistalbumbox">
+                        <span class="songitem-artist">Deep Blue Something</span>
+                        <span class="songitem-album">Home</span>
+                    </div>
+                    <div class="songitem-duration">
+                        <span>4:17</span>
+                    </div>
+                </div>
+                <div class="playlist-songitem grooveborder">
+                    <img class="lazyload" src="/assets/gifs/DiscLoading.gif" data-src="/assets/albumart/the tuesdays - the tuesdays.jpg">
+                    <div class="songitem-name">
+                        <span>It's Up To You</span>
+                    </div>
+
+                    <div class="songitem-artistalbumbox">
+                        <span class="songitem-artist">The Tuesdays</span>
+                        <span class="songitem-album">The Tuesdays</span>
+                    </div>
+                    <div class="songitem-duration">
+                        <span>4:29</span>
+                    </div>
+                </div>
+                <div class="playlist-songitem grooveborder">
+                    <img class="lazyload" src="/assets/gifs/DiscLoading.gif" data-src="/assets/albumart/green day - nimrod.jpg">
+                    <div class="songitem-name">
+                        <span>Good Riddance (Time Of Your Life)</span>
+                    </div>
+
+                    <div class="songitem-artistalbumbox">
+                        <span class="songitem-artist">Green Day</span>
+                        <span class="songitem-album">Nimrod</span>
+                    </div>
+                    <div class="songitem-duration">
+                        <span>2:35</span>
+                    </div>
+                </div>
+                <div class="playlist-songitem grooveborder">
+                    <img class="lazyload" src="/assets/gifs/DiscLoading.gif" data-src="/assets/albumart/various artists - friends original television soundtrack.jpg">
+                    <div class="songitem-name">
+                        <span>Good Intentions</span>
+                    </div>
+
+                    <div class="songitem-artistalbumbox">
+                        <span class="songitem-artist">Toad The Wet Sprocket</span>
+                        <span class="songitem-album">Friends</span>
+                    </div>
+                    <div class="songitem-duration">
+                        <span>4:28</span>
+                    </div>
+                </div>
+                <div class="playlist-songitem grooveborder">
+                    <img class="lazyload" src="/assets/gifs/DiscLoading.gif" data-src="/assets/albumart/various artists - singles original motion picture soundtrack.jpg">
+                    <div class="songitem-name">
+                        <span>Seasons</span>
+                    </div>
+
+                    <div class="songitem-artistalbumbox">
+                        <span class="songitem-artist">Chris Cornell</span>
+                        <span class="songitem-album">Singles</span>
+                    </div>
+                    <div class="songitem-duration">
+                        <span>5:48</span>
+                    </div>
+                </div>
+                <div class="playlist-songitem grooveborder">
+                    <img class="lazyload" src="/assets/gifs/DiscLoading.gif" data-src="/assets/albumart/the bangles - everything.jpg">
+                    <div class="songitem-name">
+                        <span>Waiting For You</span>
+                    </div>
+
+                    <div class="songitem-artistalbumbox">
+                        <span class="songitem-artist">The Bangles</span>
+                        <span class="songitem-album">Everything</span>
+                    </div>
+                    <div class="songitem-duration">
+                        <span>3:38</span>
+                    </div>
+                </div>
+                <div class="playlist-songitem grooveborder">
+                    <img class="lazyload" src="/assets/gifs/DiscLoading.gif" data-src="/assets/albumart/the rembrandts - lp.jpg">
+                    <div class="songitem-name">
+                        <span>This House Is Not a Home</span>
+                    </div>
+
+                    <div class="songitem-artistalbumbox">
+                        <span class="songitem-artist">The Rembrandts</span>
+                        <span class="songitem-album">L.P.</span>
+                    </div>
+                    <div class="songitem-duration">
+                        <span>3:17</span>
+                    </div>
+                </div>
+                
+                <div class="playlist-songitem grooveborder">
+                    <img class="lazyload" src="/assets/gifs/DiscLoading.gif" data-src="/assets/albumart/janes addiction - nothings shocking.jpg">
+                    <div class="songitem-name">
+                        <span>Jane Says</span>
+                    </div>
+
+                    <div class="songitem-artistalbumbox">
+                        <span class="songitem-artist">Jane's Addiction</span>
+                        <span class="songitem-album">Nothings Shocking</span>
+                    </div>
+                    <div class="songitem-duration">
+                        <span>4:53</span>
+                    </div>
+                </div>
+                <div class="playlist-songitem grooveborder">
+                    <img class="lazyload" src="/assets/gifs/DiscLoading.gif" data-src="/assets/albumart/moist - silver.webp">
+                    <div class="songitem-name">
+                        <span>Picture Elvis</span>
+                    </div>
+
+                    <div class="songitem-artistalbumbox">
+                        <span class="songitem-artist">Moist</span>
+                        <span class="songitem-album">Silver</span>
+                    </div>
+                    <div class="songitem-duration">
+                        <span>3:13</span>
+                    </div>
+                </div>
+                <div class="playlist-songitem grooveborder">
+                    <img class="lazyload" src="/assets/gifs/DiscLoading.gif" data-src="/assets/albumart/collective soul - hints allegations and things left unsaid.jpg">
+                    <div class="songitem-name">
+                        <span>In a Moment</span>
+                    </div>
+
+                    <div class="songitem-artistalbumbox">
+                        <span class="songitem-artist">Collective Soul</span>
+                        <span class="songitem-album">Hints, Allegations and Things Left Unsaid</span>
+                    </div>
+                    <div class="songitem-duration">
+                        <span>3:54</span>
+                    </div>
+                </div>
+                <div class="playlist-songitem grooveborder">
+                    <img class="lazyload" src="/assets/gifs/DiscLoading.gif" data-src="/assets/albumart/marcy playground - marcy playground.jpg">
+                    <div class="songitem-name">
+                        <span>Gone Crazy</span>
+                    </div>
+
+                    <div class="songitem-artistalbumbox">
+                        <span class="songitem-artist">Marcy Playground</span>
+                        <span class="songitem-album">Marcy Playground</span>
+                    </div>
+                    <div class="songitem-duration">
+                        <span>2:45</span>
+                    </div>
+                </div>
+                <div class="playlist-songitem grooveborder">
+                    <img class="lazyload" src="/assets/gifs/DiscLoading.gif" data-src="/assets/albumart/rem - out of time.jpg">
+                    <div class="songitem-name">
+                        <span>Losing My Religion</span>
+                    </div>
+
+                    <div class="songitem-artistalbumbox">
+                        <span class="songitem-artist">R.E.M.</span>
+                        <span class="songitem-album">Out of Time</span>
+                    </div>
+                    <div class="songitem-duration">
+                        <span>4:29</span>
+                    </div>
+                </div>
+                <div class="playlist-songitem grooveborder">
+                    <img class="lazyload" src="/assets/gifs/DiscLoading.gif" data-src="/assets/albumart/blind melon - blind melon.jpg">
+                    <div class="songitem-name">
+                        <span>No Rain</span>
+                    </div>
+
+                    <div class="songitem-artistalbumbox">
+                        <span class="songitem-artist">Blind Melon</span>
+                        <span class="songitem-album">Blind Melon</span>
+                    </div>
+                    <div class="songitem-duration">
+                        <span>3:37</span>
+                    </div>
+                </div>
+                <div class="playlist-songitem grooveborder">
+                    <img class="lazyload" src="/assets/gifs/DiscLoading.gif" data-src="/assets/albumart/deep blue something - home.jpg">
+                    <div class="songitem-name">
+                        <span>A Water Prayer</span>
+                    </div>
+
+                    <div class="songitem-artistalbumbox">
+                        <span class="songitem-artist">Deep Blue Something</span>
+                        <span class="songitem-album">Home</span>
+                    </div>
+                    <div class="songitem-duration">
+                        <span>3:21</span>
+                    </div>
+                </div>
+                <div class="playlist-songitem grooveborder">
+                    <img class="lazyload" src="/assets/gifs/DiscLoading.gif" data-src="/assets/albumart/goo goo dolls - a boy named goo.jpg">
+                    <div class="songitem-name">
+                        <span>Name</span>
+                    </div>
+
+                    <div class="songitem-artistalbumbox">
+                        <span class="songitem-artist">The Goo Goo Dolls</span>
+                        <span class="songitem-album">A Boy Named Goo</span>
+                    </div>
+                    <div class="songitem-duration">
+                        <span>4:30</span>
+                    </div>
+                </div>
+                <div class="playlist-songitem grooveborder">
+                    <img class="lazyload" src="/assets/gifs/DiscLoading.gif" data-src="/assets/albumart/hootie and the blowfish - cracked rear view.jpg">
+                    <div class="songitem-name">
+                        <span>Only Wanna Be With You</span>
+                    </div>
+
+                    <div class="songitem-artistalbumbox">
+                        <span class="songitem-artist">Hootie & The Blowfish</span>
+                        <span class="songitem-album">Cracked Rear View</span>
+                    </div>
+                    <div class="songitem-duration">
+                        <span>3:47</span>
+                    </div>
+                </div>
+                <div class="playlist-songitem grooveborder">
+                    <img class="lazyload" src="/assets/gifs/DiscLoading.gif" data-src="/assets/albumart/various artists - no alternative.jpg">
+                    <div class="songitem-name">
+                        <span>Take A Walk</span>
+                    </div>
+
+                    <div class="songitem-artistalbumbox">
+                        <span class="songitem-artist">Urge Overkill</span>
+                        <span class="songitem-album">No Alternative</span>
+                    </div>
+                    <div class="songitem-duration">
+                        <span>4:39</span>
+                    </div>
+                </div>
+                <div class="playlist-songitem grooveborder">
+                    <img class="lazyload" src="/assets/gifs/DiscLoading.gif" data-src="/assets/albumart/the goo goo dolls - dizzy up the girl.jpg">
+                    <div class="songitem-name">
+                        <span>Black Balloon</span>
+                    </div>
+
+                    <div class="songitem-artistalbumbox">
+                        <span class="songitem-artist">The Goo Goo Dolls</span>
+                        <span class="songitem-album">Dizzy Up The Girl</span>
+                    </div>
+                    <div class="songitem-duration">
+                        <span>4:10</span>
+                    </div>
+                </div>
+                <div class="playlist-songitem grooveborder">
+                    <img class="lazyload" src="/assets/gifs/DiscLoading.gif" data-src="/assets/albumart/nirvana - mtv unplugged in new york.jpg">
+                    <div class="songitem-name">
+                        <span>The Man Who Sold The World</span>
+                    </div>
+
+                    <div class="songitem-artistalbumbox">
+                        <span class="songitem-artist">Nirvana</span>
+                        <span class="songitem-album">MTV: Unplugged in New York</span>
+                    </div>
+                    <div class="songitem-duration">
+                        <span>4:21</span>
+                    </div>
+                </div>
+                <div class="playlist-songitem grooveborder">
+                    <img class="lazyload" src="/assets/gifs/DiscLoading.gif" data-src="/assets/albumart/rem - lifes rich pageant.jpg">
+                    <div class="songitem-name">
+                        <span>Cuyahoga</span>
+                    </div>
+
+                    <div class="songitem-artistalbumbox">
+                        <span class="songitem-artist">R.E.M.</span>
+                        <span class="songitem-album">Life's Rich Pageant</span>
+                    </div>
+                    <div class="songitem-duration">
+                        <span>4:21</span>
+                    </div>
+                </div>
+                <div class="playlist-songitem grooveborder">
+                    <img class="lazyload" src="/assets/gifs/DiscLoading.gif" data-src="/assets/albumart/the rembrandts - lp.jpg">
+                    <div class="songitem-name">
+                        <span>Lovin' Me Insane</span>
+                    </div>
+
+                    <div class="songitem-artistalbumbox">
+                        <span class="songitem-artist">The Rembrandts</span>
+                        <span class="songitem-album">L.P.</span>
+                    </div>
+                    <div class="songitem-duration">
+                        <span>4:01</span>
+                    </div>
+                </div>
+                <div class="playlist-songitem grooveborder">
+                    <img class="lazyload" src="/assets/gifs/DiscLoading.gif" data-src="/assets/albumart/the tuesdays - the tuesdays.jpg">
+                    <div class="songitem-name">
+                        <span>I'll Be Here</span>
+                    </div>
+
+                    <div class="songitem-artistalbumbox">
+                        <span class="songitem-artist">The Tuesdays</span>
+                        <span class="songitem-album">The Tuesdays</span>
+                    </div>
+                    <div class="songitem-duration">
+                        <span>4:27</span>
+                    </div>
+                </div>
+                <div class="playlist-songitem grooveborder">
+                    <img class="lazyload" src="/assets/gifs/DiscLoading.gif" data-src="/assets/albumart/teenage fanclub - bandwagonesque.jpg">
+                    <div class="songitem-name">
+                        <span>Alcoholiday</span>
+                    </div>
+
+                    <div class="songitem-artistalbumbox">
+                        <span class="songitem-artist">Teenage Fanclub</span>
+                        <span class="songitem-album">Bandwagonesque</span>
+                    </div>
+                    <div class="songitem-duration">
+                        <span>5:26</span>
+                    </div>
+                </div>
+                <div class="playlist-songitem grooveborder">
+                    <img class="lazyload" src="/assets/gifs/DiscLoading.gif" data-src="/assets/albumart/boghandle - worth dying for.webp">
+                    <div class="songitem-name">
+                        <span>Worth dying for</span>
+                    </div>
+
+                    <div class="songitem-artistalbumbox">
+                        <span class="songitem-artist">Boghandle</span>
+                        <span class="songitem-album">Worth Dying For</span>
+                    </div>
+                    <div class="songitem-duration">
+                        <span>3:02</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>

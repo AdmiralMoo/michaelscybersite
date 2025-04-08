@@ -48,7 +48,7 @@ function updateDisplay() {
                     </div>
                     <div class="articleCardContent">
                         <div class="articleImage">
-                            <img src="${articlesDatabase[i].image}" alt="${articlesDatabase[i].name}">
+                            <img class="lazyload" src="/assets/gifs/LoadingClouds.gif" data-src="${articlesDatabase[i].image}">
                         </div>
                         <div class="articleDescription box-container">
                             <p>${articlesDatabase[i].description}</p>
@@ -58,5 +58,11 @@ function updateDisplay() {
             </a>
         </div>
         `;
+    }
+
+    //This shouldn't be an issue if the head was injected correctly...
+    if (typeof lazyLoadImages === "function")
+    {
+        lazyLoadImages();
     }
 }

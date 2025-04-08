@@ -46,3 +46,13 @@
         transform: translateX(-120vw);
     }
   }
+  
+.hie
+{
+  background-color:rgba(255, 255, 0, 0);
+}
+
+.hid
+{
+  background-color:rgba(0, 0, 0, 0);
+}
