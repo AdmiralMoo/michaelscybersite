@@ -108,3 +108,10 @@ function initializeScrollingAlbums()
 
 
 document.addEventListener("DOMContentLoaded", initializeScrollingAlbums());
+
+/*
+TODO: Ensure that this loops infinitely
+TODO: Add variation to album cover sizes
+TODO: Add argument to pass in custom page height for adjustments
+TODO: Animate fading in and out of albums
+*/
