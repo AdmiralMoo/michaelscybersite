@@ -17,7 +17,7 @@ function updateAlbumShowcase() {
             shuffleAlbum();
         }
 
-//        currentAlbumIndex = albumsDatabase.length - 1;
+        //currentAlbumIndex = albumsDatabase.length - 1;
 
         const albumShowcaseParent = document.getElementById("albumShowcaseBody");
         const showcaseAlbum = albumsDatabase[currentAlbumIndex];
@@ -38,8 +38,8 @@ function updateAlbumShowcase() {
             </div>
             <div id="albumShowcaseBottomTitle" class="side-by-side">
                 <p id="showcaseAlbumTrackCount">${showcaseAlbum.tracks.length} Tracks</p>
-                <p id="showcaseAlbumDuration">${showcaseAlbum.genre}</p>
-                <p id="showcaseAlbumDuration">${showcaseAlbum.rating / 10}/10</p>
+                <p id="showcaseAlbumGenre">${showcaseAlbum.genre}</p>
+                <p id="showcaseAlbumRating">${showcaseAlbum.rating / 10}/10</p>
                 <p id="showcaseAlbumDuration">${showcaseAlbum.duration}</p>
             </div>
             
@@ -58,6 +58,22 @@ function updateAlbumShowcase() {
                 </div>
             </div>
         `;
+
+        //Not recommended!
+        if (showcaseAlbum.rating < 20)
+        {
+            document.getElementById('showcaseAlbumRating').style.color = "#FF0000"
+            document.getElementById('showcaseAlbumRating').style.textShadow = "0px 0px 4px #000000";
+            document.getElementById('showcaseAlbumRating').style.fontWeight = "bold";
+        } 
+        
+        //Highly recommended!
+        if (showcaseAlbum.rating >= 97)
+        {
+            document.getElementById('showcaseAlbumRating').style.color = "#00FF00"
+            document.getElementById('showcaseAlbumRating').style.textShadow = "0px 0px 4px #000000";
+            document.getElementById('showcaseAlbumRating').style.fontWeight = "bold";
+        }
 
         if (typeof lazyLoadImages === "function")
         {
