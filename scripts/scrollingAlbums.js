@@ -1,5 +1,5 @@
 let albumImages = [];
-let scrollingAlbums = new Array(10);
+let scrollingAlbums = new Array(20);
 let waterfallAlbumIndex = 0;
 /*
 Helper function to shuffle the array

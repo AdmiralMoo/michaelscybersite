@@ -1,0 +1,290 @@
+[
+    {
+        "name":"The Running Man",
+        "author": "Richard Bachman",
+        "year": "1985",
+        "monthread": "October",
+        "yearread": "2024",
+        "cover": "/assets/books/runningman.jpg"
+    },
+    {
+        "name":"The Ox-Bow Incident",
+        "author": "Walter Van Tilburg Clark",
+        "year": "1940",
+        "monthread": "October",
+        "yearread": "2024",
+        "cover": "/assets/books/oxbowincident.jpg"
+    },
+    {
+        "name":"Shane",
+        "author": "Jack Schaefer",
+        "year": "1946",
+        "monthread": "October",
+        "yearread": "2024",
+        "cover": "/assets/books/shane.jpg"
+    },
+    {
+        "name":"High Lonesome",
+        "author": "Louis L'Amour",
+        "year": "1962",
+        "monthread": "October",
+        "yearread": "2024",
+        "cover": "/assets/books/highlonesome.jpg"
+    },
+    {
+        "name":"Kiowa Trail",
+        "author": "Louis L'Amour",
+        "year": "1964",
+        "monthread": "October",
+        "yearread": "2024",
+        "cover": "/assets/books/kiowatrail.jpg"
+    },
+    {
+        "name":"Shalako",
+        "author": "Louis L'Amour",
+        "year": "1962",
+        "monthread": "October",
+        "yearread": "2024",
+        "cover": "/assets/books/shalako.jpg"
+    },
+    {
+        "name":"The Virginian",
+        "author": "Owen Wister",
+        "year": "1903",
+        "monthread": "November",
+        "yearread": "2024",
+        "cover": "/assets/books/virginian1904.jpg"
+    },
+    {
+        "name":"Thus Spoke Zarathustra",
+        "author": "Friedrich Nietzsche",
+        "year": "1883",
+        "monthread": "November",
+        "yearread": "2024",
+        "cover": "/assets/books/zarathustra.jpg"
+    },
+    {
+        "name":"Code of The West",
+        "author": "Zane Grey",
+        "year": "1934",
+        "monthread": "November",
+        "yearread": "2024",
+        "cover": "/assets/books/codeofthewest.jpg"
+    },
+    {
+        "name":"The Lost World",
+        "author": "Sir Arthur Conan Doyle",
+        "year": "1912",
+        "monthread": "November",
+        "yearread": "2024",
+        "cover": "/assets/books/thelostworld.jpg"
+    },
+    {
+        "name":"No Traveller Returns",
+        "author": "Louis L'Amour",
+        "year": "2018",
+        "monthread": "November",
+        "yearread": "2024",
+        "cover": "/assets/books/notravellerreturns.jpg"
+    },
+    {
+        "name":"Synchronicity: An Acasual Connecting Principle",
+        "author": "Carl Jung",
+        "year": "1952",
+        "monthread": "December",
+        "yearread": "2024",
+        "cover": "/assets/books/synchronicity.jpg"
+    },
+    {
+        "name":"True Grit",
+        "author": "Charles Portis",
+        "year": "1968",
+        "monthread": "December",
+        "yearread": "2024",
+        "cover": "/assets/books/truegrit.jpg"
+    },
+    {
+        "name":"Hondo",
+        "author": "Louis L'Amour",
+        "year": "1953",
+        "monthread": "December",
+        "yearread": "2024",
+        "cover": "/assets/books/hondo.jpg"
+    },
+    {
+        "name":"Ulysses",
+        "author": "James Joyce",
+        "year": "1922",
+        "monthread": "December",
+        "yearread": "2024",
+        "cover": "/assets/books/ulysses.jpg"
+    },
+    {
+        "name":"Remarkably Bright Creatures",
+        "author": "Shelby Van Pelt",
+        "year": "2022",
+        "monthread": "January",
+        "yearread": "2025",
+        "cover": "/assets/books/remarkablecreatures.jpg"
+    },
+    {
+        "name":"A Missouri Schoolmarm",
+        "author": "Zane Grey",
+        "year": "2009",
+        "monthread": "January",
+        "yearread": "2025",
+        "cover": "/assets/books/schoolmarm.jpg"
+    },
+    {
+        "name":"Anxious People",
+        "author": "Frederik Backman",
+        "year": "2019",
+        "monthread": "January",
+        "yearread": "2025",
+        "cover": "/assets/books/anxiouspeople.jpg"
+    },
+    {
+        "name":"Showdown on the Hogback",
+        "author": "Louis L'Amour",
+        "year": "2005",
+        "monthread": "January",
+        "yearread": "2025",
+        "cover": "/assets/books/hogsback.jpg"
+    },
+    {
+        "name":"Layman's Report",
+        "author": "Eugene Martin",
+        "year": "2013",
+        "monthread": "January",
+        "yearread": "2025",
+        "cover": "/assets/books/laymansreport.jpg"
+    },
+    {
+        "name":"Charots of The Gods?",
+        "author": "Erich Von Däniken",
+        "year": "1968",
+        "monthread": "February",
+        "yearread": "2025",
+        "cover": "/assets/books/chariotsofthegods.jpg"
+    },
+    {
+        "name":"The Martian Chronicles",
+        "author": "Ray Bradbury",
+        "year": "1950",
+        "monthread": "February",
+        "yearread": "2025",
+        "cover": "/assets/books/martianchronicles.jpg"
+    },
+    {
+        "name":"Waterloo: A Novel",
+        "author": "Manuel Komroff",
+        "year": "1938",
+        "monthread": "February",
+        "yearread": "2025",
+        "cover": "/assets/books/waterloo.jpg"
+    },
+    {
+        "name":"The Epic of Gilgamesh",
+        "author": "Sîn-lēqi-unninni",
+        "year": "2100BCE",
+        "monthread": "February",
+        "yearread": "2025",
+        "cover": "/assets/books/gilgamesh.jpg"
+    },
+    {
+        "name":"Persuasion",
+        "author": "Jane Austen",
+        "year": "1817",
+        "monthread": "February",
+        "yearread": "2025",
+        "cover": "/assets/books/persuasion.jpg"
+    },
+    {
+        "name":"Factotum",
+        "author": "Charles Bukowski",
+        "year": "1975",
+        "monthread": "February",
+        "yearread": "2025",
+        "cover": "/assets/books/factotum.jpg"
+    },
+    {
+        "name":"Go Ask Alice",
+        "author": "Beatrice Sparks",
+        "year": "1971",
+        "monthread": "February",
+        "yearread": "2025",
+        "cover": "/assets/books/goaskalice.jpg"
+    },
+    {
+        "name":"Far From The Madding Crowd",
+        "author": "Thomas Hardy",
+        "year": "1874",
+        "monthread": "February",
+        "yearread": "2025",
+        "cover": "/assets/books/maddingcrowd.jpg"
+    },
+    {
+        "name":"Brionne",
+        "author": "Louis L'Amour",
+        "year": "1868",
+        "monthread": "March",
+        "yearread": "2025",
+        "cover": "/assets/books/brionne.jpg"
+    },
+    {
+        "name":"Emma",
+        "author": "Jane Austen",
+        "year": "1815",
+        "monthread": "March",
+        "yearread": "2025",
+        "cover": "/assets/books/emma.jpg"
+    },
+    {
+        "name":"Last Stand At Papago Wells",
+        "author": "Louis L'Amour",
+        "year": "1957",
+        "monthread": "March",
+        "yearread": "2025",
+        "cover": "/assets/books/laststandatpapagowells.jpg"
+    },
+    {
+        "name":"On Cats",
+        "author": "Charles Bukowski",
+        "year": "2015",
+        "monthread": "March",
+        "yearread": "2025",
+        "cover": "/assets/books/oncats.webp"
+    },
+    {
+        "name":"Grief Is the Thing With Feathers",
+        "author": "Max Porter",
+        "year": "2015",
+        "monthread": "March",
+        "yearread": "2025",
+        "cover": "/assets/books/griefisthething.webp"
+    },
+    {
+        "name":"Essays from The Rambler, Adventurer, and Idler",
+        "author": "Samuel Johnson",
+        "year": "1899",
+        "monthread": "March",
+        "yearread": "2025",
+        "cover": "/assets/books/sjohnsonessays.webp"
+    },
+    {
+        "name":"Hanging Woman Creek",
+        "author": "Louis L'Amour",
+        "year": "1964",
+        "monthread": "April",
+        "yearread": "2025",
+        "cover": "/assets/books/hangingwomancreek.jpg"
+    },
+    {
+        "name":"20,000 Leagues Under The Sea",
+        "author": "Jules Verne",
+        "year": "1869",
+        "monthread": "April",
+        "yearread": "2025",
+        "cover": "/assets/books/20000leagues.jpg"
+    }
+]

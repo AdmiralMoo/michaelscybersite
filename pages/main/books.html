@@ -48,6 +48,34 @@
             </div>
 
             <div class="spacer"></div>
+            
+            <!--Random book Header-->
+            <div id="recommendations"></div>
+            <div class="header-two-box outsideborder">
+                <h2 id="monthDisplay">Recent Books</h2>
+                <img src="./assets/images/icon_cd2.png">
+            </div>
+            
+            <!--Random book Showcase-->
+            <div class="body-box outsideborder" style="flex-direction: column;">
+                <div id="bookContainer" class="book-grid">
+                    <!-- Books will be inserted here dynamically -->
+                </div>
+                <div class="nav-bar" style="padding-top:0">
+                    <a id="noformat" >
+                        <div class="navbutton outsideborder" id="shiftBookLeft" style="width: 200px; max-width: 200px;">
+                            <p>Previous Month</p>
+                        </div>
+                    </a>
+                    <a id="noformat" >
+                        <div class="navbutton outsideborder" id="shiftBookRight" style="width: 200px; max-width: 200px;">
+                            <p>Next Month</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <div class="spacer"></div>
 
             <!--Books I've Read Header-->
             <div id="booksread"></div>
@@ -135,8 +163,11 @@
         </div>
     </main>
 
-    <div class="scrolling-books"></div>
-    <script src="./scripts/scrolling-books.js"></script>
+    <script src="./scripts/recentBooks.js"></script>
+
+    <div class="scrolling-books fade-edge-div"></div>
+    <script src="./scripts/scrollingBooks.js"></script>
+
     <script>var currentPageCategory = "books";</script>
     <script src="./scripts/articlesLoader.js"></script>
 </body>
