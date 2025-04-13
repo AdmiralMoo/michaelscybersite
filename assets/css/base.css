@@ -989,7 +989,17 @@ ul, li, ol
 }
 
 .button-generic:hover {
-  transform: scale(0.95);
+  /*transform: scale(0.95);*/
+}
+
+.button-vertical
+{
+  width:30px;
+  height:100%;
+
+  padding:0;
+  margin:0;
+
 }
 
 .body-box .button-generic img {

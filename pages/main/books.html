@@ -58,18 +58,18 @@
             
             <!--Random book Showcase-->
             <div class="body-box outsideborder" style="flex-direction: column;">
-                <div id="bookContainer" class="book-grid">
-                    <!-- Books will be inserted here dynamically -->
-                </div>
-                <div class="nav-bar" style="padding-top:0">
+                <div style="display:flex; flex-direction: row;">
                     <a id="noformat" >
-                        <div class="navbutton outsideborder" id="shiftBookLeft" style="width: 200px; max-width: 200px;">
-                            <p>Previous Month</p>
+                        <div class="button-generic button-vertical  outsideborder" id="shiftBookLeft" style="">
+                            <p><</p>
                         </div>
                     </a>
-                    <a id="noformat" >
-                        <div class="navbutton outsideborder" id="shiftBookRight" style="width: 200px; max-width: 200px;">
-                            <p>Next Month</p>
+                    <div id="bookContainer" class="book-grid">
+                        <!-- Books will be inserted here dynamically -->
+                    </div>
+                    <a id="noformat">
+                        <div class="button-generic button-vertical outsideborder" id="shiftBookRight" style="">
+                            <p>></p>
                         </div>
                     </a>
                 </div>
