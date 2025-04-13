@@ -1,9 +1,10 @@
 document.addEventListener("DOMContentLoaded", () => {
-    updateBookShowcase(); // Initialize display when page loads
+    resizeBookDisplay(); // Initialize display when page loads
 });
 
 let currentBookIndex = 0;
 let booksDatabase = [];
+let booksToDisplay = 5;
 
 function updateBookShowcase() {
     fetch('./assets/json/recentBooks.json')
@@ -20,7 +21,7 @@ function updateBookShowcase() {
 
         bookShowcaseParent.innerHTML = "";
 
-        for (var i = 0; i < 5; i++)
+        for (var i = 0; i < booksToDisplay; i++)
         {
             if ((currentBookIndex + 1) < booksDatabase.length)
             {
@@ -41,8 +42,6 @@ function updateBookShowcase() {
         }
     })
     .catch(error => console.error('Error loading JSON:', error));
-
-    updateShowcaseButtons();
 }
 
 function updateShowcaseButtons()
@@ -72,10 +71,30 @@ function updateShowcaseButtons()
     }
 }
 
+function resizeBookDisplay()
+{
+    const page = document.querySelector("body");
+    const pageWidth = page.clientWidth;
+    if (pageWidth < 500)
+    {
+        booksToDisplay = 2;
+    }
+    else if (pageWidth > 500 && pageWidth < 900)
+    {
+        booksToDisplay = 3;
+    }
+    else if (pageWidth > 900)
+    {
+        booksToDisplay = 5;
+    }
+
+    updateBookShowcase();
+}
+
 function skipBook(direction) {
     if (direction === "left" && currentBookIndex > 0) {
         currentBookIndex--;
-    } else if (direction === "right" && currentBookIndex < ((booksDatabase.length )-5)) {
+    } else if (direction === "right" && currentBookIndex < ((booksDatabase.length )-booksToDisplay)) {
         currentBookIndex++;
     }
     updateBookShowcase();
@@ -83,6 +102,7 @@ function skipBook(direction) {
 
 document.getElementById("shiftBookLeft").addEventListener("click", () => skipBook("left"));
 document.getElementById("shiftBookRight").addEventListener("click", () => skipBook("right"));
+window.addEventListener("resize", resizeBookDisplay);
 
 // Initialize the display
 updateBookShowcase();
