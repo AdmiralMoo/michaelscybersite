@@ -131,14 +131,16 @@ function showMoreStories()
     showStories += 5;
     storiesLoaded = 0;
 
-    if (showStories >= storyAmount)
+    if (showStories >= (storyAmount))
     {
         showStories = storyAmount;
+        UpdateNewsStories();
         var button = document.getElementById('moreStoriesButton');
         button.classList.add('disabled');
     }
+    else
+    {
+        UpdateNewsStories();
+    }
 
-    UpdateNewsStories();
-    var button = document.getElementById('moreStoriesButton');
-    button.classList.add('disabled');
 }

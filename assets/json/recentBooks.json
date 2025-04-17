@@ -286,5 +286,13 @@
         "monthread": "April",
         "yearread": "2025",
         "cover": "/assets/books/20000leagues.jpg"
+    },
+    {
+        "name":"Foundation",
+        "author": "Isaac Asimov",
+        "year": "1951",
+        "monthread": "April",
+        "yearread": "2025",
+        "cover": "/assets/books/foundation.jpg"
     }
 ]

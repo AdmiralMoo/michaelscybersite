@@ -100,9 +100,66 @@ function skipBook(direction) {
     updateBookShowcase();
 }
 
+function fillBooksRead()
+{
+    const booksReadBox = document.getElementById("booksreadbox");
+    booksReadBox.innerHTML = "";
+
+    fetch('./assets/json/recentBooks.json')
+    .then(response => response.json())
+    .then(data => {
+        tempData = data.reverse();
+
+        const month = new Map();
+
+        for (var i = 0; i < tempData.length; i++)
+        {
+            var newBook = `<li><i>${tempData[i].name}</i> by ${tempData[i].author}</li>`
+            if (month.get(`${tempData[i].monthread} ${tempData[i].yearread}`) == null)
+            {
+                newMonth = [];
+                newMonth.push(newBook);
+                month.set(`${tempData[i].monthread} ${tempData[i].yearread}`, newMonth);
+            }
+            else
+            {
+                month.get(`${tempData[i].monthread} ${tempData[i].yearread}`).push(newBook);
+            }
+        }
+
+        console.log(month);
+
+        for (const [key, values] of month)
+        {
+            var newHTML = ""
+            newHTML += `
+            <div class="list-package">
+                <h4>${key}:</h4>
+                    <ul>
+                    
+            `
+            for (const value of values)
+            {
+                newHTML += `${value}
+                `
+            }
+
+            newHTML += `
+                </ul>
+            </div>
+            `
+
+            booksReadBox.innerHTML += newHTML;
+        }
+    })
+    .catch(error => console.error('JSON loading shit the bed! ', error));
+
+}
+
 document.getElementById("shiftBookLeft").addEventListener("click", () => skipBook("left"));
 document.getElementById("shiftBookRight").addEventListener("click", () => skipBook("right"));
 window.addEventListener("resize", resizeBookDisplay);
 
 // Initialize the display
 updateBookShowcase();
+fillBooksRead();

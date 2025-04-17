@@ -1,5 +1,26 @@
 [    
     {
+        "headline" : "Hyundai Unveils Genesis GMR-001 Prototype",
+        "date" : "04/16/2025",
+        "body" : "Today in New York, Hyundai unveiled their 2027 LMDh challenger which will run under their high-end Genesis brand in WEC and IMSA. The car uses the ORECA chassis and seems to take design cues from both the Genesis brand as well as existing competitors on the field—namely, a Ferrari-style rear wing and Acura/Alpine-style front wing.<br><br>I'm looking forward to seeing this thing on track. The Platinum Era of Sportscar Endurance Racing continues!",
+        "image" : "https://www.imsa.com/wp-content/uploads/sites/32/2025/04/16/Genesis-Front-side_04162025-2-2.jpg",
+        "imagestyle": ""
+    },
+    {
+        "headline" : "Piastri Wins Again In Bahrain",
+        "date" : "04/13/2025",
+        "body" : "Oscar Piastri has won the 2025 Bahrain Grand Prix and become the first driver to get multiple pole positions and wins this season so far. With this win, he is currently the only Formula 1 driver to have a 100% pole-to-win conversion rate—a cool stat, but one that can't last forever.<br><br>I've been saying it since he was in Formula 2: this guy is going to be a world champion. It was clear over the past couple seasons that he's been learning a lot every race, and now he's really starting to shine. Piastri WDC 2025!",
+        "image" : "/assets/images/piastriwin.jpg",
+        "imagestyle": ""
+    },
+    {
+        "headline" : "Porsche Continues IMSA Domination At Long Beach",
+        "date" : "04/12/2025",
+        "body" : "The No. 7 Porsche Penske 963 is three-for-three this weekend after leading a Porsche 1-2 across the line at the Acura Grand Prix of Long Beach. It's quite rare for a team to dominate like this in a sport as competitive and unpredictable as sportscar endurance racing, but Team Penske seems to have it all under control. In the GTD class, AO Racing’s No. 77 “Rexy” finished first once again ahead of the No. 12 Vasser Sullivan Lexus. <br><br>I’m overjoyed to see my two favourite cars wining their classes—it looks like this will be not only a championship season, but a record-breaking one. This kind of success is completely unprecedented, especially as the BMW's seem to have gotten their act together. ",
+        "image" : "/assets/images/porschedomination.webp",
+        "imagestyle": ""
+    },
+    {
         "headline" : "McLaren Announce LMDh Entry",
         "date" : "04/11/2025",
         "body" : "Thirty years after McLaren won LeMans with the F1 GTR, they've announced their intention to return to the World Endurance Championship and IMSA at the top class in 2027. We saw it coming, especially after IMSA president John Doonan said to 'expect announcements from the blue oval and the papaya people' during an interview at the 24h of Daytona.<br><br>The platinum era of sportscar endurance race is just getting better and better, with McLaren joining Ford and Genesis as the next contenders to line up on the grid after Aston Martin and their Valkyrie. The teaser renders for this car look a lot like the Cadillac V-Series R, and that's becuase it'll be using the same Dallara chassis along with Antura's Twin-Turbo V6. I'm extraordinarily excited for what's to come. Sportscar Endurance Racing is the best form of racing, hands down, and it's only getting better.",
@@ -51,7 +72,7 @@
     {
         "headline" : "Microsoft Publisher to be Discontined in 2026",
         "date" : "03/01/2025",
-        "body" : "Microsoft has announced to Office 365 subscribers yesterday that Publisher will no longer be supported after October of 2026. While not many people (if any) really use Publisher anymore, I'm finding myself a little misty-eyed at the announcement. <br><br>When I was a kid, I played around with Publisher 2003 and made my own websites. You could say that it's only becuase of Publisher that this site exists right now, since that program was (oddly) my entry into web development. <br><br>You never really did live up to your potential, did you Publisher? But hey, fulfillment of potential is just an achievement in societal perception, and it's got nothing to do with personal fulfillment. <i>RIP Publisher (1991-2026)—you'll be remembered, occasionally!",
+        "body" : "Microsoft has announced to Office 365 subscribers yesterday that Publisher will no longer be supported after October of 2026. While not many people (if any) really use Publisher anymore, I'm finding myself a little misty-eyed at the announcement. <br><br>When I was a kid, I played around with Publisher 2003 and made my own websites. You could say that it's only becuase of Publisher that this site exists right now, since that program was (oddly) my entry into web development. <br><br>You never really did live up to your potential, did you Publisher? But hey, fulfillment of potential is just an achievement in societal perception, and it's got nothing to do with personal fulfillment. <i>RIP Publisher (1991-2026)—you'll be remembered, occasionally!</i>",
         "image" : "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Microsoft_Office_Publisher_%282019-present%29.svg/268px-Microsoft_Office_Publisher_%282019-present%29.svg.png",
         "imagestyle": "width: 70%"
     },
