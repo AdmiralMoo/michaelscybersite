@@ -207,7 +207,7 @@ Album showcase
     font-weight:bold;
 }
 
-.songitem-artistalbumbox
+.songitem-descriptionbox
 {
     width: 50%;
 
@@ -269,6 +269,97 @@ Album showcase
     }
 
     .songitem-duration
+    {
+        font-size:0.8em;
+    }
+  
+}
+
+/* For playlists and album lists */
+.playlist-albumitem
+{
+    width: 100%;
+    height: 330px;
+
+    display: flex;
+    flex-direction: row;
+
+    align-items: center;
+
+    font-family: Arial, Helvetica, sans-serif;
+
+    color:black;
+}
+
+.albumitem-name
+{
+    width: 100%;
+
+    font-size: 1.5em;
+    font-weight:bold;
+    font-style: italic;
+}
+
+.albumitem-descriptionbox
+{
+    width: 70%;
+
+    display:flex;
+    flex-direction: column;
+
+    margin-top: 10px;
+    align-self: baseline;
+}
+
+.albumitem-duration
+{
+    width:unset;
+    flex-grow: 1;
+
+    display: flex;
+    justify-content: right;
+}
+
+.albumitem-artist
+{
+    
+}
+
+.albumitem-duration span
+{
+    padding-right:5px;
+}
+
+.playlist-albumitem img
+{
+    max-height: 100%;
+    max-width: 30%;
+
+    min-width: 0;
+    min-height:0;
+
+    margin-right:10px;
+    margin-left:10px;
+}
+
+@media (max-width: 500px)
+{
+    .albumitem-name
+    {
+        font-size: 0.8em;
+    }
+
+    .albumitem-artist
+    {
+        font-size:0.8em;
+    }
+
+    .albumitem-album
+    {
+        font-size:0.7em;
+    }
+
+    .albumitem-duration
     {
         font-size:0.8em;
     }
