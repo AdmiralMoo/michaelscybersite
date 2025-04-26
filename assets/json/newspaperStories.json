@@ -1,5 +1,11 @@
 [    
     {
+        "headline" : "Pink Floyd at Pompeii MCMLXXII Hits Theatres",
+        "date" : "04/24/2025",
+        "body" : "The 4k IMAX restoration of Pink Floyd's legendary performance in the ruins of Pompeii had the first of its limited screenings in theatres today. It's a spectacular film showing the band at the beginning of their breakthrough era in the early 1970s. Between live performances of tracks off <i>Meddle</i> and <i>A Saucerful of Secrets</i>, there's rather cathartic footage of them in the studio recording <i>The Dark Side of The Moon</i>. Band members reflect on the use of machines and electronics in music and make a great argument against creative AI. In a similarly prophetic clip, they discuss the occasional 'minor' arguments within the band—tensions which almost certainly led to Waters' split towards the end of the eighties. <br><br>This was a most amazing experience and I'm glad I went. The film restoration was just stunning: motion pictures of this quality simply cannot be made anymore.",
+        "image" : "/assets/images/pompeii.jpg",
+        "imagestyle": ""
+    },  {
         "headline" : "Ferrari Take Home Win At Imola",
         "date" : "04/20/2025",
         "body" : "After an enthralling six hours, Alessandro Pier Guidi, James Calado and Antonio Giovinazzi have won from pole position at the 6h of Imola! Spectacular! I've got no words to describe how excited I am about this. <br><br>Everything I love in racing is just coming together right now: the #7 Porsche 963 and #77 AO Racing dominate in IMSA, Oscar Piastri is coming into his own and fighting Max and Lando for the F1 championship, and now Ferrari has won the first two races in WEC! I'm overjoyed! Forza Ferrari!!!",
@@ -86,7 +92,7 @@
     {
         "headline" : "Nasr Leads Porsche 1–2 At 2025 Sebring 12h",
         "date" : "03/15/2025",
-        "body" : "The #7 Porsche Penske 963 is two-for two in the 2025 IMSA WeatherTech Sportscar Championship after winning today at the Mobil 1 Twelve Hours of Sebring. I'm overjoyed to see my favourite car win again and for Porsche to be running so strong here in North America.<br><br>My favourite GTD Pro car—the #77 AO Racing Porsche 911 known affectionately as <i>Rexy</i>—crossed the line first in it's class. I'm overjoyed to see that team doing well, too. They're so young, yet they've found so much success in their two years; I'm hoping this is the beginning of another championship charge for both teams.",
+        "body" : "The #7 Porsche Penske 963 is two-for two in the 2025 IMSA WeatherTech Sportscar Championship after winning today at the Mobil 1 Twelve Hours of Sebring. I'm overjoyed to see my favourite car win again and for Porsche to be running so strong here in North America.<br><br>My favourite GTD Pro car—the #77 AO Racing Porsche 911 known affectionately as <i>Rexy</i>—crossed the line first in its class. I'm overjoyed to see that team doing well, too. They're so young, yet they've found so much success in their two years; I'm hoping this is the beginning of another championship charge for both teams.",
         "image" : "https://sportscar365.com/wp-content/uploads/2025/03/levitt-SEB-250315-PA-0275.jpg",
         "imagestyle": ""
     },

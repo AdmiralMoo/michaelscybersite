@@ -294,5 +294,13 @@
         "monthread": "April",
         "yearread": "2025",
         "cover": "/assets/books/foundation.jpg"
+    },
+    {
+        "name":"Ringworld",
+        "author": "Larry Niven",
+        "year": "1970",
+        "monthread": "April",
+        "yearread": "2025",
+        "cover": "/assets/books/ringworld.webp"
     }
 ]
