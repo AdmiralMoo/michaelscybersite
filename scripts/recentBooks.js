@@ -29,7 +29,7 @@ function updateBookShowcase() {
                 bookShowcaseParent.innerHTML += `
                     <div class='readBook outsideborder'>
                         <p class="bookMonth">${showcaseBook.monthread} ${showcaseBook.yearread}</p>
-                        <img src="/assets/gifs/DiscLoading.gif" data-src="${showcaseBook.cover}" class="lazyload">
+                        <img src="/assets/gifs/BookLoading.gif" data-src="${showcaseBook.cover}" class="lazyload">
                         <p class="bookName">${showcaseBook.author}<br><i><b>${showcaseBook.name}</b></i></p>
                     </div>
                 `;

@@ -43,6 +43,13 @@
     },
     {
         "category":"music",
+        "name": "CD Collection Categorized",
+        "description": "Categories and 'mini-collections' within my collection—how I mentally think of the music rather than how I've sorted it on the shelf.",
+        "image": "/assets/pictures/DSC_185398.webp",
+        "link": "/pages/music/cdcollections"
+    },
+    {
+        "category":"music",
         "name": "My Tape Collection",
         "description": "A very basic page which shows my cassette tape collection",
         "image": "/assets/pictures/DSC_180790.webp",

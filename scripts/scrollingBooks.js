@@ -41,7 +41,7 @@ function resetbook(book) {
     void book.offsetWidth;
     book.classList.add("book-cover");
 
-    book.src = "./assets/gifs/DiscLoading.gif";
+    book.src = "./assets/gifs/BookLoading.gif";
 
     setTimeout(() => {
         book.src = newImage;

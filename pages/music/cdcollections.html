@@ -1,0 +1,283 @@
+<head>
+    <script src="/head-inject.js"></script>
+
+    <title>CDs</title>
+    <link rel="stylesheet" type="text/css" href="/assets/css/win98.css"/>
+    <link rel="stylesheet" type="text/css" href="/assets/css/music.css"/>
+
+    <style>
+        .album-box-contrainer-grid {
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            gap: 1px;
+            justify-items: center;
+            align-items: start;
+            padding: 1px;
+
+            background-color: white;
+        }
+
+        .album-box-contrainer-grid img {
+            width: 100%;
+            height: auto;
+            object-fit: cover;
+        }
+
+        .album-box-contrainer-grid > *
+        {
+            text-align: center;
+        }
+
+        .body-box img
+        {
+            padding:0;
+            border: none;
+        }
+
+        @media (max-width: 900px) {
+        .album-box-contrainer-grid {
+            grid-template-columns: repeat(3, 1fr);
+        }
+        }
+
+        @media (max-width: 600px) {
+            .album-box-contrainer-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+
+
+        /*overrides*/
+        .ImageHeader-Text
+        {
+            line-height: 1.90em;
+        }
+
+        .ImageHeader img
+        {
+            height:40vw;
+            width:100%;
+            object-fit:cover;
+        }
+
+        @media (max-width: 600px)
+        {
+            .ImageHeader img
+            {
+                height: 80vw;
+            }
+
+            .ImageHeader-Text
+            {
+                font-size: 1.2em;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <div class="maincontent-centred" style="min-height:60vh;">
+            <!--Music Page Header-->
+            <div class="header-one-box outsideborder">
+                <h1>Compact Discs</h1>
+                <img src="./assets/images/icon_cd1.png">
+            </div>
+            <div class="ImageHeader outsideborder">
+                <div class="insideborder">
+                    <img src="/assets/pictures/DSC_185398.webp">
+                    <div class="ImageHeader-MyPhoto">Photo: MichaelsCybersite.net, 2024</div>
+                </div>
+                <div class="ImageHeader-Text"><h1>Compact Discs<br>(Categorized)</h1></div>
+            </div>
+            <div class="header-construction-box outsideborder">
+                <p>This page is still under construction. It was last updated on 04/26/2025</p>
+                <img src="./assets/images/Warning.png">
+            </div>
+            <div class="body-box outsideborder stacked">
+                <div class="box-container">
+                    <p>Since I've already got my whole CD collection on Discogs, I'm assembling this page to show it off in a more interesting way. I'm thinking up categories and 'mini-collections' within my collection—how I mentally think of the music rather than how I've sorted it on the shelf.</p>
+                </div>
+                <h3>Deutsche Grammophon</h3>
+                <div class="album-box-contrainer-grid insideborder">
+                        <img src="./assets/albumart/ludwig van beethoven - symphony no. 3 eroica.jpg" class="grid-box-album">
+                        <img src="./assets/albumart/ludwig van beethoven - symphonien nos. 5 & 7.jpg" class="grid-box-album">
+                        <img src="./assets/albumart/ludwig van beethoven - symphonie no. 9.jpg" class="grid-box-album">
+                        <img src="./assets/albumart/emil gilels beethoven sonaten.jpg" class="grid-box-album">
+                        <img src="./assets/albumart/antonin dvorak - symphonie no 9.jpg" class="grid-box-album">
+                        <img src="./assets/albumart/frederic chopin - nocturnes.jpg" class="grid-box-album">
+                        <img src="./assets/albumart/greig schumann - piano concertos.webp" class="grid-box-album">
+                        <img src="./assets/albumart/gustav holst - the planets.jpg" class="grid-box-album">
+                        <img src="./assets/albumart/wolfgang amadeus mozart - eine kleine nachtmusik.webp" class="grid-box-album">
+                        <img src="./assets/albumart/wolfgang amadeus mozart - eine kleine nachtmusik; posthorn-serenade.jpg" class="grid-box-album">
+                        <img src="./assets/albumart/berliner philharmoniker - richard strauss - also sprach zarathustra.jpg" class="grid-box-album">
+                        <img src="./assets/albumart/richard strauss - eine alpensinfonie.jpg" class="grid-box-album">
+                        <img src="./assets/albumart/richard strauss - don quixote - tod und verklarung.jpg" class="grid-box-album">
+                        <img src="./assets/albumart/johann strauss ii - an der schonen, blauen donau.jpg" class="grid-box-album">
+                        <img src="./assets/albumart/johann strauss ii - an der schonen, blauen donau [ii].jpg" class="grid-box-album">
+                        <img src="./assets/albumart/tchaikovsky - dornroschen schwanensee nussnacker.webp" class="grid-box-album">
+                        <img src="./assets/albumart/pyotr illioch tchaikovsky - symphonie no. 4.jpg" class="grid-box-album">
+                        <img src="./assets/albumart/verdi - requiem.webp" class="grid-box-album">
+                        <img src="./assets/albumart/antonio vivaldi - konzerte fur blockflote.webp" class="grid-box-album">
+                </div>
+
+                <h3>The Royal Philharmonic Collection</h3>
+                <div class="album-box-contrainer-grid insideborder">
+                        <img src="./assets/albumart/the royal philharmonic collection - beethoven - dhm001.jpg" class="grid-box-album">
+                        <img src="./assets/albumart/the royal philharmonic collection - bizet ~ greig - dhm002.jpg" class="grid-box-album">
+                        <img src="./assets/albumart/the royal philharmonic collection - rimsky-korsakov.jpg" class="grid-box-album">
+                        <img src="./assets/albumart/the royal philharmonic collection - mozart - dhm004.jpg" class="grid-box-album">
+                        <img src="./assets/albumart/the royal philharmonic collection - gershwin ~ ravel ~ debussy - dhm005.jpg" class="grid-box-album">
+                        <img src="./assets/albumart/the royal philharmonic collection - tchaikovsky- dhm006.jpg" class="grid-box-album">
+                        <img src="./assets/albumart/the royal philharmonic collection - dhm009.jpg" class="grid-box-album">
+                        <img src="./assets/albumart/the royal philharmonic collection - dvorak - dhm010.jpg" class="grid-box-album">
+                        <img src="./assets/albumart/the royal philharmonic collection - tchaikovsky ii - dhm011.jpg" class="grid-box-album">
+                        <img src="./assets/albumart/the royal philharmonic collection - berloiz - dhm012.jpg" class="grid-box-album">
+                        <img src="./assets/albumart/the royal philharmonic collection - sibelius - dhm013.jpg" class="grid-box-album">
+                        <img src="./assets/albumart/the royal philharmonic collection - tchaikovsky iii - dhm014.jpg" class="grid-box-album">
+                        <img src="./assets/albumart/the royal philharmonic collection - schubert - dhm016.jpg" class="grid-box-album">
+                        <img src="./assets/albumart/the royal philharmonic collection - dvorak ~ borodin - dhm017.jpg" class="grid-box-album">
+                </div>
+
+                <h3>Grunge</h3>
+                <div class="album-box-contrainer-grid insideborder">
+                    <img src="./assets/albumart/alice in chains - facelift.jpg" class="grid-box-album">
+                    <img src="./assets/albumart/alice in chains - sap.jpg" class="grid-box-album">
+                    <img src="./assets/albumart/alice in chains - dirt.jpg" class="grid-box-album">
+                    <img src="./assets/albumart/alice in chains - jar of flies.jpg" class="grid-box-album">
+                    <img src="./assets/albumart/alice in chains - alice in chains.jpg" class="grid-box-album">
+                    <img src="./assets/albumart/alice in chains - mtv unplugged.jpg" class="grid-box-album">
+                    <img src="./assets/albumart/alice in chains - black gives way to blue.jpg" class="grid-box-album">
+                    <img src="./assets/albumart/alice in chains - the devil put dinosaurs here.jpg" class="grid-box-album">
+                    <img src="./assets/albumart/alice in chains - rainier fog.jpg" class="grid-box-album">
+                    <img src="./assets/albumart/green river - dry as a bone.jpg" class="grid-box-album">
+                    <img src="./assets/albumart/gruntruck - push.jpg" class="grid-box-album">
+                    <img src="./assets/albumart/hammerbox - numb.jpg" class="grid-box-album">
+                    <img src="./assets/albumart/hater - hater.jpg" class="grid-box-album">
+                    <img src="./assets/albumart/hole - live through this.jpg" class="grid-box-album">
+                    <img src="./assets/albumart/jerry cantrell - degradation trip volumes 1 & 2.jpg" class="grid-box-album">
+                    <img src="./assets/albumart/jerry cantrell - boggy depot.jpg" class="grid-box-album">
+                    <img src="./assets/albumart/mad season - above.jpg" class="grid-box-album">
+                    <img src="./assets/albumart/my sisters machine - diva.webp" class="grid-box-album">
+                    <img src="./assets/albumart/nirvana - bleach.jpg" class="grid-box-album">
+                    <img src="./assets/albumart/nirvana - nevermind.jpg" class="grid-box-album">
+                    <img src="./assets/albumart/nirvana - hormoaning.jpg" class="grid-box-album">
+                    <img src="./assets/albumart/nirvana - incesticide.jpg" class="grid-box-album">
+                    <img src="./assets/albumart/nirvana - in utero.jpg" class="grid-box-album">
+                    <img src="./assets/albumart/nirvana - mtv unplugged in new york.jpg" class="grid-box-album">
+                    <img src="./assets/albumart/nirvana - from the muddy banks of the wishkah.jpg" class="grid-box-album">
+                    <img src="./assets/albumart/nirvana - nirvana.jpg" class="grid-box-album">
+                    <img src="./assets/albumart/nirvana - sliver the best of the box.jpg" class="grid-box-album">
+                    <img src="./assets/albumart/pearl jam - ten.jpg" class="grid-box-album">
+                    <img src="./assets/albumart/pearl jam - vs.jpg" class="grid-box-album">
+                    <img src="./assets/albumart/pearl jam - vitalogy.jpg" class="grid-box-album">
+                    <img src="./assets/albumart/pearl jam - yield.jpg" class="grid-box-album">
+                    <img src="./assets/albumart/pearl jam - no code.jpg" class="grid-box-album">
+                    <img src="./assets/albumart/pearl jam - binaural.jpg" class="grid-box-album">
+                    <img src="./assets/albumart/screaming trees - sweet oblivion.jpg" class="grid-box-album">
+                    <img src="./assets/albumart/silverchair - frogstomp.jpg" class="grid-box-album">
+                    <img src="./assets/albumart/skin yard - skin yard.jpg" class="grid-box-album">
+                    <img src="./assets/albumart/skin yard - fist sized chunks.jpg" class="grid-box-album">
+                    <img src="./assets/albumart/skin yard - 1000 smiling knuckles.jpg" class="grid-box-album">
+                    <img src="./assets/albumart/skin yard - inside the eye.jpg" class="grid-box-album">
+                    <img src="./assets/albumart/stone temple pilots - core.jpg" class="grid-box-album">
+                    <img src="./assets/albumart/stone temple pilots - purple.jpg" class="grid-box-album">
+                    <img src="./assets/albumart/soundgarden - louder than love.jpg" class="grid-box-album">
+                    <img src="./assets/albumart/soundgarden - badmotorfinger.jpg" class="grid-box-album">
+                    <img src="./assets/albumart/soundgarden - superunknown.jpg" class="grid-box-album">
+                    <img src="./assets/albumart/soundgarden - down on the upside.jpg" class="grid-box-album">
+                    <img src="./assets/albumart/temple of the dog - temple of the dog.jpg" class="grid-box-album">
+                    <img src="./assets/albumart/the fluid - purplemetalflakemusic.webp" class="grid-box-album">
+                    <img src="./assets/albumart/various artists - singles original motion picture soundtrack.jpg" class="grid-box-album">
+                </div>
+
+                <h3>Progressive Rock & Progressive Pop</h3>
+                <div class="album-box-contrainer-grid insideborder">
+                    <img src="./assets/albumart/asia - asia.jpg" class="grid-box-album">
+                    <img src="./assets/albumart/babe ruth - first base.jpg" class="grid-box-album">
+                    <img src="./assets/albumart/genesis - selling england by the pound.jpg" class="grid-box-album">
+                    <img src="./assets/albumart/genesis - a trick of the tail.jpg" class="grid-box-album">
+                    <img src="./assets/albumart/genesis - genesis.jpg" class="grid-box-album">
+                    <img src="./assets/albumart/genesis - invisible touch.jpg" class="grid-box-album">
+                    <img src="./assets/albumart/genesis - we can't dance.jpg" class="grid-box-album">
+                    <img src="./assets/albumart/jethero tull - thick as a brick.jpg" class="grid-box-album">
+                    <img src="./assets/albumart/kansas - point of know return.jpg" class="grid-box-album">
+                    <img src="./assets/albumart/king crimson - in the court of the crimson king [colour corrected].jpg" class="grid-box-album">
+                    <img src="./assets/albumart/king crimson - islands.jpg" class="grid-box-album">
+                    <img src="./assets/albumart/pink floyd - a saucerful of secrets.jpg" class="grid-box-album">
+                    <img src="./assets/albumart/pink floyd - relics.jpg" class="grid-box-album">
+                    <img src="./assets/albumart/pink floyd - atom heart mother.jpg" class="grid-box-album">
+                    <img src="./assets/albumart/pink floyd - meddle.jpg" class="grid-box-album">
+                    <img src="./assets/albumart/pink floyd - dark side of the moon.jpg" class="grid-box-album">
+                    <img src="./assets/albumart/pink floyd - the dark side of the moon [5.1 Mix].jpg" class="grid-box-album">
+                    <img src="./assets/albumart/pink floyd - wish you were here.jpg" class="grid-box-album">
+                    <img src="./assets/albumart/pink floyd - animals.jpg" class="grid-box-album">
+                    <img src="./assets/albumart/pink floyd - the wall.jpg" class="grid-box-album">
+                    <img src="./assets/albumart/pink floyd - a momentary lapse of reason.jpg" class="grid-box-album">
+                    <img src="./assets/albumart/pink floyd - the division bell.jpg" class="grid-box-album">
+                    <img src="./assets/albumart/rush - 2112.jpg" class="grid-box-album">
+                    <img src="./assets/albumart/rush - moving pictures.jpg" class="grid-box-album">
+                    <img src="./assets/albumart/rush - counterparts.jpg" class="grid-box-album">
+                    <img src="./assets/albumart/supertramp - supertramp.jpg" class="grid-box-album">
+                    <img src="./assets/albumart/supertramp - crime of the century.jpg" class="grid-box-album">
+                    <img src="./assets/albumart/supertramp - even in the quietest moments.jpg" class="grid-box-album">
+                    <img src="./assets/albumart/supertramp - breakfast in america.jpg" class="grid-box-album">
+                    <img src="./assets/albumart/supertramp - free as a bid.jpg" class="grid-box-album">
+                    <img src="./assets/albumart/yes - fragile.jpg" class="grid-box-album">
+                    <img src="./assets/albumart/yes - 90125.jpg" class="grid-box-album">
+                </div>
+
+                <h3>The Smashing Pumpkins</h3>
+                <div class="album-box-contrainer-grid insideborder">
+                    <img src="./assets/albumart/the smashing pumpkins - gish.jpg" class="grid-box-album">
+                    <img src="./assets/albumart/the smashing pumpkins - lull [ep].jpg" class="grid-box-album">
+                    <img src="./assets/albumart/the smashing pumpkins - siamese dream.jpg" class="grid-box-album">
+                    <img src="./assets/albumart/the smashing pumpkins - pisces iscariot.jpg" class="grid-box-album">
+                    <img src="./assets/albumart/the smashing pumpkins - mellon collie and the infinite sadness [2012 remaster].jpg" class="grid-box-album">
+                    <img src="./assets/albumart/the smashing pumpkins - 1979 [single].jpg" class="grid-box-album">
+                    <img src="./assets/albumart/the smashing pumpkins - tonight tonight [single].jpg" class="grid-box-album">
+                    <img src="./assets/albumart/the smashing pumpkins - zero [ep].jpg" class="grid-box-album">
+                    <img src="./assets/albumart/the smashing pumpkins - thirty-three [single].jpg" class="grid-box-album">
+                    <img src="./assets/albumart/the smashing pumpkins - adore.jpg" class="grid-box-album">
+                    <img src="./assets/albumart/the smashing pumpkins - perfect [single].jpg" class="grid-box-album">
+                    <img src="./assets/albumart/the smashing pumpkins - the end is the beginning is the end [single].jpg" class="grid-box-album">
+                    <img src="./assets/albumart/the smashing pumpkins - machina_themachinesofgod.jpg" class="grid-box-album">
+                    <img src="./assets/albumart/the smashing pumpkins - earphoria.jpg" class="grid-box-album">
+                    <img src="./assets/albumart/the smashing pumpkins - rotten apples.jpg" class="grid-box-album">
+                    <img src="./assets/albumart/the smashing pumpkins - zeitgesit [limited edition, square].jpg" class="grid-box-album">
+                    <img src="./assets/albumart/the smashing pumpkins - oceania [squared].jpg" class="grid-box-album">
+                    <img src="./assets/albumart/the smashing pumpkins - monuments to an elegy [squared].jpg" class="grid-box-album">
+                    <img src="./assets/albumart/the smashing pumpkins - shiny and oh so bright.jpg" class="grid-box-album">
+                    <img src="./assets/albumart/the smashing pumpkins - cyr.jpg" class="grid-box-album">
+                    <img src="./assets/albumart/the smashing pumpkins - atum.jpg" class="grid-box-album">
+                    <img src="./assets/albumart/the smashing pumpkins - aghori mhori mei.jpg" class="grid-box-album">
+            </div>
+
+            <h3>Green Day</h3>
+            <div class="album-box-contrainer-grid insideborder">
+                <img src="./assets/albumart/green day - 1039 smoothed out slappy hours.jpg" class="grid-box-album">
+                <img src="./assets/albumart/green day - kerplunk.jpg" class="grid-box-album">
+                <img src="./assets/albumart/green day - dookie.jpg" class="grid-box-album">
+                <img src="./assets/albumart/green day - insomniac.jpg" class="grid-box-album">
+                <img src="./assets/albumart/green day - nimrod.jpg" class="grid-box-album">
+                <img src="./assets/albumart/green day - warning.jpg" class="grid-box-album">
+                <img src="./assets/albumart/green day - international superhits.jpg" class="grid-box-album">
+                <img src="./assets/albumart/green day - shenanigans.jpg" class="grid-box-album">
+                <img src="./assets/albumart/green day - american idiot.jpg" class="grid-box-album">
+                <img src="./assets/albumart/green day - 21st century breakdown.jpg" class="grid-box-album">
+                <img src="./assets/albumart/green day - uno.jpg" class="grid-box-album">
+                <img src="./assets/albumart/green day - dos.jpg" class="grid-box-album">
+                <img src="./assets/albumart/green day - tre.jpg" class="grid-box-album">
+                <img src="./assets/albumart/green day - revolution radio.jpg" class="grid-box-album">
+                <img src="./assets/albumart/green day - father of all....jpg" class="grid-box-album">
+                <img src="./assets/albumart/green day - saviors.jpg" class="grid-box-album">
+            </div>
+    </main>
+</body>
+
+<!--
+TODO:
+-Divide albums up by artist
+-Sort out compilations
+-Add section showing special selections
+-->
