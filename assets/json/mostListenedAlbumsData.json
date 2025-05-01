@@ -258,5 +258,15 @@
             { "artist": "Hammerbox", "album": "Numb", "cover": "./assets/albumart/hammerbox - numb.jpg" },
             { "artist": "Supertramp", "album": "Supertramp", "cover": "./assets/albumart/supertramp - supertramp.jpg" }
         ]
+    },
+    {
+        "month": "April 2025",
+        "albums": [
+            { "artist": "The Sex Pistols", "album": "Never Mind The Bollocks", "cover": "./assets/albumart/sex pistols - never mind the bollocks.jpg" },
+            { "artist": "Wolfgang Amadeus Mozart", "album": "Eine Kleine Nachtmusik", "cover": "./assets/albumart/wolfgang amadeus mozart - eine kleine nachtmusik.webp" },
+            { "artist": "Green Day", "album": "Revolution Radio", "cover": "./assets/albumart/green day - revolution radio.jpg" },
+            { "artist": "Led Zeppelin", "album": "In Through The Out Door", "cover": "./assets/albumart/led zeppelin - in through the out door.jpg" },
+            { "artist": "Teenage Fanclub", "album": "Bandwagonesque", "cover": "./assets/albumart/teenage fanclub - bandwagonesque.jpg" }
+        ]
     }
 ]
