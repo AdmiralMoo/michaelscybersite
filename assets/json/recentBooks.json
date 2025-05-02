@@ -302,5 +302,13 @@
         "monthread": "April",
         "yearread": "2025",
         "cover": "/assets/books/ringworld.webp"
+    },
+    {
+        "name":"Mood Machine",
+        "author": "Liz Pelly",
+        "year": "2025",
+        "monthread": "May",
+        "yearread": "2025",
+        "cover": "/assets/books/moodmachine.webp"
     }
 ]

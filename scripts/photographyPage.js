@@ -37,7 +37,7 @@ class photoCarousel
             return;
         }
         
-        carouselActiveImgContainer.querySelector('img').src = url(this.photosDatabase[1]['url']);
+        carouselActiveImgContainer.querySelector('img').src = url(this.photosDatabase[this.activeImage].images[this.activeImage].url);
     }
 }
 
