@@ -1,0 +1,189 @@
+<head>
+    <script src="/head-inject.js"></script>
+
+    <title>GIFs</title>
+    <link rel="stylesheet" type="text/css" href="/assets/css/win98.css"/>
+    <link rel="stylesheet" type="text/css" href="/assets/css/music.css"/>
+    <style>
+        .grid-box-album
+        {
+            flex: 20%;
+            word-wrap: break-word;
+        }
+
+        .grid-box-album img
+        {
+            object-fit: fill;
+            max-width: 100%;
+            min-width: 100%;
+            height:auto;
+            flex-grow:1;
+        }
+
+        .grid-box-container
+        {
+            display:flex;
+            flex-wrap:wrap;
+        }
+
+
+        .grid-box-album:last-child
+        {
+            
+        }
+
+        .grid-box-container > *
+        {
+            text-align: center;
+        }
+
+        @media(max-width:900px)
+        {
+            .body-box .grid-box-container
+            {
+                flex-direction: row;
+                word-wrap: break-word;
+            }
+
+            .grid-box-album
+            {
+                flex: 30%;
+            }
+
+            .grid-box-album:last-child
+            {
+                max-width :30%;
+            }
+        }
+
+        @media(max-width:600px)
+        {
+            .body-box .grid-box-container
+            {
+                flex-direction: row;
+                word-break: break-all;
+                word-wrap: break-word;
+                font-size: 1.0em;
+            }
+
+            .grid-box-album
+            {
+                flex: 50%;
+            }
+
+            .grid-box-album:last-child
+            {
+                max-width :50%;
+            }
+        }
+
+        .ImageHeader img
+        {
+            height:30vw;
+        }
+
+        @media (max-width: 600px)
+        {
+            .ImageHeader img
+            {
+                height: 70vw;
+            }
+
+            .ImageHeader-Text
+            {
+                font-size: 1.2em;
+            }
+        }
+
+        h3
+        {
+            border-bottom: 1px;
+            border-top: 1px;
+            border-style: solid;
+            border-right: none;
+            border-left: none;
+            font-variant: small-caps;
+
+            margin-bottom: 7px;
+            font-size: 1.3em;
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <div class="maincontent-centred" style="min-height:60vh;">
+            <div class="header-one-box outsideborder">
+                <h1>GIFs</h1>
+                <img src="./assets/images/icon_cd1.png">
+            </div>
+            <div class="body-box outsideborder">
+                <div class="box-container">
+                    <p>Here's a collection of GIFs I made</p>
+                </div>
+            </div>
+
+            <div class="body-box outsideborder" style="flex-direction: column; gap:0px;">
+                <h3 style="text-align: center;">Movies</h3>
+                <div class="grid-box-container" style="flex-wrap: wrap;">
+                    <div class="grid-box-album">
+                        <img src="/assets/gifs/DiscLoading.gif" class="lazyload" data-src="/assets/gifs/I-Reckon-So-%231.gif">
+                        <p>The Outlaw Josey Wales<br><i>"I Reckon So" #1</i></p>
+                    </div> 
+                    <div class="grid-box-album">
+                        <img src="/assets/gifs/DiscLoading.gif" class="lazyload" data-src="/assets/gifs/I-Reckon-So-%232.gif">
+                        <p>The Outlaw Josey Wales<br><i>"I Reckon So" #2</i></p>
+                    </div> 
+                    <div class="grid-box-album">
+                        <img src="/assets/gifs/DiscLoading.gif" class="lazyload" data-src="/assets/gifs/I-Reckon-So-%233.gif">
+                        <p>The Outlaw Josey Wales<br><i>"I Reckon So" #2</i></p>
+                    </div> 
+                    <div class="grid-box-album">
+                        <img src="/assets/gifs/DiscLoading.gif" class="lazyload" data-src="/assets/gifs/YeahThatsRight.gif">
+                        <p>Saturday Night Fever<br><i>"Yeah, that's right!"</i></p>
+                    </div>                     
+                    <div class="grid-box-album">
+                        <img src="/assets/gifs/DiscLoading.gif" class="lazyload" data-src="/assets/gifs/PossibleResponses.gif">
+                        <p>The Terminator<br><i>"Possible Responses"</i></p>
+                    </div> 
+                </div>
+            </div>
+            
+            <div class="body-box outsideborder" style="flex-direction: column; gap:0px;">
+                <h3 style="text-align: center;">Michael's Cybersite</h3>
+                <div class="grid-box-container" style="flex-wrap: wrap;">
+                    <div class="grid-box-album">
+                        <img src="/assets/gifs/DiscLoading.gif" class="lazyload" data-src="/assets/gifs/Disc_AnDerSchonen.gif">
+                        <p>CD<br><i>An Der Schonen, Blauen Donau</i></p>
+                    </div> 
+                    <div class="grid-box-album">
+                        <img src="/assets/gifs/DiscLoading.gif" class="lazyload" data-src="/assets/gifs/Disc_DarkSideOfTheMoon.gif">
+                        <p>CD<br><i>The Dark Side of The Moon</i></p>
+                    </div> 
+                    <div class="grid-box-album">
+                        <img src="/assets/gifs/DiscLoading.gif" class="lazyload" data-src="/assets/gifs/DiscLoading.gif">
+                        <p>Michael's Cybersite<br><i>Album Art Loading</i></p>
+                    </div> 
+                    <div class="grid-box-album">
+                        <img src="/assets/gifs/DiscLoading.gif" class="lazyload" data-src="/assets/gifs/BookLoading.gif">
+                        <p>Michael's Cybersite<br><i>Book Cover Loading</i></p>
+                    </div> 
+                    <div class="grid-box-album">
+                        <img src="/assets/gifs/DiscLoading.gif" class="lazyload" data-src="/assets/gifs/NikonGIF.gif">
+                        <p>Michael's Cybersite<br><i>Nikon D40 Photo Loading</i></p>
+                    </div> 
+                </div>
+            </div>
+
+            <div class="body-box outsideborder" style="flex-direction: column; gap:0px;">
+                <h3 style="text-align: center;">Music</h3>
+                <div class="grid-box-container" style="flex-wrap: wrap;">
+                    <div class="grid-box-album" style="max-width:320px">
+                        <img src="/assets/gifs/DiscLoading.gif" class="lazyload" data-src="/assets/gifs/joking_fullres.gif" >
+                        <p>Green Day<br><i>"The Greatest Speech In History"</i></p>
+                    </div> 
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
