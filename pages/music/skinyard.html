@@ -24,26 +24,26 @@
             max-width: 90vw;
         }
 
+        /*
         .maincontent-centred img
         {
             max-width: 30%;
             object-fit: contain;
         }
+        */
 
         .TrayCoverContainer
         {
-            max-width: 100%;
             display: flex;
             justify-content: center; /* Center the images */
             align-items: center; /* Align them by height */
             gap: 5px; /* Add space between images */
+            width: 100%;
         }
 
         .TrayCoverContainer img 
         {
-            height: max-content; /* Set a fixed height (adjust as needed) */
-            width: auto; /* Allow width to adjust automatically */
-            object-fit: contain; /* Ensures full image is visible */
+            width: 100%;
         }
 
         @media (max-width: 1200px)
@@ -55,10 +55,12 @@
                 max-width: 95vw;
             }
 
+            /*
             .maincontent-centred img
             {
                 max-width: 50%;
             }
+            */
         }
 
         @media (max-width: 400px)
@@ -70,10 +72,12 @@
                 max-width: 95vw;
             }
 
+            /*
             .maincontent-centred img
             {
                 max-width: 100%;
             }
+            */
         }
     </style>
 </head>
@@ -99,20 +103,20 @@
             <p style="padding-bottom:0; margin-bottom:0; margin-top:0px; font-size:5em; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; color:red;">FANPAGE</p>
         </div>
         <div class="maincontent-centred" style="display: flex; flex-direction: row; align-items: center; flex-wrap:wrap;">
-            <div>
-                <div class="TrayCoverContainer">
-                    <img src="/assets/images/SkinYard_SkinYard_Tray_800.webp">
-                    <img src="/assets/images/SkinYard_SkinYard_Cover_800.webp">
-                </div>
-
-                <img src="/assets/images/SkinYard_SkinYards_InsertInside_800.webp" style="max-width: 100%;">
-            
-                <div class="TrayCoverContainer">
-                    <img src="/assets/images/SkinYard_SkinYard_DiscFront_800.webp">
-                    <img src="/assets/images/SkinYard_SkinYard_InsertBack_800.webp">
-                </div>
+            <div class="TrayCoverContainer">
+                <img src="/assets/images/SkinYard_SkinYard_Tray_800.webp">
+                <img src="/assets/images/SkinYard_SkinYard_Cover_800.webp">
             </div>
-            <img src="/assets/gifs/theydontknow.jpg">
+
+            <div class="TrayCoverContainer">
+                <img src="/assets/images/SkinYard_SkinYards_InsertInside_800.webp">
+            </div>
+
+            <div class="TrayCoverContainer">
+                <img src="/assets/images/SkinYard_SkinYard_DiscFront_800.webp">
+                <img src="/assets/images/SkinYard_SkinYard_InsertBack_800.webp">
+            </div>
+            <!--<img src="/assets/gifs/theydontknow.jpg">-->
         </div>
     </main>
 </body>

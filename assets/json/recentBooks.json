@@ -310,5 +310,13 @@
         "monthread": "May",
         "yearread": "2025",
         "cover": "/assets/books/moodmachine.webp"
+    },
+    {
+        "name":"Mansfield Park",
+        "author": "Jane Austen",
+        "year": "1814",
+        "monthread": "May",
+        "yearread": "2025",
+        "cover": "/assets/books/mansfieldpark.jpg"
     }
 ]
