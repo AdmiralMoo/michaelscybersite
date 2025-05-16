@@ -318,5 +318,13 @@
         "monthread": "May",
         "yearread": "2025",
         "cover": "/assets/books/mansfieldpark.jpg"
+    },
+    {
+        "name":"Blood Music",
+        "author": "Greg Bear",
+        "year": "1985",
+        "monthread": "May",
+        "yearread": "2025",
+        "cover": "/assets/books/bloodmusic.webp"
     }
 ]
