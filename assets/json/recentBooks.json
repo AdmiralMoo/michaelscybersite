@@ -326,5 +326,13 @@
         "monthread": "May",
         "yearread": "2025",
         "cover": "/assets/books/bloodmusic.webp"
+    },
+    {
+        "name":"A Farewell To Arms",
+        "author": "Ernest Hemingway",
+        "year": "1929",
+        "monthread": "May",
+        "yearread": "2025",
+        "cover": "/assets/books/farewelltoarms.jpg"
     }
 ]
