@@ -334,5 +334,13 @@
         "monthread": "May",
         "yearread": "2025",
         "cover": "/assets/books/farewelltoarms.jpg"
+    },
+    {
+        "name":"The Man Who Was Thursday",
+        "author": "G.K. Chesterson",
+        "year": "1908",
+        "monthread": "May",
+        "yearread": "2025",
+        "cover": "/assets/books/themanwhowasthursday.webp"
     }
 ]
