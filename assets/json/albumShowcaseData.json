@@ -1272,5 +1272,45 @@
         ],
         "applemusic":"https://music.apple.com/us/album/the-rembrandts-l-p/373220996",
         "spotify":"https://open.spotify.com/album/6koDBGMqurYl3EZnaxCF7N"
+    },
+    {
+        "artist": "Wolfgang Amadeus Mozart",
+        "album": "Eine Kleine Nachtmusik",
+        "year": "1787",
+        "cover": "./assets/albumart/wolfgang amadeus mozart - eine kleine nachtmusik.webp",
+        "description": "The name of this composition translates to 'A Little Night Music', but that's never made sense to me—this is a supercharged, fast-paced, electric, Punk Rock EP that gets you up and out, hits you in the head with a brick, and leaves as quickly as it came.<br><br>Needless to say, I <i>love</i> this work. It's a rowdy injection of pure music pleasure straight into the vein; it was 'Short n Sweet' before Sabrina Carpenter made it cool. If this doesn't make you feel, I don't know what will: it's got raucous Green Day, Sex Pistols, Clash, Bee-Gees written all over it.<br><br>My favourite version is the 1982 Berliner Philharmoniker recording conducted by Herbert Von Karajan.",
+        "genre": "Chamber Ensemble",
+        "rating" : "100",
+        "duration": "17:06",
+        "tracks": [
+            "I. Allegro",
+            "II. Romance: Andante",
+            "III. Menuetto: Allegretto",
+            "IV: Finale: Rondo Allegro"
+        ],
+        "applemusic":"https://music.apple.com/us/album/the-rembrandts-l-p/373220996",
+        "spotify":"https://open.spotify.com/album/6koDBGMqurYl3EZnaxCF7N"
+    },
+    {
+        "artist": "Genesis",
+        "album": "Selling England By The Pound",
+        "year": "1973",
+        "cover": "./assets/albumart/genesis - selling england by the pound.jpg",
+        "description": "The fifth album from Genesis is a lot of fun. I like the Peter Gabriel era, I like the Phil Collins era—Genesis is just a great band. This album is still very much Progressive Rock: it's got stretching compositions, esoteric and whimsical lyrics and it makes you feel...I don't know, the way Progressive Rock makes you feel! It's something you'd want to listen to while reading <i>Ringworld</i> or doing literally anything else. It's a great album.<br><br>My favourite tracks off this one are 'Dancing with the Moonlit Knight', 'I Know What I Like' and 'The Battle of Epping Forest'",
+        "genre": "Progressive Rock",
+        "rating" : "85",
+        "duration": "53:48",
+        "tracks": [
+            "Dancing With The Moonlit Knight",
+            "I Know What I Like (In Your Wardrobe)",
+            "Firth Of Fifth",
+            "More Fool Me",
+            "The Battle Of Epping Forest",
+            "After The Ordeal",
+            "The Cinema Show",
+            "Aisle Of Plenty"
+        ],
+        "applemusic":"https://music.apple.com/us/album/the-rembrandts-l-p/373220996",
+        "spotify":"https://open.spotify.com/album/6koDBGMqurYl3EZnaxCF7N"
     }
 ]

@@ -268,5 +268,15 @@
             { "artist": "Led Zeppelin", "album": "In Through The Out Door", "cover": "./assets/albumart/led zeppelin - in through the out door.jpg" },
             { "artist": "Teenage Fanclub", "album": "Bandwagonesque", "cover": "./assets/albumart/teenage fanclub - bandwagonesque.jpg" }
         ]
+    },
+    {
+        "month": "May 2025",
+        "albums": [
+            { "artist": "Genesis", "album": "Selling England By The Pound", "cover": "./assets/albumart/genesis - selling england by the pound.jpg" },
+            { "artist": "Wolfgang Amadeus Mozart", "album": "Eine Kleine Nachtmusik", "cover": "./assets/albumart/wolfgang amadeus mozart - eine kleine nachtmusik.webp" },
+            { "artist": "The Sex Pistols", "album": "Never Mind The Bollocks", "cover": "./assets/albumart/sex pistols - never mind the bollocks.jpg" },
+            { "artist": "Pink Floyd", "album": "Meddle", "cover": "./assets/albumart/pink floyd - meddle.jpg" },
+            { "artist": "Teenage Fanclub", "album": "Bandwagonesque", "cover": "./assets/albumart/teenage fanclub - bandwagonesque.jpg" }
+        ]
     }
 ]
