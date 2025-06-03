@@ -342,5 +342,13 @@
         "monthread": "May",
         "yearread": "2025",
         "cover": "/assets/books/themanwhowasthursday.webp"
+    },
+    {
+        "name":"The Wounded Sky",
+        "author": "Diane Duane",
+        "year": "1982",
+        "monthread": "June",
+        "yearread": "2025",
+        "cover": "/assets/books/woundedsky.jpg"
     }
 ]
