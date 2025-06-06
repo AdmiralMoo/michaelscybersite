@@ -350,5 +350,13 @@
         "monthread": "June",
         "yearread": "2025",
         "cover": "/assets/books/woundedsky.jpg"
+    },
+    {
+        "name":"Ham on Rye",
+        "author": "Charles Bukowski",
+        "year": "1982",
+        "monthread": "June",
+        "yearread": "2025",
+        "cover": "/assets/books/hamonrye.webp"
     }
 ]
