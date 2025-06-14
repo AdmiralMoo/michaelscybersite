@@ -15,9 +15,9 @@ class photoCarousel
             fetch('./assets/json/photoCarouselData.json')
             .then(response => response.json())
             .then(data => {
-
             //the data has to be this.carouselID or it'll be set to []
-            this.photosDatabase = data[this.carouselID] || [];
+            console.log(data);
+            this.photosDatabase = data.find(set => set.setname === this.carouselID)?.images || [];
             this.stickSomeImagesInThere();
             });
         }
@@ -37,7 +37,7 @@ class photoCarousel
             return;
         }
         
-        carouselActiveImgContainer.querySelector('img').src = url(this.photosDatabase[this.activeImage].images[this.activeImage].url);
+        carouselActiveImgContainer.querySelector('img').src = this.photosDatabase[this.activeImage]?.url || '';
     }
 }
 
