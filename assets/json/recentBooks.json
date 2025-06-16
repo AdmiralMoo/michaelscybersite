@@ -358,5 +358,13 @@
         "monthread": "June",
         "yearread": "2025",
         "cover": "/assets/books/hamonrye.webp"
+    },
+    {
+        "name":"Thinner",
+        "author": "Richard Bachman",
+        "year": "1984",
+        "monthread": "June",
+        "yearread": "2025",
+        "cover": "/assets/books/thinner.webp"
     }
 ]
