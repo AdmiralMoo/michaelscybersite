@@ -366,5 +366,13 @@
         "monthread": "June",
         "yearread": "2025",
         "cover": "/assets/books/thinner.webp"
+    },
+    {
+        "name":"Reconstruction",
+        "author": "Mick Herron",
+        "year": "2008",
+        "monthread": "June",
+        "yearread": "2025",
+        "cover": "/assets/books/reconstruction.webp"
     }
 ]
