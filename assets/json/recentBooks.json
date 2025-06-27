@@ -374,5 +374,13 @@
         "monthread": "June",
         "yearread": "2025",
         "cover": "/assets/books/reconstruction.webp"
+    },
+    {
+        "name":"Milo Talon",
+        "author": "Louis L'Amour",
+        "year": "1981",
+        "monthread": "June",
+        "yearread": "2025",
+        "cover": "/assets/books/milotalon.webp"
     }
 ]
