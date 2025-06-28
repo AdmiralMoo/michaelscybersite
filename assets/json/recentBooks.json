@@ -382,5 +382,13 @@
         "monthread": "June",
         "yearread": "2025",
         "cover": "/assets/books/milotalon.webp"
+    },
+    {
+        "name":"To Have And Have Not",
+        "author": "Ernest Hemingway",
+        "year": "1937",
+        "monthread": "June",
+        "yearread": "2025",
+        "cover": "/assets/books/tohaveandhavenot.webp"
     }
 ]
