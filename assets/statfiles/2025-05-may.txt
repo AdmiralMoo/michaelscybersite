@@ -5,7 +5,7 @@ ________________________________________________________________________________
 |Chart |Count|Artist/Release                                                                                |Time Spent Listening         |
 |------|-----|----------------------------------------------------------------------------------------------|-----------------------------|
 | #1   | x18 | Genesis/Selling England By The Pound                                                         | 968 Minutes and 31 Seconds  |
-| #2   | x16 | Wolfgang Amadeus Mozart/Eine Kleine Nachtmusik                                               | 1499 Minutes and 33 Seconds |
+| #2   | x16 | Wolfgang Amadeus Mozart/Eine Kleine Nachtmusik                                               | 273 Minutes and 36 Seconds  |
 | #3   | x14 | The Sex Pistols/Never Mind The Bollocks                                                      | 543 Minutes and 16 Seconds  |
 | #4   | x12 | Pink Floyd/Meddle                                                                            | 560 Minutes and 51 Seconds  |
 | #5   | x11 | Teenage Fanclub/Bandwagonesque                                                               | 472 Minutes and 4 Seconds   |
@@ -116,5 +116,5 @@ ________________________________________________________________________________
 
 296 listens to albums in total
 
-894544 total seconds spent listening to music, equivalent to 14909 Minutes, 248 Hours or 10 Days. That is 2.74% of the year
+820986 total seconds spent listening to music, equivalent to 13683 Minutes, 228 Hours or 9 Days. That is 2.47% of the year
 Press Enter to continue...

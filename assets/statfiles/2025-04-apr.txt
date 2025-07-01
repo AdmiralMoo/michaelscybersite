@@ -5,7 +5,7 @@ ________________________________________________________________________________
 |Chart |Count|Artist/Release                                                                                |Time Spent Listening         |
 |------|-----|----------------------------------------------------------------------------------------------|-----------------------------|
 | #1   | x16 | The Sex Pistols/Never Mind The Bollocks                                                      | 620 Minutes and 53 Seconds  |
-| #2   | x16 | Wolfgang Amadeus Mozart/Eine Kleine Nachtmusik                                               | 1225 Minutes and 56 Seconds |
+| #2   | x16 | Wolfgang Amadeus Mozart/Eine Kleine Nachtmusik                                               | 273 Minutes and 36 Seconds  |
 | #3   | x10 | Green Day/Revolution Radio                                                                   | 446 Minutes and 24 Seconds  |
 | #4   | x10 | Led Zeppelin/In Through The Out Door                                                         | 425 Minutes and 33 Seconds  |
 | #5   | x9  | Teenage Fanclub/Bandwagonesque                                                               | 386 Minutes and 14 Seconds  |

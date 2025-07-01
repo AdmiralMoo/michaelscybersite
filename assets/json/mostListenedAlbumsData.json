@@ -278,5 +278,15 @@
             { "artist": "Pink Floyd", "album": "Meddle", "cover": "./assets/albumart/pink floyd - meddle.jpg" },
             { "artist": "Teenage Fanclub", "album": "Bandwagonesque", "cover": "./assets/albumart/teenage fanclub - bandwagonesque.jpg" }
         ]
+    },
+    {
+        "month": "June 2025",
+        "albums": [
+            { "artist": "Genesis", "album": "Invisible Touch", "cover": "./assets/albumart/genesis - invisible touch.jpg" },
+            { "artist": "Jethro Tull", "album": "Thick As A Brick", "cover": "./assets/albumart/jethro tull - thick as a brick.jpg" },
+            { "artist": "Genesis", "album": "Selling England By The Pound", "cover": "./assets/albumart/genesis - selling england by the pound.jpg" },
+            { "artist": "Rush", "album": "Counterparts", "cover": "./assets/albumart/rush - counterparts.jpg" },
+            { "artist": "Bruce Springsteen", "album": "Tunnel of Love", "cover": "./assets/albumart/bruce springsteen - tunnel of love.jpg" }
+        ]
     }
 ]
