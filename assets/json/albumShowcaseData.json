@@ -795,7 +795,7 @@
         "album": "L.P.",
         "year": "1995",
         "cover": "./assets/albumart/the rembrandts - lp.jpg",
-        "description": "I picked this album off the shelf at the thrift store becuase of the font on the spine, and I bought it because it had the theme from <i>Friends</i>. I wasn't a huge fan at first, but I warmed up to it after the second listen and found there's a lot to enjoy.<br><br>Overall, the pacing is a bit wonky and the album feels lopsided, but it's a relatively harmless and inoffensive collection of music. It's the kind of stuff I'd imagine you'd find playing at a coffee shop, in some 2000's young-adult sitcom or in a 90s movie. Came for the Friends theme, stayed for The Rembrandts.<br><br>My favourite tracks off this one are 'Don't Hide Your Love', 'Easy to Forget' and 'There Goes Lucy'. I think this album version of the Friends theme is <i>way</i> better than the one they used in the TV show, and way better than the one on the <i>Friends</i> soundtrack.",
+        "description": "I picked this album off the shelf at the thrift store becuase of the font on the spine, and I bought it because it had the theme from <i>Friends</i>. I wasn't a huge fan at first, but I warmed up to it after the second listen and found there's a lot to enjoy.<br><br>Overall, the pacing is a bit wonky and the album feels lopsided, but it's a relatively harmless and inoffensive collection of music. It's the kind of stuff I'd imagine you'd find playing at a coffee shop, in some 2000's young-adult sitcom or in a 90s movie. Came for the Friends theme, stayed for The Rembrandts.<br><br>Honestly, if you like <i>Crowded House/Crowded House</i>, I don't see why you wouldn't like this album! I bet they influenced The Rembrandts.<br><br>My favourite tracks off this one are 'Don't Hide Your Love', 'Easy to Forget' and 'There Goes Lucy'. I think this album version of the Friends theme is <i>way</i> better than the one they used in the TV show, and way better than the one on the <i>Friends</i> soundtrack.",
         "genre": "Soft Rock",
         "rating" : "70",
         "duration": "62:15",
@@ -1309,6 +1309,53 @@
             "After The Ordeal",
             "The Cinema Show",
             "Aisle Of Plenty"
+        ],
+        "applemusic":"https://music.apple.com/us/album/the-rembrandts-l-p/373220996",
+        "spotify":"https://open.spotify.com/album/6koDBGMqurYl3EZnaxCF7N"
+    },
+    {
+        "artist": "Crowded House",
+        "album": "Crowded House",
+        "year": "1986",
+        "cover": "./assets/albumart/crowded house - crowded house.jpg",
+        "description": "I didn't like this at all the first time I stuck it in my CD player. I found it at the thrift store, recognized the album cover from the hit single \"Don't Dream It's Over\" and bought it. This album sat around for nine months, and between then and the time I listened to it again, I learned to apprecaite <i>The Rembrandts/L.P.</i>. I think that if you like this album, you'll probably like The Rembrandts as well—Crowded House almost certainly influenced them.<br><br>Acoustic guitars, tastefully layered electric leads, close vocal harmonies—their balanced, warm and intentionally not flashy sound leads to a clean, uncluttered production. It's good stuff, and this sound is most certainly growing on me. This album in particular speaks it's point and lets itself out: it doesn't overstay its welcome and lets you enjoy it for what it is.<br><br>My favourite tracks off this one are \"Mean To Me\", \"Can't Carry On\" and \"Don't Dream It's Over\"",
+        "genre": "Jangle Pop",
+        "rating" : "83",
+        "duration": "38:40",
+        "tracks": [
+            "Mean To Me",
+            "World Where You Live",
+            "Now We're Getting Somewhere",
+            "Don't Dream It's Over",
+            "Love You 'Til The Day I Die",
+            "Something So Strong",
+            "Hole In The River",
+            "Can't Carry On",
+            "I Walk Away",
+            "Tombstone",
+            "That's What I Call Love"
+        ],
+        "applemusic":"https://music.apple.com/us/album/the-rembrandts-l-p/373220996",
+        "spotify":"https://open.spotify.com/album/6koDBGMqurYl3EZnaxCF7N"
+    },
+    {
+        "artist": "Genesis",
+        "album": "Invisible Touch",
+        "year": "1986",
+        "cover": "./assets/albumart/genesis - invisible touch.jpg",
+        "description": "I love everything about this album. It's the absolute peak of Genesis' popularity in popular culture:<i>Invisible Touch</i> comes from a time when Phil Collins ruled the world—releasing solo music, producing for countless artists, and still recording with Genesis.<br><br>The album art, like the opening drum fill, will capture you instantly: bright contrasting colours, simple yet striking imagery, Franklin Gothic Heavy and Gill Sans—it's everything you could want from something designed in the mid-80's. The title track is an absolute earworm, and I listened to it an uncouth amount of times in the spring and summer of 2025. This album was not just one I enjoyed, but one I was addicted to.<br><br>The production is slicker than an otter's pocket, and it's what you'd expect from 80's Phil Collins. It's stuffed with synths, packed with clever lyrics, loaded with Phil Collins' charm, and it's gated reverb out the wazoo. I can’t even explain how much I love this album—much less why—in a blurb this short. If you want to know what 1986 sounded like at its most polished, most infectious, and most Phil, just press play.<br><br>My favourite tracks off this one are \"Tonight, Tonight, Tonight\", \"Throwing It All Away\", \"Anything She Does\" and—of course—\"Invisible Touch\". It's Phil Collins' favourite Genesis song. It's my favourite Genesis song.",
+        "genre": "Progressive Pop",
+        "rating" : "97",
+        "duration": "45:42",
+        "tracks": [
+            "Invisible Touch",
+            "Tonight, Tonight, Tonight",
+            "Land of Confusion",
+            "In Too Deep",
+            "Anything She Does",
+            "Domino",
+            "Throwing It All Away",
+            "The Brazilian"
         ],
         "applemusic":"https://music.apple.com/us/album/the-rembrandts-l-p/373220996",
         "spotify":"https://open.spotify.com/album/6koDBGMqurYl3EZnaxCF7N"
