@@ -1,0 +1,205 @@
+[    
+    {
+        "name" : "2001: A Space Odyssey",
+        "year" : "1968",
+        "body" : "",
+        "imagefront" : "./assets/vhs/2001ASpaceOdyssey_Front.webp",
+        "imagespine" : "./assets/vhs/2001ASpaceOdyssey_Spine.webp"
+    },
+    {
+        "name" : "Alien",
+        "year" : "1979",
+        "body" : "",
+        "imagefront" : "./assets/vhs/Alien_Front.webp",
+        "imagespine" : "./assets/vhs/Alien_Spine.webp"
+    },
+    {
+        "name" : "Aliens",
+        "year" : "1986",
+        "body" : "",
+        "imagefront" : "./assets/vhs/Aliens_Front.webp",
+        "imagespine" : "./assets/vhs/Aliens_Spine.webp"
+    },
+    {
+        "name" : "Back To The Future",
+        "year" : "1985",
+        "body" : "",
+        "imagefront" : "./assets/vhs/BackToTheFutureI_Front.webp",
+        "imagespine" : "./assets/vhs/BackToTheFutureI_Spine.webp"
+    },
+    {
+        "name" : "Back To The Future II",
+        "year" : "1989",
+        "body" : "",
+        "imagefront" : "./assets/vhs/BackToTheFutureII_Front.webp",
+        "imagespine" : "./assets/vhs/BackToTheFutureII_Spine.webp"
+    },
+    {
+        "name" : "Back To The Future III",
+        "year" : "1990",
+        "body" : "",
+        "imagefront" : "./assets/vhs/BackToTheFutureIII_Front.webp",
+        "imagespine" : "./assets/vhs/BackToTheFutureIII_Spine.webp"
+    },
+    {
+        "name" : "Blade Runner",
+        "year" : "1982",
+        "body" : "",
+        "imagefront" : "./assets/vhs/BladeRunner_Front.webp",
+        "imagespine" : "./assets/vhs/BladeRunner_Spine.webp"
+    },
+    {
+        "name" : "Citizen Kane",
+        "year" : "1941",
+        "body" : "",
+        "imagefront" : "./assets/vhs/CitizenKane_Front.webp",
+        "imagespine" : "./assets/vhs/CitizenKane_Spine.webp"
+    },
+    {
+        "name" : "Close Encounters of The Third Kind",
+        "year" : "1977",
+        "body" : "",
+        "imagefront" : "./assets/vhs/CloseEncountersOfTheThirdKind_Front.webp",
+        "imagespine" : "./assets/vhs/CloseEncountersOfTheThirdKind_Spine.webp"
+    },
+    {
+        "name" : "Destination Moon",
+        "year" : "1950",
+        "body" : "",
+        "imagefront" : "./assets/vhs/DestinationMoon_Front.webp",
+        "imagespine" : "./assets/vhs/DestinationMoon_Spine.webp"
+    },
+    {
+        "name" : "Dune",
+        "year" : "1984",
+        "body" : "",
+        "imagefront" : "./assets/vhs/Dune_Front.webp",
+        "imagespine" : "./assets/vhs/Dune_Spine.webp"
+    },
+    {
+        "name" : "The Hunt For Red October",
+        "year" : "1990",
+        "body" : "",
+        "imagefront" : "./assets/vhs/TheHuntForRedOctober_Front.webp",
+        "imagespine" : "./assets/vhs/TheHuntForRedOctober_Spine.webp"
+    },
+    {
+        "name" : "Independence Day",
+        "year" : "1996",
+        "body" : "",
+        "imagefront" : "./assets/vhs/IndependenceDay_Front.webp",
+        "imagespine" : "./assets/vhs/IndependenceDay_Spine.webp"
+    },
+    {
+        "name" : "Jurassic Park",
+        "year" : "1993",
+        "body" : "",
+        "imagefront" : "./assets/vhs/JurassicPark_Front.webp",
+        "imagespine" : "./assets/vhs/JurassicPark_Spine.webp"
+    },
+    {
+        "name" : "The Matrix",
+        "year" : "1999",
+        "body" : "",
+        "imagefront" : "./assets/vhs/TheMatrix_Front.webp",
+        "imagespine" : "./assets/vhs/TheMatrix_Spine.webp"
+    },
+    {
+        "name" : "Night Of The Living Dead",
+        "year" : "1968",
+        "body" : "",
+        "imagefront" : "./assets/vhs/NightOfTheLivingDead_Front.webp",
+        "imagespine" : "./assets/vhs/NightOfTheLivingDead_Spine.webp"
+    },
+    {
+        "name" : "The Outlaw Josey Wales",
+        "year" : "1976",
+        "body" : "",
+        "imagefront" : "./assets/vhs/TheOutlawJoseyWales_Front.webp",
+        "imagespine" : "./assets/vhs/TheOutlawJoseyWales_Spine.webp"
+    },
+    {
+        "name" : "Python",
+        "year" : "2000",
+        "body" : "",
+        "imagefront" : "./assets/vhs/Python_Front.webp",
+        "imagespine" : "./assets/vhs/Python_Spine.webp"
+    },
+    {
+        "name" : "Saturday Night Fever",
+        "year" : "1977",
+        "body" : "",
+        "imagefront" : "./assets/vhs/SaturdayNightFever_Front.webp",
+        "imagespine" : "./assets/vhs/SaturdayNightFever_Spine.webp"
+    },
+    {
+        "name" : "Star Wars",
+        "year" : "1977",
+        "body" : "",
+        "imagefront" : "./assets/vhs/StarWars_Front.webp",
+        "imagespine" : "./assets/vhs/StarWars_Spine.webp"
+    },
+    {
+        "name" : "The Empire Strikes Back",
+        "year" : "1980",
+        "body" : "",
+        "imagefront" : "./assets/vhs/TheEmpireStrikesBack_Front.webp",
+        "imagespine" : "./assets/vhs/TheEmpireStrikesBack_Spine.webp"
+    },
+    {
+        "name" : "The Return of The Jedi",
+        "year" : "1983",
+        "body" : "",
+        "imagefront" : "./assets/vhs/TheReturnOfTheJedi_Front.webp",
+        "imagespine" : "./assets/vhs/TheReturnOfTheJedi_Spine.webp"
+    },
+    {
+        "name" : "Super Mario Bros",
+        "year" : "1993",
+        "body" : "",
+        "imagefront" : "./assets/vhs/SuperMarioBros_Front.webp",
+        "imagespine" : "./assets/vhs/SuperMarioBros_Spine.webp"
+    },
+    {
+        "name" : "The Terminator",
+        "year" : "1984",
+        "body" : "",
+        "imagefront" : "./assets/vhs/TheTerminator_Front.webp",
+        "imagespine" : "./assets/vhs/TheTerminator_Spine.webp"
+    },
+    {
+        "name" : "Terminator 2: Judgement Day",
+        "year" : "1991",
+        "body" : "",
+        "imagefront" : "./assets/vhs/Terminator2JudgementDay_Front.webp",
+        "imagespine" : "./assets/vhs/Terminator2JudgementDay_Spine.webp"
+    },
+    {
+        "name" : "Top Gun",
+        "year" : "1986",
+        "body" : "",
+        "imagefront" : "./assets/vhs/TopGun_Front.webp",
+        "imagespine" : "./assets/vhs/TopGun_Spine.webp"
+    },
+    {
+        "name" : "Walking With Dinosaurs",
+        "year" : "1999",
+        "body" : "",
+        "imagefront" : "./assets/vhs/WalkingWithDinosaurs_Front.webp",
+        "imagespine" : "./assets/vhs/WalkingWithDinosaurs_Spine.webp"
+    },
+    {
+        "name" : "The War of The Worlds",
+        "year" : "1952",
+        "body" : "",
+        "imagefront" : "./assets/vhs/TheWarOfTheWorlds_Front.webp",
+        "imagespine" : "./assets/vhs/TheWarOfTheWorlds_Spine.webp"
+    },
+    {
+        "name" : "Woodstock",
+        "year" : "1970",
+        "body" : "",
+        "imagefront" : "./assets/vhs/Woodstock_Front.webp",
+        "imagespine" : "./assets/vhs/Woodstock_Spine.webp"
+    }
+]

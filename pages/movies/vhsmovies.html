@@ -1,0 +1,178 @@
+<head>
+    <script src="/head-inject.js"></script>
+
+    <title>Tapes</title>
+    <link rel="stylesheet" type="text/css" href="/assets/css/win98.css"/>
+    <link rel="stylesheet" type="text/css" href="/assets/css/music.css"/>
+    <link rel="stylesheet" type="text/css" href="/assets/css/movies.css"/>
+
+    <style>
+        /*
+        .grid-box-album
+        {
+            flex: 5%;
+            word-wrap: break-word;
+        }
+            */
+
+        .grid-box-album img
+        {
+            object-fit: fill;
+            max-width: 100%;
+            min-width: 100%;
+            height:auto;
+            flex-grow:1;
+        }
+
+        /*
+        .body-box .grid-box-container
+        {
+            display:flex;
+            flex-wrap:wrap;
+            align-items: start;
+            justify-content: start;
+        }
+
+        /*
+        #tapecontainer img:last-child
+        {
+            display:flex;
+            flex-basis: 100%;
+            align-items: start;
+            justify-content: start;
+
+            max-width :20%;
+        }
+        */
+
+        .grid-box-container > *
+        {
+            text-align: center;
+        }
+
+        .body-box img
+        {
+            padding:0;
+            border: none;
+        }
+/*
+        @media(max-width:900px)
+        {
+            .body-box .grid-box-container
+            {
+                flex-direction: row;
+                word-wrap: break-word;
+            }
+
+            /*
+            #tapecontainer img:last-child
+            {
+                min-width: 33%;
+                max-width: 33%;
+                width: 33%;
+                flex-basis:100%;
+            }
+            */
+/*
+            .grid-box-album
+            {
+                flex: 20%;
+            }
+        }
+
+        @media(max-width:600px)
+        {
+            .body-box .grid-box-container
+            {
+                flex-direction: row;
+                word-break: break-all;
+                word-wrap: break-word;
+                font-size: 1.0em;
+            }
+
+            #tapecontainer img:last-child
+            {
+                min-width: 50%;
+                max-width: 50%;
+                width: 50%;
+                flex-basis:100%;
+            }
+
+            .grid-box-album
+            {
+                flex: 50%;
+            }
+        }
+
+                /*overrides*//*
+                .ImageHeader-Text
+        {
+            line-height: 1.90em;
+        }
+
+        .ImageHeader img
+        {
+            height:40vw;
+            width:100%;
+            object-fit:cover;
+        }
+
+        @media (max-width: 600px)
+        {
+            .ImageHeader img
+            {
+                height: 80vw;
+            }
+
+            .ImageHeader-Text
+            {
+                font-size: 1.2em;
+            }
+        }
+        */
+    </style>
+</head>
+
+<body>
+    <main>
+        <div class="maincontent-centred" style="min-height:60vh;">
+            <!--Music Page Header-->
+            <div class="header-one-box outsideborder">
+                <h1>Tapes</h1>
+                <img src="./assets/images/dsotm_256.webp">
+            </div>
+            <div class="ImageHeader outsideborder">
+                <div class="insideborder">
+                    <img src="/assets/pictures/DSC_139057.webp">
+                </div>
+                <div class="ImageHeader-Text"><h1>Cassette Tapes</h1></div>
+                <div class="ImageHeader-MyPhoto">Photo: MichaelsCybersite.net, 2024</div>
+            </div>
+
+            <div class="body-box outsideborder stacked">
+                <div class="box-container">
+                    <p></p>
+                </div>
+                <div id="tapecontainer" class="grid-box-container">
+                </div>
+            </div>
+
+            <script>
+                // Get images
+                fetch("./assets/json/vhstapes.json")
+                    .then(response => response.json())
+                    .then(data => {
+                        const albumContainer = document.getElementById("tapecontainer");
+
+                        data.forEach(tape => {
+                            const img = document.createElement("img");
+                            img.src = tape.imagespine;
+                            img.alt = `${tape.name} (${tape.year})`;
+                            img.classList.add('grid-box-album');
+                            albumContainer.appendChild(img);
+                        });
+                    })
+                    .catch(error => console.error("Error loading VHS spine images:", error));
+            </script>
+    </main>
+</body>
