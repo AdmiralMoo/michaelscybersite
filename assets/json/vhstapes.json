@@ -3,13 +3,23 @@
         "name" : "2001: A Space Odyssey",
         "year" : "1968",
         "body" : "",
+        "tags" : "favourites;scifi;shelfmain",
         "imagefront" : "./assets/vhs/2001ASpaceOdyssey_Front.webp",
         "imagespine" : "./assets/vhs/2001ASpaceOdyssey_Spine.webp"
+    },
+    {
+        "name" : "2010: The Year We Made Contact",
+        "year" : "1984",
+        "body" : "",
+        "tags" : "favourites;scifi;shelfmain",
+        "imagefront" : "./assets/vhs/2010TheYearWeMakeContact_Front.webp",
+        "imagespine" : "./assets/vhs/2010TheYearWeMakeContact_Spine.webp"
     },
     {
         "name" : "Alien",
         "year" : "1979",
         "body" : "",
+        "tags" : "favourites;scifi;shelfmain",
         "imagefront" : "./assets/vhs/Alien_Front.webp",
         "imagespine" : "./assets/vhs/Alien_Spine.webp"
     },
@@ -17,6 +27,7 @@
         "name" : "Aliens",
         "year" : "1986",
         "body" : "",
+        "tags" : "scifi;shelfmain",
         "imagefront" : "./assets/vhs/Aliens_Front.webp",
         "imagespine" : "./assets/vhs/Aliens_Spine.webp"
     },
@@ -24,6 +35,7 @@
         "name" : "Back To The Future",
         "year" : "1985",
         "body" : "",
+        "tags" : "favourites;scifi;shelfmain",
         "imagefront" : "./assets/vhs/BackToTheFutureI_Front.webp",
         "imagespine" : "./assets/vhs/BackToTheFutureI_Spine.webp"
     },
@@ -31,6 +43,7 @@
         "name" : "Back To The Future II",
         "year" : "1989",
         "body" : "",
+        "tags" : "scifi;shelfmain",
         "imagefront" : "./assets/vhs/BackToTheFutureII_Front.webp",
         "imagespine" : "./assets/vhs/BackToTheFutureII_Spine.webp"
     },
@@ -38,6 +51,7 @@
         "name" : "Back To The Future III",
         "year" : "1990",
         "body" : "",
+        "tags" : "scifi;shelfmain",
         "imagefront" : "./assets/vhs/BackToTheFutureIII_Front.webp",
         "imagespine" : "./assets/vhs/BackToTheFutureIII_Spine.webp"
     },
@@ -45,6 +59,7 @@
         "name" : "Blade Runner",
         "year" : "1982",
         "body" : "",
+        "tags" : "favourites;scifi;shelfmain",
         "imagefront" : "./assets/vhs/BladeRunner_Front.webp",
         "imagespine" : "./assets/vhs/BladeRunner_Spine.webp"
     },
@@ -52,6 +67,7 @@
         "name" : "Citizen Kane",
         "year" : "1941",
         "body" : "",
+        "tags" : "favourites;classic;shelfmain",
         "imagefront" : "./assets/vhs/CitizenKane_Front.webp",
         "imagespine" : "./assets/vhs/CitizenKane_Spine.webp"
     },
@@ -59,6 +75,7 @@
         "name" : "Close Encounters of The Third Kind",
         "year" : "1977",
         "body" : "",
+        "tags" : "favourites;scifi;shelfmain",
         "imagefront" : "./assets/vhs/CloseEncountersOfTheThirdKind_Front.webp",
         "imagespine" : "./assets/vhs/CloseEncountersOfTheThirdKind_Spine.webp"
     },
@@ -66,6 +83,7 @@
         "name" : "Destination Moon",
         "year" : "1950",
         "body" : "",
+        "tags" : "scifi;shelfmain",
         "imagefront" : "./assets/vhs/DestinationMoon_Front.webp",
         "imagespine" : "./assets/vhs/DestinationMoon_Spine.webp"
     },
@@ -73,6 +91,7 @@
         "name" : "Dune",
         "year" : "1984",
         "body" : "",
+        "tags" : "favourites;scifi;shelfmain",
         "imagefront" : "./assets/vhs/Dune_Front.webp",
         "imagespine" : "./assets/vhs/Dune_Spine.webp"
     },
@@ -80,6 +99,7 @@
         "name" : "The Hunt For Red October",
         "year" : "1990",
         "body" : "",
+        "tags" : "favourites;action;shelfmain",
         "imagefront" : "./assets/vhs/TheHuntForRedOctober_Front.webp",
         "imagespine" : "./assets/vhs/TheHuntForRedOctober_Spine.webp"
     },
@@ -87,6 +107,7 @@
         "name" : "Independence Day",
         "year" : "1996",
         "body" : "",
+        "tags" : "favourites;scifi;shelfmain",
         "imagefront" : "./assets/vhs/IndependenceDay_Front.webp",
         "imagespine" : "./assets/vhs/IndependenceDay_Spine.webp"
     },
@@ -94,13 +115,31 @@
         "name" : "Jurassic Park",
         "year" : "1993",
         "body" : "",
+        "tags" : "favourites;scifi;shelfmain",
         "imagefront" : "./assets/vhs/JurassicPark_Front.webp",
         "imagespine" : "./assets/vhs/JurassicPark_Spine.webp"
+    },
+    {
+        "name" : "The Lost World: Jurassic Park",
+        "year" : "1998",
+        "body" : "",
+        "tags" : "scifi;shelfmain",
+        "imagefront" : "./assets/vhs/TheLostWorld_Front.webp",
+        "imagespine" : "./assets/vhs/TheLostWorld_Spine.webp"
+    },
+    {
+        "name" : "Jurassic Park III",
+        "year" : "2001",
+        "body" : "",
+        "tags" : "scifi;shelfmain",
+        "imagefront" : "./assets/vhs/JurassicParkIII_Front.webp",
+        "imagespine" : "./assets/vhs/JurassicParkIII_Spine.webp"
     },
     {
         "name" : "The Matrix",
         "year" : "1999",
         "body" : "",
+        "tags" : "favourites;scifi;shelfmain",
         "imagefront" : "./assets/vhs/TheMatrix_Front.webp",
         "imagespine" : "./assets/vhs/TheMatrix_Spine.webp"
     },
@@ -108,6 +147,7 @@
         "name" : "Night Of The Living Dead",
         "year" : "1968",
         "body" : "",
+        "tags" : "scifi;shelfmain",
         "imagefront" : "./assets/vhs/NightOfTheLivingDead_Front.webp",
         "imagespine" : "./assets/vhs/NightOfTheLivingDead_Spine.webp"
     },
@@ -115,6 +155,7 @@
         "name" : "The Outlaw Josey Wales",
         "year" : "1976",
         "body" : "",
+        "tags" : "favourites;western;shelfmain",
         "imagefront" : "./assets/vhs/TheOutlawJoseyWales_Front.webp",
         "imagespine" : "./assets/vhs/TheOutlawJoseyWales_Spine.webp"
     },
@@ -122,20 +163,135 @@
         "name" : "Python",
         "year" : "2000",
         "body" : "",
+        "tags" : "scifi;shelfmain",
         "imagefront" : "./assets/vhs/Python_Front.webp",
         "imagespine" : "./assets/vhs/Python_Spine.webp"
+    },
+    {
+        "name" : "Planet of The Apes",
+        "year" : "1968",
+        "body" : "",
+        "tags" : "scifi;shelfmain",
+        "imagefront" : "./assets/vhs/PlanetOfTheApes_Front.webp",
+        "imagespine" : "./assets/vhs/PlanetOfTheApes_Spine.webp"
+    },
+    {
+        "name" : "Beneath The Planet of The Apes",
+        "year" : "1970",
+        "body" : "",
+        "tags" : "scifi;shelfmain",
+        "imagefront" : "./assets/vhs/BeneathThePlanetOfTheApes_Front.webp",
+        "imagespine" : "./assets/vhs/BeneathThePlanetOfTheApes_Spine.webp"
+    },
+    {
+        "name" : "Escape From The Planet of The Apes",
+        "year" : "1971",
+        "body" : "",
+        "tags" : "scifi;shelfmain",
+        "imagefront" : "./assets/vhs/EscapeFromThePlanetOfTheApes_Front.webp",
+        "imagespine" : "./assets/vhs/EscapeFromThePlanetOfTheApes_Spine.webp"
+    },
+    {
+        "name" : "Conquest of The Planet of The Apes",
+        "year" : "1972",
+        "body" : "",
+        "tags" : "scifi;shelfmain",
+        "imagefront" : "./assets/vhs/ConquestOfThePlanetOfTheApes_Front.webp",
+        "imagespine" : "./assets/vhs/ConquestOfThePlanetOfTheApes_Spine.webp"
+    },
+    {
+        "name" : "Battle For The Planet of The Apes",
+        "year" : "1973",
+        "body" : "",
+        "tags" : "scifi;shelfmain",
+        "imagefront" : "./assets/vhs/BattleForThePlanetOfTheApes_Front.webp",
+        "imagespine" : "./assets/vhs/BattleForThePlanetOfTheApes_Spine.webp"
     },
     {
         "name" : "Saturday Night Fever",
         "year" : "1977",
         "body" : "",
+        "tags" : "favourites;drama;shelfmain",
         "imagefront" : "./assets/vhs/SaturdayNightFever_Front.webp",
         "imagespine" : "./assets/vhs/SaturdayNightFever_Spine.webp"
+    },
+    {
+        "name" : "Star Trek: The Motion Picture",
+        "year" : "1979",
+        "body" : "",
+        "tags" : "scifi;shelfbottom",
+        "imagefront" : "./assets/vhs/StarTrekI_Front.webp",
+        "imagespine" : "./assets/vhs/StarTrekI_Spine.webp"
+    },
+    {
+        "name" : "Star Trek II: The Wrath of Khan",
+        "year" : "1982",
+        "body" : "",
+        "tags" : "scifi;shelfbottom",
+        "imagefront" : "./assets/vhs/StarTrekII_Front.webp",
+        "imagespine" : "./assets/vhs/StarTrekII_Spine.webp"
+    },
+    {
+        "name" : "Star Trek III: The Search for Spock",
+        "year" : "1984",
+        "body" : "",
+        "tags" : "scifi;shelfbottom",
+        "imagefront" : "./assets/vhs/StarTrekIII_Front.webp",
+        "imagespine" : "./assets/vhs/StarTrekIII_Spine.webp"
+    },
+    {
+        "name" : "Star Trek IV: The Voyage Home",
+        "year" : "1986",
+        "body" : "",
+        "tags" : "scifi;shelfbottom",
+        "imagefront" : "./assets/vhs/StarTrekIV_Front.webp",
+        "imagespine" : "./assets/vhs/StarTrekIV_Spine.webp"
+    },
+    {
+        "name" : "Star Trek V: The Final Frontier",
+        "year" : "1989",
+        "body" : "",
+        "tags" : "scifi;shelfbottom",
+        "imagefront" : "./assets/vhs/StarTrekV_Front.webp",
+        "imagespine" : "./assets/vhs/StarTrekV_Spine.webp"
+    },
+    {
+        "name" : "Star Trek VI: The Undiscovered Country",
+        "year" : "1991",
+        "body" : "",
+        "tags" : "scifi;shelfbottom",
+        "imagefront" : "./assets/vhs/StarTrekVI_Front.webp",
+        "imagespine" : "./assets/vhs/StarTrekVI_Spine.webp"
+    },
+    {
+        "name" : "Star Trek Generations",
+        "year" : "1994",
+        "body" : "",
+        "tags" : "favourites;scifi;shelfbottom",
+        "imagefront" : "./assets/vhs/StarTrekVII_Front.webp",
+        "imagespine" : "./assets/vhs/StarTrekVII_Spine.webp"
+    },
+    {
+        "name" : "Star Trek First Contact",
+        "year" : "1996",
+        "body" : "",
+        "tags" : "scifi;shelfbottom",
+        "imagefront" : "./assets/vhs/StarTrekVIII_Front.webp",
+        "imagespine" : "./assets/vhs/StarTrekVIII_Spine.webp"
+    },
+    {
+        "name" : "Star Trek: Insurrection",
+        "year" : "1998",
+        "body" : "",
+        "tags" : "scifi;shelfbottom",
+        "imagefront" : "./assets/vhs/StarTrekIX_Front.webp",
+        "imagespine" : "./assets/vhs/StarTrekIX_Spine.webp"
     },
     {
         "name" : "Star Wars",
         "year" : "1977",
         "body" : "",
+        "tags" : "favourites;scifi;shelfmain",
         "imagefront" : "./assets/vhs/StarWars_Front.webp",
         "imagespine" : "./assets/vhs/StarWars_Spine.webp"
     },
@@ -143,6 +299,7 @@
         "name" : "The Empire Strikes Back",
         "year" : "1980",
         "body" : "",
+        "tags" : "scifi;shelfmain",
         "imagefront" : "./assets/vhs/TheEmpireStrikesBack_Front.webp",
         "imagespine" : "./assets/vhs/TheEmpireStrikesBack_Spine.webp"
     },
@@ -150,6 +307,7 @@
         "name" : "The Return of The Jedi",
         "year" : "1983",
         "body" : "",
+        "tags" : "scifi;shelfmain",
         "imagefront" : "./assets/vhs/TheReturnOfTheJedi_Front.webp",
         "imagespine" : "./assets/vhs/TheReturnOfTheJedi_Spine.webp"
     },
@@ -157,6 +315,7 @@
         "name" : "Super Mario Bros",
         "year" : "1993",
         "body" : "",
+        "tags" : "scifi;shelfmain",
         "imagefront" : "./assets/vhs/SuperMarioBros_Front.webp",
         "imagespine" : "./assets/vhs/SuperMarioBros_Spine.webp"
     },
@@ -164,6 +323,7 @@
         "name" : "The Terminator",
         "year" : "1984",
         "body" : "",
+        "tags" : "favourites;scifi;shelfmain",
         "imagefront" : "./assets/vhs/TheTerminator_Front.webp",
         "imagespine" : "./assets/vhs/TheTerminator_Spine.webp"
     },
@@ -171,20 +331,47 @@
         "name" : "Terminator 2: Judgement Day",
         "year" : "1991",
         "body" : "",
+        "tags" : "scifi;shelfmain",
         "imagefront" : "./assets/vhs/Terminator2JudgementDay_Front.webp",
         "imagespine" : "./assets/vhs/Terminator2JudgementDay_Spine.webp"
+    },
+    {
+        "name" : "Terminator 3: Rise of The Machines",
+        "year" : "2003",
+        "body" : "",
+        "tags" : "scifi;shelfbottom",
+        "imagefront" : "./assets/vhs/Terminator3RiseOfTheMachines_Front.webp",
+        "imagespine" : "./assets/vhs/Terminator3RiseOfTheMachines_Spine.webp"
     },
     {
         "name" : "Top Gun",
         "year" : "1986",
         "body" : "",
+        "tags" : "favourites;action;shelfmain",
         "imagefront" : "./assets/vhs/TopGun_Front.webp",
         "imagespine" : "./assets/vhs/TopGun_Spine.webp"
+    },
+    {
+        "name" : "Top Gun: The Story Behind The Story",
+        "year" : "1986",
+        "body" : "",
+        "tags" : "documentary;shelfbottom",
+        "imagefront" : "./assets/vhs/TopGunTheStoryBehindTheStory_Front.webp",
+        "imagespine" : "./assets/vhs/TopGunTheStoryBehindTheStory_Spine.webp"
+    },
+    {
+        "name" : "Total Recall",
+        "year" : "1990",
+        "body" : "",
+        "tags" : "scifi;shelfbottom",
+        "imagefront" : "./assets/vhs/TotalRecall_Front.webp",
+        "imagespine" : "./assets/vhs/TotalRecall_Spine.webp"
     },
     {
         "name" : "Walking With Dinosaurs",
         "year" : "1999",
         "body" : "",
+        "tags" : "favourites;documentary;shelfmain",
         "imagefront" : "./assets/vhs/WalkingWithDinosaurs_Front.webp",
         "imagespine" : "./assets/vhs/WalkingWithDinosaurs_Spine.webp"
     },
@@ -192,13 +379,23 @@
         "name" : "The War of The Worlds",
         "year" : "1952",
         "body" : "",
+        "tags" : "scifi;shelfmain",
         "imagefront" : "./assets/vhs/TheWarOfTheWorlds_Front.webp",
         "imagespine" : "./assets/vhs/TheWarOfTheWorlds_Spine.webp"
+    },
+    {
+        "name" : "Led Zeppelin: The Song Remains The Same",
+        "year" : "1976",
+        "body" : "",
+        "tags" : "music;shelfmain",
+        "imagefront" : "./assets/vhs/TheSongRemainsTheSame_Front.webp",
+        "imagespine" : "./assets/vhs/TheSongRemainsTheSame_Spine.webp"
     },
     {
         "name" : "Woodstock",
         "year" : "1970",
         "body" : "",
+        "tags" : "music;shelfmain",
         "imagefront" : "./assets/vhs/Woodstock_Front.webp",
         "imagespine" : "./assets/vhs/Woodstock_Spine.webp"
     }

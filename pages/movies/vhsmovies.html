@@ -7,13 +7,12 @@
     <link rel="stylesheet" type="text/css" href="/assets/css/movies.css"/>
 
     <style>
-        /*
+        
         .grid-box-album
         {
-            flex: 5%;
-            word-wrap: break-word;
+            position: relative;
         }
-            */
+            
 
         .grid-box-album img
         {
@@ -24,6 +23,161 @@
             flex-grow:1;
         }
 
+        .grid-box-album::before
+        {
+            content: "";
+            position:absolute;
+            z-index: 10;
+            top: 0;
+            left: 0;
+            width: 4px;
+            height: 100%;
+            background: linear-gradient(to right, rgba(0, 0, 0, 0.616), transparent);
+            pointer-events: none;
+        }
+
+        .grid-box-album::after
+        {
+            content: "";
+            position:absolute;
+            z-index: 10;
+            top: 0;
+            right: 0;
+            width: 4px;
+            height: 100%;
+            background: linear-gradient(to left, rgba(0, 0, 0, 0.616), transparent);
+            pointer-events: none;
+        }
+
+
+        .grid-box-container
+        {
+            flex-wrap: nowrap;
+            width: auto;
+            display: inline-flex;
+        }
+
+        .grid-box-container > *
+        {
+            text-align: center;
+            max-width: unset;
+            min-width: unset;
+            padding: 0;
+        }
+
+        .grid-box-container img
+        {
+            max-width: unset;
+            max-height: 100%;
+            min-width: unset;
+            object-fit: cover;
+        }
+
+        .body-box img
+        {
+            padding:0;
+            border: none;
+        }
+
+        .ImageHeader img
+        {
+            height: 20vw;
+        }
+
+        /*Scrolling Area*/
+
+        .bookshelf-container
+        {
+            overflow-x: scroll; 
+            white-space: nowrap;
+            width: 100%;
+        }
+
+        .bookshelf-container > div
+        {
+            display: inline-block;
+        }
+
+        .shelf-slab-v,
+        .bookshelf-scroll-inner 
+        {
+            display: inline-block;
+            vertical-align: top;
+        }
+
+        /*Shelf Slab Graphics*/
+        .shelf-slab-h
+        {
+            height: 42px;
+            background-image: URL("/assets/site/WoodShelfTileable.webp");
+            background-size: auto 100%;
+            background-repeat: repeat-x;
+            width: 100%;
+            position: relative;
+        }
+
+        .shelf-slab-v
+        {
+            height: 100%;
+            background-image: URL("/assets/site/WoodShelfTileableV.webp");
+            background-size: 100% auto;
+            background-repeat: repeat-y;
+            width: 42px;
+            position: relative;
+        }
+
+        .shelf-slab-h::before
+        {
+            content: "";
+            position: absolute;
+            z-index: 10;
+            top: 0;
+            left: 0;
+            width: 4px;
+            height: 42px;
+            background: linear-gradient(to right, rgba(0, 0, 0, 0.616), transparent);
+            pointer-events: none;
+        }
+
+        .shelf-slab-h::after
+        {
+            content: "";
+            position: absolute;
+            z-index: 10;
+            top: 0;
+            right: 0;
+            width: 4px;
+            height: 42px;
+            background: linear-gradient(to left rgba(0, 0, 0, 0.616), transparent);
+            pointer-events: none;
+        }
+
+        .shelf-slab-v::before
+        {
+            content: "";
+            position: absolute;
+            z-index: 10;
+            top: 0;
+            left: 0;
+            width: 42px;
+            height: 4px;
+            background: linear-gradient(to bottom, rgba(0, 0, 0, 0.616), transparent);
+            pointer-events: none;
+        }
+
+        .shelf-slab-v::after
+        {
+            content: "";
+            position: absolute;
+            z-index: 10;
+            bottom: 0;
+            left: 0;
+            width: 42px;
+            height: 4px;
+            background: linear-gradient(to top rgba(0, 0, 0, 0.616), transparent);
+            pointer-events: none;
+        }
+        
         /*
         .body-box .grid-box-container
         {
@@ -44,17 +198,6 @@
             max-width :20%;
         }
         */
-
-        .grid-box-container > *
-        {
-            text-align: center;
-        }
-
-        .body-box img
-        {
-            padding:0;
-            border: none;
-        }
 /*
         @media(max-width:900px)
         {
@@ -145,17 +288,25 @@
                 <div class="insideborder">
                     <img src="/assets/pictures/DSC_139057.webp">
                 </div>
-                <div class="ImageHeader-Text"><h1>Cassette Tapes</h1></div>
-                <div class="ImageHeader-MyPhoto">Photo: MichaelsCybersite.net, 2024</div>
+                <div class="ImageHeader-Text"><h1>The VHS Shelf</h1></div>
+                <div class="ImageHeader-MyPhoto">Photo: MichaelsCybersite.net, 2023</div>
             </div>
 
-            <div class="body-box outsideborder stacked">
-                <div class="box-container">
-                    <p></p>
-                </div>
-                <div id="tapecontainer" class="grid-box-container">
+            <div class=" outsideborder stacked">
+                <div class="bookshelf-container">
+                    <div style="white-space:nowrap; font-size:0">
+                        <div class="shelf-slab-v"></div>
+                        <div class="bookshelf-scroll-inner">
+                            <div class="shelf-slab-h"></div>
+                            <div id="tapecontainer" class="grid-box-container" style="border: none; width: unset;">
+                            </div>
+                            <div class="shelf-slab-h"></div>
+                        </div>
+                        <div class="shelf-slab-v"></div>
+                    </div>      
                 </div>
             </div>
+
 
             <script>
                 // Get images
@@ -165,14 +316,18 @@
                         const albumContainer = document.getElementById("tapecontainer");
 
                         data.forEach(tape => {
+                            const ndiv = document.createElement("div");
+                            ndiv.classList.add("grid-box-album");
                             const img = document.createElement("img");
                             img.src = tape.imagespine;
                             img.alt = `${tape.name} (${tape.year})`;
                             img.classList.add('grid-box-album');
-                            albumContainer.appendChild(img);
+                            ndiv.appendChild(img);
+                            albumContainer.appendChild(ndiv);
                         });
                     })
                     .catch(error => console.error("Error loading VHS spine images:", error));
             </script>
+        </div>
     </main>
 </body>
