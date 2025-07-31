@@ -390,5 +390,13 @@
         "monthread": "June",
         "yearread": "2025",
         "cover": "/assets/books/tohaveandhavenot.webp"
+    },
+    {
+        "name":"The Pillow Book of Sei Shonagon",
+        "author": "Sei Shonagon",
+        "year": "1002",
+        "monthread": "July",
+        "yearread": "2025",
+        "cover": "/assets/books/pillowbook.webp"
     }
 ]

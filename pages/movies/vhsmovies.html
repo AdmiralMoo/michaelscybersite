@@ -305,15 +305,20 @@
                         <div class="shelf-slab-v"></div>
                     </div>      
                 </div>
+                <div id="tape-info-viewer" class="info-panel"></div>
             </div>
 
 
             <script>
+                let tapeData = [];
+                function loadShelfImages()
+                {
                 // Get images
                 fetch("./assets/json/vhstapes.json")
                     .then(response => response.json())
                     .then(data => {
                         const albumContainer = document.getElementById("tapecontainer");
+                        tapeData = data;
 
                         data.forEach(tape => {
                             const ndiv = document.createElement("div");
@@ -322,11 +327,32 @@
                             img.src = tape.imagespine;
                             img.alt = `${tape.name} (${tape.year})`;
                             img.classList.add('grid-box-album');
+                            img.dataset.tapeId = tape.id;
+                            img.addEventListener('click', () => handleTapeClick(tape.id));
                             ndiv.appendChild(img);
                             albumContainer.appendChild(ndiv);
+                            
                         });
                     })
                     .catch(error => console.error("Error loading VHS spine images:", error));
+                }
+
+                
+
+                function handleTapeClick(tapeId)
+                {
+                    const tape = tapeData.find(t => t.id === tapeId);
+                    if (!tape) return;
+
+                    const viewer = document.getElementById('tape-info-viewer');
+                    viewer.innerHTML = `
+                        <img src="${tape.imagefront}" alt="${tape.name} Cover">
+                        <h2>${tape.name} (${tape.year})</h2>
+                    `;
+                    viewer.classList.add('visible');
+                }
+
+                loadShelfImages();
             </script>
         </div>
     </main>

@@ -71,6 +71,26 @@ function injectStandardHeader()
     });
 }
 
+//Injects the overridden header into the HTML document
+function injectHeader(newHeaderPath)
+{
+    fetch(newHeaderPath)
+    .then(response => response.text())
+    .then(data => {
+        document.body.insertAdjacentHTML("afterbegin", data);
+    });
+}
+
+//Injects the overridden footer into the HMTL document
+function injectFooter(newFooterPath)
+{
+    fetch(newFooterPath)
+    .then(response => response.text())
+    .then(data => {
+        document.body.insertAdjacentHTML("beforeend", data);
+    });
+}
+
 //Lazy loading. Dynamically lazy load images when HTML is injected by JS
 function lazyLoadImages() {
     const lazyImages = document.querySelectorAll("img.lazyload");

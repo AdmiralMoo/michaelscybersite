@@ -1,0 +1,16 @@
+body {
+    padding-top: 0;
+    margin: 0;
+    overflow-x: hidden;
+    overflow-y: auto;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-image: url('/assets/site/DSC_6132_8f97ad.webp');
+    background-color: #858d9f;
+}
+
+.fsheader
+{
+    top: 256px;
+    max-width: 512px;
+}
