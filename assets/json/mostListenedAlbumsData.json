@@ -266,7 +266,7 @@
             { "artist": "Wolfgang Amadeus Mozart", "album": "Eine Kleine Nachtmusik", "cover": "./assets/albumart/wolfgang amadeus mozart - eine kleine nachtmusik.webp" },
             { "artist": "Green Day", "album": "Revolution Radio", "cover": "./assets/albumart/green day - revolution radio.jpg" },
             { "artist": "Led Zeppelin", "album": "In Through The Out Door", "cover": "./assets/albumart/led zeppelin - in through the out door.jpg" },
-            { "artist": "Teenage Fanclub", "album": "Bandwagonesque", "cover": "./assets/albumart/teenage fanclub - bandwagonesque.jpg" }
+            { "artist": "Johann Strauss II", "album": "An Der Schönen, Blauen Donau", "cover": "./assets/albumart/johann strauss ii - an der schonen, blauen donau [ii].jpg" }
         ]
     },
     {
@@ -275,18 +275,28 @@
             { "artist": "Genesis", "album": "Selling England By The Pound", "cover": "./assets/albumart/genesis - selling england by the pound.jpg" },
             { "artist": "Wolfgang Amadeus Mozart", "album": "Eine Kleine Nachtmusik", "cover": "./assets/albumart/wolfgang amadeus mozart - eine kleine nachtmusik.webp" },
             { "artist": "The Sex Pistols", "album": "Never Mind The Bollocks", "cover": "./assets/albumart/sex pistols - never mind the bollocks.jpg" },
-            { "artist": "Pink Floyd", "album": "Meddle", "cover": "./assets/albumart/pink floyd - meddle.jpg" },
-            { "artist": "Teenage Fanclub", "album": "Bandwagonesque", "cover": "./assets/albumart/teenage fanclub - bandwagonesque.jpg" }
+            { "artist": "Teenage Fanclub", "album": "Bandwagonesque", "cover": "./assets/albumart/teenage fanclub - bandwagonesque.jpg" },
+            { "artist": "Pink Floyd", "album": "Meddle", "cover": "./assets/albumart/pink floyd - meddle.jpg" }
         ]
     },
     {
         "month": "June 2025",
         "albums": [
             { "artist": "Genesis", "album": "Invisible Touch", "cover": "./assets/albumart/genesis - invisible touch.jpg" },
-            { "artist": "Jethro Tull", "album": "Thick As A Brick", "cover": "./assets/albumart/jethro tull - thick as a brick.jpg" },
             { "artist": "Genesis", "album": "Selling England By The Pound", "cover": "./assets/albumart/genesis - selling england by the pound.jpg" },
+            { "artist": "Jethro Tull", "album": "Thick As A Brick", "cover": "./assets/albumart/jethro tull - thick as a brick.jpg" },
             { "artist": "Rush", "album": "Counterparts", "cover": "./assets/albumart/rush - counterparts.jpg" },
             { "artist": "Bruce Springsteen", "album": "Tunnel of Love", "cover": "./assets/albumart/bruce springsteen - tunnel of love.jpg" }
+        ]
+    },
+    {
+        "month": "July 2025",
+        "albums": [
+            { "artist": "Phil Collins", "album": "Hello, I Must Be Going!", "cover": "./assets/albumart/phil collins - hello i must be going.webp" },
+            { "artist": "Genesis", "album": "Invisible Touch", "cover": "./assets/albumart/genesis - invisible touch.jpg" },
+            { "artist": "Yes", "album": "Fragile", "cover": "./assets/albumart/yes - fragile.jpg" },
+            { "artist": "Genesis", "album": "Selling England By The Pound", "cover": "./assets/albumart/genesis - selling england by the pound.jpg" },
+            { "artist": "Rush", "album": "Hold Your Fire", "cover": "./assets/albumart/rush - hold your fire.webp" }
         ]
     }
 ]
