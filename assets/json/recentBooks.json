@@ -398,5 +398,13 @@
         "monthread": "July",
         "yearread": "2025",
         "cover": "/assets/books/pillowbook.webp"
+    },
+    {
+        "name":"The Shadow Riders",
+        "author": "Louis L'Amour",
+        "year": "1982",
+        "monthread": "August",
+        "yearread": "2025",
+        "cover": "/assets/books/shadowriders.webp"
     }
 ]
