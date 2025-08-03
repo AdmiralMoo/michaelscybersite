@@ -292,7 +292,7 @@
     {
         "month": "July 2025",
         "albums": [
-            { "artist": "Phil Collins", "album": "Hello, I Must Be Going!", "cover": "./assets/albumart/phil%20collins%20-%20hello%20i%20must%20be%20going.webp" },
+            { "artist": "Phil Collins", "album": "Hello, I Must Be Going!", "cover": "assets/albumart/phil collins - hello I must be going.webp" },
             { "artist": "Genesis", "album": "Invisible Touch", "cover": "./assets/albumart/genesis - invisible touch.jpg" },
             { "artist": "Yes", "album": "Fragile", "cover": "./assets/albumart/yes - fragile.jpg" },
             { "artist": "Genesis", "album": "Selling England By The Pound", "cover": "./assets/albumart/genesis - selling england by the pound.jpg" },
