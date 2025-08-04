@@ -177,6 +177,27 @@
             background: linear-gradient(to top rgba(0, 0, 0, 0.616), transparent);
             pointer-events: none;
         }
+
+        #tape-cover
+        {
+            width:386px;
+            height: auto;
+            object-fit: contain;
+        }
+
+        #tape-name
+        {
+            font-family: 'VCR', sans-serif;
+            font-size: 1.5em;
+            text-transform: uppercase;
+        }
+
+        .vcrbox
+        {
+            background-color:blue;
+            color: white;
+            font-family: 'VCR', sans-serif;
+        }
         
         /*
         .body-box .grid-box-container
@@ -281,8 +302,8 @@
         <div class="maincontent-centred" style="min-height:60vh;">
             <!--Music Page Header-->
             <div class="header-one-box outsideborder">
-                <h1>Tapes</h1>
-                <img src="./assets/images/dsotm_256.webp">
+                <h1>Movies</h1>
+                <img src="/assets/images/icon_film.png">
             </div>
             <div class="ImageHeader outsideborder">
                 <div class="insideborder">
@@ -305,10 +326,29 @@
                         <div class="shelf-slab-v"></div>
                     </div>      
                 </div>
-                <div id="tape-info-viewer" class="info-panel"></div>
             </div>
+                <div class="body-box outsideborder">
+                    <div id="tape-info-viewer" class="info-panel insideborder">
+                        <img id="tape-cover" src="./assets/images/blanktape.webp">
+                    </div>
+                    <!--
+                    <div style="display:flex; flex-direction:column; width: 100%;">
+                        <div class="vhstitle insideborder" id="tape-name" style="padding:10px;">
+                            <h2>NO TAPE</h2>
+                        </div>
+                        <div class="box-container" style="padding:10px;">
+                        </div>
+                    </div>
+                    -->
+                    <div class="vcrbox insideborder" style="width:100%;">
+                        <div class="" id="tape-name" style="padding:10px;">
+                            <h2>NO TAPE</h2>
+                        </div>
+                        <div id="tape-body" style="padding:10px;">
 
-
+                        </div>
+                    </div>
+                </div>
             <script>
                 let tapeData = [];
                 function loadShelfImages()
@@ -343,6 +383,8 @@
                 {
                     const tape = tapeData.find(t => t.id === tapeId);
                     if (!tape) return;
+                    /*
+
 
                     const viewer = document.getElementById('tape-info-viewer');
                     viewer.innerHTML = `
@@ -350,6 +392,23 @@
                         <h2>${tape.name} (${tape.year})</h2>
                     `;
                     viewer.classList.add('visible');
+                    */
+
+                    const cover = document.getElementById('tape-cover');
+                    cover.src = `
+                    ${tape.imagefront}
+                    `;
+                    cover.classList.add('visible');
+
+                    const tapename = document.getElementById('tape-name');
+                    tapename.innerHTML = `
+                        <h2>${tape.name} (${tape.year})</h2>
+                    `;
+
+                    const bodytext = document.getElementById('tape-body');
+                    bodytext.innerHTML = `
+                    ${tape.body}
+                    `;
                 }
 
                 loadShelfImages();
