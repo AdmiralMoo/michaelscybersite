@@ -195,105 +195,24 @@
         .vcrbox
         {
             background-color:blue;
-            color: white;
+            background-image: URL("./assets/gifs/vhs.gif");
+            background-size: 100%;
+            image-rendering: pixelated;
+        }
+
+        .vcrbox h2
+        {
+            color: rgb(245, 245, 245);
             font-family: 'VCR', sans-serif;
+            mix-blend-mode:lighten;
         }
-        
-        /*
-        .body-box .grid-box-container
+
+        .vcrbox p
         {
-            display:flex;
-            flex-wrap:wrap;
-            align-items: start;
-            justify-content: start;
+            color: rgb(245, 245, 245);
+            font-family: 'VCR', sans-serif;
+            mix-blend-mode:lighten;
         }
-
-        /*
-        #tapecontainer img:last-child
-        {
-            display:flex;
-            flex-basis: 100%;
-            align-items: start;
-            justify-content: start;
-
-            max-width :20%;
-        }
-        */
-/*
-        @media(max-width:900px)
-        {
-            .body-box .grid-box-container
-            {
-                flex-direction: row;
-                word-wrap: break-word;
-            }
-
-            /*
-            #tapecontainer img:last-child
-            {
-                min-width: 33%;
-                max-width: 33%;
-                width: 33%;
-                flex-basis:100%;
-            }
-            */
-/*
-            .grid-box-album
-            {
-                flex: 20%;
-            }
-        }
-
-        @media(max-width:600px)
-        {
-            .body-box .grid-box-container
-            {
-                flex-direction: row;
-                word-break: break-all;
-                word-wrap: break-word;
-                font-size: 1.0em;
-            }
-
-            #tapecontainer img:last-child
-            {
-                min-width: 50%;
-                max-width: 50%;
-                width: 50%;
-                flex-basis:100%;
-            }
-
-            .grid-box-album
-            {
-                flex: 50%;
-            }
-        }
-
-                /*overrides*//*
-                .ImageHeader-Text
-        {
-            line-height: 1.90em;
-        }
-
-        .ImageHeader img
-        {
-            height:40vw;
-            width:100%;
-            object-fit:cover;
-        }
-
-        @media (max-width: 600px)
-        {
-            .ImageHeader img
-            {
-                height: 80vw;
-            }
-
-            .ImageHeader-Text
-            {
-                font-size: 1.2em;
-            }
-        }
-        */
     </style>
 </head>
 
@@ -311,6 +230,11 @@
                 </div>
                 <div class="ImageHeader-Text"><h1>The VHS Shelf</h1></div>
                 <div class="ImageHeader-MyPhoto">Photo: MichaelsCybersite.net, 2023</div>
+            </div>
+            <div class="body-box outsideborder">
+                <div class="box-container"style="padding:10px;">
+                    <p>Here's a semi-interactive tour of my movies shelf! Browse my shelf and click on a tape to learn more about it.<br><br>I'm still working on it, so not all movies will have a description. New tapes will be added as I get around to scanning and processing them.</p>
+                </div>
             </div>
 
             <div class=" outsideborder stacked">
@@ -331,15 +255,6 @@
                     <div id="tape-info-viewer" class="info-panel insideborder">
                         <img id="tape-cover" src="./assets/images/blanktape.webp">
                     </div>
-                    <!--
-                    <div style="display:flex; flex-direction:column; width: 100%;">
-                        <div class="vhstitle insideborder" id="tape-name" style="padding:10px;">
-                            <h2>NO TAPE</h2>
-                        </div>
-                        <div class="box-container" style="padding:10px;">
-                        </div>
-                    </div>
-                    -->
                     <div class="vcrbox insideborder" style="width:100%;">
                         <div class="" id="tape-name" style="padding:10px;">
                             <h2>NO TAPE</h2>
@@ -383,16 +298,7 @@
                 {
                     const tape = tapeData.find(t => t.id === tapeId);
                     if (!tape) return;
-                    /*
 
-
-                    const viewer = document.getElementById('tape-info-viewer');
-                    viewer.innerHTML = `
-                        <img src="${tape.imagefront}" alt="${tape.name} Cover">
-                        <h2>${tape.name} (${tape.year})</h2>
-                    `;
-                    viewer.classList.add('visible');
-                    */
 
                     const cover = document.getElementById('tape-cover');
                     cover.src = `
@@ -407,7 +313,7 @@
 
                     const bodytext = document.getElementById('tape-body');
                     bodytext.innerHTML = `
-                    ${tape.body}
+                    <p>${tape.body}</p>
                     `;
                 }
 

@@ -68,5 +68,12 @@
         "description": "Harmless, inoffensive 'adult alternative' with a couple of sparse hits in between. Lots of Jangle-Pop and Power-Pop mixed in with the Grunge/Post-Grunge of the 1990s",
         "image": "https://1drv.ms/i/c/19eb4e25e0b8e9bb/IQScw1Cbsj06SoooUwO5f-SYAQa7hXMnh2GnBp3Du64JQ44?width=256",
         "link": "/pages/music/coffeeshoprock"
+    },
+    {
+        "category":"movies",
+        "name": "My VHS Shelf",
+        "description": "Take a look at my shelf with this semi-interactive tour!",
+        "image": "/assets/pictures/DSC_139057.webp",
+        "link": "/pages/movies/vhsmovies"
     }
 ]

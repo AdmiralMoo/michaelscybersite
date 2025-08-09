@@ -3,7 +3,7 @@
         "id" : "2001",
         "name" : "2001: A Space Odyssey",
         "year" : "1968",
-        "body" : "",
+        "body" : "Where do you even start with a movie like <i>Space Odyssey</i>? It's out-of-this-world crazy—the result of a partnership between legendary science fiction author Arthur C. Clark and legendary screenwriter and directory Stanley Kubrick. <br><br>This movie, to me, is <i>The Dark Side of The Moon</i> for movies: it's grandiose, it's brilliant, you can soak into it, and every time you watch it, you can feel or think something else. It's something that makes you think and invites you to interpret. It's a journey—an experience!<br><br><i>2001</i> is one of my all-time favourites.",
         "tags" : "favourites;scifi;shelfmain",
         "imagefront" : "./assets/vhs/2001ASpaceOdyssey_Front.webp",
         "imagespine" : "./assets/vhs/2001ASpaceOdyssey_Spine.webp"
@@ -120,7 +120,7 @@
         "id" : "id4",
         "name" : "Independence Day",
         "year" : "1996",
-        "body" : "",
+        "body" : "<i>Independence Day</i> is <i>Top Gun</i>...with Aliens—and Will Smith is Maverick!<br><br>That should be all I have to say to get you to watch this movie, but I'll keep talking anyways. The story is a lot of fun, and it's got the same quality that Jurassic Park has to me—I guess it's a shared kind of storyline that a lot of movies had in the 1980's and 1990's before everyone was a superhero: just regular people in extraordinary situations rising up to save the day.<br><br>Huge alien spaceships, really well-done comedy that's actually funny (compared to modern movies) and really good effects that hold up better than most movies from the 2010's.<br><br>Will Smith, Bill Pullman, Jeff Goldblum—even Brent Spiner plays a part! I can't even remember the first time I watched this movie, only that I've seen it a ridiculous amount of times. <i>Independence Day</i> reminds me of a simpler time before everything was online and we were all more connected—going to blockbuster, going to malls. I wish I had more time in that world. ",
         "tags" : "favourites;scifi;shelfmain",
         "imagefront" : "./assets/vhs/IndependenceDay_Front.webp",
         "imagespine" : "./assets/vhs/IndependenceDay_Spine.webp"
@@ -129,7 +129,7 @@
         "id" : "jp1",
         "name" : "Jurassic Park",
         "year" : "1993",
-        "body" : "",
+        "body" : "<i>Jurassic Park</i> is one of my all time favourite movies. I first watched it while I was on vacation with my parents in Cancun at around the age of four—I was flipping through channels one evening at the hotel, and the dig-site scene came on. I liked dinosaurs, so I watched. I wasn't as scared as I should have been; instead, <i>Jurassic Park</i> became a formative experience in my young life.<br><br>This is one I come back to time and time again. I love the feeling of this movie, just as I love the feeling of my other favourite movies. There's something about them I just can't describe, but they all share it.<br><br>John Williams' soundtrack is amazing here as well—it really brings the world to life. Stephen Spielberg was really at the top of his game, blending innovation in computer graphics and practical effects to make a movie that's more realistic than Jurassic Park 7 or any of the CGI we have today.",
         "tags" : "favourites;scifi;shelfmain",
         "imagefront" : "./assets/vhs/JurassicPark_Front.webp",
         "imagespine" : "./assets/vhs/JurassicPark_Spine.webp"
@@ -183,7 +183,7 @@
         "id" : "python",
         "name" : "Python",
         "year" : "2000",
-        "body" : "",
+        "body" : "I would consider <i>Python</i> to be the last of the true b-movies. Back in the 1950's, they were genuinely trying but the effects were terrible by standards even ten years in the future. As time went on, cheaper productions just had crappy effects, and they spawned cult followings. These effects had charm and gave movies a quality—a soul—just not present in big-budget productions.<br><br>Throughout the 2000's with the rise of home computers capable of editing home video, the barrier to entry lowered and lowered until we arrived to the age of streaming: there are thousands of really crappy movies that nobody wants to watch because they're completely soulless.<br><br>Long-winded digression aside, <i>Python</i> is the last of a dead genre. It's corny as hell, it follows the spirit of B-Movies and (somehow) has Wil Wheaton in it. It's a fun movie.",
         "tags" : "scifi;shelfmain",
         "imagefront" : "./assets/vhs/Python_Front.webp",
         "imagespine" : "./assets/vhs/Python_Spine.webp"
@@ -237,7 +237,7 @@
         "id" : "satfever",
         "name" : "Saturday Night Fever",
         "year" : "1977",
-        "body" : "",
+        "body" : "I seriously think this is a great movie. First off, it opens up with one of the most infectiously catchy songs ever written—\"Stayin' Alive\" by the Bee Gees—and features dozens of iconic scenes. It’s quoteable as hell, and it’s so much fun to watch every single time.<br><br>The first time I watched <i>Saturday Night Fever</i>, I was confused and slightly disappointed by the ending. I’ve watched it quite a few times since then, and I’ve realized that this isn’t a movie about getting the girl, it’s a movie about growing up and becoming a man.<br><br>This is a movie about realizing that you are right where you’re supposed to be at that stage of your life. Maybe I just like it so much because—although my life didn’t feature nearly as much disco action—I feel like I can relate to the feelings of alienation from my peers and wanting to move up in the world. I felt like I lived through the plot of this movie in parallel over the course of ten months—it started with me getting a surprise raise and ended with me growing up but not getting the girl.<br><br>Throughout those ten months, this movie made me feel like I wasn’t as lost as I thought I was, and everyone is faking it just as much as I am. But I got out, and I moved up, and I’m right where I’m meant to be. And I can’t dance.",
         "tags" : "favourites;drama;shelfmain",
         "imagefront" : "./assets/vhs/SaturdayNightFever_Front.webp",
         "imagespine" : "./assets/vhs/SaturdayNightFever_Spine.webp"
@@ -327,7 +327,7 @@
         "id" : "swars1",
         "name" : "Star Wars",
         "year" : "1977",
-        "body" : "",
+        "body" : "What can you even say about <i>Star Wars</i>? It revolutionized special effects and helped bring science fiction to the masses like we'd never seen before. How could you not like Star Wars? It's freakin' space knights with lazer swords!<br><br>I love <i>Star Wars</i> more than any of the other movies; it's got a great plot, great characters and it's a fun adventure every time. This copy I've got on VHS is the original before any of the edits which came about with the later DVD releases.<br><br>The first time I watched Star Wars, I was very young—so young, in fact, that I thought the movie must have been over by the time Obi Wan said 'that's no moon' because my perception of time was still very stretched out, as it is for a child.<br><br>Anyhow, it's great fun and I'll always love this movie. Watching this with my Dad was a formative experience, and I look forward to the day I watch <i>Star Wars</i> with my child for the first time.",
         "tags" : "favourites;scifi;shelfmain",
         "imagefront" : "./assets/vhs/StarWars_Front.webp",
         "imagespine" : "./assets/vhs/StarWars_Spine.webp"
