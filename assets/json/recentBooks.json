@@ -406,5 +406,13 @@
         "monthread": "August",
         "yearread": "2025",
         "cover": "/assets/books/shadowriders.webp"
+    },
+    {
+        "name":"Planet of Judgement",
+        "author": "Joe Haldeman",
+        "year": "1977",
+        "monthread": "August",
+        "yearread": "2025",
+        "cover": "/assets/books/planetofjudgement.jpg"
     }
 ]
