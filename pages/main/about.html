@@ -9,6 +9,48 @@
             color: #000000;
             background-image: linear-gradient(to right, #2a9cc9 , #7ce0ff);
         }
+
+        .boxedphoto-row
+        {
+            display: flex;
+            flex-wrap: wrap;
+            width:100%;
+            margin-bottom: 16px;
+        }
+
+        .boxedphoto
+        {
+            flex: 1 1 50%;
+            text-align: center;
+        }
+
+        .boxedphoto img
+        {
+            max-width: 100%;
+            height: auto;
+        }
+
+        @media (max-width: 640px)
+        {
+            .boxedphoto
+            {
+                flex: 1 1 100%;
+            }
+        }
+        
+        .boxedphoto4x
+        {
+            flex: 1 1 25%;
+            text-align: center;
+        }
+
+        @media (max-width: 640px)
+        {
+            .boxedphoto4x
+            {
+                flex: 1 1 50%;
+            }
+        }
     </style>
 </head>
 
@@ -79,6 +121,21 @@
                     <p>
                         When it's above eight degrees, I enjoy cycling; when it's not, I think about cycling. It's a vicious cycle, really. 
                     </p>
+                    <p><i>Photos of my bike—a 2023 Kona Rove AL-700—shot on my Nikon Z6 with Nikon Series E 35mm or 100mm</i></p>
+                    <div class="boxedphoto-row">
+                        <div class="boxedphoto boxedphoto4x">
+                            <img src="/assets/pictures/DSC_7840.webp">
+                        </div>
+                        <div class="boxedphoto boxedphoto4x">
+                            <img src="/assets/pictures/DSC_7813.webp">
+                        </div>
+                        <div class="boxedphoto boxedphoto4x">
+                            <img src="/assets/pictures/DSC_7699.webp">
+                        </div>
+                        <div class="boxedphoto boxedphoto4x">
+                            <img src="/assets/pictures/DSC_7748.webp">
+                        </div>
+                    </div>
                     <h4><i>Computer-Based Activities</i></h4>
                     <p>
                         On the computer, I do a lot of programming in Python and C#, though I also know C++, Visual Basic, a bit of JavaScript and—hence the website you're reading this on—I'm learning HTML and CSS. I've done a lot of 3D Modelling in Blender, a fair bit of special-effects and video editing in Adobe After Effects and Premiere Pro, and some audio editing in Adobe Audition; I've picked up all sorts of skills getting into things here and there. 
@@ -234,17 +291,19 @@
             </div>
             <div class="body-box outsideborder">
                 <div class="box-container" style="padding:10px;">
-                    <p>I said earlier that I occasionally take photos, but it's more like all the time. </p>
+                    <p>I said earlier that I occasionally take photos, but it's more like all the time. I actually love photography and I don't go many places without a camera.</p>
 
                     <h3>Cameras</h3>
                     <h4>Nikon Z6</h4>
-                        <p>The replacement to my D40, and the first camera I actually bought myself</p>
+                        <p>The replacement to my D40, and the first camera I actually bought myself.</p>
                     <h4>Nikon D40</h4>
-                        <p>Once my Dad's camera, I took 195,363 photos with this camera over eight years until it died in May of 2025</p>
-                    <h4>Nikon FM2</h4>
-                        <p>I haven't shot with this camera yet—the cost of film is rather prohibitive—but I plan to very soon.</p>
+                        <p>Once my Dad's camera, I took 195,363 photos with this camera over eight years until it died in May of 2025.</p>
+                    <h4>Nikon FM</h4>
+                        <p>The only film camera I've ever owned—a gift from a family member. I shoot black and white on this one.</p>
                     <h4>Canon PowerShot A2200 HD</h4>
-                        <p>I've had this point and shoot camera for a long time, and it's fun sometimes for it's simplicity</p>
+                        <p>I've had this point and shoot camera for a long time, and it's fun sometimes for it's simplicity.</p>
+                    <h4>Sony DCR-SX45</h4>
+                        <p>I like to film my adventures and daily goings on with this camera and record it to a VHS tape. </p>
 
                     <h3>F-Mount Lenses</h3>
                         <p>I've got a couple of lenses for my Nikon cameras.</p>
@@ -255,16 +314,33 @@
                         <li>Nikon 35mm f/2.8 Series E</li>
                         <li>Nikon 100mm f/2.8 Series E</li>
 
-                    <p><i>Photos of my cameras, shot on my Nikon D60 and Nikon Series E 100mm</i></p>
-                    <div style="width:100%; display: flex">
-                        <div style="width: 50%; text-align: center">
+                    <p><i>Photos of my cameras</i></p>
+                    <div class="boxedphoto-row">
+                        <div class="boxedphoto">
                             <img src="/assets/pictures/DSC_0916.webp">
-                            <p>My Nikon Z6 and Nikon Series E 35mm</p>
+                            <p>My Nikon Z6 and Nikon Series E 35mm (shot on Nikon D60 with Nikon Series E 100mm)</p>
                         </div>
-                        <div style="width: 50%; text-align: center">
+                        <div class="boxedphoto">
                             <img src="/assets/pictures/DSC_0046.webp">
-                            <p>My Nikon D40 and Nikon Series E 35mm</p>
+                            <p>My Nikon D40 and Nikon Series E 35mm (shot on Nikon D60 with Nikon Series E 100mm)</p>
                         </div>
+                    </div>
+                    <div class="boxedphoto-row">
+                        <div class="boxedphoto">
+                            <img src="/assets/pictures/DSC_7143.webp">
+                            <p>My Nikon FM and Nikon Series E 100mm (shot on Nikon Z6 with Nikon Series E 35mm)</p>
+                        </div>
+                        <div class="boxedphoto">
+                            <img src="/assets/pictures/DSC_2757.webp">
+                            <p>My Sony DCR-SX45 (shot on Nikon Z6 with Nikon Series E 35mm)</p>
+                        </div>
+                    </div>
+                    <div class="boxedphoto-row">
+                        <div class="boxedphoto">
+                            <img src="/assets/pictures/DSC_7831.webp">
+                            <p>My Canon PowerShot A2200 HD (shot on Nikon Z6 with Nikon Series E 35mm)</p>
+                        </div>
+                        <div class="boxedphoto"></div>
                     </div>
                 </div>
             </div>
