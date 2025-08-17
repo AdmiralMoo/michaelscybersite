@@ -1,0 +1,31 @@
+<head>
+    <script src="/head-inject.js"></script>
+    <title>Photography</title>
+    <link rel="stylesheet" type="text/css" href="/assets/css/win98.css"/>
+    <link rel="stylesheet" type="text/css" href="/assets/css/photos.css"/>
+</head>
+
+<body>
+    <main>
+        <div class="maincontent-centred" style="min-height:60vh;">
+            <div class="body-fill image-carousel-parent outsideborder" id="winterbw2025">
+                <div class="image-carousel-activeimg">
+                    <div class="insideborder">
+                        <img src="/assets/gifs/NikonGIF.gif" data-src="" class="lazyload"><!--DSC_192605-->
+                    </div>
+                </div>
+                <div class="image-carousel-navbar">
+                    <div class="button-generic carousel-selector-button outsideborder" id="image-carousel-left">
+                        <span>◄</span>
+                    </div>
+                    <div class="image-carousel-filmstrip insideborder">
+                    </div>
+                    <div class="button-generic carousel-selector-button outsideborder" id="image-carousel-right">
+                        <span>►</span>
+                    </div>
+                </div>
+            </div>
+            <script src="/scripts/photographyPage.js">loadPhotosDatabase('winterbw2025');</script>
+        </div>
+    </main>    
+</body>

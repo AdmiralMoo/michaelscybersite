@@ -30,6 +30,7 @@ class photoCarousel
     stickSomeImagesInThere()
     {
         const carouselParentContainer = document.getElementById(this.carouselID);
+        const carouselFilmStrip = carouselParentContainer.querySelector(".image-carousel-filmstrip");
         const carouselActiveImgContainer = carouselParentContainer.querySelector('.image-carousel-activeimg');
         if (!carouselParentContainer)
         {
@@ -37,7 +38,54 @@ class photoCarousel
             return;
         }
         
+        //Sets the big, active image
         carouselActiveImgContainer.querySelector('img').src = this.photosDatabase[this.activeImage]?.url || '';
+
+        //Populates the filmstrip with other images
+        this.photosDatabase.forEach((photo, index) => {
+            //Insert new images
+            carouselFilmStrip.insertAdjacentHTML("beforeend", `
+                <div class="button-generic carousel-button outsideborder">
+                    <img src="/assets/gifs/NikonGIF.gif" data-src="${photo.url}240" class="lazyload" id="${photo.name}">
+                </div>
+            `)
+
+            //Add an event listener to replace the active image with the clicked image
+            const newImage = carouselFilmStrip.querySelector(`#${photo.name}`);
+            newImage.addEventListener("click", () => {
+                this.activeImage = photo.url;
+                carouselActiveImgContainer.innerHTML = 
+                `
+                <div class="insideborder">
+                    <img src="/assets/gifs/NikonGIF.gif" data-src="${photo.url}" class="lazyload">
+                </div>
+                `;
+
+                //Lazyload
+                if (typeof lazyLoadImages === "function")
+                {
+                    lazyLoadImages();
+                }
+            });
+        });
+
+        //Adds Event Listeners to the left and right buttons
+        const leftButton = carouselParentContainer.querySelector("#image-carousel-left");
+        const rightButton = carouselParentContainer.querySelector("#image-carousel-right");
+
+        leftButton.addEventListener("click", () => {
+            carouselFilmStrip.scrollBy({left:-256,behavior:"smooth"});
+        });
+
+        rightButton.addEventListener("click", () => {
+            carouselFilmStrip.scrollBy({left:256,behavior:"smooth"});
+        });
+
+        //Lazyload
+        if (typeof lazyLoadImages === "function")
+        {
+            lazyLoadImages();
+        }
     }
 }
 

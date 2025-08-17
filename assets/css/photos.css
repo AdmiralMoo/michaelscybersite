@@ -32,23 +32,33 @@
     height: 100%;
 }
 
+.image-carousel-navbar
+{
+    display: flex;
+    flex-direction: row;
+}
+
 /*The filmstrip obeject which holds image icon buttons*/
 .image-carousel-filmstrip
 {
     display: flex;
     flex-direction: row;
-
     padding:0.5%;
+    overflow-x:scroll;
+    background-color: #525252;
 }
 
 /*Buttons on the carousel to select images*/
 .carousel-button
 {
+    /*
     flex: 25%;
     padding:0.25%;
     max-width:25%;
     min-width:20%;
     height:auto;
+    */
+    min-width:256px;
     border-width: 7px;
     aspect-ratio: 6 / 4;
 }
@@ -66,6 +76,7 @@
     font-size:1.5em;
     display:flex;
     line-height: 0;
+    max-width: 48px;
 }
 
 .carousel-selector-button span
