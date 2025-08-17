@@ -81,7 +81,7 @@ class photoCarousel
             carouselFilmStrip.scrollBy({left:256,behavior:"smooth"});
         });
 
-        //Lazyload
+        //Lazyload the filmstrip
         if (typeof lazyLoadImages === "function")
         {
             lazyLoadImages();

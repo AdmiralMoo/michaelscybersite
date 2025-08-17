@@ -8,7 +8,57 @@
 <body>
     <main>
         <div class="maincontent-centred" style="min-height:60vh;">
-            <div class="body-fill image-carousel-parent outsideborder" id="winterbw2025">
+            <!--Photography Page Header-->
+            <div class="header-one-box outsideborder">
+                <h1>Photography</h1>
+                <img src="./assets/images/icon_camera_new.png">
+            </div>
+
+            <!--Photography Page Welcome Box-->
+            <div  class="body-box outsideborder">
+                <div class="body-box grid-box-container shrink-box">
+                    <div style="word-wrap: break-word;">
+                        <h4>On This Page</h4>
+                            <li><a href="pages/main/photography.html#favouritephotos">Some of my favourite photos</li></a>
+                        <h4>Elsewhere On The Web</h4>
+                            <li><a href="https://www.kenrockwell.com/nikon/">Ken Rockwell's Camera Site</li></a>
+                            <li><a href="https://www.mir.com.my/rb/photography/companies/nikon/htmls/models/htmls/slrmain5979.htm">MIR's Nikon Database</li></a>
+                            <li><a href="https://www.pbase.com/cameras">PBase Camera Database & Museum</li></a>
+                            <li><a href="https://cameraville.co/blog?tag=Nikon">Cameraville's Blog</li></a>
+                            <li><a href="https://en.nikon.ca/">Visit Nikon Online</li></a>
+                    </div>
+                </div>
+                <div class="box-container">
+                    <p>I absolutely love taking photos—for pretty much as long as I can remember, I've had a camera in my hand. On this page, you'll find a little bit more information about my cameras and some of the photos I've taken.<br><br>For me, it's just a hobby. I've never had a formal introduction or education about photography, and I'm not completly familiar with all the technical terms or techniques. I just like shooting things—<i>ha!</i><br><br>As you can see from the colour of this section, I like Nikon.</p>
+                </div>
+            </div>
+
+            <div class="spacer"></div>
+
+            <!--Featured Header-->
+            <div id="featuredphotos"></div>
+            <div class="header-two-box outsideborder">
+                <h2>Featured Pages</h2>
+                <img src="../assets/images/icon_camera_older.png">
+            </div>
+
+            <!--Featured Box-->
+            <div class="body-box outsideborder" style="flex-direction: column; gap:0px;">
+                <div  id="articleContainer" class="articleContainer noformat">
+                </div>
+            </div>
+
+            <div class="spacer"></div>
+
+            <!--Favourite Photos-->
+            <div id="favouritephotos"></div>
+            <div class="header-two-box outsideborder">
+                <h2>Favourite Photos</h2>
+                <img src="../assets/images/icon_camera_old.png">
+            </div>
+
+            <!--Images-->
+            <div class="body-fill image-carousel-parent outsideborder" id="photographyHome">
                 <div class="image-carousel-activeimg">
                     <div class="insideborder">
                         <img src="/assets/gifs/NikonGIF.gif" data-src="" class="lazyload"><!--DSC_192605-->
@@ -25,32 +75,12 @@
                     </div>
                 </div>
             </div>
-            <script src="/scripts/photographyPage.js">loadPhotosDatabase('winterbw2025');</script>
+
+            <script src="/scripts/photographyPage.js">loadPhotosDatabase('photographyHome');</script>
+            
+            <script>var currentPageCategory = "photos";</script>
+            <script src="./scripts/articlesLoader.js"></script>            
+
         </div>
     </main>    
 </body>
-
-<!--
-<div class="image-carousel-navbar">
-    <div class="image-carousel-filmstrip">
-        <div class="button-generic carousel-selector-button outsideborder">
-            <span>◄</span>
-        </div>
-        <div class="button-generic carousel-button outsideborder">
-            <img src="/assets/gifs/NikonGIF.gif" data-src="https://1drv.ms/i/c/19eb4e25e0b8e9bb/IQR3vFvYePEsR4PSZuLzDd9VAW8y6zQ_SD9bf86Ypto064Y?width=256" class="lazyload">
-        </div>
-        <div class="button-generic carousel-button outsideborder">
-            <img src="/assets/gifs/NikonGIF.gif" data-src="https://1drv.ms/i/c/19eb4e25e0b8e9bb/IQQemYzryjFxQbfE9Pvlwxx4AT7WNw_8Fm2ZzQQ--5nsaPk?width=256" class="lazyload">
-        </div>
-        <div class="button-generic carousel-button outsideborder">
-            <img src="/assets/gifs/NikonGIF.gif" data-src="https://1drv.ms/i/c/19eb4e25e0b8e9bb/IQQFxSP8WhAeRauYQM_fo1THAUQQjbGYdvFt1OnzaxwHfjI?width=256" class="lazyload">
-        </div>
-        <div class="button-generic carousel-button outsideborder">
-            <img src="/assets/gifs/NikonGIF.gif" data-src="https://1drv.ms/i/c/19eb4e25e0b8e9bb/IQTNqPdSJPaBTbIdHcku61qyAQGpJJ1TDByUZuxkJ8S__So?width=256" class="lazyload">
-        </div>
-        <div class="button-generic carousel-selector-button outsideborder">
-            <span>►</span>
-        </div>
-    </div>
-</div>
--->

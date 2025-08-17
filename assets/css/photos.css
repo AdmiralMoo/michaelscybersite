@@ -1,3 +1,32 @@
+/*Fonts*/
+@font-face {
+  font-family: 'Futura Condensed Extra Bold Italic';
+  src: url('/assets/fonts/FuturaCondensedExtraBoldItalic.ttf') format('truetype');
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Futura Condensed Bold Italic';
+  src: url('/assets/fonts/FuturaCondensedBoldItalic.ttf') format('truetype');
+  font-style: normal;
+  font-weight: normal;
+}
+
+/*Unique Colours*/
+.header-one-box, .header-two-box, .header-three-box
+{
+  color: #000000;
+  background-image: linear-gradient(to right, #ffe200 , #ffe947);
+  font-family: 'Futura Condensed Extra Bold Italic';
+  letter-spacing: -0.05em;
+}
+.header-two-box, .header-three-box
+{
+  font-family: 'Futura Condensed Bold Italic';
+  letter-spacing: -0.0em;
+}
+
 /*The image carousel itself*/
 .image-carousel-parent
 {
@@ -51,13 +80,6 @@
 /*Buttons on the carousel to select images*/
 .carousel-button
 {
-    /*
-    flex: 25%;
-    padding:0.25%;
-    max-width:25%;
-    min-width:20%;
-    height:auto;
-    */
     min-width:256px;
     border-width: 7px;
     aspect-ratio: 6 / 4;

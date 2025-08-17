@@ -75,5 +75,12 @@
         "description": "Take a look at my shelf with this semi-interactive tour!",
         "image": "/assets/pictures/DSC_139057.webp",
         "link": "/pages/movies/vhsmovies"
+    },
+    {
+        "category":"photos",
+        "name": "Winter 2025 in Black & White",
+        "description": "A selection of photos from the Winter of 2025 shot in Black & White on my Nikon D40",
+        "image": "https://1drv.ms/i/c/19eb4e25e0b8e9bb/IQTTS1CKzSq1RpnFgT3q8JAqAbYPiBeJ8XYXezrr99Ow4AA?width=128",
+        "link": "/pages/photography/winter2025bw"
     }
 ]
