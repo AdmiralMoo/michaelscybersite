@@ -6,8 +6,12 @@ var newsStories = null;
 window.onload = function() {
     UpdateNewsTitle();
     InitNewsStories();
+    UpdateSiteChangelog();
     UpdateBottomStory();
+    UpdateByLines();
 }
+
+window.onload
 
 function InitNewsStories() 
 {
@@ -22,47 +26,140 @@ function InitNewsStories()
 }
 
 function UpdateNewsStories() {
-    if (!newsStories) {
-        console.error('No news stories loaded');
-        return;
-    }
+  if (!newsStories) {
+    console.error('No news stories loaded');
+    return;
+  }
 
-    const newspaperBodyArea = document.getElementById("newsContainer");
-    newspaperBodyArea.innerHTML = "";
-    let htmlContent = '';
+  const newspaperBodyArea = document.getElementById("newsContainer");
+  newspaperBodyArea.innerHTML = "";
+  let htmlContent = '';
 
-    newsStories.forEach(story => {
+  fetch('./assets/json/newspapermessages.json')
+    .then(response => response.json())
+    .then(data => {
+      const bylines = data.bylines;        // <-- capital L
+      const authors = data.newsauthors;
+
+      newsStories.forEach(story => {
         if (storiesLoaded < showStories) {
-            htmlContent += `
-                <div class="newsbox body-box grooveborder" style="flex-direction: column; gap: 0; margin: 0;">
-                    <div class="side-by-side newstitle">
-                        <p><i>${story.headline}</i></p>
-                        <p>${story.date}</p>
-                    </div>
-                    <div class="body-box" style="padding: 0;">
-                        <div class="img-container">
-                            <img style="${story.imagestyle}" src="${story.image}" alt="News Image">
-                        </div>
-                        <div class="box-container">
-                            <p>${story.body}</p>
-                        </div>
-                    </div>
+          const prefix = bylines[Math.floor(Math.random() * bylines.length)];
+          const author = authors[Math.floor(Math.random() * authors.length)];
+          const byline = prefix + author;
+
+          htmlContent += `
+            <div class="newsbox body-box grooveborder" style="flex-direction: column; gap: 0; margin: 0;">
+              <div class="side-by-side newstitle">
+                <p><i>${story.headline}</i></p>
+                <p>${story.date}</p>
+              </div>
+              <div style="text-align:right; margin-bottom: 5px;">
+                <i><b>${byline}</b></i>
+              </div>
+              <div class="body-box" style="padding: 0;">
+                <div class="img-container">
+                  <img style="${story.imagestyle}" src="${story.image}" alt="News Image">
                 </div>
-            `;
-            storiesLoaded++;
+                <div class="box-container">
+                  <p>${story.body}</p>
+                </div>
+              </div>
+            </div>
+          `;
+          storiesLoaded++;
         }
-    });
+      });
 
-    htmlContent += `
+      htmlContent += `
         <div id="moreStoriesButton" class="navbutton outsideborder" style="min-width:100%">
-            <p>Load More Stories</p>
+          <p>Load More Stories</p>
         </div>
-    `;
+      `;
 
-    newspaperBodyArea.innerHTML = htmlContent;
-    document.getElementById("moreStoriesButton").addEventListener("click", () => showMoreStories());
+      newspaperBodyArea.innerHTML = htmlContent;
+      document.getElementById("moreStoriesButton")
+        .addEventListener("click", () => showMoreStories());
+    });
 }
 
+
+function UpdateByLines()
+{
+    fetch('./assets/json/newspapermessages.json')
+    .then(response => response.json())
+    .then(data => {
+        const bylines = data.bylines;
+        const authors = data.newsauthors;
+        
+        document.querySelectorAll('.byline').forEach(thing => {
+            const prefix = bylines[Math.floor(Math.random() * bylines.length)];
+            const author = authors[Math.floor(Math.random() * authors.length)];
+            thing.innerHTML = `<b><i>${prefix + author}</i></b>`; 
+        })
+    })
+}
+
+function GetByLine()
+{
+    fetch('./assets/json/newspapermessages.json')
+    .then(response => response.json())
+    .then(data => {
+        const bylines = data.bylines;
+        const authors = data.newsauthors;
+        
+        const prefix = bylines[Math.floor(Math.random() * bylines.length)];
+        const author = authors[Math.floor(Math.random() * authors.length)];
+        return `<b><i>${prefix + author}</i></b>`; 
+    })
+}
+
+function UpdateSiteChangelog()
+{
+    fetch('./assets/json/newspapermessages.json')
+    .then(response => response.json())
+    .then(data => {
+        //Update the headline
+        const changeheadlines = data.sitechange;
+        const randomHeadline = changeheadlines[Math.floor(Math.random() * changeheadlines.length)];
+        document.getElementById('siteChangeHeader').innerText = randomHeadline;
+
+        //Update the changelog with the most recent entry
+        fetch('/pages/main/changelog.html')
+        .then(stuff => stuff.text())
+        .then(html => {
+            const doc = new DOMParser().parseFromString(html, "text/html");
+            const h2 = doc.querySelector('h2');
+            let node = h2.nextElementSibling;
+            let items = "";
+
+            while (node && node.tagName !== "H2") {
+                if (node.tagName === "LI") {
+                    items += `<li>${node.innerHTML}</li>`;
+                }
+                node = node.nextElementSibling;
+            }
+
+            const dateOnly = h2.textContent.split("–")[0].trim();
+
+            const prefix = data.bylines[Math.floor(Math.random() * data.bylines.length)];
+            const author = data.newsauthors[Math.floor(Math.random() * data.newsauthors.length)];
+            const byline = `<b><i>${prefix}${author}</i></b>`;
+
+            document.getElementById('changelog-goes-here').innerHTML =
+            `
+            <div style="display:flex; flex-direction:row; align-content: stretch">
+                <div style="text-align: left; width:30%">
+                    <span style="padding-left:16px"><b>${dateOnly}</b></span>
+                </div>
+                <div style="text-align: right; width:70%">
+                    <span class="byline" style="padding-right:16px">${byline}</span>
+                </div>
+            </div>
+            <ul>${items}</ul>`;
+        });
+    })
+    .catch(error => console.error('BREAKING: SITE CHANGELOG UPDATE FAILS AFTER', error));
+}
 
 function UpdateBottomStory()
 {
