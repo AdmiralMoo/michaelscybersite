@@ -15,6 +15,6 @@ jobs:
         host: ${{ secrets.DO_HOST }}
         username: root
         key: ${{ secrets.DO_SSH_KEY }}
+        port: 22
         source: "."
         target: "/var/www/michaelscybersite.net"
-    
