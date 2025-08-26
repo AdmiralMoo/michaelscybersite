@@ -8,13 +8,13 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-    - name: Copy files to droplet
-      uses: appleboy/scp-action@v0.1.7
+    - name: Sync files to droplet
+      uses: appleboy/rsync-action@v0.1.7
       with:
         host: ${{ secrets.DO_HOST }}
         username: root
         key: ${{ secrets.DO_SSH_KEY }}
         port: 22
-        source: "./*"
+        source: "./"
         target: "/var/www/michaelscybersite.net"
-        strip_components: 1
+        delete: true
