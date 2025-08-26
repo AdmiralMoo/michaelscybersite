@@ -16,5 +16,6 @@ jobs:
         key: ${{ secrets.DO_SSH_KEY }}
         port: 22
         source: "./"
-        target: "/var/www/michaelscybersite.net"
+        target: "/var/www/michaelscybersite.net/"
         delete: true
+        strip_components: 0
