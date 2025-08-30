@@ -4,83 +4,83 @@
         "name": "The Essays of Samuel Johnson",
         "description": "A collection of my favourite essays by Samuel Johnson from his books \"The Rambler\", \"The Adventurer\" and \"The Idler\"",
         "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Samuel_Johnson_Statue.jpg/1920px-Samuel_Johnson_Statue.jpg",
-        "link": "/pages/books/sjohnson"
+        "link": "/pages/books/sjohnson.html"
     },
     {
         "category":"books",
         "name": "Shakespeare's Sonnets",
         "description": "A collection of my favourite sonnets by William Shakespeare",
         "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/William_Shakespeare_by_John_Taylor%2C_edited.jpg/800px-William_Shakespeare_by_John_Taylor%2C_edited.jpg",
-        "link": "/pages/books/sonnets"
+        "link": "/pages/books/sonnets.html"
     },
     {
         "category":"music-x",
         "name": "The Great Re-Ripping",
         "description": "Remembering that time I re-ripped all five-hundred-something of my CDs because I wanted to switch to lossless on my iPod.",
         "image": "/assets/pictures/DSC_183277.webp",
-        "link": "/pages/music/greatreripping"
+        "link": "/pages/music/greatreripping.html"
     },
     {
         "category":"music",
         "name": "The Vertical Album Phenomenon",
         "description": "Have you ever noticed all those Grunge albums with the vertical text? Or those albums from the 1990's with the typewriter fonts? This is a collection of albums of not too dissimilar origin which have similar cover design.",
         "image": "/assets/pictures/DSC_193548.webp",
-        "link": "/pages/music/verticalalbums"
+        "link": "/pages/music/verticalalbums.html"
     },
     {
         "category":"music-x",
         "name": "The Skin Yard Fanpage",
         "description": "Possibly the only fan page on the internet dedicated to <i>Skin Yard</i>: one of Grunge's pioneers.",
         "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Skin_Yard-1988.jpg/220px-Skin_Yard-1988.jpg",
-        "link": "/pages/music/skinyard"
+        "link": "/pages/music/skinyard.html"
     },
     {
         "category":"music",
         "name": "My CD Collection",
         "description": "A very basic page which displays the album art of all my CD's. It might be better to take a look on Discogs for now. ",
         "image": "/assets/pictures/DSC_185398.webp",
-        "link": "/pages/music/cds"
+        "link": "/pages/music/cds.html"
     },
     {
         "category":"music",
         "name": "CD Collection Categorized",
         "description": "Categories and 'mini-collections' within my collection—how I mentally think of the music rather than how I've sorted it on the shelf.",
         "image": "/assets/pictures/DSC_185398.webp",
-        "link": "/pages/music/cdcollections"
+        "link": "/pages/music/cdcollections.html"
     },
     {
         "category":"music",
         "name": "My Tape Collection",
         "description": "A very basic page which shows my cassette tape collection",
         "image": "/assets/pictures/DSC_180790.webp",
-        "link": "/pages/music/cassettes"
+        "link": "/pages/music/cassettes.html"
     },
     {
         "category":"music",
         "name": "Favourite Bands, Albums & Songs",
         "description": "A somewhat comprehensive list of my all-time favourite bands, albums and songs.",
         "image": "https://1drv.ms/i/c/19eb4e25e0b8e9bb/IQS76bjgJU7rIIAZU34AAAAAAX2_x9sdUtNw7_Fb0FcGUfY?width=256",
-        "link": "/pages/music/alltimefavourites"
+        "link": "/pages/music/alltimefavourites.html"
     },
     {
         "category":"music",
         "name": "Playlist: Coffee Shop Rock",
         "description": "Harmless, inoffensive 'adult alternative' with a couple of sparse hits in between. Lots of Jangle-Pop and Power-Pop mixed in with the Grunge/Post-Grunge of the 1990s",
         "image": "https://1drv.ms/i/c/19eb4e25e0b8e9bb/IQScw1Cbsj06SoooUwO5f-SYAQa7hXMnh2GnBp3Du64JQ44?width=256",
-        "link": "/pages/music/coffeeshoprock"
+        "link": "/pages/music/coffeeshoprock.html"
     },
     {
         "category":"movies",
         "name": "My VHS Shelf",
         "description": "Take a look at my shelf with this semi-interactive tour!",
         "image": "/assets/pictures/DSC_139057.webp",
-        "link": "/pages/movies/vhsmovies"
+        "link": "/pages/movies/vhsmovies.html"
     },
     {
         "category":"photos",
         "name": "Winter 2025 in Black & White",
         "description": "A selection of photos from the Winter of 2025 shot in Black & White on my Nikon D40",
         "image": "https://1drv.ms/i/c/19eb4e25e0b8e9bb/IQTTS1CKzSq1RpnFgT3q8JAqAbYPiBeJ8XYXezrr99Ow4AA?width=128",
-        "link": "/pages/photography/winter2025bw"
+        "link": "/pages/photography/winter2025bw.html"
     }
 ]
