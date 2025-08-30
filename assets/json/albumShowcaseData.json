@@ -1449,5 +1449,56 @@
         ],
         "applemusic":"https://music.apple.com/us/album/the-rembrandts-l-p/373220996",
         "spotify":"https://open.spotify.com/album/6koDBGMqurYl3EZnaxCF7N"
+    },
+    {
+        "artist": "Creed",
+        "album": "Weathered",
+        "year": "2001",
+        "cover": "./assets/albumart/creed - weathered.jpg",
+        "description": "Although <i>Weathered</i> is probably my least favourite of the original Creed trilogy, it's still a great album. It's definitely their most polished of the three, and it really shows the band in a completely different place than they were just a few years ago with the release of <i>My Own Prison</i>: this is a slick, polished outfit selling stadiums and playing on the biggest stages of the world. <br><br>What else is there to say about this, really? It's Creed, but more refined! I like the album, and there's plenty of great hits off it. As I've mentioned before in other album reviews, I find it really weird that the internet suddenly loves Creed, but I'm all for it—I'm glad these guys have gone from one of the most hated bands to one that's actually appreciated for some really solid music.<br><br>My favourite tracks off this record are \"Weathered\", \"Freedom Fighter\", \"Who's Got My Back\" and \"One Last Breath\".",
+        "genre": "Post-Grunge",
+        "rating" : "75",
+        "duration": "50:05",
+        "tracks": [
+            "Bullets",
+            "Freedom Fighter",
+            "Who's Got My Back",
+            "Signs",
+            "One Last Breath",
+            "My Sacrifice",
+            "Stand Here With Me",
+            "Weathered",
+            "Hide",
+            "Don't Stop Dancing",
+            "Lullaby"
+        ],
+        "applemusic":"https://music.apple.com/us/album/the-rembrandts-l-p/373220996",
+        "spotify":"https://open.spotify.com/album/6koDBGMqurYl3EZnaxCF7N"
+    },
+    {
+        "artist": "Marcy Playground",
+        "album": "Marcy Playground",
+        "year": "1997",
+        "cover": "./assets/albumart/marcy playground - marcy playground.jpg",
+        "description": "",
+        "genre": "Alternative Rock",
+        "rating" : "75",
+        "duration": "34:38",
+        "tracks": [
+            "Poppies",
+            "Sex And Candy",
+            "Ancient Walls Of Flowers",
+            "Saint Joe On The School Bus",
+            "A Cloak Of Elvenkind",
+            "Sherry Fraser",
+            "Gone Crazy",
+            "Opium",
+            "One More Suicide",
+            "Dog And His Master",
+            "The Shadow Of Seattle",
+            "The Vampires Of New York"
+        ],
+        "applemusic":"https://music.apple.com/us/album/the-rembrandts-l-p/373220996",
+        "spotify":"https://open.spotify.com/album/6koDBGMqurYl3EZnaxCF7N"
     }
 ]

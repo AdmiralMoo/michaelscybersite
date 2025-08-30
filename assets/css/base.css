@@ -627,6 +627,24 @@ Formatting for body boxes
     background-color:white;
 }
 
+@media (max-width: 900px)
+{
+    #newsTop
+    {
+        flex-direction: column !important;
+    }
+
+    #newsClassifieds
+    {
+        width:100% !important;
+    }
+
+    #newsUpdates
+    {
+        width:100% !important; 
+    }
+}
+
 /*Dynamic formatting*/
 
 @media (max-width: 900px) {

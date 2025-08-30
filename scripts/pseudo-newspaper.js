@@ -8,6 +8,7 @@ window.onload = function() {
     InitNewsStories();
     UpdateSiteChangelog();
     UpdateBottomStory();
+    UpdateSiteClassifieds();
     UpdateByLines();
 }
 
@@ -159,6 +160,38 @@ function UpdateSiteChangelog()
         });
     })
     .catch(error => console.error('BREAKING: SITE CHANGELOG UPDATE FAILS AFTER', error));
+}
+
+function UpdateSiteClassifieds()
+{
+    fetch('./assets/json/newspapermessages.json')
+    .then(response => response.json())
+    .then(data => {
+        // Step 3: Select a random message
+        const classifieds = data.classifieds;
+        const randomMessageOne = classifieds[Math.floor(Math.random() * classifieds.length)];
+        const randomMessageTwo = classifieds[Math.floor(Math.random() * classifieds.length)];
+        const randomMessageThree = classifieds[Math.floor(Math.random() * classifieds.length)];
+        const randomMessageFour = classifieds[Math.floor(Math.random() * classifieds.length)];
+
+        // Set the content of the newspaper footer
+        document.getElementById('newsClassifieds').innerHTML = `
+        <h2 id="siteClassifiedsHeader" style="text-align: center; padding-top: 8px">CLASSIFIEDS</h2>
+        ${formatClassified(randomMessageOne)}<br>
+        ${formatClassified(randomMessageTwo)}<br>
+        ${formatClassified(randomMessageThree)}<br>
+        ${formatClassified(randomMessageFour)}<br>
+        `;
+    })
+    .catch(error => console.error('Error fetching footer messages:', error));
+}
+
+function formatClassified(msg) {
+  const parts = msg.split(":");
+  if (parts.length > 1) {
+    return `<b>${parts[0]}:</b>${parts.slice(1).join(":")}`;
+  }
+  return msg;
 }
 
 function UpdateBottomStory()
