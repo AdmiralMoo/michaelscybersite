@@ -279,12 +279,14 @@ Album showcase
 .playlist-albumitem
 {
     width: 100%;
-    height: 330px;
+    height:auto;
 
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
 
-    align-items: center;
+    align-items: left;
+
+    padding: 4px;
 
     font-family: Arial, Helvetica, sans-serif;
 
@@ -300,15 +302,22 @@ Album showcase
     font-style: italic;
 }
 
+.albumitem-card
+{
+    display: flex; 
+    flex-direction: row;
+}
+
 .albumitem-descriptionbox
 {
     width: 70%;
-
     display:flex;
     flex-direction: column;
 
     margin-top: 10px;
     align-self: baseline;
+
+    padding-left: 4px;
 }
 
 .albumitem-duration
@@ -317,12 +326,17 @@ Album showcase
     flex-grow: 1;
 
     display: flex;
+    align-self:flex-end;
     justify-content: right;
 }
 
-.albumitem-artist
+.albumitem-albumtitle
 {
-    
+    display: flex;
+    flex-direction: column;
+    justify-content:left;
+
+    padding-bottom: 4px;
 }
 
 .albumitem-duration span
@@ -330,16 +344,13 @@ Album showcase
     padding-right:5px;
 }
 
-.playlist-albumitem img
+.playlist-albumcover
 {
     max-height: 100%;
     max-width: 30%;
 
     min-width: 0;
     min-height:0;
-
-    margin-right:10px;
-    margin-left:10px;
 }
 
 @media (max-width: 500px)

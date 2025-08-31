@@ -362,16 +362,14 @@ main
 
 .maincontent-centred
 {
-    display: flexbox;
-    justify-content: center;
+  display: flexbox;
+  justify-content: center;
 
-    
-    min-width:400px;
-    width: 60vw;
-    max-width: 60vw;
+  width: 100vw;       
+  max-width: 133.33vh;
 
-    transition: max-width 0.5s ease;
-    transition: width 0.5s ease;
+  transition: max-width 0.5s ease;
+  transition: width 0.5s ease;
 }
 
 @media (max-width: 1200px)

@@ -298,5 +298,15 @@
             { "artist": "Genesis", "album": "Selling England By The Pound", "cover": "./assets/albumart/genesis - selling england by the pound.jpg" },
             { "artist": "Rush", "album": "Hold Your Fire", "cover": "./assets/albumart/rush - hold your fire.webp" }
         ]
+    },
+    {
+        "month": "August 2025",
+        "albums": [
+            { "artist": "Genesis", "album": "Invisible Touch", "cover": "./assets/albumart/genesis - invisible touch.jpg" },
+            { "artist": "Phil Collins", "album": "Hello, I Must Be Going!", "cover": "assets/albumart/phil collins - hello I must be going.webp" },
+            { "artist": "Pink Floyd", "album": "The Dark Side of The Moon", "cover": "./assets/albumart/pink floyd - dark side of the moon.jpg" },
+            { "artist": "Lou Reed", "album": "Transformer", "cover": "./assets/albumart/lou reed - transformer.webp" },
+            { "artist": "Genesis", "album": "Abacab", "cover": "./assets/albumart/genesis - abacab.webp" }
+        ]
     }
 ]
