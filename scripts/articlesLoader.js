@@ -14,19 +14,25 @@ function initArticlesDatabase(category) {
     fetch('./assets/json/articlesDatabase.json')
     .then(response => response.json())
     .then(data => {
-        if (category == "all")
-        {
-            var filteredArticles = data;
+        let filteredArticles;
+
+        if (category == "all") {
+            filteredArticles = data;
         }
-        else
-        {
-            var filteredArticles = data.filter(article => article.category === category);
+        else if (category == "home") {
+            const featuredList = featuredTitles.split(";").map(title => title.trim());
+            filteredArticles = data.filter(article => featuredList.includes(article.name));
         }
+        else {
+            filteredArticles = data.filter(article => article.category === category);
+        }
+
         articlesDatabase = filteredArticles;
         updateDisplay(category);
     })
     .catch(error => console.error('Error loading JSON:', error));
 }
+
 
 let currentPage = 0;
 const articlesPerPage = 6;

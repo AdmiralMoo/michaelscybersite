@@ -215,6 +215,12 @@ Album showcase
     flex-direction: column;
 }
 
+.songitem-artistalbumbox
+{
+    display:flex;
+    flex-direction: column;
+}
+
 .songitem-duration
 {
     width:unset;
@@ -314,7 +320,7 @@ Album showcase
     display:flex;
     flex-direction: column;
 
-    margin-top: 10px;
+    margin-top: 0px;
     align-self: baseline;
 
     padding-left: 4px;
@@ -349,11 +355,31 @@ Album showcase
     max-height: 100%;
     max-width: 30%;
 
-    min-width: 0;
-    min-height:0;
+    min-width: 32px;
+    min-height: 32px;
 }
 
-@media (max-width: 500px)
+@media(max-width:600px)
+{
+    .albumitem-card
+    {
+        flex-direction: column;
+    }
+
+    .albumitem-descriptionbox
+    {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .playlist-albumcover
+    {
+        max-height: 100%;
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 400px)
 {
     .albumitem-name
     {

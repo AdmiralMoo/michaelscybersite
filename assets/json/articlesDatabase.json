@@ -35,7 +35,7 @@
         "link": "/pages/music/skinyard.html"
     },
     {
-        "category":"music",
+        "category":"music-x",
         "name": "My CD Collection",
         "description": "A very basic page which displays the album art of all my CD's. It might be better to take a look on Discogs for now. ",
         "image": "/assets/pictures/DSC_185398.webp",
@@ -68,6 +68,13 @@
         "description": "Harmless, inoffensive 'adult alternative' with a couple of sparse hits in between. Lots of Jangle-Pop and Power-Pop mixed in with the Grunge/Post-Grunge of the 1990s",
         "image": "https://1drv.ms/i/c/19eb4e25e0b8e9bb/IQScw1Cbsj06SoooUwO5f-SYAQa7hXMnh2GnBp3Du64JQ44?width=256",
         "link": "/pages/music/coffeeshoprock.html"
+    },
+    {
+        "category":"music",
+        "name": "The Soundtrack of Summer 2025",
+        "description": "The albums and songs which played on repeat during the Summer of 2025.",
+        "image": "https://1drv.ms/i/c/19eb4e25e0b8e9bb/IQTn2CNpNnbSTIuhAmRPr9HtAfscRkqfH0PMet93BKpunWs?width=256",
+        "link": "/pages/music/summermusic2025.html"
     },
     {
         "category":"movies",

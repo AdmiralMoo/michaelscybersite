@@ -1,0 +1,190 @@
+___________________________________________________________________________________________________________________________________________
+|-----------------------------------------------------------------------------------------------------------------------------------------|
+|                       LISTENING STATISTICS GENERATED FROM MERGEFILE COVERING DATE RANGE 2025/8/1 to 2025/8/31                           |
+|-----------------------------------------------------------------------------------------------------------------------------------------|
+|Chart |Count|Artist/Release                                                                                |Time Spent Listening         |
+|------|-----|----------------------------------------------------------------------------------------------|-----------------------------|
+| #1   | x17 | Genesis/Invisible Touch                                                                      | 777 Minutes and 8 Seconds   |
+| #2   | x15 | Phil Collins/Hello I Must Be Going                                                           | 686 Minutes and 40 Seconds  |
+| #3   | x11 | Pink Floyd/The Dark Side Of The Moon                                                         | 472 Minutes and 29 Seconds  |
+| #4   | x10 | Lou Reed/Transformer                                                                         | 371 Minutes and 6 Seconds   |
+| #5   | x9  | Billy Joel/52Nd Street                                                                       | 364 Minutes and 15 Seconds  |
+| #6   | x9  | The Sex Pistols/Never Mind The Bollocks                                                      | 349 Minutes and 15 Seconds  |
+| #7   | x9  | Genesis/Abacab                                                                               | 420 Minutes and 12 Seconds  |
+| #8   | x8  | Rush/Hold Your Fire                                                                          | 404 Minutes and 5 Seconds   |
+| #9   | x8  | Phil Collins/No Jacket Required                                                              | 406 Minutes and 1 Seconds   |
+| #10  | x7  | Pink Floyd/Meddle                                                                            | 327 Minutes and 10 Seconds  |
+|------|-----|----------------------------------------------------------------------------------------------|-----------------------------|
+| #11  | x7  | Pink Floyd/Wish You Were Here                                                                | 309 Minutes and 40 Seconds  |
+| #12  | x7  | Genesis/Genesis                                                                              | 321 Minutes and 56 Seconds  |
+| #13  | x7  | Various Artists/La Bamba Original Motion Picture Soundtrack                                  | 219 Minutes and 51 Seconds  |
+| #14  | x5  | Nine Inch Nails/Hesitation Marks                                                             | 309 Minutes and 46 Seconds  |
+| #15  | x5  | Yes/Fragile                                                                                  | 205 Minutes and 50 Seconds  |
+| #16  | x5  | Motley Crue/Dr Feelgood                                                                      | 225 Minutes and 44 Seconds  |
+| #17  | x5  | Bruce Springsteen/Tunnel Of Love                                                             | 232 Minutes and 6 Seconds   |
+| #18  | x4  | Bruce Springsteen/Born In The Usa                                                            | 187 Minutes and 35 Seconds  |
+| #19  | x4  | Yes/90125                                                                                    | 178 Minutes and 58 Seconds  |
+| #20  | x4  | Genesis/Selling England By The Pound                                                         | 215 Minutes and 13 Seconds  |
+| #21  | x4  | Various Artists/Saturday Night Fever The Original Movie Sound Track                          | 304 Minutes and 7 Seconds   |
+| #22  | x4  | Rem/Automatic For The People                                                                 | 195 Minutes and 28 Seconds  |
+| #23  | x3  | The Grateful Dead/Workingmans Dead                                                           | 107 Minutes and 37 Seconds  |
+| #24  | x3  | Pink Floyd/The Division Bell                                                                 | 199 Minutes and 33 Seconds  |
+| #25  | x3  | King Crimson/Islands                                                                         | 124 Minutes and 23 Seconds  |
+|------|-----|----------------------------------------------------------------------------------------------|-----------------------------|
+| #26  | x3  | Jethro Tull/Thick As A Brick                                                                 | 130 Minutes and 49 Seconds  |
+| #27  | x3  | Rush/Moving Pictures                                                                         | 120 Minutes and 24 Seconds  |
+| #28  | x3  | Led Zeppelin/Houses Of The Holy                                                              | 122 Minutes and 40 Seconds  |
+| #29  | x3  | Hedley/Storms                                                                                | 130 Minutes and 4 Seconds   |
+| #30  | x3  | Dire Straits/Brothers In Arms                                                                | 165 Minutes and 45 Seconds  |
+| #31  | x3  | Green Day/Father Of All                                                                      | 78 Minutes and 52 Seconds   |
+| #32  | x3  | Mark Knopfler/Sailing To Philadelphia                                                        | 181 Minutes and 35 Seconds  |
+| #33  | x3  | Rush/Counterparts                                                                            | 163 Minutes and 14 Seconds  |
+| #34  | x3  | Nine Inch Nails/With Teeth                                                                   | 168 Minutes and 18 Seconds  |
+| #35  | x3  | Bachman Turner Overdrive/Btos Greatest                                                       | 163 Minutes and 59 Seconds  |
+| #36  | x3  | Counting Crows/August And Everything After                                                   | 155 Minutes and 10 Seconds  |
+| #37  | x3  | Crowded House/Crowded House                                                                  | 117 Minutes and 3 Seconds   |
+| #38  | x3  | The Tragically Hip/Day For Night                                                             | 178 Minutes and 41 Seconds  |
+| #39  | x3  | Green Day/Insomniac                                                                          | 98 Minutes and 47 Seconds   |
+| #40  | x3  | Sabrina Carpenter/Short N Sweet                                                              | 108 Minutes and 47 Seconds  |
+| #41  | x3  | The Killers/Pressure Machine                                                                 | 154 Minutes and 6 Seconds   |
+| #42  | x3  | Dire Straits/Love Over Gold                                                                  | 123 Minutes and 23 Seconds  |
+| #43  | x3  | Creedence Clearwater Revival/Willy And The Poor Boys                                         | 105 Minutes and 6 Seconds   |
+| #44  | x2  | Supertramp/Supertramp                                                                        | 95 Minutes and 40 Seconds   |
+| #45  | x2  | Paramore/After Laughter                                                                      | 85 Minutes and 16 Seconds   |
+| #46  | x2  | Rem/Lifes Rich Pageant                                                                       | 76 Minutes and 59 Seconds   |
+| #47  | x2  | Boston/Boston                                                                                | 75 Minutes and 21 Seconds   |
+| #48  | x2  | Fiona Apple/Tidal                                                                            | 103 Minutes and 25 Seconds  |
+| #49  | x2  | Filter/Title Of Record                                                                       | 140 Minutes and 58 Seconds  |
+| #50  | x2  | The Doors/The Doors                                                                          | 88 Minutes and 57 Seconds   |
+|------|-----|----------------------------------------------------------------------------------------------|-----------------------------|
+| #51  | x2  | Fleetwood Mac/Rumours                                                                        | 79 Minutes and 56 Seconds   |
+| #52  | x2  | Pink Floyd/Atom Heart Mother                                                                 | 104 Minutes and 12 Seconds  |
+| #53  | x2  | Guns N Roses/Use Your Illusion I                                                             | 152 Minutes and 8 Seconds   |
+| #54  | x2  | Guns N Roses/Use Your Illusion Ii                                                            | 152 Minutes and 8 Seconds   |
+| #54  | x2  | Guns N Roses/Use Your Illusion Ii                                                            | 151 Minutes and 53 Seconds  |
+| #55  | x2  | Creedence Clearwater Revival/Bayou Country                                                   | 68 Minutes and 17 Seconds   |
+| #56  | x2  | The Clash/London Calling                                                                     | 130 Minutes and 14 Seconds  |
+| #57  | x2  | Dire Straits/Communique                                                                      | 83 Minutes and 58 Seconds   |
+| #58  | x2  | Led Zeppelin/In Through The Out Door                                                         | 85 Minutes and 6 Seconds    |
+| #59  | x2  | Metallica/Master Of Puppets                                                                  | 109 Minutes and 38 Seconds  |
+| #60  | x2  | Filter/Short Bus                                                                             | 92 Minutes and 5 Seconds    |
+| #61  | x2  | Wolfgang Amadeus Mozart/Eine Kleine Nachtmusik                                               | 34 Minutes and 12 Seconds   |
+| #62  | x2  | Green Day/American Idiot                                                                     | 130 Minutes and 18 Seconds  |
+| #63  | x2  | Acdc/Back In Black                                                                           | 84 Minutes and 3 Seconds    |
+| #64  | x2  | Staind/Break The Cycle                                                                       | 111 Minutes and 2 Seconds   |
+| #65  | x2  | Nine Inch Nails/Broken                                                                       | 63 Minutes and 12 Seconds   |
+| #66  | x2  | The Police/Synchronicity                                                                     | 88 Minutes and 57 Seconds   |
+| #67  | x2  | Warrant/Cherry Pie                                                                           | 74 Minutes and 52 Seconds   |
+| #68  | x2  | Rem/Out Of Time                                                                              | 88 Minutes and 17 Seconds   |
+| #69  | x2  | Bryan Adams/Reckless                                                                         | 75 Minutes and 59 Seconds   |
+| #70  | x2  | Green Day/Revolution Radio                                                                   | 89 Minutes and 16 Seconds   |
+| #71  | x2  | King Crimson/In The Court Of The Crimson King                                                | 87 Minutes and 49 Seconds   |
+| #72  | x2  | Babe Ruth/First Base                                                                         | 84 Minutes and 5 Seconds    |
+| #73  | x2  | The Killers/Hot Fuss                                                                         | 112 Minutes and 37 Seconds  |
+| #74  | x2  | Van Halen/Ou812                                                                              | 101 Minutes and 23 Seconds  |
+| #75  | x2  | Nine Inch Nails/The Downward Spiral                                                          | 130 Minutes and 17 Seconds  |
+| #76  | x2  | Marcy Playground/Marcy Playground                                                            | 69 Minutes and 17 Seconds   |
+| #77  | x2  | Bryan Adams/Cuts Like A Knife                                                                | 0 Minutes and 0 Seconds     |
+| #78  | x2  | The Clash/Combat Rock                                                                        | 92 Minutes and 7 Seconds    |
+| #79  | x2  | Genesis/Duke                                                                                 | 110 Minutes and 12 Seconds  |
+| #80  | x1  | The Smashing Pumpkins/Mellon Collie And The Infinite Sadness                                 | 121 Minutes and 51 Seconds  |
+| #81  | x1  | The Fluid/Purplemetalflakemusic                                                              | 50 Minutes and 12 Seconds   |
+| #82  | x1  | Hedley/Famous Last Words                                                                     | 43 Minutes and 35 Seconds   |
+| #83  | x1  | Green Day/Kerplunk                                                                           | 42 Minutes and 15 Seconds   |
+| #84  | x1  | Green Day/Saviors                                                                            | 46 Minutes and 2 Seconds    |
+| #85  | x1  | The Smashing Pumpkins/Pisces Iscariot                                                        | 57 Minutes and 27 Seconds   |
+| #86  | x1  | Gustav Holst/The Planets                                                                     | 51 Minutes and 56 Seconds   |
+| #87  | x1  | The Smashing Pumpkins/Oceania                                                                | 60 Minutes and 12 Seconds   |
+| #88  | x1  | Filter/The Amalgamut                                                                         | 57 Minutes and 39 Seconds   |
+| #89  | x1  | Hater/Hater                                                                                  | 31 Minutes and 11 Seconds   |
+| #90  | x1  | Metallica/Metallica                                                                          | 62 Minutes and 37 Seconds   |
+| #91  | x1  | Van Halen/1984                                                                               | 33 Minutes and 22 Seconds   |
+| #92  | x1  | Alice In Chains/Alice In Chains                                                              | 64 Minutes and 53 Seconds   |
+| #93  | x1  | Taylor Swift/Red                                                                             | 90 Minutes and 38 Seconds   |
+| #94  | x1  | The Bangles/Greatest Hits                                                                    | 48 Minutes and 25 Seconds   |
+| #95  | x1  | Dire Straits/Dire Straits                                                                    | 41 Minutes and 25 Seconds   |
+| #96  | x1  | Genesis/We Cant Dance                                                                        | 71 Minutes and 35 Seconds   |
+| #97  | x1  | Three Days Grace/Outsider                                                                    | 39 Minutes and 25 Seconds   |
+| #98  | x1  | Alice In Chains/Black Gives Way To Blue                                                      | 54 Minutes and 17 Seconds   |
+| #99  | x1  | The Smashing Pumpkins/Machina                                                                | 73 Minutes and 21 Seconds   |
+| #100 | x1  | Nirvana/Nevermind                                                                            | 59 Minutes and 24 Seconds   |
+| #101 | x1  | Def Leppard/Hysteria                                                                         | 62 Minutes and 37 Seconds   |
+| #102 | x1  | Blind Melon/Blind Melon                                                                      | 55 Minutes and 24 Seconds   |
+| #103 | x1  | Honeymoon Suite/The Singles                                                                  | 51 Minutes and 8 Seconds    |
+| #104 | x1  | Green Day/Dookie                                                                             | 39 Minutes and 46 Seconds   |
+| #105 | x1  | Genesis/And Then There Were Three                                                            | 53 Minutes and 5 Seconds    |
+| #106 | x1  | Paramore/Riot                                                                                | 38 Minutes and 52 Seconds   |
+| #107 | x1  | The Clash/Sandinista                                                                         | 144 Minutes and 42 Seconds  |
+| #108 | x1  | Alice In Chains/Dirt                                                                         | 57 Minutes and 33 Seconds   |
+| #109 | x1  | Green Day/Nimrod                                                                             | 49 Minutes and 9 Seconds    |
+| #110 | x1  | Johannes Brahms/Symphony No 4                                                                | 41 Minutes and 53 Seconds   |
+| #111 | x1  | Mother Love Bone/Apple                                                                       | 61 Minutes and 46 Seconds   |
+| #112 | x1  | Frederic Chopin/Nocturnes                                                                    | 67 Minutes and 39 Seconds   |
+| #113 | x1  | Green Day/Warning                                                                            | 41 Minutes and 14 Seconds   |
+| #114 | x1  | Alice In Chains/The Devil Put Dinosaurs Here                                                 | 67 Minutes and 22 Seconds   |
+| #115 | x1  | Queens Of The Stone Age/Songs For The Deaf                                                   | 59 Minutes and 27 Seconds   |
+| #116 | x1  | Guns N Roses/The Spaghetti Incident                                                          | 46 Minutes and 8 Seconds    |
+| #117 | x1  | Edvard Grieg/Peer Gynt Suites Nos 1 And 2                                                    | 32 Minutes and 58 Seconds   |
+| #118 | x1  | The Smashing Pumpkins/Gish                                                                   | 46 Minutes and 20 Seconds   |
+| #119 | x1  | Temple Of The Dog/Temple Of The Dog                                                          | 55 Minutes and 16 Seconds   |
+| #120 | x1  | Supertramp/Breakfast In America                                                              | 46 Minutes and 0 Seconds    |
+| #121 | x1  | Supertramp/Crime Of The Century                                                              | 44 Minutes and 20 Seconds   |
+| #122 | x1  | Nirvana/In Utero                                                                             | 41 Minutes and 21 Seconds   |
+| #123 | x1  | Deep Purple/Machine Head                                                                     | 37 Minutes and 46 Seconds   |
+| #124 | x1  | Janes Addiction/Nothings Shocking                                                            | 45 Minutes and 27 Seconds   |
+| #125 | x1  | Franz Ferdinand/Franz Ferdinand                                                              | 38 Minutes and 49 Seconds   |
+| #126 | x1  | Led Zeppelin/Led Zeppelin Iv                                                                 | 44 Minutes and 50 Seconds   |
+| #126 | x1  | Led Zeppelin/Led Zeppelin Iv                                                                 | 42 Minutes and 36 Seconds   |
+| #127 | x1  | Van Morrison/Moondance                                                                       | 39 Minutes and 14 Seconds   |
+| #128 | x1  | Hammerbox/Numb                                                                               | 42 Minutes and 5 Seconds    |
+| #129 | x1  | Joy Division/Unknown Pleasures                                                               | 39 Minutes and 25 Seconds   |
+| #130 | x1  | Johann Strauss Ii/An Der Schonen Blauen Donau                                                | 50 Minutes and 30 Seconds   |
+| #131 | x1  | The Rembrandts/Lp                                                                            | 62 Minutes and 12 Seconds   |
+| #132 | x1  | Creed/Human Clay                                                                             | 60 Minutes and 27 Seconds   |
+| #133 | x1  | Billy Joel/An Innocent Man                                                                   | 40 Minutes and 21 Seconds   |
+| #134 | x1  | Van Halen/Diver Down                                                                         | 31 Minutes and 29 Seconds   |
+| #135 | x1  | The Smashing Pumpkins/Siamese Dream                                                          | 62 Minutes and 15 Seconds   |
+| #136 | x1  | Blind Melon/Soup                                                                             | 50 Minutes and 15 Seconds   |
+| #137 | x1  | Nine Inch Nails/Add Violence                                                                 | 27 Minutes and 15 Seconds   |
+| #138 | x1  | Rob Zombie/Hellbilly Deluxe                                                                  | 38 Minutes and 29 Seconds   |
+| #139 | x1  | Metallica/Kill Em All                                                                        | 51 Minutes and 17 Seconds   |
+| #140 | x1  | Genesis/A Trick Of The Tail                                                                  | 51 Minutes and 10 Seconds   |
+| #141 | x1  | Phil Collins/But Seriously                                                                   | 59 Minutes and 45 Seconds   |
+| #142 | x1  | Whitesnake/Whitesnake                                                                        | 42 Minutes and 33 Seconds   |
+| #143 | x1  | Van Halen/5150                                                                               | 43 Minutes and 15 Seconds   |
+| #144 | x1  | Breaking Benjamin/Phobia                                                                     | 43 Minutes and 36 Seconds   |
+| #145 | x1  | Led Zeppelin/Led Zeppelin Ii                                                                 | 44 Minutes and 50 Seconds   |
+| #145 | x1  | Led Zeppelin/Led Zeppelin Ii                                                                 | 41 Minutes and 29 Seconds   |
+| #146 | x1  | Green Day/21St Century Breakdown                                                             | 88 Minutes and 10 Seconds   |
+| #147 | x1  | Rush/2112                                                                                    | 38 Minutes and 52 Seconds   |
+| #148 | x1  | Led Zeppelin/Led Zeppelin Iii                                                                | 44 Minutes and 50 Seconds   |
+| #148 | x1  | Led Zeppelin/Led Zeppelin Iii                                                                | 41 Minutes and 29 Seconds   |
+| #148 | x1  | Led Zeppelin/Led Zeppelin Iii                                                                | 43 Minutes and 1 Seconds    |
+| #149 | x1  | Van Halen/Van Halen                                                                          | 35 Minutes and 32 Seconds   |
+| #150 | x1  | Boston/Dont Look Back                                                                        | 33 Minutes and 53 Seconds   |
+| #151 | x1  | Prince And The Revolution/Purple Rain                                                        | 43 Minutes and 52 Seconds   |
+| #152 | x1  | Violent Femmes/Violent Femmes                                                                | 43 Minutes and 45 Seconds   |
+| #153 | x1  | Metallica/And Justice For All                                                                | 65 Minutes and 27 Seconds   |
+| #154 | x1  | Various Artists/Top Gun Original Motion Picture Soundtrack                                   | 38 Minutes and 44 Seconds   |
+| #155 | x1  | Abba/Arrival                                                                                 | 37 Minutes and 42 Seconds   |
+| #156 | x1  | The Smashing Pumpkins/Aghori Mhori Mei                                                       | 44 Minutes and 47 Seconds   |
+| #157 | x1  | The Bangles/Everything                                                                       | 47 Minutes and 38 Seconds   |
+| #158 | x1  | Phil Collins/Face Value                                                                      | 47 Minutes and 48 Seconds   |
+| #159 | x1  | The Bangles/Different Light                                                                  | 38 Minutes and 46 Seconds   |
+| #160 | x1  | Green Day/Tre                                                                                | 46 Minutes and 42 Seconds   |
+| #161 | x1  | Supertramp/Crisis What Crisis                                                                | 47 Minutes and 24 Seconds   |
+| #162 | x1  | Bring Me The Horizon/Suicide Season                                                          | 42 Minutes and 14 Seconds   |
+| #163 | x1  | Pyotr Ilyich Tchaikovsky/Ballettsuiten                                                       | 73 Minutes and 12 Seconds   |
+| #164 | x1  | Billy Joel/Glass Houses                                                                      | 35 Minutes and 6 Seconds    |
+| #165 | x1  | Nine Inch Nails/Pretty Hate Machine                                                          | 48 Minutes and 47 Seconds   |
+| #166 | x1  | The Beach Boys/Summertime Fun Hits                                                           | 28 Minutes and 17 Seconds   |
+| #167 | x1  | The Breeders/Last Splash                                                                     | 39 Minutes and 44 Seconds   |
+| #168 | x1  | Three Days Grace/Life Starts Now                                                             | 43 Minutes and 34 Seconds   |
+| #169 | x1  | Creed/Weathered                                                                              | 50 Minutes and 5 Seconds    |
+|------|-----|----------------------------------------------------------------------------------------------|-----------------------------|
+|_________________________________________________________________________________________________________________________________________|
+
+389 listens to albums in total
+
+1116878 total seconds spent listening to music, equivalent to 18614 Minutes, 310 Hours or 12 Days. That is 3.29% of the year. That is 43.09% of a month.
+Press Enter to continue...
