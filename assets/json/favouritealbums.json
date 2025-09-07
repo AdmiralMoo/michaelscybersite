@@ -1,0 +1,152 @@
+[
+  {
+    "title": "The Dark Side of the Moon",
+    "artist": "Pink Floyd",
+    "cover": "./assets/albumart/pink floyd - dark side of the moon.jpg",
+    "description": "I struggle to put into words how unique and truly special this album is. I’d seen the album cover around my whole life, but the first time I actually listened to it was in 2020 when I found a copy of it on cassette at a thrift store. I listened to that tape dozens of times before I finally found it on CD. <br><br>This album of grandiose, interconnected songs explore themes related to human existence such as life, death, time, money and mental illness through a uniquely cryptic and philosophical lens. As each song fades into the next, the listener is left with these enigmatic messages which, over time, becomes interpreted into their own profound meanings. It speaks to us differently each time we listen to these songs as we grow and experience more of what life has to offer.<br><br>I’ve listened to it countless times and there’s nothing like it. I have so many memories listening to it. I’m a huge fan of <i>The Dark Side of The Moon</i>."
+  },
+  {
+      "title": "Automatic For The People",
+      "artist": "R.E.M.",
+      "cover": "./assets/albumart/rem - automatic for the people.jpg",
+      "description": "Some Test Text"
+    },
+    {
+      "title": "Invisible Touch",
+      "artist": "Genesis",
+      "cover": "./assets/albumart/genesis - invisible touch.jpg",
+      "description": "Some Test Text"
+    },
+    {
+      "title": "Born In The U.S.A.",
+      "artist": "Bruce Springsteen",
+      "cover": "./assets/albumart/bruce springsteen - born in the usa.jpg",
+      "description": "Some Test Text"
+    },
+    {
+      "title": "52nd Street",
+      "artist": "Billy Joel",
+      "cover": "./assets/albumart/billy joel - 52nd street.jpg",
+      "description": "Some Test Text"
+    },
+    {
+      "title": "Brothers In Arms",
+      "artist": "Dire Straits",
+      "cover": "./assets/albumart/dire straits - brothers in arms.jpg",
+      "description": "Some Test Text"
+    },
+    {
+      "title": "Blind Melon",
+      "artist": "Blind Melon",
+      "cover": "./assets/albumart/blind melon - blind melon.jpg",
+      "description": "Some Test Text"
+    },
+    {
+      "title": "Third Eye Blind",
+      "artist": "Third Eye Blind",
+      "cover": "./assets/albumart/third eye blind - third eye blind.jpg",
+      "description": "Some Test Text"
+    },
+    {
+      "title": "Dookie",
+      "artist": "Green Day",
+      "cover": "./assets/albumart/green day - dookie.jpg",
+      "description": "Some Test Text"
+    },
+    {
+      "title": "1000 Smiling Knuckles",
+      "artist": "Skin Yard",
+      "cover": "./assets/albumart/skin yard - 1000 smiling knuckles.jpg",
+      "description": "Some Test Text"
+    },
+    {
+      "title": "Never Mind The Bollocks",
+      "artist": "The Sex Pistols",
+      "cover": "./assets/albumart/sex pistols - never mind the bollocks.jpg",
+      "description": "Some Test Text"
+    },
+    {
+        "title": "Nothing's Shocking",
+        "artist": "Jane's Addiction",
+        "cover": "./assets/albumart/janes addiction - nothings shocking.jpg",
+        "description": "Some Test Text"
+    },
+    {
+        "title": "Broken",
+        "artist": "Nine Inch Nails",
+        "cover": "./assets/albumart/nine inch nails - broken.jpg",
+        "description": "Some Test Text"
+    },
+    {
+        "title": "Gish",
+        "artist": "The Smashing Pumpkins",
+        "cover": "./assets/albumart/the smashing pumpkins - gish.jpg",
+        "description": "Some Test Text"
+    },
+    {
+        "title": "Houses of The Holy",
+        "artist": "Led Zeppelin",
+        "cover": "./assets/albumart/led zeppelin - houses of the holy.jpg",
+        "description": "Some Test Text"
+    },
+    {
+        "title": "Apple",
+        "artist": "Mother Love Bone",
+        "cover": "./assets/albumart/mother love bone - apple.jpg",
+        "description": "Some Test Text"
+    },
+    {
+        "title": "London Calling",
+        "artist": "The Clash",
+        "cover": "./assets/albumart/the clash - london calling.jpg",
+        "description": "Some Test Text"
+    },
+    {
+        "title": "Revolution Radio",
+        "artist": "Green Day",
+        "cover": "./assets/albumart/green day - revolution radio.jpg",
+        "description": "Some Test Text"
+    },
+    {
+        "title": "With Teeth",
+        "artist": "Nine Inch Nails",
+        "cover": "./assets/albumart/nine inch nails - with teeth [colour corrected].jpg",
+        "description": "Some Test Text"
+    },
+    {
+        "title": "Also Sprach Zarathustra",
+        "artist": "Richard Strauss",
+        "cover": "./assets/albumart/berliner philharmoniker - richard strauss - also sprach zarathustra.jpg",
+        "description": "Some Test Text"
+    },
+    {
+        "title": "The Planets",
+        "artist": "Gustav Holst",
+        "cover": "./assets/albumart/gustav holst - the planets.jpg",
+        "description": "Some Test Text"
+    },
+    {
+        "title": "An Der Schönen, Blauen Donau",
+        "artist": "Johann Strauss II",
+        "cover": "./assets/albumart/johann strauss ii - an der schonen, blauen donau [ii].jpg",
+        "description": "Some Test Text"
+    },
+    {
+        "title": "Aus Der Neuen Welt",
+        "artist": "Antonín Dvořák",
+        "cover": "./assets/albumart/antonin dvorak - symphonie no 9.jpg",
+        "description": "Some Test Text"
+    },
+    {
+        "title": "Eine Kleine Nachtmusik",
+        "artist": "Wolfgang Amadeus Mozart",
+        "cover": "./assets/albumart/wolfgang amadeus mozart - eine kleine nachtmusik.webp",
+        "description": "Some Test Text"
+    },
+    {
+        "title": "Peer Gynt Suites Nos. 1 & 2",
+        "artist": "Edvard Grieg",
+        "cover": "./assets/albumart/edvard grieg - peer gynt suites 1 & 2.webp",
+        "description": "Some Test Text"
+    }
+]
