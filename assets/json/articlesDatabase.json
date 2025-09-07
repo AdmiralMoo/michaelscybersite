@@ -50,13 +50,6 @@
     },
     {
         "category":"music",
-        "name": "My Tape Collection",
-        "description": "A very basic page which shows my cassette tape collection",
-        "image": "/assets/pictures/DSC_180790.webp",
-        "link": "/pages/music/cassettes.html"
-    },
-    {
-        "category":"music",
         "name": "Favourite Bands, Albums & Songs",
         "description": "A somewhat comprehensive list of my all-time favourite bands, albums and songs.",
         "image": "https://1drv.ms/i/c/19eb4e25e0b8e9bb/IQS76bjgJU7rIIAZU34AAAAAAX2_x9sdUtNw7_Fb0FcGUfY?width=256",
@@ -89,5 +82,19 @@
         "description": "A selection of photos from the Winter of 2025 shot in Black & White on my Nikon D40",
         "image": "https://1drv.ms/i/c/19eb4e25e0b8e9bb/IQTTS1CKzSq1RpnFgT3q8JAqAbYPiBeJ8XYXezrr99Ow4AA?width=128",
         "link": "/pages/photography/winter2025bw.html"
+    },
+    {
+        "category":"music",
+        "name": "A Better Way To Show My Favourite Albums",
+        "description": "Other than putting The Dark Side of The Moon at the top of a list, it's difficult for me to rank my favourite albums. These are the sounds my universe revolves around. ",
+        "image": "/assets/images/albumthumb.jpg",
+        "link": "/pages/music/favouritealbums.html"
+    },
+    {
+        "category":"music",
+        "name": "My Tape Collection",
+        "description": "A very basic page which shows my cassette tape collection",
+        "image": "/assets/pictures/DSC_180790.webp",
+        "link": "/pages/music/cassettes.html"
     }
 ]

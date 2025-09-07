@@ -1,318 +1,454 @@
 <head>
-    <script src="/head-inject.js"></script>
+  <script src="/head-inject.js"></script>
 
-    <title>The Changelog</title>
-    <link rel="stylesheet" type="text/css" href="/assets/css/win98.css"/>
-    <link rel="stylesheet" type="text/css" href="/assets/css/music.css"/>
+  <title>The Changelog</title>
+  <link rel="stylesheet" href="/assets/css/win98.css"/>
+  <link rel="stylesheet" href="/assets/css/music.css"/>
 </head>
 
 <style>
-    .universe-container {
-        background-color: rgba(255, 255, 255, 0);
-        width: 100%;
-        height: 100%;
-    }
+  .universe-container {
+    background-color: rgba(255,255,255,0);
+    width: 100%;
+    height: 100%;
+  }
 
-    #album-orbit {
-        position: relative;
-        width: 90vw;
-        height: 80vh;
-        max-width: 800px;
-        max-height: 1200px;
-        padding-top: 64px;
-        margin: auto;
-        overflow: visible;
-    }
+  /* set picker */
+  #set-picker {
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+    align-items: center;
+    margin: 10px auto 6px;
+    flex-wrap: wrap;
+    max-width: 820px;
+  }
+  #set-picker button {
+    cursor: pointer;
+    padding: 6px 10px;
+    border-radius: 6px;
+    border: 1px solid #bbb;
+    background: #f3f3f3;
+    font: 12px 'Franklin Gothic Medium','Arial Narrow',Arial,sans-serif;
+  }
+  #set-picker button.active { background:#dbeafe; border-color:#93c5fd; }
 
-    #center-album {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        border-radius: 10px;
-        overflow: hidden;
-        background-position: center;
-        background-size: cover;
-        transition: transform 0.4s cubic-bezier(0.34, 1.56, 0.64, 1);
-        display: block;
-    }
+  #album-orbit {
+    position: relative;
+    width: 90vw;
+    max-width: 800px;
+    max-height: none;
+    margin: auto;
+    overflow: visible; /* height set in JS */
+  }
 
-    .center-wrapper {
-        width: 100%;
-        height: 100%;
-        position: relative;
-    }
+  #stars {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+    pointer-events: none;
+    z-index: 0;
+  }
 
-    #center-album:hover {
-        transform: translate(-50%, -50%) scale(1.2);
-        box-shadow: 0 0 15px 5px rgba(255, 255, 255, 0.75);
-        z-index: 10;
-    }
+  #center-backdrop {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    /* background-image set from JSON per set */
+    background-position: center;
+    background-size: cover; /* or 'stretch' if you prefer */
+    background-repeat: no-repeat;
+    transform: translate(-50%,-50%);
+    opacity: 1;
+    pointer-events: none;
+    z-index: -1000;
+    animation: spin 120s linear infinite;
+  }
+  @keyframes spin {
+    from { transform: translate(-50%,-50%) rotate(0deg); }
+    to   { transform: translate(-50%,-50%) rotate(360deg); }
+  }
 
-    .orbit-album {
-        position: absolute;
-        border-radius: 8px;
-        transform: translate(-50%, -50%);
-        background-position: center;
-        background-size: cover;
-        box-shadow: 0 0 15px 5px rgba(255, 255, 255, 0.0);
-        transition: transform 0.4s cubic-bezier(0.34, 1.56, 0.64, 1), box-shadow 0.4s cubic-bezier(0.34, 1.56, 0.64, 1);
-    }
+  #center-album {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 10px;
+    overflow: hidden;
+    background-position: center;
+    background-size: cover;
+    transition: transform .4s cubic-bezier(.34,1.56,.64,1);
+    display: block;
+    z-index: 2;
+  }
+  .center-wrapper { width: 100%; height: 100%; position: relative; }
 
-    .orbit-album:hover {
-        transform: translate(-50%, -50%) scale(1.2);
-        box-shadow: 0 0 15px 5px rgba(255, 255, 255, 0.75);
-        z-index: 10;
-    }
+  #center-album:hover {
+    transform: translate(-50%,-50%) scale(1.2);
+    box-shadow: 0 0 15px 5px rgba(255,255,255,.75);
+    z-index: 10;
+  }
 
-    .orbit-album::after,
-    .center-wrapper::after {
-        content: attr(data-title) "\A" attr(data-artist);
-        position: absolute;
-        bottom: 110%;
-        left: 50%;
-        transform: translateX(-50%);
-        background: rgba(211, 211, 211, 0.8);
-        color: #000;
-        font-size: 12px;
-        padding: 4px 6px;
-        border-radius: 4px;
-        white-space: pre;
-        opacity: 0;
-        pointer-events: none;
-        transition: opacity 0.2s ease;
-        z-index: 9999;
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        text-align: center;
-    }
+  #orbit-container { position: relative; z-index: 2; }
 
-    .orbit-album:hover::after,
-    .center-wrapper:hover::after {
-        opacity: 1;
-    }
+  .orbit-album {
+    position: absolute;
+    border-radius: 8px;
+    transform: translate(-50%,-50%);
+    background-position: center;
+    background-size: cover;
+    box-shadow: 0 0 15px 5px rgba(255,255,255,0);
+    transition: transform .4s cubic-bezier(.34,1.56,.64,1), box-shadow .4s cubic-bezier(.34,1.56,.64,1);
+  }
+  .orbit-album:hover {
+    transform: translate(-50%,-50%) scale(1.2);
+    box-shadow: 0 0 15px 5px rgba(255,255,255,.75);
+    z-index: 10;
+  }
 
-    .popup {
-        display: none;
-        position: fixed;
-        z-index: 1000;
-        left: 0;
-        top: 0;
-        width: 100%;
-        height: 100%;
-        overflow-y: auto;
-        background-color: rgba(0,0,0,0.7);
-        padding: 20px;
-    }
-
-    .popup-content {
-        background: #fff;
-        margin: auto;
-        padding: 20px;
-        border-radius: 10px;
-        max-width: 500px;
-        width: 90%;
-        text-align: center;
-        animation: fadeIn 0.3s ease;
-    }
-
-    .popup-content img {
-        max-width: 100%;
-        border-radius: 6px;
-        margin-bottom: 15px;
-    }
-
-    #popup-title {
-        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        font-style:italic;
-    }
-
-    #popup-artist, #popup-description {
-        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    }
-
-    .close {
-        position: absolute;
-        top: 20px;
-        right: 30px;
-        font-size: 28px;
-        font-weight: bold;
-        color: #333;
-        cursor: pointer;
-    }
-
-    @keyframes fadeIn {
-        from { opacity: 0; transform: translateY(20px); }
-        to { opacity: 1; transform: translateY(0); }
-    }
-
-    @media (max-width: 600px) {
-        .popup-content h2 { font-size: 18px; }
-        .popup-content h3 { font-size: 14px; }
-        .popup-content p  { font-size: 14px; }
-    }
+  /* tooltips */
+  .orbit-album::after,
+  .center-wrapper::after {
+    content: attr(data-title) "\A" attr(data-artist);
+    position: absolute;
+    bottom: 110%;
+    left: 50%;
+    transform: translateX(-50%);
+    background: rgba(211,211,211,.8);
+    color: #000;
+    font-size: 12px;
+    padding: 4px 6px;
+    border-radius: 4px;
+    white-space: pre;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity .2s ease;
+    z-index: 9999;
+    font-family: 'Franklin Gothic Medium','Arial Narrow',Arial,sans-serif;
+    text-align: center;
+  }
+  .orbit-album:hover::after,
+  .center-wrapper:hover::after { opacity: 1; }
 </style>
 
 <body>
-    <main>
-        <div class="maincontent-centred universe-container" style="min-height:60vh;">
-            <div id="album-orbit">
-                <div id="center-album">
-                    <div class="center-wrapper"></div>
-                </div>
-                <div id="orbit-container"></div>
-            </div>
-        </div>
+  <main>
+    <div id="set-picker"></div>
 
-        <div id="album-popup" class="popup">
-            <div class="popup-content">
-                <span class="close">&times;</span>
-                <img id="popup-cover" src="" alt="Album cover">
-                <h2 id="popup-title"></h2>
-                <h3 id="popup-artist"></h3>
-                <p id="popup-description"></p>
-            </div>
-        </div>
-    </main>
+    <div class="maincontent-centred universe-container" style="min-height:60vh;">
+      <div id="album-orbit">
+        <canvas id="stars"></canvas>
+        <div id="center-backdrop"></div>
+        <div id="center-album"><div class="center-wrapper"></div></div>
+        <div id="orbit-container"></div>
+      </div>
+    </div>
+  </main>
 
-    <script>
-        fetch('./assets/json/favouritealbums.json')
-        .then(response => response.json())
-        .then(albums => {
-            const orbit = document.getElementById('album-orbit');
-            const center = document.getElementById('center-album');
-            const wrapper = center.querySelector('.center-wrapper');
-            const orbitContainer = document.getElementById('orbit-container');
+  <script>
+    fetch('./assets/json/favouritealbums.json')
+      .then(r => r.json())
+      .then(data => {
+        const sets = Array.isArray(data?.sets) ? data.sets : (Array.isArray(data) ? data : []);
+        const orbitEl  = document.getElementById('album-orbit');
+        const starCv   = document.getElementById('stars');
+        const starCtx  = starCv.getContext('2d');
+        const backdrop = document.getElementById('center-backdrop');
+        const centerEl = document.getElementById('center-album');
+        const wrapEl   = centerEl.querySelector('.center-wrapper');
+        const ringEl   = document.getElementById('orbit-container');
+        const picker   = document.getElementById('set-picker');
 
-            //dynamic layout variables
-            let centerX = orbit.offsetWidth / 2;
-            let centerY = orbit.offsetHeight / 2;
-            let baseRadius = Math.min(centerX, centerY) * 0.6;
-            let radiusStep = Math.min(centerX, centerY) * 0.4;
+        const cfg = {
+          yBias: 0.50,
+          centerRatio: 0.5,
+          orbitRatio:  0.25,
+          baseUnits:   3.0,
+          stepUnits:   2.2,
+          rScale:      0.8,
+          speedBase:   0.0005,
+          speedStep:   0.00025,
+          ringCap:     6,
+          ringAdd:     2,
+          backdropFactor: 7.7,
+          stars: {
+            perRing: 128,
+            base: 1.8,
+            jitter: 1.6,
+            strayUnits: 0.8,
+            drift: 0.00045
+          }
+        };
 
-            //dynamic album sizes
-            let centerSize = Math.min(centerX, centerY) * 0.5;
-            let orbitSize = Math.min(centerX, centerY) * 0.25;
+        let cx, cy, centerSize, tileSize, rBase, rStep, backdropSize;
+        let rings = [];
+        let starRings = [];
+        let t = 0;
+        let tickStarted = false;
 
-            //update on resize
-            window.addEventListener('resize', () => {
-                centerX = orbit.offsetWidth / 2;
-                centerY = orbit.offsetHeight / 2;
+        function sizeCanvas() {
+          const w = Math.max(1, Math.floor(orbitEl.clientWidth));
+          const h = Math.max(1, Math.floor(orbitEl.clientHeight));
+          if (starCv.width !== w || starCv.height !== h) {
+            starCv.width = w;
+            starCv.height = h;
+          }
+        }
 
-                centerSize = Math.min(centerX, centerY) * 0.5;
-                orbitSize = Math.min(centerX, centerY) * 0.25;
+        function calcSizes() {
+        const w = orbitEl.offsetWidth;
+        const h = orbitEl.offsetHeight;
 
-                baseRadius = orbitSize * 3;
-                radiusStep = orbitSize * 2.2;
+        cx = w / 2;
+        cy = h * cfg.yBias;
 
-                center.style.width = `${centerSize}px`;
-                center.style.height = `${centerSize}px`;
-                document.querySelectorAll('.orbit-album').forEach(div => {
-                    div.style.width = `${orbitSize}px`;
-                    div.style.height = `${orbitSize}px`;
-                });
+        const ref = w / 2;
+
+        centerSize   = ref * cfg.centerRatio;
+        tileSize     = ref * cfg.orbitRatio;
+
+        rBase = cfg.rScale * cfg.baseUnits * tileSize;
+        rStep = cfg.rScale * cfg.stepUnits * tileSize;
+
+        backdropSize = centerSize * cfg.backdropFactor;
+        }
+
+
+        function setOrbitHeight() {
+          const ringCount = rings.length || 1;
+          const outer = rBase + (ringCount - 1) * rStep + tileSize * 0.5;
+          const need = Math.max(outer * 2 + tileSize * 1.5, backdropSize + tileSize);
+          orbitEl.style.height = Math.ceil(need) + 'px';
+          cy = orbitEl.offsetHeight * cfg.yBias;
+          sizeCanvas();
+        }
+
+        function weightedColor() {
+          const x = Math.random();
+          if (x < .70) return '#ffffff';
+          if (x < .85) return '#ffeaa7';
+          if (x < .95) return '#ff7675';
+          return '#74b9ff';
+        }
+
+        function buildStars() {
+          starRings.length = 0;
+          for (let r = 0; r < rings.length; r++) {
+            const R = rBase + r * rStep;
+            const dir = (r % 2 === 0) ? 1 : -1;
+            const list = [];
+            for (let i = 0; i < cfg.stars.perRing; i++) {
+              const a = Math.random() * Math.PI * 2;
+              const ampUnits = cfg.stars.strayUnits * (0.4 + Math.random() * 0.8);
+              const s = cfg.stars.base + Math.random() * cfg.stars.jitter;
+              list.push({
+                a,
+                r: R,
+                rHome: R,
+                v: dir * (cfg.speedBase * 0.25 + r * cfg.speedStep * 0.2) * (0.7 + Math.random() * 0.6),
+                ampUnits,
+                amp: ampUnits * tileSize,
+                phase: Math.random() * Math.PI * 2,
+                drift: cfg.stars.drift * (0.6 + Math.random() * 0.8),
+                color: weightedColor(),
+                size: s
+              });
+            }
+            starRings.push(list);
+          }
+        }
+
+        function layoutBackdrop() {
+          backdrop.style.width  = backdropSize + 'px';
+          backdrop.style.height = backdropSize + 'px';
+        }
+
+        function clearRings() {
+          rings.forEach(r => r.forEach(o => o.el.remove()));
+          rings = [];
+          starRings = [];
+        }
+
+        function layoutSet(set) {
+          if (!set || !Array.isArray(set.albums) || set.albums.length === 0) return;
+
+          clearRings();
+
+          // baseline for height
+          orbitEl.style.height = '120vh';
+          sizeCanvas();
+          calcSizes();
+
+          // backdrop per set
+          backdrop.style.backgroundImage = set.background ? `url("${set.background}")` : 'none';
+
+          // center
+          const first = set.albums[0];
+          centerEl.style.backgroundImage = `url("${first.cover}")`;
+          centerEl.style.width  = centerSize + 'px';
+          centerEl.style.height = centerSize + 'px';
+          wrapEl.dataset.title  = first.title || '';
+          wrapEl.dataset.artist = first.artist || '';
+
+          // rings
+          let idx = 1;
+          for (let r = 0; idx < set.albums.length; r++) {
+            const cap   = cfg.ringCap + r * cfg.ringAdd;
+            const slice = set.albums.slice(idx, idx + cap);
+            const R     = rBase + r * rStep;
+            const vBase = cfg.speedBase + r * cfg.speedStep;
+            const dir   = (r % 2 === 0) ? 1 : -1;
+
+            const objs = slice.map((album, i) => {
+              const d = document.createElement('div');
+              d.className = 'orbit-album';
+              d.style.backgroundImage = `url("${album.cover}")`;
+              d.style.width  = tileSize + 'px';
+              d.style.height = tileSize + 'px';
+              d.dataset.title  = album.title || '';
+              d.dataset.artist = album.artist || '';
+              ringEl.appendChild(d);
+
+              const jitter = (tileSize * 0.3) * (Math.random() * 2 - 1);
+
+              return {
+                el: d,
+                a: (i / slice.length) * Math.PI * 2,
+                r: R + jitter,
+                rHome: R,
+                v: dir * vBase * (0.8 + Math.random() * 0.4)
+              };
             });
 
-            // Place the central album
-            center.style.backgroundImage = `url("${albums[0].cover}")`;
-            center.style.width = `${centerSize}px`;
-            center.style.height = `${centerSize}px`;
+            rings.push(objs);
+            idx += cap;
+          }
 
-            // Tooltip data on wrapper
-            wrapper.dataset.title = albums[0].title;
-            wrapper.dataset.artist = albums[0].artist;
+        setOrbitHeight();
+        layoutBackdrop();
+        buildStars();
+        onResize();
 
-            //ring configuration
-            const baseRingCap = 6;
-            const ringIncrement = 2;
+        }
 
-            let albumIndex = 1;
-            let rings = [];
+        function onResize() {
+          calcSizes();
 
-            //Orbit rings
-            for (let ringNum = 0; albumIndex < albums.length; ringNum++) {
-                const maxInRing = baseRingCap + ringNum * ringIncrement;
-                const ringAlbums = albums.slice(albumIndex, albumIndex + maxInRing);
+          centerEl.style.width  = centerSize + 'px';
+          centerEl.style.height = centerSize + 'px';
+          layoutBackdrop();
 
-                const radius = baseRadius + ringNum * radiusStep;
-                const baseSpeed = 0.001 + ringNum * 0.0005; // ✅ slower
+          document.querySelectorAll('.orbit-album').forEach(d => {
+            d.style.width  = tileSize + 'px';
+            d.style.height = tileSize + 'px';
+          });
 
-                const direction = (ringNum % 2 === 0 ? 1 : -1); // ✅ alternate
+          rings.forEach((ring, i) => {
+            const newHome = rBase + i * rStep;
+            ring.forEach(o => {
+              const off = o.r - o.rHome;
+              o.rHome = newHome;
+              o.r     = newHome + off;
+            });
+          });
 
-                const objs = ringAlbums.map((album, i) => {
-                    const div = document.createElement('div');
-                    div.classList.add('orbit-album');
-                    div.style.backgroundImage = `url("${album.cover}")`;
-                    div.style.width = `${orbitSize}px`;
-                    div.style.height = `${orbitSize}px`;
+          starRings.forEach((ring, i) => {
+            const newHome = rBase + i * rStep;
+            ring.forEach(s => {
+              s.rHome = newHome;
+              s.r = newHome;
+              s.amp = s.ampUnits * tileSize;
+            });
+          });
 
-                    //Tooltip data
-                    div.dataset.title = album.title;
-                    div.dataset.artist = album.artist;
+          setOrbitHeight();
+        }
+        window.addEventListener('resize', onResize);
 
-                    orbitContainer.appendChild(div);
+        function drawStars() {
+          starCtx.clearRect(0,0,starCv.width,starCv.height);
+          starCtx.imageSmoothingEnabled = false;
+          starRings.forEach(ring => {
+            ring.forEach(s => {
+              s.a += s.v;
+              const rr = s.r + Math.sin(t * s.drift + s.phase) * s.amp;
+              const x = cx + rr * Math.cos(s.a);
+              const y = cy + rr * Math.sin(s.a);
+              const half = s.size / 2;
+              starCtx.fillStyle = s.color;
+              starCtx.fillRect(Math.round(x - half), Math.round(y - half), Math.ceil(s.size), Math.ceil(s.size));
+            });
+          });
+        }
 
-                    return {
-                        div,
-                        angle: (i / ringAlbums.length) * 2 * Math.PI,
-                        radius: radius + (Math.random() * 30 - 15),
-                        homeRadius: radius,
-                        speed: direction * baseSpeed * (0.8 + Math.random() * 0.4) // ✅ slow & alternating
-                    };
-                });
+        function tick() {
+          t += 1;
+          rings.forEach(ring => {
+            ring.forEach(o => { o.a += o.v; });
 
-                rings.push(objs);
-                albumIndex += maxInRing;
+            const avoid = tileSize * 0.5;
+            for (let i = 0; i < ring.length; i++) {
+              for (let j = i + 1; j < ring.length; j++) {
+                const a = ring[i], b = ring[j];
+                const ax = a.r * Math.cos(a.a), ay = a.r * Math.sin(a.a);
+                const bx = b.r * Math.cos(b.a), by = b.r * Math.sin(b.a);
+                const dx = ax - bx, dy = ay - by;
+                const d  = Math.hypot(dx, dy);
+                if (d < avoid * 2 && d > 0) {
+                  const k = (avoid * 2 - d) / (avoid * 2) * 0.01;
+                  const ang = Math.atan2(dy, dx);
+                  a.a += k * Math.cos(ang);
+                  b.a -= k * Math.cos(ang);
+                  a.r += k * 50 * Math.sin(ang);
+                  b.r -= k * 50 * Math.sin(ang);
+                }
+              }
             }
 
-            //Animate all rings
-            function animate() {
-                rings.forEach(ring => {
-                    ring.forEach(obj => {
-                        obj.angle += obj.speed;
-                    });
+            ring.forEach(o => {
+              o.r += (o.rHome - o.r) * 0.02;
+              const x = o.r * Math.cos(o.a);
+              const y = o.r * Math.sin(o.a);
+              o.el.style.left = (cx + x) + 'px';
+              o.el.style.top  = (cy + y) + 'px';
+            });
+          });
 
-                    const avoidRadius = orbitSize * 0.5;
-                    for (let i = 0; i < ring.length; i++) {
-                        for (let j = i + 1; j < ring.length; j++) {
-                            const a = ring[i];
-                            const b = ring[j];
-                            const ax = a.radius * Math.cos(a.angle);
-                            const ay = a.radius * Math.sin(a.angle);
-                            const bx = b.radius * Math.cos(b.angle);
-                            const by = b.radius * Math.sin(b.angle);
+          drawStars();
+          requestAnimationFrame(tick);
+        }
 
-                            const dx = ax - bx;
-                            const dy = ay - by;
-                            const dist = Math.sqrt(dx * dx + dy * dy);
+        function buildPicker() {
+          picker.innerHTML = '';
+          sets.forEach((s, i) => {
+            const b = document.createElement('button');
+            b.textContent = s.label || `Set ${i+1}`;
+            b.dataset.key = s.label || String(i);
+            b.addEventListener('click', () => {
+              document.querySelectorAll('#set-picker button').forEach(x => x.classList.remove('active'));
+              b.classList.add('active');
+              const key = b.dataset.key;
+              const byLabel = sets.find(x => (x.label||'') === key);
+              const set = byLabel || sets[parseInt(key,10)] || sets[i];
+              layoutSet(set);
+            });
+            picker.appendChild(b);
+          });
+          // mark first active
+          const firstBtn = picker.querySelector('button');
+          if (firstBtn) firstBtn.classList.add('active');
+        }
 
-                            if (dist < avoidRadius * 2 && dist > 0) {
-                                const overlap = (avoidRadius * 2 - dist) / (avoidRadius * 2);
-                                const force = overlap * 0.01;
-                                const angleBetween = Math.atan2(dy, dx);
+        // init
+        orbitEl.style.height = '120vh';
+        sizeCanvas();
+        buildPicker();
+        layoutSet(sets[0] || null);
 
-                                a.angle += force * Math.cos(angleBetween);
-                                b.angle -= force * Math.cos(angleBetween);
-
-                                a.radius += force * 50 * Math.sin(angleBetween);
-                                b.radius -= force * 50 * Math.sin(angleBetween);
-                            }
-                        }
-                    }
-
-                    ring.forEach(obj => {
-                        obj.radius += (obj.homeRadius - obj.radius) * 0.02;
-
-                        const x = obj.radius * Math.cos(obj.angle);
-                        const y = obj.radius * Math.sin(obj.angle);
-                        obj.div.style.left = `${centerX + x}px`;
-                        obj.div.style.top  = `${centerY + y}px`;
-                    });
-                });
-
-                requestAnimationFrame(animate);
-            }
-
-            animate();
-        });
-    </script>
+        if (!tickStarted) { tickStarted = true; tick(); }
+      });
+  </script>
 </body>
