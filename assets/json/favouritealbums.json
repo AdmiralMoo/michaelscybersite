@@ -712,6 +712,532 @@
             "description": "Some Test Text"
           }
         ]
+      },
+      {
+      "label": "Albums of The 1990's",
+      "background": "./assets/images/J23.webp",
+      "albums": 
+        [
+          {
+            "title": "Broken",
+            "artist": "Nine Inch Nails",
+            "cover": "./assets/albumart/nine inch nails - broken.jpg",
+            "description": "Some Test Text"
+          },
+          {
+            "title": "Automatic For The People",
+            "artist": "R.E.M.",
+            "cover": "./assets/albumart/rem - automatic for the people.jpg",
+            "description": "Some Test Text"
+          },
+          {
+            "title": "Blind Melon",
+            "artist": "Blind Melon",
+            "cover": "./assets/albumart/blind melon - blind melon.jpg",
+            "description": "Some Test Text"
+          },
+          {
+            "title": "Dirt",
+            "artist": "Alice In Chains",
+            "cover": "./assets/albumart/alice in chains - dirt.jpg",
+            "description": "Some Test Text"
+          },
+          {
+            "title": "August And Everything After",
+            "artist": "Counting Crows",
+            "cover": "./assets/albumart/counting crows - august and everything after.jpg",
+            "description": "Some Test Text"
+          },
+          {
+            "title": "1000 Smiling Knuckles",
+            "artist": "Skin Yard",
+            "cover": "./assets/albumart/skin yard - 1000 smiling knuckles.jpg",
+            "description": "Some Test Text"
+          },
+          {
+            "title": "Temple of The Dog",
+            "artist": "Temple of The Dog",
+            "cover": "./assets/albumart/temple of the dog - temple of the dog.jpg",
+            "description": "Some Test Text"
+          },
+          {
+            "title": "Mellon Collie and The Infinite Sadness",
+            "artist": "The Smashing Pumpkins",
+            "cover": "./assets/albumart/the smashing pumpkins - mellon collie and the infinite sadness [2012 remaster].jpg",
+            "description": "Some Test Text"
+          },
+          {
+            "title": "Ten",
+            "artist": "Pearl Jam",
+            "cover": "./assets/albumart/pearl jam - ten.jpg",
+            "description": "Some Test Text"
+          },
+          {
+            "title": "Jagged Little Pill",
+            "artist": "Alanis Morissette",
+            "cover": "./assets/albumart/alanis morissette - jagged little pill.jpg",
+            "description": "Some Test Text"
+          },
+          {
+            "title": "Dookie",
+            "artist": "Green Day",
+            "cover": "./assets/albumart/green day - dookie.jpg",
+            "description": "Some Test Text"
+          },
+          {
+            "title": "SMASH",
+            "artist": "The Offspring",
+            "cover": "./assets/albumart/the offspring - smash.jpg",
+            "description": "Some Test Text"
+          },
+          {
+            "title": "Short Bus",
+            "artist": "Filter",
+            "cover": "./assets/albumart/filter - short bus.jpg",
+            "description": "Some Test Text"
+          },
+          {
+            "title": "Third Eye Blind",
+            "artist": "Third Eye Blind",
+            "cover": "./assets/albumart/third eye blind - third eye blind.jpg",
+            "description": "Some Test Text"
+          },
+          {
+            "title": "Creed",
+            "artist": "Human Clay",
+            "cover": "./assets/albumart/creed - human clay.jpg",
+            "description": "Some Test Text"
+          },
+          {
+            "title": "Superunknown",
+            "artist": "Soundgarden",
+            "cover": "./assets/albumart/soundgarden - superunknown.jpg",
+            "description": "Some Test Text"
+          },
+          {
+            "title": "Nimrod",
+            "artist": "Green Day",
+            "cover": "./assets/albumart/green day - nimrod.jpg",
+            "description": "Some Test Text"
+          },
+          {
+            "title": "MTV Unplugged In New York",
+            "artist": "Nirvana",
+            "cover": "./assets/albumart/nirvana - mtv unplugged in new york.jpg",
+            "description": "Some Test Text"
+          },
+          {
+            "title": "Counterparts",
+            "artist": "Rush",
+            "cover": "./assets/albumart/rush - counterparts.jpg",
+            "description": "Some Test Text"
+          },
+          {
+            "title": "The Downward Spiral",
+            "artist": "Nine Inch Nails",
+            "cover": "./assets/albumart/nine inch nails - the downward spiral.jpg",
+            "description": "Some Test Text"
+          },
+          {
+            "title": "Last Splash",
+            "artist": "The Breeders",
+            "cover": "./assets/albumart/the breeders - last spash.jpg",
+            "description": "Some Test Text"
+          },
+          {
+            "title": "Sixteen Stone",
+            "artist": "Bush",
+            "cover": "./assets/albumart/bush x - sixteen stone.jpg",
+            "description": "Some Test Text"
+          },
+          {
+            "title": "Marcy Playground",
+            "artist": "Marcy Playground",
+            "cover": "./assets/albumart/marcy playground - marcy playground.jpg",
+            "description": "Some Test Text"
+          },
+          {
+            "title": "1039 Smoothed Out Slappy Hours",
+            "artist": "Green Day",
+            "cover": "./assets/albumart/green day - 1039 smoothed out slappy hours.jpg",
+            "description": "Some Test Text"
+          }
+        ]
+      },
+      {
+      "label": "Albums of The 1980's",
+      "background": "./assets/images/M81.webp",
+      "albums": 
+        [
+          {
+            "title": "Born In The U.S.A.",
+            "artist": "Bruce Springsteen",
+            "cover": "./assets/albumart/bruce springsteen - born in the usa.jpg",
+            "description": "Some Test Text"
+          },
+          {
+            "title": "Brothers In Arms",
+            "artist": "Dire Straits",
+            "cover": "./assets/albumart/dire straits - brothers in arms.jpg",
+            "description": "Some Test Text"
+          },
+          {
+            "title": "Invisble Touch",
+            "artist": "Genesis",
+            "cover": "./assets/albumart/genesis - invisible touch.jpg",
+            "description": "Some Test Text"
+          },
+          {
+            "title": "1984",
+            "artist": "Van Halen",
+            "cover": "./assets/albumart/van halen - 1984.jpg",
+            "description": "Some Test Text"
+          },
+          {
+            "title": "Breakfast In America",
+            "artist": "Supertramp",
+            "cover": "./assets/albumart/supertramp - breakfast in america.jpg",
+            "description": "Some Test Text"
+          },
+          {
+            "title": "Bryan Adams",
+            "artist": "Reckless",
+            "cover": "./assets/albumart/bryan adams - reckless.jpg",
+            "description": "Some Test Text"
+          },
+          {
+            "title": "Dr. Feelgood",
+            "artist": "Motley Crue",
+            "cover": "./assets/albumart/motley crue - dr feelgood.jpg",
+            "description": "Some Test Text"
+          },
+          {
+            "title": "90125",
+            "artist": "Yes",
+            "cover": "./assets/albumart/yes - 90125.jpg",
+            "description": "Some Test Text"
+          },
+          {
+            "title": "Top Gun: Original Motion Picture Soundtrack",
+            "artist": "Various Artists",
+            "cover": "./assets/albumart/various artists - top gun original motion picture soundtrack.jpg",
+            "description": "Some Test Text"
+          },
+          {
+            "title": "Purple Rain",
+            "artist": "Prince & The Revolution",
+            "cover": "./assets/albumart/prince and the revolution - purple rain.jpg",
+            "description": "Some Test Text"
+          },
+          {
+            "title": "Life's Rich Pageant",
+            "artist": "R.E.M.",
+            "cover": "./assets/albumart/rem - lifes rich pageant.jpg",
+            "description": "Some Test Text"
+          },
+          {
+            "title": "Nothing's Shocking",
+            "artist": "Jane's Addiction",
+            "cover": "./assets/albumart/janes addiction - nothings shocking.jpg",
+            "description": "Some Test Text"
+          },
+          {
+            "title": "Hello, I Must Be Going!",
+            "artist": "Phil Collins",
+            "cover": "./assets/albumart/phil collins - hello i must be going.webp",
+            "description": "Some Test Text"
+          },
+          {
+            "title": "Combat Rock",
+            "artist": "The Clash",
+            "cover": "./assets/albumart/the clash - combat rock.webp",
+            "description": "Some Test Text"
+          },
+          {
+            "title": "Violent Femmes",
+            "artist": "Violent Femmes",
+            "cover": "./assets/albumart/violent femmes - violent femmes.webp",
+            "description": "Some Test Text"
+          },
+          {
+            "title": "Hold Your Fire",
+            "artist": "Rush",
+            "cover": "./assets/albumart/rush - hold your fire.webp",
+            "description": "Some Test Text"
+          },
+          {
+            "title": "Pretty Hate Machine",
+            "artist": "Nine Inch Nails",
+            "cover": "./assets/albumart/nine inch nails - pretty hate machine.jpg",
+            "description": "Some Test Text"
+          },
+          {
+            "title": "Appetite For Destruction",
+            "artist": "Guns N' Roses",
+            "cover": "./assets/albumart/guns n roses - appetite for destruction.jpg",
+            "description": "Some Test Text"
+          },
+          {
+            "title": "...And Justice For All",
+            "artist": "Metallica",
+            "cover": "./assets/albumart/metallica - and justice for all.jpg",
+            "description": "Some Test Text"
+          },
+          {
+            "title": "Synchronicity",
+            "artist": "The Police",
+            "cover": "./assets/albumart/the police - synchronicity.jpg",
+            "description": "Some Test Text"
+          },
+          {
+            "title": "Dry As A Bone/Rehab Doll",
+            "artist": "Green River",
+            "cover": "./assets/albumart/green river - dry as a bone.jpg",
+            "description": "Some Test Text"
+          },
+          {
+            "title": "Tunnel of Love",
+            "artist": "Bruce Springsteen",
+            "cover": "./assets/albumart/bruce springsteen - tunnel of love.jpg",
+            "description": "Some Test Text"
+          },
+          {
+            "title": "Genesis",
+            "artist": "Genesis",
+            "cover": "./assets/albumart/genesis - genesis.jpg",
+            "description": "Some Test Text"
+          },
+          {
+            "title": "No Jacket Required",
+            "artist": "Phil Collins",
+            "cover": "./assets/albumart/phil collins - no jacket required.webp",
+            "description": "Some Test Text"
+          },
+          {
+            "title": "Diver Down",
+            "artist": "Van Halen",
+            "cover": "./assets/albumart/van halen - diver down.jpg",
+            "description": "Some Test Text"
+          }
+        ]
+      },
+      {
+      "label": "Albums of The 1970's",
+      "background": "./assets/images/G2530.webp",
+      "albums": 
+        [
+          {
+            "title": "The Dark Side of the Moon",
+            "artist": "Pink Floyd",
+            "cover": "./assets/albumart/pink floyd - dark side of the moon.jpg",
+            "description": "I struggle to put into words how unique and truly special this album is. I’d seen the album cover around my whole life, but the first time I actually listened to it was in 2020 when I found a copy of it on cassette at a thrift store. I listened to that tape dozens of times before I finally found it on CD. <br><br>This album of grandiose, interconnected songs explore themes related to human existence such as life, death, time, money and mental illness through a uniquely cryptic and philosophical lens. As each song fades into the next, the listener is left with these enigmatic messages which, over time, becomes interpreted into their own profound meanings. It speaks to us differently each time we listen to these songs as we grow and experience more of what life has to offer.<br><br>I’ve listened to it countless times and there’s nothing like it. I have so many memories listening to it. I’m a huge fan of <i>The Dark Side of The Moon</i>."
+          },
+          {
+            "title": "Led Zeppelin IV",
+            "artist": "Led Zeppelin",
+            "cover": "./assets/albumart/led zeppelin - led zeppelin iv.jpg",
+            "description": "Some Test Text"
+          },
+          {
+            "title": "52nd Street",
+            "artist": "Billy Joel",
+            "cover": "./assets/albumart/billy joel - 52nd street.jpg",
+            "description": "Some Test Text"
+          },          
+          {
+              "title": "London Calling",
+              "artist": "The Clash",
+              "cover": "./assets/albumart/the clash - london calling.jpg",
+              "description": "Some Test Text"
+          },          
+          {
+              "title": "Rumours",
+              "artist": "Fleetwood Mac",
+              "cover": "./assets/albumart/fleetwood mac - rumours.jpg",
+              "description": "Some Test Text"
+          },
+          {
+              "title": "Unknown Pleasures",
+              "artist": "Joy Division",
+              "cover": "./assets/albumart/joy division - unknown pleasures.jpg",
+              "description": "Some Test Text"
+          },
+          {
+              "title": "Saturday Night Fever: The Original Movie Sound Track",
+              "artist": "Various Artists",
+              "cover": "./assets/albumart/soundtrack - saturday night fever - the original movie sound track.jpg",
+              "description": "Some Test Text"
+          },
+          {
+            "title": "Never Mind The Bollocks",
+            "artist": "The Sex Pistols",
+            "cover": "./assets/albumart/sex pistols - never mind the bollocks.jpg",
+            "description": "Some Test Text"
+          },
+          {
+            "title": "Wish You Were Here",
+            "artist": "Pink Floyd",
+            "cover": "./assets/albumart/pink floyd - wish you were here.jpg",
+            "description": "Some Test Text"
+          },
+          {
+            "title": "Houses of the Holy",
+            "artist": "Led Zeppelin",
+            "cover": "./assets/albumart/led zeppelin - houses of the holy.jpg",
+            "description": "Some Test Text"
+          },
+          {
+            "title": "2112",
+            "artist": "Rush",
+            "cover": "./assets/albumart/rush - 2112.jpg",
+            "description": "Some Test Text"
+          },
+          {
+            "title": "Islands",
+            "artist": "King Crimson",
+            "cover": "./assets/albumart/king crimson - islands.jpg",
+            "description": "Some Test Text"
+          },
+          {
+            "title": "Selling England By The Pound",
+            "artist": "Genesis",
+            "cover": "./assets/albumart/genesis - selling england by the pound.jpg",
+            "description": "Some Test Text"
+          },
+          {
+            "title": "Workingman's Dead",
+            "artist": "The Grateful Dead",
+            "cover": "./assets/albumart/the grateful dead - workingman's dead.jpg",
+            "description": "Some Test Text"
+          },
+          {
+            "title": "First Base",
+            "artist": "Babe Ruth",
+            "cover": "./assets/albumart/babe ruth - first base.jpg",
+            "description": "Some Test Text"
+          },
+          {
+            "title": "Bat Out of Hell",
+            "artist": "Meat Loaf",
+            "cover": "./assets/albumart/meat loaf - bat out of hell.jpg",
+            "description": "Some Test Text"
+          },
+          {
+            "title": "Boston",
+            "artist": "Boston",
+            "cover": "./assets/albumart/boston - boston.jpg",
+            "description": "Some Test Text"
+          },
+          {
+            "title": "Van Halen",
+            "artist": "Van Halen",
+            "cover": "./assets/albumart/van halen - van halen.jpg",
+            "description": "Some Test Text"
+          },
+          {
+            "title": "Dire Straits",
+            "artist": "Dire Straits",
+            "cover": "./assets/albumart/dire straits - dire straits.jpg",
+            "description": "Some Test Text"
+          },
+          {
+            "title": "Atom Heart Mother",
+            "artist": "Pink Floyd",
+            "cover": "./assets/albumart/pink floyd - atom heart mother.jpg",
+            "description": "Some Test Text"
+          },
+          {
+            "title": "The Clash",
+            "artist": "The Clash",
+            "cover": "./assets/albumart/the clash - the clash.jpg",
+            "description": "Some Test Text"
+          },
+          {
+            "title": "Thick As A Brick",
+            "artist": "Jethro Tull",
+            "cover": "./assets/albumart/jethro tull - thick as a brick.jpg",
+            "description": "Some Test Text"
+          },
+          {
+            "title": "Transformer",
+            "artist": "Lou Reed",
+            "cover": "./assets/albumart/lou reed - transformer.webp",
+            "description": "Some Test Text"
+          },
+          {
+            "title": "Machine Head",
+            "artist": "Deep Purple",
+            "cover": "./assets/albumart/deep purple - machinehead.jpg",
+            "description": "Some Test Text"
+          }
+        ]
+      },
+      {
+      "label": "Albums of The 1960's",
+      "background": "./assets/images/G2518.webp",
+      "albums": 
+        [
+          {
+            "title": "Willy And The Poor Boys",
+            "artist": "Creedence Clearwater Revival",
+            "cover": "./assets/albumart/creedence clearwater revival - willy and the poor boys.jpg",
+            "description": ""
+          },
+          {
+            "title": "In The Court of The Crimson King",
+            "artist": "King Crimson",
+            "cover": "./assets/albumart/king crimson - in the court of the crimson king [colour corrected].jpg",
+            "description": ""
+          },
+          {
+            "title": "The Doors",
+            "artist": "The Doors",
+            "cover": "./assets/albumart/the doors - the doors.jpg",
+            "description": ""
+          },
+          {
+            "title": "Led Zeppelin",
+            "artist": "Led Zeppelin",
+            "cover": "./assets/albumart/led zeppelin - led zeppelin.jpg",
+            "description": ""
+          },
+          {
+            "title": "Are You Experienced",
+            "artist": "The Jimi Hendrix Experience",
+            "cover": "./assets/albumart/the jimi hendrix experience - are you experienced.jpg",
+            "description": ""
+          },
+          {
+            "title": "Astral Weeks",
+            "artist": "Van Morrison",
+            "cover": "./assets/albumart/van morrison - astral weeks.jpg",
+            "description": ""
+          },
+          {
+            "title": "Bayou Country",
+            "artist": "Creedence Clearwater Revival",
+            "cover": "./assets/albumart/creedence clearwater revival - bayou country.jpg",
+            "description": ""
+          },
+          {
+            "title": "Magical Mystery Tour",
+            "artist": "The Beatles",
+            "cover": "./assets/albumart/the beatles - magical mystery tour.jpg",
+            "description": ""
+          },
+          {
+            "title": "Sgt. Pepper's Lonely Hearts Club Band",
+            "artist": "The Beatles",
+            "cover": "./assets/albumart/the beatles - sgt peppers lonely hearts club band.webp",
+            "description": ""
+          },
+          {
+            "title": "A Saucerful of Secrets",
+            "artist": "Pink Floyd",
+            "cover": "./assets/albumart/pink floyd - a saucerful of secrets.jpg",
+            "description": ""
+          }
+        ]
       }
   ]
 }

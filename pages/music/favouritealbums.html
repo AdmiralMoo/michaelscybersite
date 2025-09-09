@@ -26,7 +26,6 @@
   #set-picker button {
     cursor: pointer;
     padding: 6px 10px;
-    border-radius: 6px;
     border: 1px solid #bbb;
     background: #f3f3f3;
     font: 12px 'Franklin Gothic Medium','Arial Narrow',Arial,sans-serif;
@@ -39,7 +38,7 @@
     max-width: 800px;
     max-height: none;
     margin: auto;
-    overflow: visible; /* height set in JS */
+    overflow: visible; 
   }
 
   #stars {
@@ -56,9 +55,8 @@
     position: absolute;
     top: 50%;
     left: 50%;
-    /* background-image set from JSON per set */
     background-position: center;
-    background-size: cover; /* or 'stretch' if you prefer */
+    background-size: unset; 
     background-repeat: no-repeat;
     transform: translate(-50%,-50%);
     opacity: 1;
