@@ -3,6 +3,7 @@ document.addEventListener("DOMContentLoaded", () => {
     {
         currentPageCategory = "all";
     }
+
     const pageCategory = currentPageCategory;
     initArticlesDatabase(pageCategory);
 });
@@ -26,13 +27,27 @@ function initArticlesDatabase(category) {
         else {
             filteredArticles = data.filter(article => article.category === category);
         }
-
+        
         articlesDatabase = filteredArticles;
         updateDisplay(category);
     })
     .catch(error => console.error('Error loading JSON:', error));
 }
 
+/*
+function enumeratePages()
+{
+    const articleListContainer = document.getElementById("articleListContainer");
+    articleListContainer.innerHTML = '';
+
+    for (let i = 0; i < articlesDatabase.length; i++)
+    {
+        articleContainer.innerHTML += `
+            <li><a href="${articlesDatabase[i].link}">${articlesDatabase[i].name}</a></li>
+        `;
+    }
+}
+*/
 
 let currentPage = 0;
 const articlesPerPage = 6;

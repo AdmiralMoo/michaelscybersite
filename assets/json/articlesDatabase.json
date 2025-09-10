@@ -96,5 +96,12 @@
         "description": "A very basic page which shows my cassette tape collection",
         "image": "/assets/pictures/DSC_180790.webp",
         "link": "/pages/music/cassettes.html"
+    },
+    {
+        "category":"movies-x",
+        "name": "Pink Floyd's \"Echoes\" and 2001: A Space Odyssey",
+        "description": "My experience watching 2001: A Space Odyssey in 4k for the first time along with a mysterious perfect sync with Pink Floyd's \"Echoes\"",
+        "image": "/assets/pictures/",
+        "link": "/pages/movies/echoesodyssey.html"
     }
 ]
