@@ -1503,7 +1503,7 @@
         "artist": "Veruca Salt",
         "album": "Eight Arms To Hold You",
         "year": "1997",
-        "cover": "https://upload.wikimedia.org/wikipedia/en/f/fa/VerucaSalt-EightArmsToHoldYou.jpg",
+        "cover": "./assets/albumart/veruca salt - eight arms to hold you.webp",
         "description": "This album is hard hitting, exciting and fast-paced mix of heavy metal, hard rock and grunge. Veruca Salt is an absolutely awesome band—think of <i>Eight Arms To Hold You</i> like the more refined, polished big sister of Hammerbox's <i>Numb</i>. The melodies are catchy and sometimes lean into pop-hooks, but the riffs are heavy. There's just so much to enjoy here! This album was produced by Bob Rock, who did Metallica's <i>Black Album</i> and worked on Motley Crue's discography.<br><br>My favourite tracks off this one are \"One Last Time\", \"Volcano Girls\", \"Benjamin\" and \"Don't Make Me Prove It\".",
         "genre": "Grunge",
         "rating" : "83",
