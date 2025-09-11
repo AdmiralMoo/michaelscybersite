@@ -98,10 +98,10 @@
         "link": "/pages/music/cassettes.html"
     },
     {
-        "category":"movies-x",
+        "category":"movies",
         "name": "Pink Floyd's \"Echoes\" and 2001: A Space Odyssey",
         "description": "My experience watching 2001: A Space Odyssey in 4k for the first time along with a mysterious perfect sync with Pink Floyd's \"Echoes\"",
-        "image": "/assets/pictures/",
+        "image": "/assets/images/echodyssey.png",
         "link": "/pages/movies/echoesodyssey.html"
     }
 ]
