@@ -1526,5 +1526,46 @@
         ],
         "applemusic":"https://music.apple.com/us/album/the-rembrandts-l-p/373220996",
         "spotify":"https://open.spotify.com/album/6koDBGMqurYl3EZnaxCF7N"
+    },
+    {
+        "artist": "Supertramp",
+        "album": "Crime of The Century",
+        "year": "1974",
+        "cover": "./assets/albumart/supertramp - crime of the century.jpg",
+        "description": "I think that <i>Crime of The Century</i> (CD-3647 from A&M's \"Audio Master Plus Series\") is one of the best CD masters in existence. Certainly for me, I think it's the best one in my collection and right up there with the best I've ever heard. <br><br> This album has such a colossal soundstage. Every single instrument, note, sound—each texture on this album comes across in the highest fidelity. It sounds rich, colourful and crisp all in a way that can't be put into words: you've just got to hear it.<br><br>This brilliant collection of long, theatrical, larger-than-life tunes is just brilliant for the group's third effort: songs each blend into the next; the mixing and mastering is top-tier—and aside completely from anything technical, it's just a great, fun album to listen to.<br><br>Did you know that Rick Davies seamlessly linked the first two tracks—\"School\" and \"Bloody Well Right\"—so that listeners would think it's a concept album? I got tricked by this one; it's hilarious to that little act of mischief is still catching out listeners today.<br><br>My favourite tracks off this one are \"School\", \"Bloody Well Right\", \"Asylum\", \"Rudy\", \"Dreamer\" and \"If Everyone Was Listening\".",
+        "genre": "Progressive Pop",
+        "rating" : "90",
+        "duration": "44:10",
+        "tracks": [
+            "School", 
+            "Blodoy Well Right", 
+            "Hide In Your Shell",
+            "Asylum", 
+            "Dreamer", 
+            "Rudy", 
+            "If Everyone Was Listening", 
+            "Crime of The Century"
+        ],
+        "applemusic":"https://music.apple.com/us/album/the-rembrandts-l-p/373220996",
+        "spotify":"https://open.spotify.com/album/6koDBGMqurYl3EZnaxCF7N"
+    },
+    {
+        "artist": "Pink Floyd",
+        "album": "Wish You Were Here",
+        "year": "1975",
+        "cover": "./assets/albumart/pink floyd - wish you were here.jpg",
+        "description": "How do you follow up the greatest album of all time? Pink Floyd was at the top of their game in the 1970's, and they pulled it off with <i>Wish You Were Here</i>.<br><br>I've always said that <i>The Dark Side of The Moon</i> is my favourite album of all time, but in terms of the <i>absolute</i> greatest album of all time, it could be a multitude of releases—Pink Floyd has at least three, and this is one of them.<br><br>This album (as with a lot of their music, I suppose) is written about former bandmate and creative visionary Syd Barrett. It's a concept album just like it's predecessor, and it's just brilliant. It's gut wrenching it's sunny—it's all shades of all colours. I wish you'd listen to it!<br><br>My favourite tracks off this one are the titular \"Wish You Were Here\" and all the parts of \"Shine On You Crazy Diamond\".",
+        "genre": "Progressive Rock",
+        "rating" : "99",
+        "duration": "44:05",
+        "tracks": [
+            "Shine On You Crazy Diamond (Parts I—V)",
+            "Welcome To The Machine",
+            "Have A Cigar",
+            "Wish You Were Here",
+            "Shine On You Crazy Diamond (Parts VI—IX)"
+        ],
+        "applemusic":"https://music.apple.com/us/album/the-rembrandts-l-p/373220996",
+        "spotify":"https://open.spotify.com/album/6koDBGMqurYl3EZnaxCF7N"
     }
 ]
