@@ -8,7 +8,6 @@ document.addEventListener("DOMContentLoaded", () => {
     initArticlesDatabase(pageCategory);
 });
 
-// Flat array of articles (books)
 let articlesDatabase = [];
 
 function initArticlesDatabase(category) {    
@@ -31,23 +30,8 @@ function initArticlesDatabase(category) {
         articlesDatabase = filteredArticles;
         updateDisplay(category);
     })
-    .catch(error => console.error('Error loading JSON:', error));
+    .catch(error => console.error('The JSON loader shit itself:', error));
 }
-
-/*
-function enumeratePages()
-{
-    const articleListContainer = document.getElementById("articleListContainer");
-    articleListContainer.innerHTML = '';
-
-    for (let i = 0; i < articlesDatabase.length; i++)
-    {
-        articleContainer.innerHTML += `
-            <li><a href="${articlesDatabase[i].link}">${articlesDatabase[i].name}</a></li>
-        `;
-    }
-}
-*/
 
 let currentPage = 0;
 const articlesPerPage = 6;
@@ -59,7 +43,6 @@ function updateDisplay() {
     let articleLimit = Math.min((currentPage + 1) * articlesPerPage, articlesDatabase.length);
 
     for (let i = currentPage * articlesPerPage; i < articleLimit; i++) {
-
         articleContainer.innerHTML += `
         <div class="navbutton outsideborder">
             <a href="${articlesDatabase[i].link}" class="noformat">

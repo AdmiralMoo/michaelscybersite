@@ -66,7 +66,7 @@
         "id" : "brunner",
         "name" : "Blade Runner",
         "year" : "1982",
-        "body" : "",
+        "body" : "The effects in <i>Blade Runner</i> are absolutely stunning for their time—this movie is a testament to how good practical effects were at their peak. Can you believe that Ridley Scott made <i>Alien</i> and followed it up with this movie? <br><br>The set design is awesome, the acting is great and the soundtrack by Vangelis is just top notch. The movie is wild and retro-futuristic, though many aspects of this cyberpunk doomsday prophecy have come true in much less spectacular ways. I think it's a really cool movie and I've enjoyed it a couple times.",
         "tags" : "favourites;scifi;shelfmain",
         "imagefront" : "./assets/vhs/BladeRunner_Front.webp",
         "imagespine" : "./assets/vhs/BladeRunner_Spine.webp"
@@ -75,7 +75,7 @@
         "id" : "citkane",
         "name" : "Citizen Kane",
         "year" : "1941",
-        "body" : "",
+        "body" : "This one is widely considered one of the greatest films of all time—a clinic in filmmaking made by a man known for his radio and stage work. The movie is beautifully shot and extraordinarily well thought out; you'll see how many movies took inspiration from the techniques used in this one.<br><br>Many would say that this is a boring movie, and I suppose it is for all practical intents and purposes, but I still think it's great. I like the way it's set up and how it hooks you in, and I think it's really cool how all the little details were packed in there. Welles is a brilliant filmmaker, writer, actor and cinematographer—he played the main character in this movie: the newspaper mangate Charles Foster Kane. Welles went on to make dozens of brilliant movies and had a huge influence in hollywood. His final movie was one of my long-time childhood favourites, <i>The Transformers: The Movie (1986)</i>, where he voiced the villain Unicron.<br><br>Maybe this one isn't for everyone, but it deserves a place on my shelf. ",
         "tags" : "favourites;classic;shelfmain",
         "imagefront" : "./assets/vhs/CitizenKane_Front.webp",
         "imagespine" : "./assets/vhs/CitizenKane_Spine.webp"
@@ -84,7 +84,7 @@
         "id" : "ceottk",
         "name" : "Close Encounters of The Third Kind",
         "year" : "1977",
-        "body" : "",
+        "body" : "My Dad said that when this movie came out, everyone was playing those five iconic alien-summoning notes from the movie whenever there was a piano around. This is a cool movie. I've always been fascinated by the idea of close encounters of the third kind and the way this one unfolds is really cool.<br><br>It's a serious movie and a brilliant production, but it's also got humour in it (Devil's Tower, Wyoming: Mashed Potatoes Version) and a John Williams soundtrack. This one really holds up well.",
         "tags" : "favourites;scifi;shelfmain",
         "imagefront" : "./assets/vhs/CloseEncountersOfTheThirdKind_Front.webp",
         "imagespine" : "./assets/vhs/CloseEncountersOfTheThirdKind_Spine.webp"
@@ -174,7 +174,7 @@
         "id" : "joseyw",
         "name" : "The Outlaw Josey Wales",
         "year" : "1976",
-        "body" : "",
+        "body" : "Clint Eastwood is f****** awesome. In this movie, he's a classic Louis L'Amour-style cowpunching superhero: after losing his family, he goes out on a streak to take revenge and assembles a band of misfits through his natural charisma and good nature. Josey Wales is a very cool character—the exact kind of guy I like reading about in books.<br><br>Despite some heavy subject matter, this movie has some great humour of a very specific kind. I also find it very fun to quote Wales' \"I reckon so\".<br><br>Please watch this movie!",
         "tags" : "favourites;western;shelfmain",
         "imagefront" : "./assets/vhs/TheOutlawJoseyWales_Front.webp",
         "imagespine" : "./assets/vhs/TheOutlawJoseyWales_Spine.webp"
@@ -246,7 +246,7 @@
         "id" : "trek1",
         "name" : "Star Trek: The Motion Picture",
         "year" : "1979",
-        "body" : "",
+        "body" : "Around ten years before the release of this movie, the crowdfunded third season of <i>Star Trek</i> ended its run on television and Stanley Kubrick's <i>2001: A Space Odyssey</i> was released. After failing to launch <i>Star Trek: Phase II</i> and <i>Star Trek: The Animated Series</i> received a lukewarm reception, the franchise went dormant. Through the growing popularity of television reruns and fan conventions, Paramount Pictures was convinced to bring the crew back for a full-length motion picture.<br><br>What we got was this: <i>Star Trek The Motion Picture</i>. It's all the absurdity, wacky special effects, philosophical pondering and grandiosity of <i>2001: A Space Odyssey</i> but slightly less obtuse. It's a very cool movie, but it certainly doesn't feel like Star Trek—the rest of the Trek movies are just two-hour long episodes of TOS or TNG.<br><br>It's a fun one to return to from time to time. I've watched all the Star Trek movies a couple times.",
         "tags" : "scifi;shelfbottom",
         "imagefront" : "./assets/vhs/StarTrekI_Front.webp",
         "imagespine" : "./assets/vhs/StarTrekI_Spine.webp"
@@ -354,7 +354,7 @@
         "id" : "mario",
         "name" : "Super Mario Bros",
         "year" : "1993",
-        "body" : "",
+        "body" : "The original adaptation of <i>Super Mario Bros</i>",
         "tags" : "scifi;shelfmain",
         "imagefront" : "./assets/vhs/SuperMarioBros_Front.webp",
         "imagespine" : "./assets/vhs/SuperMarioBros_Spine.webp"
