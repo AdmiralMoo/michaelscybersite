@@ -1,0 +1,4095 @@
+BEGIN:VCALENDAR
+PRODID:-//E-DIARY//E-DIARY 1.0//EN
+VERSION:2.0
+METHOD:PUBLISH
+X-WR-CALNAME:MLB 
+X-Built-On-Cache-Miss:true
+BEGIN:VEVENT
+LAST-MODIFIED:20250913T171459Z
+DTSTAMP:20250913T171459Z
+LOCATION:Oriole Park at Camden Yards
+X-ECAL-SCHEDULE:66a8a9c0d928ec90cc25d64c
+DTSTART:20260528T073300Z
+DTEND:20260528T103300Z
+SUMMARY: Toronto Blue Jays @ Baltimore Orioles
+TRANSP:TRANSPARENT
+SEQUENCE:0
+UID:68ae74bf96ed7837432f3a25
+PRIORITY:5
+X-MICROSOFT-CDO-IMPORTANCE:1
+CLASS:PUBLIC
+DESCRIPTION:Follow this game on MLB Gameday or the MLB app.\n\nWatch live o
+ n MLB.TV\nhttps://e.cal.mlb/f/21Qj6J/3fWfv\n\nFollow This Game on Gameday\n
+ https://e.cal.mlb/f/21Qj6T/3fWfv\n\nCheck Out The Game Preview\nhttps://e.c
+ al.mlb/f/21Qj74/3fWfv\n\nWatch This Game's Highlights\nhttps://e.cal.mlb/f/
+ 21Qj7c/3fWfv\n\nFollow This Game in the MLB App\nhttps://e.cal.mlb/f/21Qj7n
+ /3fWfv\n\nPersonalize Your Visit with the MLB Ballpark App - Download the A
+ pp\nhttps://e.cal.mlb/f/21Qj7v/3fWfv\n\nManage my ECAL\nhttps://e.cal.mlb/f
+ /21Qj8c/3fWfv\n\n
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+LAST-MODIFIED:20250913T171459Z
+DTSTAMP:20250913T171459Z
+LOCATION:Rogers Centre
+X-ECAL-SCHEDULE:66a8a9c0d928ec90cc25d64c
+DTSTART:20260628T073300Z
+DTEND:20260628T103300Z
+SUMMARY: Texas Rangers @ Toronto Blue Jays
+TRANSP:TRANSPARENT
+SEQUENCE:0
+UID:68ae74bf96ed78291b49d46c
+PRIORITY:5
+X-MICROSOFT-CDO-IMPORTANCE:1
+CLASS:PUBLIC
+DESCRIPTION:Follow this game on MLB Gameday or the MLB app.\n\nWatch live o
+ n MLB.TV\nhttps://e.cal.mlb/f/21QhF5/3fWfv\n\nFollow This Game on Gameday\n
+ https://e.cal.mlb/f/21QhFl/3fWfv\n\nCheck Out The Game Preview\nhttps://e.c
+ al.mlb/f/21QhFv/3fWfv\n\nWatch This Game's Highlights\nhttps://e.cal.mlb/f/
+ 21QhFJ/3fWfv\n\nFollow This Game in the MLB App\nhttps://e.cal.mlb/f/21QhFT
+ /3fWfv\n\nPersonalize Your Visit with the MLB Ballpark App - Download the A
+ pp\nhttps://e.cal.mlb/f/21QhG2/3fWfv\n\nManage my ECAL\nhttps://e.cal.mlb/f
+ /21QhGy/3fWfv\n\n
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+LAST-MODIFIED:20250913T171459Z
+DTSTAMP:20250913T171459Z
+LOCATION:Rate Field
+X-ECAL-SCHEDULE:66a8a9c0d928ec90cc25d64c
+DTSTART:20260405T083300Z
+DTEND:20260405T113300Z
+SUMMARY: Toronto Blue Jays @ Chicago White Sox
+TRANSP:TRANSPARENT
+SEQUENCE:0
+UID:68ae74c096ed7837432f3a33
+PRIORITY:5
+X-MICROSOFT-CDO-IMPORTANCE:1
+CLASS:PUBLIC
+DESCRIPTION:Follow this game on MLB Gameday or the MLB app.\n\nWatch live o
+ n MLB.TV\nhttps://e.cal.mlb/f/21Qk2p/3fWfv\n\nFollow This Game on Gameday\n
+ https://e.cal.mlb/f/21Qk2D/3fWfv\n\nCheck Out The Game Preview\nhttps://e.c
+ al.mlb/f/21Qk2M/3fWfv\n\nWatch This Game's Highlights\nhttps://e.cal.mlb/f/
+ 21Qk2X/3fWfv\n\nFollow This Game in the MLB App\nhttps://e.cal.mlb/f/21Qk38
+ /3fWfv\n\nPersonalize Your Visit with the MLB Ballpark App - Download the A
+ pp\nhttps://e.cal.mlb/f/21Qk3h/3fWfv\n\nManage my ECAL\nhttps://e.cal.mlb/f
+ /21Qk3H/3fWfv\n\n
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+LAST-MODIFIED:20250913T171459Z
+DTSTAMP:20250913T171459Z
+LOCATION:Nationals Park
+X-ECAL-SCHEDULE:66a8a9c0d928ec90cc25d64c
+DTSTART:20260729T073300Z
+DTEND:20260729T103300Z
+SUMMARY: Toronto Blue Jays @ Washington Nationals
+TRANSP:TRANSPARENT
+SEQUENCE:0
+UID:68b5206096ed7827f82b5bbf
+PRIORITY:5
+X-MICROSOFT-CDO-IMPORTANCE:1
+CLASS:PUBLIC
+DESCRIPTION:Follow this game on MLB Gameday or the MLB app.\n\nWatch live o
+ n MLB.TV\nhttps://e.cal.mlb/f/24wDXx/3fWfv\n\nFollow This Game on Gameday\n
+ https://e.cal.mlb/f/24wDXB/3fWfv\n\nCheck Out The Game Preview\nhttps://e.c
+ al.mlb/f/24wDXF/3fWfv\n\nWatch This Game's Highlights\nhttps://e.cal.mlb/f/
+ 24wDXH/3fWfv\n\nFollow This Game in the MLB App\nhttps://e.cal.mlb/f/24wDXJ
+ /3fWfv\n\nPersonalize Your Visit with the MLB Ballpark App - Download the A
+ pp\nhttps://e.cal.mlb/f/24wDXK/3fWfv\n\nManage my ECAL\nhttps://e.cal.mlb/f
+ /24wDXN/3fWfv\n\n
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+LAST-MODIFIED:20250913T171459Z
+DTSTAMP:20250913T171459Z
+LOCATION:Nationals Park
+X-ECAL-SCHEDULE:66a8a9c0d928ec90cc25d64c
+DTSTART:20260728T073300Z
+DTEND:20260728T103300Z
+SUMMARY: Toronto Blue Jays @ Washington Nationals
+TRANSP:TRANSPARENT
+SEQUENCE:0
+UID:68b5206096ed7827f82b5bc0
+PRIORITY:5
+X-MICROSOFT-CDO-IMPORTANCE:1
+CLASS:PUBLIC
+DESCRIPTION:Follow this game on MLB Gameday or the MLB app.\n\nWatch live o
+ n MLB.TV\nhttps://e.cal.mlb/f/24wDXR/3fWfv\n\nFollow This Game on Gameday\n
+ https://e.cal.mlb/f/24wDXW/3fWfv\n\nCheck Out The Game Preview\nhttps://e.c
+ al.mlb/f/24wDXZ/3fWfv\n\nWatch This Game's Highlights\nhttps://e.cal.mlb/f/
+ 24wDY2/3fWfv\n\nFollow This Game in the MLB App\nhttps://e.cal.mlb/f/24wDY5
+ /3fWfv\n\nPersonalize Your Visit with the MLB Ballpark App - Download the A
+ pp\nhttps://e.cal.mlb/f/24wDY9/3fWfv\n\nManage my ECAL\nhttps://e.cal.mlb/f
+ /24wDYr/3fWfv\n\n
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+LAST-MODIFIED:20250913T171459Z
+DTSTAMP:20250913T171459Z
+LOCATION:Target Field
+X-ECAL-SCHEDULE:66a8a9c0d928ec90cc25d64c
+DTSTART:20260503T083300Z
+DTEND:20260503T113300Z
+SUMMARY: Toronto Blue Jays @ Minnesota Twins
+TRANSP:TRANSPARENT
+SEQUENCE:0
+UID:68ae74bf96ed781ad1318017
+PRIORITY:5
+X-MICROSOFT-CDO-IMPORTANCE:1
+CLASS:PUBLIC
+DESCRIPTION:Follow this game on MLB Gameday or the MLB app.\n\nWatch live o
+ n MLB.TV\nhttps://e.cal.mlb/f/21Qg2c/3fWfv\n\nFollow This Game on Gameday\n
+ https://e.cal.mlb/f/21Qg2q/3fWfv\n\nCheck Out The Game Preview\nhttps://e.c
+ al.mlb/f/21Qg2B/3fWfv\n\nWatch This Game's Highlights\nhttps://e.cal.mlb/f/
+ 21Qg2R/3fWfv\n\nFollow This Game in the MLB App\nhttps://e.cal.mlb/f/21Qg2Z
+ /3fWfv\n\nPersonalize Your Visit with the MLB Ballpark App - Download the A
+ pp\nhttps://e.cal.mlb/f/21Qg39/3fWfv\n\nManage my ECAL\nhttps://e.cal.mlb/f
+ /21Qg3Y/3fWfv\n\n
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+LAST-MODIFIED:20250913T171459Z
+DTSTAMP:20250913T171459Z
+LOCATION:Rate Field
+X-ECAL-SCHEDULE:66a8a9c0d928ec90cc25d64c
+DTSTART:20260404T083300Z
+DTEND:20260404T113300Z
+SUMMARY: Toronto Blue Jays @ Chicago White Sox
+TRANSP:TRANSPARENT
+SEQUENCE:0
+UID:68ae74bf96ed782156520400
+PRIORITY:5
+X-MICROSOFT-CDO-IMPORTANCE:1
+CLASS:PUBLIC
+DESCRIPTION:Follow this game on MLB Gameday or the MLB app.\n\nWatch live o
+ n MLB.TV\nhttps://e.cal.mlb/f/21QfHh/3fWfv\n\nFollow This Game on Gameday\n
+ https://e.cal.mlb/f/21QfHw/3fWfv\n\nCheck Out The Game Preview\nhttps://e.c
+ al.mlb/f/21QfHF/3fWfv\n\nWatch This Game's Highlights\nhttps://e.cal.mlb/f/
+ 21QfHP/3fWfv\n\nFollow This Game in the MLB App\nhttps://e.cal.mlb/f/21QfHY
+ /3fWfv\n\nPersonalize Your Visit with the MLB Ballpark App - Download the A
+ pp\nhttps://e.cal.mlb/f/21QfJc/3fWfv\n\nManage my ECAL\nhttps://e.cal.mlb/f
+ /21QfJK/3fWfv\n\n
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+LAST-MODIFIED:20250913T171459Z
+DTSTAMP:20250913T171459Z
+LOCATION:Angel Stadium
+X-ECAL-SCHEDULE:66a8a9c0d928ec90cc25d64c
+DTSTART:20260420T103300Z
+DTEND:20260420T133300Z
+SUMMARY: Toronto Blue Jays @ Los Angeles Angels
+TRANSP:TRANSPARENT
+SEQUENCE:0
+UID:68ae74bf96ed781ab97f453c
+PRIORITY:5
+X-MICROSOFT-CDO-IMPORTANCE:1
+CLASS:PUBLIC
+DESCRIPTION:Follow this game on MLB Gameday or the MLB app.\n\nWatch live o
+ n MLB.TV\nhttps://e.cal.mlb/f/21QfLV/3fWfv\n\nFollow This Game on Gameday\n
+ https://e.cal.mlb/f/21QfM5/3fWfv\n\nCheck Out The Game Preview\nhttps://e.c
+ al.mlb/f/21QfMp/3fWfv\n\nWatch This Game's Highlights\nhttps://e.cal.mlb/f/
+ 21QfMB/3fWfv\n\nFollow This Game in the MLB App\nhttps://e.cal.mlb/f/21QfML
+ /3fWfv\n\nPersonalize Your Visit with the MLB Ballpark App - Download the A
+ pp\nhttps://e.cal.mlb/f/21QfMW/3fWfv\n\nManage my ECAL\nhttps://e.cal.mlb/f
+ /21QfNF/3fWfv\n\n
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+LAST-MODIFIED:20250913T171459Z
+DTSTAMP:20250913T171459Z
+LOCATION:Target Field
+X-ECAL-SCHEDULE:66a8a9c0d928ec90cc25d64c
+DTSTART:20260502T083300Z
+DTEND:20260502T113300Z
+SUMMARY: Toronto Blue Jays @ Minnesota Twins
+TRANSP:TRANSPARENT
+SEQUENCE:0
+UID:68ae74bf96ed78291b49d45c
+PRIORITY:5
+X-MICROSOFT-CDO-IMPORTANCE:1
+CLASS:PUBLIC
+DESCRIPTION:Follow this game on MLB Gameday or the MLB app.\n\nWatch live o
+ n MLB.TV\nhttps://e.cal.mlb/f/21QfJY/3fWfv\n\nFollow This Game on Gameday\n
+ https://e.cal.mlb/f/21QfK9/3fWfv\n\nCheck Out The Game Preview\nhttps://e.c
+ al.mlb/f/21QfKl/3fWfv\n\nWatch This Game's Highlights\nhttps://e.cal.mlb/f/
+ 21QfKC/3fWfv\n\nFollow This Game in the MLB App\nhttps://e.cal.mlb/f/21QfKN
+ /3fWfv\n\nPersonalize Your Visit with the MLB Ballpark App - Download the A
+ pp\nhttps://e.cal.mlb/f/21QfL1/3fWfv\n\nManage my ECAL\nhttps://e.cal.mlb/f
+ /21QfLv/3fWfv\n\n
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+LAST-MODIFIED:20250913T171459Z
+DTSTAMP:20250913T171459Z
+LOCATION:Rogers Centre
+X-ECAL-SCHEDULE:66a8a9c0d928ec90cc25d64c
+DTSTART:20260429T073300Z
+DTEND:20260429T103300Z
+SUMMARY: Boston Red Sox @ Toronto Blue Jays
+TRANSP:TRANSPARENT
+SEQUENCE:0
+UID:68ae74bf96ed781ab97f453f
+PRIORITY:5
+X-MICROSOFT-CDO-IMPORTANCE:1
+CLASS:PUBLIC
+DESCRIPTION:Follow this game on MLB Gameday or the MLB app.\n\nWatch live o
+ n MLB.TV\nhttps://e.cal.mlb/f/21QfST/3fWfv\n\nFollow This Game on Gameday\n
+ https://e.cal.mlb/f/21QfT8/3fWfv\n\nCheck Out The Game Preview\nhttps://e.c
+ al.mlb/f/21QfTq/3fWfv\n\nWatch This Game's Highlights\nhttps://e.cal.mlb/f/
+ 21QfTC/3fWfv\n\nFollow This Game in the MLB App\nhttps://e.cal.mlb/f/21QfTV
+ /3fWfv\n\nPersonalize Your Visit with the MLB Ballpark App - Download the A
+ pp\nhttps://e.cal.mlb/f/21QfV5/3fWfv\n\nManage my ECAL\nhttps://e.cal.mlb/f
+ /21QfVN/3fWfv\n\n
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+LAST-MODIFIED:20250913T171459Z
+DTSTAMP:20250913T171459Z
+LOCATION:Great American Ball Park
+X-ECAL-SCHEDULE:66a8a9c0d928ec90cc25d64c
+DTSTART:20250903T224000Z
+DTEND:20250904T014000Z
+SUMMARY: Toronto Blue Jays @ Cincinnati Reds
+TRANSP:TRANSPARENT
+SEQUENCE:0
+UID:66ff9589d745973fd6723516
+PRIORITY:5
+X-MICROSOFT-CDO-IMPORTANCE:1
+CLASS:PUBLIC
+DESCRIPTION:Follow this game on MLB Gameday or the MLB app.\n\nWatch live o
+ n MLB.TV\nhttps://e.cal.mlb/f/HTMM1/3fWfv\n\nFollow This Game on Gameday\nh
+ ttps://e.cal.mlb/f/HTMM7/3fWfv\n\nCheck Out The Game Preview\nhttps://e.cal
+ .mlb/f/HTMMl/3fWfv\n\nWatch This Game's Highlights\nhttps://e.cal.mlb/f/HTM
+ Mt/3fWfv\n\nFollow This Game in the MLB App\nhttps://e.cal.mlb/f/HTMMB/3fWf
+ v\n\nPersonalize Your Visit with the MLB Ballpark App - Download the App\nh
+ ttps://e.cal.mlb/f/HTMMR/3fWfv\n\nManage my ECAL\nhttps://e.cal.mlb/f/HTMP9
+ /3fWfv\n\n
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+LAST-MODIFIED:20250913T171459Z
+DTSTAMP:20250913T171459Z
+LOCATION:Rogers Centre
+X-ECAL-SCHEDULE:66a8a9c0d928ec90cc25d64c
+DTSTART:20260406T073300Z
+DTEND:20260406T103300Z
+SUMMARY: Los Angeles Dodgers @ Toronto Blue Jays
+TRANSP:TRANSPARENT
+SEQUENCE:0
+UID:68ae74bf96ed783d5a0b346a
+PRIORITY:5
+X-MICROSOFT-CDO-IMPORTANCE:1
+CLASS:PUBLIC
+DESCRIPTION:Follow this game on MLB Gameday or the MLB app.\n\nWatch live o
+ n MLB.TV\nhttps://e.cal.mlb/f/21QfF4/3fWfv\n\nFollow This Game on Gameday\n
+ https://e.cal.mlb/f/21QfFb/3fWfv\n\nCheck Out The Game Preview\nhttps://e.c
+ al.mlb/f/21QfFF/3fWfv\n\nWatch This Game's Highlights\nhttps://e.cal.mlb/f/
+ 21QfG3/3fWfv\n\nFollow This Game in the MLB App\nhttps://e.cal.mlb/f/21QfGb
+ /3fWfv\n\nPersonalize Your Visit with the MLB Ballpark App - Download the A
+ pp\nhttps://e.cal.mlb/f/21QfGs/3fWfv\n\nManage my ECAL\nhttps://e.cal.mlb/f
+ /21QfH3/3fWfv\n\n
+BEGIN:VALARM
+TRIGGER:-P2DT
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+LAST-MODIFIED:20250913T171459Z
+DTSTAMP:20250913T171459Z
+LOCATION:Oriole Park at Camden Yards
+X-ECAL-SCHEDULE:66a8a9c0d928ec90cc25d64c
+DTSTART:20260531T073300Z
+DTEND:20260531T103300Z
+SUMMARY: Toronto Blue Jays @ Baltimore Orioles
+TRANSP:TRANSPARENT
+SEQUENCE:0
+UID:68ae74bf96ed78291b49d45f
+PRIORITY:5
+X-MICROSOFT-CDO-IMPORTANCE:1
+CLASS:PUBLIC
+DESCRIPTION:Follow this game on MLB Gameday or the MLB app.\n\nWatch live o
+ n MLB.TV\nhttps://e.cal.mlb/f/21QfNW/3fWfv\n\nFollow This Game on Gameday\n
+ https://e.cal.mlb/f/21QfP7/3fWfv\n\nCheck Out The Game Preview\nhttps://e.c
+ al.mlb/f/21QfPj/3fWfv\n\nWatch This Game's Highlights\nhttps://e.cal.mlb/f/
+ 21QfPx/3fWfv\n\nFollow This Game in the MLB App\nhttps://e.cal.mlb/f/21QfPH
+ /3fWfv\n\nPersonalize Your Visit with the MLB Ballpark App - Download the A
+ pp\nhttps://e.cal.mlb/f/21QfPS/3fWfv\n\nManage my ECAL\nhttps://e.cal.mlb/f
+ /21QfQF/3fWfv\n\n
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+LAST-MODIFIED:20250913T171459Z
+DTSTAMP:20250913T171459Z
+LOCATION:Rogers Centre
+X-ECAL-SCHEDULE:66a8a9c0d928ec90cc25d64c
+DTSTART:20260801T073300Z
+DTEND:20260801T103300Z
+SUMMARY: St. Louis Cardinals @ Toronto Blue Jays
+TRANSP:TRANSPARENT
+SEQUENCE:0
+UID:68b5206096ed7827f82b5bbe
+PRIORITY:5
+X-MICROSOFT-CDO-IMPORTANCE:1
+CLASS:PUBLIC
+DESCRIPTION:Follow this game on MLB Gameday or the MLB app.\n\nWatch live o
+ n MLB.TV\nhttps://e.cal.mlb/f/24wF1V/3fWfv\n\nFollow This Game on Gameday\n
+ https://e.cal.mlb/f/24wF1X/3fWfv\n\nCheck Out The Game Preview\nhttps://e.c
+ al.mlb/f/24wF22/3fWfv\n\nWatch This Game's Highlights\nhttps://e.cal.mlb/f/
+ 24wF23/3fWfv\n\nFollow This Game in the MLB App\nhttps://e.cal.mlb/f/24wF26
+ /3fWfv\n\nPersonalize Your Visit with the MLB Ballpark App - Download the A
+ pp\nhttps://e.cal.mlb/f/24wF2b/3fWfv\n\nManage my ECAL\nhttps://e.cal.mlb/f
+ /24wF2p/3fWfv\n\n
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+LAST-MODIFIED:20250913T171459Z
+DTSTAMP:20250913T171459Z
+LOCATION:Rogers Centre
+X-ECAL-SCHEDULE:66a8a9c0d928ec90cc25d64c
+DTSTART:20260425T073300Z
+DTEND:20260425T103300Z
+SUMMARY: Cleveland Guardians @ Toronto Blue Jays
+TRANSP:TRANSPARENT
+SEQUENCE:0
+UID:68ae74bf96ed7827f82b3fe3
+PRIORITY:5
+X-MICROSOFT-CDO-IMPORTANCE:1
+CLASS:PUBLIC
+DESCRIPTION:Follow this game on MLB Gameday or the MLB app.\n\nWatch live o
+ n MLB.TV\nhttps://e.cal.mlb/f/21QfW3/3fWfv\n\nFollow This Game on Gameday\n
+ https://e.cal.mlb/f/21QfWb/3fWfv\n\nCheck Out The Game Preview\nhttps://e.c
+ al.mlb/f/21QfWp/3fWfv\n\nWatch This Game's Highlights\nhttps://e.cal.mlb/f/
+ 21QfWy/3fWfv\n\nFollow This Game in the MLB App\nhttps://e.cal.mlb/f/21QfWJ
+ /3fWfv\n\nPersonalize Your Visit with the MLB Ballpark App - Download the A
+ pp\nhttps://e.cal.mlb/f/21QfWT/3fWfv\n\nManage my ECAL\nhttps://e.cal.mlb/f
+ /21QfXB/3fWfv\n\n
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+LAST-MODIFIED:20250913T171459Z
+DTSTAMP:20250913T171459Z
+LOCATION:Rogers Centre
+X-ECAL-SCHEDULE:66a8a9c0d928ec90cc25d64c
+DTSTART:20250923T230700Z
+DTEND:20250924T020700Z
+SUMMARY: Boston Red Sox @ Toronto Blue Jays
+TRANSP:TRANSPARENT
+SEQUENCE:0
+UID:67244f8dd7459799557f1974
+PRIORITY:5
+X-MICROSOFT-CDO-IMPORTANCE:1
+CLASS:PUBLIC
+DESCRIPTION:Follow this game on MLB Gameday or the MLB app.\n\nWatch live o
+ n MLB.TV\nhttps://e.cal.mlb/f/KtTs5/3fWfv\n\nFollow This Game on Gameday\nh
+ ttps://e.cal.mlb/f/KtTsd/3fWfv\n\nCheck Out The Game Preview\nhttps://e.cal
+ .mlb/f/KtTsn/3fWfv\n\nWatch This Game's Highlights\nhttps://e.cal.mlb/f/KtT
+ sG/3fWfv\n\nFollow This Game in the MLB App\nhttps://e.cal.mlb/f/KtTsS/3fWf
+ v\n\nPersonalize Your Visit with the MLB Ballpark App - Download the App\nh
+ ttps://e.cal.mlb/f/KtTt3/3fWfv\n\nManage my ECAL\nhttps://e.cal.mlb/f/KtTtH
+ /3fWfv\n\n
+BEGIN:VALARM
+TRIGGER:-P2DT
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+LAST-MODIFIED:20250913T171459Z
+DTSTAMP:20250913T171459Z
+LOCATION:Oracle Park
+X-ECAL-SCHEDULE:66a8a9c0d928ec90cc25d64c
+DTSTART:20260706T103300Z
+DTEND:20260706T133300Z
+SUMMARY: Toronto Blue Jays @ San Francisco Giants
+TRANSP:TRANSPARENT
+SEQUENCE:0
+UID:68b5205f96ed781ad2390858
+PRIORITY:5
+X-MICROSOFT-CDO-IMPORTANCE:1
+CLASS:PUBLIC
+DESCRIPTION:Follow this game on MLB Gameday or the MLB app.\n\nWatch live o
+ n MLB.TV\nhttps://e.cal.mlb/f/24wF3n/3fWfv\n\nFollow This Game on Gameday\n
+ https://e.cal.mlb/f/24wF3s/3fWfv\n\nCheck Out The Game Preview\nhttps://e.c
+ al.mlb/f/24wF3x/3fWfv\n\nWatch This Game's Highlights\nhttps://e.cal.mlb/f/
+ 24wF3B/3fWfv\n\nFollow This Game in the MLB App\nhttps://e.cal.mlb/f/24wF3F
+ /3fWfv\n\nPersonalize Your Visit with the MLB Ballpark App - Download the A
+ pp\nhttps://e.cal.mlb/f/24wF3G/3fWfv\n\nManage my ECAL\nhttps://e.cal.mlb/f
+ /24wF3Q/3fWfv\n\n
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+LAST-MODIFIED:20250913T171459Z
+DTSTAMP:20250913T171459Z
+LOCATION:Rogers Centre
+X-ECAL-SCHEDULE:66a8a9c0d928ec90cc25d64c
+DTSTART:20260721T073300Z
+DTEND:20260721T103300Z
+SUMMARY: Tampa Bay Rays @ Toronto Blue Jays
+TRANSP:TRANSPARENT
+SEQUENCE:0
+UID:68b5205f96ed781ad2390859
+PRIORITY:5
+X-MICROSOFT-CDO-IMPORTANCE:1
+CLASS:PUBLIC
+DESCRIPTION:Follow this game on MLB Gameday or the MLB app.\n\nWatch live o
+ n MLB.TV\nhttps://e.cal.mlb/f/24wF3Z/3fWfv\n\nFollow This Game on Gameday\n
+ https://e.cal.mlb/f/24wF48/3fWfv\n\nCheck Out The Game Preview\nhttps://e.c
+ al.mlb/f/24wF4j/3fWfv\n\nWatch This Game's Highlights\nhttps://e.cal.mlb/f/
+ 24wF4n/3fWfv\n\nFollow This Game in the MLB App\nhttps://e.cal.mlb/f/24wF4w
+ /3fWfv\n\nPersonalize Your Visit with the MLB Ballpark App - Download the A
+ pp\nhttps://e.cal.mlb/f/24wF4F/3fWfv\n\nManage my ECAL\nhttps://e.cal.mlb/f
+ /24wF4V/3fWfv\n\n
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+LAST-MODIFIED:20250913T171459Z
+DTSTAMP:20250913T171459Z
+LOCATION:Rogers Centre
+X-ECAL-SCHEDULE:66a8a9c0d928ec90cc25d64c
+DTSTART:20260701T073300Z
+DTEND:20260701T103300Z
+SUMMARY: New York Mets @ Toronto Blue Jays
+TRANSP:TRANSPARENT
+SEQUENCE:0
+UID:68ae74bf96ed781ab97f4543
+PRIORITY:5
+X-MICROSOFT-CDO-IMPORTANCE:1
+CLASS:PUBLIC
+DESCRIPTION:Follow this game on MLB Gameday or the MLB app.\n\nWatch live o
+ n MLB.TV\nhttps://e.cal.mlb/f/21QfZt/3fWfv\n\nFollow This Game on Gameday\n
+ https://e.cal.mlb/f/21QfZB/3fWfv\n\nCheck Out The Game Preview\nhttps://e.c
+ al.mlb/f/21QfZN/3fWfv\n\nWatch This Game's Highlights\nhttps://e.cal.mlb/f/
+ 21QfZY/3fWfv\n\nFollow This Game in the MLB App\nhttps://e.cal.mlb/f/21Qg19
+ /3fWfv\n\nPersonalize Your Visit with the MLB Ballpark App - Download the A
+ pp\nhttps://e.cal.mlb/f/21Qg1l/3fWfv\n\nManage my ECAL\nhttps://e.cal.mlb/f
+ /21Qg1V/3fWfv\n\n
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+LAST-MODIFIED:20250913T171459Z
+DTSTAMP:20250913T171459Z
+LOCATION:Rogers Centre
+X-ECAL-SCHEDULE:66a8a9c0d928ec90cc25d64c
+DTSTART:20260722T073300Z
+DTEND:20260722T103300Z
+SUMMARY: Tampa Bay Rays @ Toronto Blue Jays
+TRANSP:TRANSPARENT
+SEQUENCE:0
+UID:68b5205f96ed781ad239085a
+PRIORITY:5
+X-MICROSOFT-CDO-IMPORTANCE:1
+CLASS:PUBLIC
+DESCRIPTION:Follow this game on MLB Gameday or the MLB app.\n\nWatch live o
+ n MLB.TV\nhttps://e.cal.mlb/f/24wF5l/3fWfv\n\nFollow This Game on Gameday\n
+ https://e.cal.mlb/f/24wF5n/3fWfv\n\nCheck Out The Game Preview\nhttps://e.c
+ al.mlb/f/24wF5t/3fWfv\n\nWatch This Game's Highlights\nhttps://e.cal.mlb/f/
+ 24wF5F/3fWfv\n\nFollow This Game in the MLB App\nhttps://e.cal.mlb/f/24wF5H
+ /3fWfv\n\nPersonalize Your Visit with the MLB Ballpark App - Download the A
+ pp\nhttps://e.cal.mlb/f/24wF5J/3fWfv\n\nManage my ECAL\nhttps://e.cal.mlb/f
+ /24wF5W/3fWfv\n\n
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+LAST-MODIFIED:20250913T171459Z
+DTSTAMP:20250913T171459Z
+LOCATION:Kauffman Stadium
+X-ECAL-SCHEDULE:66a8a9c0d928ec90cc25d64c
+DTSTART:20250919T234000Z
+DTEND:20250920T024000Z
+SUMMARY: Toronto Blue Jays @ Kansas City Royals
+TRANSP:TRANSPARENT
+SEQUENCE:0
+UID:67244f8dd7459799557f1975
+PRIORITY:5
+X-MICROSOFT-CDO-IMPORTANCE:1
+CLASS:PUBLIC
+DESCRIPTION:Follow this game on MLB Gameday or the MLB app.\n\nWatch live o
+ n MLB.TV\nhttps://e.cal.mlb/f/KtTvG/3fWfv\n\nFollow This Game on Gameday\nh
+ ttps://e.cal.mlb/f/KtTvQ/3fWfv\n\nCheck Out The Game Preview\nhttps://e.cal
+ .mlb/f/KtTvY/3fWfv\n\nWatch This Game's Highlights\nhttps://e.cal.mlb/f/KtT
+ w6/3fWfv\n\nFollow This Game in the MLB App\nhttps://e.cal.mlb/f/KtTwh/3fWf
+ v\n\nPersonalize Your Visit with the MLB Ballpark App - Download the App\nh
+ ttps://e.cal.mlb/f/KtTwp/3fWfv\n\nManage my ECAL\nhttps://e.cal.mlb/f/KtTx5
+ /3fWfv\n\n
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+LAST-MODIFIED:20250913T171459Z
+DTSTAMP:20250913T171459Z
+LOCATION:George M. Steinbrenner Field
+X-ECAL-SCHEDULE:66a8a9c0d928ec90cc25d64c
+DTSTART:20260504T073300Z
+DTEND:20260504T103300Z
+SUMMARY: Toronto Blue Jays @ Tampa Bay Rays
+TRANSP:TRANSPARENT
+SEQUENCE:0
+UID:68ae74bf96ed7837432f3a15
+PRIORITY:5
+X-MICROSOFT-CDO-IMPORTANCE:1
+CLASS:PUBLIC
+DESCRIPTION:Follow this game on MLB Gameday or the MLB app.\n\nWatch live o
+ n MLB.TV\nhttps://e.cal.mlb/f/21Qg7P/3fWfv\n\nFollow This Game on Gameday\n
+ https://e.cal.mlb/f/21Qg7X/3fWfv\n\nCheck Out The Game Preview\nhttps://e.c
+ al.mlb/f/21Qg87/3fWfv\n\nWatch This Game's Highlights\nhttps://e.cal.mlb/f/
+ 21Qg8m/3fWfv\n\nFollow This Game in the MLB App\nhttps://e.cal.mlb/f/21Qg8y
+ /3fWfv\n\nPersonalize Your Visit with the MLB Ballpark App - Download the A
+ pp\nhttps://e.cal.mlb/f/21Qg8M/3fWfv\n\nManage my ECAL\nhttps://e.cal.mlb/f
+ /21Qg9p/3fWfv\n\n
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+LAST-MODIFIED:20250913T171459Z
+DTSTAMP:20250913T171459Z
+LOCATION:Angel Stadium
+X-ECAL-SCHEDULE:66a8a9c0d928ec90cc25d64c
+DTSTART:20260421T103300Z
+DTEND:20260421T133300Z
+SUMMARY: Toronto Blue Jays @ Los Angeles Angels
+TRANSP:TRANSPARENT
+SEQUENCE:0
+UID:68ae74bf96ed78291b49d461
+PRIORITY:5
+X-MICROSOFT-CDO-IMPORTANCE:1
+CLASS:PUBLIC
+DESCRIPTION:Follow this game on MLB Gameday or the MLB app.\n\nWatch live o
+ n MLB.TV\nhttps://e.cal.mlb/f/21Qg9N/3fWfv\n\nFollow This Game on Gameday\n
+ https://e.cal.mlb/f/21Qg9Y/3fWfv\n\nCheck Out The Game Preview\nhttps://e.c
+ al.mlb/f/21Qgbd/3fWfv\n\nWatch This Game's Highlights\nhttps://e.cal.mlb/f/
+ 21Qgbr/3fWfv\n\nFollow This Game in the MLB App\nhttps://e.cal.mlb/f/21QgbK
+ /3fWfv\n\nPersonalize Your Visit with the MLB Ballpark App - Download the A
+ pp\nhttps://e.cal.mlb/f/21QgbW/3fWfv\n\nManage my ECAL\nhttps://e.cal.mlb/f
+ /21Qgcy/3fWfv\n\n
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+LAST-MODIFIED:20250913T171459Z
+DTSTAMP:20250913T171459Z
+LOCATION:Rogers Centre
+X-ECAL-SCHEDULE:66a8a9c0d928ec90cc25d64c
+DTSTART:20260527T073300Z
+DTEND:20260527T103300Z
+SUMMARY: Miami Marlins @ Toronto Blue Jays
+TRANSP:TRANSPARENT
+SEQUENCE:0
+UID:68ae74bf96ed781ad235b534
+PRIORITY:5
+X-MICROSOFT-CDO-IMPORTANCE:1
+CLASS:PUBLIC
+DESCRIPTION:Follow this game on MLB Gameday or the MLB app.\n\nWatch live o
+ n MLB.TV\nhttps://e.cal.mlb/f/21QgcV/3fWfv\n\nFollow This Game on Gameday\n
+ https://e.cal.mlb/f/21Qgd6/3fWfv\n\nCheck Out The Game Preview\nhttps://e.c
+ al.mlb/f/21Qgdr/3fWfv\n\nWatch This Game's Highlights\nhttps://e.cal.mlb/f/
+ 21QgdB/3fWfv\n\nFollow This Game in the MLB App\nhttps://e.cal.mlb/f/21QgdL
+ /3fWfv\n\nPersonalize Your Visit with the MLB Ballpark App - Download the A
+ pp\nhttps://e.cal.mlb/f/21QgdZ/3fWfv\n\nManage my ECAL\nhttps://e.cal.mlb/f
+ /21QgfJ/3fWfv\n\n
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+LAST-MODIFIED:20250913T171459Z
+DTSTAMP:20250913T171459Z
+LOCATION:Comerica Park
+X-ECAL-SCHEDULE:66a8a9c0d928ec90cc25d64c
+DTSTART:20260515T073300Z
+DTEND:20260515T103300Z
+SUMMARY: Toronto Blue Jays @ Detroit Tigers
+TRANSP:TRANSPARENT
+SEQUENCE:0
+UID:68ae74bf96ed78204915f4ea
+PRIORITY:5
+X-MICROSOFT-CDO-IMPORTANCE:1
+CLASS:PUBLIC
+DESCRIPTION:Follow this game on MLB Gameday or the MLB app.\n\nWatch live o
+ n MLB.TV\nhttps://e.cal.mlb/f/21QgfW/3fWfv\n\nFollow This Game on Gameday\n
+ https://e.cal.mlb/f/21Qgg7/3fWfv\n\nCheck Out The Game Preview\nhttps://e.c
+ al.mlb/f/21QggL/3fWfv\n\nWatch This Game's Highlights\nhttps://e.cal.mlb/f/
+ 21QggT/3fWfv\n\nFollow This Game in the MLB App\nhttps://e.cal.mlb/f/21Qgh6
+ /3fWfv\n\nPersonalize Your Visit with the MLB Ballpark App - Download the A
+ pp\nhttps://e.cal.mlb/f/21Qghl/3fWfv\n\nManage my ECAL\nhttps://e.cal.mlb/f
+ /21Qgj5/3fWfv\n\n
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+LAST-MODIFIED:20250913T171459Z
+DTSTAMP:20250913T171459Z
+LOCATION:Rogers Centre
+X-ECAL-SCHEDULE:66a8a9c0d928ec90cc25d64c
+DTSTART:20260326T073300Z
+DTEND:20260326T103300Z
+SUMMARY: Athletics @ Toronto Blue Jays
+TRANSP:TRANSPARENT
+SEQUENCE:0
+UID:68ae74bf96ed781ad235b536
+PRIORITY:5
+X-MICROSOFT-CDO-IMPORTANCE:1
+CLASS:PUBLIC
+DESCRIPTION:Follow this game on MLB Gameday or the MLB app.\n\nWatch live o
+ n MLB.TV\nhttps://e.cal.mlb/f/21Qglh/3fWfv\n\nFollow This Game on Gameday\n
+ https://e.cal.mlb/f/21Qglz/3fWfv\n\nCheck Out The Game Preview\nhttps://e.c
+ al.mlb/f/21QglK/3fWfv\n\nWatch This Game's Highlights\nhttps://e.cal.mlb/f/
+ 21QglY/3fWfv\n\nFollow This Game in the MLB App\nhttps://e.cal.mlb/f/21Qgmg
+ /3fWfv\n\nPersonalize Your Visit with the MLB Ballpark App - Download the A
+ pp\nhttps://e.cal.mlb/f/21Qgmq/3fWfv\n\nManage my ECAL\nhttps://e.cal.mlb/f
+ /21Qgng/3fWfv\n\n
+BEGIN:VALARM
+TRIGGER:-P2DT
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+LAST-MODIFIED:20250913T171459Z
+DTSTAMP:20250913T171459Z
+LOCATION:Rogers Centre
+X-ECAL-SCHEDULE:66a8a9c0d928ec90cc25d64c
+DTSTART:20260625T073300Z
+DTEND:20260625T103300Z
+SUMMARY: Texas Rangers @ Toronto Blue Jays
+TRANSP:TRANSPARENT
+SEQUENCE:0
+UID:68ae74bf96ed781ab97f4547
+PRIORITY:5
+X-MICROSOFT-CDO-IMPORTANCE:1
+CLASS:PUBLIC
+DESCRIPTION:Follow this game on MLB Gameday or the MLB app.\n\nWatch live o
+ n MLB.TV\nhttps://e.cal.mlb/f/21QgnC/3fWfv\n\nFollow This Game on Gameday\n
+ https://e.cal.mlb/f/21Qgpj/3fWfv\n\nCheck Out The Game Preview\nhttps://e.c
+ al.mlb/f/21Qgps/3fWfv\n\nWatch This Game's Highlights\nhttps://e.cal.mlb/f/
+ 21QgpH/3fWfv\n\nFollow This Game in the MLB App\nhttps://e.cal.mlb/f/21QgpW
+ /3fWfv\n\nPersonalize Your Visit with the MLB Ballpark App - Download the A
+ pp\nhttps://e.cal.mlb/f/21Qgq9/3fWfv\n\nManage my ECAL\nhttps://e.cal.mlb/f
+ /21QgqQ/3fWfv\n\n
+BEGIN:VALARM
+TRIGGER:-P2DT
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+LAST-MODIFIED:20250913T171459Z
+DTSTAMP:20250913T171459Z
+LOCATION:Rogers Centre
+X-ECAL-SCHEDULE:66a8a9c0d928ec90cc25d64c
+DTSTART:20260719T073300Z
+DTEND:20260719T103300Z
+SUMMARY: Chicago White Sox @ Toronto Blue Jays
+TRANSP:TRANSPARENT
+SEQUENCE:0
+UID:68b5205f96ed781ad239085b
+PRIORITY:5
+X-MICROSOFT-CDO-IMPORTANCE:1
+CLASS:PUBLIC
+DESCRIPTION:Follow this game on MLB Gameday or the MLB app.\n\nWatch live o
+ n MLB.TV\nhttps://e.cal.mlb/f/24wF85/3fWfv\n\nFollow This Game on Gameday\n
+ https://e.cal.mlb/f/24wF89/3fWfv\n\nCheck Out The Game Preview\nhttps://e.c
+ al.mlb/f/24wF8g/3fWfv\n\nWatch This Game's Highlights\nhttps://e.cal.mlb/f/
+ 24wF8n/3fWfv\n\nFollow This Game in the MLB App\nhttps://e.cal.mlb/f/24wF8q
+ /3fWfv\n\nPersonalize Your Visit with the MLB Ballpark App - Download the A
+ pp\nhttps://e.cal.mlb/f/24wF8w/3fWfv\n\nManage my ECAL\nhttps://e.cal.mlb/f
+ /24wF8J/3fWfv\n\n
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+LAST-MODIFIED:20250913T171459Z
+DTSTAMP:20250913T171459Z
+LOCATION:Rogers Centre
+X-ECAL-SCHEDULE:66a8a9c0d928ec90cc25d64c
+DTSTART:20260331T073300Z
+DTEND:20260331T103300Z
+SUMMARY: Colorado Rockies @ Toronto Blue Jays
+TRANSP:TRANSPARENT
+SEQUENCE:0
+UID:68ae74bf96ed783d5a0b346c
+PRIORITY:5
+X-MICROSOFT-CDO-IMPORTANCE:1
+CLASS:PUBLIC
+DESCRIPTION:Follow this game on MLB Gameday or the MLB app.\n\nWatch live o
+ n MLB.TV\nhttps://e.cal.mlb/f/21QgwM/3fWfv\n\nFollow This Game on Gameday\n
+ https://e.cal.mlb/f/21QgwV/3fWfv\n\nCheck Out The Game Preview\nhttps://e.c
+ al.mlb/f/21Qgxq/3fWfv\n\nWatch This Game's Highlights\nhttps://e.cal.mlb/f/
+ 21QgxB/3fWfv\n\nFollow This Game in the MLB App\nhttps://e.cal.mlb/f/21QgxL
+ /3fWfv\n\nPersonalize Your Visit with the MLB Ballpark App - Download the A
+ pp\nhttps://e.cal.mlb/f/21QgxW/3fWfv\n\nManage my ECAL\nhttps://e.cal.mlb/f
+ /21QgyB/3fWfv\n\n
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+LAST-MODIFIED:20250913T171459Z
+DTSTAMP:20250913T171459Z
+LOCATION:Rogers Centre
+X-ECAL-SCHEDULE:66a8a9c0d928ec90cc25d64c
+DTSTART:20260511T073300Z
+DTEND:20260511T103300Z
+SUMMARY: Tampa Bay Rays @ Toronto Blue Jays
+TRANSP:TRANSPARENT
+SEQUENCE:0
+UID:68ae74bf96ed782edc1ed2bb
+PRIORITY:5
+X-MICROSOFT-CDO-IMPORTANCE:1
+CLASS:PUBLIC
+DESCRIPTION:Follow this game on MLB Gameday or the MLB app.\n\nWatch live o
+ n MLB.TV\nhttps://e.cal.mlb/f/21QgtL/3fWfv\n\nFollow This Game on Gameday\n
+ https://e.cal.mlb/f/21QgtX/3fWfv\n\nCheck Out The Game Preview\nhttps://e.c
+ al.mlb/f/21Qgv6/3fWfv\n\nWatch This Game's Highlights\nhttps://e.cal.mlb/f/
+ 21Qgvk/3fWfv\n\nFollow This Game in the MLB App\nhttps://e.cal.mlb/f/21Qgvz
+ /3fWfv\n\nPersonalize Your Visit with the MLB Ballpark App - Download the A
+ pp\nhttps://e.cal.mlb/f/21QgvQ/3fWfv\n\nManage my ECAL\nhttps://e.cal.mlb/f
+ /21Qgww/3fWfv\n\n
+BEGIN:VALARM
+TRIGGER:-P2DT
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+LAST-MODIFIED:20250913T171459Z
+DTSTAMP:20250913T171459Z
+LOCATION:Rogers Centre
+X-ECAL-SCHEDULE:66a8a9c0d928ec90cc25d64c
+DTSTART:20260328T073300Z
+DTEND:20260328T103300Z
+SUMMARY: Athletics @ Toronto Blue Jays
+TRANSP:TRANSPARENT
+SEQUENCE:0
+UID:68ae74bf96ed78204915f4ee
+PRIORITY:5
+X-MICROSOFT-CDO-IMPORTANCE:1
+CLASS:PUBLIC
+DESCRIPTION:Follow this game on MLB Gameday or the MLB app.\n\nWatch live o
+ n MLB.TV\nhttps://e.cal.mlb/f/21QgyW/3fWfv\n\nFollow This Game on Gameday\n
+ https://e.cal.mlb/f/21Qgz2/3fWfv\n\nCheck Out The Game Preview\nhttps://e.c
+ al.mlb/f/21Qgzg/3fWfv\n\nWatch This Game's Highlights\nhttps://e.cal.mlb/f/
+ 21Qgzv/3fWfv\n\nFollow This Game in the MLB App\nhttps://e.cal.mlb/f/21QgzP
+ /3fWfv\n\nPersonalize Your Visit with the MLB Ballpark App - Download the A
+ pp\nhttps://e.cal.mlb/f/21QgB3/3fWfv\n\nManage my ECAL\nhttps://e.cal.mlb/f
+ /21QgBR/3fWfv\n\n
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+LAST-MODIFIED:20250913T171459Z
+DTSTAMP:20250913T171459Z
+LOCATION:Rogers Centre
+X-ECAL-SCHEDULE:66a8a9c0d928ec90cc25d64c
+DTSTART:20260330T073300Z
+DTEND:20260330T103300Z
+SUMMARY: Colorado Rockies @ Toronto Blue Jays
+TRANSP:TRANSPARENT
+SEQUENCE:0
+UID:68ae74bf96ed781ad235b539
+PRIORITY:5
+X-MICROSOFT-CDO-IMPORTANCE:1
+CLASS:PUBLIC
+DESCRIPTION:Follow this game on MLB Gameday or the MLB app.\n\nWatch live o
+ n MLB.TV\nhttps://e.cal.mlb/f/21QgF7/3fWfv\n\nFollow This Game on Gameday\n
+ https://e.cal.mlb/f/21QgFl/3fWfv\n\nCheck Out The Game Preview\nhttps://e.c
+ al.mlb/f/21QgFB/3fWfv\n\nWatch This Game's Highlights\nhttps://e.cal.mlb/f/
+ 21QgFX/3fWfv\n\nFollow This Game in the MLB App\nhttps://e.cal.mlb/f/21QgGf
+ /3fWfv\n\nPersonalize Your Visit with the MLB Ballpark App - Download the A
+ pp\nhttps://e.cal.mlb/f/21QgGx/3fWfv\n\nManage my ECAL\nhttps://e.cal.mlb/f
+ /21QgHm/3fWfv\n\n
+BEGIN:VALARM
+TRIGGER:-P2DT
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+LAST-MODIFIED:20250913T171459Z
+DTSTAMP:20250913T171459Z
+LOCATION:Yankee Stadium
+X-ECAL-SCHEDULE:66a8a9c0d928ec90cc25d64c
+DTSTART:20260521T073300Z
+DTEND:20260521T103300Z
+SUMMARY: Toronto Blue Jays @ New York Yankees
+TRANSP:TRANSPARENT
+SEQUENCE:0
+UID:68ae74bf96ed781ab97f4549
+PRIORITY:5
+X-MICROSOFT-CDO-IMPORTANCE:1
+CLASS:PUBLIC
+DESCRIPTION:Follow this game on MLB Gameday or the MLB app.\n\nWatch live o
+ n MLB.TV\nhttps://e.cal.mlb/f/21QgKY/3fWfv\n\nFollow This Game on Gameday\n
+ https://e.cal.mlb/f/21QgLc/3fWfv\n\nCheck Out The Game Preview\nhttps://e.c
+ al.mlb/f/21QgLx/3fWfv\n\nWatch This Game's Highlights\nhttps://e.cal.mlb/f/
+ 21QgLQ/3fWfv\n\nFollow This Game in the MLB App\nhttps://e.cal.mlb/f/21QgM5
+ /3fWfv\n\nPersonalize Your Visit with the MLB Ballpark App - Download the A
+ pp\nhttps://e.cal.mlb/f/21QgMr/3fWfv\n\nManage my ECAL\nhttps://e.cal.mlb/f
+ /21QgNd/3fWfv\n\n
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+LAST-MODIFIED:20250913T171459Z
+DTSTAMP:20250913T171459Z
+LOCATION:Rogers Centre
+X-ECAL-SCHEDULE:66a8a9c0d928ec90cc25d64c
+DTSTART:20250910T230700Z
+DTEND:20250911T020700Z
+SUMMARY: Houston Astros @ Toronto Blue Jays
+TRANSP:TRANSPARENT
+SEQUENCE:0
+UID:67244f8dd745973fdd6a4ca5
+PRIORITY:5
+X-MICROSOFT-CDO-IMPORTANCE:1
+CLASS:PUBLIC
+DESCRIPTION:Follow this game on MLB Gameday or the MLB app.\n\nWatch live o
+ n MLB.TV\nhttps://e.cal.mlb/f/KtTHV/3fWfv\n\nFollow This Game on Gameday\nh
+ ttps://e.cal.mlb/f/KtTJ2/3fWfv\n\nCheck Out The Game Preview\nhttps://e.cal
+ .mlb/f/KtTJj/3fWfv\n\nWatch This Game's Highlights\nhttps://e.cal.mlb/f/KtT
+ Jw/3fWfv\n\nFollow This Game in the MLB App\nhttps://e.cal.mlb/f/KtTJH/3fWf
+ v\n\nPersonalize Your Visit with the MLB Ballpark App - Download the App\nh
+ ttps://e.cal.mlb/f/KtTJS/3fWfv\n\nManage my ECAL\nhttps://e.cal.mlb/f/KtTKq
+ /3fWfv\n\n
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+LAST-MODIFIED:20250913T171459Z
+DTSTAMP:20250913T171459Z
+LOCATION:Great American Ball Park
+X-ECAL-SCHEDULE:66a8a9c0d928ec90cc25d64c
+DTSTART:20250901T171000Z
+DTEND:20250901T201000Z
+SUMMARY: Toronto Blue Jays @ Cincinnati Reds
+TRANSP:TRANSPARENT
+SEQUENCE:0
+UID:66ff9589d745973fd672351d
+PRIORITY:5
+X-MICROSOFT-CDO-IMPORTANCE:1
+CLASS:PUBLIC
+DESCRIPTION:Follow this game on MLB Gameday or the MLB app.\n\nWatch live o
+ n MLB.TV\nhttps://e.cal.mlb/f/HTNhk/3fWfv\n\nFollow This Game on Gameday\nh
+ ttps://e.cal.mlb/f/HTNhv/3fWfv\n\nCheck Out The Game Preview\nhttps://e.cal
+ .mlb/f/HTNjb/3fWfv\n\nWatch This Game's Highlights\nhttps://e.cal.mlb/f/HTN
+ jt/3fWfv\n\nFollow This Game in the MLB App\nhttps://e.cal.mlb/f/HTNjM/3fWf
+ v\n\nPersonalize Your Visit with the MLB Ballpark App - Download the App\nh
+ ttps://e.cal.mlb/f/HTNjZ/3fWfv\n\nManage my ECAL\nhttps://e.cal.mlb/f/HTNkM
+ /3fWfv\n\n
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+LAST-MODIFIED:20250913T171459Z
+DTSTAMP:20250913T171459Z
+LOCATION:American Family Field
+X-ECAL-SCHEDULE:66a8a9c0d928ec90cc25d64c
+DTSTART:20260414T083300Z
+DTEND:20260414T113300Z
+SUMMARY: Toronto Blue Jays @ Milwaukee Brewers
+TRANSP:TRANSPARENT
+SEQUENCE:0
+UID:68ae74bf96ed78204915f4f0
+PRIORITY:5
+X-MICROSOFT-CDO-IMPORTANCE:1
+CLASS:PUBLIC
+DESCRIPTION:Follow this game on MLB Gameday or the MLB app.\n\nWatch live o
+ n MLB.TV\nhttps://e.cal.mlb/f/21QgR7/3fWfv\n\nFollow This Game on Gameday\n
+ https://e.cal.mlb/f/21QgRp/3fWfv\n\nCheck Out The Game Preview\nhttps://e.c
+ al.mlb/f/21QgRB/3fWfv\n\nWatch This Game's Highlights\nhttps://e.cal.mlb/f/
+ 21QgRQ/3fWfv\n\nFollow This Game in the MLB App\nhttps://e.cal.mlb/f/21QgS2
+ /3fWfv\n\nPersonalize Your Visit with the MLB Ballpark App - Download the A
+ pp\nhttps://e.cal.mlb/f/21QgSl/3fWfv\n\nManage my ECAL\nhttps://e.cal.mlb/f
+ /21QgTd/3fWfv\n\n
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+LAST-MODIFIED:20250913T171459Z
+DTSTAMP:20250913T171459Z
+LOCATION:Rogers Centre
+X-ECAL-SCHEDULE:66a8a9c0d928ec90cc25d64c
+DTSTART:20260526T073300Z
+DTEND:20260526T103300Z
+SUMMARY: Miami Marlins @ Toronto Blue Jays
+TRANSP:TRANSPARENT
+SEQUENCE:0
+UID:68ae74bf96ed783d5a0b346e
+PRIORITY:5
+X-MICROSOFT-CDO-IMPORTANCE:1
+CLASS:PUBLIC
+DESCRIPTION:Follow this game on MLB Gameday or the MLB app.\n\nWatch live o
+ n MLB.TV\nhttps://e.cal.mlb/f/21Qh2p/3fWfv\n\nFollow This Game on Gameday\n
+ https://e.cal.mlb/f/21Qh2C/3fWfv\n\nCheck Out The Game Preview\nhttps://e.c
+ al.mlb/f/21Qh2J/3fWfv\n\nWatch This Game's Highlights\nhttps://e.cal.mlb/f/
+ 21Qh2Y/3fWfv\n\nFollow This Game in the MLB App\nhttps://e.cal.mlb/f/21Qh3d
+ /3fWfv\n\nPersonalize Your Visit with the MLB Ballpark App - Download the A
+ pp\nhttps://e.cal.mlb/f/21Qh3v/3fWfv\n\nManage my ECAL\nhttps://e.cal.mlb/f
+ /21Qh4g/3fWfv\n\n
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+LAST-MODIFIED:20250913T171459Z
+DTSTAMP:20250913T171459Z
+LOCATION:Yankee Stadium
+X-ECAL-SCHEDULE:66a8a9c0d928ec90cc25d64c
+DTSTART:20260519T073300Z
+DTEND:20260519T103300Z
+SUMMARY: Toronto Blue Jays @ New York Yankees
+TRANSP:TRANSPARENT
+SEQUENCE:0
+UID:68ae74bf96ed78291b49d464
+PRIORITY:5
+X-MICROSOFT-CDO-IMPORTANCE:1
+CLASS:PUBLIC
+DESCRIPTION:Follow this game on MLB Gameday or the MLB app.\n\nWatch live o
+ n MLB.TV\nhttps://e.cal.mlb/f/21QgX6/3fWfv\n\nFollow This Game on Gameday\n
+ https://e.cal.mlb/f/21QgXj/3fWfv\n\nCheck Out The Game Preview\nhttps://e.c
+ al.mlb/f/21QgXt/3fWfv\n\nWatch This Game's Highlights\nhttps://e.cal.mlb/f/
+ 21QgXD/3fWfv\n\nFollow This Game in the MLB App\nhttps://e.cal.mlb/f/21QgXN
+ /3fWfv\n\nPersonalize Your Visit with the MLB Ballpark App - Download the A
+ pp\nhttps://e.cal.mlb/f/21QgY2/3fWfv\n\nManage my ECAL\nhttps://e.cal.mlb/f
+ /21QgYZ/3fWfv\n\n
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+LAST-MODIFIED:20250913T171459Z
+DTSTAMP:20250913T171459Z
+LOCATION:Wrigley Field
+X-ECAL-SCHEDULE:66a8a9c0d928ec90cc25d64c
+DTSTART:20260621T083300Z
+DTEND:20260621T113300Z
+SUMMARY: Toronto Blue Jays @ Chicago Cubs
+TRANSP:TRANSPARENT
+SEQUENCE:0
+UID:68ae74bf96ed781ad235b53a
+PRIORITY:5
+X-MICROSOFT-CDO-IMPORTANCE:1
+CLASS:PUBLIC
+DESCRIPTION:Follow this game on MLB Gameday or the MLB app.\n\nWatch live o
+ n MLB.TV\nhttps://e.cal.mlb/f/21QgTy/3fWfv\n\nFollow This Game on Gameday\n
+ https://e.cal.mlb/f/21QgTP/3fWfv\n\nCheck Out The Game Preview\nhttps://e.c
+ al.mlb/f/21QgV7/3fWfv\n\nWatch This Game's Highlights\nhttps://e.cal.mlb/f/
+ 21QgVn/3fWfv\n\nFollow This Game in the MLB App\nhttps://e.cal.mlb/f/21QgVH
+ /3fWfv\n\nPersonalize Your Visit with the MLB Ballpark App - Download the A
+ pp\nhttps://e.cal.mlb/f/21QgW3/3fWfv\n\nManage my ECAL\nhttps://e.cal.mlb/f
+ /21QgWG/3fWfv\n\n
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+LAST-MODIFIED:20250913T171459Z
+DTSTAMP:20250913T171459Z
+LOCATION:American Family Field
+X-ECAL-SCHEDULE:66a8a9c0d928ec90cc25d64c
+DTSTART:20260415T083300Z
+DTEND:20260415T113300Z
+SUMMARY: Toronto Blue Jays @ Milwaukee Brewers
+TRANSP:TRANSPARENT
+SEQUENCE:0
+UID:68ae74bf96ed78291b49d465
+PRIORITY:5
+X-MICROSOFT-CDO-IMPORTANCE:1
+CLASS:PUBLIC
+DESCRIPTION:Follow this game on MLB Gameday or the MLB app.\n\nWatch live o
+ n MLB.TV\nhttps://e.cal.mlb/f/21Qh4B/3fWfv\n\nFollow This Game on Gameday\n
+ https://e.cal.mlb/f/21Qh4J/3fWfv\n\nCheck Out The Game Preview\nhttps://e.c
+ al.mlb/f/21Qh4Y/3fWfv\n\nWatch This Game's Highlights\nhttps://e.cal.mlb/f/
+ 21Qh5f/3fWfv\n\nFollow This Game in the MLB App\nhttps://e.cal.mlb/f/21Qh5q
+ /3fWfv\n\nPersonalize Your Visit with the MLB Ballpark App - Download the A
+ pp\nhttps://e.cal.mlb/f/21Qh5F/3fWfv\n\nManage my ECAL\nhttps://e.cal.mlb/f
+ /21Qh6z/3fWfv\n\n
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+LAST-MODIFIED:20250913T171459Z
+DTSTAMP:20250913T171459Z
+LOCATION:Wrigley Field
+X-ECAL-SCHEDULE:66a8a9c0d928ec90cc25d64c
+DTSTART:20260619T083300Z
+DTEND:20260619T113300Z
+SUMMARY: Toronto Blue Jays @ Chicago Cubs
+TRANSP:TRANSPARENT
+SEQUENCE:0
+UID:68ae74bf96ed781ab97f454a
+PRIORITY:5
+X-MICROSOFT-CDO-IMPORTANCE:1
+CLASS:PUBLIC
+DESCRIPTION:Follow this game on MLB Gameday or the MLB app.\n\nWatch live o
+ n MLB.TV\nhttps://e.cal.mlb/f/21QgZk/3fWfv\n\nFollow This Game on Gameday\n
+ https://e.cal.mlb/f/21QgZw/3fWfv\n\nCheck Out The Game Preview\nhttps://e.c
+ al.mlb/f/21QgZL/3fWfv\n\nWatch This Game's Highlights\nhttps://e.cal.mlb/f/
+ 21QgZW/3fWfv\n\nFollow This Game in the MLB App\nhttps://e.cal.mlb/f/21Qh1b
+ /3fWfv\n\nPersonalize Your Visit with the MLB Ballpark App - Download the A
+ pp\nhttps://e.cal.mlb/f/21Qh1q/3fWfv\n\nManage my ECAL\nhttps://e.cal.mlb/f
+ /21Qh27/3fWfv\n\n
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+LAST-MODIFIED:20250913T171459Z
+DTSTAMP:20250913T171459Z
+LOCATION:Rogers Centre
+X-ECAL-SCHEDULE:66a8a9c0d928ec90cc25d64c
+DTSTART:20260410T073300Z
+DTEND:20260410T103300Z
+SUMMARY: Minnesota Twins @ Toronto Blue Jays
+TRANSP:TRANSPARENT
+SEQUENCE:0
+UID:68ae74bf96ed78215652040c
+PRIORITY:5
+X-MICROSOFT-CDO-IMPORTANCE:1
+CLASS:PUBLIC
+DESCRIPTION:Follow this game on MLB Gameday or the MLB app.\n\nWatch live o
+ n MLB.TV\nhttps://e.cal.mlb/f/21Qfzm/3fWfv\n\nFollow This Game on Gameday\n
+ https://e.cal.mlb/f/21Qfzw/3fWfv\n\nCheck Out The Game Preview\nhttps://e.c
+ al.mlb/f/21QfzJ/3fWfv\n\nWatch This Game's Highlights\nhttps://e.cal.mlb/f/
+ 21QfzN/3fWfv\n\nFollow This Game in the MLB App\nhttps://e.cal.mlb/f/21QfB3
+ /3fWfv\n\nPersonalize Your Visit with the MLB Ballpark App - Download the A
+ pp\nhttps://e.cal.mlb/f/21QfBf/3fWfv\n\nManage my ECAL\nhttps://e.cal.mlb/f
+ /21QfC7/3fWfv\n\n
+BEGIN:VALARM
+TRIGGER:-P2DT
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+LAST-MODIFIED:20250913T171459Z
+DTSTAMP:20250913T171459Z
+LOCATION:Kauffman Stadium
+X-ECAL-SCHEDULE:66a8a9c0d928ec90cc25d64c
+DTSTART:20250920T231000Z
+DTEND:20250921T021000Z
+SUMMARY: Toronto Blue Jays @ Kansas City Royals
+TRANSP:TRANSPARENT
+SEQUENCE:0
+UID:67244f8dd745973fd674dc66
+PRIORITY:5
+X-MICROSOFT-CDO-IMPORTANCE:1
+CLASS:PUBLIC
+DESCRIPTION:Follow this game on MLB Gameday or the MLB app.\n\nWatch live o
+ n MLB.TV\nhttps://e.cal.mlb/f/KtTRx/3fWfv\n\nFollow This Game on Gameday\nh
+ ttps://e.cal.mlb/f/KtTRH/3fWfv\n\nCheck Out The Game Preview\nhttps://e.cal
+ .mlb/f/KtTRV/3fWfv\n\nWatch This Game's Highlights\nhttps://e.cal.mlb/f/KtT
+ S4/3fWfv\n\nFollow This Game in the MLB App\nhttps://e.cal.mlb/f/KtTSk/3fWf
+ v\n\nPersonalize Your Visit with the MLB Ballpark App - Download the App\nh
+ ttps://e.cal.mlb/f/KtTSr/3fWfv\n\nManage my ECAL\nhttps://e.cal.mlb/f/KtTSY
+ /3fWfv\n\n
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+LAST-MODIFIED:20250913T171459Z
+DTSTAMP:20250913T171459Z
+LOCATION:Rogers Centre
+X-ECAL-SCHEDULE:66a8a9c0d928ec90cc25d64c
+DTSTART:20260411T073300Z
+DTEND:20260411T103300Z
+SUMMARY: Minnesota Twins @ Toronto Blue Jays
+TRANSP:TRANSPARENT
+SEQUENCE:0
+UID:68ae74bf96ed78291b49d467
+PRIORITY:5
+X-MICROSOFT-CDO-IMPORTANCE:1
+CLASS:PUBLIC
+DESCRIPTION:Follow this game on MLB Gameday or the MLB app.\n\nWatch live o
+ n MLB.TV\nhttps://e.cal.mlb/f/21Qh6W/3fWfv\n\nFollow This Game on Gameday\n
+ https://e.cal.mlb/f/21Qh7c/3fWfv\n\nCheck Out The Game Preview\nhttps://e.c
+ al.mlb/f/21Qh7p/3fWfv\n\nWatch This Game's Highlights\nhttps://e.cal.mlb/f/
+ 21Qh7F/3fWfv\n\nFollow This Game in the MLB App\nhttps://e.cal.mlb/f/21Qh7N
+ /3fWfv\n\nPersonalize Your Visit with the MLB Ballpark App - Download the A
+ pp\nhttps://e.cal.mlb/f/21Qh81/3fWfv\n\nManage my ECAL\nhttps://e.cal.mlb/f
+ /21Qh8K/3fWfv\n\n
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+LAST-MODIFIED:20250913T171459Z
+DTSTAMP:20250913T171459Z
+LOCATION:Rogers Centre
+X-ECAL-SCHEDULE:66a8a9c0d928ec90cc25d64c
+DTSTART:20260717T073300Z
+DTEND:20260717T103300Z
+SUMMARY: Chicago White Sox @ Toronto Blue Jays
+TRANSP:TRANSPARENT
+SEQUENCE:0
+UID:68b5206096ed781ad239085c
+PRIORITY:5
+X-MICROSOFT-CDO-IMPORTANCE:1
+CLASS:PUBLIC
+DESCRIPTION:Follow this game on MLB Gameday or the MLB app.\n\nWatch live o
+ n MLB.TV\nhttps://e.cal.mlb/f/24wFf5/3fWfv\n\nFollow This Game on Gameday\n
+ https://e.cal.mlb/f/24wFf9/3fWfv\n\nCheck Out The Game Preview\nhttps://e.c
+ al.mlb/f/24wFfd/3fWfv\n\nWatch This Game's Highlights\nhttps://e.cal.mlb/f/
+ 24wFfh/3fWfv\n\nFollow This Game in the MLB App\nhttps://e.cal.mlb/f/24wFfm
+ /3fWfv\n\nPersonalize Your Visit with the MLB Ballpark App - Download the A
+ pp\nhttps://e.cal.mlb/f/24wFfr/3fWfv\n\nManage my ECAL\nhttps://e.cal.mlb/f
+ /24wFfH/3fWfv\n\n
+BEGIN:VALARM
+TRIGGER:-P2DT
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+LAST-MODIFIED:20250913T171459Z
+DTSTAMP:20250913T171459Z
+LOCATION:Rogers Centre
+X-ECAL-SCHEDULE:66a8a9c0d928ec90cc25d64c
+DTSTART:20260720T073300Z
+DTEND:20260720T103300Z
+SUMMARY: Tampa Bay Rays @ Toronto Blue Jays
+TRANSP:TRANSPARENT
+SEQUENCE:0
+UID:68b5206096ed781ad239085d
+PRIORITY:5
+X-MICROSOFT-CDO-IMPORTANCE:1
+CLASS:PUBLIC
+DESCRIPTION:Follow this game on MLB Gameday or the MLB app.\n\nWatch live o
+ n MLB.TV\nhttps://e.cal.mlb/f/24wFfP/3fWfv\n\nFollow This Game on Gameday\n
+ https://e.cal.mlb/f/24wFfR/3fWfv\n\nCheck Out The Game Preview\nhttps://e.c
+ al.mlb/f/24wFfV/3fWfv\n\nWatch This Game's Highlights\nhttps://e.cal.mlb/f/
+ 24wFfZ/3fWfv\n\nFollow This Game in the MLB App\nhttps://e.cal.mlb/f/24wFg3
+ /3fWfv\n\nPersonalize Your Visit with the MLB Ballpark App - Download the A
+ pp\nhttps://e.cal.mlb/f/24wFg7/3fWfv\n\nManage my ECAL\nhttps://e.cal.mlb/f
+ /24wFgh/3fWfv\n\n
+BEGIN:VALARM
+TRIGGER:-P2DT
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+LAST-MODIFIED:20250913T171459Z
+DTSTAMP:20250913T171459Z
+LOCATION:T-Mobile Park
+X-ECAL-SCHEDULE:66a8a9c0d928ec90cc25d64c
+DTSTART:20260703T103300Z
+DTEND:20260703T133300Z
+SUMMARY: Toronto Blue Jays @ Seattle Mariners
+TRANSP:TRANSPARENT
+SEQUENCE:0
+UID:68ae74bf96ed7827f82b3fe9
+PRIORITY:5
+X-MICROSOFT-CDO-IMPORTANCE:1
+CLASS:PUBLIC
+DESCRIPTION:Follow this game on MLB Gameday or the MLB app.\n\nWatch live o
+ n MLB.TV\nhttps://e.cal.mlb/f/21Qg62/3fWfv\n\nFollow This Game on Gameday\n
+ https://e.cal.mlb/f/21Qg6b/3fWfv\n\nCheck Out The Game Preview\nhttps://e.c
+ al.mlb/f/21Qg6k/3fWfv\n\nWatch This Game's Highlights\nhttps://e.cal.mlb/f/
+ 21Qg6v/3fWfv\n\nFollow This Game in the MLB App\nhttps://e.cal.mlb/f/21Qg6D
+ /3fWfv\n\nPersonalize Your Visit with the MLB Ballpark App - Download the A
+ pp\nhttps://e.cal.mlb/f/21Qg6S/3fWfv\n\nManage my ECAL\nhttps://e.cal.mlb/f
+ /21Qg7y/3fWfv\n\n
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+LAST-MODIFIED:20250913T171459Z
+DTSTAMP:20250913T171459Z
+LOCATION:Rogers Centre
+X-ECAL-SCHEDULE:66a8a9c0d928ec90cc25d64c
+DTSTART:20260731T073300Z
+DTEND:20260731T103300Z
+SUMMARY: St. Louis Cardinals @ Toronto Blue Jays
+TRANSP:TRANSPARENT
+SEQUENCE:0
+UID:68b5206096ed781ad239085e
+PRIORITY:5
+X-MICROSOFT-CDO-IMPORTANCE:1
+CLASS:PUBLIC
+DESCRIPTION:Follow this game on MLB Gameday or the MLB app.\n\nWatch live o
+ n MLB.TV\nhttps://e.cal.mlb/f/24wFgv/3fWfv\n\nFollow This Game on Gameday\n
+ https://e.cal.mlb/f/24wFgC/3fWfv\n\nCheck Out The Game Preview\nhttps://e.c
+ al.mlb/f/24wFgM/3fWfv\n\nWatch This Game's Highlights\nhttps://e.cal.mlb/f/
+ 24wFgT/3fWfv\n\nFollow This Game in the MLB App\nhttps://e.cal.mlb/f/24wFh1
+ /3fWfv\n\nPersonalize Your Visit with the MLB Ballpark App - Download the A
+ pp\nhttps://e.cal.mlb/f/24wFh5/3fWfv\n\nManage my ECAL\nhttps://e.cal.mlb/f
+ /24wFht/3fWfv\n\n
+BEGIN:VALARM
+TRIGGER:-P2DT
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+LAST-MODIFIED:20250913T171459Z
+DTSTAMP:20250913T171459Z
+LOCATION:George M. Steinbrenner Field
+X-ECAL-SCHEDULE:66a8a9c0d928ec90cc25d64c
+DTSTART:20260506T073300Z
+DTEND:20260506T103300Z
+SUMMARY: Toronto Blue Jays @ Tampa Bay Rays
+TRANSP:TRANSPARENT
+SEQUENCE:0
+UID:68ae74bf96ed78204915f4f4
+PRIORITY:5
+X-MICROSOFT-CDO-IMPORTANCE:1
+CLASS:PUBLIC
+DESCRIPTION:Follow this game on MLB Gameday or the MLB app.\n\nWatch live o
+ n MLB.TV\nhttps://e.cal.mlb/f/21Qhcg/3fWfv\n\nFollow This Game on Gameday\n
+ https://e.cal.mlb/f/21Qhcv/3fWfv\n\nCheck Out The Game Preview\nhttps://e.c
+ al.mlb/f/21QhcN/3fWfv\n\nWatch This Game's Highlights\nhttps://e.cal.mlb/f/
+ 21Qhd2/3fWfv\n\nFollow This Game in the MLB App\nhttps://e.cal.mlb/f/21Qhds
+ /3fWfv\n\nPersonalize Your Visit with the MLB Ballpark App - Download the A
+ pp\nhttps://e.cal.mlb/f/21QhdF/3fWfv\n\nManage my ECAL\nhttps://e.cal.mlb/f
+ /21Qhfz/3fWfv\n\n
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+LAST-MODIFIED:20250913T171459Z
+DTSTAMP:20250913T171459Z
+LOCATION:Rogers Centre
+X-ECAL-SCHEDULE:66a8a9c0d928ec90cc25d64c
+DTSTART:20260509T073300Z
+DTEND:20260509T103300Z
+SUMMARY: Los Angeles Angels @ Toronto Blue Jays
+TRANSP:TRANSPARENT
+SEQUENCE:0
+UID:68ae74bf96ed78215652040e
+PRIORITY:5
+X-MICROSOFT-CDO-IMPORTANCE:1
+CLASS:PUBLIC
+DESCRIPTION:Follow this game on MLB Gameday or the MLB app.\n\nWatch live o
+ n MLB.TV\nhttps://e.cal.mlb/f/21QhfS/3fWfv\n\nFollow This Game on Gameday\n
+ https://e.cal.mlb/f/21Qhg9/3fWfv\n\nCheck Out The Game Preview\nhttps://e.c
+ al.mlb/f/21Qhgm/3fWfv\n\nWatch This Game's Highlights\nhttps://e.cal.mlb/f/
+ 21QhgB/3fWfv\n\nFollow This Game in the MLB App\nhttps://e.cal.mlb/f/21QhgS
+ /3fWfv\n\nPersonalize Your Visit with the MLB Ballpark App - Download the A
+ pp\nhttps://e.cal.mlb/f/21Qhh1/3fWfv\n\nManage my ECAL\nhttps://e.cal.mlb/f
+ /21QhhV/3fWfv\n\n
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+LAST-MODIFIED:20250913T171459Z
+DTSTAMP:20250913T171459Z
+LOCATION:Rogers Centre
+X-ECAL-SCHEDULE:66a8a9c0d928ec90cc25d64c
+DTSTART:20260401T073300Z
+DTEND:20260401T103300Z
+SUMMARY: Colorado Rockies @ Toronto Blue Jays
+TRANSP:TRANSPARENT
+SEQUENCE:0
+UID:68ae74bf96ed78215652040f
+PRIORITY:5
+X-MICROSOFT-CDO-IMPORTANCE:1
+CLASS:PUBLIC
+DESCRIPTION:Follow this game on MLB Gameday or the MLB app.\n\nWatch live o
+ n MLB.TV\nhttps://e.cal.mlb/f/21Qhjg/3fWfv\n\nFollow This Game on Gameday\n
+ https://e.cal.mlb/f/21Qhjx/3fWfv\n\nCheck Out The Game Preview\nhttps://e.c
+ al.mlb/f/21QhjM/3fWfv\n\nWatch This Game's Highlights\nhttps://e.cal.mlb/f/
+ 21Qhk1/3fWfv\n\nFollow This Game in the MLB App\nhttps://e.cal.mlb/f/21Qhkh
+ /3fWfv\n\nPersonalize Your Visit with the MLB Ballpark App - Download the A
+ pp\nhttps://e.cal.mlb/f/21Qhkq/3fWfv\n\nManage my ECAL\nhttps://e.cal.mlb/f
+ /21Qhl8/3fWfv\n\n
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+LAST-MODIFIED:20250913T171459Z
+DTSTAMP:20250913T171459Z
+LOCATION:Rogers Centre
+X-ECAL-SCHEDULE:66a8a9c0d928ec90cc25d64c
+DTSTART:20260607T073300Z
+DTEND:20260607T103300Z
+SUMMARY: Baltimore Orioles @ Toronto Blue Jays
+TRANSP:TRANSPARENT
+SEQUENCE:0
+UID:68ae74bf96ed78291b49d469
+PRIORITY:5
+X-MICROSOFT-CDO-IMPORTANCE:1
+CLASS:PUBLIC
+DESCRIPTION:Follow this game on MLB Gameday or the MLB app.\n\nWatch live o
+ n MLB.TV\nhttps://e.cal.mlb/f/21QhnD/3fWfv\n\nFollow This Game on Gameday\n
+ https://e.cal.mlb/f/21QhnW/3fWfv\n\nCheck Out The Game Preview\nhttps://e.c
+ al.mlb/f/21Qhpg/3fWfv\n\nWatch This Game's Highlights\nhttps://e.cal.mlb/f/
+ 21Qhpv/3fWfv\n\nFollow This Game in the MLB App\nhttps://e.cal.mlb/f/21QhpK
+ /3fWfv\n\nPersonalize Your Visit with the MLB Ballpark App - Download the A
+ pp\nhttps://e.cal.mlb/f/21Qhq1/3fWfv\n\nManage my ECAL\nhttps://e.cal.mlb/f
+ /21QhqJ/3fWfv\n\n
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+LAST-MODIFIED:20250913T171459Z
+DTSTAMP:20250913T171459Z
+LOCATION:Rogers Centre
+X-ECAL-SCHEDULE:66a8a9c0d928ec90cc25d64c
+DTSTART:20250913T190700Z
+DTEND:20250913T220700Z
+SUMMARY: Baltimore Orioles @ Toronto Blue Jays
+TRANSP:TRANSPARENT
+SEQUENCE:0
+UID:67244f8dd745973fd674dc69
+PRIORITY:5
+X-MICROSOFT-CDO-IMPORTANCE:1
+CLASS:PUBLIC
+DESCRIPTION:Follow this game on MLB Gameday or the MLB app.\n\nWatch live o
+ n MLB.TV\nhttps://e.cal.mlb/f/KtTXN/3fWfv\n\nFollow This Game on Gameday\nh
+ ttps://e.cal.mlb/f/KtTXX/3fWfv\n\nCheck Out The Game Preview\nhttps://e.cal
+ .mlb/f/KtTYg/3fWfv\n\nWatch This Game's Highlights\nhttps://e.cal.mlb/f/KtT
+ Yp/3fWfv\n\nFollow This Game in the MLB App\nhttps://e.cal.mlb/f/KtTYB/3fWf
+ v\n\nPersonalize Your Visit with the MLB Ballpark App - Download the App\nh
+ ttps://e.cal.mlb/f/KtTYL/3fWfv\n\nManage my ECAL\nhttps://e.cal.mlb/f/KtTZk
+ /3fWfv\n\n
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+LAST-MODIFIED:20250913T171459Z
+DTSTAMP:20250913T171459Z
+LOCATION:Rogers Centre
+X-ECAL-SCHEDULE:66a8a9c0d928ec90cc25d64c
+DTSTART:20260412T073300Z
+DTEND:20260412T103300Z
+SUMMARY: Minnesota Twins @ Toronto Blue Jays
+TRANSP:TRANSPARENT
+SEQUENCE:0
+UID:68ae74bf96ed7830836a4360
+PRIORITY:5
+X-MICROSOFT-CDO-IMPORTANCE:1
+CLASS:PUBLIC
+DESCRIPTION:Follow this game on MLB Gameday or the MLB app.\n\nWatch live o
+ n MLB.TV\nhttps://e.cal.mlb/f/21Qhlt/3fWfv\n\nFollow This Game on Gameday\n
+ https://e.cal.mlb/f/21QhlG/3fWfv\n\nCheck Out The Game Preview\nhttps://e.c
+ al.mlb/f/21QhlW/3fWfv\n\nWatch This Game's Highlights\nhttps://e.cal.mlb/f/
+ 21Qhm8/3fWfv\n\nFollow This Game in the MLB App\nhttps://e.cal.mlb/f/21Qhmm
+ /3fWfv\n\nPersonalize Your Visit with the MLB Ballpark App - Download the A
+ pp\nhttps://e.cal.mlb/f/21QhmC/3fWfv\n\nManage my ECAL\nhttps://e.cal.mlb/f
+ /21Qhnm/3fWfv\n\n
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+LAST-MODIFIED:20250913T171459Z
+DTSTAMP:20250913T171459Z
+LOCATION:Target Field
+X-ECAL-SCHEDULE:66a8a9c0d928ec90cc25d64c
+DTSTART:20260501T083300Z
+DTEND:20260501T113300Z
+SUMMARY: Toronto Blue Jays @ Minnesota Twins
+TRANSP:TRANSPARENT
+SEQUENCE:0
+UID:68ae74bf96ed783d5a0b3473
+PRIORITY:5
+X-MICROSOFT-CDO-IMPORTANCE:1
+CLASS:PUBLIC
+DESCRIPTION:Follow this game on MLB Gameday or the MLB app.\n\nWatch live o
+ n MLB.TV\nhttps://e.cal.mlb/f/21QhC1/3fWfv\n\nFollow This Game on Gameday\n
+ https://e.cal.mlb/f/21QhCd/3fWfv\n\nCheck Out The Game Preview\nhttps://e.c
+ al.mlb/f/21QhCn/3fWfv\n\nWatch This Game's Highlights\nhttps://e.cal.mlb/f/
+ 21QhCD/3fWfv\n\nFollow This Game in the MLB App\nhttps://e.cal.mlb/f/21QhCM
+ /3fWfv\n\nPersonalize Your Visit with the MLB Ballpark App - Download the A
+ pp\nhttps://e.cal.mlb/f/21QhCY/3fWfv\n\nManage my ECAL\nhttps://e.cal.mlb/f
+ /21QhDQ/3fWfv\n\n
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+LAST-MODIFIED:20250913T171459Z
+DTSTAMP:20250913T171459Z
+LOCATION:Rogers Centre
+X-ECAL-SCHEDULE:66a8a9c0d928ec90cc25d64c
+DTSTART:20250912T230700Z
+DTEND:20250913T020700Z
+SUMMARY: Baltimore Orioles @ Toronto Blue Jays
+TRANSP:TRANSPARENT
+SEQUENCE:0
+UID:67244f8dd745973fd674dc6e
+PRIORITY:5
+X-MICROSOFT-CDO-IMPORTANCE:1
+CLASS:PUBLIC
+DESCRIPTION:Follow this game on MLB Gameday or the MLB app.\n\nWatch live o
+ n MLB.TV\nhttps://e.cal.mlb/f/KtV5p/3fWfv\n\nFollow This Game on Gameday\nh
+ ttps://e.cal.mlb/f/KtV5w/3fWfv\n\nCheck Out The Game Preview\nhttps://e.cal
+ .mlb/f/KtV5D/3fWfv\n\nWatch This Game's Highlights\nhttps://e.cal.mlb/f/KtV
+ 5M/3fWfv\n\nFollow This Game in the MLB App\nhttps://e.cal.mlb/f/KtV5W/3fWf
+ v\n\nPersonalize Your Visit with the MLB Ballpark App - Download the App\nh
+ ttps://e.cal.mlb/f/KtV66/3fWfv\n\nManage my ECAL\nhttps://e.cal.mlb/f/KtV6M
+ /3fWfv\n\n
+BEGIN:VALARM
+TRIGGER:-P2DT
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+LAST-MODIFIED:20250913T171459Z
+DTSTAMP:20250913T171459Z
+LOCATION:Rogers Centre
+X-ECAL-SCHEDULE:66a8a9c0d928ec90cc25d64c
+DTSTART:20260614T073300Z
+DTEND:20260614T103300Z
+SUMMARY: New York Yankees @ Toronto Blue Jays
+TRANSP:TRANSPARENT
+SEQUENCE:0
+UID:68ae74bf96ed78204915f4f8
+PRIORITY:5
+X-MICROSOFT-CDO-IMPORTANCE:1
+CLASS:PUBLIC
+DESCRIPTION:Follow this game on MLB Gameday or the MLB app.\n\nWatch live o
+ n MLB.TV\nhttps://e.cal.mlb/f/21QhJR/3fWfv\n\nFollow This Game on Gameday\n
+ https://e.cal.mlb/f/21QhK1/3fWfv\n\nCheck Out The Game Preview\nhttps://e.c
+ al.mlb/f/21QhKb/3fWfv\n\nWatch This Game's Highlights\nhttps://e.cal.mlb/f/
+ 21QhKl/3fWfv\n\nFollow This Game in the MLB App\nhttps://e.cal.mlb/f/21QhKt
+ /3fWfv\n\nPersonalize Your Visit with the MLB Ballpark App - Download the A
+ pp\nhttps://e.cal.mlb/f/21QhKF/3fWfv\n\nManage my ECAL\nhttps://e.cal.mlb/f
+ /21QhL7/3fWfv\n\n
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+LAST-MODIFIED:20250913T171459Z
+DTSTAMP:20250913T171459Z
+LOCATION:Fenway Park
+X-ECAL-SCHEDULE:66a8a9c0d928ec90cc25d64c
+DTSTART:20260724T073300Z
+DTEND:20260724T103300Z
+SUMMARY: Toronto Blue Jays @ Boston Red Sox
+TRANSP:TRANSPARENT
+SEQUENCE:0
+UID:68b5206096ed781ad239085f
+PRIORITY:5
+X-MICROSOFT-CDO-IMPORTANCE:1
+CLASS:PUBLIC
+DESCRIPTION:Follow this game on MLB Gameday or the MLB app.\n\nWatch live o
+ n MLB.TV\nhttps://e.cal.mlb/f/24wFl9/3fWfv\n\nFollow This Game on Gameday\n
+ https://e.cal.mlb/f/24wFlf/3fWfv\n\nCheck Out The Game Preview\nhttps://e.c
+ al.mlb/f/24wFll/3fWfv\n\nWatch This Game's Highlights\nhttps://e.cal.mlb/f/
+ 24wFln/3fWfv\n\nFollow This Game in the MLB App\nhttps://e.cal.mlb/f/24wFlz
+ /3fWfv\n\nPersonalize Your Visit with the MLB Ballpark App - Download the A
+ pp\nhttps://e.cal.mlb/f/24wFlD/3fWfv\n\nManage my ECAL\nhttps://e.cal.mlb/f
+ /24wFlS/3fWfv\n\n
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+LAST-MODIFIED:20250913T171459Z
+DTSTAMP:20250913T171459Z
+LOCATION:Petco Park
+X-ECAL-SCHEDULE:66a8a9c0d928ec90cc25d64c
+DTSTART:20260712T103300Z
+DTEND:20260712T133300Z
+SUMMARY: Toronto Blue Jays @ San Diego Padres
+TRANSP:TRANSPARENT
+SEQUENCE:0
+UID:68b5206096ed781ad2390860
+PRIORITY:5
+X-MICROSOFT-CDO-IMPORTANCE:1
+CLASS:PUBLIC
+DESCRIPTION:Follow this game on MLB Gameday or the MLB app.\n\nWatch live o
+ n MLB.TV\nhttps://e.cal.mlb/f/24wFm3/3fWfv\n\nFollow This Game on Gameday\n
+ https://e.cal.mlb/f/24wFm4/3fWfv\n\nCheck Out The Game Preview\nhttps://e.c
+ al.mlb/f/24wFm6/3fWfv\n\nWatch This Game's Highlights\nhttps://e.cal.mlb/f/
+ 24wFm8/3fWfv\n\nFollow This Game in the MLB App\nhttps://e.cal.mlb/f/24wFmc
+ /3fWfv\n\nPersonalize Your Visit with the MLB Ballpark App - Download the A
+ pp\nhttps://e.cal.mlb/f/24wFmg/3fWfv\n\nManage my ECAL\nhttps://e.cal.mlb/f
+ /24wFms/3fWfv\n\n
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+LAST-MODIFIED:20250913T171459Z
+DTSTAMP:20250913T171459Z
+LOCATION:Nationals Park
+X-ECAL-SCHEDULE:66a8a9c0d928ec90cc25d64c
+DTSTART:20260727T073300Z
+DTEND:20260727T103300Z
+SUMMARY: Toronto Blue Jays @ Washington Nationals
+TRANSP:TRANSPARENT
+SEQUENCE:0
+UID:68b5206096ed781ad2390861
+PRIORITY:5
+X-MICROSOFT-CDO-IMPORTANCE:1
+CLASS:PUBLIC
+DESCRIPTION:Follow this game on MLB Gameday or the MLB app.\n\nWatch live o
+ n MLB.TV\nhttps://e.cal.mlb/f/24wFmy/3fWfv\n\nFollow This Game on Gameday\n
+ https://e.cal.mlb/f/24wFmD/3fWfv\n\nCheck Out The Game Preview\nhttps://e.c
+ al.mlb/f/24wFmN/3fWfv\n\nWatch This Game's Highlights\nhttps://e.cal.mlb/f/
+ 24wFmS/3fWfv\n\nFollow This Game in the MLB App\nhttps://e.cal.mlb/f/24wFmV
+ /3fWfv\n\nPersonalize Your Visit with the MLB Ballpark App - Download the A
+ pp\nhttps://e.cal.mlb/f/24wFmY/3fWfv\n\nManage my ECAL\nhttps://e.cal.mlb/f
+ /24wFn6/3fWfv\n\n
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+LAST-MODIFIED:20250913T171459Z
+DTSTAMP:20250913T171459Z
+LOCATION:Rogers Centre
+X-ECAL-SCHEDULE:66a8a9c0d928ec90cc25d64c
+DTSTART:20260424T073300Z
+DTEND:20260424T103300Z
+SUMMARY: Cleveland Guardians @ Toronto Blue Jays
+TRANSP:TRANSPARENT
+SEQUENCE:0
+UID:68ae74bf96ed781ad131801c
+PRIORITY:5
+X-MICROSOFT-CDO-IMPORTANCE:1
+CLASS:PUBLIC
+DESCRIPTION:Follow this game on MLB Gameday or the MLB app.\n\nWatch live o
+ n MLB.TV\nhttps://e.cal.mlb/f/21QhGQ/3fWfv\n\nFollow This Game on Gameday\n
+ https://e.cal.mlb/f/21QhH2/3fWfv\n\nCheck Out The Game Preview\nhttps://e.c
+ al.mlb/f/21QhHf/3fWfv\n\nWatch This Game's Highlights\nhttps://e.cal.mlb/f/
+ 21QhHm/3fWfv\n\nFollow This Game in the MLB App\nhttps://e.cal.mlb/f/21QhHx
+ /3fWfv\n\nPersonalize Your Visit with the MLB Ballpark App - Download the A
+ pp\nhttps://e.cal.mlb/f/21QhHN/3fWfv\n\nManage my ECAL\nhttps://e.cal.mlb/f
+ /21QhJB/3fWfv\n\n
+BEGIN:VALARM
+TRIGGER:-P2DT
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+LAST-MODIFIED:20250913T171459Z
+DTSTAMP:20250913T171459Z
+LOCATION:Rogers Centre
+X-ECAL-SCHEDULE:66a8a9c0d928ec90cc25d64c
+DTSTART:20260613T073300Z
+DTEND:20260613T103300Z
+SUMMARY: New York Yankees @ Toronto Blue Jays
+TRANSP:TRANSPARENT
+SEQUENCE:0
+UID:68ae74bf96ed7806a9714b7d
+PRIORITY:5
+X-MICROSOFT-CDO-IMPORTANCE:1
+CLASS:PUBLIC
+DESCRIPTION:Follow this game on MLB Gameday or the MLB app.\n\nWatch live o
+ n MLB.TV\nhttps://e.cal.mlb/f/21QfCq/3fWfv\n\nFollow This Game on Gameday\n
+ https://e.cal.mlb/f/21QfCB/3fWfv\n\nCheck Out The Game Preview\nhttps://e.c
+ al.mlb/f/21QfCN/3fWfv\n\nWatch This Game's Highlights\nhttps://e.cal.mlb/f/
+ 21QfD1/3fWfv\n\nFollow This Game in the MLB App\nhttps://e.cal.mlb/f/21QfD9
+ /3fWfv\n\nPersonalize Your Visit with the MLB Ballpark App - Download the A
+ pp\nhttps://e.cal.mlb/f/21QfDm/3fWfv\n\nManage my ECAL\nhttps://e.cal.mlb/f
+ /21QfDV/3fWfv\n\n
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+LAST-MODIFIED:20250913T171459Z
+DTSTAMP:20250913T171459Z
+LOCATION:Yankee Stadium
+X-ECAL-SCHEDULE:66a8a9c0d928ec90cc25d64c
+DTSTART:20260518T073300Z
+DTEND:20260518T103300Z
+SUMMARY: Toronto Blue Jays @ New York Yankees
+TRANSP:TRANSPARENT
+SEQUENCE:0
+UID:68ae74bf96ed78204915f4fc
+PRIORITY:5
+X-MICROSOFT-CDO-IMPORTANCE:1
+CLASS:PUBLIC
+DESCRIPTION:Follow this game on MLB Gameday or the MLB app.\n\nWatch live o
+ n MLB.TV\nhttps://e.cal.mlb/f/21QhNW/3fWfv\n\nFollow This Game on Gameday\n
+ https://e.cal.mlb/f/21QhP8/3fWfv\n\nCheck Out The Game Preview\nhttps://e.c
+ al.mlb/f/21QhPj/3fWfv\n\nWatch This Game's Highlights\nhttps://e.cal.mlb/f/
+ 21QhPt/3fWfv\n\nFollow This Game in the MLB App\nhttps://e.cal.mlb/f/21QhPy
+ /3fWfv\n\nPersonalize Your Visit with the MLB Ballpark App - Download the A
+ pp\nhttps://e.cal.mlb/f/21QhPH/3fWfv\n\nManage my ECAL\nhttps://e.cal.mlb/f
+ /21QhQk/3fWfv\n\n
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+LAST-MODIFIED:20250913T171459Z
+DTSTAMP:20250913T171459Z
+LOCATION:George M. Steinbrenner Field
+X-ECAL-SCHEDULE:66a8a9c0d928ec90cc25d64c
+DTSTART:20250917T230500Z
+DTEND:20250918T020500Z
+SUMMARY: Toronto Blue Jays @ Tampa Bay Rays
+TRANSP:TRANSPARENT
+SEQUENCE:0
+UID:67244f8dd745973fd674dc6f
+PRIORITY:5
+X-MICROSOFT-CDO-IMPORTANCE:1
+CLASS:PUBLIC
+DESCRIPTION:Follow this game on MLB Gameday or the MLB app.\n\nWatch live o
+ n MLB.TV\nhttps://e.cal.mlb/f/KtVdH/3fWfv\n\nFollow This Game on Gameday\nh
+ ttps://e.cal.mlb/f/KtVdQ/3fWfv\n\nCheck Out The Game Preview\nhttps://e.cal
+ .mlb/f/KtVf1/3fWfv\n\nWatch This Game's Highlights\nhttps://e.cal.mlb/f/KtV
+ fb/3fWfv\n\nFollow This Game in the MLB App\nhttps://e.cal.mlb/f/KtVfq/3fWf
+ v\n\nPersonalize Your Visit with the MLB Ballpark App - Download the App\nh
+ ttps://e.cal.mlb/f/KtVfC/3fWfv\n\nManage my ECAL\nhttps://e.cal.mlb/f/KtVgv
+ /3fWfv\n\n
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+LAST-MODIFIED:20250913T171459Z
+DTSTAMP:20250913T171459Z
+LOCATION:George M. Steinbrenner Field
+X-ECAL-SCHEDULE:66a8a9c0d928ec90cc25d64c
+DTSTART:20250918T171000Z
+DTEND:20250918T201000Z
+SUMMARY: Toronto Blue Jays @ Tampa Bay Rays
+TRANSP:TRANSPARENT
+SEQUENCE:0
+UID:67244f8dd745973fdd6a4cae
+PRIORITY:5
+X-MICROSOFT-CDO-IMPORTANCE:1
+CLASS:PUBLIC
+DESCRIPTION:Follow this game on MLB Gameday or the MLB app.\n\nWatch live o
+ n MLB.TV\nhttps://e.cal.mlb/f/KtVj4/3fWfv\n\nFollow This Game on Gameday\nh
+ ttps://e.cal.mlb/f/KtVjb/3fWfv\n\nCheck Out The Game Preview\nhttps://e.cal
+ .mlb/f/KtVjm/3fWfv\n\nWatch This Game's Highlights\nhttps://e.cal.mlb/f/KtV
+ jv/3fWfv\n\nFollow This Game in the MLB App\nhttps://e.cal.mlb/f/KtVjG/3fWf
+ v\n\nPersonalize Your Visit with the MLB Ballpark App - Download the App\nh
+ ttps://e.cal.mlb/f/KtVjP/3fWfv\n\nManage my ECAL\nhttps://e.cal.mlb/f/KtVkl
+ /3fWfv\n\n
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+LAST-MODIFIED:20250913T171459Z
+DTSTAMP:20250913T171459Z
+LOCATION:Rogers Centre
+X-ECAL-SCHEDULE:66a8a9c0d928ec90cc25d64c
+DTSTART:20260512T073300Z
+DTEND:20260512T103300Z
+SUMMARY: Tampa Bay Rays @ Toronto Blue Jays
+TRANSP:TRANSPARENT
+SEQUENCE:0
+UID:68ae74bf96ed7837432f3a22
+PRIORITY:5
+X-MICROSOFT-CDO-IMPORTANCE:1
+CLASS:PUBLIC
+DESCRIPTION:Follow this game on MLB Gameday or the MLB app.\n\nWatch live o
+ n MLB.TV\nhttps://e.cal.mlb/f/21QhSm/3fWfv\n\nFollow This Game on Gameday\n
+ https://e.cal.mlb/f/21QhSv/3fWfv\n\nCheck Out The Game Preview\nhttps://e.c
+ al.mlb/f/21QhSF/3fWfv\n\nWatch This Game's Highlights\nhttps://e.cal.mlb/f/
+ 21QhSV/3fWfv\n\nFollow This Game in the MLB App\nhttps://e.cal.mlb/f/21QhT7
+ /3fWfv\n\nPersonalize Your Visit with the MLB Ballpark App - Download the A
+ pp\nhttps://e.cal.mlb/f/21QhTl/3fWfv\n\nManage my ECAL\nhttps://e.cal.mlb/f
+ /21QhV3/3fWfv\n\n
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+LAST-MODIFIED:20250913T171459Z
+DTSTAMP:20250913T171459Z
+LOCATION:Rogers Centre
+X-ECAL-SCHEDULE:66a8a9c0d928ec90cc25d64c
+DTSTART:20260605T073300Z
+DTEND:20260605T103300Z
+SUMMARY: Baltimore Orioles @ Toronto Blue Jays
+TRANSP:TRANSPARENT
+SEQUENCE:0
+UID:68ae74bf96ed783d5a0b3476
+PRIORITY:5
+X-MICROSOFT-CDO-IMPORTANCE:1
+CLASS:PUBLIC
+DESCRIPTION:Follow this game on MLB Gameday or the MLB app.\n\nWatch live o
+ n MLB.TV\nhttps://e.cal.mlb/f/21QhWY/3fWfv\n\nFollow This Game on Gameday\n
+ https://e.cal.mlb/f/21QhX7/3fWfv\n\nCheck Out The Game Preview\nhttps://e.c
+ al.mlb/f/21QhXm/3fWfv\n\nWatch This Game's Highlights\nhttps://e.cal.mlb/f/
+ 21QhXz/3fWfv\n\nFollow This Game in the MLB App\nhttps://e.cal.mlb/f/21QhXL
+ /3fWfv\n\nPersonalize Your Visit with the MLB Ballpark App - Download the A
+ pp\nhttps://e.cal.mlb/f/21QhXR/3fWfv\n\nManage my ECAL\nhttps://e.cal.mlb/f
+ /21QhYl/3fWfv\n\n
+BEGIN:VALARM
+TRIGGER:-P2DT
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+LAST-MODIFIED:20250913T171459Z
+DTSTAMP:20250913T171459Z
+LOCATION:Rogers Centre
+X-ECAL-SCHEDULE:66a8a9c0d928ec90cc25d64c
+DTSTART:20250914T173700Z
+DTEND:20250914T203700Z
+SUMMARY: Baltimore Orioles @ Toronto Blue Jays
+TRANSP:TRANSPARENT
+SEQUENCE:0
+UID:67244f8dd745973fd674dc70
+PRIORITY:5
+X-MICROSOFT-CDO-IMPORTANCE:1
+CLASS:PUBLIC
+DESCRIPTION:Follow this game on MLB Gameday or the MLB app.\n\nWatch live o
+ n MLB.TV\nhttps://e.cal.mlb/f/KtVkL/3fWfv\n\nFollow This Game on Gameday\nh
+ ttps://e.cal.mlb/f/KtVl2/3fWfv\n\nCheck Out The Game Preview\nhttps://e.cal
+ .mlb/f/KtVlh/3fWfv\n\nWatch This Game's Highlights\nhttps://e.cal.mlb/f/KtV
+ lw/3fWfv\n\nFollow This Game in the MLB App\nhttps://e.cal.mlb/f/KtVlL/3fWf
+ v\n\nPersonalize Your Visit with the MLB Ballpark App - Download the App\nh
+ ttps://e.cal.mlb/f/KtVm4/3fWfv\n\nManage my ECAL\nhttps://e.cal.mlb/f/KtVmM
+ /3fWfv\n\n
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+LAST-MODIFIED:20250913T171459Z
+DTSTAMP:20250913T171459Z
+LOCATION:Truist Park
+X-ECAL-SCHEDULE:66a8a9c0d928ec90cc25d64c
+DTSTART:20260603T073300Z
+DTEND:20260603T103300Z
+SUMMARY: Toronto Blue Jays @ Atlanta Braves
+TRANSP:TRANSPARENT
+SEQUENCE:0
+UID:68ae74bf96ed78204915f4fd
+PRIORITY:5
+X-MICROSOFT-CDO-IMPORTANCE:1
+CLASS:PUBLIC
+DESCRIPTION:Follow this game on MLB Gameday or the MLB app.\n\nWatch live o
+ n MLB.TV\nhttps://e.cal.mlb/f/21QhQC/3fWfv\n\nFollow This Game on Gameday\n
+ https://e.cal.mlb/f/21QhQP/3fWfv\n\nCheck Out The Game Preview\nhttps://e.c
+ al.mlb/f/21QhQY/3fWfv\n\nWatch This Game's Highlights\nhttps://e.cal.mlb/f/
+ 21QhR9/3fWfv\n\nFollow This Game in the MLB App\nhttps://e.cal.mlb/f/21QhRn
+ /3fWfv\n\nPersonalize Your Visit with the MLB Ballpark App - Download the A
+ pp\nhttps://e.cal.mlb/f/21QhRy/3fWfv\n\nManage my ECAL\nhttps://e.cal.mlb/f
+ /21QhS5/3fWfv\n\n
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+LAST-MODIFIED:20250913T171459Z
+DTSTAMP:20250913T171459Z
+LOCATION:T-Mobile Park
+X-ECAL-SCHEDULE:66a8a9c0d928ec90cc25d64c
+DTSTART:20260705T103300Z
+DTEND:20260705T133300Z
+SUMMARY: Toronto Blue Jays @ Seattle Mariners
+TRANSP:TRANSPARENT
+SEQUENCE:0
+UID:68b5206096ed781ad2390862
+PRIORITY:5
+X-MICROSOFT-CDO-IMPORTANCE:1
+CLASS:PUBLIC
+DESCRIPTION:Follow this game on MLB Gameday or the MLB app.\n\nWatch live o
+ n MLB.TV\nhttps://e.cal.mlb/f/24wFp2/3fWfv\n\nFollow This Game on Gameday\n
+ https://e.cal.mlb/f/24wFp6/3fWfv\n\nCheck Out The Game Preview\nhttps://e.c
+ al.mlb/f/24wFpb/3fWfv\n\nWatch This Game's Highlights\nhttps://e.cal.mlb/f/
+ 24wFpg/3fWfv\n\nFollow This Game in the MLB App\nhttps://e.cal.mlb/f/24wFpv
+ /3fWfv\n\nPersonalize Your Visit with the MLB Ballpark App - Download the A
+ pp\nhttps://e.cal.mlb/f/24wFpy/3fWfv\n\nManage my ECAL\nhttps://e.cal.mlb/f
+ /24wFpM/3fWfv\n\n
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+LAST-MODIFIED:20250913T171459Z
+DTSTAMP:20250913T171459Z
+LOCATION:Fenway Park
+X-ECAL-SCHEDULE:66a8a9c0d928ec90cc25d64c
+DTSTART:20260617T073300Z
+DTEND:20260617T103300Z
+SUMMARY: Toronto Blue Jays @ Boston Red Sox
+TRANSP:TRANSPARENT
+SEQUENCE:0
+UID:68ae74bf96ed7830836a4367
+PRIORITY:5
+X-MICROSOFT-CDO-IMPORTANCE:1
+CLASS:PUBLIC
+DESCRIPTION:Follow this game on MLB Gameday or the MLB app.\n\nWatch live o
+ n MLB.TV\nhttps://e.cal.mlb/f/21QhYw/3fWfv\n\nFollow This Game on Gameday\n
+ https://e.cal.mlb/f/21QhYF/3fWfv\n\nCheck Out The Game Preview\nhttps://e.c
+ al.mlb/f/21QhYQ/3fWfv\n\nWatch This Game's Highlights\nhttps://e.cal.mlb/f/
+ 21QhYZ/3fWfv\n\nFollow This Game in the MLB App\nhttps://e.cal.mlb/f/21QhZ4
+ /3fWfv\n\nPersonalize Your Visit with the MLB Ballpark App - Download the A
+ pp\nhttps://e.cal.mlb/f/21QhZb/3fWfv\n\nManage my ECAL\nhttps://e.cal.mlb/f
+ /21QhZP/3fWfv\n\n
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+LAST-MODIFIED:20250913T171459Z
+DTSTAMP:20250913T171459Z
+LOCATION:Rogers Centre
+X-ECAL-SCHEDULE:66a8a9c0d928ec90cc25d64c
+DTSTART:20250831T173700Z
+DTEND:20250831T203700Z
+SUMMARY: Milwaukee Brewers @ Toronto Blue Jays
+TRANSP:TRANSPARENT
+SEQUENCE:0
+UID:66ff9589d745979952210083
+PRIORITY:5
+X-MICROSOFT-CDO-IMPORTANCE:1
+CLASS:PUBLIC
+DESCRIPTION:Follow this game on MLB Gameday or the MLB app.\n\nWatch live o
+ n MLB.TV\nhttps://e.cal.mlb/f/HTPpB/3fWfv\n\nFollow This Game on Gameday\nh
+ ttps://e.cal.mlb/f/HTPpP/3fWfv\n\nCheck Out The Game Preview\nhttps://e.cal
+ .mlb/f/HTPq2/3fWfv\n\nWatch This Game's Highlights\nhttps://e.cal.mlb/f/HTP
+ qj/3fWfv\n\nFollow This Game in the MLB App\nhttps://e.cal.mlb/f/HTPqt/3fWf
+ v\n\nPersonalize Your Visit with the MLB Ballpark App - Download the App\nh
+ ttps://e.cal.mlb/f/HTPqT/3fWfv\n\nManage my ECAL\nhttps://e.cal.mlb/f/HTPrs
+ /3fWfv\n\n
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+LAST-MODIFIED:20250913T171459Z
+DTSTAMP:20250913T171459Z
+LOCATION:Oriole Park at Camden Yards
+X-ECAL-SCHEDULE:66a8a9c0d928ec90cc25d64c
+DTSTART:20260529T073300Z
+DTEND:20260529T103300Z
+SUMMARY: Toronto Blue Jays @ Baltimore Orioles
+TRANSP:TRANSPARENT
+SEQUENCE:0
+UID:68ae74bf96ed7827f82b3ff1
+PRIORITY:5
+X-MICROSOFT-CDO-IMPORTANCE:1
+CLASS:PUBLIC
+DESCRIPTION:Follow this game on MLB Gameday or the MLB app.\n\nWatch live o
+ n MLB.TV\nhttps://e.cal.mlb/f/21Qj2S/3fWfv\n\nFollow This Game on Gameday\n
+ https://e.cal.mlb/f/21Qj2Z/3fWfv\n\nCheck Out The Game Preview\nhttps://e.c
+ al.mlb/f/21Qj3c/3fWfv\n\nWatch This Game's Highlights\nhttps://e.cal.mlb/f/
+ 21Qj3p/3fWfv\n\nFollow This Game in the MLB App\nhttps://e.cal.mlb/f/21Qj3B
+ /3fWfv\n\nPersonalize Your Visit with the MLB Ballpark App - Download the A
+ pp\nhttps://e.cal.mlb/f/21Qj3P/3fWfv\n\nManage my ECAL\nhttps://e.cal.mlb/f
+ /21Qj4t/3fWfv\n\n
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+LAST-MODIFIED:20250913T171459Z
+DTSTAMP:20250913T171459Z
+LOCATION:Rogers Centre
+X-ECAL-SCHEDULE:66a8a9c0d928ec90cc25d64c
+DTSTART:20250925T230700Z
+DTEND:20250926T020700Z
+SUMMARY: Boston Red Sox @ Toronto Blue Jays
+TRANSP:TRANSPARENT
+SEQUENCE:0
+UID:67244f8dd745973fd674dc71
+PRIORITY:5
+X-MICROSOFT-CDO-IMPORTANCE:1
+CLASS:PUBLIC
+DESCRIPTION:Follow this game on MLB Gameday or the MLB app.\n\nWatch live o
+ n MLB.TV\nhttps://e.cal.mlb/f/KtVrZ/3fWfv\n\nFollow This Game on Gameday\nh
+ ttps://e.cal.mlb/f/KtVsd/3fWfv\n\nCheck Out The Game Preview\nhttps://e.cal
+ .mlb/f/KtVsp/3fWfv\n\nWatch This Game's Highlights\nhttps://e.cal.mlb/f/KtV
+ sD/3fWfv\n\nFollow This Game in the MLB App\nhttps://e.cal.mlb/f/KtVsR/3fWf
+ v\n\nPersonalize Your Visit with the MLB Ballpark App - Download the App\nh
+ ttps://e.cal.mlb/f/KtVt4/3fWfv\n\nManage my ECAL\nhttps://e.cal.mlb/f/KtVtX
+ /3fWfv\n\n
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+LAST-MODIFIED:20250913T171459Z
+DTSTAMP:20250913T171459Z
+LOCATION:Petco Park
+X-ECAL-SCHEDULE:66a8a9c0d928ec90cc25d64c
+DTSTART:20260710T103300Z
+DTEND:20260710T133300Z
+SUMMARY: Toronto Blue Jays @ San Diego Padres
+TRANSP:TRANSPARENT
+SEQUENCE:0
+UID:68b5206096ed781ad2390863
+PRIORITY:5
+X-MICROSOFT-CDO-IMPORTANCE:1
+CLASS:PUBLIC
+DESCRIPTION:Follow this game on MLB Gameday or the MLB app.\n\nWatch live o
+ n MLB.TV\nhttps://e.cal.mlb/f/24wFr6/3fWfv\n\nFollow This Game on Gameday\n
+ https://e.cal.mlb/f/24wFrc/3fWfv\n\nCheck Out The Game Preview\nhttps://e.c
+ al.mlb/f/24wFrf/3fWfv\n\nWatch This Game's Highlights\nhttps://e.cal.mlb/f/
+ 24wFrh/3fWfv\n\nFollow This Game in the MLB App\nhttps://e.cal.mlb/f/24wFrl
+ /3fWfv\n\nPersonalize Your Visit with the MLB Ballpark App - Download the A
+ pp\nhttps://e.cal.mlb/f/24wFrn/3fWfv\n\nManage my ECAL\nhttps://e.cal.mlb/f
+ /24wFrD/3fWfv\n\n
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+LAST-MODIFIED:20250913T171459Z
+DTSTAMP:20250913T171459Z
+LOCATION:Rogers Centre
+X-ECAL-SCHEDULE:66a8a9c0d928ec90cc25d64c
+DTSTART:20260428T073300Z
+DTEND:20260428T103300Z
+SUMMARY: Boston Red Sox @ Toronto Blue Jays
+TRANSP:TRANSPARENT
+SEQUENCE:0
+UID:68ae74bf96ed7837432f3a23
+PRIORITY:5
+X-MICROSOFT-CDO-IMPORTANCE:1
+CLASS:PUBLIC
+DESCRIPTION:Follow this game on MLB Gameday or the MLB app.\n\nWatch live o
+ n MLB.TV\nhttps://e.cal.mlb/f/21QhVl/3fWfv\n\nFollow This Game on Gameday\n
+ https://e.cal.mlb/f/21QhVw/3fWfv\n\nCheck Out The Game Preview\nhttps://e.c
+ al.mlb/f/21QhVF/3fWfv\n\nWatch This Game's Highlights\nhttps://e.cal.mlb/f/
+ 21QhVN/3fWfv\n\nFollow This Game in the MLB App\nhttps://e.cal.mlb/f/21QhVY
+ /3fWfv\n\nPersonalize Your Visit with the MLB Ballpark App - Download the A
+ pp\nhttps://e.cal.mlb/f/21QhW7/3fWfv\n\nManage my ECAL\nhttps://e.cal.mlb/f
+ /21QhWH/3fWfv\n\n
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+LAST-MODIFIED:20250913T171459Z
+DTSTAMP:20250913T171459Z
+LOCATION:Rogers Centre
+X-ECAL-SCHEDULE:66a8a9c0d928ec90cc25d64c
+DTSTART:20260426T073300Z
+DTEND:20260426T103300Z
+SUMMARY: Cleveland Guardians @ Toronto Blue Jays
+TRANSP:TRANSPARENT
+SEQUENCE:0
+UID:68ae74bf96ed781ab97f4553
+PRIORITY:5
+X-MICROSOFT-CDO-IMPORTANCE:1
+CLASS:PUBLIC
+DESCRIPTION:Follow this game on MLB Gameday or the MLB app.\n\nWatch live o
+ n MLB.TV\nhttps://e.cal.mlb/f/21Qj13/3fWfv\n\nFollow This Game on Gameday\n
+ https://e.cal.mlb/f/21Qj19/3fWfv\n\nCheck Out The Game Preview\nhttps://e.c
+ al.mlb/f/21Qj1m/3fWfv\n\nWatch This Game's Highlights\nhttps://e.cal.mlb/f/
+ 21Qj1y/3fWfv\n\nFollow This Game in the MLB App\nhttps://e.cal.mlb/f/21Qj1L
+ /3fWfv\n\nPersonalize Your Visit with the MLB Ballpark App - Download the A
+ pp\nhttps://e.cal.mlb/f/21Qj1T/3fWfv\n\nManage my ECAL\nhttps://e.cal.mlb/f
+ /21Qj2x/3fWfv\n\n
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+LAST-MODIFIED:20250913T171459Z
+DTSTAMP:20250913T171459Z
+LOCATION:Comerica Park
+X-ECAL-SCHEDULE:66a8a9c0d928ec90cc25d64c
+DTSTART:20260516T073300Z
+DTEND:20260516T103300Z
+SUMMARY: Toronto Blue Jays @ Detroit Tigers
+TRANSP:TRANSPARENT
+SEQUENCE:0
+UID:68ae74bf96ed7827f82b3ff2
+PRIORITY:5
+X-MICROSOFT-CDO-IMPORTANCE:1
+CLASS:PUBLIC
+DESCRIPTION:Follow this game on MLB Gameday or the MLB app.\n\nWatch live o
+ n MLB.TV\nhttps://e.cal.mlb/f/21Qj8z/3fWfv\n\nFollow This Game on Gameday\n
+ https://e.cal.mlb/f/21Qj8H/3fWfv\n\nCheck Out The Game Preview\nhttps://e.c
+ al.mlb/f/21Qj8X/3fWfv\n\nWatch This Game's Highlights\nhttps://e.cal.mlb/f/
+ 21Qj96/3fWfv\n\nFollow This Game in the MLB App\nhttps://e.cal.mlb/f/21Qj9l
+ /3fWfv\n\nPersonalize Your Visit with the MLB Ballpark App - Download the A
+ pp\nhttps://e.cal.mlb/f/21Qj9s/3fWfv\n\nManage my ECAL\nhttps://e.cal.mlb/f
+ /21Qjb4/3fWfv\n\n
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+LAST-MODIFIED:20250913T171459Z
+DTSTAMP:20250913T171459Z
+LOCATION:Rogers Centre
+X-ECAL-SCHEDULE:66a8a9c0d928ec90cc25d64c
+DTSTART:20260723T073300Z
+DTEND:20260723T103300Z
+SUMMARY: Tampa Bay Rays @ Toronto Blue Jays
+TRANSP:TRANSPARENT
+SEQUENCE:0
+UID:68b5206096ed781ad2390864
+PRIORITY:5
+X-MICROSOFT-CDO-IMPORTANCE:1
+CLASS:PUBLIC
+DESCRIPTION:Follow this game on MLB Gameday or the MLB app.\n\nWatch live o
+ n MLB.TV\nhttps://e.cal.mlb/f/24wFsH/3fWfv\n\nFollow This Game on Gameday\n
+ https://e.cal.mlb/f/24wFsJ/3fWfv\n\nCheck Out The Game Preview\nhttps://e.c
+ al.mlb/f/24wFsM/3fWfv\n\nWatch This Game's Highlights\nhttps://e.cal.mlb/f/
+ 24wFsQ/3fWfv\n\nFollow This Game in the MLB App\nhttps://e.cal.mlb/f/24wFsT
+ /3fWfv\n\nPersonalize Your Visit with the MLB Ballpark App - Download the A
+ pp\nhttps://e.cal.mlb/f/24wFsX/3fWfv\n\nManage my ECAL\nhttps://e.cal.mlb/f
+ /24wFth/3fWfv\n\n
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+LAST-MODIFIED:20250913T171459Z
+DTSTAMP:20250913T171459Z
+LOCATION:Rogers Centre
+X-ECAL-SCHEDULE:66a8a9c0d928ec90cc25d64c
+DTSTART:20260606T073300Z
+DTEND:20260606T103300Z
+SUMMARY: Baltimore Orioles @ Toronto Blue Jays
+TRANSP:TRANSPARENT
+SEQUENCE:0
+UID:68ae74bf96ed783d5a0b347a
+PRIORITY:5
+X-MICROSOFT-CDO-IMPORTANCE:1
+CLASS:PUBLIC
+DESCRIPTION:Follow this game on MLB Gameday or the MLB app.\n\nWatch live o
+ n MLB.TV\nhttps://e.cal.mlb/f/21Qjdh/3fWfv\n\nFollow This Game on Gameday\n
+ https://e.cal.mlb/f/21QjdC/3fWfv\n\nCheck Out The Game Preview\nhttps://e.c
+ al.mlb/f/21QjdL/3fWfv\n\nWatch This Game's Highlights\nhttps://e.cal.mlb/f/
+ 21Qjf1/3fWfv\n\nFollow This Game in the MLB App\nhttps://e.cal.mlb/f/21Qjfd
+ /3fWfv\n\nPersonalize Your Visit with the MLB Ballpark App - Download the A
+ pp\nhttps://e.cal.mlb/f/21QjfL/3fWfv\n\nManage my ECAL\nhttps://e.cal.mlb/f
+ /21QjgG/3fWfv\n\n
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+LAST-MODIFIED:20250913T171459Z
+DTSTAMP:20250913T171459Z
+LOCATION:Chase Field
+X-ECAL-SCHEDULE:66a8a9c0d928ec90cc25d64c
+DTSTART:20260419T103300Z
+DTEND:20260419T133300Z
+SUMMARY: Toronto Blue Jays @ Arizona Diamondbacks
+TRANSP:TRANSPARENT
+SEQUENCE:0
+UID:68ae74bf96ed7837432f3a27
+PRIORITY:5
+X-MICROSOFT-CDO-IMPORTANCE:1
+CLASS:PUBLIC
+DESCRIPTION:Follow this game on MLB Gameday or the MLB app.\n\nWatch live o
+ n MLB.TV\nhttps://e.cal.mlb/f/21Qjh1/3fWfv\n\nFollow This Game on Gameday\n
+ https://e.cal.mlb/f/21Qjh9/3fWfv\n\nCheck Out The Game Preview\nhttps://e.c
+ al.mlb/f/21Qjhj/3fWfv\n\nWatch This Game's Highlights\nhttps://e.cal.mlb/f/
+ 21Qjhs/3fWfv\n\nFollow This Game in the MLB App\nhttps://e.cal.mlb/f/21QjhH
+ /3fWfv\n\nPersonalize Your Visit with the MLB Ballpark App - Download the A
+ pp\nhttps://e.cal.mlb/f/21QjhP/3fWfv\n\nManage my ECAL\nhttps://e.cal.mlb/f
+ /21Qjjw/3fWfv\n\n
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+LAST-MODIFIED:20250913T171459Z
+DTSTAMP:20250913T171459Z
+LOCATION:Rogers Centre
+X-ECAL-SCHEDULE:66a8a9c0d928ec90cc25d64c
+DTSTART:20250928T190700Z
+DTEND:20250928T220700Z
+SUMMARY: Tampa Bay Rays @ Toronto Blue Jays
+TRANSP:TRANSPARENT
+SEQUENCE:0
+UID:67244f8dd745973fd674dc72
+PRIORITY:5
+X-MICROSOFT-CDO-IMPORTANCE:1
+CLASS:PUBLIC
+DESCRIPTION:Follow this game on MLB Gameday or the MLB app.\n\nWatch live o
+ n MLB.TV\nhttps://e.cal.mlb/f/KtVzv/3fWfv\n\nFollow This Game on Gameday\nh
+ ttps://e.cal.mlb/f/KtVzJ/3fWfv\n\nCheck Out The Game Preview\nhttps://e.cal
+ .mlb/f/KtVzR/3fWfv\n\nWatch This Game's Highlights\nhttps://e.cal.mlb/f/KtV
+ B1/3fWfv\n\nFollow This Game in the MLB App\nhttps://e.cal.mlb/f/KtVBb/3fWf
+ v\n\nPersonalize Your Visit with the MLB Ballpark App - Download the App\nh
+ ttps://e.cal.mlb/f/KtVBl/3fWfv\n\nManage my ECAL\nhttps://e.cal.mlb/f/KtVBX
+ /3fWfv\n\n
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+LAST-MODIFIED:20250913T171459Z
+DTSTAMP:20250913T171459Z
+LOCATION:Oracle Park
+X-ECAL-SCHEDULE:66a8a9c0d928ec90cc25d64c
+DTSTART:20260707T103300Z
+DTEND:20260707T133300Z
+SUMMARY: Toronto Blue Jays @ San Francisco Giants
+TRANSP:TRANSPARENT
+SEQUENCE:0
+UID:68b5206096ed781ad2390865
+PRIORITY:5
+X-MICROSOFT-CDO-IMPORTANCE:1
+CLASS:PUBLIC
+DESCRIPTION:Follow this game on MLB Gameday or the MLB app.\n\nWatch live o
+ n MLB.TV\nhttps://e.cal.mlb/f/24wFtZ/3fWfv\n\nFollow This Game on Gameday\n
+ https://e.cal.mlb/f/24wFv3/3fWfv\n\nCheck Out The Game Preview\nhttps://e.c
+ al.mlb/f/24wFv7/3fWfv\n\nWatch This Game's Highlights\nhttps://e.cal.mlb/f/
+ 24wFvc/3fWfv\n\nFollow This Game in the MLB App\nhttps://e.cal.mlb/f/24wFvj
+ /3fWfv\n\nPersonalize Your Visit with the MLB Ballpark App - Download the A
+ pp\nhttps://e.cal.mlb/f/24wFvn/3fWfv\n\nManage my ECAL\nhttps://e.cal.mlb/f
+ /24wFvD/3fWfv\n\n
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+LAST-MODIFIED:20250913T171459Z
+DTSTAMP:20250913T171459Z
+LOCATION:George M. Steinbrenner Field
+X-ECAL-SCHEDULE:66a8a9c0d928ec90cc25d64c
+DTSTART:20250916T233500Z
+DTEND:20250917T023500Z
+SUMMARY: Toronto Blue Jays @ Tampa Bay Rays
+TRANSP:TRANSPARENT
+SEQUENCE:0
+UID:67244f8dd745973fdd6a4caf
+PRIORITY:5
+X-MICROSOFT-CDO-IMPORTANCE:1
+CLASS:PUBLIC
+DESCRIPTION:Follow this game on MLB Gameday or the MLB app.\n\nWatch live o
+ n MLB.TV\nhttps://e.cal.mlb/f/KtVC5/3fWfv\n\nFollow This Game on Gameday\nh
+ ttps://e.cal.mlb/f/KtVCc/3fWfv\n\nCheck Out The Game Preview\nhttps://e.cal
+ .mlb/f/KtVCn/3fWfv\n\nWatch This Game's Highlights\nhttps://e.cal.mlb/f/KtV
+ Cx/3fWfv\n\nFollow This Game in the MLB App\nhttps://e.cal.mlb/f/KtVCD/3fWf
+ v\n\nPersonalize Your Visit with the MLB Ballpark App - Download the App\nh
+ ttps://e.cal.mlb/f/KtVCP/3fWfv\n\nManage my ECAL\nhttps://e.cal.mlb/f/KtVDc
+ /3fWfv\n\n
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+LAST-MODIFIED:20250913T171459Z
+DTSTAMP:20250913T171459Z
+LOCATION:Rogers Centre
+X-ECAL-SCHEDULE:66a8a9c0d928ec90cc25d64c
+DTSTART:20260525T073300Z
+DTEND:20260525T103300Z
+SUMMARY: Miami Marlins @ Toronto Blue Jays
+TRANSP:TRANSPARENT
+SEQUENCE:0
+UID:68ae74bf96ed781ad235b543
+PRIORITY:5
+X-MICROSOFT-CDO-IMPORTANCE:1
+CLASS:PUBLIC
+DESCRIPTION:Follow this game on MLB Gameday or the MLB app.\n\nWatch live o
+ n MLB.TV\nhttps://e.cal.mlb/f/21Qjmz/3fWfv\n\nFollow This Game on Gameday\n
+ https://e.cal.mlb/f/21QjmM/3fWfv\n\nCheck Out The Game Preview\nhttps://e.c
+ al.mlb/f/21QjmY/3fWfv\n\nWatch This Game's Highlights\nhttps://e.cal.mlb/f/
+ 21Qjn5/3fWfv\n\nFollow This Game in the MLB App\nhttps://e.cal.mlb/f/21Qjnd
+ /3fWfv\n\nPersonalize Your Visit with the MLB Ballpark App - Download the A
+ pp\nhttps://e.cal.mlb/f/21Qjnk/3fWfv\n\nManage my ECAL\nhttps://e.cal.mlb/f
+ /21QjnZ/3fWfv\n\n
+BEGIN:VALARM
+TRIGGER:-P2DT
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+LAST-MODIFIED:20250913T171459Z
+DTSTAMP:20250913T171459Z
+LOCATION:T-Mobile Park
+X-ECAL-SCHEDULE:66a8a9c0d928ec90cc25d64c
+DTSTART:20260704T103300Z
+DTEND:20260704T133300Z
+SUMMARY: Toronto Blue Jays @ Seattle Mariners
+TRANSP:TRANSPARENT
+SEQUENCE:0
+UID:68b5206096ed781ad2390866
+PRIORITY:5
+X-MICROSOFT-CDO-IMPORTANCE:1
+CLASS:PUBLIC
+DESCRIPTION:Follow this game on MLB Gameday or the MLB app.\n\nWatch live o
+ n MLB.TV\nhttps://e.cal.mlb/f/24wFwN/3fWfv\n\nFollow This Game on Gameday\n
+ https://e.cal.mlb/f/24wFwQ/3fWfv\n\nCheck Out The Game Preview\nhttps://e.c
+ al.mlb/f/24wFwW/3fWfv\n\nWatch This Game's Highlights\nhttps://e.cal.mlb/f/
+ 24wFx3/3fWfv\n\nFollow This Game in the MLB App\nhttps://e.cal.mlb/f/24wFx6
+ /3fWfv\n\nPersonalize Your Visit with the MLB Ballpark App - Download the A
+ pp\nhttps://e.cal.mlb/f/24wFxd/3fWfv\n\nManage my ECAL\nhttps://e.cal.mlb/f
+ /24wFxB/3fWfv\n\n
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+LAST-MODIFIED:20250913T171459Z
+DTSTAMP:20250913T171459Z
+LOCATION:Fenway Park
+X-ECAL-SCHEDULE:66a8a9c0d928ec90cc25d64c
+DTSTART:20260618T073300Z
+DTEND:20260618T103300Z
+SUMMARY: Toronto Blue Jays @ Boston Red Sox
+TRANSP:TRANSPARENT
+SEQUENCE:0
+UID:68ae74bf96ed783d5a0b347b
+PRIORITY:5
+X-MICROSOFT-CDO-IMPORTANCE:1
+CLASS:PUBLIC
+DESCRIPTION:Follow this game on MLB Gameday or the MLB app.\n\nWatch live o
+ n MLB.TV\nhttps://e.cal.mlb/f/21QjjZ/3fWfv\n\nFollow This Game on Gameday\n
+ https://e.cal.mlb/f/21Qjk7/3fWfv\n\nCheck Out The Game Preview\nhttps://e.c
+ al.mlb/f/21Qjkp/3fWfv\n\nWatch This Game's Highlights\nhttps://e.cal.mlb/f/
+ 21QjkB/3fWfv\n\nFollow This Game in the MLB App\nhttps://e.cal.mlb/f/21Qjl6
+ /3fWfv\n\nPersonalize Your Visit with the MLB Ballpark App - Download the A
+ pp\nhttps://e.cal.mlb/f/21Qjlm/3fWfv\n\nManage my ECAL\nhttps://e.cal.mlb/f
+ /21Qjm9/3fWfv\n\n
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+LAST-MODIFIED:20250913T171459Z
+DTSTAMP:20250913T171459Z
+LOCATION:Yankee Stadium
+X-ECAL-SCHEDULE:66a8a9c0d928ec90cc25d64c
+DTSTART:20260520T073300Z
+DTEND:20260520T103300Z
+SUMMARY: Toronto Blue Jays @ New York Yankees
+TRANSP:TRANSPARENT
+SEQUENCE:0
+UID:68ae74c096ed78215652041c
+PRIORITY:5
+X-MICROSOFT-CDO-IMPORTANCE:1
+CLASS:PUBLIC
+DESCRIPTION:Follow this game on MLB Gameday or the MLB app.\n\nWatch live o
+ n MLB.TV\nhttps://e.cal.mlb/f/21Qjw4/3fWfv\n\nFollow This Game on Gameday\n
+ https://e.cal.mlb/f/21Qjwc/3fWfv\n\nCheck Out The Game Preview\nhttps://e.c
+ al.mlb/f/21Qjwk/3fWfv\n\nWatch This Game's Highlights\nhttps://e.cal.mlb/f/
+ 21Qjwr/3fWfv\n\nFollow This Game in the MLB App\nhttps://e.cal.mlb/f/21Qjwy
+ /3fWfv\n\nPersonalize Your Visit with the MLB Ballpark App - Download the A
+ pp\nhttps://e.cal.mlb/f/21QjwF/3fWfv\n\nManage my ECAL\nhttps://e.cal.mlb/f
+ /21Qjxg/3fWfv\n\n
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+LAST-MODIFIED:20250913T171459Z
+DTSTAMP:20250913T171459Z
+LOCATION:Yankee Stadium
+X-ECAL-SCHEDULE:66a8a9c0d928ec90cc25d64c
+DTSTART:20250906T170500Z
+DTEND:20250906T200500Z
+SUMMARY: Toronto Blue Jays @ New York Yankees
+TRANSP:TRANSPARENT
+SEQUENCE:0
+UID:67244f8ed745973fdd6a4cb0
+PRIORITY:5
+X-MICROSOFT-CDO-IMPORTANCE:1
+CLASS:PUBLIC
+DESCRIPTION:Follow this game on MLB Gameday or the MLB app.\n\nWatch live o
+ n MLB.TV\nhttps://e.cal.mlb/f/KtVFJ/3fWfv\n\nFollow This Game on Gameday\nh
+ ttps://e.cal.mlb/f/KtVFQ/3fWfv\n\nCheck Out The Game Preview\nhttps://e.cal
+ .mlb/f/KtVG1/3fWfv\n\nWatch This Game's Highlights\nhttps://e.cal.mlb/f/KtV
+ G8/3fWfv\n\nFollow This Game in the MLB App\nhttps://e.cal.mlb/f/KtVGh/3fWf
+ v\n\nPersonalize Your Visit with the MLB Ballpark App - Download the App\nh
+ ttps://e.cal.mlb/f/KtVGq/3fWfv\n\nManage my ECAL\nhttps://e.cal.mlb/f/KtVGX
+ /3fWfv\n\n
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+LAST-MODIFIED:20250913T171459Z
+DTSTAMP:20250913T171459Z
+LOCATION:Daikin Park
+X-ECAL-SCHEDULE:66a8a9c0d928ec90cc25d64c
+DTSTART:20260803T083300Z
+DTEND:20260803T113300Z
+SUMMARY: Toronto Blue Jays @ Houston Astros
+TRANSP:TRANSPARENT
+SEQUENCE:0
+UID:68b5206096ed7827f82b5bc1
+PRIORITY:5
+X-MICROSOFT-CDO-IMPORTANCE:1
+CLASS:PUBLIC
+DESCRIPTION:Follow this game on MLB Gameday or the MLB app.\n\nWatch live o
+ n MLB.TV\nhttps://e.cal.mlb/f/24wFzp/3fWfv\n\nFollow This Game on Gameday\n
+ https://e.cal.mlb/f/24wFzv/3fWfv\n\nCheck Out The Game Preview\nhttps://e.c
+ al.mlb/f/24wFzz/3fWfv\n\nWatch This Game's Highlights\nhttps://e.cal.mlb/f/
+ 24wFzD/3fWfv\n\nFollow This Game in the MLB App\nhttps://e.cal.mlb/f/24wFzJ
+ /3fWfv\n\nPersonalize Your Visit with the MLB Ballpark App - Download the A
+ pp\nhttps://e.cal.mlb/f/24wFzM/3fWfv\n\nManage my ECAL\nhttps://e.cal.mlb/f
+ /24wFzW/3fWfv\n\n
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+LAST-MODIFIED:20250913T171459Z
+DTSTAMP:20250913T171459Z
+LOCATION:Rogers Centre
+X-ECAL-SCHEDULE:66a8a9c0d928ec90cc25d64c
+DTSTART:20260427T073300Z
+DTEND:20260427T103300Z
+SUMMARY: Boston Red Sox @ Toronto Blue Jays
+TRANSP:TRANSPARENT
+SEQUENCE:0
+UID:68ae74c096ed78204915f507
+PRIORITY:5
+X-MICROSOFT-CDO-IMPORTANCE:1
+CLASS:PUBLIC
+DESCRIPTION:Follow this game on MLB Gameday or the MLB app.\n\nWatch live o
+ n MLB.TV\nhttps://e.cal.mlb/f/21Qjxt/3fWfv\n\nFollow This Game on Gameday\n
+ https://e.cal.mlb/f/21QjxB/3fWfv\n\nCheck Out The Game Preview\nhttps://e.c
+ al.mlb/f/21QjxM/3fWfv\n\nWatch This Game's Highlights\nhttps://e.cal.mlb/f/
+ 21QjxZ/3fWfv\n\nFollow This Game in the MLB App\nhttps://e.cal.mlb/f/21Qjy8
+ /3fWfv\n\nPersonalize Your Visit with the MLB Ballpark App - Download the A
+ pp\nhttps://e.cal.mlb/f/21Qjyj/3fWfv\n\nManage my ECAL\nhttps://e.cal.mlb/f
+ /21Qjzq/3fWfv\n\n
+BEGIN:VALARM
+TRIGGER:-P2DT
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+LAST-MODIFIED:20250913T171459Z
+DTSTAMP:20250913T171459Z
+LOCATION:Great American Ball Park
+X-ECAL-SCHEDULE:66a8a9c0d928ec90cc25d64c
+DTSTART:20250902T224000Z
+DTEND:20250903T014000Z
+SUMMARY: Toronto Blue Jays @ Cincinnati Reds
+TRANSP:TRANSPARENT
+SEQUENCE:0
+UID:66ff958ad745979952210086
+PRIORITY:5
+X-MICROSOFT-CDO-IMPORTANCE:1
+CLASS:PUBLIC
+DESCRIPTION:Follow this game on MLB Gameday or the MLB app.\n\nWatch live o
+ n MLB.TV\nhttps://e.cal.mlb/f/HTPK4/3fWfv\n\nFollow This Game on Gameday\nh
+ ttps://e.cal.mlb/f/HTPKk/3fWfv\n\nCheck Out The Game Preview\nhttps://e.cal
+ .mlb/f/HTPKC/3fWfv\n\nWatch This Game's Highlights\nhttps://e.cal.mlb/f/HTP
+ KS/3fWfv\n\nFollow This Game in the MLB App\nhttps://e.cal.mlb/f/HTPL8/3fWf
+ v\n\nPersonalize Your Visit with the MLB Ballpark App - Download the App\nh
+ ttps://e.cal.mlb/f/HTPLp/3fWfv\n\nManage my ECAL\nhttps://e.cal.mlb/f/HTPMw
+ /3fWfv\n\n
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+LAST-MODIFIED:20250913T171459Z
+DTSTAMP:20250913T171459Z
+LOCATION:Rogers Centre
+X-ECAL-SCHEDULE:66a8a9c0d928ec90cc25d64c
+DTSTART:20260408T073300Z
+DTEND:20260408T103300Z
+SUMMARY: Los Angeles Dodgers @ Toronto Blue Jays
+TRANSP:TRANSPARENT
+SEQUENCE:0
+UID:68ae74c096ed78215652041f
+PRIORITY:5
+X-MICROSOFT-CDO-IMPORTANCE:1
+CLASS:PUBLIC
+DESCRIPTION:Follow this game on MLB Gameday or the MLB app.\n\nWatch live o
+ n MLB.TV\nhttps://e.cal.mlb/f/21QjF1/3fWfv\n\nFollow This Game on Gameday\n
+ https://e.cal.mlb/f/21QjF6/3fWfv\n\nCheck Out The Game Preview\nhttps://e.c
+ al.mlb/f/21QjFj/3fWfv\n\nWatch This Game's Highlights\nhttps://e.cal.mlb/f/
+ 21QjFs/3fWfv\n\nFollow This Game in the MLB App\nhttps://e.cal.mlb/f/21QjFC
+ /3fWfv\n\nPersonalize Your Visit with the MLB Ballpark App - Download the A
+ pp\nhttps://e.cal.mlb/f/21QjFP/3fWfv\n\nManage my ECAL\nhttps://e.cal.mlb/f
+ /21QjGp/3fWfv\n\n
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+LAST-MODIFIED:20250913T171459Z
+DTSTAMP:20250913T171459Z
+LOCATION:George M. Steinbrenner Field
+X-ECAL-SCHEDULE:66a8a9c0d928ec90cc25d64c
+DTSTART:20250915T233500Z
+DTEND:20250916T023500Z
+SUMMARY: Toronto Blue Jays @ Tampa Bay Rays
+TRANSP:TRANSPARENT
+SEQUENCE:0
+UID:67244f8ed745973fd674dc73
+PRIORITY:5
+X-MICROSOFT-CDO-IMPORTANCE:1
+CLASS:PUBLIC
+DESCRIPTION:Follow this game on MLB Gameday or the MLB app.\n\nWatch live o
+ n MLB.TV\nhttps://e.cal.mlb/f/KtVJ4/3fWfv\n\nFollow This Game on Gameday\nh
+ ttps://e.cal.mlb/f/KtVJc/3fWfv\n\nCheck Out The Game Preview\nhttps://e.cal
+ .mlb/f/KtVJj/3fWfv\n\nWatch This Game's Highlights\nhttps://e.cal.mlb/f/KtV
+ Jp/3fWfv\n\nFollow This Game in the MLB App\nhttps://e.cal.mlb/f/KtVJw/3fWf
+ v\n\nPersonalize Your Visit with the MLB Ballpark App - Download the App\nh
+ ttps://e.cal.mlb/f/KtVJB/3fWfv\n\nManage my ECAL\nhttps://e.cal.mlb/f/KtVJP
+ /3fWfv\n\n
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+LAST-MODIFIED:20250913T171459Z
+DTSTAMP:20250913T171459Z
+LOCATION:Kauffman Stadium
+X-ECAL-SCHEDULE:66a8a9c0d928ec90cc25d64c
+DTSTART:20250921T181000Z
+DTEND:20250921T211000Z
+SUMMARY: Toronto Blue Jays @ Kansas City Royals
+TRANSP:TRANSPARENT
+SEQUENCE:0
+UID:67244f8ed745973fd674dc74
+PRIORITY:5
+X-MICROSOFT-CDO-IMPORTANCE:1
+CLASS:PUBLIC
+DESCRIPTION:Follow this game on MLB Gameday or the MLB app.\n\nWatch live o
+ n MLB.TV\nhttps://e.cal.mlb/f/KtVKv/3fWfv\n\nFollow This Game on Gameday\nh
+ ttps://e.cal.mlb/f/KtVKF/3fWfv\n\nCheck Out The Game Preview\nhttps://e.cal
+ .mlb/f/KtVKQ/3fWfv\n\nWatch This Game's Highlights\nhttps://e.cal.mlb/f/KtV
+ KY/3fWfv\n\nFollow This Game in the MLB App\nhttps://e.cal.mlb/f/KtVL6/3fWf
+ v\n\nPersonalize Your Visit with the MLB Ballpark App - Download the App\nh
+ ttps://e.cal.mlb/f/KtVLj/3fWfv\n\nManage my ECAL\nhttps://e.cal.mlb/f/KtVLH
+ /3fWfv\n\n
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+LAST-MODIFIED:20250913T171459Z
+DTSTAMP:20250913T171459Z
+LOCATION:Rogers Centre
+X-ECAL-SCHEDULE:66a8a9c0d928ec90cc25d64c
+DTSTART:20250927T190700Z
+DTEND:20250927T220700Z
+SUMMARY: Tampa Bay Rays @ Toronto Blue Jays
+TRANSP:TRANSPARENT
+SEQUENCE:0
+UID:67244f8ed745973fd674dc75
+PRIORITY:5
+X-MICROSOFT-CDO-IMPORTANCE:1
+CLASS:PUBLIC
+DESCRIPTION:Follow this game on MLB Gameday or the MLB app.\n\nWatch live o
+ n MLB.TV\nhttps://e.cal.mlb/f/KtVLX/3fWfv\n\nFollow This Game on Gameday\nh
+ ttps://e.cal.mlb/f/KtVM4/3fWfv\n\nCheck Out The Game Preview\nhttps://e.cal
+ .mlb/f/KtVM8/3fWfv\n\nWatch This Game's Highlights\nhttps://e.cal.mlb/f/KtV
+ Mc/3fWfv\n\nFollow This Game in the MLB App\nhttps://e.cal.mlb/f/KtVMl/3fWf
+ v\n\nPersonalize Your Visit with the MLB Ballpark App - Download the App\nh
+ ttps://e.cal.mlb/f/KtVMr/3fWfv\n\nManage my ECAL\nhttps://e.cal.mlb/f/KtVMR
+ /3fWfv\n\n
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+LAST-MODIFIED:20250913T171459Z
+DTSTAMP:20250913T171459Z
+LOCATION:Petco Park
+X-ECAL-SCHEDULE:66a8a9c0d928ec90cc25d64c
+DTSTART:20260711T103300Z
+DTEND:20260711T133300Z
+SUMMARY: Toronto Blue Jays @ San Diego Padres
+TRANSP:TRANSPARENT
+SEQUENCE:0
+UID:68b5206096ed7827f82b5bc2
+PRIORITY:5
+X-MICROSOFT-CDO-IMPORTANCE:1
+CLASS:PUBLIC
+DESCRIPTION:Follow this game on MLB Gameday or the MLB app.\n\nWatch live o
+ n MLB.TV\nhttps://e.cal.mlb/f/24wFDb/3fWfv\n\nFollow This Game on Gameday\n
+ https://e.cal.mlb/f/24wFDf/3fWfv\n\nCheck Out The Game Preview\nhttps://e.c
+ al.mlb/f/24wFDj/3fWfv\n\nWatch This Game's Highlights\nhttps://e.cal.mlb/f/
+ 24wFDl/3fWfv\n\nFollow This Game in the MLB App\nhttps://e.cal.mlb/f/24wFDp
+ /3fWfv\n\nPersonalize Your Visit with the MLB Ballpark App - Download the A
+ pp\nhttps://e.cal.mlb/f/24wFDr/3fWfv\n\nManage my ECAL\nhttps://e.cal.mlb/f
+ /24wFDD/3fWfv\n\n
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+LAST-MODIFIED:20250913T171459Z
+DTSTAMP:20250913T171459Z
+LOCATION:Rogers Centre
+X-ECAL-SCHEDULE:66a8a9c0d928ec90cc25d64c
+DTSTART:20260608T073300Z
+DTEND:20260608T103300Z
+SUMMARY: Philadelphia Phillies @ Toronto Blue Jays
+TRANSP:TRANSPARENT
+SEQUENCE:0
+UID:68ae74c096ed7801894f6ddf
+PRIORITY:5
+X-MICROSOFT-CDO-IMPORTANCE:1
+CLASS:PUBLIC
+DESCRIPTION:Follow this game on MLB Gameday or the MLB app.\n\nWatch live o
+ n MLB.TV\nhttps://e.cal.mlb/f/21QjzF/3fWfv\n\nFollow This Game on Gameday\n
+ https://e.cal.mlb/f/21QjzQ/3fWfv\n\nCheck Out The Game Preview\nhttps://e.c
+ al.mlb/f/21QjzV/3fWfv\n\nWatch This Game's Highlights\nhttps://e.cal.mlb/f/
+ 21QjB5/3fWfv\n\nFollow This Game in the MLB App\nhttps://e.cal.mlb/f/21QjBf
+ /3fWfv\n\nPersonalize Your Visit with the MLB Ballpark App - Download the A
+ pp\nhttps://e.cal.mlb/f/21QjBn/3fWfv\n\nManage my ECAL\nhttps://e.cal.mlb/f
+ /21QjC3/3fWfv\n\n
+BEGIN:VALARM
+TRIGGER:-P2DT
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+LAST-MODIFIED:20250913T171459Z
+DTSTAMP:20250913T171459Z
+LOCATION:Fenway Park
+X-ECAL-SCHEDULE:66a8a9c0d928ec90cc25d64c
+DTSTART:20260725T073300Z
+DTEND:20260725T103300Z
+SUMMARY: Toronto Blue Jays @ Boston Red Sox
+TRANSP:TRANSPARENT
+SEQUENCE:0
+UID:68b5206096ed7827f82b5bc3
+PRIORITY:5
+X-MICROSOFT-CDO-IMPORTANCE:1
+CLASS:PUBLIC
+DESCRIPTION:Follow this game on MLB Gameday or the MLB app.\n\nWatch live o
+ n MLB.TV\nhttps://e.cal.mlb/f/24wFDT/3fWfv\n\nFollow This Game on Gameday\n
+ https://e.cal.mlb/f/24wFDY/3fWfv\n\nCheck Out The Game Preview\nhttps://e.c
+ al.mlb/f/24wFF3/3fWfv\n\nWatch This Game's Highlights\nhttps://e.cal.mlb/f/
+ 24wFF9/3fWfv\n\nFollow This Game in the MLB App\nhttps://e.cal.mlb/f/24wFFc
+ /3fWfv\n\nPersonalize Your Visit with the MLB Ballpark App - Download the A
+ pp\nhttps://e.cal.mlb/f/24wFFf/3fWfv\n\nManage my ECAL\nhttps://e.cal.mlb/f
+ /24wFFw/3fWfv\n\n
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+LAST-MODIFIED:20250913T171459Z
+DTSTAMP:20250913T171459Z
+LOCATION:American Family Field
+X-ECAL-SCHEDULE:66a8a9c0d928ec90cc25d64c
+DTSTART:20260416T083300Z
+DTEND:20260416T113300Z
+SUMMARY: Toronto Blue Jays @ Milwaukee Brewers
+TRANSP:TRANSPARENT
+SEQUENCE:0
+UID:68ae74c096ed783d5a0b3483
+PRIORITY:5
+X-MICROSOFT-CDO-IMPORTANCE:1
+CLASS:PUBLIC
+DESCRIPTION:Follow this game on MLB Gameday or the MLB app.\n\nWatch live o
+ n MLB.TV\nhttps://e.cal.mlb/f/21QjJw/3fWfv\n\nFollow This Game on Gameday\n
+ https://e.cal.mlb/f/21QjJG/3fWfv\n\nCheck Out The Game Preview\nhttps://e.c
+ al.mlb/f/21QjJQ/3fWfv\n\nWatch This Game's Highlights\nhttps://e.cal.mlb/f/
+ 21QjJX/3fWfv\n\nFollow This Game in the MLB App\nhttps://e.cal.mlb/f/21QjKc
+ /3fWfv\n\nPersonalize Your Visit with the MLB Ballpark App - Download the A
+ pp\nhttps://e.cal.mlb/f/21QjKj/3fWfv\n\nManage my ECAL\nhttps://e.cal.mlb/f
+ /21QjKN/3fWfv\n\n
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+LAST-MODIFIED:20250913T171459Z
+DTSTAMP:20250913T171459Z
+LOCATION:Rogers Centre
+X-ECAL-SCHEDULE:66a8a9c0d928ec90cc25d64c
+DTSTART:20260329T073300Z
+DTEND:20260329T103300Z
+SUMMARY: Athletics @ Toronto Blue Jays
+TRANSP:TRANSPARENT
+SEQUENCE:0
+UID:68ae74c096ed782156520420
+PRIORITY:5
+X-MICROSOFT-CDO-IMPORTANCE:1
+CLASS:PUBLIC
+DESCRIPTION:Follow this game on MLB Gameday or the MLB app.\n\nWatch live o
+ n MLB.TV\nhttps://e.cal.mlb/f/21QjGG/3fWfv\n\nFollow This Game on Gameday\n
+ https://e.cal.mlb/f/21QjGS/3fWfv\n\nCheck Out The Game Preview\nhttps://e.c
+ al.mlb/f/21QjH5/3fWfv\n\nWatch This Game's Highlights\nhttps://e.cal.mlb/f/
+ 21QjHg/3fWfv\n\nFollow This Game in the MLB App\nhttps://e.cal.mlb/f/21QjHr
+ /3fWfv\n\nPersonalize Your Visit with the MLB Ballpark App - Download the A
+ pp\nhttps://e.cal.mlb/f/21QjHS/3fWfv\n\nManage my ECAL\nhttps://e.cal.mlb/f
+ /21QjJk/3fWfv\n\n
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+LAST-MODIFIED:20250913T171459Z
+DTSTAMP:20250913T171459Z
+LOCATION:Rogers Centre
+X-ECAL-SCHEDULE:66a8a9c0d928ec90cc25d64c
+DTSTART:20260510T073300Z
+DTEND:20260510T103300Z
+SUMMARY: Los Angeles Angels @ Toronto Blue Jays
+TRANSP:TRANSPARENT
+SEQUENCE:0
+UID:68ae74c096ed781ad235b545
+PRIORITY:5
+X-MICROSOFT-CDO-IMPORTANCE:1
+CLASS:PUBLIC
+DESCRIPTION:Follow this game on MLB Gameday or the MLB app.\n\nWatch live o
+ n MLB.TV\nhttps://e.cal.mlb/f/21QjMF/3fWfv\n\nFollow This Game on Gameday\n
+ https://e.cal.mlb/f/21QjMQ/3fWfv\n\nCheck Out The Game Preview\nhttps://e.c
+ al.mlb/f/21QjN1/3fWfv\n\nWatch This Game's Highlights\nhttps://e.cal.mlb/f/
+ 21QjNb/3fWfv\n\nFollow This Game in the MLB App\nhttps://e.cal.mlb/f/21QjNm
+ /3fWfv\n\nPersonalize Your Visit with the MLB Ballpark App - Download the A
+ pp\nhttps://e.cal.mlb/f/21QjNv/3fWfv\n\nManage my ECAL\nhttps://e.cal.mlb/f
+ /21QjP7/3fWfv\n\n
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+LAST-MODIFIED:20250913T171459Z
+DTSTAMP:20250913T171459Z
+LOCATION:Rogers Centre
+X-ECAL-SCHEDULE:66a8a9c0d928ec90cc25d64c
+DTSTART:20260508T073300Z
+DTEND:20260508T103300Z
+SUMMARY: Los Angeles Angels @ Toronto Blue Jays
+TRANSP:TRANSPARENT
+SEQUENCE:0
+UID:68ae74c096ed7801894f6de2
+PRIORITY:5
+X-MICROSOFT-CDO-IMPORTANCE:1
+CLASS:PUBLIC
+DESCRIPTION:Follow this game on MLB Gameday or the MLB app.\n\nWatch live o
+ n MLB.TV\nhttps://e.cal.mlb/f/21QjKZ/3fWfv\n\nFollow This Game on Gameday\n
+ https://e.cal.mlb/f/21QjL8/3fWfv\n\nCheck Out The Game Preview\nhttps://e.c
+ al.mlb/f/21QjLm/3fWfv\n\nWatch This Game's Highlights\nhttps://e.cal.mlb/f/
+ 21QjLv/3fWfv\n\nFollow This Game in the MLB App\nhttps://e.cal.mlb/f/21QjLH
+ /3fWfv\n\nPersonalize Your Visit with the MLB Ballpark App - Download the A
+ pp\nhttps://e.cal.mlb/f/21QjLT/3fWfv\n\nManage my ECAL\nhttps://e.cal.mlb/f
+ /21QjMq/3fWfv\n\n
+BEGIN:VALARM
+TRIGGER:-P2DT
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+LAST-MODIFIED:20250913T171459Z
+DTSTAMP:20250913T171459Z
+LOCATION:Rogers Centre
+X-ECAL-SCHEDULE:66a8a9c0d928ec90cc25d64c
+DTSTART:20260629T073300Z
+DTEND:20260629T103300Z
+SUMMARY: New York Mets @ Toronto Blue Jays
+TRANSP:TRANSPARENT
+SEQUENCE:0
+UID:68ae74c096ed783d5a0b3486
+PRIORITY:5
+X-MICROSOFT-CDO-IMPORTANCE:1
+CLASS:PUBLIC
+DESCRIPTION:Follow this game on MLB Gameday or the MLB app.\n\nWatch live o
+ n MLB.TV\nhttps://e.cal.mlb/f/21QjTj/3fWfv\n\nFollow This Game on Gameday\n
+ https://e.cal.mlb/f/21QjTr/3fWfv\n\nCheck Out The Game Preview\nhttps://e.c
+ al.mlb/f/21QjTD/3fWfv\n\nWatch This Game's Highlights\nhttps://e.cal.mlb/f/
+ 21QjTP/3fWfv\n\nFollow This Game in the MLB App\nhttps://e.cal.mlb/f/21QjTZ
+ /3fWfv\n\nPersonalize Your Visit with the MLB Ballpark App - Download the A
+ pp\nhttps://e.cal.mlb/f/21QjVc/3fWfv\n\nManage my ECAL\nhttps://e.cal.mlb/f
+ /21QjVL/3fWfv\n\n
+BEGIN:VALARM
+TRIGGER:-P2DT
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+LAST-MODIFIED:20250913T171459Z
+DTSTAMP:20250913T171459Z
+LOCATION:Wrigley Field
+X-ECAL-SCHEDULE:66a8a9c0d928ec90cc25d64c
+DTSTART:20260620T083300Z
+DTEND:20260620T113300Z
+SUMMARY: Toronto Blue Jays @ Chicago Cubs
+TRANSP:TRANSPARENT
+SEQUENCE:0
+UID:68ae74c096ed782156520422
+PRIORITY:5
+X-MICROSOFT-CDO-IMPORTANCE:1
+CLASS:PUBLIC
+DESCRIPTION:Follow this game on MLB Gameday or the MLB app.\n\nWatch live o
+ n MLB.TV\nhttps://e.cal.mlb/f/21QjRb/3fWfv\n\nFollow This Game on Gameday\n
+ https://e.cal.mlb/f/21QjRp/3fWfv\n\nCheck Out The Game Preview\nhttps://e.c
+ al.mlb/f/21QjRF/3fWfv\n\nWatch This Game's Highlights\nhttps://e.cal.mlb/f/
+ 21QjRV/3fWfv\n\nFollow This Game in the MLB App\nhttps://e.cal.mlb/f/21QjS9
+ /3fWfv\n\nPersonalize Your Visit with the MLB Ballpark App - Download the A
+ pp\nhttps://e.cal.mlb/f/21QjSn/3fWfv\n\nManage my ECAL\nhttps://e.cal.mlb/f
+ /21QjT5/3fWfv\n\n
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+LAST-MODIFIED:20250913T171459Z
+DTSTAMP:20250913T171459Z
+LOCATION:Oracle Park
+X-ECAL-SCHEDULE:66a8a9c0d928ec90cc25d64c
+DTSTART:20260708T103300Z
+DTEND:20260708T133300Z
+SUMMARY: Toronto Blue Jays @ San Francisco Giants
+TRANSP:TRANSPARENT
+SEQUENCE:0
+UID:68b5206096ed7827f82b5bc4
+PRIORITY:5
+X-MICROSOFT-CDO-IMPORTANCE:1
+CLASS:PUBLIC
+DESCRIPTION:Follow this game on MLB Gameday or the MLB app.\n\nWatch live o
+ n MLB.TV\nhttps://e.cal.mlb/f/24wFHw/3fWfv\n\nFollow This Game on Gameday\n
+ https://e.cal.mlb/f/24wFHC/3fWfv\n\nCheck Out The Game Preview\nhttps://e.c
+ al.mlb/f/24wFHJ/3fWfv\n\nWatch This Game's Highlights\nhttps://e.cal.mlb/f/
+ 24wFHM/3fWfv\n\nFollow This Game in the MLB App\nhttps://e.cal.mlb/f/24wFHS
+ /3fWfv\n\nPersonalize Your Visit with the MLB Ballpark App - Download the A
+ pp\nhttps://e.cal.mlb/f/24wFHZ/3fWfv\n\nManage my ECAL\nhttps://e.cal.mlb/f
+ /24wFJm/3fWfv\n\n
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+LAST-MODIFIED:20250913T171459Z
+DTSTAMP:20250913T171459Z
+LOCATION:Comerica Park
+X-ECAL-SCHEDULE:66a8a9c0d928ec90cc25d64c
+DTSTART:20260517T073300Z
+DTEND:20260517T103300Z
+SUMMARY: Toronto Blue Jays @ Detroit Tigers
+TRANSP:TRANSPARENT
+SEQUENCE:0
+UID:68ae74c096ed78204915f509
+PRIORITY:5
+X-MICROSOFT-CDO-IMPORTANCE:1
+CLASS:PUBLIC
+DESCRIPTION:Follow this game on MLB Gameday or the MLB app.\n\nWatch live o
+ n MLB.TV\nhttps://e.cal.mlb/f/21QjPq/3fWfv\n\nFollow This Game on Gameday\n
+ https://e.cal.mlb/f/21QjPy/3fWfv\n\nCheck Out The Game Preview\nhttps://e.c
+ al.mlb/f/21QjPK/3fWfv\n\nWatch This Game's Highlights\nhttps://e.cal.mlb/f/
+ 21QjPY/3fWfv\n\nFollow This Game in the MLB App\nhttps://e.cal.mlb/f/21QjQ6
+ /3fWfv\n\nPersonalize Your Visit with the MLB Ballpark App - Download the A
+ pp\nhttps://e.cal.mlb/f/21QjQj/3fWfv\n\nManage my ECAL\nhttps://e.cal.mlb/f
+ /21QjQS/3fWfv\n\n
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+LAST-MODIFIED:20250913T171459Z
+DTSTAMP:20250913T171459Z
+LOCATION:Chase Field
+X-ECAL-SCHEDULE:66a8a9c0d928ec90cc25d64c
+DTSTART:20260418T103300Z
+DTEND:20260418T133300Z
+SUMMARY: Toronto Blue Jays @ Arizona Diamondbacks
+TRANSP:TRANSPARENT
+SEQUENCE:0
+UID:68ae74c096ed7837432f3a31
+PRIORITY:5
+X-MICROSOFT-CDO-IMPORTANCE:1
+CLASS:PUBLIC
+DESCRIPTION:Follow this game on MLB Gameday or the MLB app.\n\nWatch live o
+ n MLB.TV\nhttps://e.cal.mlb/f/21QjXS/3fWfv\n\nFollow This Game on Gameday\n
+ https://e.cal.mlb/f/21QjXX/3fWfv\n\nCheck Out The Game Preview\nhttps://e.c
+ al.mlb/f/21QjY4/3fWfv\n\nWatch This Game's Highlights\nhttps://e.cal.mlb/f/
+ 21QjYd/3fWfv\n\nFollow This Game in the MLB App\nhttps://e.cal.mlb/f/21QjYm
+ /3fWfv\n\nPersonalize Your Visit with the MLB Ballpark App - Download the A
+ pp\nhttps://e.cal.mlb/f/21QjYx/3fWfv\n\nManage my ECAL\nhttps://e.cal.mlb/f
+ /21QjZk/3fWfv\n\n
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+LAST-MODIFIED:20250913T171459Z
+DTSTAMP:20250913T171459Z
+LOCATION:Rogers Centre
+X-ECAL-SCHEDULE:66a8a9c0d928ec90cc25d64c
+DTSTART:20250924T230700Z
+DTEND:20250925T020700Z
+SUMMARY: Boston Red Sox @ Toronto Blue Jays
+TRANSP:TRANSPARENT
+SEQUENCE:0
+UID:67244f8ed745973fdd6a4cb1
+PRIORITY:5
+X-MICROSOFT-CDO-IMPORTANCE:1
+CLASS:PUBLIC
+DESCRIPTION:Follow this game on MLB Gameday or the MLB app.\n\nWatch live o
+ n MLB.TV\nhttps://e.cal.mlb/f/KtVPZ/3fWfv\n\nFollow This Game on Gameday\nh
+ ttps://e.cal.mlb/f/KtVQ7/3fWfv\n\nCheck Out The Game Preview\nhttps://e.cal
+ .mlb/f/KtVQg/3fWfv\n\nWatch This Game's Highlights\nhttps://e.cal.mlb/f/KtV
+ Ql/3fWfv\n\nFollow This Game in the MLB App\nhttps://e.cal.mlb/f/KtVQt/3fWf
+ v\n\nPersonalize Your Visit with the MLB Ballpark App - Download the App\nh
+ ttps://e.cal.mlb/f/KtVQC/3fWfv\n\nManage my ECAL\nhttps://e.cal.mlb/f/KtVR4
+ /3fWfv\n\n
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+LAST-MODIFIED:20250913T171459Z
+DTSTAMP:20250913T171459Z
+LOCATION:Rogers Centre
+X-ECAL-SCHEDULE:66a8a9c0d928ec90cc25d64c
+DTSTART:20260609T073300Z
+DTEND:20260609T103300Z
+SUMMARY: Philadelphia Phillies @ Toronto Blue Jays
+TRANSP:TRANSPARENT
+SEQUENCE:0
+UID:68ae74c096ed7837432f3a32
+PRIORITY:5
+X-MICROSOFT-CDO-IMPORTANCE:1
+CLASS:PUBLIC
+DESCRIPTION:Follow this game on MLB Gameday or the MLB app.\n\nWatch live o
+ n MLB.TV\nhttps://e.cal.mlb/f/21QjZz/3fWfv\n\nFollow This Game on Gameday\n
+ https://e.cal.mlb/f/21QjZJ/3fWfv\n\nCheck Out The Game Preview\nhttps://e.c
+ al.mlb/f/21QjZW/3fWfv\n\nWatch This Game's Highlights\nhttps://e.cal.mlb/f/
+ 21Qk14/3fWfv\n\nFollow This Game in the MLB App\nhttps://e.cal.mlb/f/21Qk1h
+ /3fWfv\n\nPersonalize Your Visit with the MLB Ballpark App - Download the A
+ pp\nhttps://e.cal.mlb/f/21Qk1s/3fWfv\n\nManage my ECAL\nhttps://e.cal.mlb/f
+ /21Qk28/3fWfv\n\n
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+LAST-MODIFIED:20250913T171459Z
+DTSTAMP:20250913T171459Z
+LOCATION:Rogers Centre
+X-ECAL-SCHEDULE:66a8a9c0d928ec90cc25d64c
+DTSTART:20250926T230700Z
+DTEND:20250927T020700Z
+SUMMARY: Tampa Bay Rays @ Toronto Blue Jays
+TRANSP:TRANSPARENT
+SEQUENCE:0
+UID:67244f8ed745973fd674dc76
+PRIORITY:5
+X-MICROSOFT-CDO-IMPORTANCE:1
+CLASS:PUBLIC
+DESCRIPTION:Follow this game on MLB Gameday or the MLB app.\n\nWatch live o
+ n MLB.TV\nhttps://e.cal.mlb/f/KtVR8/3fWfv\n\nFollow This Game on Gameday\nh
+ ttps://e.cal.mlb/f/KtVRf/3fWfv\n\nCheck Out The Game Preview\nhttps://e.cal
+ .mlb/f/KtVRm/3fWfv\n\nWatch This Game's Highlights\nhttps://e.cal.mlb/f/KtV
+ Rr/3fWfv\n\nFollow This Game in the MLB App\nhttps://e.cal.mlb/f/KtVRx/3fWf
+ v\n\nPersonalize Your Visit with the MLB Ballpark App - Download the App\nh
+ ttps://e.cal.mlb/f/KtVRJ/3fWfv\n\nManage my ECAL\nhttps://e.cal.mlb/f/KtVSj
+ /3fWfv\n\n
+BEGIN:VALARM
+TRIGGER:-P2DT
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+LAST-MODIFIED:20250913T171459Z
+DTSTAMP:20250913T171459Z
+LOCATION:Rogers Centre
+X-ECAL-SCHEDULE:66a8a9c0d928ec90cc25d64c
+DTSTART:20260718T073300Z
+DTEND:20260718T103300Z
+SUMMARY: Chicago White Sox @ Toronto Blue Jays
+TRANSP:TRANSPARENT
+SEQUENCE:0
+UID:68b5206096ed7827f82b5bc5
+PRIORITY:5
+X-MICROSOFT-CDO-IMPORTANCE:1
+CLASS:PUBLIC
+DESCRIPTION:Follow this game on MLB Gameday or the MLB app.\n\nWatch live o
+ n MLB.TV\nhttps://e.cal.mlb/f/24wFKv/3fWfv\n\nFollow This Game on Gameday\n
+ https://e.cal.mlb/f/24wFKy/3fWfv\n\nCheck Out The Game Preview\nhttps://e.c
+ al.mlb/f/24wFKD/3fWfv\n\nWatch This Game's Highlights\nhttps://e.cal.mlb/f/
+ 24wFKJ/3fWfv\n\nFollow This Game in the MLB App\nhttps://e.cal.mlb/f/24wFKM
+ /3fWfv\n\nPersonalize Your Visit with the MLB Ballpark App - Download the A
+ pp\nhttps://e.cal.mlb/f/24wFKR/3fWfv\n\nManage my ECAL\nhttps://e.cal.mlb/f
+ /24wFL6/3fWfv\n\n
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+LAST-MODIFIED:20250913T171459Z
+DTSTAMP:20250913T171459Z
+LOCATION:Target Field
+X-ECAL-SCHEDULE:66a8a9c0d928ec90cc25d64c
+DTSTART:20260430T083300Z
+DTEND:20260430T113300Z
+SUMMARY: Toronto Blue Jays @ Minnesota Twins
+TRANSP:TRANSPARENT
+SEQUENCE:0
+UID:68ae74c096ed7806a9714b81
+PRIORITY:5
+X-MICROSOFT-CDO-IMPORTANCE:1
+CLASS:PUBLIC
+DESCRIPTION:Follow this game on MLB Gameday or the MLB app.\n\nWatch live o
+ n MLB.TV\nhttps://e.cal.mlb/f/21QjWc/3fWfv\n\nFollow This Game on Gameday\n
+ https://e.cal.mlb/f/21QjWp/3fWfv\n\nCheck Out The Game Preview\nhttps://e.c
+ al.mlb/f/21QjWy/3fWfv\n\nWatch This Game's Highlights\nhttps://e.cal.mlb/f/
+ 21QjWK/3fWfv\n\nFollow This Game in the MLB App\nhttps://e.cal.mlb/f/21QjWS
+ /3fWfv\n\nPersonalize Your Visit with the MLB Ballpark App - Download the A
+ pp\nhttps://e.cal.mlb/f/21QjX4/3fWfv\n\nManage my ECAL\nhttps://e.cal.mlb/f
+ /21QjXG/3fWfv\n\n
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+LAST-MODIFIED:20250913T171459Z
+DTSTAMP:20250913T171459Z
+LOCATION:Rogers Centre
+X-ECAL-SCHEDULE:66a8a9c0d928ec90cc25d64c
+DTSTART:20260802T073300Z
+DTEND:20260802T103300Z
+SUMMARY: St. Louis Cardinals @ Toronto Blue Jays
+TRANSP:TRANSPARENT
+SEQUENCE:0
+UID:68b5206096ed7827f82b5bc6
+PRIORITY:5
+X-MICROSOFT-CDO-IMPORTANCE:1
+CLASS:PUBLIC
+DESCRIPTION:Follow this game on MLB Gameday or the MLB app.\n\nWatch live o
+ n MLB.TV\nhttps://e.cal.mlb/f/24wFLj/3fWfv\n\nFollow This Game on Gameday\n
+ https://e.cal.mlb/f/24wFLn/3fWfv\n\nCheck Out The Game Preview\nhttps://e.c
+ al.mlb/f/24wFLs/3fWfv\n\nWatch This Game's Highlights\nhttps://e.cal.mlb/f/
+ 24wFLy/3fWfv\n\nFollow This Game in the MLB App\nhttps://e.cal.mlb/f/24wFLH
+ /3fWfv\n\nPersonalize Your Visit with the MLB Ballpark App - Download the A
+ pp\nhttps://e.cal.mlb/f/24wFLP/3fWfv\n\nManage my ECAL\nhttps://e.cal.mlb/f
+ /24wFMs/3fWfv\n\n
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+LAST-MODIFIED:20250913T171459Z
+DTSTAMP:20250913T171459Z
+LOCATION:Fenway Park
+X-ECAL-SCHEDULE:66a8a9c0d928ec90cc25d64c
+DTSTART:20260726T073300Z
+DTEND:20260726T103300Z
+SUMMARY: Toronto Blue Jays @ Boston Red Sox
+TRANSP:TRANSPARENT
+SEQUENCE:0
+UID:68b5206096ed7827f82b5bc7
+PRIORITY:5
+X-MICROSOFT-CDO-IMPORTANCE:1
+CLASS:PUBLIC
+DESCRIPTION:Follow this game on MLB Gameday or the MLB app.\n\nWatch live o
+ n MLB.TV\nhttps://e.cal.mlb/f/24wFN4/3fWfv\n\nFollow This Game on Gameday\n
+ https://e.cal.mlb/f/24wFN7/3fWfv\n\nCheck Out The Game Preview\nhttps://e.c
+ al.mlb/f/24wFNh/3fWfv\n\nWatch This Game's Highlights\nhttps://e.cal.mlb/f/
+ 24wFNm/3fWfv\n\nFollow This Game in the MLB App\nhttps://e.cal.mlb/f/24wFNs
+ /3fWfv\n\nPersonalize Your Visit with the MLB Ballpark App - Download the A
+ pp\nhttps://e.cal.mlb/f/24wFNv/3fWfv\n\nManage my ECAL\nhttps://e.cal.mlb/f
+ /24wFNH/3fWfv\n\n
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+LAST-MODIFIED:20250913T171459Z
+DTSTAMP:20250913T171459Z
+LOCATION:Yankee Stadium
+X-ECAL-SCHEDULE:66a8a9c0d928ec90cc25d64c
+DTSTART:20250907T173500Z
+DTEND:20250907T203500Z
+SUMMARY: Toronto Blue Jays @ New York Yankees
+TRANSP:TRANSPARENT
+SEQUENCE:0
+UID:67244f8ed745973fd674dc77
+PRIORITY:5
+X-MICROSOFT-CDO-IMPORTANCE:1
+CLASS:PUBLIC
+DESCRIPTION:Follow this game on MLB Gameday or the MLB app.\n\nWatch live o
+ n MLB.TV\nhttps://e.cal.mlb/f/KtVTm/3fWfv\n\nFollow This Game on Gameday\nh
+ ttps://e.cal.mlb/f/KtVTw/3fWfv\n\nCheck Out The Game Preview\nhttps://e.cal
+ .mlb/f/KtVTG/3fWfv\n\nWatch This Game's Highlights\nhttps://e.cal.mlb/f/KtV
+ TT/3fWfv\n\nFollow This Game in the MLB App\nhttps://e.cal.mlb/f/KtVV9/3fWf
+ v\n\nPersonalize Your Visit with the MLB Ballpark App - Download the App\nh
+ ttps://e.cal.mlb/f/KtVVk/3fWfv\n\nManage my ECAL\nhttps://e.cal.mlb/f/KtVVZ
+ /3fWfv\n\n
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+LAST-MODIFIED:20250913T171459Z
+DTSTAMP:20250913T171459Z
+LOCATION:Rogers Centre
+X-ECAL-SCHEDULE:66a8a9c0d928ec90cc25d64c
+DTSTART:20250830T190700Z
+DTEND:20250830T220700Z
+SUMMARY: Milwaukee Brewers @ Toronto Blue Jays
+TRANSP:TRANSPARENT
+SEQUENCE:0
+UID:66ff958ad74597995221008b
+PRIORITY:5
+X-MICROSOFT-CDO-IMPORTANCE:1
+CLASS:PUBLIC
+DESCRIPTION:Follow this game on MLB Gameday or the MLB app.\n\nWatch live o
+ n MLB.TV\nhttps://e.cal.mlb/f/HTQbG/3fWfv\n\nFollow This Game on Gameday\nh
+ ttps://e.cal.mlb/f/HTQbN/3fWfv\n\nCheck Out The Game Preview\nhttps://e.cal
+ .mlb/f/HTQbV/3fWfv\n\nWatch This Game's Highlights\nhttps://e.cal.mlb/f/HTQ
+ c1/3fWfv\n\nFollow This Game in the MLB App\nhttps://e.cal.mlb/f/HTQc5/3fWf
+ v\n\nPersonalize Your Visit with the MLB Ballpark App - Download the App\nh
+ ttps://e.cal.mlb/f/HTQcb/3fWfv\n\nManage my ECAL\nhttps://e.cal.mlb/f/HTQcy
+ /3fWfv\n\n
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+LAST-MODIFIED:20250913T171459Z
+DTSTAMP:20250913T171459Z
+LOCATION:George M. Steinbrenner Field
+X-ECAL-SCHEDULE:66a8a9c0d928ec90cc25d64c
+DTSTART:20260505T073300Z
+DTEND:20260505T103300Z
+SUMMARY: Toronto Blue Jays @ Tampa Bay Rays
+TRANSP:TRANSPARENT
+SEQUENCE:0
+UID:68ae74bf96ed7830836a435b
+PRIORITY:5
+X-MICROSOFT-CDO-IMPORTANCE:1
+CLASS:PUBLIC
+DESCRIPTION:Follow this game on MLB Gameday or the MLB app.\n\nWatch live o
+ n MLB.TV\nhttps://e.cal.mlb/f/21QgNG/3fWfv\n\nFollow This Game on Gameday\n
+ https://e.cal.mlb/f/21QgNR/3fWfv\n\nCheck Out The Game Preview\nhttps://e.c
+ al.mlb/f/21QgP1/3fWfv\n\nWatch This Game's Highlights\nhttps://e.cal.mlb/f/
+ 21QgPg/3fWfv\n\nFollow This Game in the MLB App\nhttps://e.cal.mlb/f/21QgPr
+ /3fWfv\n\nPersonalize Your Visit with the MLB Ballpark App - Download the A
+ pp\nhttps://e.cal.mlb/f/21QgPF/3fWfv\n\nManage my ECAL\nhttps://e.cal.mlb/f
+ /21QgQx/3fWfv\n\n
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+LAST-MODIFIED:20250913T171459Z
+DTSTAMP:20250913T171459Z
+LOCATION:Oriole Park at Camden Yards
+X-ECAL-SCHEDULE:66a8a9c0d928ec90cc25d64c
+DTSTART:20260530T073300Z
+DTEND:20260530T103300Z
+SUMMARY: Toronto Blue Jays @ Baltimore Orioles
+TRANSP:TRANSPARENT
+SEQUENCE:0
+UID:68ae74bf96ed781ab97f4548
+PRIORITY:5
+X-MICROSOFT-CDO-IMPORTANCE:1
+CLASS:PUBLIC
+DESCRIPTION:Follow this game on MLB Gameday or the MLB app.\n\nWatch live o
+ n MLB.TV\nhttps://e.cal.mlb/f/21QgHJ/3fWfv\n\nFollow This Game on Gameday\n
+ https://e.cal.mlb/f/21QgHW/3fWfv\n\nCheck Out The Game Preview\nhttps://e.c
+ al.mlb/f/21QgJ7/3fWfv\n\nWatch This Game's Highlights\nhttps://e.cal.mlb/f/
+ 21QgJl/3fWfv\n\nFollow This Game in the MLB App\nhttps://e.cal.mlb/f/21QgJx
+ /3fWfv\n\nPersonalize Your Visit with the MLB Ballpark App - Download the A
+ pp\nhttps://e.cal.mlb/f/21QgJN/3fWfv\n\nManage my ECAL\nhttps://e.cal.mlb/f
+ /21QgKB/3fWfv\n\n
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+LAST-MODIFIED:20250913T171459Z
+DTSTAMP:20250913T171459Z
+LOCATION:Rogers Centre
+X-ECAL-SCHEDULE:66a8a9c0d928ec90cc25d64c
+DTSTART:20260524T073300Z
+DTEND:20260524T103300Z
+SUMMARY: Pittsburgh Pirates @ Toronto Blue Jays
+TRANSP:TRANSPARENT
+SEQUENCE:0
+UID:68ae74bf96ed781ab97f453e
+PRIORITY:5
+X-MICROSOFT-CDO-IMPORTANCE:1
+CLASS:PUBLIC
+DESCRIPTION:Follow this game on MLB Gameday or the MLB app.\n\nWatch live o
+ n MLB.TV\nhttps://e.cal.mlb/f/21QfQT/3fWfv\n\nFollow This Game on Gameday\n
+ https://e.cal.mlb/f/21QfR2/3fWfv\n\nCheck Out The Game Preview\nhttps://e.c
+ al.mlb/f/21QfRf/3fWfv\n\nWatch This Game's Highlights\nhttps://e.cal.mlb/f/
+ 21QfRn/3fWfv\n\nFollow This Game in the MLB App\nhttps://e.cal.mlb/f/21QfRT
+ /3fWfv\n\nPersonalize Your Visit with the MLB Ballpark App - Download the A
+ pp\nhttps://e.cal.mlb/f/21QfS4/3fWfv\n\nManage my ECAL\nhttps://e.cal.mlb/f
+ /21QfSv/3fWfv\n\n
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+LAST-MODIFIED:20250913T171459Z
+DTSTAMP:20250913T171459Z
+LOCATION:Fenway Park
+X-ECAL-SCHEDULE:66a8a9c0d928ec90cc25d64c
+DTSTART:20260616T073300Z
+DTEND:20260616T103300Z
+SUMMARY: Toronto Blue Jays @ Boston Red Sox
+TRANSP:TRANSPARENT
+SEQUENCE:0
+UID:68ae74bf96ed781ab97f4542
+PRIORITY:5
+X-MICROSOFT-CDO-IMPORTANCE:1
+CLASS:PUBLIC
+DESCRIPTION:Follow this game on MLB Gameday or the MLB app.\n\nWatch live o
+ n MLB.TV\nhttps://e.cal.mlb/f/21QfXT/3fWfv\n\nFollow This Game on Gameday\n
+ https://e.cal.mlb/f/21QfY3/3fWfv\n\nCheck Out The Game Preview\nhttps://e.c
+ al.mlb/f/21QfYf/3fWfv\n\nWatch This Game's Highlights\nhttps://e.cal.mlb/f/
+ 21QfYn/3fWfv\n\nFollow This Game in the MLB App\nhttps://e.cal.mlb/f/21QfYy
+ /3fWfv\n\nPersonalize Your Visit with the MLB Ballpark App - Download the A
+ pp\nhttps://e.cal.mlb/f/21QfYJ/3fWfv\n\nManage my ECAL\nhttps://e.cal.mlb/f
+ /21QfZf/3fWfv\n\n
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+LAST-MODIFIED:20250913T171459Z
+DTSTAMP:20250913T171459Z
+LOCATION:Truist Park
+X-ECAL-SCHEDULE:66a8a9c0d928ec90cc25d64c
+DTSTART:20260602T073300Z
+DTEND:20260602T103300Z
+SUMMARY: Toronto Blue Jays @ Atlanta Braves
+TRANSP:TRANSPARENT
+SEQUENCE:0
+UID:68ae74bf96ed7830836a4359
+PRIORITY:5
+X-MICROSOFT-CDO-IMPORTANCE:1
+CLASS:PUBLIC
+DESCRIPTION:Follow this game on MLB Gameday or the MLB app.\n\nWatch live o
+ n MLB.TV\nhttps://e.cal.mlb/f/21Qg4c/3fWfv\n\nFollow This Game on Gameday\n
+ https://e.cal.mlb/f/21Qg4r/3fWfv\n\nCheck Out The Game Preview\nhttps://e.c
+ al.mlb/f/21Qg4w/3fWfv\n\nWatch This Game's Highlights\nhttps://e.cal.mlb/f/
+ 21Qg4K/3fWfv\n\nFollow This Game in the MLB App\nhttps://e.cal.mlb/f/21Qg4Q
+ /3fWfv\n\nPersonalize Your Visit with the MLB Ballpark App - Download the A
+ pp\nhttps://e.cal.mlb/f/21Qg51/3fWfv\n\nManage my ECAL\nhttps://e.cal.mlb/f
+ /21Qg5L/3fWfv\n\n
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+LAST-MODIFIED:20250913T171459Z
+DTSTAMP:20250913T171459Z
+LOCATION:Angel Stadium
+X-ECAL-SCHEDULE:66a8a9c0d928ec90cc25d64c
+DTSTART:20260422T103300Z
+DTEND:20260422T133300Z
+SUMMARY: Toronto Blue Jays @ Los Angeles Angels
+TRANSP:TRANSPARENT
+SEQUENCE:0
+UID:68ae74bf96ed7837432f3a18
+PRIORITY:5
+X-MICROSOFT-CDO-IMPORTANCE:1
+CLASS:PUBLIC
+DESCRIPTION:Follow this game on MLB Gameday or the MLB app.\n\nWatch live o
+ n MLB.TV\nhttps://e.cal.mlb/f/21Qgjj/3fWfv\n\nFollow This Game on Gameday\n
+ https://e.cal.mlb/f/21Qgjx/3fWfv\n\nCheck Out The Game Preview\nhttps://e.c
+ al.mlb/f/21QgjJ/3fWfv\n\nWatch This Game's Highlights\nhttps://e.cal.mlb/f/
+ 21QgjT/3fWfv\n\nFollow This Game in the MLB App\nhttps://e.cal.mlb/f/21Qgk8
+ /3fWfv\n\nPersonalize Your Visit with the MLB Ballpark App - Download the A
+ pp\nhttps://e.cal.mlb/f/21Qgkp/3fWfv\n\nManage my ECAL\nhttps://e.cal.mlb/f
+ /21Qgl4/3fWfv\n\n
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+LAST-MODIFIED:20250913T171459Z
+DTSTAMP:20250913T171459Z
+LOCATION:Rate Field
+X-ECAL-SCHEDULE:66a8a9c0d928ec90cc25d64c
+DTSTART:20260402T083300Z
+DTEND:20260402T113300Z
+SUMMARY: Toronto Blue Jays @ Chicago White Sox
+TRANSP:TRANSPARENT
+SEQUENCE:0
+UID:68ae74bf96ed781ad1318019
+PRIORITY:5
+X-MICROSOFT-CDO-IMPORTANCE:1
+CLASS:PUBLIC
+DESCRIPTION:Follow this game on MLB Gameday or the MLB app.\n\nWatch live o
+ n MLB.TV\nhttps://e.cal.mlb/f/21Qgrg/3fWfv\n\nFollow This Game on Gameday\n
+ https://e.cal.mlb/f/21Qgrq/3fWfv\n\nCheck Out The Game Preview\nhttps://e.c
+ al.mlb/f/21QgrN/3fWfv\n\nWatch This Game's Highlights\nhttps://e.cal.mlb/f/
+ 21Qgs4/3fWfv\n\nFollow This Game in the MLB App\nhttps://e.cal.mlb/f/21Qgsh
+ /3fWfv\n\nPersonalize Your Visit with the MLB Ballpark App - Download the A
+ pp\nhttps://e.cal.mlb/f/21Qgsv/3fWfv\n\nManage my ECAL\nhttps://e.cal.mlb/f
+ /21Qgtq/3fWfv\n\n
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+LAST-MODIFIED:20250913T171459Z
+DTSTAMP:20250913T171459Z
+LOCATION:Rogers Centre
+X-ECAL-SCHEDULE:66a8a9c0d928ec90cc25d64c
+DTSTART:20260630T073300Z
+DTEND:20260630T103300Z
+SUMMARY: New York Mets @ Toronto Blue Jays
+TRANSP:TRANSPARENT
+SEQUENCE:0
+UID:68ae74bf96ed78215652040b
+PRIORITY:5
+X-MICROSOFT-CDO-IMPORTANCE:1
+CLASS:PUBLIC
+DESCRIPTION:Follow this game on MLB Gameday or the MLB app.\n\nWatch live o
+ n MLB.TV\nhttps://e.cal.mlb/f/21QgC9/3fWfv\n\nFollow This Game on Gameday\n
+ https://e.cal.mlb/f/21QgCm/3fWfv\n\nCheck Out The Game Preview\nhttps://e.c
+ al.mlb/f/21QgCB/3fWfv\n\nWatch This Game's Highlights\nhttps://e.cal.mlb/f/
+ 21QgCR/3fWfv\n\nFollow This Game in the MLB App\nhttps://e.cal.mlb/f/21QgCZ
+ /3fWfv\n\nPersonalize Your Visit with the MLB Ballpark App - Download the A
+ pp\nhttps://e.cal.mlb/f/21QgD8/3fWfv\n\nManage my ECAL\nhttps://e.cal.mlb/f
+ /21QgDN/3fWfv\n\n
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+LAST-MODIFIED:20250913T171459Z
+DTSTAMP:20250913T171459Z
+LOCATION:Rogers Centre
+X-ECAL-SCHEDULE:66a8a9c0d928ec90cc25d64c
+DTSTART:20260624T073300Z
+DTEND:20260624T103300Z
+SUMMARY: Houston Astros @ Toronto Blue Jays
+TRANSP:TRANSPARENT
+SEQUENCE:0
+UID:68ae74bf96ed783d5a0b3471
+PRIORITY:5
+X-MICROSOFT-CDO-IMPORTANCE:1
+CLASS:PUBLIC
+DESCRIPTION:Follow this game on MLB Gameday or the MLB app.\n\nWatch live o
+ n MLB.TV\nhttps://e.cal.mlb/f/21Qh92/3fWfv\n\nFollow This Game on Gameday\n
+ https://e.cal.mlb/f/21Qh9f/3fWfv\n\nCheck Out The Game Preview\nhttps://e.c
+ al.mlb/f/21Qh9t/3fWfv\n\nWatch This Game's Highlights\nhttps://e.cal.mlb/f/
+ 21Qh9F/3fWfv\n\nFollow This Game in the MLB App\nhttps://e.cal.mlb/f/21Qh9T
+ /3fWfv\n\nPersonalize Your Visit with the MLB Ballpark App - Download the A
+ pp\nhttps://e.cal.mlb/f/21Qhb6/3fWfv\n\nManage my ECAL\nhttps://e.cal.mlb/f
+ /21QhbX/3fWfv\n\n
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+LAST-MODIFIED:20250913T171459Z
+DTSTAMP:20250913T171459Z
+LOCATION:Rogers Centre
+X-ECAL-SCHEDULE:66a8a9c0d928ec90cc25d64c
+DTSTART:20260522T073300Z
+DTEND:20260522T103300Z
+SUMMARY: Pittsburgh Pirates @ Toronto Blue Jays
+TRANSP:TRANSPARENT
+SEQUENCE:0
+UID:68ae74bf96ed782156520410
+PRIORITY:5
+X-MICROSOFT-CDO-IMPORTANCE:1
+CLASS:PUBLIC
+DESCRIPTION:Follow this game on MLB Gameday or the MLB app.\n\nWatch live o
+ n MLB.TV\nhttps://e.cal.mlb/f/21Qhr1/3fWfv\n\nFollow This Game on Gameday\n
+ https://e.cal.mlb/f/21Qhrd/3fWfv\n\nCheck Out The Game Preview\nhttps://e.c
+ al.mlb/f/21Qhrt/3fWfv\n\nWatch This Game's Highlights\nhttps://e.cal.mlb/f/
+ 21QhrF/3fWfv\n\nFollow This Game in the MLB App\nhttps://e.cal.mlb/f/21QhrX
+ /3fWfv\n\nPersonalize Your Visit with the MLB Ballpark App - Download the A
+ pp\nhttps://e.cal.mlb/f/21Qhsb/3fWfv\n\nManage my ECAL\nhttps://e.cal.mlb/f
+ /21QhsT/3fWfv\n\n
+BEGIN:VALARM
+TRIGGER:-P2DT
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+LAST-MODIFIED:20250913T171459Z
+DTSTAMP:20250913T171459Z
+LOCATION:Rogers Centre
+X-ECAL-SCHEDULE:66a8a9c0d928ec90cc25d64c
+DTSTART:20260513T073300Z
+DTEND:20260513T103300Z
+SUMMARY: Tampa Bay Rays @ Toronto Blue Jays
+TRANSP:TRANSPARENT
+SEQUENCE:0
+UID:68ae74bf96ed7827f82b3fec
+PRIORITY:5
+X-MICROSOFT-CDO-IMPORTANCE:1
+CLASS:PUBLIC
+DESCRIPTION:Follow this game on MLB Gameday or the MLB app.\n\nWatch live o
+ n MLB.TV\nhttps://e.cal.mlb/f/21Qhtf/3fWfv\n\nFollow This Game on Gameday\n
+ https://e.cal.mlb/f/21Qhts/3fWfv\n\nCheck Out The Game Preview\nhttps://e.c
+ al.mlb/f/21QhtH/3fWfv\n\nWatch This Game's Highlights\nhttps://e.cal.mlb/f/
+ 21QhtZ/3fWfv\n\nFollow This Game in the MLB App\nhttps://e.cal.mlb/f/21Qhv8
+ /3fWfv\n\nPersonalize Your Visit with the MLB Ballpark App - Download the A
+ pp\nhttps://e.cal.mlb/f/21Qhvn/3fWfv\n\nManage my ECAL\nhttps://e.cal.mlb/f
+ /21Qhw8/3fWfv\n\n
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+LAST-MODIFIED:20250913T171459Z
+DTSTAMP:20250913T171459Z
+LOCATION:Rogers Centre
+X-ECAL-SCHEDULE:66a8a9c0d928ec90cc25d64c
+DTSTART:20260523T073300Z
+DTEND:20260523T103300Z
+SUMMARY: Pittsburgh Pirates @ Toronto Blue Jays
+TRANSP:TRANSPARENT
+SEQUENCE:0
+UID:68ae74bf96ed781ab97f454c
+PRIORITY:5
+X-MICROSOFT-CDO-IMPORTANCE:1
+CLASS:PUBLIC
+DESCRIPTION:Follow this game on MLB Gameday or the MLB app.\n\nWatch live o
+ n MLB.TV\nhttps://e.cal.mlb/f/21Qhwv/3fWfv\n\nFollow This Game on Gameday\n
+ https://e.cal.mlb/f/21QhwJ/3fWfv\n\nCheck Out The Game Preview\nhttps://e.c
+ al.mlb/f/21QhwQ/3fWfv\n\nWatch This Game's Highlights\nhttps://e.cal.mlb/f/
+ 21Qhxl/3fWfv\n\nFollow This Game in the MLB App\nhttps://e.cal.mlb/f/21Qhxz
+ /3fWfv\n\nPersonalize Your Visit with the MLB Ballpark App - Download the A
+ pp\nhttps://e.cal.mlb/f/21QhxL/3fWfv\n\nManage my ECAL\nhttps://e.cal.mlb/f
+ /21Qhyr/3fWfv\n\n
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+LAST-MODIFIED:20250913T171459Z
+DTSTAMP:20250913T171459Z
+LOCATION:Rogers Centre
+X-ECAL-SCHEDULE:66a8a9c0d928ec90cc25d64c
+DTSTART:20260610T073300Z
+DTEND:20260610T103300Z
+SUMMARY: Philadelphia Phillies @ Toronto Blue Jays
+TRANSP:TRANSPARENT
+SEQUENCE:0
+UID:68ae74bf96ed782edc1ed2bf
+PRIORITY:5
+X-MICROSOFT-CDO-IMPORTANCE:1
+CLASS:PUBLIC
+DESCRIPTION:Follow this game on MLB Gameday or the MLB app.\n\nWatch live o
+ n MLB.TV\nhttps://e.cal.mlb/f/21QhyJ/3fWfv\n\nFollow This Game on Gameday\n
+ https://e.cal.mlb/f/21QhyW/3fWfv\n\nCheck Out The Game Preview\nhttps://e.c
+ al.mlb/f/21Qhz9/3fWfv\n\nWatch This Game's Highlights\nhttps://e.cal.mlb/f/
+ 21Qhzr/3fWfv\n\nFollow This Game in the MLB App\nhttps://e.cal.mlb/f/21QhzD
+ /3fWfv\n\nPersonalize Your Visit with the MLB Ballpark App - Download the A
+ pp\nhttps://e.cal.mlb/f/21QhzS/3fWfv\n\nManage my ECAL\nhttps://e.cal.mlb/f
+ /21QhBH/3fWfv\n\n
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+LAST-MODIFIED:20250913T171459Z
+DTSTAMP:20250913T171459Z
+LOCATION:Rogers Centre
+X-ECAL-SCHEDULE:66a8a9c0d928ec90cc25d64c
+DTSTART:20260623T073300Z
+DTEND:20260623T103300Z
+SUMMARY: Houston Astros @ Toronto Blue Jays
+TRANSP:TRANSPARENT
+SEQUENCE:0
+UID:68ae74bf96ed78291b49d46d
+PRIORITY:5
+X-MICROSOFT-CDO-IMPORTANCE:1
+CLASS:PUBLIC
+DESCRIPTION:Follow this game on MLB Gameday or the MLB app.\n\nWatch live o
+ n MLB.TV\nhttps://e.cal.mlb/f/21QhLq/3fWfv\n\nFollow This Game on Gameday\n
+ https://e.cal.mlb/f/21QhLH/3fWfv\n\nCheck Out The Game Preview\nhttps://e.c
+ al.mlb/f/21QhLX/3fWfv\n\nWatch This Game's Highlights\nhttps://e.cal.mlb/f/
+ 21QhM9/3fWfv\n\nFollow This Game in the MLB App\nhttps://e.cal.mlb/f/21QhMq
+ /3fWfv\n\nPersonalize Your Visit with the MLB Ballpark App - Download the A
+ pp\nhttps://e.cal.mlb/f/21QhMF/3fWfv\n\nManage my ECAL\nhttps://e.cal.mlb/f
+ /21QhNG/3fWfv\n\n
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+LAST-MODIFIED:20250913T171459Z
+DTSTAMP:20250913T171459Z
+LOCATION:Rogers Centre
+X-ECAL-SCHEDULE:66a8a9c0d928ec90cc25d64c
+DTSTART:20260626T073300Z
+DTEND:20260626T103300Z
+SUMMARY: Texas Rangers @ Toronto Blue Jays
+TRANSP:TRANSPARENT
+SEQUENCE:0
+UID:68ae74bf96ed7801894f6dda
+PRIORITY:5
+X-MICROSOFT-CDO-IMPORTANCE:1
+CLASS:PUBLIC
+DESCRIPTION:Follow this game on MLB Gameday or the MLB app.\n\nWatch live o
+ n MLB.TV\nhttps://e.cal.mlb/f/21Qj4L/3fWfv\n\nFollow This Game on Gameday\n
+ https://e.cal.mlb/f/21Qj4Y/3fWfv\n\nCheck Out The Game Preview\nhttps://e.c
+ al.mlb/f/21Qj5b/3fWfv\n\nWatch This Game's Highlights\nhttps://e.cal.mlb/f/
+ 21Qj5m/3fWfv\n\nFollow This Game in the MLB App\nhttps://e.cal.mlb/f/21Qj5z
+ /3fWfv\n\nPersonalize Your Visit with the MLB Ballpark App - Download the A
+ pp\nhttps://e.cal.mlb/f/21Qj5L/3fWfv\n\nManage my ECAL\nhttps://e.cal.mlb/f
+ /21Qj6y/3fWfv\n\n
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+LAST-MODIFIED:20250913T171459Z
+DTSTAMP:20250913T171459Z
+LOCATION:Chase Field
+X-ECAL-SCHEDULE:66a8a9c0d928ec90cc25d64c
+DTSTART:20260417T103300Z
+DTEND:20260417T133300Z
+SUMMARY: Toronto Blue Jays @ Arizona Diamondbacks
+TRANSP:TRANSPARENT
+SEQUENCE:0
+UID:68ae74bf96ed7827f82b3ff3
+PRIORITY:5
+X-MICROSOFT-CDO-IMPORTANCE:1
+CLASS:PUBLIC
+DESCRIPTION:Follow this game on MLB Gameday or the MLB app.\n\nWatch live o
+ n MLB.TV\nhttps://e.cal.mlb/f/21Qjbh/3fWfv\n\nFollow This Game on Gameday\n
+ https://e.cal.mlb/f/21Qjbr/3fWfv\n\nCheck Out The Game Preview\nhttps://e.c
+ al.mlb/f/21Qjbw/3fWfv\n\nWatch This Game's Highlights\nhttps://e.cal.mlb/f/
+ 21QjbG/3fWfv\n\nFollow This Game in the MLB App\nhttps://e.cal.mlb/f/21QjbP
+ /3fWfv\n\nPersonalize Your Visit with the MLB Ballpark App - Download the A
+ pp\nhttps://e.cal.mlb/f/21Qjcj/3fWfv\n\nManage my ECAL\nhttps://e.cal.mlb/f
+ /21QjcY/3fWfv\n\n
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+LAST-MODIFIED:20250913T171459Z
+DTSTAMP:20250913T171459Z
+LOCATION:Truist Park
+X-ECAL-SCHEDULE:66a8a9c0d928ec90cc25d64c
+DTSTART:20260604T073300Z
+DTEND:20260604T103300Z
+SUMMARY: Toronto Blue Jays @ Atlanta Braves
+TRANSP:TRANSPARENT
+SEQUENCE:0
+UID:68ae74c096ed78204915f506
+PRIORITY:5
+X-MICROSOFT-CDO-IMPORTANCE:1
+CLASS:PUBLIC
+DESCRIPTION:Follow this game on MLB Gameday or the MLB app.\n\nWatch live o
+ n MLB.TV\nhttps://e.cal.mlb/f/21Qjpf/3fWfv\n\nFollow This Game on Gameday\n
+ https://e.cal.mlb/f/21Qjpp/3fWfv\n\nCheck Out The Game Preview\nhttps://e.c
+ al.mlb/f/21Qjpz/3fWfv\n\nWatch This Game's Highlights\nhttps://e.cal.mlb/f/
+ 21QjpJ/3fWfv\n\nFollow This Game in the MLB App\nhttps://e.cal.mlb/f/21QjpR
+ /3fWfv\n\nPersonalize Your Visit with the MLB Ballpark App - Download the A
+ pp\nhttps://e.cal.mlb/f/21Qjq5/3fWfv\n\nManage my ECAL\nhttps://e.cal.mlb/f
+ /21QjqF/3fWfv\n\n
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+LAST-MODIFIED:20250913T171459Z
+DTSTAMP:20250913T171459Z
+LOCATION:Rogers Centre
+X-ECAL-SCHEDULE:66a8a9c0d928ec90cc25d64c
+DTSTART:20260622T073300Z
+DTEND:20260622T103300Z
+SUMMARY: Houston Astros @ Toronto Blue Jays
+TRANSP:TRANSPARENT
+SEQUENCE:0
+UID:68ae74bf96ed7801894f6ddb
+PRIORITY:5
+X-MICROSOFT-CDO-IMPORTANCE:1
+CLASS:PUBLIC
+DESCRIPTION:Follow this game on MLB Gameday or the MLB app.\n\nWatch live o
+ n MLB.TV\nhttps://e.cal.mlb/f/21QjqV/3fWfv\n\nFollow This Game on Gameday\n
+ https://e.cal.mlb/f/21Qjr2/3fWfv\n\nCheck Out The Game Preview\nhttps://e.c
+ al.mlb/f/21Qjrf/3fWfv\n\nWatch This Game's Highlights\nhttps://e.cal.mlb/f/
+ 21Qjrr/3fWfv\n\nFollow This Game in the MLB App\nhttps://e.cal.mlb/f/21QjrD
+ /3fWfv\n\nPersonalize Your Visit with the MLB Ballpark App - Download the A
+ pp\nhttps://e.cal.mlb/f/21QjrQ/3fWfv\n\nManage my ECAL\nhttps://e.cal.mlb/f
+ /21Qjsv/3fWfv\n\n
+BEGIN:VALARM
+TRIGGER:-P2DT
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+LAST-MODIFIED:20250913T171459Z
+DTSTAMP:20250913T171459Z
+LOCATION:Rogers Centre
+X-ECAL-SCHEDULE:66a8a9c0d928ec90cc25d64c
+DTSTART:20260627T073300Z
+DTEND:20260627T103300Z
+SUMMARY: Texas Rangers @ Toronto Blue Jays
+TRANSP:TRANSPARENT
+SEQUENCE:0
+UID:68ae74c096ed7830836a4370
+PRIORITY:5
+X-MICROSOFT-CDO-IMPORTANCE:1
+CLASS:PUBLIC
+DESCRIPTION:Follow this game on MLB Gameday or the MLB app.\n\nWatch live o
+ n MLB.TV\nhttps://e.cal.mlb/f/21QjsQ/3fWfv\n\nFollow This Game on Gameday\n
+ https://e.cal.mlb/f/21Qjt2/3fWfv\n\nCheck Out The Game Preview\nhttps://e.c
+ al.mlb/f/21Qjtb/3fWfv\n\nWatch This Game's Highlights\nhttps://e.cal.mlb/f/
+ 21Qjtn/3fWfv\n\nFollow This Game in the MLB App\nhttps://e.cal.mlb/f/21Qjty
+ /3fWfv\n\nPersonalize Your Visit with the MLB Ballpark App - Download the A
+ pp\nhttps://e.cal.mlb/f/21Qjv8/3fWfv\n\nManage my ECAL\nhttps://e.cal.mlb/f
+ /21QjvP/3fWfv\n\n
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+LAST-MODIFIED:20250913T171459Z
+DTSTAMP:20250913T171459Z
+LOCATION:Rogers Centre
+X-ECAL-SCHEDULE:66a8a9c0d928ec90cc25d64c
+DTSTART:20260612T073300Z
+DTEND:20260612T103300Z
+SUMMARY: New York Yankees @ Toronto Blue Jays
+TRANSP:TRANSPARENT
+SEQUENCE:0
+UID:68ae74c096ed7830836a4371
+PRIORITY:5
+X-MICROSOFT-CDO-IMPORTANCE:1
+CLASS:PUBLIC
+DESCRIPTION:Follow this game on MLB Gameday or the MLB app.\n\nWatch live o
+ n MLB.TV\nhttps://e.cal.mlb/f/21QjCh/3fWfv\n\nFollow This Game on Gameday\n
+ https://e.cal.mlb/f/21QjCv/3fWfv\n\nCheck Out The Game Preview\nhttps://e.c
+ al.mlb/f/21QjCJ/3fWfv\n\nWatch This Game's Highlights\nhttps://e.cal.mlb/f/
+ 21QjCT/3fWfv\n\nFollow This Game in the MLB App\nhttps://e.cal.mlb/f/21QjD7
+ /3fWfv\n\nPersonalize Your Visit with the MLB Ballpark App - Download the A
+ pp\nhttps://e.cal.mlb/f/21QjDg/3fWfv\n\nManage my ECAL\nhttps://e.cal.mlb/f
+ /21QjDP/3fWfv\n\n
+BEGIN:VALARM
+TRIGGER:-P2DT
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+LAST-MODIFIED:20250913T171459Z
+DTSTAMP:20250913T171459Z
+LOCATION:Rogers Centre
+X-ECAL-SCHEDULE:66a8a9c0d928ec90cc25d64c
+DTSTART:20260407T073300Z
+DTEND:20260407T103300Z
+SUMMARY: Los Angeles Dodgers @ Toronto Blue Jays
+TRANSP:TRANSPARENT
+SEQUENCE:0
+UID:68ae74c096ed783d5a0b348b
+PRIORITY:5
+X-MICROSOFT-CDO-IMPORTANCE:1
+CLASS:PUBLIC
+DESCRIPTION:Follow this game on MLB Gameday or the MLB app.\n\nWatch live o
+ n MLB.TV\nhttps://e.cal.mlb/f/21Qk3T/3fWfv\n\nFollow This Game on Gameday\n
+ https://e.cal.mlb/f/21Qk45/3fWfv\n\nCheck Out The Game Preview\nhttps://e.c
+ al.mlb/f/21Qk4f/3fWfv\n\nWatch This Game's Highlights\nhttps://e.cal.mlb/f/
+ 21Qk4n/3fWfv\n\nFollow This Game in the MLB App\nhttps://e.cal.mlb/f/21Qk4w
+ /3fWfv\n\nPersonalize Your Visit with the MLB Ballpark App - Download the A
+ pp\nhttps://e.cal.mlb/f/21Qk4K/3fWfv\n\nManage my ECAL\nhttps://e.cal.mlb/f
+ /21Qk5b/3fWfv\n\n
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+LAST-MODIFIED:20250913T171459Z
+DTSTAMP:20250913T171459Z
+LOCATION:Yankee Stadium
+X-ECAL-SCHEDULE:66a8a9c0d928ec90cc25d64c
+DTSTART:20250905T230500Z
+DTEND:20250906T020500Z
+SUMMARY: Toronto Blue Jays @ New York Yankees
+TRANSP:TRANSPARENT
+SEQUENCE:0
+UID:67244f8dd745973fdd6a4ca4
+PRIORITY:5
+X-MICROSOFT-CDO-IMPORTANCE:1
+CLASS:PUBLIC
+DESCRIPTION:Follow this game on MLB Gameday or the MLB app.\n\nWatch live o
+ n MLB.TV\nhttps://e.cal.mlb/f/KtTFk/3fWfv\n\nFollow This Game on Gameday\nh
+ ttps://e.cal.mlb/f/KtTFr/3fWfv\n\nCheck Out The Game Preview\nhttps://e.cal
+ .mlb/f/KtTFz/3fWfv\n\nWatch This Game's Highlights\nhttps://e.cal.mlb/f/KtT
+ FD/3fWfv\n\nFollow This Game in the MLB App\nhttps://e.cal.mlb/f/KtTFL/3fWf
+ v\n\nPersonalize Your Visit with the MLB Ballpark App - Download the App\nh
+ ttps://e.cal.mlb/f/KtTFV/3fWfv\n\nManage my ECAL\nhttps://e.cal.mlb/f/KtTGd
+ /3fWfv\n\n
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+LAST-MODIFIED:20250913T171459Z
+DTSTAMP:20250913T171459Z
+LOCATION:Rogers Centre
+X-ECAL-SCHEDULE:66a8a9c0d928ec90cc25d64c
+DTSTART:20250911T190700Z
+DTEND:20250911T220700Z
+SUMMARY: Houston Astros @ Toronto Blue Jays
+TRANSP:TRANSPARENT
+SEQUENCE:0
+UID:67244f8dd745973fd674dc65
+PRIORITY:5
+X-MICROSOFT-CDO-IMPORTANCE:1
+CLASS:PUBLIC
+DESCRIPTION:Follow this game on MLB Gameday or the MLB app.\n\nWatch live o
+ n MLB.TV\nhttps://e.cal.mlb/f/KtTNd/3fWfv\n\nFollow This Game on Gameday\nh
+ ttps://e.cal.mlb/f/KtTNx/3fWfv\n\nCheck Out The Game Preview\nhttps://e.cal
+ .mlb/f/KtTNN/3fWfv\n\nWatch This Game's Highlights\nhttps://e.cal.mlb/f/KtT
+ NX/3fWfv\n\nFollow This Game in the MLB App\nhttps://e.cal.mlb/f/KtTP9/3fWf
+ v\n\nPersonalize Your Visit with the MLB Ballpark App - Download the App\nh
+ ttps://e.cal.mlb/f/KtTPk/3fWfv\n\nManage my ECAL\nhttps://e.cal.mlb/f/KtTQ9
+ /3fWfv\n\n
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+LAST-MODIFIED:20250913T171459Z
+DTSTAMP:20250913T171459Z
+LOCATION:Rogers Centre
+X-ECAL-SCHEDULE:66a8a9c0d928ec90cc25d64c
+DTSTART:20250909T230700Z
+DTEND:20250910T020700Z
+SUMMARY: Houston Astros @ Toronto Blue Jays
+TRANSP:TRANSPARENT
+SEQUENCE:0
+UID:67244f8dd745973fdd6a4cad
+PRIORITY:5
+X-MICROSOFT-CDO-IMPORTANCE:1
+CLASS:PUBLIC
+DESCRIPTION:Follow this game on MLB Gameday or the MLB app.\n\nWatch live o
+ n MLB.TV\nhttps://e.cal.mlb/f/KtVb4/3fWfv\n\nFollow This Game on Gameday\nh
+ ttps://e.cal.mlb/f/KtVb8/3fWfv\n\nCheck Out The Game Preview\nhttps://e.cal
+ .mlb/f/KtVbg/3fWfv\n\nWatch This Game's Highlights\nhttps://e.cal.mlb/f/KtV
+ bx/3fWfv\n\nFollow This Game in the MLB App\nhttps://e.cal.mlb/f/KtVbW/3fWf
+ v\n\nPersonalize Your Visit with the MLB Ballpark App - Download the App\nh
+ ttps://e.cal.mlb/f/KtVc6/3fWfv\n\nManage my ECAL\nhttps://e.cal.mlb/f/KtVcL
+ /3fWfv\n\n
+BEGIN:VALARM
+TRIGGER:-P2DT
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+LAST-MODIFIED:20250913T171459Z
+DTSTAMP:20250913T171459Z
+LOCATION:Proudly powered by ECAL
+X-ECAL-SCHEDULE:68c5a66c5408600008cab1d1
+DTSTART:20250913T172900Z
+DTEND:20250913T174400Z
+SUMMARY:Welcome to Toronto Blue Jays!
+TRANSP:TRANSPARENT
+SEQUENCE:0
+UID:68c5a66c5386df0008b79b4e
+PRIORITY:5
+X-MICROSOFT-CDO-IMPORTANCE:1
+CLASS:PUBLIC
+DESCRIPTION:Thanks for adding your downloadable calendar\; you are all set.
+  \nIf dates\, times or details change\, these will automatically update in 
+ your calendar. \n\nThis service is powered by ECAL\, please visit their Sup
+ port Center for any feedback or questions. https://support.ecal.com.\n\nMan
+ age my ECAL\nhttps://e.cal.mlb/f/258bnt/3fWfv\n\n
+BEGIN:VALARM
+TRIGGER:-PT1M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+END:VCALENDAR

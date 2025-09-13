@@ -1,0 +1,11 @@
+.collapse-box
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.news-content
+{
+    padding: 8px;
+    background-color: white;
+}

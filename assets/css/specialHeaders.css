@@ -1,0 +1,53 @@
+/* Stores formatting data for special headers */
+
+/* Baseball Header */
+.header-baseball
+{
+position:relative;
+background-image: url("/assets/site/clay.jpg");
+color: white;
+}
+
+.header-baseball h2
+{
+z-index: 5000;
+}
+
+.header-baseball::before
+{
+content: "";
+position: absolute;
+z-index: 10;
+top: 0;
+left: 0;
+width: 90%;
+height: 100%;
+background: linear-gradient(to right, rgb(0, 0, 0), transparent);
+pointer-events: none;
+}
+
+/* Racing Header */
+
+.header-racing
+{
+    position:relative;
+    background-image: url("/assets/images/racing.webp")
+}
+
+.header-racing h2
+{
+    z-index: 5000;
+}
+
+.header-racing::before
+{
+    content: "";
+    position: absolute;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    width: 90%;
+    height: 100%;
+    background: linear-gradient(to right, rgb(255, 255, 255), transparent);
+    pointer-events: none;
+}
