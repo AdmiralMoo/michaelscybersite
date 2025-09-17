@@ -422,5 +422,13 @@
         "monthread": "August",
         "yearread": "2025",
         "cover": "/assets/books/prideandprejudice.webp"
+    },
+    {
+        "name":"Under the Greenwood Tree",
+        "author": "Thomas Hardy",
+        "year": "1872",
+        "monthread": "September",
+        "yearread": "2025",
+        "cover": "/assets/books/underthegreenwoodtree.webp"
     }
 ]
