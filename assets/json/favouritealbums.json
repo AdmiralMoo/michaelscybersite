@@ -944,7 +944,7 @@
           {
             "title": "Hello, I Must Be Going!",
             "artist": "Phil Collins",
-            "cover": "./assets/albumart/phil collins - hello i must be going.webp",
+            "cover": "assets/albumart/phil collins - hello I must be going.webp",
             "description": "Some Test Text"
           },
           {
