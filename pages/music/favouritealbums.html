@@ -75,7 +75,7 @@
     left: 50%;
     transform: translate(-50%,-50%);
     border-radius: 10px;
-    overflow: hidden;
+    overflow: visible;
     background-position: center;
     background-size: cover;
     transition: transform .4s cubic-bezier(.34,1.56,.64,1);
@@ -134,8 +134,10 @@
 
 <body>
   <main>
+    <div class="mobile-only" style="color:red; width: 90%; font-family: Arial, Helvetica, sans-serif; font-weight: bold; background-color: yellow;">
+      <p>This page isn't designed for mobile; check it out on a computer for the real deal!</p>
+    </div>
     <div id="set-picker"></div>
-
     <div class="maincontent-centred universe-container" style="min-height:60vh;">
       <div id="album-orbit">
         <canvas id="stars"></canvas>

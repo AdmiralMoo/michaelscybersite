@@ -387,6 +387,20 @@ main
   padding-top:5px;
   padding-bottom:5px;
 }
+
+.mobile-only 
+{ 
+  display: none; 
+}
+
+@media (max-width: 512px) 
+{
+  .mobile-only
+  { 
+    display: block; 
+  }
+}
+
 /*
 Formatting for header boxes
 */
