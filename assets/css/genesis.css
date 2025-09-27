@@ -326,3 +326,88 @@
     font-weight: bold;
     color: #000000;
 }
+
+#facevalue
+{
+    background-color: #000000;
+    color: #d4d4d4;
+    font-family: 'Franklin Gothic Medium', sans-serif;
+    font-weight: normal;
+}
+
+#facevalue h1
+{
+    font-family: 'Selling England By The Pound', serif;
+    color: #d4d4d4;
+}
+
+#facevalue h2
+{
+    font-family: 'Selling England By The Pound', serif;
+    font-weight: bold;
+    color: #d4d4d4;
+}
+
+#helloimustbegoing
+{
+    background-color: #06438a;
+    color: #ffffff;
+    font-family: 'Myriad', sans-serif;
+    font-weight: normal;
+    font-style: italic;
+}
+
+#helloimustbegoing h1
+{
+    font-family: 'Selling England By The Pound', serif;
+    color: #ffffff;
+}
+
+#helloimustbegoing h2
+{
+    font-family: 'Selling England By The Pound', serif;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+#nojacketrequired
+{
+    background-color: #041415;
+    color: #ffffff;
+    font-family: 'Myriad', sans-serif;
+    font-weight: normal;
+}
+
+#nojacketrequired h1
+{
+    font-family: 'Selling England By The Pound', serif;
+    color: #ffffff;
+}
+
+#nojacketrequired h2
+{
+    font-family: 'Selling England By The Pound', serif;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+#butseriously
+{
+    background-color: #041415;
+    color: #ffffff;
+    font-family: 'Myriad', sans-serif;
+    font-weight: normal;
+}
+
+#butseriously h1
+{
+    font-family: 'Selling England By The Pound', serif;
+    color: #ffffff;
+}
+
+#butseriously h2
+{
+    font-family: 'Selling England By The Pound', serif;
+    font-weight: bold;
+    color: #ffffff;
+}
