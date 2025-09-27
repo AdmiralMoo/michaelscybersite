@@ -54,6 +54,48 @@
   font-weight: normal;
 }
 
+@font-face {
+  font-family: 'Three';
+  src: url('/assets/fonts/Genesis Fonts/centurygothic.TTF') format('truetype');
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Myriad';
+  src: url('/assets/fonts/Genesis Fonts/myriadpro.otf') format('opentype');
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Dance';
+  src: url('/assets/fonts/Genesis Fonts/WeCantDance.ttf') format('truetype');
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Tail';
+  src: url('/assets/fonts/Genesis Fonts/trickOfTheTail.ttf') format('truetype');
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Lamb';
+  src: url('/assets/fonts/Genesis Fonts/thelamb_H.ttf') format('truetype');
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Nursery';
+  src: url('/assets/fonts/Genesis Fonts/nursery.ttf') format('truetype');
+  font-style: normal;
+  font-weight: normal;
+}
+
 #sellingenglandbythepound
 {
     background-color: #ebe7b7;
@@ -155,6 +197,132 @@
 #duke h2
 {
     font-family: 'Duke', sans-serif;
+    font-weight: bold;
+    color: #000000;
+}
+
+#andthentherewerethree
+{
+    background-color: #000000;
+    color: #6abfcc;
+    font-family: 'Three', sans-serif;
+    font-style: normal;
+}
+
+#andthentherewerethree h1
+{
+    font-family: 'Three', sans-serif;
+    color: #6abfcc;
+}
+
+#andthentherewerethree h2
+{
+    font-family: 'Three', sans-serif;
+    font-weight: bold;
+    color: #6abfcc;
+}
+
+#wecantdance
+{
+    background-color: #f7eab3;
+    color: #502c97;
+    font-family: 'Myriad', sans-serif;
+    font-style: normal;
+}
+
+#wecantdance h1
+{
+    font-family: 'Myriad', sans-serif;
+    color: #502c97;
+}
+
+#wecantdance h2
+{
+    font-family: 'Myriad', sans-serif;
+    font-weight: bold;
+    color: #502c97;
+}
+
+#atrickofthetail
+{
+    background-color: #e3d29c;
+    color: #67241a;
+    font-family: 'Garamond', sans-serif;
+    font-weight: bold;
+}
+
+#atrickofthetail h1
+{
+    font-family: 'Tail', serif;
+    color: #67241a;
+}
+
+#atrickofthetail h2
+{
+    font-family: 'Tail', serif;
+    font-weight: bold;
+    color: #67241a;
+}
+
+#thelamblies
+{
+    background-color: #ffffff;
+    color: #000000;
+    font-family: 'Franklin Gothic Medium', sans-serif;
+    font-weight: normal;
+}
+
+#thelamblies h1
+{
+    font-family: 'Lamb', serif;
+    color: #000000;
+}
+
+#thelamblies h2
+{
+    font-family: 'Lamb', serif;
+    font-weight: bold;
+    color: #000000;
+}
+
+#foxtrot
+{
+    background-color: #abcfe4;
+    color: #000000;
+    font-family: 'Franklin Gothic Medium', sans-serif;
+    font-weight: normal;
+}
+
+#foxtrot h1
+{
+    font-family: 'Nursery', serif;
+    color: #000000;
+}
+
+#foxtrot h2
+{
+    font-family: 'Nursery', serif;
+    font-weight: bold;
+    color: #000000;
+}
+
+#nurserycryme
+{
+    background-color: #aea91d;
+    color: #000000;
+    font-family: 'Franklin Gothic Medium', sans-serif;
+    font-weight: normal;
+}
+
+#nurserycryme h1
+{
+    font-family: 'Nursery', serif;
+    color: #000000;
+}
+
+#nurserycryme h2
+{
+    font-family: 'Nursery', serif;
     font-weight: bold;
     color: #000000;
 }
