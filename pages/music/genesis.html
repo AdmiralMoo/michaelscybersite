@@ -60,6 +60,8 @@
             flex-direction: row;
 
             padding: 24px;
+
+            box-sizing: border-box;
         }
 
         .wide-album-content
@@ -78,6 +80,8 @@
 
             min-width: 64px;
             min-height: 64px;
+
+            padding: 12px;
         }
 
         .wide-album-cover img
@@ -92,6 +96,11 @@
             padding: 24px;
             display: flex;
             flex-direction: column;
+        }
+
+        .wide-album-maincontentbox
+        {
+            padding: 12px;
         }
 
         .wide-album-splitcontent
@@ -113,30 +122,33 @@
             background-color:white;
             align-items: center;
             
-            width: 100%;
+            width: 95%;
 
             font-family: Arial, Helvetica, sans-serif;
             font-style: italic;
 
             justify-content: center;
 
-            padding-top: 16px;
-            padding-bottom: 16px;
+            padding: 16px;
+            padding-left: 12px;
+            padding-right: 12px;
         }
 
         .band-logo img
         {
             width: 100%;
             max-width: 768px;
+            max-height: 130px;
             object-fit:scale-down;
         }
 
         .album-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
-            gap: 15px;
+            grid-template-columns: repeat(auto-fill, minmax(128px, 1fr));
+            padding: 12px;
+            gap: 12px;
             background-color:white;
-            width: 100%;
+            width: 95%;
         }
 
         .album-grid img {
@@ -144,6 +156,12 @@
             aspect-ratio: 1 / 1;
             object-fit: cover;
             display:block;
+        }
+
+        .album-grid-parent
+        {
+            width:100%;
+            max-width: 1024px;
         }
 
         .album
@@ -187,7 +205,94 @@
         .notowned
         {
             filter:saturate(0) opacity(80%);
+            
         }
+
+        .simple-image-carousel {
+            position: relative;
+            width: 100%;     
+            max-width: none;
+            overflow: hidden;
+            margin: 1rem auto;
+        }
+
+        .simple-image-carousel-track {
+            display: flex;
+            transition: transform 0.4s ease;
+            height: 100%;
+        }
+
+        .simple-image-carousel-image {
+        flex: 0 0 auto;
+        width: 25%; 
+        height: auto;
+        object-fit: cover;
+        margin-right: 8px;
+        }
+
+        @media(min-width: 1280px)
+        {
+            .album-grid
+            {
+                grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+            }
+
+            .album-grid-parent
+            {
+                width: 100%;
+            }
+        }
+
+        @media (max-width: 1280px) {
+            .simple-image-carousel-image {
+                width: 33.33%;
+                margin-right: 0;
+            }
+
+            .album-grid
+            {
+                grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+            }
+        }
+
+        @media (max-width: 900px) {
+            .simple-image-carousel-image {
+                width: 50%;
+            }
+
+            p
+            {
+                margin: 12px;
+            }
+        }
+
+        @media (max-width: 600px) {
+            .simple-image-carousel-image {
+                width: 100%;
+                margin-right: 0;
+            }
+
+            .album-grid
+            {
+                grid-template-columns: repeat(auto-fill, minmax(128px, 1fr));
+            }
+        }
+
+        .carousel-button {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            background: rgba(0,0,0,0.5);
+            color: white;
+            border: none;
+            font-size: 20px;
+            padding: 6px 10px;
+            cursor: pointer;
+        }
+
+        .carousel-button.prev { left: 10px; }
+        .carousel-button.next { right: 10px; }
+        
 
         @media (max-width: 1200px)
         {
@@ -248,13 +353,6 @@
             {
                 padding: 8px;
             }
-
-            /*
-            .maincontent-centred img
-            {
-                max-width: 100%;
-            }
-            */
         }
     </style>
 </head>
@@ -276,23 +374,23 @@
                 <img src="./assets/images/genesis_logo.jpg">
             </div>
 
-            <div>
+            <div class="album-grid-parent">
                 <div class="album-grid">
-                    <div class="album notowned"><a href=""><img src="https://upload.wikimedia.org/wikipedia/en/thumb/1/1f/FromGenesistoRevelation.jpg/1024px-FromGenesistoRevelation.jpg" alt=""><span>Genesis/From Genesis To Revelation (1969)</span></a></div>
-                    <div class="album notowned"><a href=""><img src="https://upload.wikimedia.org/wikipedia/en/a/a2/Trespass70.jpg" alt=""><span>Genesis/Trespass (1970)</span></a></div>
-                    <div class="album"><a href="/pages/music/genesis.html#nursercryme"><img src="./assets/albumart/genesis - nursery cryme.webp" alt=""><span>Genesis/Nursery Cryme (1971)</span></a></div>
+                    <div class="album notowned"><img src="https://upload.wikimedia.org/wikipedia/en/thumb/1/1f/FromGenesistoRevelation.jpg/1024px-FromGenesistoRevelation.jpg" alt=""><span>Genesis/From Genesis To Revelation (1969)</span></div>
+                    <div class="album notowned"><img src="https://upload.wikimedia.org/wikipedia/en/a/a2/Trespass70.jpg" alt=""><span>Genesis/Trespass (1970)</span></a></div>
+                    <div class="album"><a href="/pages/music/genesis.html#nurserycryme"><img src="./assets/albumart/genesis - nursery cryme.webp" alt=""><span>Genesis/Nursery Cryme (1971)</span></a></div>
                     <div class="album"><a href="/pages/music/genesis.html#foxtrot"><img src="./assets/albumart/genesis - foxtrot.webp" alt=""><span>Genesis/Foxtrot (1972)</span></a></div>
                     <div class="album"><a href="/pages/music/genesis.html#sellingenglandbythepound"><img src="./assets/albumart/genesis - selling england by the pound.jpg" alt=""><span>Genesis/Selling England By The Pound (1973)</span></a></div>
-                    <div class="album"><a href="/pages/music/genesis.html#thelambliesdown"><img src="./assets/albumart/genesis - the lamb lies down on broadway.webp" alt=""><span>Genesis/The Lamb Lies Down on Broadway (1974)</span></a></div>
-                    <div class="album"><a href=""><img src="./assets/albumart/genesis - a trick of the tail.jpg" alt=""><span>Genesis/Trick of The Tail (1976)</span></a></div>
-                    <div class="album notowned"><a href=""><img src="https://upload.wikimedia.org/wikipedia/en/1/11/Genesis1976windandwuthering.jpg" alt=""><span>Genesis/Wind & Wuthering (1976)</span></a></div>
-                    <div class="album"><a href=""><img src="./assets/albumart/genesis - ...and then there were three.webp" alt=""><span>Genesis/...And Then There Were Three... (1978)</span></a></div>
-                    <div class="album"><a href=""><img src="./assets/albumart/genesis - duke.webp" alt=""><span>Genesis/Duke (1980)</span></a></div>
-                    <div class="album"><a href=""><img src="./assets/albumart/genesis - abacab.webp" alt=""><span>Genesis/Abacab (1981)</span></a></div>
-                    <div class="album"><a href=""><img src="./assets/albumart/genesis - genesis.jpg" alt=""><span>Genesis/Genesis (1983)</span></a></div>
+                    <div class="album"><a href="/pages/music/genesis.html#thelamblies"><img src="./assets/albumart/genesis - the lamb lies down on broadway.webp" alt=""><span>Genesis/The Lamb Lies Down on Broadway (1974)</span></a></div>
+                    <div class="album"><a href="/pages/music/genesis.html#atrickofthetail"><img src="./assets/albumart/genesis - a trick of the tail.jpg" alt=""><span>Genesis/Trick of The Tail (1976)</span></a></div>
+                    <div class="album notowned"><img src="https://upload.wikimedia.org/wikipedia/en/1/11/Genesis1976windandwuthering.jpg" alt=""><span>Genesis/Wind & Wuthering (1976)</span></div>
+                    <div class="album"><a href="/pages/music/genesis.html#andthentherewerethree"><img src="./assets/albumart/genesis - ...and then there were three.webp" alt=""><span>Genesis/...And Then There Were Three... (1978)</span></a></div>
+                    <div class="album"><a href="/pages/music/genesis.html#duke"><img src="./assets/albumart/genesis - duke.webp" alt=""><span>Genesis/Duke (1980)</span></a></div>
+                    <div class="album"><a href="/pages/music/genesis.html#abacab"><img src="./assets/albumart/genesis - abacab.webp" alt=""><span>Genesis/Abacab (1981)</span></a></div>
+                    <div class="album"><a href="/pages/music/genesis.html#genesis"><img src="./assets/albumart/genesis - genesis.jpg" alt=""><span>Genesis/Genesis (1983)</span></a></div>
                     <div class="album"><a href="/pages/music/genesis.html#invisibletouch"><img src="./assets/albumart/genesis - invisible touch.jpg" alt=""><span>Genesis/Invisible Touch (1986)</span></a></div>
-                    <div class="album"><a href=""><img src="./assets/albumart/genesis - we can't dance.jpg" alt=""><span>Genesis/We Can't Dance (1991)</span></a></div>
-                    <div class="album notowned"><a href=""><img src="https://upload.wikimedia.org/wikipedia/en/2/28/Genesis_-_Calling_All_Stations.jpg" alt=""><span>Genesis/Calling All Stations (1997)</span></a></div>
+                    <div class="album"><a href="/pages/music/genesis.html#wecantdance"><img src="./assets/albumart/genesis - we can't dance.jpg" alt=""><span>Genesis/We Can't Dance (1991)</span></a></div>
+                    <div class="album notowned"><img src="https://upload.wikimedia.org/wikipedia/en/2/28/Genesis_-_Calling_All_Stations.jpg" alt=""><span>Genesis/Calling All Stations (1997)</span></div>
                 </div>
                 <h3 style="width:100%; text-align: center;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;padding-bottom:24px">11/15 albums in my collection</h3>
             </div>
@@ -302,29 +400,51 @@
                 <div class="wide-album-cover">
                     <img src="./assets/albumart/genesis - we can't dance.jpg">
                 </div>
-                <div class="wide-album-content">
+                <div class="wide-album-content wide-album-maincontentbox">
                     <div class="wide-album-contentbox">
                         <h1>We Can't Dance</h1>
                         <div class="wide-album-splitcontent">
                             <h2>1991</h2>
                             <h2>12 Tracks - 71:59</h2>
                         </div>
+                        
+                        <div class="wide-album-splitcontent wide-album-contentbox">
+                            <div class="wide-album-tracklistbox">
+                                <ol>
+                                    <div class="wide-album-splitcontent"><li>No Son of Mine</li><span>6:41</span></div>
+                                    <div class="wide-album-splitcontent"><li>Jesus He Knows Me</li><span>4:23</span></div>
+                                    <div class="wide-album-splitcontent"><li>Driving the Last Spike</li><span>10:10</span></div>
+                                    <div class="wide-album-splitcontent"><li>I Can't Dance</li><span>4:04</span></div>
+                                    <div class="wide-album-splitcontent"><li>Never a Time</li><span>3:52</span></div>
+                                    <div class="wide-album-splitcontent"><li>Dreaming While You Sleep</li><span>7:21</span></div>
+                                    <div class="wide-album-splitcontent"><li>Tell Me Why</li><span>5:00</span></div>
+                                    <div class="wide-album-splitcontent"><li>Living Forever</li><span>5:42</span></div>
+                                    <div class="wide-album-splitcontent"><li>Hold on My Heart</li><span>4:40</span></div>
+                                    <div class="wide-album-splitcontent"><li>Way of the World</li><span>5:40</span></div>
+                                    <div class="wide-album-splitcontent"><li>Since I Lost You</li><span>4:10</span></div>
+                                    <div class="wide-album-splitcontent"><li>Fading Lights</li><span>10:16</span></div>
+                                </ol>
+                            </div>
 
-                        <div class="wide-album-tracklistbox">
-                            <ol>
-                                <div class="wide-album-splitcontent"><li>No Son of Mine</li><span>6:41</span></div>
-                                <div class="wide-album-splitcontent"><li>Jesus He Knows Me</li><span>4:23</span></div>
-                                <div class="wide-album-splitcontent"><li>Driving the Last Spike</li><span>10:10</span></div>
-                                <div class="wide-album-splitcontent"><li>I Can't Dance</li><span>4:04</span></div>
-                                <div class="wide-album-splitcontent"><li>Never a Time</li><span>3:52</span></div>
-                                <div class="wide-album-splitcontent"><li>Dreaming While You Sleep</li><span>7:21</span></div>
-                                <div class="wide-album-splitcontent"><li>Tell Me Why</li><span>5:00</span></div>
-                                <div class="wide-album-splitcontent"><li>Living Forever</li><span>5:42</span></div>
-                                <div class="wide-album-splitcontent"><li>Hold on My Heart</li><span>4:40</span></div>
-                                <div class="wide-album-splitcontent"><li>Way of the World</li><span>5:40</span></div>
-                                <div class="wide-album-splitcontent"><li>Since I Lost You</li><span>4:10</span></div>
-                                <div class="wide-album-splitcontent"><li>Fading Lights</li><span>10:16</span></div>
-                            </ol>
+                            <div class="simple-image-carousel">
+                                <div class="simple-image-carousel-track">
+                                    <img src="./assets/images/cds/genesis/genesis_wecantdance_0.webp" class="simple-image-carousel-image">
+                                    <img src="./assets/images/cds/genesis/genesis_wecantdance_1.webp" class="simple-image-carousel-image">
+                                    <img src="./assets/images/cds/genesis/genesis_wecantdance_2.webp" class="simple-image-carousel-image">
+                                    <img src="./assets/images/cds/genesis/genesis_wecantdance_3.webp" class="simple-image-carousel-image">
+                                </div>
+                                    <button class="carousel-button prev">&#10094;</button>
+                                    <button class="carousel-button next">&#10095;</button>
+                                </div>
+                            </div>
+
+                            <div class="wide-album-contentbox">
+                                <h2>My Copy</h2>
+                                <div class="wide-album-splitcontent shrinkstack"><span><b>Date Acquired: </b>November 16th, 2023</span><span><b>Source: </b>Thrift Store</span></div>
+                                <div class="wide-album-splitcontent shrinkstack"><span><b>Format: </b>CD</span><span><b>Packaging: </b>Jewel Case</span></div>
+                                <div class="wide-album-splitcontent shrinkstack"><span><b>Catalogue #: </b>A2 82344</span><span><b>Year: </b>1991</span></div>
+                                <div class="wide-album-splitcontent shrinkstack"><span><b>Manufacturer: </b>WEA Manufacturing Inc.</span><span><b>Region: </b>U.S.A. & Canada</span></div>
+                            </div>
                         </div>
 
                         <div>
@@ -338,7 +458,7 @@
                 <div class="wide-album-cover">
                     <img src="./assets/albumart/genesis - invisible touch.jpg">
                 </div>
-                <div class="wide-album-content">
+                <div class="wide-album-content wide-album-maincontentbox">
                     <div class="wide-album-contentbox">
                         <h1>Invisible Touch</h1>
                         <div class="wide-album-splitcontent">
@@ -384,6 +504,37 @@
                                 I got a copy of this album on CD back in November of 2023, but I didn't listen to it then. I saw it on the shelf and thought, "I like Pink Floyd, and according to the internet people, I'm going to like Genesis someday too". The internet people were right, and after really getting into <i>Selling England By The Pound</i> in the Spring of 2025, I dug this one out and played it on repeat. It's my most-listened album in June and August of 2025, taking a close second in July to Phil Collins second solo effort, <i>Hello, I Must Be Going!</i>.
                             </p>
                         </div>
+
+                        <div class="simple-image-carousel">
+                            <div class="simple-image-carousel-track">
+                                <img src="./assets/images/cds/genesis/genesis_invisibletouch_0.webp" class="simple-image-carousel-image">
+                                <img src="./assets/images/cds/genesis/genesis_invisibletouch_1.webp" class="simple-image-carousel-image">
+                                <img src="./assets/images/cds/genesis/genesis_invisibletouch_2.webp" class="simple-image-carousel-image">
+                                <img src="./assets/images/cds/genesis/genesis_invisibletouch_4.webp" class="simple-image-carousel-image">
+                                <img src="./assets/images/cds/genesis/genesis_invisibletouch_5.webp" class="simple-image-carousel-image">
+                                <img src="./assets/images/cds/genesis/genesis_invisibletouch_6.webp" class="simple-image-carousel-image">
+                                <img src="./assets/images/cds/genesis/genesis_invisibletouch_7.webp" class="simple-image-carousel-image">
+                                <img src="./assets/images/cds/genesis/genesis_invisibletouch_8.webp" class="simple-image-carousel-image">
+                                <img src="./assets/images/cds/genesis/genesis_invisibletouch_9.webp" class="simple-image-carousel-image">
+                                <img src="./assets/images/cds/genesis/genesis_invisibletouch_10.webp" class="simple-image-carousel-image">
+                                <img src="./assets/images/cds/genesis/genesis_invisibletouch_11.webp" class="simple-image-carousel-image">
+                                <img src="./assets/images/cds/genesis/genesis_invisibletouch_12.webp" class="simple-image-carousel-image">
+                                <img src="./assets/images/cds/genesis/genesis_invisibletouch_13.webp" class="simple-image-carousel-image">
+                                <img src="./assets/images/cds/genesis/genesis_invisibletouch_14.webp" class="simple-image-carousel-image">
+                                <img src="./assets/images/cds/genesis/genesis_invisibletouch_15.webp" class="simple-image-carousel-image">
+                            </div>
+                                <button class="carousel-button prev">&#10094;</button>
+                                <button class="carousel-button next">&#10095;</button>
+                            </div>
+                        </div>
+
+                        <div class="wide-album-contentbox">
+                            <h2>My Copy</h2>
+                            <div class="wide-album-splitcontent shrinkstack"><span><b>Date Acquired: </b>November 16th, 2023</span><span><b>Source: </b>Thrift Store</span></div>
+                            <div class="wide-album-splitcontent shrinkstack"><span><b>Format: </b>CD</span><span><b>Packaging: </b>Jewel Case</span></div>
+                            <div class="wide-album-splitcontent shrinkstack"><span><b>Catalogue #: </b>81641-2</span><span><b>Year: </b>1986</span></div>
+                            <div class="wide-album-splitcontent shrinkstack"><span><b>Manufacturer: </b>Daio Kosan Co. Ltd. (U.S.A.)</span><span><b>Region: </b>U.S.A.</span></div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -393,7 +544,7 @@
                 <div class="wide-album-cover">
                     <img src="./assets/albumart/genesis - genesis.jpg">
                 </div>
-                <div class="wide-album-content">
+                <div class="wide-album-content wide-album-maincontentbox">
                     <div class="wide-album-contentbox">
                         <h1>Genesis</h1>
                         <div class="wide-album-splitcontent">
@@ -423,6 +574,26 @@
 
                         </div>
 
+                        <div class="simple-image-carousel">
+                            <div class="simple-image-carousel-track">
+                                <img src="./assets/images/cds/genesis/genesis_genesis_0.webp" class="simple-image-carousel-image">
+                                <img src="./assets/images/cds/genesis/genesis_genesis_1.webp" class="simple-image-carousel-image">
+                                <img src="./assets/images/cds/genesis/genesis_genesis_2.webp" class="simple-image-carousel-image">
+                                <img src="./assets/images/cds/genesis/genesis_genesis_3.webp" class="simple-image-carousel-image">
+                                <img src="./assets/images/cds/genesis/genesis_genesis_4.webp" class="simple-image-carousel-image">
+                            </div>
+                                <button class="carousel-button prev">&#10094;</button>
+                                <button class="carousel-button next">&#10095;</button>
+                            </div>
+                        </div>
+
+                        <div class="wide-album-contentbox">
+                            <h2>My Copy</h2>
+                            <div class="wide-album-splitcontent shrinkstack"><span><b>Date Acquired: </b>March 7th, 2024</span><span><b>Source: </b>Thrift Store</span></div>
+                            <div class="wide-album-splitcontent shrinkstack"><span><b>Format: </b>CD</span><span><b>Packaging: </b>Jewel Case</span></div>
+                            <div class="wide-album-splitcontent shrinkstack"><span><b>Catalogue #: </b>CD 80116 (Reissue)</span><span><b>Year: </b>1991</span></div>
+                            <div class="wide-album-splitcontent shrinkstack"><span><b>Manufacturer: </b>Cinram (Canada)</span><span><b>Region: </b>Canada</span></div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -432,7 +603,7 @@
                 <div class="wide-album-cover">
                     <img src="./assets/albumart/genesis - abacab.webp">
                 </div>
-                <div class="wide-album-content">
+                <div class="wide-album-content wide-album-maincontentbox">
                     <div class="wide-album-contentbox">
                         <h1>Abacab</h1>
                         <div class="wide-album-splitcontent">
@@ -463,9 +634,27 @@
                         </div>
                         
                         <div>
-
                         </div>
 
+                        <div class="simple-image-carousel">
+                            <div class="simple-image-carousel-track">
+                                <img src="./assets/images/cds/genesis/genesis_abacab_0.webp" class="simple-image-carousel-image">
+                                <img src="./assets/images/cds/genesis/genesis_abacab_1.webp" class="simple-image-carousel-image">
+                                <img src="./assets/images/cds/genesis/genesis_abacab_2.webp" class="simple-image-carousel-image">
+                                <img src="./assets/images/cds/genesis/genesis_abacab_3.webp" class="simple-image-carousel-image">
+                            </div>
+                                <button class="carousel-button prev">&#10094;</button>
+                                <button class="carousel-button next">&#10095;</button>
+                            </div>
+                        </div>
+
+                        <div class="wide-album-contentbox">
+                            <h2>My Copy</h2>
+                            <div class="wide-album-splitcontent shrinkstack"><span><b>Date Acquired: </b>July 30th, 2025</span><span><b>Source: </b>Discogs</span></div>
+                            <div class="wide-album-splitcontent shrinkstack"><span><b>Format: </b>CD</span><span><b>Packaging: </b>Jewel Case</span></div>
+                            <div class="wide-album-splitcontent shrinkstack"><span><b>Catalogue #: </b>Atlantic CD 19313 (Reissue)</span><span><b>Year: </b>1990</span></div>
+                            <div class="wide-album-splitcontent shrinkstack"><span><b>Manufacturer: </b>Cinram (Canada)</span><span><b>Region: </b>Canada</span></div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -475,7 +664,7 @@
                 <div class="wide-album-cover">
                     <img src="./assets/albumart/genesis - duke.webp">
                 </div>
-                <div class="wide-album-content">
+                <div class="wide-album-content wide-album-maincontentbox">
                     <div class="wide-album-contentbox">
                         <h1>Duke</h1>
                         <div class="wide-album-splitcontent">
@@ -506,9 +695,27 @@
                         </div>
                         
                         <div>
-
                         </div>
 
+                        <div class="simple-image-carousel">
+                            <div class="simple-image-carousel-track">
+                                <img src="./assets/images/cds/genesis/genesis_duke_0.webp" class="simple-image-carousel-image">
+                                <img src="./assets/images/cds/genesis/genesis_duke_1.webp" class="simple-image-carousel-image">
+                                <img src="./assets/images/cds/genesis/genesis_duke_2.webp" class="simple-image-carousel-image">
+                                <img src="./assets/images/cds/genesis/genesis_duke_3.webp" class="simple-image-carousel-image">
+                            </div>
+                                <button class="carousel-button prev">&#10094;</button>
+                                <button class="carousel-button next">&#10095;</button>
+                            </div>
+                        </div>
+
+                        <div class="wide-album-contentbox">
+                            <h2>My Copy</h2>
+                            <div class="wide-album-splitcontent shrinkstack"><span><b>Date Acquired: </b>August 24th, 2025</span><span><b>Source: </b>Record Store (New)</span></div>
+                            <div class="wide-album-splitcontent shrinkstack"><span><b>Format: </b>CD</span><span><b>Packaging: </b>Jewel Case</span></div>
+                            <div class="wide-album-splitcontent shrinkstack"><span><b>Catalogue #: Atlantic CD 82692 (Remaster)</b></span><span><b>Year: </b>1994</span></div>
+                            <div class="wide-album-splitcontent shrinkstack"><span><b>Manufacturer: </b>Cinram (Canada)</span><span><b>Region: </b>Canada</span></div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -518,7 +725,7 @@
                 <div class="wide-album-cover">
                     <img src="./assets/albumart/genesis - ...and then there were three.webp">
                 </div>
-                <div class="wide-album-content">
+                <div class="wide-album-content wide-album-maincontentbox">
                     <div class="wide-album-contentbox">
                         <h1>...and then there were three...</h1>
                         <div class="wide-album-splitcontent">
@@ -549,6 +756,26 @@
                         
                         <div>
                         </div>
+
+                        <div class="simple-image-carousel">
+                            <div class="simple-image-carousel-track">
+                                <img src="./assets/images/cds/genesis/genesis_andthentherewerethree_0.webp" class="simple-image-carousel-image">
+                                <img src="./assets/images/cds/genesis/genesis_andthentherewerethree_1.webp" class="simple-image-carousel-image">
+                                <img src="./assets/images/cds/genesis/genesis_andthentherewerethree_2.webp" class="simple-image-carousel-image">
+                                <img src="./assets/images/cds/genesis/genesis_andthentherewerethree_3.webp" class="simple-image-carousel-image">
+                            </div>
+                                <button class="carousel-button prev">&#10094;</button>
+                                <button class="carousel-button next">&#10095;</button>
+                            </div>
+                        </div>
+
+                        <div class="wide-album-contentbox">
+                            <h2>My Copy</h2>
+                            <div class="wide-album-splitcontent shrinkstack"><span><b>Date Acquired: </b>July 30th, 2025</span><span><b>Source: </b>Discogs</span></div>
+                            <div class="wide-album-splitcontent shrinkstack"><span><b>Format: </b>CD</span><span><b>Packaging: </b>Jewel Case (Flat)</span></div>
+                            <div class="wide-album-splitcontent shrinkstack"><span><b>Catalogue #: </b>Atlantic 19173-2 (Target CD)</span><span><b>Year: </b>1994</span></div>
+                            <div class="wide-album-splitcontent shrinkstack"><span><b>Manufacturer: </b>Polygram (West Germany)</span><span><b>Region: </b>U.S.A.</span></div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -558,7 +785,7 @@
                 <div class="wide-album-cover">
                     <img src="./assets/albumart/genesis - a trick of the tail.jpg">
                 </div>
-                <div class="wide-album-content">
+                <div class="wide-album-content wide-album-maincontentbox">
                     <div class="wide-album-contentbox">
                         <h1>A Trick of The Tail</h1>
                         <div class="wide-album-splitcontent">
@@ -585,6 +812,26 @@
 
                         <div>
                         </div>
+
+                        <div class="simple-image-carousel">
+                            <div class="simple-image-carousel-track">
+                                <img src="./assets/images/cds/genesis/genesis_atrickofthetail_0.webp" class="simple-image-carousel-image">
+                                <img src="./assets/images/cds/genesis/genesis_atrickofthetail_1.webp" class="simple-image-carousel-image">
+                                <img src="./assets/images/cds/genesis/genesis_atrickofthetail_2.webp" class="simple-image-carousel-image">
+                                <img src="./assets/images/cds/genesis/genesis_atrickofthetail_3.webp" class="simple-image-carousel-image">
+                            </div>
+                                <button class="carousel-button prev">&#10094;</button>
+                                <button class="carousel-button next">&#10095;</button>
+                            </div>
+                        </div>
+
+                        <div class="wide-album-contentbox">
+                            <h2>My Copy</h2>
+                            <div class="wide-album-splitcontent shrinkstack"><span><b>Date Acquired: </b>April 15th, 2024</span><span><b>Source: </b>Thrift Store</span></div>
+                            <div class="wide-album-splitcontent shrinkstack"><span><b>Format: </b>CD</span><span><b>Packaging: </b>Jewel Case</span></div>
+                            <div class="wide-album-splitcontent shrinkstack"><span><b>Catalogue #: </b>ATCO Records 38101-2</span><span><b>Year: </b>1994</span></div>
+                            <div class="wide-album-splitcontent shrinkstack"><span><b>Manufacturer: </b>JVC (Japan)</span><span><b>Region: </b>U.S.A.</span></div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -594,7 +841,7 @@
                 <div class="wide-album-cover">
                     <img src="./assets/albumart/genesis - the lamb lies down on broadway.webp">
                 </div>
-                <div class="wide-album-content">
+                <div class="wide-album-content wide-album-maincontentbox">
                     <div class="wide-album-contentbox">
                         <h1>The Lamb Lies Down On Broadway</h1>
                         <div class="wide-album-splitcontent">
@@ -650,6 +897,29 @@
 
                         <div>
                         </div>
+
+                        <div class="simple-image-carousel">
+                            <div class="simple-image-carousel-track">
+                                <img src="./assets/images/cds/genesis/genesis_thelambliesdownonbroadway_0.webp" class="simple-image-carousel-image">
+                                <img src="./assets/images/cds/genesis/genesis_thelambliesdownonbroadway_1.webp" class="simple-image-carousel-image">
+                                <img src="./assets/images/cds/genesis/genesis_thelambliesdownonbroadway_2.webp" class="simple-image-carousel-image">
+                                <img src="./assets/images/cds/genesis/genesis_thelambliesdownonbroadway_3.webp" class="simple-image-carousel-image">
+                                <img src="./assets/images/cds/genesis/genesis_thelambliesdownonbroadway_4.webp" class="simple-image-carousel-image">
+                                <img src="./assets/images/cds/genesis/genesis_thelambliesdownonbroadway_5.webp" class="simple-image-carousel-image">
+                                <img src="./assets/images/cds/genesis/genesis_thelambliesdownonbroadway_6.webp" class="simple-image-carousel-image">
+                            </div>
+                                <button class="carousel-button prev">&#10094;</button>
+                                <button class="carousel-button next">&#10095;</button>
+                            </div>
+                        </div>
+
+                        <div class="wide-album-contentbox">
+                            <h2>My Copy</h2>
+                            <div class="wide-album-splitcontent shrinkstack"><span><b>Date Acquired: </b>July 30th, 2025</span><span><b>Source: </b>Discogs</span></div>
+                            <div class="wide-album-splitcontent shrinkstack"><span><b>Format: </b>2x CD</span><span><b>Packaging: </b>Slim Double Jewel Case</span></div>
+                            <div class="wide-album-splitcontent shrinkstack"><span><b>Catalogue #: </b>Atlantic CD 82677 (Remaster)</span><span><b>Year: </b>1994</span></div>
+                            <div class="wide-album-splitcontent shrinkstack"><span><b>Manufacturer: </b>Cinram (Canada)</span><span><b>Region: </b>Canada</span></div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -659,7 +929,7 @@
                 <div class="wide-album-cover">
                     <img src="./assets/albumart/genesis - selling england by the pound.jpg">
                 </div>
-                <div class="wide-album-content">
+                <div class="wide-album-content wide-album-maincontentbox">
                     <div class="wide-album-contentbox">
                         <h1>SELLING ENGLAND BY THE POUND</h1>
                         <div class="wide-album-splitcontent">
@@ -698,6 +968,27 @@
                                 I got a copy of this album in October of 2024 knowing that I would probably like Genesis someday, but I didn't like it all that much when I listened to it. I set it aside for a couple of months, and the next time I thought about it was in April of 2025 while reading Larry Niven's <i>Ringworld</i>. Not a lot of science fiction books tickle the mind like that book does—the ideas it presents are hard to fathom because of their cosmic scale, and the descriptions of an idealized future of humanity were especially enchanting to me for whatever reason. It felt like being a kid reading a storybook and having my mind blown. That made me think of this album because it too was really wacky, so I decided to listen to it. That time, it clicked and in the following three months, I listened to it over eighty times!
                             </p>
                         </div>
+
+                        <div class="simple-image-carousel">
+                            <div class="simple-image-carousel-track">
+                                <img src="./assets/images/cds/genesis/genesis_sellingenglandbythepound_0.webp" class="simple-image-carousel-image">
+                                <img src="./assets/images/cds/genesis/genesis_sellingenglandbythepound_1.webp" class="simple-image-carousel-image">
+                                <img src="./assets/images/cds/genesis/genesis_sellingenglandbythepound_2.webp" class="simple-image-carousel-image">
+                                <img src="./assets/images/cds/genesis/genesis_sellingenglandbythepound_3.webp" class="simple-image-carousel-image">
+                                <img src="./assets/images/cds/genesis/genesis_sellingenglandbythepound_4.webp" class="simple-image-carousel-image">
+                            </div>
+                                <button class="carousel-button prev">&#10094;</button>
+                                <button class="carousel-button next">&#10095;</button>
+                            </div>
+                        </div>
+
+                        <div class="wide-album-contentbox">
+                            <h2>My Copy</h2>
+                            <div class="wide-album-splitcontent shrinkstack"><span><b>Date Acquired: </b>September 26th, 2024</span><span><b>Source: </b>Thrift Store</span></div>
+                            <div class="wide-album-splitcontent shrinkstack"><span><b>Format: </b>CD</span><span><b>Packaging: </b>Jewel Case</span></div>
+                            <div class="wide-album-splitcontent shrinkstack"><span><b>Catalogue #: </b>Atlantic CD 19277 (Reissue)</span><span><b>Year: </b>1995</span></div>
+                            <div class="wide-album-splitcontent shrinkstack"><span><b>Manufacturer: </b>Cinram (Canada)</span><span><b>Region: </b>Canada</span></div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -707,7 +998,7 @@
                 <div class="wide-album-cover">
                     <img src="./assets/albumart/genesis - foxtrot.webp">
                 </div>
-                <div class="wide-album-content">
+                <div class="wide-album-content wide-album-maincontentbox">
                     <div class="wide-album-contentbox">
                         <h1>Foxtrot</h1>
                         <div class="wide-album-splitcontent">
@@ -742,6 +1033,26 @@
 
                         <div>
                         </div>
+
+                        <div class="simple-image-carousel">
+                            <div class="simple-image-carousel-track">
+                                <img src="./assets/images/cds/genesis/genesis_foxtrot_0.webp" class="simple-image-carousel-image">
+                                <img src="./assets/images/cds/genesis/genesis_foxtrot_1.webp" class="simple-image-carousel-image">
+                                <img src="./assets/images/cds/genesis/genesis_foxtrot_2.webp" class="simple-image-carousel-image">
+                                <img src="./assets/images/cds/genesis/genesis_foxtrot_3.webp" class="simple-image-carousel-image">
+                            </div>
+                                <button class="carousel-button prev">&#10094;</button>
+                                <button class="carousel-button next">&#10095;</button>
+                            </div>
+                        </div>
+
+                        <div class="wide-album-contentbox">
+                            <h2>My Copy</h2>
+                            <div class="wide-album-splitcontent shrinkstack"><span><b>Date Acquired: </b>July 30th, 2025</span><span><b>Source: </b>Discogs</span></div>
+                            <div class="wide-album-splitcontent shrinkstack"><span><b>Format: </b>CD</span><span><b>Packaging: </b>Jewel Case</span></div>
+                            <div class="wide-album-splitcontent shrinkstack"><span><b>Catalogue #: </b>Atlantic CD 19277 (Reissue)</span><span><b>Year: </b>1995</span></div>
+                            <div class="wide-album-splitcontent shrinkstack"><span><b>Manufacturer: </b>Cinram (Canada)</span><span><b>Region: </b>Canada</span></div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -751,7 +1062,7 @@
                 <div class="wide-album-cover">
                     <img src="./assets/albumart/genesis - nursery cryme.webp">
                 </div>
-                <div class="wide-album-content">
+                <div class="wide-album-content wide-album-maincontentbox">
                     <div class="wide-album-contentbox">
                         <h1>Nursery Cryme</h1>
                         <div class="wide-album-splitcontent">
@@ -776,6 +1087,26 @@
                         </div>
 
                         <div>
+                        </div>
+
+                        <div class="simple-image-carousel">
+                            <div class="simple-image-carousel-track">
+                                <img src="./assets/images/cds/genesis/genesis_foxtrot_0.webp" class="simple-image-carousel-image">
+                                <img src="./assets/images/cds/genesis/genesis_foxtrot_1.webp" class="simple-image-carousel-image">
+                                <img src="./assets/images/cds/genesis/genesis_foxtrot_2.webp" class="simple-image-carousel-image">
+                                <img src="./assets/images/cds/genesis/genesis_foxtrot_3.webp" class="simple-image-carousel-image">
+                            </div>
+                                <button class="carousel-button prev">&#10094;</button>
+                                <button class="carousel-button next">&#10095;</button>
+                            </div>
+                        </div>
+
+                        <div class="wide-album-contentbox">
+                            <h2>My Copy</h2>
+                            <div class="wide-album-splitcontent shrinkstack"><span><b>Date Acquired: </b>July 30th, 2025</span><span><b>Source: </b>Discogs</span></div>
+                            <div class="wide-album-splitcontent shrinkstack"><span><b>Format: </b>CD</span><span><b>Packaging: </b>Jewel Case</span></div>
+                            <div class="wide-album-splitcontent shrinkstack"><span><b>Catalogue #: </b>Atlantic CD 80030 (Reissue)</span><span><b>Year: </b>1990</span></div>
+                            <div class="wide-album-splitcontent shrinkstack"><span><b>Manufacturer: </b>Cinram (Canada)</span><span><b>Region: </b>Canada</span></div>
                         </div>
                     </div>
                 </div>
@@ -803,3 +1134,69 @@
         
     </main>
 </body>
+
+<script>
+document.querySelectorAll(".simple-image-carousel").forEach(carousel => 
+{
+    const track = carousel.querySelector(".simple-image-carousel-track");
+    const slides = Array.from(track.children);
+
+    let slideWidth, visibleCount, maxIndex;
+    let index = 0;
+
+    function recalc() 
+    {
+        const slideStyle = getComputedStyle(slides[0]);
+        slideWidth = slides[0].getBoundingClientRect().width + parseFloat(slideStyle.marginRight);
+
+        const maxTranslate = track.scrollWidth - carousel.clientWidth;
+        maxIndex = Math.max(0, Math.floor(maxTranslate / slideWidth));
+
+        if (index > maxIndex) index = maxIndex;
+            updateCarousel();
+    }
+
+
+    function updateCarousel() 
+    {
+        track.style.transform = `translateX(-${index * slideWidth}px)`;
+        const prevBtn = carousel.querySelector(".prev");
+        const nextBtn = carousel.querySelector(".next");
+        prevBtn.style.visibility = (index === 0 ? "hidden" : "visible");
+        nextBtn.style.visibility = (index === maxIndex ? "hidden" : "visible");
+    }
+
+
+
+    carousel.querySelector(".next").onclick = () => 
+    {
+        if (index < maxIndex) 
+        {
+            index++;
+            updateCarousel();
+        }
+    };
+
+    carousel.querySelector(".prev").onclick = () => 
+    {
+        if (index > 0) 
+        {
+            index--;
+            updateCarousel();
+        }
+    };
+
+    let startX = 0;
+    track.addEventListener("touchstart", e => startX = e.touches[0].clientX);
+    track.addEventListener("touchend", e => 
+    {
+        let endX = e.changedTouches[0].clientX;
+            if (endX < startX - 50) carousel.querySelector(".next").click();
+            if (endX > startX + 50) carousel.querySelector(".prev").click();
+    });
+
+  window.addEventListener("resize", recalc);
+  recalc();
+});
+
+</script>
