@@ -1,0 +1,436 @@
+<head>
+    <script>var overrideHeadFoot = true;</script>
+    <script src="/head-inject.js"></script>
+
+    <title>Michael's Cybersite - Music</title>
+    <link rel="stylesheet" type="text/css" href="/assets/css/music.css"/>
+    <link rel="stylesheet" type="text/css" href="/assets/css/genesis.css"/>
+
+    <style>
+        img, div, body
+        {
+            transition: none;
+        }
+
+        body
+        {
+            background-color:rgb(255, 255, 255);
+            background-image:none;
+        }
+
+        .maincontent-centred
+        {
+            display: flex; 
+            
+            align-items: center; 
+            justify-content: center;
+            flex-direction: column;
+            
+            min-width:100px;
+            width: 100%;
+            max-width: 100vw;
+        }
+
+        /*
+        .maincontent-centred img
+        {
+            max-width: 30%;
+            object-fit: contain;
+        }
+        */
+
+        .TrayCoverContainer
+        {
+            display: flex;
+            justify-content: center; /* Center the images */
+            align-items: center; /* Align them by height */
+            gap: 5px; /* Add space between images */
+            width: 100%;
+        }
+
+        .TrayCoverContainer img 
+        {
+            width: 100%;
+        }
+
+        #sellingenglandbythepound h1
+        {
+            font-family: 'Selling England By The Pound', sans-serif;
+            font-size: 2.8vw;
+            color: #491a00;
+
+            display: flex;
+            justify-self: center;
+
+            text-justify:distribute;
+        }
+
+        #sellingenglandbythepound h2
+        {
+            font-family: 'Selling England By The Pound', sans-serif;
+            font-size: 2.0vw;
+            color: #491a00;
+
+            display: flex;
+            justify-self: center;
+
+            text-justify:distribute;
+        }
+
+        #invisibletouch h1
+        {
+            font-family: 'Invisible Touch', sans-serif;
+            font-style: italic;
+            font-weight: bold;
+            font-size: 2.8vw;
+            color: #000000;
+
+            display: flex;
+            justify-self: center;
+
+            text-justify:distribute;
+        }
+
+        #invisibletouch h2
+        {
+            font-family: 'Invisible Touch', sans-serif;
+            font-size: 2.0vw;
+            color: #000000;
+
+            display: flex;
+            justify-self: center;
+
+            text-justify:distribute;
+        }
+
+        .shrinkstack
+        {
+            display: flex;
+        }
+
+        .wide-album-container
+        {
+            width: 100%;
+
+            display:flex;
+            flex-direction: row;
+
+            padding: 24px;
+        }
+
+        #sellingenglandbythepound
+        {
+            background-color: #ebe7b7;
+            font-family: Arial, Helvetica, sans-serif;
+            color:#491a00;
+        }
+
+        #invisibletouch
+        {
+            background-color: #ffffff;
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+
+        .wide-album-content
+        {
+            width: 100%;
+
+            font-size: 1.2em;
+        }
+
+        .wide-album-cover
+        {
+            display: flex;
+
+            max-height: 512px;
+            max-width: 512px;
+
+            min-width: 64px;
+            min-height: 64px;
+        }
+
+        .wide-album-cover img
+        {
+            max-width:100%;
+            height:auto;
+            object-fit: scale-down;
+        }
+
+        .wide-album-contentbox
+        {
+            padding-left: 24px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .wide-album-splitcontent
+        {
+            width: 95%;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .roman-numerals
+        {
+            list-style: upper-roman;
+        }
+
+        .band-logo
+        {
+            display:flex;
+            flex-direction: column;
+            background-color:white;
+            align-items: center;
+            
+            width: 100%;
+
+            font-family: Arial, Helvetica, sans-serif;
+            font-style: italic;
+
+            justify-content: center;
+        }
+
+        .band-logo img
+        {
+            width: 100%;
+            max-width: 768px;
+            object-fit:scale-down;
+        }
+
+        .album-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+            gap: 15px;
+            background-color:white;
+            width: 100%;
+        }
+
+        .album-grid img {
+            width: 100%;
+            aspect-ratio: 1 / 1;
+            object-fit: cover;
+            padding: 4px;
+        }
+
+        .disabled
+        {
+            filter:saturate(0) opacity(80%);
+        }
+
+        @media (max-width: 1200px)
+        {
+            .maincontent-centred
+            {
+                min-width:100px;
+                width: 100vw;
+                max-width: 100vw;
+            }
+
+            /*
+            .maincontent-centred img
+            {
+                max-width: 50%;
+            }
+            */
+        }
+
+        @media (max-width: 600px)
+        {
+            .maincontent-centred
+            {
+                min-width:100px;
+                width: 100vw;
+                max-width: 100vw;
+            }
+
+            .shrinkstack
+            {
+                display: flex;
+                flex-direction: column !important; 
+            }
+
+            h1
+            {
+                font-size: 1.4em !important;
+            }
+
+            h2
+            {
+                font-size: 1.1em !important;
+            }
+
+            h4
+            {
+                font-size: 0.95em !important;
+            }
+
+            p,
+            li,
+            ul,
+            ol
+            {
+                font-size: 0.9em !important;
+            }
+
+            .wide-album-contentbox
+            {
+                padding-left: 0px;
+            }
+
+            /*
+            .maincontent-centred img
+            {
+                max-width: 100%;
+            }
+            */
+        }
+    </style>
+</head>
+
+<div id="header-container" style="width: 100vw"></div>
+<script>
+    fetch("/pages/templates/subsiteheader.html")
+        .then(response => response.text())
+        .then(data => {
+            document.getElementById("header-container").innerHTML = data;
+        });
+</script>
+
+<body>
+    <main>
+        <div class="maincontent-centred">
+            <div class="band-logo">
+                <h1>I love...</h1>
+                <img src="./assets/images/genesis_logo.jpg">
+            </div>
+
+            <div>
+                <div class="album-grid">
+                    <div class="album disabled"><a href=""><img src="https://upload.wikimedia.org/wikipedia/en/thumb/1/1f/FromGenesistoRevelation.jpg/1024px-FromGenesistoRevelation.jpg" alt=""></a></div>
+                    <div class="album disabled"><a href=""><img src="https://upload.wikimedia.org/wikipedia/en/a/a2/Trespass70.jpg" alt=""></a></div>
+                    <div class="album"><a href=""><img src="./assets/albumart/genesis - nursery cryme.webp" alt=""></a></div>
+                    <div class="album"><a href=""><img src="./assets/albumart/genesis - foxtrot.webp" alt=""></a></div>
+                    <div class="album"><a href="/pages/music/genesis.html#sellingenglandbythepound"><img src="./assets/albumart/genesis - selling england by the pound.jpg" alt=""></a></div>
+                    <div class="album"><a href=""><img src="./assets/albumart/genesis - the lamb lies down on broadway.webp" alt=""></a></div>
+                    <div class="album"><a href=""><img src="./assets/albumart/genesis - a trick of the tail.jpg" alt=""></a></div>
+                    <div class="album disabled"><a href=""><img src="https://upload.wikimedia.org/wikipedia/en/1/11/Genesis1976windandwuthering.jpg" alt=""></a></div>
+                    <div class="album"><a href=""><img src="./assets/albumart/genesis - ...and then there were three.webp" alt=""></a></div>
+                    <div class="album"><a href=""><img src="./assets/albumart/genesis - duke.webp" alt=""></a></div>
+                    <div class="album"><a href=""><img src="./assets/albumart/genesis - abacab.webp" alt=""></a></div>
+                    <div class="album"><a href=""><img src="./assets/albumart/genesis - genesis.jpg" alt=""></a></div>
+                    <div class="album"><a href="/pages/music/genesis.html#invisibletouch"><img src="./assets/albumart/genesis - invisible touch.jpg" alt=""></a></div>
+                    <div class="album"><a href=""><img src="./assets/albumart/genesis - we can't dance.jpg" alt=""></a></div>
+                    <div class="album disabled"><a href=""><img src="https://upload.wikimedia.org/wikipedia/en/2/28/Genesis_-_Calling_All_Stations.jpg" alt=""></a></div>
+                </div>
+                <h3 style="width:100%; text-align: center;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;padding-bottom:24px">11/15 albums in my collection</h3>
+            </div>
+
+            <!--Selling England By The Pound-->
+            <div class="shrinkstack wide-album-container" id="sellingenglandbythepound">
+                <div class="wide-album-cover">
+                    <img src="./assets/albumart/genesis - selling england by the pound.jpg">
+                </div>
+                <div class="wide-album-content">
+                    <div class="wide-album-contentbox">
+                        <h1>SELLING ENGLAND BY THE POUND</h1>
+                        <div class="wide-album-splitcontent">
+                            <h2>1973</h2>
+                            <h2>8 Tracks - 53:48</h2>
+                        </div>
+
+                        <div class="wide-album-tracklistbox">
+                            <h4>Side One</h4>
+                            <ol>	
+                                <div class="wide-album-splitcontent"><li>Dancing with the Moonlit Knight</li><span>8:05</span></div>
+                                <div class="wide-album-splitcontent"><li>I Know What I Like (In Your Wardrobe)</li><span>4:08</span></div>
+                                <div class="wide-album-splitcontent"><li>Firth of Fifth</li><span>9:38</span></div>
+                                <div class="wide-album-splitcontent"><li>More Fool Me</li><span>3:12</span></div>
+                            </ol>
+                            <h4>Side Two</h4>
+                            <ol>
+                                <div class="wide-album-splitcontent"><li>The Battle of Epping Forest</li><span>11:49</span></div>
+                                <div class="wide-album-splitcontent"><li>After the Ordeal</li><span>4:17</span></div>
+                                <div class="wide-album-splitcontent"><li>The Cinema Show</li><span>11:06</span></div>
+                                <div class="wide-album-splitcontent"><li>Aisle of Plenty</li><span>1:33</span></div>
+                            </ol>
+                        </div>
+
+                        <div>
+                            <p>
+                                It's difficult to pin down a "definitive" Genesis album because of ever-evolving lineup of the band, but I'd say <i>Selling England By The Pound</i> is the "definitive" Genesis album when they were in the height of their five-piece Progressive rock era. This grandiose record centers around english culture at the time, mourning the loss of their tradition in the face of modern commercialism, consumerism and increasing American influence. From what I can tell on the prog forums and from the people I talked to at a Genesis tribute concert, this one is generally regarded as the fan favourite. Across the whole genre, this record is considered a quintessential Prog Rock album; it features intricate and sophisticated compositions and lyrics from Peter Gabriel, Tony Banks, Mike Rutherford, Steve Hackett, and Phil Collins.
+                            </p>
+                            <p>
+                                I think this is the best Prog Genesis album. <i>Foxtrot</i> was their entry into this era—their <i>Atom Heart Mother</i>—and this one was their <i>Dark Side of The Moon</i>. <i>The Lamb Lies Down on Broadway</i>, much like <i>The Wall</i>, is a double-album, the final with this lineup, and resulted in tensions which led to Peter Gabriel splitting from the group. 
+                            </p>
+                            <p>
+                                Personally? I think this album feels absolutely epic to listen to. "Dancing With The Moonlit Knight" is one of my favourite Genesis songs becuase it's melodramatic, grandiose and fun to sing along to. The imagery all across this album is wacky and vivid—it's just so much fun to listen to. 
+                            </p>
+                            <p>
+                                I got a copy of this album in October of 2024 knowing that I would probably like Genesis someday, but I didn't like it all that much when I listened to it. I set it aside for a couple of months, and the next time I thought about it was in April of 2025 while reading Larry Niven's <i>Ringworld</i>. Not a lot of science fiction books tickle the mind like that book does—the ideas it presents are hard to fathom because of their cosmic scale, and the descriptions of an idealized future of humanity were especially enchanting to me for whatever reason. It felt like being a kid reading a storybook and having my mind blown. That made me think of this album because it too was really wacky, so I decided to listen to it. That time, it clicked and in the following three months, I listened to it over eighty times!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--invisible Touch-->
+            <div class="shrinkstack wide-album-container" id="invisibletouch">
+                <div class="wide-album-cover">
+                    <img src="./assets/albumart/genesis - invisible touch.jpg">
+                </div>
+                <div class="wide-album-content">
+                    <div class="wide-album-contentbox">
+                        <h1>Invisible Touch</h1>
+                        <div class="wide-album-splitcontent">
+                            <h2>1986</h2>
+                            <h2>8 Tracks - 45:42</h2>
+                        </div>
+
+                        <div class="wide-album-tracklistbox">
+                            <h4>Side One</h4>
+                            <ol>
+                                <div class="wide-album-splitcontent"><li>Invisible Touch</li><span>3:29</span></div>
+                                <div class="wide-album-splitcontent"><li>Tonight, Tonight, Tonight</li><span>8:53</span></div>
+                                <div class="wide-album-splitcontent"><li>Land of Confusion</li><span>4:45</span></div>
+                                <div class="wide-album-splitcontent"><li>In Too Deep</li><span>4:58</span></div>
+                            </ol>
+                            <h4>Side Two</h4>
+                            <ol>
+                                <div class="wide-album-splitcontent"><li>Anything She Does</li><span>4:21</span></div>
+                                <div class="wide-album-splitcontent"><li>Domino</li><span>10:44</span></div>
+                                <ol class="roman-numerals">
+                                    <div class="wide-album-splitcontent"><li>"In the Glow of the Night</li><span>4:27</span></div>
+                                    <div class="wide-album-splitcontent"><li>"The Last Domino</li><span>6:18</span></div>
+                                </ol>
+                                <div class="wide-album-splitcontent"><li>Throwing It All Away</li><span>3:53</span></div>
+                                <div class="wide-album-splitcontent"><li>The Brazilian</li><span>4:50</span></div>
+                            </ol>
+                        </div>
+
+                        <div>
+                            <p>
+                                Well, someone's gotta say it, right? So shoot me! I think <i>Invisible Touch</i> is peak-Genesis!
+                            </p>
+                            <p>
+                                From beginning to end, this album has such a powerful energy: sleek production, hook-heavy songwriting, and Phil Collins’s dominant vocal presence. Many online say you "can't differentiate this one from a Phil Collins solo record", but I beg to differ. You can hear the writing and instrumental influence from Banks and Rutherford—this album is much more sonically rich than Collins' solo work. A lot of people seem to hate it becuase it's popular, but I think it's just great. It was designed to stick to your brain like peanut butter, and I'll gladly let it happen. 
+                            </p>
+                            <p>
+                                I think it's really cool that despite transitioning fully into radio friendly Progressive Pop, they were able to include longer tracks like "Tonight, Tonight Tonight" and "Domino". The title track, "Invisible Touch" is one of the catchiest, most infectious melodies ever written—it's dangerous! "Land of Confusion" is a classic 80's protest song, you've got your Collins-y love songs in the form of "Throwing It All Away", "Anything She Does" and "In Too Deep", and you've even got an instrumental which sounds like all of the electronic 1980's at once—"The Brazillian". 
+                            </p>
+                            <p>
+                                At 45 minutes long, this album is the perfect length. It comes on strong, dives deep, delivers hits and keeps going until the very end. It's just so well done in every department; it's Phil Collins and Genesis at the top of their game, and the last great Genesis album. Even in his solo career, it seems like Phil became more sad and less energetic after this one. <i>We Can't Dance</i> is a very lopsided album, and it's much slower than <i>Invisible Touch</i>—though it too has it's merits. 
+                            </p>
+                            <p>
+                                I got a copy of this album on CD back in November of 2023, but I didn't listen to it then. I saw it on the shelf and thought, "I like Pink Floyd, and according to the internet people, I'm going to like Genesis someday too". The internet people were right, and after really getting into <i>Selling England By The Pound</i> in the Spring of 2025, I dug this one out and played it on repeat. It's my most-listened album in June and August of 2025, taking a close second in July to Phil Collins second solo effort, <i>Hello, I Must Be Going!</i>.
+                            </p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="maincontent-centred" style="display: flex; flex-direction: row; align-items: center; flex-wrap:wrap;">
+
+        </div>
+    </main>
+</body>

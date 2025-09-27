@@ -1,0 +1,13 @@
+@font-face {
+  font-family: 'Selling England By The Pound';
+  src: url('/assets/fonts/UniversRegular.ttf') format('truetype');
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Invisible Touch';
+  src: url('/assets/fonts/FrankllinGothicATFBlack.ttf') format('truetype');
+  font-style: italic;
+  font-weight: bold;
+}
