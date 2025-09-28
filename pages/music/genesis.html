@@ -292,6 +292,35 @@
 
         .carousel-button.prev { left: 10px; }
         .carousel-button.next { right: 10px; }
+
+        /* Popup overlay */
+        .image-popup {
+        display: none; 
+        position: fixed;
+        top: 0; left: 0;
+        width: 100%; height: 100%;
+        background: rgba(0,0,0,0.8);
+        justify-content: center;
+        align-items: center;
+        z-index: 1000;
+        }
+
+        .image-popup img {
+        max-width: 90%;
+        max-height: 90%;
+        box-shadow: 0 0 20px #000;
+        border-radius: 4px;
+        background: white;
+        }
+
+        .image-popup .close-btn {
+        position: absolute;
+        top: 20px;
+        right: 30px;
+        font-size: 2rem;
+        color: white;
+        cursor: pointer;
+        }
         
 
         @media (max-width: 1200px)
@@ -376,21 +405,21 @@
 
             <div class="album-grid-parent">
                 <div class="album-grid">
-                    <div class="album notowned"><img src="https://upload.wikimedia.org/wikipedia/en/thumb/1/1f/FromGenesistoRevelation.jpg/1024px-FromGenesistoRevelation.jpg" alt=""><span>Genesis/From Genesis To Revelation (1969)</span></div>
-                    <div class="album notowned"><img src="https://upload.wikimedia.org/wikipedia/en/a/a2/Trespass70.jpg" alt=""><span>Genesis/Trespass (1970)</span></a></div>
-                    <div class="album"><a href="/pages/music/genesis.html#nurserycryme"><img src="./assets/albumart/genesis - nursery cryme.webp" alt=""><span>Genesis/Nursery Cryme (1971)</span></a></div>
-                    <div class="album"><a href="/pages/music/genesis.html#foxtrot"><img src="./assets/albumart/genesis - foxtrot.webp" alt=""><span>Genesis/Foxtrot (1972)</span></a></div>
-                    <div class="album"><a href="/pages/music/genesis.html#sellingenglandbythepound"><img src="./assets/albumart/genesis - selling england by the pound.jpg" alt=""><span>Genesis/Selling England By The Pound (1973)</span></a></div>
-                    <div class="album"><a href="/pages/music/genesis.html#thelamblies"><img src="./assets/albumart/genesis - the lamb lies down on broadway.webp" alt=""><span>Genesis/The Lamb Lies Down on Broadway (1974)</span></a></div>
-                    <div class="album"><a href="/pages/music/genesis.html#atrickofthetail"><img src="./assets/albumart/genesis - a trick of the tail.jpg" alt=""><span>Genesis/Trick of The Tail (1976)</span></a></div>
-                    <div class="album notowned"><img src="https://upload.wikimedia.org/wikipedia/en/1/11/Genesis1976windandwuthering.jpg" alt=""><span>Genesis/Wind & Wuthering (1976)</span></div>
-                    <div class="album"><a href="/pages/music/genesis.html#andthentherewerethree"><img src="./assets/albumart/genesis - ...and then there were three.webp" alt=""><span>Genesis/...And Then There Were Three... (1978)</span></a></div>
-                    <div class="album"><a href="/pages/music/genesis.html#duke"><img src="./assets/albumart/genesis - duke.webp" alt=""><span>Genesis/Duke (1980)</span></a></div>
-                    <div class="album"><a href="/pages/music/genesis.html#abacab"><img src="./assets/albumart/genesis - abacab.webp" alt=""><span>Genesis/Abacab (1981)</span></a></div>
-                    <div class="album"><a href="/pages/music/genesis.html#genesis"><img src="./assets/albumart/genesis - genesis.jpg" alt=""><span>Genesis/Genesis (1983)</span></a></div>
-                    <div class="album"><a href="/pages/music/genesis.html#invisibletouch"><img src="./assets/albumart/genesis - invisible touch.jpg" alt=""><span>Genesis/Invisible Touch (1986)</span></a></div>
-                    <div class="album"><a href="/pages/music/genesis.html#wecantdance"><img src="./assets/albumart/genesis - we can't dance.jpg" alt=""><span>Genesis/We Can't Dance (1991)</span></a></div>
-                    <div class="album notowned"><img src="https://upload.wikimedia.org/wikipedia/en/2/28/Genesis_-_Calling_All_Stations.jpg" alt=""><span>Genesis/Calling All Stations (1997)</span></div>
+                    <div class="album notowned"><img class="lazyload" src="/assets/gifs/discloading.gif" data-src="https://upload.wikimedia.org/wikipedia/en/thumb/1/1f/FromGenesistoRevelation.jpg/1024px-FromGenesistoRevelation.jpg" alt=""><span>Genesis/From Genesis To Revelation (1969)</span></div>
+                    <div class="album notowned"><img class="lazyload" src="/assets/gifs/discloading.gif" data-src="https://upload.wikimedia.org/wikipedia/en/a/a2/Trespass70.jpg" alt=""><span>Genesis/Trespass (1970)</span></a></div>
+                    <div class="album"><a href="/pages/music/genesis.html#nurserycryme"><img class="lazyload" src="/assets/gifs/discloading.gif" data-src="./assets/albumart/genesis - nursery cryme.webp" alt=""><span>Genesis/Nursery Cryme (1971)</span></a></div>
+                    <div class="album"><a href="/pages/music/genesis.html#foxtrot"><img class="lazyload" src="/assets/gifs/discloading.gif" data-src="./assets/albumart/genesis - foxtrot.webp" alt=""><span>Genesis/Foxtrot (1972)</span></a></div>
+                    <div class="album"><a href="/pages/music/genesis.html#sellingenglandbythepound"><img class="lazyload" src="/assets/gifs/discloading.gif" data-src="./assets/albumart/genesis - selling england by the pound.jpg" alt=""><span>Genesis/Selling England By The Pound (1973)</span></a></div>
+                    <div class="album"><a href="/pages/music/genesis.html#thelamblies"><img class="lazyload" src="/assets/gifs/discloading.gif" data-src="./assets/albumart/genesis - the lamb lies down on broadway.webp" alt=""><span>Genesis/The Lamb Lies Down on Broadway (1974)</span></a></div>
+                    <div class="album"><a href="/pages/music/genesis.html#atrickofthetail"><img class="lazyload" src="/assets/gifs/discloading.gif" data-src="./assets/albumart/genesis - a trick of the tail.jpg" alt=""><span>Genesis/Trick of The Tail (1976)</span></a></div>
+                    <div class="album notowned"><img class="lazyload" src="/assets/gifs/discloading.gif" data-src="https://upload.wikimedia.org/wikipedia/en/1/11/Genesis1976windandwuthering.jpg" alt=""><span>Genesis/Wind & Wuthering (1976)</span></div>
+                    <div class="album"><a href="/pages/music/genesis.html#andthentherewerethree"><img class="lazyload" src="/assets/gifs/discloading.gif" data-src="./assets/albumart/genesis - ...and then there were three.webp" alt=""><span>Genesis/...And Then There Were Three... (1978)</span></a></div>
+                    <div class="album"><a href="/pages/music/genesis.html#duke"><img class="lazyload" src="/assets/gifs/discloading.gif" data-src="./assets/albumart/genesis - duke.webp" alt=""><span>Genesis/Duke (1980)</span></a></div>
+                    <div class="album"><a href="/pages/music/genesis.html#abacab"><img class="lazyload" src="/assets/gifs/discloading.gif" data-src="./assets/albumart/genesis - abacab.webp" alt=""><span>Genesis/Abacab (1981)</span></a></div>
+                    <div class="album"><a href="/pages/music/genesis.html#genesis"><img class="lazyload" src="/assets/gifs/discloading.gif" data-src="./assets/albumart/genesis - genesis.jpg" alt=""><span>Genesis/Genesis (1983)</span></a></div>
+                    <div class="album"><a href="/pages/music/genesis.html#invisibletouch"><img class="lazyload" src="/assets/gifs/discloading.gif" data-src="./assets/albumart/genesis - invisible touch.jpg" alt=""><span>Genesis/Invisible Touch (1986)</span></a></div>
+                    <div class="album"><a href="/pages/music/genesis.html#wecantdance"><img class="lazyload" src="/assets/gifs/discloading.gif" data-src="./assets/albumart/genesis - we can't dance.jpg" alt=""><span>Genesis/We Can't Dance (1991)</span></a></div>
+                    <div class="album notowned"><img class="lazyload" src="/assets/gifs/discloading.gif" data-src="https://upload.wikimedia.org/wikipedia/en/2/28/Genesis_-_Calling_All_Stations.jpg" alt=""><span>Genesis/Calling All Stations (1997)</span></div>
                 </div>
                 <h3 style="width:100%; text-align: center;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;padding-bottom:24px">11/15 albums in my collection</h3>
             </div>
@@ -1561,6 +1590,11 @@
             </div>
         </div>
     </main>
+
+    <div class="image-popup" id="popup">
+        <span class="close-btn" id="popup-close">&times;</span>
+        <img id="popup-img" src="" alt="">
+    </div>
 </body>
 
 <script>
@@ -1571,6 +1605,8 @@ document.querySelectorAll(".simple-image-carousel").forEach(carousel =>
 
     let slideWidth, visibleCount, maxIndex;
     let index = 0;
+    
+    carousel._recalc = recalc;
 
     function recalc() 
     {
@@ -1625,6 +1661,33 @@ document.querySelectorAll(".simple-image-carousel").forEach(carousel =>
 
   window.addEventListener("resize", recalc);
   recalc();
+});
+
+//Image click thing
+
+document.querySelectorAll(".simple-image-carousel-image").forEach(img => {
+  img.addEventListener("click", () => {
+    const popup = document.getElementById("popup");
+    const popupImg = document.getElementById("popup-img");
+
+    //take thumbnail src and replace .webp with _full.webp
+    const fullSrc = img.src.replace(/(\.\w+)$/, "_full$1");
+
+    popupImg.src = fullSrc;
+    popup.style.display = "flex";
+  });
+});
+
+//Close when clicking the X
+document.getElementById("popup-close").addEventListener("click", () => {
+  document.getElementById("popup").style.display = "none";
+});
+
+//Close when clicking outside the image
+document.getElementById("popup").addEventListener("click", e => {
+  if (e.target.id === "popup") {
+    e.currentTarget.style.display = "none";
+  }
 });
 
 </script>

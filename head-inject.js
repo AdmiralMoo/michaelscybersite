@@ -103,9 +103,18 @@ function lazyLoadImages() {
                     const realSrc = img.getAttribute("data-src");
 
                     if (realSrc) {
+                        img.onload = () => {
+                            //If this image is inside a carousel, recalc it
+                            const carousel = img.closest(".simple-image-carousel");
+                            if (carousel && typeof carousel._recalc === "function") {
+                                carousel._recalc();
+                            }
+                        };
+
                         img.src = realSrc;
                         img.onerror = () => handleImageError(img);
                     }
+
 
                     img.classList.add("loaded");
                     img.classList.remove("lazyload");
