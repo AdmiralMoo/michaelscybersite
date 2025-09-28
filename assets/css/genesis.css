@@ -96,6 +96,55 @@
   font-weight: normal;
 }
 
+@font-face {
+  font-family: 'PhilCollins';
+  src: url('/assets/fonts/Genesis Fonts/Sayer Script MN Regular.ttf') format('truetype');
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'PhilCollins';
+  src: url('/assets/fonts/Genesis Fonts/Sayer Script MN Light.ttf') format('truetype');
+  font-style: light;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'PhilCollinsII';
+  src: url('/assets/fonts/Genesis Fonts/Emmascript MVB Std Regular.otf') format('opentype');
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'PhilCollinsII';
+  src: url('/assets/fonts/Genesis Fonts/Emmascript MVB Std Bold.otf') format('opentype');
+  font-style: bold;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Stencil';
+  src: url('/assets/fonts/Genesis Fonts/dinstencil.ttf') format('truetype');
+  font-style: bold;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'windwuther';
+  src: url('/assets/fonts/Genesis Fonts/wausau.otf') format('opentype');
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Playbill';
+  src: url('/assets/fonts/Genesis Fonts/PLAYBILL.TTF') format('truetype');
+  font-style: normal;
+  font-weight: normal;
+}
+
 #sellingenglandbythepound
 {
     background-color: #ebe7b7;
@@ -337,14 +386,15 @@
 
 #facevalue h1
 {
-    font-family: 'Selling England By The Pound', serif;
+    font-family: 'PhilCollinsII', serif;
     color: #d4d4d4;
+    font-weight:normal;
 }
 
 #facevalue h2
 {
-    font-family: 'Selling England By The Pound', serif;
-    font-weight: bold;
+    font-family: 'PhilCollinsII', serif;
+    font-weight: normal;
     color: #d4d4d4;
 }
 
@@ -359,13 +409,13 @@
 
 #helloimustbegoing h1
 {
-    font-family: 'Selling England By The Pound', serif;
+    font-family: 'PhilCollins', serif;
     color: #ffffff;
 }
 
 #helloimustbegoing h2
 {
-    font-family: 'Selling England By The Pound', serif;
+    font-family: 'PhilCollins', serif;
     font-weight: bold;
     color: #ffffff;
 }
@@ -380,20 +430,21 @@
 
 #nojacketrequired h1
 {
-    font-family: 'Selling England By The Pound', serif;
+    font-family: 'PhilCollinsII', serif;
     color: #ffffff;
+    font-weight:normal;
 }
 
 #nojacketrequired h2
 {
-    font-family: 'Selling England By The Pound', serif;
-    font-weight: bold;
+    font-family: 'PhilCollinsII', serif;
+    font-weight:normal;
     color: #ffffff;
 }
 
 #butseriously
 {
-    background-color: #041415;
+    background-color: #030506;
     color: #ffffff;
     font-family: 'Myriad', sans-serif;
     font-weight: normal;
@@ -401,13 +452,123 @@
 
 #butseriously h1
 {
-    font-family: 'Selling England By The Pound', serif;
+    font-family: 'PhilCollins', serif;
     color: #ffffff;
 }
 
 #butseriously h2
 {
-    font-family: 'Selling England By The Pound', serif;
+    font-family: 'PhilCollins', serif;
     font-weight: bold;
     color: #ffffff;
+}
+
+#bothsides
+{
+    background-color: #ffffff;
+    color: #000000;
+    font-family: 'Myriad', sans-serif;
+    font-weight: normal;
+}
+
+#bothsides h1
+{
+    font-family: 'PhilCollins', serif;
+    color: #000000;
+}
+
+#bothsides h2
+{
+    font-family: 'PhilCollins', serif;
+    font-weight: bold;
+    color: #000000;
+}
+
+#danceintothelight
+{
+    background-color: #ec8c2d;
+    color: #ffffff;
+    font-family: 'Garamond', sans-serif;
+    font-weight: normal;
+    
+}
+
+#danceintothelight h1
+{
+    font-family: 'Times New', serif;
+    color: #ffffff;
+    font-variant:small-caps;
+}
+
+#danceintothelight h2
+{
+    font-family: 'Garamond', serif;
+    font-weight: bold;
+    color: #ffffff;
+    font-variant:small-caps;
+}
+
+#hits
+{
+    background-color: #fcf7eb;
+    color: #2759a6;
+    font-family: 'Selling England By The Pound', sans-serif;
+    font-weight: normal;
+}
+
+#hits h1
+{
+    font-family: 'Stencil', serif;
+    color: #bc1f30;
+}
+
+#hits h2
+{
+    font-family: 'Stencil', serif;
+    font-weight: bold;
+    color: #2759a6;
+}
+
+#goingback
+{
+    background-color: #ebebeb;
+    color: #000000;
+    font-family: 'Myriad', sans-serif;
+    font-weight: normal;
+}
+
+#goingback h1
+{
+    font-family: 'PhilCollinsII', serif;
+    color: #000000;
+}
+
+#goingback h2
+{
+    font-family: 'PhilCollinsII', serif;
+    font-weight: bold;
+    color: #000000;
+}
+
+#serioushitslive
+{
+    background-color: #bdb8d3;
+    color: #071e13;
+    font-family: 'windwuther', sans-serif;
+    font-weight: normal;
+}
+
+#serioushitslive h1
+{
+    font-family: 'Playbill', serif;
+    color: #071e13;
+    font-variant:small-caps;
+}
+
+#serioushitslive h2
+{
+    font-family: 'Playbill', serif;
+    font-weight: bold;
+    color: #071e13;
+    font-variant:small-caps;
 }
