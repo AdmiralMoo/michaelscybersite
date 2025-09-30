@@ -1,0 +1,91 @@
+___________________________________________________________________________________________________________________________________________
+|-----------------------------------------------------------------------------------------------------------------------------------------|
+|                       LISTENING STATISTICS GENERATED FROM MERGEFILE COVERING DATE RANGE 2023/9/26 to 2024/9/30                          |
+|-----------------------------------------------------------------------------------------------------------------------------------------|
+|Chart |Count|Artist/Release                                                                                |Time Spent Listening         |
+|------|-----|----------------------------------------------------------------------------------------------|-----------------------------|
+| #1   | x20 | Nine Inch Nails/Broken                                                                       | 632 Minutes and 4 Seconds   |
+| #2   | x14 | Nine Inch Nails/Hesitation Marks                                                             | 867 Minutes and 21 Seconds  |
+| #3   | x8  | Yes/90125                                                                                    | 357 Minutes and 57 Seconds  |
+| #4   | x8  | Fiona Apple/Tidal                                                                            | 413 Minutes and 43 Seconds  |
+| #5   | x7  | Nine Inch Nails/With Teeth                                                                   | 392 Minutes and 42 Seconds  |
+| #6   | x6  | Deep Purple/Machine Head                                                                     | 226 Minutes and 37 Seconds  |
+| #7   | x6  | Nine Inch Nails/The Downward Spiral                                                          | 390 Minutes and 52 Seconds  |
+| #8   | x5  | Led Zeppelin/Houses Of The Holy                                                              | 204 Minutes and 27 Seconds  |
+| #9   | x5  | Green Day/Saviors                                                                            | 230 Minutes and 13 Seconds  |
+| #10  | x5  | Rem/Lifes Rich Pageant                                                                       | 192 Minutes and 29 Seconds  |
+|------|-----|----------------------------------------------------------------------------------------------|-----------------------------|
+| #11  | x4  | Nine Inch Nails/Pretty Hate Machine                                                          | 195 Minutes and 8 Seconds   |
+| #12  | x4  | Pink Floyd/The Dark Side Of The Moon                                                         | 171 Minutes and 49 Seconds  |
+| #13  | x4  | The Bangles/Greatest Hits                                                                    | 193 Minutes and 40 Seconds  |
+| #14  | x3  | Alanis Morissette/Jagged Little Pill                                                         | 172 Minutes and 30 Seconds  |
+| #15  | x3  | Rob Zombie/Hellbilly Deluxe                                                                  | 115 Minutes and 29 Seconds  |
+| #16  | x3  | King Crimson/In The Court Of The Crimson King                                                | 131 Minutes and 43 Seconds  |
+| #17  | x3  | King Crimson/Islands                                                                         | 124 Minutes and 23 Seconds  |
+| #18  | x3  | Fleetwood Mac/Rumours                                                                        | 119 Minutes and 54 Seconds  |
+| #19  | x3  | Led Zeppelin/Led Zeppelin Iv                                                                 | 134 Minutes and 30 Seconds  |
+| #19  | x3  | Led Zeppelin/Led Zeppelin Iv                                                                 | 127 Minutes and 50 Seconds  |
+| #20  | x2  | The Smashing Pumpkins/Thirty Three                                                           | 51 Minutes and 47 Seconds   |
+| #21  | x2  | Mad Season/Above                                                                             | 111 Minutes and 21 Seconds  |
+| #22  | x2  | Pink Floyd/Atom Heart Mother                                                                 | 104 Minutes and 12 Seconds  |
+| #23  | x2  | Metallica/And Justice For All                                                                | 130 Minutes and 54 Seconds  |
+| #24  | x2  | Supertramp/Breakfast In America                                                              | 92 Minutes and 1 Seconds    |
+| #25  | x2  | Joy Division/Unknown Pleasures                                                               | 78 Minutes and 51 Seconds   |
+|------|-----|----------------------------------------------------------------------------------------------|-----------------------------|
+| #26  | x2  | Meat Loaf/Bat Out Of Hell                                                                    | 93 Minutes and 11 Seconds   |
+| #27  | x2  | Skin Yard/1000 Smiling Knuckles                                                              | 69 Minutes and 23 Seconds   |
+| #28  | x2  | Violent Femmes/Violent Femmes                                                                | 87 Minutes and 31 Seconds   |
+| #29  | x2  | Dire Straits/Dire Straits                                                                    | 82 Minutes and 51 Seconds   |
+| #30  | x2  | Bryan Adams/Reckless                                                                         | 75 Minutes and 59 Seconds   |
+| #31  | x2  | Pink Floyd/Animals                                                                           | 83 Minutes and 35 Seconds   |
+| #32  | x1  | Nine Inch Nails/Year Zero                                                                    | 63 Minutes and 50 Seconds   |
+| #33  | x1  | Jerry Cantrell/Degradation Trip Vol 1 And 2                                                  | 0 Minutes and 0 Seconds     |
+| #34  | x1  | My Chemical Romance/Danger Days                                                              | 54 Minutes and 5 Seconds    |
+| #35  | x1  | Slipknot/We Are Not Your Kind                                                                | 63 Minutes and 37 Seconds   |
+| #36  | x1  | Afi/Decemberunderground                                                                      | 44 Minutes and 44 Seconds   |
+| #37  | x1  | Slipknot/Iowa                                                                                | 66 Minutes and 23 Seconds   |
+| #38  | x1  | Nine Inch Nails/Fixed                                                                        | 40 Minutes and 19 Seconds   |
+| #39  | x1  | Alice In Chains/Alice In Chains                                                              | 64 Minutes and 53 Seconds   |
+| #40  | x1  | Dire Straits/Brothers In Arms                                                                | 55 Minutes and 15 Seconds   |
+| #41  | x1  | Rush/2112                                                                                    | 38 Minutes and 52 Seconds   |
+| #42  | x1  | Alice In Chains/Dirt                                                                         | 57 Minutes and 33 Seconds   |
+| #43  | x1  | Abba/Abba                                                                                    | 51 Minutes and 34 Seconds   |
+| #44  | x1  | Bruce Springsteen/Born In The Usa                                                            | 46 Minutes and 53 Seconds   |
+| #45  | x1  | Led Zeppelin/Led Zeppelin                                                                    | 44 Minutes and 50 Seconds   |
+| #46  | x1  | Green Day/Revolution Radio                                                                   | 44 Minutes and 38 Seconds   |
+| #47  | x1  | Taylor Swift/Midnights                                                                       | 44 Minutes and 8 Seconds    |
+| #48  | x1  | Rem/Automatic For The People                                                                 | 48 Minutes and 52 Seconds   |
+| #49  | x1  | Blind Melon/Blind Melon                                                                      | 55 Minutes and 24 Seconds   |
+| #50  | x1  | Creed/Human Clay                                                                             | 60 Minutes and 27 Seconds   |
+|------|-----|----------------------------------------------------------------------------------------------|-----------------------------|
+| #51  | x1  | Three Days Grace/Outsider                                                                    | 39 Minutes and 25 Seconds   |
+| #52  | x1  | Green Day/Dookie                                                                             | 39 Minutes and 46 Seconds   |
+| #53  | x1  | Filter/Title Of Record                                                                       | 70 Minutes and 29 Seconds   |
+| #54  | x1  | Marcy Playground/Marcy Playground                                                            | 34 Minutes and 38 Seconds   |
+| #55  | x1  | Motley Crue/Dr Feelgood                                                                      | 45 Minutes and 8 Seconds    |
+| #56  | x1  | Boston/Boston                                                                                | 37 Minutes and 40 Seconds   |
+| #57  | x1  | Snow Patrol/Eyes Open                                                                        | 45 Minutes and 5 Seconds    |
+| #58  | x1  | Metallica/Kill Em All                                                                        | 51 Minutes and 17 Seconds   |
+| #59  | x1  | The Killers/Hot Fuss                                                                         | 56 Minutes and 18 Seconds   |
+| #60  | x1  | Alice In Chains/Jar Of Flies                                                                 | 30 Minutes and 51 Seconds   |
+| #61  | x1  | Nine Inch Nails/Quake                                                                        | 58 Minutes and 55 Seconds   |
+| #62  | x1  | Hedley/Hedley                                                                                | 40 Minutes and 31 Seconds   |
+| #63  | x1  | Wolfmother/Wolfmother                                                                        | 54 Minutes and 32 Seconds   |
+| #64  | x1  | Three Days Grace/Human                                                                       | 39 Minutes and 34 Seconds   |
+| #65  | x1  | Antonin Dvorak/Symphony No 9                                                                 | 42 Minutes and 32 Seconds   |
+| #66  | x1  | The Jimi Hendrix Experience/Are You Experienced                                              | 60 Minutes and 19 Seconds   |
+| #67  | x1  | Green Day/Nimrod                                                                             | 49 Minutes and 9 Seconds    |
+| #68  | x1  | Janes Addiction/Nothings Shocking                                                            | 45 Minutes and 27 Seconds   |
+| #69  | x1  | Janes Addiction/Janes Addiction                                                              | 40 Minutes and 1 Seconds    |
+| #70  | x1  | Joy Division/Closer                                                                          | 44 Minutes and 19 Seconds   |
+| #71  | x1  | Green Day/1039 Smoothed Out Slappy Hours                                                     | 56 Minutes and 32 Seconds   |
+| #72  | x1  | Various Artists/Top Gun Original Motion Picture Soundtrack                                   | 38 Minutes and 44 Seconds   |
+| #73  | x1  | Deep Blue Something/Home                                                                     | 42 Minutes and 19 Seconds   |
+| #74  | x1  | Pink Floyd/Wish You Were Here                                                                | 44 Minutes and 14 Seconds   |
+|------|-----|----------------------------------------------------------------------------------------------|-----------------------------|
+|_________________________________________________________________________________________________________________________________________|
+
+181 listens to albums in total
+
+510694 total seconds spent listening to music, equivalent to 8511 Minutes, 141 Hours or 5 Days. That is 1.37% of the year. That is 19.7% of a month.
+Press Enter to continue...

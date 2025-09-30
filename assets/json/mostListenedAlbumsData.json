@@ -194,19 +194,19 @@
         "albums": [
             { "artist": "Nine Inch Nails", "album": "Broken", "cover": "./assets/albumart/nine inch nails - broken.jpg" },
             { "artist": "Nine Inch Nails", "album": "Hesitation Marks", "cover": "./assets/albumart/nine inch nails - hesitation marks [square].jpg" },
+            { "artist": "Yes", "album": "90125", "cover": "./assets/albumart/yes - 90125.jpg" },
             { "artist": "Fiona Apple", "album": "Tidal", "cover": "./assets/albumart/fiona apple - tidal.jpg" },
-            { "artist": "Nine Inch Nails", "album": "With Teeth", "cover": "./assets/albumart/nine inch nails - with teeth [colour corrected].jpg" },
-            { "artist": "Yes", "album": "90125", "cover": "./assets/albumart/yes - 90125.jpg" }
+            { "artist": "Nine Inch Nails", "album": "With Teeth", "cover": "./assets/albumart/nine inch nails - with teeth [colour corrected].jpg" }
         ]
     },
     {
         "month": "October 2024",
         "albums": [
-            { "artist": "Nine Inch Nails", "album": "Broken", "cover": "./assets/albumart/nine inch nails - broken.jpg" },
             { "artist": "Billy Joel", "album": "52nd Street", "cover": "./assets/albumart/billy joel - 52nd street.jpg" },
-            { "artist": "Nine Inch Nails", "album": "With Teeth", "cover": "./assets/albumart/nine inch nails - with teeth [colour corrected].jpg" },
+            { "artist": "The Grateful Dead", "album": "Workingman's Dead", "cover": "./assets/albumart/the grateful dead - workingman's dead.jpg" },
             { "artist": "Yes", "album": "90125", "cover": "./assets/albumart/yes - 90125.jpg" },
-            { "artist": "The Grateful Dead", "album": "Workingman's Dead", "cover": "./assets/albumart/the grateful dead - workingman's dead.jpg" }
+            { "artist": "Nine Inch Nails", "album": "With Teeth", "cover": "./assets/albumart/nine inch nails - with teeth [colour corrected].jpg" },
+            { "artist": "Billy Joel", "album": "An Innocent Man", "cover": "./assets/albumart/billy joel - an innocent man.jpg" }
         ]
     },
     {
