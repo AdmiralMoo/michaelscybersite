@@ -283,10 +283,15 @@
             "albumname": "Temple Of The Dog",
             "listencount": 2
         },
+        "The Planets/Gustav Holst": {
+            "albumartist": "Gustav Holst",
+            "albumname": "The Planets",
+            "listencount": 2
+        },
         "The Wall/Pink Floyd": {
             "albumartist": "Pink Floyd",
             "albumname": "The Wall",
-            "listencount": 1
+            "listencount": 2
         },
         "Eine Kleine Nachtmusik/Wolfgang Amadeus Mozart": {
             "albumartist": "Wolfgang Amadeus Mozart",
@@ -311,11 +316,6 @@
         "Out Of Time/Rem": {
             "albumartist": "Rem",
             "albumname": "Out Of Time",
-            "listencount": 1
-        },
-        "The Planets Suite/Gustav Holst": {
-            "albumartist": "Gustav Holst",
-            "albumname": "The Planets Suite",
             "listencount": 1
         },
         "Lp/The Rembrandts": {
@@ -371,11 +371,6 @@
         "Diver Down/Van Halen": {
             "albumartist": "Van Halen",
             "albumname": "Diver Down",
-            "listencount": 1
-        },
-        "The Planets/Gustav Holst": {
-            "albumartist": "Gustav Holst",
-            "albumname": "The Planets",
             "listencount": 1
         },
         "Human/Three Days Grace": {

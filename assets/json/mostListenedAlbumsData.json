@@ -15,7 +15,7 @@
             { "artist": "Fleetwood Mac", "album": "Rumours", "cover": "./assets/albumart/fleetwood mac - rumours.jpg" },
             { "artist": "Fiona Apple", "album": "Tidal", "cover": "./assets/albumart/fiona apple - tidal.jpg" },
             { "artist": "Breaking Benjamin", "album": "Ember", "cover": "./assets/albumart/breaking benjamin - ember.jpg" },
-            { "artist": "King Crimson", "album": "In The Court of The Crimson King", "cover": "./assets/albumart/king crimson - in the court of the crimson king [colour corrected].jpg" },
+            { "artist": "King Crimson", "album": "In The Court of The Crimson King", "cover": "./assets/albumart/king crimson - in the court of the crimson king.jpg" },
             { "artist": "The Smashing Pumpkins", "album": "Pisces Iscariot", "cover": "./assets/albumart/the smashing pumpkins - pisces iscariot.jpg" }
         ]
     },
@@ -23,7 +23,7 @@
         "month": "March 2023",
         "albums": [
             { "artist": "Nine Inch Nails", "album": "The Downward Spiral", "cover": "./assets/albumart/nine inch nails - the downward spiral.jpg" },
-            { "artist": "Pink Floyd", "album": "The Dark Side of The Moon", "cover": "./assets/albumart/pink floyd - dark side of the moon.jpg" },
+            { "artist": "Pink Floyd", "album": "The Dark Side of The Moon", "cover": "./assets/albumart/pink floyd - the dark side of the moon.jpg" },
             { "artist": "Fleetwood Mac", "album": "Rumours", "cover": "./assets/albumart/fleetwood mac - rumours.jpg" },
             { "artist": "Bruce Springsteen", "album": "Born In The U.S.A.", "cover": "./assets/albumart/bruce springsteen - born in the usa.jpg" },
             { "artist": "Temple of The Dog", "album": "Temple of The Dog", "cover": "./assets/albumart/temple of the dog - temple of the dog.jpg" }
@@ -34,7 +34,7 @@
         "albums": [
             { "artist": "Fleetwood Mac", "album": "Rumours", "cover": "./assets/albumart/fleetwood mac - rumours.jpg" },
             { "artist": "Dire Straits", "album": "Dire Straits", "cover": "./assets/albumart/dire straits - dire straits.jpg" },
-            { "artist": "Pink Floyd", "album": "The Dark Side of The Moon", "cover": "./assets/albumart/pink floyd - dark side of the moon.jpg" },
+            { "artist": "Pink Floyd", "album": "The Dark Side of The Moon", "cover": "./assets/albumart/pink floyd - the dark side of the moon.jpg" },
             { "artist": "Nine Inch Nails", "album": "The Downward Spiral", "cover": "./assets/albumart/nine inch nails - the downward spiral.jpg" },
             { "artist": "Antonín Dvořák", "album": "Sinfonie Nr. 9 »Aus Der Neuen Welt«", "cover": "./assets/albumart/antonin dvorak - symphonie no 9.jpg" }
         ]
@@ -76,7 +76,7 @@
             { "artist": "Green Day", "album": "Dookie", "cover": "./assets/albumart/green day - dookie.jpg" },
             { "artist": "Marcy Playground", "album": "Marcy Playground", "cover": "./assets/albumart/marcy playground - marcy playground.jpg" },
             { "artist": "The Smashing Pumpkins", "album": "Siamese Dream", "cover": "./assets/albumart/the smashing pumpkins - siamese dream.jpg" },
-            { "artist": "Nine Inch Nails", "album": "With Teeth", "cover": "./assets/albumart/nine inch nails - with teeth [colour corrected].jpg" }
+            { "artist": "Nine Inch Nails", "album": "With Teeth", "cover": "./assets/albumart/nine inch nails - with teeth.jpg" }
         ]
     },
     {
@@ -92,9 +92,9 @@
     {
         "month": "October 2023",
         "albums": [
-            { "artist": "Nine Inch Nails", "album": "With Teeth", "cover": "./assets/albumart/nine inch nails - with teeth [colour corrected].jpg" },
-            { "artist": "Pink Floyd", "album": "The Dark Side of The Moon", "cover": "./assets/albumart/pink floyd - dark side of the moon.jpg" },
-            { "artist": "King Crimson", "album": "In The Court of The Crimson King", "cover": "./assets/albumart/king crimson - in the court of the crimson king [colour corrected].jpg" },
+            { "artist": "Nine Inch Nails", "album": "With Teeth", "cover": "./assets/albumart/nine inch nails - with teeth.jpg" },
+            { "artist": "Pink Floyd", "album": "The Dark Side of The Moon", "cover": "./assets/albumart/pink floyd - the dark side of the moon.jpg" },
+            { "artist": "King Crimson", "album": "In The Court of The Crimson King", "cover": "./assets/albumart/king crimson - in the court of the crimson king.jpg" },
             { "artist": "Pink Floyd", "album": "Animals", "cover": "./assets/albumart/pink floyd - animals.jpg" },
             { "artist": "King Crimson", "album": "Islands", "cover": "./assets/albumart/king crimson - islands.jpg" }
         ]
@@ -123,7 +123,7 @@
         "month": "February 2024",
         "albums": [
             { "artist": "Green Day", "album": "Saviors", "cover": "./assets/albumart/green day - saviors.jpg" },
-            { "artist": "Pink Floyd", "album": "The Dark Side of The Moon", "cover": "./assets/albumart/pink floyd - dark side of the moon.jpg" },
+            { "artist": "Pink Floyd", "album": "The Dark Side of The Moon", "cover": "./assets/albumart/pink floyd - the dark side of the moon.jpg" },
             { "artist": "King Crimson", "album": "Islands", "cover": "./assets/albumart/king crimson - islands.jpg" },
             { "artist": "Filter", "album": "Title of Record", "cover": "./assets/albumart/filter - title of record.jpg" },
             { "artist": "Alexisonfire", "album": "Crisis", "cover": "./assets/albumart/alexisonfire - crisis.jpg" }
@@ -145,7 +145,7 @@
             { "artist": "Dire Straits", "album": "Love Over Gold", "cover": "./assets/albumart/dire straits - love over gold.jpg" },
             { "artist": "Alanis Morissette", "album": "Jagged Little Pill", "cover": "./assets/albumart/alanis morissette - jagged little pill.jpg" },
             { "artist": "Metallica", "album": "Kill Em' All", "cover": "./assets/albumart/metallica - kill 'em all.jpg" },
-            { "artist": "Nine Inch Nails", "album": "With Teeth", "cover": "./assets/albumart/nine inch nails - with teeth [colour corrected].jpg" },
+            { "artist": "Nine Inch Nails", "album": "With Teeth", "cover": "./assets/albumart/nine inch nails - with teeth.jpg" },
             { "artist": "The Bangles", "album": "Greatest Hits", "cover": "./assets/albumart/bangles - greatest hits.jpg" }
         ]
     },
@@ -163,7 +163,7 @@
         "month": "June 2024",
         "albums": [
             { "artist": "Nine Inch Nails", "album": "Pretty Hate Machine", "cover": "./assets/albumart/nine inch nails - pretty hate machine.jpg" },
-            { "artist": "Pink Floyd", "album": "The Dark Side of The Moon", "cover": "./assets/albumart/pink floyd - dark side of the moon.jpg" },
+            { "artist": "Pink Floyd", "album": "The Dark Side of The Moon", "cover": "./assets/albumart/pink floyd - the dark side of the moon.jpg" },
             { "artist": "Metallica", "album": "...And Justice For All", "cover": "./assets/albumart/metallica - and justice for all.jpg" },
             { "artist": "Alanis Morissette", "album": "Jagged Little Pill", "cover": "./assets/albumart/alanis morissette - jagged little pill.jpg" },
             { "artist": "Dire Straits", "album": "Brothers in Arms", "cover": "./assets/albumart/dire straits - brothers in arms.jpg" }
@@ -174,7 +174,7 @@
         "albums": [
             { "artist": "R.E.M.", "album": "Life's Rich Pageant", "cover": "./assets/albumart/rem - lifes rich pageant.jpg" },
             { "artist": "Nine Inch Nails", "album": "Pretty Hate Machine", "cover": "./assets/albumart/nine inch nails - pretty hate machine.jpg" },
-            { "artist": "The Breeders", "album": "Last Splash", "cover": "./assets/albumart/the breeders - last spash.jpg" },
+            { "artist": "The Breeders", "album": "Last Splash", "cover": "./assets/albumart/the breeders - last splash.jpg" },
             { "artist": "Deep Blue Something", "album": "Home", "cover": "./assets/albumart/deep blue something - home.jpg" },
             { "artist": "Marcy Playground", "album": "Marcy Playground", "cover": "./assets/albumart/marcy playground - marcy playground.jpg" }
         ]
@@ -185,7 +185,7 @@
             { "artist": "Nine Inch Nails", "album": "Broken", "cover": "./assets/albumart/nine inch nails - broken.jpg" },
             { "artist": "R.E.M.", "album": "Life's Rich Pageant", "cover": "./assets/albumart/rem - lifes rich pageant.jpg" },
             { "artist": "Rob Zombie", "album": "Hellbilly Deluxe", "cover": "./assets/albumart/rob zombie - hellbilly deluxe.jpg" },
-            { "artist": "Nine Inch Nails", "album": "With Teeth", "cover": "./assets/albumart/nine inch nails - with teeth [colour corrected].jpg" },
+            { "artist": "Nine Inch Nails", "album": "With Teeth", "cover": "./assets/albumart/nine inch nails - with teeth.jpg" },
             { "artist": "AC/DC", "album": "Back In Black", "cover": "./assets/albumart/acdc - back in black.jpg" }
         ]
     },
@@ -196,16 +196,16 @@
             { "artist": "Nine Inch Nails", "album": "Hesitation Marks", "cover": "./assets/albumart/nine inch nails - hesitation marks [square].jpg" },
             { "artist": "Yes", "album": "90125", "cover": "./assets/albumart/yes - 90125.jpg" },
             { "artist": "Fiona Apple", "album": "Tidal", "cover": "./assets/albumart/fiona apple - tidal.jpg" },
-            { "artist": "Nine Inch Nails", "album": "With Teeth", "cover": "./assets/albumart/nine inch nails - with teeth [colour corrected].jpg" }
+            { "artist": "Nine Inch Nails", "album": "With Teeth", "cover": "./assets/albumart/nine inch nails - with teeth.jpg" }
         ]
     },
     {
         "month": "October 2024",
         "albums": [
             { "artist": "Billy Joel", "album": "52nd Street", "cover": "./assets/albumart/billy joel - 52nd street.jpg" },
-            { "artist": "The Grateful Dead", "album": "Workingman's Dead", "cover": "./assets/albumart/the grateful dead - workingman's dead.jpg" },
+            { "artist": "The Grateful Dead", "album": "Workingman's Dead", "cover": "./assets/albumart/the grateful dead - workingmans dead.jpg" },
             { "artist": "Yes", "album": "90125", "cover": "./assets/albumart/yes - 90125.jpg" },
-            { "artist": "Nine Inch Nails", "album": "With Teeth", "cover": "./assets/albumart/nine inch nails - with teeth [colour corrected].jpg" },
+            { "artist": "Nine Inch Nails", "album": "With Teeth", "cover": "./assets/albumart/nine inch nails - with teeth.jpg" },
             { "artist": "Billy Joel", "album": "An Innocent Man", "cover": "./assets/albumart/billy joel - an innocent man.jpg" }
         ]
     },
@@ -215,16 +215,16 @@
             { "artist": "Creedence Clearwater Revival", "album": "Willy And The Poor Boys", "cover": "./assets/albumart/creedence clearwater revival - willy and the poor boys.jpg" },
             { "artist": "Franz Ferdinand", "album": "Franz Ferdinand", "cover": "./assets/albumart/franz ferdinand - franz ferdinand.jpg" },
             { "artist": "Prince & The Revolution", "album": "Purple Rain", "cover": "./assets/albumart/prince and the revolution - purple rain.jpg" },
-            { "artist": "The Grateful Dead", "album": "Workingman's Dead", "cover": "./assets/albumart/the grateful dead - workingman's dead.jpg" },
+            { "artist": "The Grateful Dead", "album": "Workingman's Dead", "cover": "./assets/albumart/the grateful dead - workingmans dead.jpg" },
             { "artist": "The Killers", "album": "Pressure Machine", "cover": "./assets/albumart/the killers - pressure machine.jpg" }
         ]
     },
     {
         "month": "December 2024",
         "albums": [
-            { "artist": "Sabrina Carpenter", "album": "Short N' Sweeet", "cover": "./assets/albumart/sabrina carpenter - short n' sweet.jpg" },
+            { "artist": "Sabrina Carpenter", "album": "Short N' Sweeet", "cover": "./assets/albumart/sabrina carpenter - short n sweet.jpg" },
             { "artist": "The Killers", "album": "Pressure Machine", "cover": "./assets/albumart/the killers - pressure machine.jpg" },
-            { "artist": "Pink Floyd", "album": "The Dark Side of The Moon", "cover": "./assets/albumart/pink floyd - dark side of the moon.jpg" },
+            { "artist": "Pink Floyd", "album": "The Dark Side of The Moon", "cover": "./assets/albumart/pink floyd - the dark side of the moon.jpg" },
             { "artist": "Prince & The Revolution", "album": "Purple Rain", "cover": "./assets/albumart/prince and the revolution - purple rain.jpg" },
             { "artist": "Nine Inch Nails", "album": "Broken", "cover": "./assets/albumart/nine inch nails - broken.jpg" }
         ]
@@ -232,19 +232,19 @@
     {
         "month": "January 2025",
         "albums": [
-            { "artist": "Sabrina Carpenter", "album": "Short N' Sweeet", "cover": "./assets/albumart/sabrina carpenter - short n' sweet.jpg" },
+            { "artist": "Sabrina Carpenter", "album": "Short N' Sweeet", "cover": "./assets/albumart/sabrina carpenter - short n sweet.jpg" },
             { "artist": "The Clash", "album": "The Clash", "cover": "./assets/albumart/the clash - the clash.jpg" },
-            { "artist": "Pink Floyd", "album": "The Dark Side of The Moon", "cover": "./assets/albumart/pink floyd - dark side of the moon.jpg" },
+            { "artist": "Pink Floyd", "album": "The Dark Side of The Moon", "cover": "./assets/albumart/pink floyd - the dark side of the moon.jpg" },
             { "artist": "Rush", "album": "Moving Pictures", "cover": "./assets/albumart/rush - moving pictures.jpg" },
-            { "artist": "Johann Strauss II", "album": "An Der Schönen, Blauen Donau", "cover": "./assets/albumart/johann strauss ii - an der schonen, blauen donau [ii].jpg" }
+            { "artist": "Johann Strauss II", "album": "An Der Schönen, Blauen Donau", "cover": "./assets/albumart/johann strauss ii - an der schonen blauen donau.jpg" }
         ]
     },
     {
         "month": "February 2025",
         "albums": [
-            { "artist": "The Sex Pistols", "album": "Never Mind The Bollocks", "cover": "./assets/albumart/sex pistols - never mind the bollocks.jpg" },
+            { "artist": "The Sex Pistols", "album": "Never Mind The Bollocks", "cover": "./assets/albumart/the sex pistols - never mind the bollocks.jpg" },
             { "artist": "Babe Ruth", "album": "First Base", "cover": "./assets/albumart/babe ruth - first base.jpg" },
-            { "artist": "Johann Strauss II", "album": "An Der Schönen, Blauen Donau", "cover": "./assets/albumart/johann strauss ii - an der schonen, blauen donau [ii].jpg" },
+            { "artist": "Johann Strauss II", "album": "An Der Schönen, Blauen Donau", "cover": "./assets/albumart/johann strauss ii - an der schonen blauen donau.jpg" },
             { "artist": "The Clash", "album": "The Clash", "cover": "./assets/albumart/the clash - the clash.jpg" },
             { "artist": "Rush", "album": "Moving Pictures", "cover": "./assets/albumart/rush - moving pictures.jpg" }
         ]
@@ -252,9 +252,9 @@
     {
         "month": "March 2025",
         "albums": [
-            { "artist": "The Sex Pistols", "album": "Never Mind The Bollocks", "cover": "./assets/albumart/sex pistols - never mind the bollocks.jpg" },
+            { "artist": "The Sex Pistols", "album": "Never Mind The Bollocks", "cover": "./assets/albumart/the sex pistols - never mind the bollocks.jpg" },
             { "artist": "Green Day", "album": "Revolution Radio", "cover": "./assets/albumart/green day - revolution radio.jpg" },
-            { "artist": "Johann Strauss II", "album": "An Der Schönen, Blauen Donau", "cover": "./assets/albumart/johann strauss ii - an der schonen, blauen donau [ii].jpg" },
+            { "artist": "Johann Strauss II", "album": "An Der Schönen, Blauen Donau", "cover": "./assets/albumart/johann strauss ii - an der schonen blauen donau.jpg" },
             { "artist": "Hammerbox", "album": "Numb", "cover": "./assets/albumart/hammerbox - numb.jpg" },
             { "artist": "Supertramp", "album": "Supertramp", "cover": "./assets/albumart/supertramp - supertramp.jpg" }
         ]
@@ -262,11 +262,11 @@
     {
         "month": "April 2025",
         "albums": [
-            { "artist": "The Sex Pistols", "album": "Never Mind The Bollocks", "cover": "./assets/albumart/sex pistols - never mind the bollocks.jpg" },
+            { "artist": "The Sex Pistols", "album": "Never Mind The Bollocks", "cover": "./assets/albumart/the sex pistols - never mind the bollocks.jpg" },
             { "artist": "Wolfgang Amadeus Mozart", "album": "Eine Kleine Nachtmusik", "cover": "./assets/albumart/wolfgang amadeus mozart - eine kleine nachtmusik.webp" },
             { "artist": "Green Day", "album": "Revolution Radio", "cover": "./assets/albumart/green day - revolution radio.jpg" },
             { "artist": "Led Zeppelin", "album": "In Through The Out Door", "cover": "./assets/albumart/led zeppelin - in through the out door.jpg" },
-            { "artist": "Johann Strauss II", "album": "An Der Schönen, Blauen Donau", "cover": "./assets/albumart/johann strauss ii - an der schonen, blauen donau [ii].jpg" }
+            { "artist": "Johann Strauss II", "album": "An Der Schönen, Blauen Donau", "cover": "./assets/albumart/johann strauss ii - an der schonen blauen donau.jpg" }
         ]
     },
     {
@@ -274,7 +274,7 @@
         "albums": [
             { "artist": "Genesis", "album": "Selling England By The Pound", "cover": "./assets/albumart/genesis - selling england by the pound.jpg" },
             { "artist": "Wolfgang Amadeus Mozart", "album": "Eine Kleine Nachtmusik", "cover": "./assets/albumart/wolfgang amadeus mozart - eine kleine nachtmusik.webp" },
-            { "artist": "The Sex Pistols", "album": "Never Mind The Bollocks", "cover": "./assets/albumart/sex pistols - never mind the bollocks.jpg" },
+            { "artist": "The Sex Pistols", "album": "Never Mind The Bollocks", "cover": "./assets/albumart/the sex pistols - never mind the bollocks.jpg" },
             { "artist": "Teenage Fanclub", "album": "Bandwagonesque", "cover": "./assets/albumart/teenage fanclub - bandwagonesque.jpg" },
             { "artist": "Pink Floyd", "album": "Meddle", "cover": "./assets/albumart/pink floyd - meddle.jpg" }
         ]
@@ -304,7 +304,7 @@
         "albums": [
             { "artist": "Genesis", "album": "Invisible Touch", "cover": "./assets/albumart/genesis - invisible touch.jpg" },
             { "artist": "Phil Collins", "album": "Hello, I Must Be Going!", "cover": "assets/albumart/phil collins - hello I must be going.webp" },
-            { "artist": "Pink Floyd", "album": "The Dark Side of The Moon", "cover": "./assets/albumart/pink floyd - dark side of the moon.jpg" },
+            { "artist": "Pink Floyd", "album": "The Dark Side of The Moon", "cover": "./assets/albumart/pink floyd - the dark side of the moon.jpg" },
             { "artist": "Lou Reed", "album": "Transformer", "cover": "./assets/albumart/lou reed - transformer.webp" },
             { "artist": "Genesis", "album": "Abacab", "cover": "./assets/albumart/genesis - abacab.webp" }
         ]
@@ -316,7 +316,7 @@
             { "artist": "Lou Reed", "album": "Transformer", "cover": "./assets/albumart/lou reed - transformer.webp" },
             { "artist": "Billy Joel", "album": "52nd Street", "cover": "./assets/albumart/billy joel - 52nd street.jpg" },
             { "artist": "Genesis", "album": "Abacab", "cover": "./assets/albumart/genesis - abacab.webp" },
-            { "artist": "The Grateful Dead", "album": "Workingman's Dead", "cover": "./assets/albumart/the grateful dead - workingman's dead.jpg" }
+            { "artist": "The Grateful Dead", "album": "Workingman's Dead", "cover": "./assets/albumart/the grateful dead - workingmans dead.jpg" }
         ]
     }
 ]
