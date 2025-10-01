@@ -1,0 +1,58 @@
+<head>
+    <script src="/head-inject.js"></script>
+
+    <title>The Changelog</title>
+    <link rel="stylesheet" type="text/css" href="/assets/css/win98.css"/>
+    <link rel="stylesheet" type="text/css" href="/assets/css/music.css"/>
+</head>
+
+<style>
+    #testStyle
+    {
+        background-color:white;
+        color:red;
+    }
+
+    .albumartStyle
+    {
+        max-width: 64px;
+        max-height: 64px;
+    }
+</style>
+
+<script>
+    fetch('./assets/statfiles/output.json')
+    .then(response => response.json())
+    .then(data => {
+        statData = data; 
+        console.log(statData.albums);
+
+        const TestStyle = document.getElementById("testStyle");
+
+        let newInnerHTML = ``;
+
+        for (var key in statData.albums) {
+            console.log(statData.albums[key]["albumname"]);
+
+            let fullName = String(statData.albums[key]["albumartist"] + ' - ' + statData.albums[key]["albumname"]).toLowerCase();
+
+            newInnerHTML += `
+                <div>
+                    <img class="albumartStyle" src="./assets/albumart/${fullName}.webp">
+                    <span><i>${statData.albums[key]["listencount"]}x ${statData.albums[key]["albumname"]}</i> by ${statData.albums[key]["albumartist"]}</span>
+                </div>
+            `;
+        }
+
+        TestStyle.innerHTML += newInnerHTML;
+    })
+    .catch(error => console.error('Error loading JSON:', error));
+</script>
+
+<body>
+    <main>
+        <div class="maincontent-centred" style="min-height:60vh;">
+            <div id="testStyle"></div>
+        </div>
+    </main>
+</body>
