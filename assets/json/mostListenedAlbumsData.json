@@ -308,5 +308,15 @@
             { "artist": "Lou Reed", "album": "Transformer", "cover": "./assets/albumart/lou reed - transformer.webp" },
             { "artist": "Genesis", "album": "Abacab", "cover": "./assets/albumart/genesis - abacab.webp" }
         ]
+    },
+    {
+        "month": "September 2025",
+        "albums": [
+            { "artist": "Pink Floyd", "album": "Wish You Were Here", "cover": "./assets/albumart/pink floyd - wish you were here.jpg" },
+            { "artist": "Lou Reed", "album": "Transformer", "cover": "./assets/albumart/lou reed - transformer.webp" },
+            { "artist": "Billy Joel", "album": "52nd Street", "cover": "./assets/albumart/billy joel - 52nd street.jpg" },
+            { "artist": "Genesis", "album": "Abacab", "cover": "./assets/albumart/genesis - abacab.webp" },
+            { "artist": "The Grateful Dead", "album": "Workingman's Dead", "cover": "./assets/albumart/the grateful dead - workingman's dead.jpg" }
+        ]
     }
 ]
