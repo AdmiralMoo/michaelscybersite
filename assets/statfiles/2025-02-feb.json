@@ -1,0 +1,552 @@
+{
+    "label": "",
+    "startdate": "2025/2/1",
+    "enddate": "2025/2/28",
+    "albums": {
+        "Never Mind The Bollocks/The Sex Pistols": {
+            "albumname": "The Sex Pistols",
+            "albumartist": "Never Mind The Bollocks",
+            "listencount": 21
+        },
+        "First Base/Babe Ruth": {
+            "albumname": "Babe Ruth",
+            "albumartist": "First Base",
+            "listencount": 16
+        },
+        "An Der Schonen Blauen Donau/Johann Strauss Ii": {
+            "albumname": "Johann Strauss Ii",
+            "albumartist": "An Der Schonen Blauen Donau",
+            "listencount": 15
+        },
+        "The Clash/The Clash": {
+            "albumname": "The Clash",
+            "albumartist": "The Clash",
+            "listencount": 10
+        },
+        "Moving Pictures/Rush": {
+            "albumname": "Rush",
+            "albumartist": "Moving Pictures",
+            "listencount": 8
+        },
+        "Short N Sweet/Sabrina Carpenter": {
+            "albumname": "Sabrina Carpenter",
+            "albumartist": "Short N Sweet",
+            "listencount": 6
+        },
+        "Reckless/Bryan Adams": {
+            "albumname": "Bryan Adams",
+            "albumartist": "Reckless",
+            "listencount": 6
+        },
+        "Dookie/Green Day": {
+            "albumname": "Green Day",
+            "albumartist": "Dookie",
+            "listencount": 5
+        },
+        "52Nd Street/Billy Joel": {
+            "albumname": "Billy Joel",
+            "albumartist": "52Nd Street",
+            "listencount": 5
+        },
+        "Pressure Machine/The Killers": {
+            "albumname": "The Killers",
+            "albumartist": "Pressure Machine",
+            "listencount": 5
+        },
+        "In The Court Of The Crimson King/King Crimson": {
+            "albumname": "King Crimson",
+            "albumartist": "In The Court Of The Crimson King",
+            "listencount": 5
+        },
+        "Herzeleid/Rammstein": {
+            "albumname": "Rammstein",
+            "albumartist": "Herzeleid",
+            "listencount": 5
+        },
+        "Add Violence/Nine Inch Nails": {
+            "albumname": "Nine Inch Nails",
+            "albumartist": "Add Violence",
+            "listencount": 5
+        },
+        "Broken/Nine Inch Nails": {
+            "albumname": "Nine Inch Nails",
+            "albumartist": "Broken",
+            "listencount": 5
+        },
+        "The Downward Spiral/Nine Inch Nails": {
+            "albumname": "Nine Inch Nails",
+            "albumartist": "The Downward Spiral",
+            "listencount": 4
+        },
+        "Breakfast In America/Supertramp": {
+            "albumname": "Supertramp",
+            "albumartist": "Breakfast In America",
+            "listencount": 4
+        },
+        "Led Zeppelin Iv/Led Zeppelin": {
+            "albumname": "Led Zeppelin",
+            "albumartist": "Led Zeppelin Iv",
+            "listencount": 4
+        },
+        "Closer/Joy Division": {
+            "albumname": "Joy Division",
+            "albumartist": "Closer",
+            "listencount": 4
+        },
+        "Weathered/Creed": {
+            "albumname": "Creed",
+            "albumartist": "Weathered",
+            "listencount": 4
+        },
+        "Summertime Fun Hits/The Beach Boys": {
+            "albumname": "The Beach Boys",
+            "albumartist": "Summertime Fun Hits",
+            "listencount": 3
+        },
+        "Born In The Usa/Bruce Springsteen": {
+            "albumname": "Bruce Springsteen",
+            "albumartist": "Born In The Usa",
+            "listencount": 3
+        },
+        "Short Bus/Filter": {
+            "albumname": "Filter",
+            "albumartist": "Short Bus",
+            "listencount": 3
+        },
+        "Hellbilly Deluxe/Rob Zombie": {
+            "albumname": "Rob Zombie",
+            "albumartist": "Hellbilly Deluxe",
+            "listencount": 3
+        },
+        "Animals/Pink Floyd": {
+            "albumname": "Pink Floyd",
+            "albumartist": "Animals",
+            "listencount": 3
+        },
+        "Workingmans Dead/The Grateful Dead": {
+            "albumname": "The Grateful Dead",
+            "albumartist": "Workingmans Dead",
+            "listencount": 3
+        },
+        "Purple Rain/Prince And The Revolution": {
+            "albumname": "Prince And The Revolution",
+            "albumartist": "Purple Rain",
+            "listencount": 3
+        },
+        "Houses Of The Holy/Led Zeppelin": {
+            "albumname": "Led Zeppelin",
+            "albumartist": "Houses Of The Holy",
+            "listencount": 3
+        },
+        "Willy And The Poor Boys/Creedence Clearwater Revival": {
+            "albumname": "Creedence Clearwater Revival",
+            "albumartist": "Willy And The Poor Boys",
+            "listencount": 3
+        },
+        "Symphony No 4/Pyotr Ilyich Tchaikovsky": {
+            "albumname": "Pyotr Ilyich Tchaikovsky",
+            "albumartist": "Symphony No 4",
+            "listencount": 3
+        },
+        "The Amalgamut/Filter": {
+            "albumname": "Filter",
+            "albumartist": "The Amalgamut",
+            "listencount": 3
+        },
+        "Dry As A Bone/Green River": {
+            "albumname": "Green River",
+            "albumartist": "Dry As A Bone",
+            "listencount": 2
+        },
+        "Btos Greatest/Bachman Turner Overdrive": {
+            "albumname": "Bachman Turner Overdrive",
+            "albumartist": "Btos Greatest",
+            "listencount": 2
+        },
+        "Islands/King Crimson": {
+            "albumname": "King Crimson",
+            "albumartist": "Islands",
+            "listencount": 2
+        },
+        "Black Gives Way To Blue/Alice In Chains": {
+            "albumname": "Alice In Chains",
+            "albumartist": "Black Gives Way To Blue",
+            "listencount": 2
+        },
+        "Lifes Rich Pageant/Rem": {
+            "albumname": "Rem",
+            "albumartist": "Lifes Rich Pageant",
+            "listencount": 2
+        },
+        "Also Sprach Zarathustra/Richard Strauss": {
+            "albumname": "Richard Strauss",
+            "albumartist": "Also Sprach Zarathustra",
+            "listencount": 2
+        },
+        "The Dark Side Of The Moon/Pink Floyd": {
+            "albumname": "Pink Floyd",
+            "albumartist": "The Dark Side Of The Moon",
+            "listencount": 2
+        },
+        "Wish You Were Here/Pink Floyd": {
+            "albumname": "Pink Floyd",
+            "albumartist": "Wish You Were Here",
+            "listencount": 2
+        },
+        "2112/Rush": {
+            "albumname": "Rush",
+            "albumartist": "2112",
+            "listencount": 2
+        },
+        "Hesitation Marks/Nine Inch Nails": {
+            "albumname": "Nine Inch Nails",
+            "albumartist": "Hesitation Marks",
+            "listencount": 2
+        },
+        "Sailing To Philadelphia/Mark Knopfler": {
+            "albumname": "Mark Knopfler",
+            "albumartist": "Sailing To Philadelphia",
+            "listencount": 2
+        },
+        "American Idiot/Green Day": {
+            "albumname": "Green Day",
+            "albumartist": "American Idiot",
+            "listencount": 2
+        },
+        "Saturday Night Fever The Original Movie Sound Track/Various Artists": {
+            "albumname": "Various Artists",
+            "albumartist": "Saturday Night Fever The Original Movie Sound Track",
+            "listencount": 2
+        },
+        "Dirt/Alice In Chains": {
+            "albumname": "Alice In Chains",
+            "albumartist": "Dirt",
+            "listencount": 2
+        },
+        "Saviors/Green Day": {
+            "albumname": "Green Day",
+            "albumartist": "Saviors",
+            "listencount": 2
+        },
+        "90125/Yes": {
+            "albumname": "Yes",
+            "albumartist": "90125",
+            "listencount": 2
+        },
+        "Supertramp/Supertramp": {
+            "albumname": "Supertramp",
+            "albumartist": "Supertramp",
+            "listencount": 2
+        },
+        "1984/Van Halen": {
+            "albumname": "Van Halen",
+            "albumartist": "1984",
+            "listencount": 2
+        },
+        "Hater/Hater": {
+            "albumname": "Hater",
+            "albumartist": "Hater",
+            "listencount": 2
+        },
+        "Eine Kleine Nachtmusik; Posthorn Serenade/Wolfgang Amadeus Mozart": {
+            "albumname": "Wolfgang Amadeus Mozart",
+            "albumartist": "Eine Kleine Nachtmusik; Posthorn Serenade",
+            "listencount": 2
+        },
+        "Kerplunk/Green Day": {
+            "albumname": "Green Day",
+            "albumartist": "Kerplunk",
+            "listencount": 2
+        },
+        "Revolution Radio/Green Day": {
+            "albumname": "Green Day",
+            "albumartist": "Revolution Radio",
+            "listencount": 2
+        },
+        "Lp/The Rembrandts": {
+            "albumname": "The Rembrandts",
+            "albumartist": "Lp",
+            "listencount": 2
+        },
+        "Van Halen/Van Halen": {
+            "albumname": "Van Halen",
+            "albumartist": "Van Halen",
+            "listencount": 1
+        },
+        "Hedley/Hedley": {
+            "albumname": "Hedley",
+            "albumartist": "Hedley",
+            "listencount": 1
+        },
+        "Franz Ferdinand/Franz Ferdinand": {
+            "albumname": "Franz Ferdinand",
+            "albumartist": "Franz Ferdinand",
+            "listencount": 1
+        },
+        "Father Of All/Green Day": {
+            "albumname": "Green Day",
+            "albumartist": "Father Of All",
+            "listencount": 1
+        },
+        "Fever/Bullet For My Valentine": {
+            "albumname": "Bullet For My Valentine",
+            "albumartist": "Fever",
+            "listencount": 1
+        },
+        "Mtv Unplugged In New York/Nirvana": {
+            "albumname": "Nirvana",
+            "albumartist": "Mtv Unplugged In New York",
+            "listencount": 1
+        },
+        "My Own Prison/Creed": {
+            "albumname": "Creed",
+            "albumartist": "My Own Prison",
+            "listencount": 1
+        },
+        "Ride The Lightning/Metallica": {
+            "albumname": "Metallica",
+            "albumartist": "Ride The Lightning",
+            "listencount": 1
+        },
+        "Carmen Suites Nos 1 And 2/Georges Bizet": {
+            "albumname": "Georges Bizet",
+            "albumartist": "Carmen Suites Nos 1 And 2",
+            "listencount": 1
+        },
+        "Machine Head/Deep Purple": {
+            "albumname": "Deep Purple",
+            "albumartist": "Machine Head",
+            "listencount": 1
+        },
+        "Last Splash/The Breeders": {
+            "albumname": "The Breeders",
+            "albumartist": "Last Splash",
+            "listencount": 1
+        },
+        "Eyes Open/Snow Patrol": {
+            "albumname": "Snow Patrol",
+            "albumartist": "Eyes Open",
+            "listencount": 1
+        },
+        "Alice In Chains/Alice In Chains": {
+            "albumname": "Alice In Chains",
+            "albumartist": "Alice In Chains",
+            "listencount": 1
+        },
+        "The Planets Suite/Gustav Holst": {
+            "albumname": "Gustav Holst",
+            "albumartist": "The Planets Suite",
+            "listencount": 1
+        },
+        "Nocturnes/Frederic Chopin": {
+            "albumname": "Frederic Chopin",
+            "albumartist": "Nocturnes",
+            "listencount": 1
+        },
+        "Fragile/Yes": {
+            "albumname": "Yes",
+            "albumartist": "Fragile",
+            "listencount": 1
+        },
+        "Master Of Puppets/Metallica": {
+            "albumname": "Metallica",
+            "albumartist": "Master Of Puppets",
+            "listencount": 1
+        },
+        "And Justice For All/Metallica": {
+            "albumname": "Metallica",
+            "albumartist": "And Justice For All",
+            "listencount": 1
+        },
+        "With Teeth/Nine Inch Nails": {
+            "albumname": "Nine Inch Nails",
+            "albumartist": "With Teeth",
+            "listencount": 1
+        },
+        "Whitesnake/Whitesnake": {
+            "albumname": "Whitesnake",
+            "albumartist": "Whitesnake",
+            "listencount": 1
+        },
+        "The Fragile/Nine Inch Nails": {
+            "albumname": "Nine Inch Nails",
+            "albumartist": "The Fragile",
+            "listencount": 1
+        },
+        "Symphony Nos 5 And 7/Ludwig Van Beethoven": {
+            "albumname": "Ludwig Van Beethoven",
+            "albumartist": "Symphony Nos 5 And 7",
+            "listencount": 1
+        },
+        "Atom Heart Mother/Pink Floyd": {
+            "albumname": "Pink Floyd",
+            "albumartist": "Atom Heart Mother",
+            "listencount": 1
+        },
+        "Hard Skool/Guns N Roses": {
+            "albumname": "Guns N Roses",
+            "albumartist": "Hard Skool",
+            "listencount": 1
+        },
+        "The Spaghetti Incident/Guns N Roses": {
+            "albumname": "Guns N Roses",
+            "albumartist": "The Spaghetti Incident",
+            "listencount": 1
+        },
+        "Led Zeppelin/Led Zeppelin": {
+            "albumname": "Led Zeppelin",
+            "albumartist": "Led Zeppelin",
+            "listencount": 1
+        },
+        "Don Quixote; Tod Und Verklarung/Richard Strauss": {
+            "albumname": "Richard Strauss",
+            "albumartist": "Don Quixote; Tod Und Verklarung",
+            "listencount": 1
+        },
+        "Mellon Collie And The Infinite Sadness/The Smashing Pumpkins": {
+            "albumname": "The Smashing Pumpkins",
+            "albumartist": "Mellon Collie And The Infinite Sadness",
+            "listencount": 1
+        },
+        "Top Gun Original Motion Picture Soundtrack/Various Artists": {
+            "albumname": "Various Artists",
+            "albumartist": "Top Gun Original Motion Picture Soundtrack",
+            "listencount": 1
+        },
+        "Jagged Little Pill/Alanis Morissette": {
+            "albumname": "Alanis Morissette",
+            "albumartist": "Jagged Little Pill",
+            "listencount": 1
+        },
+        "Back In Black/Acdc": {
+            "albumname": "Acdc",
+            "albumartist": "Back In Black",
+            "listencount": 1
+        },
+        "A Saucerful Of Secrets/Pink Floyd": {
+            "albumname": "Pink Floyd",
+            "albumartist": "A Saucerful Of Secrets",
+            "listencount": 1
+        },
+        "Symphony No 9/Antonin Dvorak": {
+            "albumname": "Antonin Dvorak",
+            "albumartist": "Symphony No 9",
+            "listencount": 1
+        },
+        "Nimrod/Green Day": {
+            "albumname": "Green Day",
+            "albumartist": "Nimrod",
+            "listencount": 1
+        },
+        "Sams Town/The Killers": {
+            "albumname": "The Killers",
+            "albumartist": "Sams Town",
+            "listencount": 1
+        },
+        "Tunnel Of Love/Bruce Springsteen": {
+            "albumname": "Bruce Springsteen",
+            "albumartist": "Tunnel Of Love",
+            "listencount": 1
+        },
+        "Dr Feelgood/Motley Crue": {
+            "albumname": "Motley Crue",
+            "albumartist": "Dr Feelgood",
+            "listencount": 1
+        },
+        "The Doors/The Doors": {
+            "albumname": "The Doors",
+            "albumartist": "The Doors",
+            "listencount": 1
+        },
+        "Rumours/Fleetwood Mac": {
+            "albumname": "Fleetwood Mac",
+            "albumartist": "Rumours",
+            "listencount": 1
+        },
+        "Greatest Hits/The Bangles": {
+            "albumname": "The Bangles",
+            "albumartist": "Greatest Hits",
+            "listencount": 1
+        },
+        "Dont Look Back/Boston": {
+            "albumname": "Boston",
+            "albumartist": "Dont Look Back",
+            "listencount": 1
+        },
+        "Dire Straits/Dire Straits": {
+            "albumname": "Dire Straits",
+            "albumartist": "Dire Straits",
+            "listencount": 1
+        },
+        "Pretty Hate Machine/Nine Inch Nails": {
+            "albumname": "Nine Inch Nails",
+            "albumartist": "Pretty Hate Machine",
+            "listencount": 1
+        },
+        "Meddle/Pink Floyd": {
+            "albumname": "Pink Floyd",
+            "albumartist": "Meddle",
+            "listencount": 1
+        },
+        "An Innocent Man/Billy Joel": {
+            "albumname": "Billy Joel",
+            "albumartist": "An Innocent Man",
+            "listencount": 1
+        },
+        "Ten/Pearl Jam": {
+            "albumname": "Pearl Jam",
+            "albumartist": "Ten",
+            "listencount": 1
+        },
+        "1039 Smoothed Out Slappy Hours/Green Day": {
+            "albumname": "Green Day",
+            "albumartist": "1039 Smoothed Out Slappy Hours",
+            "listencount": 1
+        },
+        "Vs/Pearl Jam": {
+            "albumname": "Pearl Jam",
+            "albumartist": "Vs",
+            "listencount": 1
+        },
+        "In Through The Out Door/Led Zeppelin": {
+            "albumname": "Led Zeppelin",
+            "albumartist": "In Through The Out Door",
+            "listencount": 1
+        },
+        "London Calling/The Clash": {
+            "albumname": "The Clash",
+            "albumartist": "London Calling",
+            "listencount": 1
+        },
+        "The Wall/Pink Floyd": {
+            "albumname": "Pink Floyd",
+            "albumartist": "The Wall",
+            "listencount": 1
+        },
+        "La Woman/The Doors": {
+            "albumname": "The Doors",
+            "albumartist": "La Woman",
+            "listencount": 1
+        },
+        "Break The Cycle/Staind": {
+            "albumname": "Staind",
+            "albumartist": "Break The Cycle",
+            "listencount": 1
+        },
+        "15/Buckcherry": {
+            "albumname": "Buckcherry",
+            "albumartist": "15",
+            "listencount": 1
+        },
+        "Human Clay/Creed": {
+            "albumname": "Creed",
+            "albumartist": "Human Clay",
+            "listencount": 1
+        },
+        "One X/Three Days Grace": {
+            "albumname": "Three Days Grace",
+            "albumartist": "One X",
+            "listencount": 1
+        }
+    }
+}
