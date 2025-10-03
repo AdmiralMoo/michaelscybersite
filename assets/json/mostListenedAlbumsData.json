@@ -193,7 +193,7 @@
         "month": "September 2024",
         "albums": [
             { "artist": "Nine Inch Nails", "album": "Broken", "cover": "./assets/albumart/nine inch nails - broken.jpg" },
-            { "artist": "Nine Inch Nails", "album": "Hesitation Marks", "cover": "./assets/albumart/nine inch nails - hesitation marks [square].jpg" },
+            { "artist": "Nine Inch Nails", "album": "Hesitation Marks", "cover": "./assets/albumart/nine inch nails - hesitation marks.jpg" },
             { "artist": "Yes", "album": "90125", "cover": "./assets/albumart/yes - 90125.jpg" },
             { "artist": "Fiona Apple", "album": "Tidal", "cover": "./assets/albumart/fiona apple - tidal.jpg" },
             { "artist": "Nine Inch Nails", "album": "With Teeth", "cover": "./assets/albumart/nine inch nails - with teeth.jpg" }
