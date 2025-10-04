@@ -38,21 +38,21 @@ function LoadJSON(file)
                 finalName = String(fullName + ".jpg");
             }
 
-            if (currentIndex == 5)
+            if (currentIndex == 6)
             {
                 newInnerHTML += `
                     <div class="spacer">
                     </div>
                 `;
             }
-            else if (currentIndex == 25)
+            else if (currentIndex == 26)
             {
                 newInnerHTML += `
                     <div class="spacer">
                     </div>
                 `;
             }
-            else if (currentIndex == 50)
+            else if (currentIndex == 51)
             {
                 newInnerHTML += `
                     <div class="spacer">
@@ -62,7 +62,6 @@ function LoadJSON(file)
 
             newInnerHTML += `
                 <div class="playlist-songitem grooveborder">
-
                     <div class="outsideborder number-card nc${currentIndex}">
                         <h3>#${currentIndex}</h2>
                     </div>
