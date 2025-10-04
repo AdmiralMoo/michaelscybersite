@@ -1567,5 +1567,24 @@
         ],
         "applemusic":"https://music.apple.com/us/album/the-rembrandts-l-p/373220996",
         "spotify":"https://open.spotify.com/album/6koDBGMqurYl3EZnaxCF7N"
+    },
+    {
+        "artist": "King Crimson",
+        "album": "In The Court of The Crimson King",
+        "year": "1969",
+        "cover": "./assets/albumart/king crimson - in the court of the crimson king.jpg",
+        "description": "The music world changed forever in 1969 when Robert Fripp unleashed King Crimson's debut album unto the world. <i>In The Court of The Crimson King: Observations by King Crimson</i> is widely regarded as the first true Progressive Rock album, and one of the greatest Prog albums of all time. <br><br>This record combines rock music with grand, symphonic compositions, jazz and all sorts of other stuff to create a distinctive and unique sound. The Mellotrons are strong with this one—I think that's reason alone to listen to it!<br><br> Some say it's difficult to get into, but I enjoyed it right from the get-go. It's pretty wacky and out there—like, don't put this on at a dinner party unless your friends are very cool. A former coworker described it as \"proggalicious\", and based on my interpretation of that word, I wholeheartedly agree. <BR><BR>My favourite tracks off this one are \"I Talk To The Wind\", \"The Court of The Crimson King\" and \"20th Century Schizoid Man\".",
+        "genre": "Progressive Rock",
+        "rating" : "95",
+        "duration": "43:54",
+        "tracks": [
+            "20th Century Schizoid Man",
+            "I Talk To The Wind",
+            "Epitaph",
+            "Moonchild",
+            "The Court of The Crimson King"
+        ],
+        "applemusic":"https://music.apple.com/us/album/the-rembrandts-l-p/373220996",
+        "spotify":"https://open.spotify.com/album/6koDBGMqurYl3EZnaxCF7N"
     }
 ]

@@ -64,30 +64,16 @@
         background-color: #CD7F32;
     }
 
-    .navbar-button
+    .localbutton    
     {
         width: 100%;
         flex-grow: 1;
 
-        background-color: #cecece;
-        border-width: 3px;
-        border-style:outset;
-
         text-wrap-mode:wrap;
         text-wrap-style:pretty;
+        font-weight:bold;
         text-align: center;
         padding: 2px;
-    }
-
-    .navbar-button:hover
-    {
-        filter: brightness(1.1);
-    }
-
-    .navbar-button:active
-    {
-        filter: brightness(0.7);
-        border-style:inset;
     }
 
     .navbar-row
@@ -104,19 +90,28 @@
 <body>
     <main>
         <div class="maincontent-centred" style="min-height:60vh;">
-            <pre id="text-display">Click a button to load a text file...</pre>
-            <div class="navbar-row win98border">
-                <div class="navbar-button" onclick="LoadJSON('2025-01-jan.json')">January 2025</div>
-                <div class="navbar-button" onclick="LoadJSON('2025-02-feb.json')">February 2025</div>
-                <div class="navbar-button" onclick="LoadJSON('2025-03-mar.json')">March 2025</div>
-                <div class="navbar-button" onclick="LoadJSON('2025-04-apr.json')">April 2025</div>
-                <div class="navbar-button" onclick="LoadJSON('2025-05-may.json')">May 2025</div>
-                <div class="navbar-button" onclick="LoadJSON('2025-06-jun.json')">June 2025</div>
-                <div class="navbar-button" onclick="LoadJSON('2025-07-jul.json')">July 2025</div>
-                <div class="navbar-button" onclick="LoadJSON('2025-08-aug.json')">August 2025</div>
-                <div class="navbar-button" onclick="LoadJSON('2025-09-sep.json')">September 2025</div>
+            <!--About this site-->
+            <div id="charts"></div>
+            <div class="header-two-box outsideborder">
+                <h2>The Charts</h2>
+                <img src="./assets/icons/icon_ms_graph.png">
             </div>
-            <div class="body-box stacked" class="body-box outsideborder stacked" id="testStyle"></div>
+            <div class="navbar-row win98border">
+                <div class="navbutton outsideborder localbutton" onclick="LoadJSON('2025-01-jan.json')">January 2025</div>
+                <div class="navbutton outsideborder localbutton" onclick="LoadJSON('2025-02-feb.json')">February 2025</div>
+                <div class="navbutton outsideborder localbutton" onclick="LoadJSON('2025-03-mar.json')">March 2025</div>
+                <div class="navbutton outsideborder localbutton" onclick="LoadJSON('2025-04-apr.json')">April 2025</div>
+                <div class="navbutton outsideborder localbutton" onclick="LoadJSON('2025-05-may.json')">May 2025</div>
+                <div class="navbutton outsideborder localbutton" onclick="LoadJSON('2025-06-jun.json')">June 2025</div>
+                <div class="navbutton outsideborder localbutton" onclick="LoadJSON('2025-07-jul.json')">July 2025</div>
+                <div class="navbutton outsideborder localbutton" onclick="LoadJSON('2025-08-aug.json')">August 2025</div>
+                <div class="navbutton outsideborder localbutton" onclick="LoadJSON('2025-09-sep.json')">September 2025</div>
+            </div>
+            <div class="body-box stacked outsideborder" class="body-box outsideborder stacked" id="testStyle">
+                <div class="box-container insideborder" style="width: 100%; padding:8px;">
+                    Click on one of the buttons above to see what albums I listened to that month.
+                </div>
+            </div>
         </div>
     </main>
     <script src="/scripts/musicCharts.js"></script>
