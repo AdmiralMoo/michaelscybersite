@@ -406,6 +406,12 @@ main
   padding-bottom:5px;
 }
 
+.no-mobile
+{
+  display: unset;
+  visibility: visible;
+}
+
 .mobile-only 
 { 
   display: none; 
@@ -416,6 +422,12 @@ main
   .mobile-only
   { 
     display: block; 
+  }
+
+  .no-mobile
+  {
+    display: none;
+    visibility:hidden;
   }
 }
 
