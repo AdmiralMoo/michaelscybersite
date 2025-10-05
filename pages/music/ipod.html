@@ -3,6 +3,7 @@
     {
         background-color: black;
         font-family: Helvetica, sans-serif;
+        margin: 0;
     }
 
     h1
@@ -59,7 +60,9 @@
 
     .iPodHeader-PlayPause
     {
-        background-color: blue;
+        background-image: url('/assets/icons/iPod_Pause.svg');
+        background-size: contain;
+        background-repeat: no-repeat;
 
         width: 100%;
         height: 100%;
@@ -69,10 +72,12 @@
 
     .iPodHeader-Battery
     {
-        background-color: blue;
+        background-image: url('/assets/icons/iPod_Battery.svg');
+        background-size: contain;
+        background-repeat: no-repeat;
 
         max-width: 28px;
-        max-height: 14px;
+        max-height: 13px;
         width: 100%;
         height: 100%;
     }
@@ -89,13 +94,14 @@
 
     .iPodContent-AlbumArt {
         padding-left: 6px;
+        scale: 95%;
         width: 154px;
         height: 100%;
         display: flex;
         align-items: top;
         justify-content: center;
         padding-top: 10px;
-        transform: perspective(600px) rotate3d(0, 1, 0, 15deg);
+        transform: perspective(600px) rotate3d(0, 1, 0, 20deg);
         overflow: clip;
     }
 
@@ -207,14 +213,32 @@
         width: 144px;
     }
 
-    .iPodDisplay-Song
-    {
-        font-family: Helvetica, sans-serif;
-        font-weight: bold;
-        font-size: 14px;
-        text-wrap-mode: nowrap;
+    .iPodDisplay-Song-Container {
+        position: relative;
+        max-width: 144px;
+        overflow: hidden;
+        height: 22px;
+    }
 
-        overflow:hidden;
+    .iPodDisplay-Song {
+        font-family: Helvetica, Arial, sans-serif;
+        font-weight: bold;
+        font-size: 15px;
+        white-space: nowrap;
+        display: inline-block;
+        position: absolute;
+        left: 0;
+        top: 0;
+    }
+
+    .iPodDisplay-Song-Container::after {
+        position:absolute;
+        content: '';
+        top:0;
+        right:0;
+        width:15%;
+        height:100%;
+        background: linear-gradient(-90deg,rgba(255, 255, 255, 1) 25%, rgba(255, 255, 255, 0) 100%);
     }
 
     .iPodDisplay-Artist
@@ -286,13 +310,17 @@
         <div class="iPodContent">
             <div class="iPodContent-AlbumArt">
                 <div class="albumart-wrapper">
-                    <img src="/assets/albumart/pink floyd - the dark side of the moon.jpg" alt="Album Art">
-                    <img src="/assets/albumart/pink floyd - the dark side of the moon.jpg" alt="" aria-hidden="true" class="reflection">
+                    <img id="arttop" src="/assets/albumart/pink floyd - the dark side of the moon.jpg" alt="Album Art">
+                    <img id="artbot"src="/assets/albumart/pink floyd - the dark side of the moon.jpg" alt="" aria-hidden="true" class="reflection">
                 </div>
             </div>
             <div class="iPodContent-Body">
                 <div class="iPodDisplay-Icons"></div>
-                <div class="iPodDisplay-Song">Speak To Me / Breathe In The Air</div>
+                <div class="iPodDisplay-Song-Container">
+                    <div class="iPodDisplay-Song" id="song-title">
+                        Speak To Me / Breathe In The Air
+                    </div>
+                </div>
                 <div class="iPodDisplay-Artist">Pink Floyd</div>
                 <div class="iPodDisplay-Album">The Dark Side of The Moon</div>
                 <div class="iPodDisplay-Stars">★★★★★</div>
@@ -307,4 +335,118 @@
             <span class="iPodText" id="timeTotal">-2:29</span>
         </div>
     </div>
+    <script>
+    window.addEventListener('DOMContentLoaded', () => {
+        const song = document.getElementById('song-title');
+        const container = song.parentElement;
+        let songsAmount = 0;
+        let songIndex = 0;
+
+        window.playRandomSong = function()
+        {
+            fetch("/assets/json/songShowcaseData.json")
+            .then(resp => resp.json())
+            .then(songList => {
+                songIndex = Math.floor(Math.random() * songList.length);
+                const randomSong = songList[songIndex];
+                songsAmount = songList.length;
+                this.window.updateSongData(randomSong);
+            });
+        }
+
+        window.updateSongData = function(songData) {
+            document.getElementById('song-title').textContent = songData.name;
+            document.getElementById('arttop').src = songData.art;
+            document.getElementById('artbot').src = songData.art;
+            document.querySelector('.iPodDisplay-Artist').textContent = songData.artist;
+            document.querySelector('.iPodDisplay-Album').textContent = songData.album;
+            document.querySelector('.iPodDisplay-Count').textContent = `${songIndex} of ${songsAmount}`;
+            document.querySelector('#timeTotal').textContent = `-${songData.duration}`;
+            document.querySelector('#timeCurrent').textContent = `0:00`;
+
+            let totalSeconds = 0;
+            if (songData.duration) {
+                const parts = songData.duration.split(':');
+                totalSeconds = parseInt(parts[0], 10) * 60 + parseInt(parts[1], 10);
+            }
+
+            if (totalSeconds > 0) {
+                startProgressBar(totalSeconds);
+            }
+
+            animateBounce();
+        };
+
+        function animateBounce() {
+            const song = document.getElementById('song-title');
+            const shouldScroll = song.textContent.trim().length > 16;
+            console.log(song.textContent.trim().length)
+
+            // Reset animation
+            song.style.transition = '';
+            song.style.transform = 'translateX(0)';
+
+            if (shouldScroll) {
+                // Your animation code here
+                const container = song.parentElement;
+                const distance = song.scrollWidth - container.clientWidth + 16;
+                let atStart = true;
+                function bounce() {
+                    song.style.transition = 'transform 4s linear';
+                    song.style.transform = atStart
+                        ? `translateX(-${distance}px)`
+                        : 'translateX(0)';
+                    atStart = !atStart;
+                    setTimeout(bounce, 4800);
+                }
+                setTimeout(bounce, 1000);
+            }
+        }
+
+
+        function updateProgressBar(currentSeconds, totalSeconds) {
+            const fill = document.querySelector('.iPodProgressBar-Fill');
+            const timeCurrent = document.getElementById('timeCurrent');
+            const timeTotal = document.getElementById('timeTotal');
+
+            let percent = (currentSeconds / totalSeconds) * 100;
+            percent = Math.max(0, Math.min(100, percent)); 
+
+            fill.style.width = percent + '%';
+
+            function fmt(s) {
+                const m = Math.floor(s / 60);
+                const sec = Math.floor(s % 60);
+                return m + ':' + (sec < 10 ? '0' : '') + sec;
+            }
+
+            timeCurrent.textContent = fmt(currentSeconds);
+            timeTotal.textContent = '-' + fmt(totalSeconds - currentSeconds);
+
+            if (percent >= 99.5)
+            {
+                this.playRandomSong();
+            }
+        }
+
+        function startProgressBar(totalSeconds) {
+            let currentSeconds = 0;
+
+            if (window.progressInterval) clearInterval(window.progressInterval);
+
+            updateProgressBar(0, totalSeconds);
+
+            window.progressInterval = setInterval(() => {
+                currentSeconds++;
+                if (currentSeconds > totalSeconds) {
+                    clearInterval(window.progressInterval);
+                    currentSeconds = totalSeconds;
+                }
+                updateProgressBar(currentSeconds, totalSeconds);
+            }, 1000);
+        }
+
+        window.addEventListener('resize', animateBounce);
+    });
+</script>
 </body>

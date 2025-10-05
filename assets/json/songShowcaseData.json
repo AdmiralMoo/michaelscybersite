@@ -1,0 +1,317 @@
+[
+    {
+        "name": "Invisible Touch", 
+        "artist": "Genesis",
+        "album": "Invisible Touch",
+        "art":"/assets/albumart/genesis - invisible touch.jpg",
+        "duration":"3:29"
+    },
+    {
+        "name": "Turn It On Again", 
+        "artist": "Genesis",
+        "album": "Abacab",
+        "art":"/assets/albumart/genesis - abacab.webp",
+        "duration":"3:51"
+    },
+    {
+        "name": "Stayin' Alive", 
+        "artist": "Bee Gees",
+        "album": "Saturday Night Fever: The Original Movie Sound Track",
+        "art":"/assets/albumart/various artists - saturday night fever the original movie sound track.jpg",
+        "duration":"4:45"
+    },
+    {
+        "name": "Right Where It Belongs", 
+        "artist": "Nine Inch Nails",
+        "album": "With Teeth",
+        "art":"/assets/albumart/nine inch nails - with teeth.jpg",
+        "duration":"5:05"
+    },
+    {
+        "name": "Big Shot", 
+        "artist": "Billy Joel",
+        "album": "52nd Street",
+        "art":"/assets/albumart/billy joel - 52nd street.jpg",
+        "duration":"4:04"
+    },
+    {
+        "name": "God of Wine", 
+        "artist": "Third Eye Blind",
+        "album": "Third Eye Blind",
+        "art":"/assets/albumart/third eye blind - third eye blind.jpg",
+        "duration":"5:17"
+    },
+    {
+        "name": "Your Latest Trick", 
+        "artist": "Dire Straits",
+        "album": "Brothers In Arms",
+        "art":"/assets/albumart/dire straits - brothers in arms.jpg",
+        "duration":"6:34"
+    },
+    {
+        "name": "Money for Nothing", 
+        "artist": "Dire Straits",
+        "album": "Brothers In Arms",
+        "art":"/assets/albumart/dire straits - brothers in arms.jpg",
+        "duration":"8:26"
+    },
+    {
+        "name": "Sultans of Swing", 
+        "artist": "Dire Straits",
+        "album": "Dire Straits",
+        "art":"/assets/albumart/dire straits - dire straits.jpg",
+        "duration":"5:36"
+    },
+    {
+        "name": "Down to the Waterline", 
+        "artist": "Dire Straits",
+        "album": "Dire Straits",
+        "art":"/assets/albumart/dire straits - dire straits.jpg",
+        "duration":"4:01"
+    },
+    {
+        "name": "Cotton Fields", 
+        "artist": "Creedence Clearwater Revival",
+        "album": "Willy And The Poor Boys",
+        "art":"/assets/albumart/creedence clearwater revival - willy and the poor boys.jpg",
+        "duration":"2:57"
+    },
+    {
+        "name": "Fortunate Son", 
+        "artist": "Creedence Clearwater Revival",
+        "album": "Willy And The Poor Boys",
+        "art":"/assets/albumart/creedence clearwater revival - willy and the poor boys.jpg",
+        "duration":"2:22"
+    },
+    {
+        "name": "Hey Tonight", 
+        "artist": "Creedence Clearwater Revival",
+        "album": "Pendulum",
+        "art":"/assets/albumart/creedence clearwater revival - pendulum.jpg",
+        "duration":"2:47"
+    },
+    {
+        "name": "(Wish I Could) Hideaway", 
+        "artist": "Creedence Clearwater Revival",
+        "album": "Pendulum",
+        "art":"/assets/albumart/creedence clearwater revival - pendulum.jpg",
+        "duration":"3:49"
+    },
+    {
+        "name": "You And I, Part II", 
+        "artist": "Fleetwood Mac",
+        "album": "Tango In The Night",
+        "art":"/assets/albumart/fleetwood mac - tango in the night.webp",
+        "duration":"2:39"
+    },
+    {
+        "name": "Little Lies", 
+        "artist": "Fleetwood Mac",
+        "album": "Tango In The Night",
+        "art":"/assets/albumart/fleetwood mac - tango in the night.webp",
+        "duration":"3:42"
+    },
+    {
+        "name": "Higher", 
+        "artist": "Creed",
+        "album": "Human Clay",
+        "art":"/assets/albumart/creed - human clay.jpg",
+        "duration":"5:17"
+    },
+    {
+        "name": "Faceless Man", 
+        "artist": "Creed",
+        "album": "Human Clay",
+        "art":"/assets/albumart/creed - human clay.jpg",
+        "duration":"5:59"
+    },
+    {
+        "name": "One Last Breath", 
+        "artist": "Creed",
+        "album": "Weathered",
+        "art":"/assets/albumart/creed - weathered.jpg",
+        "duration":"3:58"
+    },
+    {
+        "name": "The Magnificent Seven", 
+        "artist": "The Clash",
+        "album": "Sandinista!",
+        "art":"/assets/albumart/the clash - sandinista.jpg",
+        "duration":"5:33"
+    },
+    {
+        "name": "Rock The Casbah", 
+        "artist": "The Clash",
+        "album": "Combat Rock",
+        "art":"/assets/albumart/the clash - combat rock.jpg",
+        "duration":"3:44"
+    },
+    {
+        "name": "Force Ten", 
+        "artist": "Rush",
+        "album": "Hold Your Fire",
+        "art":"/assets/albumart/rush - hold your fire.webp",
+        "duration":"4:33"
+    },
+    {
+        "name": "In The Air Tonight", 
+        "artist": "Phil Collins",
+        "album": "Face Value",
+        "art":"/assets/albumart/phil collins - face value.webp",
+        "duration":"5:36"
+    },
+    {
+        "name": "I Cannot Believe It's True", 
+        "artist": "Phil Collins",
+        "album": "Hello, I Must Be Going!",
+        "art":"/assets/albumart/phil collins - hello I must be going.webp",
+        "duration":"5:17"
+    },
+    {
+        "name": "Just A Job To Do", 
+        "artist": "Genesis",
+        "album": "Genesis",
+        "art":"/assets/albumart/genesis - genesis.jpg",
+        "duration":"4:48"
+    },
+    {
+        "name": "Jane Says", 
+        "artist": "Jane's Addiction",
+        "album": "Nothing's Shocking",
+        "art":"/assets/albumart/janes addiction - nothings shocking.jpg",
+        "duration":"4:53"
+    },
+    {
+        "name": "The Card Cheat", 
+        "artist": "The Clash",
+        "album": "London Calling",
+        "art":"/assets/albumart/the clash - london calling.jpg",
+        "duration":"3:50"
+    },
+    {
+        "name": "Animate", 
+        "artist": "Rush",
+        "album": "Counterparts",
+        "art":"/assets/albumart/rush - counterparts.jpg",
+        "duration":"6:04"
+    },
+    {
+        "name": "Owner Of A Lonely Heart", 
+        "artist": "Yes",
+        "album": "90125",
+        "art":"/assets/albumart/yes - 90125.jpg",
+        "duration":"4:30"
+    },
+    {
+        "name": "Revolution Radio", 
+        "artist": "Green Day",
+        "album": "Revolution Radio",
+        "art":"/assets/albumart/green day - revolution radio.jpg",
+        "duration":"3:22"
+    },
+    {
+        "name": "Bang Bang", 
+        "artist": "Green Day",
+        "album": "Revolution Radio",
+        "art":"/assets/albumart/green day - revolution radio.jpg",
+        "duration":"3:25"
+    },
+    {
+        "name": "1981", 
+        "artist": "Green Day",
+        "album": "Saviors",
+        "art":"/assets/albumart/green day - saviors.jpg",
+        "duration":"2:10"
+    },
+    {
+        "name": "Over The Hills And Far Away", 
+        "artist": "Led Zeppelin",
+        "album": "Houses of The Holy",
+        "art":"/assets/albumart/led zeppelin - houses of the holy.jpg",
+        "duration":"4:50"
+    },
+    {
+        "name": "When 3 is 2", 
+        "artist": "Hammerbox",
+        "album": "Numb",
+        "art":"/assets/albumart/hammerbox - numb.jpg",
+        "duration":"4:28"
+    },
+    {
+        "name": "Go", 
+        "artist": "Pearl Jam",
+        "album": "Vs.",
+        "art":"/assets/albumart/pearl jam - vs.jpg",
+        "duration":"3:13"
+    },
+    {
+        "name": "Even Flow", 
+        "artist": "Pearl Jam",
+        "album": "Ten",
+        "art":"/assets/albumart/pearl jam - ten.jpg",
+        "duration":"4:54"
+    },
+    {
+        "name": "Happiness in Slavery", 
+        "artist": "Nine Inch Nails",
+        "album": "Broken",
+        "art":"/assets/albumart/nine inch nails - broken.jpg",
+        "duration":"5:21"
+    },
+    {
+        "name": "Tot Finder", 
+        "artist": "Hater",
+        "album": "Hater",
+        "art":"/assets/albumart/hater - hater.jpg",
+        "duration":"3:07"
+    },
+    {
+        "name": "Green Day", 
+        "artist": "Green Day",
+        "album": "1,039/Smoothed Out Slappy Hours",
+        "art":"/assets/albumart/green day - 1039 smoothed out slappy hours.jpg",
+        "duration":"3:29"
+    },
+    {
+        "name": "Only of You", 
+        "artist": "Green Day",
+        "album": "1,039/Smoothed Out Slappy Hours",
+        "art":"/assets/albumart/green day - 1039 smoothed out slappy hours.jpg",
+        "duration":"2:46"
+    },
+    {
+        "name": "Going to Pasalacqua", 
+        "artist": "Green Day",
+        "album": "1,039/Smoothed Out Slappy Hours",
+        "art":"/assets/albumart/green day - 1039 smoothed out slappy hours.jpg",
+        "duration":"3:30"
+    },
+    {
+        "name": "Casey Jones", 
+        "artist": "The Grateful Dead",
+        "album": "Workingman's Dead",
+        "art":"/assets/albumart/the grateful dead - workingmans dead.jpg",
+        "duration":"4:25"
+    },
+    {
+        "name": "Jesus of Suburbia", 
+        "artist": "Green Day",
+        "album": "American Idiot",
+        "art":"/assets/albumart/green day - american idiot.jpg",
+        "duration":"9:08"
+    },
+    {
+        "name": "So I Quit", 
+        "artist": "Filter",
+        "album": "The Amalgamut",
+        "art":"/assets/albumart/filter - the amalgamut.jpg",
+        "duration":"3:24"
+    },
+    {
+        "name": "Everything Zen", 
+        "artist": "Bush",
+        "album": "Sixteen Stone",
+        "art":"/assets/albumart/bush x - sixteen stone.jpg",
+        "duration":"4:38"
+    }
+]
