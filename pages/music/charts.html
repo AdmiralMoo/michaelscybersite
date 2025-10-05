@@ -95,12 +95,13 @@
 <body>
     <main>
         <div class="maincontent-centred" style="min-height:60vh;">
-            <!--About this site-->
+            <!--The Charts-->
             <div id="charts"></div>
-            <div class="header-two-box outsideborder">
-                <h2>The Charts</h2>
+            <div class="header-one-box outsideborder">
+                <h1>The Charts</h1>
                 <img src="./assets/icons/icon_ms_graph.png">
             </div>
+
             <div class="navbar-row win98border">
                 <div class="navbutton outsideborder localbutton" onclick="LoadJSON('2025-01-jan.json')">January 2025</div>
                 <div class="navbutton outsideborder localbutton" onclick="LoadJSON('2025-02-feb.json')">February 2025</div>
@@ -112,11 +113,20 @@
                 <div class="navbutton outsideborder localbutton" onclick="LoadJSON('2025-08-aug.json')">August 2025</div>
                 <div class="navbutton outsideborder localbutton" onclick="LoadJSON('2025-09-sep.json')">September 2025</div>
             </div>
-            <div class="body-box stacked outsideborder" class="body-box outsideborder stacked" id="testStyle">
+
+            <!--Chart Data-->
+            <div id="chartdata"></div>
+            <div id="chartDataBox"></div>
+
+            <div class="body-box stacked outsideborder" id="testStyle">
                 <div class="box-container insideborder" style="width: 100%; padding:8px;">
                     Click on one of the buttons above to see what albums I listened to that month.
                 </div>
             </div>
+
+            <div class="spacer"></div>
+
+
         </div>
     </main>
     <script src="/scripts/musicCharts.js"></script>
