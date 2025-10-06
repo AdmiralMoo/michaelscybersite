@@ -112,6 +112,13 @@
         "duration":"3:42"
     },
     {
+        "name": "Gold Dust Woman", 
+        "artist": "Fleetwood Mac",
+        "album": "Rumours",
+        "art":"/assets/albumart/fleetwood mac - rumours.jpg",
+        "duration":"5:03"
+    },
+    {
         "name": "Higher", 
         "artist": "Creed",
         "album": "Human Clay",
@@ -313,5 +320,145 @@
         "album": "Sixteen Stone",
         "art":"/assets/albumart/bush x - sixteen stone.jpg",
         "duration":"4:38"
+    },
+    {
+        "name": "An Der Schönen, Blauen Donau, Op.314", 
+        "artist": "Johann Strauss II",
+        "album": "An Der Schönen, Blauen Donau",
+        "art":"/assets/albumart/johann strauss ii - an der schonen blauen donau.jpg",
+        "duration":"11:50"
+    },
+    {
+        "name": "Tougher Than the Rest", 
+        "artist": "Bruce Springsteen",
+        "album": "Tunnel of Love",
+        "art":"/assets/albumart/bruce springsteen - tunnel of love.jpg",
+        "duration":"4:35"
+    },
+    {
+        "name": "I'm Goin' Down", 
+        "artist": "Bruce Springsteen",
+        "album": "Born in the U.S.A.",
+        "art":"/assets/albumart/bruce springsteen - born in the usa.jpg",
+        "duration":"3:32"
+    },
+    {
+        "name": "In Another Life", 
+        "artist": "The Killers",
+        "album": "Pressure Machine",
+        "art":"/assets/albumart/the killers - pressure machine.jpg",
+        "duration":"3:32"
+    },
+    {
+        "name": "Dancing in the Street", 
+        "artist": "Van Halen",
+        "album": "Diver Down",
+        "art":"/assets/albumart/van halen - diver down.jpg",
+        "duration":"3:46"
+    },
+    {
+        "name": "American Eulogy", 
+        "artist": "Green Day",
+        "album": "21st Century Breakdown",
+        "art":"/assets/albumart/green day - 21st century breakdown.jpg",
+        "duration":"4:26"
+    },
+    {
+        "name": "21st Century Breakdown", 
+        "artist": "Green Day",
+        "album": "21st Century Breakdown",
+        "art":"/assets/albumart/green day - 21st century breakdown.jpg",
+        "duration":"4:26"
+    },
+    {
+        "name": "Less Than", 
+        "artist": "Nine Inch Nails",
+        "album": "Add Violence [EP]",
+        "art":"/assets/albumart/nine inch nails - add violence.jpg",
+        "duration":"3:31"
+    },
+    {
+        "name": "Copy of A", 
+        "artist": "Nine Inch Nails",
+        "album": "Hesitation Marks",
+        "art":"/assets/albumart/nine inch nails - hesitation marks.jpg",
+        "duration":"5:23"
+    },
+    {
+        "name": "Begin the Begin", 
+        "artist": "R.E.M.",
+        "album": "Life's Rich Pageant",
+        "art":"/assets/albumart/rem - lifes rich pageant.jpg",
+        "duration":"3:28"
+    },
+    {
+        "name": "Man in the Box", 
+        "artist": "Alice In Chains",
+        "album": "Facelift",
+        "art":"/assets/albumart/alice in chains - facelift.jpg",
+        "duration":"4:47"
+    },
+    {
+        "name": "Black Dog", 
+        "artist": "Led Zeppelin",
+        "album": "Led Zeppelin IV",
+        "art":"/assets/albumart/led zeppelin - led zeppelin iv.jpg",
+        "duration":"4:57"
+    },
+    {
+        "name": "Hey Joe", 
+        "artist": "The Jimi Hendrix Experience",
+        "album": "Are You Experienced",
+        "art":"/assets/albumart/the jimi hendrix experience - are you experienced.jpg",
+        "duration":"3:30"
+    },
+    {
+        "name": "What I Believe", 
+        "artist": "Sum 41",
+        "album": "Half Hour of Power",
+        "art":"/assets/albumart/sum 41 - half hour of power.jpg",
+        "duration":"2:49"
+    },
+    {
+        "name": "Rocket Queen", 
+        "artist": "Guns N' Roses",
+        "album": "Appetite For Destruction",
+        "art":"/assets/albumart/guns n roses - appetite for destruction.jpg",
+        "duration":"6:13"
+    },
+    {
+        "name": "Nightrain", 
+        "artist": "Guns N' Roses",
+        "album": "Appetite For Destruction",
+        "art":"/assets/albumart/guns n roses - appetite for destruction.jpg",
+        "duration":"4:29"
+    },
+    {
+        "name": "1000 Smiling Knuckles", 
+        "artist": "Skin Yard",
+        "album": "1000 Smiling Knuckles",
+        "art":"/assets/albumart/skin yard - 1000 smiling knuckles.jpg",
+        "duration":"3:27"
+    },
+    {
+        "name": "Material Freak", 
+        "artist": "Skin Yard",
+        "album": "1000 Smiling Knuckles",
+        "art":"/assets/albumart/skin yard - 1000 smiling knuckles.jpg",
+        "duration":"3:34"
+    },
+    {
+        "name": "Tribe", 
+        "artist": "Gruntruck",
+        "album": "Push",
+        "art":"/assets/albumart/gruntruck - push.jpg",
+        "duration":"4:21"
+    },
+    {
+        "name": "Ain't Nothing to Do", 
+        "artist": "Green River",
+        "album": "Dry As A Bone",
+        "art":"/assets/albumart/green river - dry as a bone.jpg",
+        "duration":"2:38"
     }
 ]
