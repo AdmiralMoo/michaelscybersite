@@ -1,0 +1,74 @@
+<style>
+    .stack {
+        position: relative;
+        width: 800px;
+        height: auto;
+    }
+
+    .layer {
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    .layer:hover
+    {
+        filter: brightness(1.2) drop-shadow(0 0 10px cyan);
+        cursor: pointer;
+        transition: filter 0.3s;
+    }
+
+    .hifi-one
+    {
+        -webkit-mask-image: url('/assets/images/HiFi_1-640a.png');
+        -webkit-mask-mode: luminance;
+        mask-image: url('/assets/images/HiFi_1-640a.png');
+        mask-mode: luminance;
+    }
+
+    .hifi-two
+    {
+        -webkit-mask-image: url('/assets/images/HiFi_2-640a.png');
+        -webkit-mask-mode: luminance;
+        mask-image: url('/assets/images/HiFi_2-640a.png');
+        mask-mode: luminance;
+    }
+
+    .hifi-three
+    {
+        -webkit-mask-image: url('/assets/images/HiFi_3-640a.png');
+        -webkit-mask-mode: luminance;
+        mask-image: url('/assets/images/HiFi_3-640a.png');
+        mask-mode: luminance;
+    }
+
+    .hifi-four
+    {
+        -webkit-mask-image: url('/assets/images/HiFi_4-640.png');
+        -webkit-mask-mode: alpha;
+        mask-image: url('/assets/images/HiFi_4-640.png');
+        mask-mode: alpha;
+    }
+
+    .base {
+        position: absolute;
+        top: 0;
+        left: 0;
+        pointer-events: none;
+
+        z-index: -1;
+    }
+</style>
+
+
+<body>
+    <div>
+        <div class="stack">
+            <img src="/assets/images/HiFi_4-640.png" class="layer hifi-four">
+            <!--<img src="/assets/images/HiFi_3-640.png" class="layer hifi-three">-->
+            <!--<img src="/assets/images/HiFi_2-640.png" class="layer hifi-two">-->
+            <!--<img src="/assets/images/HiFi_1-640.png" class="layer hifi-one">-->
+            <!--<img src="/assets/images/HiFi_Full-640.png" class="base">-->
+        </div>
+    </div>
+</body>
