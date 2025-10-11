@@ -430,5 +430,13 @@
         "monthread": "September",
         "yearread": "2025",
         "cover": "/assets/books/underthegreenwoodtree.webp"
+    },
+    {
+        "name":"1Q84",
+        "author": "Haruki Murakami",
+        "year": "2009",
+        "monthread": "October",
+        "yearread": "2025",
+        "cover": "/assets/books/1q84.jpg"
     }
 ]
