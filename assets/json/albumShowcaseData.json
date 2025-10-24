@@ -1586,5 +1586,53 @@
         ],
         "applemusic":"https://music.apple.com/us/album/the-rembrandts-l-p/373220996",
         "spotify":"https://open.spotify.com/album/6koDBGMqurYl3EZnaxCF7N"
+    },
+    {
+        "artist": "Fleetwood Mac",
+        "album": "Tango In The Night",
+        "year": "1987",
+        "cover": "./assets/albumart/fleetwood mac - tango in the night.webp",
+        "description": "It'd been around three years since I saw a Fleetwood Mac album at a thrift store when I found this album. A week later, I met up with a friend and she recommended me this album. It's a good album.<br><br>In the grand scheme of things, it's pretty late-stage Fleetwood Mac; you can feel with the flow, hooks and polish of this album that they've got it down to a science. It'll have you shmoovin' and groovin' the whole way through.<br><br>My favourite songs off this one are \"You and I, Part II\", \"Little Lies\" and \"Big Love\"",
+        "genre": "Pop Rock",
+        "rating" : "92",
+        "duration": "43:37",
+        "tracks": [
+            "Big Love",
+            "Seven Wonders",
+            "Everywhere",
+            "Caroline",
+            "Tango In The Night",
+            "Mystified",
+            "Little Lies",
+            "Family Man",
+            "Welcome to the Room...Sara",
+            "Isn't It Midnight",
+            "When I See You Again",
+            "You and I, Part II"
+        ],
+        "applemusic":"https://music.apple.com/us/album/the-rembrandts-l-p/373220996",
+        "spotify":"https://open.spotify.com/album/6koDBGMqurYl3EZnaxCF7N"
+    },
+    {
+        "artist": "Grateful Dead",
+        "album": "In The Dark",
+        "year": "1987",
+        "cover": "./assets/albumart/grateful dead - in the dark.png",
+        "description": "I was at a record store one day and I'd already picked all the CD's I wanted when this album caught my eye. It was October of 2025, and I'd just bought and fixed a tape deck. It also happened to be a year since I was introduced to The Grateful Dead, so I was listening to them a lot again. Without hesitation, I picked it up and my musical world was once again blown wide open.<br><br>Simply put, this is a really good album. It's a spectacular and triumphant comeback for the band after all the strife and struggle they went through on The Endless Tour—you can hear it in \"Touch of Grey\" and \"Black Muddy River\". I like this band, and I really like this album. I don't have many words to say other than listen to it!<br><br>My favourite songs on this one are \"Tons of Steel\", \"Hell in a Bucket\", \"Touch of Grey\" and \"West L.A. Fadeaway\".",
+        "genre": "Roots Rock",
+        "rating" : "95",
+        "duration": "45:04",
+        "tracks": [
+            "Touch of Grey",
+            "Hell in a Bucket",
+            "When Push Comes to Shove",
+            "My Brother Esau",
+            "West L.A. Fadeaway",
+            "Tons of Steel",
+            "Throwing Stones",
+            "Black Muddy River"
+        ],
+        "applemusic":"https://music.apple.com/us/album/the-rembrandts-l-p/373220996",
+        "spotify":"https://open.spotify.com/album/6koDBGMqurYl3EZnaxCF7N"
     }
 ]

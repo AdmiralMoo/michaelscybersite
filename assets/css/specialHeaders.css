@@ -51,3 +51,57 @@ pointer-events: none;
     background: linear-gradient(to right, rgb(255, 255, 255), transparent);
     pointer-events: none;
 }
+
+/* Water Header */
+
+.header-water
+{
+    position:relative;
+    background-image: url("/assets/site/bg_water.gif")
+}
+
+.header-water h2
+{
+    z-index: 5000;
+    color:black;
+}
+
+.header-water::before
+{
+    content: "";
+    position: absolute;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    width: 90%;
+    height: 100%;
+    background: linear-gradient(to right, rgb(255, 255, 255), transparent);
+    pointer-events: none;
+}
+
+/* Circuit Header */
+
+.header-circuit
+{
+    position:relative;
+    background-image: url("/assets/site/circuit.png")
+}
+
+.header-circuit h2
+{
+    z-index: 5000;
+    color:black;
+}
+
+.header-circuit::before
+{
+    content: "";
+    position: absolute;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    width: 90%;
+    height: 100%;
+    background: linear-gradient(to right, rgb(255, 255, 255), transparent);
+    pointer-events: none;
+}

@@ -1,0 +1,135 @@
+[
+{
+        "name": "Jesus of Suburbia", 
+        "artist": "Green Day",
+        "album": "American Idiot",
+        "art":"/assets/albumart/green day - american idiot.jpg",
+        "duration":"9:08"
+    },
+    {
+        "name": "Stayin' Alive", 
+        "artist": "Bee Gees",
+        "album": "Saturday Night Fever: The Original Movie Sound Track",
+        "art":"/assets/albumart/various artists - saturday night fever the original movie sound track.jpg",
+        "duration":"4:45"
+    },
+    {
+        "name": "Right Where It Belongs", 
+        "artist": "Nine Inch Nails",
+        "album": "With Teeth",
+        "art":"/assets/albumart/nine inch nails - with teeth.jpg",
+        "duration":"5:05"
+    },
+    {
+        "name": "God of Wine", 
+        "artist": "Third Eye Blind",
+        "album": "Third Eye Blind",
+        "art":"/assets/albumart/third eye blind - third eye blind.jpg",
+        "duration":"5:17"
+    },
+    {
+        "name": "Your Latest Trick", 
+        "artist": "Dire Straits",
+        "album": "Brothers In Arms",
+        "art":"/assets/albumart/dire straits - brothers in arms.jpg",
+        "duration":"6:34"
+    },
+    {
+        "name": "The Magnificent Seven", 
+        "artist": "The Clash",
+        "album": "Sandinista!",
+        "art":"/assets/albumart/the clash - sandinista.jpg",
+        "duration":"5:33"
+    },
+    {
+        "name": "Change", 
+        "artist": "Blind Melon",
+        "album": "Blind Melon",
+        "art":"/assets/albumart/blind melon - blind melon.jpg",
+        "duration":"3:41"
+    },
+    {
+        "name": "A Little Bitter", 
+        "artist": "Alice In Chains",
+        "album": "The Essential Alice In Chains",
+        "art":"/assets/albumart/alice in chains - the essential alice in chains.jpg",
+        "duration":"3:48"
+    },    
+    {
+        "name": "Private Hell", 
+        "artist": "Alice In Chains",
+        "album": "Black Gives Way To Blue",
+        "art":"/assets/albumart/alice in chains - black gives way to blue.jpg",
+        "duration":"5:38"
+    },        
+    {
+        "name": "Hung on a Hook", 
+        "artist": "Alice In Chains",
+        "album": "The Devil Put Dinosaurs Here",
+        "art":"/assets/albumart/alice in chains - the devil put dinosaurs here.jpg",
+        "duration":"5:34"
+    },    
+    {
+        "name": "Glycerine", 
+        "artist": "Bush",
+        "album": "Sixteen Stone",
+        "art":"/assets/albumart/bush x - sixteen stone.jpg",
+        "duration":"4:26"
+    },    
+    {
+        "name": "Right Left Wrong", 
+        "artist": "Three Days Grace",
+        "album": "Outsider",
+        "art":"/assets/albumart/three days grace - outsider.jpg",
+        "duration":"3:56"
+    },
+    {
+        "name": "Happiness in Slavery", 
+        "artist": "Nine Inch Nails",
+        "album": "Broken",
+        "art":"/assets/albumart/nine inch nails - broken.jpg",
+        "duration":"5:21"
+    },    
+    {
+        "name": "Porcelina of the Vast Oceans", 
+        "artist": "The Smashing Pumpkins",
+        "album": "Mellon Collie And The Infinite Sadness",
+        "art":"/assets/albumart/the smashing pumpkins - mellon collie and the infinite sadness.jpg",
+        "duration":"9:21"
+    },
+    {
+        "name": "1981", 
+        "artist": "Green Day",
+        "album": "Saviors",
+        "art":"/assets/albumart/green day - saviors.jpg",
+        "duration":"2:10"
+    },
+    {
+        "name": "Torn", 
+        "artist": "Creed",
+        "album": "My Own Prison",
+        "art":"/assets/albumart/creed - my own prison.jpg",
+        "duration":"5:24"
+    },    
+    {
+        "name": "Wake Up", 
+        "artist": "Mad Season",
+        "album": "Mad Season",
+        "art":"/assets/albumart/mad season - above.jpg",
+        "duration":"7:39"
+    },    
+    {
+        "name": "Mayonaise", 
+        "artist": "The Smashing Pumpkins",
+        "album": "Siamese Dream",
+        "art":"/assets/albumart/the smashing pumpkins - siamese dream.jpg",
+        "duration":"5:49"
+    },
+    {
+        "name": "Revolution Radio", 
+        "artist": "Green Day",
+        "album": "Revolution Radio",
+        "art":"/assets/albumart/green day - revolution radio.jpg",
+        "duration":"3:22"
+    }
+]

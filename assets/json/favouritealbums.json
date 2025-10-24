@@ -710,6 +710,12 @@
             "artist": "Pink Floyd",
             "cover": "./assets/albumart/pink floyd - atom heart mother.jpg",
             "description": "Some Test Text"
+          },
+          {
+            "title": "Wind & Wuthering",
+            "artist": "Genesis",
+            "cover": "./assets/albumart/genesis - wind & wuthering.webp",
+            "description": "Some Test Text"
           }
         ]
       },
@@ -990,9 +996,9 @@
             "description": "Some Test Text"
           },
           {
-            "title": "Dry As A Bone/Rehab Doll",
-            "artist": "Green River",
-            "cover": "./assets/albumart/green river - dry as a bone.jpg",
+            "title": "In The Dark ",
+            "artist": "Grateful Dead",
+            "cover": "./assets/albumart/grateful dead - in the dark.png",
             "description": "Some Test Text"
           },
           {
