@@ -1617,7 +1617,7 @@
         "artist": "Grateful Dead",
         "album": "In The Dark",
         "year": "1987",
-        "cover": "./assets/albumart/grateful dead - in the dark.png",
+        "cover": "./assets/albumart/grateful dead - in the dark.webp",
         "description": "I was at a record store one day and I'd already picked all the CD's I wanted when this album caught my eye. It was October of 2025, and I'd just bought and fixed a tape deck. It also happened to be a year since I was introduced to The Grateful Dead, so I was listening to them a lot again. Without hesitation, I picked it up and my musical world was once again blown wide open.<br><br>Simply put, this is a really good album. It's a spectacular and triumphant comeback for the band after all the strife and struggle they went through on The Endless Tour—you can hear it in \"Touch of Grey\" and \"Black Muddy River\". I like this band, and I really like this album. I don't have many words to say other than listen to it!<br><br>My favourite songs on this one are \"Tons of Steel\", \"Hell in a Bucket\", \"Touch of Grey\" and \"West L.A. Fadeaway\".",
         "genre": "Roots Rock",
         "rating" : "95",
@@ -1627,8 +1627,8 @@
             "Hell in a Bucket",
             "When Push Comes to Shove",
             "My Brother Esau",
-            "West L.A. Fadeaway",
             "Tons of Steel",
+            "West L.A. Fadeaway",
             "Throwing Stones",
             "Black Muddy River"
         ],

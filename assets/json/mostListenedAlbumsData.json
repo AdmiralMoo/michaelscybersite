@@ -318,5 +318,15 @@
             { "artist": "Genesis", "album": "Abacab", "cover": "./assets/albumart/genesis - abacab.webp" },
             { "artist": "The Grateful Dead", "album": "Workingman's Dead", "cover": "./assets/albumart/the grateful dead - workingmans dead.jpg" }
         ]
+    },
+    {
+        "month": "October 2025",
+        "albums": [
+            { "artist": "Fleetwood Mac", "album": "Tango In The Night", "cover": "./assets/albumart/fleetwood mac - tango in the night.webp" },
+            { "artist": "Grateful Dead", "album": "In The Dark", "cover": "./assets/albumart/grateful dead - in the dark.webp" },
+            { "artist": "Pink Floyd", "album": "Wish You Were Here", "cover": "./assets/albumart/pink floyd - wish you were here.jpg" },
+            { "artist": "Styx", "album": "Styx I", "cover": "./assets/albumart/styx - styx i.webp" },
+            { "artist": "Billy Joel", "album": "Storm Front", "cover": "./assets/albumart/billy joel - storm front.webp" }
+        ]
     }
 ]
