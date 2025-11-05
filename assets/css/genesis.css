@@ -97,6 +97,13 @@
 }
 
 @font-face {
+  font-family: 'Stations';
+  src: url('/assets/fonts/Genesis Fonts/1998calling.ttf') format('truetype');
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
   font-family: 'PhilCollins';
   src: url('/assets/fonts/Genesis Fonts/Sayer Script MN Regular.ttf') format('truetype');
   font-style: normal;
@@ -292,6 +299,27 @@
     color: #502c97;
 }
 
+#callingallstations
+{
+    background-color: #000000;
+    color: #3f6398;
+    font-family: 'Franklin Gothic', sans-serif;
+    font-style: normal;
+}
+
+#callingallstations h1
+{
+    font-family: 'Stations', sans-serif;
+    color: #e18028;
+}
+
+#callingallstations h2
+{
+    font-family: 'Franklin Gothic', sans-serif;
+    font-weight: normal;
+    color: #a1a1a0;
+}
+
 #atrickofthetail
 {
     background-color: #e3d29c;
@@ -311,6 +339,27 @@
     font-family: 'Tail', serif;
     font-weight: bold;
     color: #67241a;
+}
+
+#windandwuthering
+{
+    background-color: #706e61;
+    color: #edefef;
+    font-family: 'Garamond', sans-serif;
+    font-weight: bold;
+}
+
+#windandwuthering h1
+{
+    font-family: 'windwuther', serif;
+    color: #edefef;
+}
+
+#windandwuthering h2
+{
+    font-family: 'windwuther', serif;
+    font-weight: bold;
+    color: #edefef;
 }
 
 #thelamblies

@@ -462,5 +462,13 @@
         "monthread": "October",
         "yearread": "2025",
         "cover": "/assets/books/themottledlizard.webp"
+    },
+    {
+        "name":"Post Office",
+        "author": "Charles Bukowski",
+        "year": "1971",
+        "monthread": "November",
+        "yearread": "2025",
+        "cover": "/assets/books/postoffice.webp"
     }
 ]
