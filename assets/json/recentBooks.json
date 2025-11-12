@@ -470,5 +470,13 @@
         "monthread": "November",
         "yearread": "2025",
         "cover": "/assets/books/postoffice.webp"
+    },
+    {
+        "name":"The Sound and The Fury",
+        "author": "William Faulkner",
+        "year": "1929",
+        "monthread": "November",
+        "yearread": "2025",
+        "cover": "/assets/books/thesoundandthefury.webp"
     }
 ]
