@@ -478,5 +478,13 @@
         "monthread": "November",
         "yearread": "2025",
         "cover": "/assets/books/thesoundandthefury.webp"
+    },
+    {
+        "name":"It Lasts Forever and Then It's Over",
+        "author": "Anne de Marcken",
+        "year": "2024",
+        "monthread": "November",
+        "yearread": "2025",
+        "cover": "/assets/books/itlastsforeverandthenitsover.webp"
     }
 ]
