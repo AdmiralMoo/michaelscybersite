@@ -486,5 +486,13 @@
         "monthread": "November",
         "yearread": "2025",
         "cover": "/assets/books/itlastsforeverandthenitsover.webp"
+    },
+    {
+        "name":"Camelot 30K",
+        "author": "Robert L Forward",
+        "year": "1996",
+        "monthread": "November",
+        "yearread": "2025",
+        "cover": "/assets/books/camelot30k.webp"
     }
 ]

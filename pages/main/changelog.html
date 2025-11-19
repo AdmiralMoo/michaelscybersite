@@ -14,12 +14,23 @@
 
             width: 50%;
 
-            transform: perspective(200px) rotate3d(1,0,0, 45deg) translate3d(0,0,-50px);
+            transform: perspective(200px) rotate3d(1,0,0, 25deg) translate3d(0,0,-50px);
+            transition: transform 0.5s ease-in-out;
+            scale: 1.5 1;
+        }
+        .threedeecont
+        {
+            display: flex;
+            justify-content: center;
+        }
+
+        .threedee:hover {
+            transform: perspective(800px) rotate3d(1,0,0, 25deg) translate3d(0,0,-50px);
         }
     </style>
 </head>
-
-            <!--
+    <!--
+        <div class="threedeecont">
             <div class="threedee">
                 <h2>09/29/25–1 Commit</h2>
                 <ul>
@@ -32,14 +43,16 @@
                     <li>Added new GIFs to the GIFs page</li>
                 </ul>
             </div>
-        -->
-
+        </div>
+-->
 <body>
     <main>
         <div class="maincontent-centred" style="min-height:60vh; font-family: Arial, Helvetica, sans-serif; color:yellow;">
             <h1>
                 The Changelog 
             </h1>
+            <h2>11/19/25–1 Commit</h2>
+                <li>Updated read books</li>
             <h2>11/14/25–1 Commit</h2>
                 <li>Updated read books</li>
             <h2>11/11/25–1 Commit</h2>
