@@ -494,5 +494,13 @@
         "monthread": "November",
         "yearread": "2025",
         "cover": "/assets/books/camelot30k.webp"
+    },
+    {
+        "name":"James Joyce's Ulysses: A Study",
+        "author": "Stuart Gilbert",
+        "year": "1955",
+        "monthread": "November",
+        "yearread": "2025",
+        "cover": "/assets/books/ulyssesstudy.jpg"
     }
 ]
