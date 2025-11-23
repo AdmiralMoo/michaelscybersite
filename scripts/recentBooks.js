@@ -106,55 +106,88 @@ function fillBooksRead()
     booksReadBox.innerHTML = "";
 
     fetch('./assets/json/recentBooks.json')
-    .then(response => response.json())
-    .then(data => {
-        tempData = data.reverse();
+        .then(response => response.json())
+        .then(data => {
+            const tempData = data.reverse();
 
-        const month = new Map();
+            const month = new Map();
 
-        for (var i = 0; i < tempData.length; i++)
-        {
-            var newBook = `<li><i>${tempData[i].name}</i> by ${tempData[i].author}</li>`
-            if (month.get(`${tempData[i].monthread} ${tempData[i].yearread}`) == null)
-            {
-                newMonth = [];
-                newMonth.push(newBook);
-                month.set(`${tempData[i].monthread} ${tempData[i].yearread}`, newMonth);
+            const now = new Date();
+            const twelveMonthsAgo = new Date(now);
+            twelveMonthsAgo.setFullYear(now.getFullYear() - 1);
+
+            const monthIndex = {
+                "January": 0, "February": 1, "March": 2, "April": 3,
+                "May": 4, "June": 5, "July": 6, "August": 7,
+                "September": 8, "October": 9, "November": 10, "December": 11
+            };
+
+            let last12MonthsCount = 0;
+            let sinceNewYearCount = 0;
+            const authorFreq = new Map();
+
+            for (let i = 0; i < tempData.length; i++) {
+                const b = tempData[i];
+
+                const readDate = new Date(parseInt(b.yearread), monthIndex[b.monthread], 1);
+
+                if (readDate >= twelveMonthsAgo) {
+                    last12MonthsCount++;
+                }
+
+                const isThisYear = readDate.getFullYear() === now.getFullYear();
+
+                if (isThisYear) {
+                    sinceNewYearCount++;
+
+                    // Only count authors from THIS YEAR
+                    authorFreq.set(b.author, (authorFreq.get(b.author) || 0) + 1);
+                }
+
+                const key = `${b.monthread} ${b.yearread}`;
+                const newBook = `<li><i>${b.name}</i> by ${b.author}</li>`;
+
+                if (!month.has(key)) {
+                    month.set(key, [newBook]);
+                } else {
+                    month.get(key).push(newBook);
+                }
             }
-            else
-            {
-                month.get(`${tempData[i].monthread} ${tempData[i].yearread}`).push(newBook);
+
+            //get the tpo three authors
+            const topAuthors = [...authorFreq.entries()]
+                .sort((a, b) => b[1] - a[1])
+                .slice(0, 3);
+
+            //fill the books list
+            for (const [key, values] of month) {
+                let newHTML = `
+                    <div class="list-package">
+                        <h4>${key}:</h4>
+                        <ul>
+                `;
+
+                for (const value of values) {
+                    newHTML += `${value}`;
+                }
+
+                newHTML += `
+                        </ul>
+                    </div>
+                `;
+
+                booksReadBox.innerHTML += newHTML;
             }
-        }
 
-        console.log(month);
-
-        for (const [key, values] of month)
-        {
-            var newHTML = ""
-            newHTML += `
-            <div class="list-package">
-                <h4>${key}:</h4>
-                    <ul>
-                    
-            `
-            for (const value of values)
-            {
-                newHTML += `${value}
-                `
-            }
-
-            newHTML += `
-                </ul>
-            </div>
-            `
-
-            booksReadBox.innerHTML += newHTML;
-        }
-    })
-    .catch(error => console.error('JSON loading shit the bed! ', error));
-
-}
+            //Fill the seven segment displays
+            document.getElementById("booksThisYear").innerText = sinceNewYearCount;
+            document.getElementById("booksTwelveMonths").innerText = last12MonthsCount;
+            
+            document.getElementById("topBook1").innerText = `1. ${topAuthors[0][0]} (${topAuthors[0][1]})`;
+            document.getElementById("topBook2").innerText = `2. ${topAuthors[1][0]} (${topAuthors[1][1]})`;
+            document.getElementById("topBook3").innerText = `3. ${topAuthors[2][0]} (${topAuthors[2][1]})`;
+        })
+    }
 
 document.getElementById("shiftBookLeft").addEventListener("click", () => skipBook("left"));
 document.getElementById("shiftBookRight").addEventListener("click", () => skipBook("right"));

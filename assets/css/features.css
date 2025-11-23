@@ -1,0 +1,120 @@
+@font-face {
+    font-family: 'Quartz';
+    src: url('/assets/fonts/quartz.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+
+/*Counter Box*/
+.counter-box-parent
+{
+    max-height: 256px;
+    min-height: 150px;
+    max-width:286px;
+
+    aspect-ratio: 4/3;
+
+    border: 0px outset;
+
+    background-color:black;
+    background-image: url('/assets/gifs/Blinky.gif');
+    background-size: cover;
+
+    /*
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    justify-content: end;
+    */
+    text-align: center;
+}
+
+.counter-box-parent h3
+{
+    color: white;
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+
+    padding-left:10px;
+    padding-right:10px;
+
+    display: block;
+    position: relative;
+    bottom: -6%;
+}
+
+.counter-box-counter
+{
+    color:red;
+    font-family: 'Quartz', sans-serif;
+    font-size: 5.0em;
+}
+
+.counter-box-display
+{
+    display: block;
+    position: relative;
+    top: 5%;
+    max-width: 70%;
+    justify-content: center;
+    background-color: rgb(32, 0, 0);
+    left: 15%;
+}
+
+/*LCD Listbox Element*/
+.lcd-listbox
+{
+    max-height: 256px;
+    min-height: 150px;
+    min-width: 386px;
+    max-width:486px;
+
+    border: 0px outset;
+
+    background-color:black;
+    background-size: cover;
+
+    text-align: left;
+}
+
+.lcd-listbox h3
+{
+    color: white;
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+
+    padding-left:10px;
+    padding-right:10px;
+
+    display: block;
+    position: relative;
+    bottom: -6%;
+}
+
+.lcd-listbox-element
+{
+    color:red;
+    font-family: 'Quartz', sans-serif;
+    font-size: 1.3em;
+
+    display:block;
+    position: relative;
+    left:0;
+}
+
+.box-container p
+{
+    padding: 2px;
+}
+
+.lcd-listbox-display
+{
+    display: block;
+    position: relative;
+    top: 5%;
+    max-width: 90%;
+    justify-content: center;
+    background-color: rgb(32, 0, 0);
+    left: 4%;
+}
