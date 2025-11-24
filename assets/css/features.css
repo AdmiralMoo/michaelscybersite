@@ -20,13 +20,6 @@
     background-image: url('/assets/gifs/Blinky.gif');
     background-size: cover;
 
-    /*
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-
-    justify-content: end;
-    */
     text-align: center;
 }
 

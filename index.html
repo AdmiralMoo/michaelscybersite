@@ -15,6 +15,46 @@
         display: flex; 
         justify-content: center;
     }
+
+    @media (max-width: 470px)
+    {
+        .ipodMobileScale
+        {
+            transform: scale(0.95);
+        }
+    }
+
+    @media (max-width: 1100px)
+    {
+        .footerMobileScale
+        {
+            transform: scale(0.7);
+            margin-top: -50px;
+            margin-bottom: -64px;
+        }
+    }
+    
+    @media (max-width: 800px)
+    {
+        .footerMobileScale
+        {
+            transform: scale(0.4);
+            margin-top: -86px;
+            margin-bottom: -128px;
+        }
+    }
+
+    @media (max-width: 470px)
+    {
+        .footerMobileScale
+        {
+            transform: scale(0.3);
+            margin-top: -128px;
+            margin-bottom: -128px;
+        }
+    }
+
+
 </style>
 
 <body>
@@ -42,7 +82,7 @@
                         Above, there's pages where you can find out more about the site and I, the music I listen to, the books I read and the movies I watch. Below, there's links to more specific pages. The site is still very much under construction, and it changes almost every day. 
                     </p>
                 </div>
-                <div class="insideborder no-mobile">
+                <div class="insideborder ipodMobileScale">
                     <iframe src="./pages/music/ipod.html" style="width:320px; height: 240px;" scrolling="no" frameborder="0" id="ipodFrame"></iframe>
                 </div>
             </div>
@@ -165,7 +205,7 @@
 
 
             <div class="bottomimages-box">
-                <div class="bottomimages">
+                <div class="bottomimages footerMobileScale">
                     <image style="object-fit: fill; max-width: 150px; min-height: 100%; padding-top: 10px; padding-left: 2px; padding-right: 2px;" src="/assets/gifs/HOF_FredRogers_128_50_Full.gif"></image>
                     <image style="object-fit: scale-down; max-width: 128px; padding-top: 10px; padding-left: 2px; padding-right: 2px;" src="/assets/gifs/WS2005_128_50_Full.gif"></image>
                     <image style="object-fit: scale-down; max-width: 128px; padding-top: 10px; padding-left: 2px; padding-right: 2px;" src="/assets/gifs/WS2006_128_50_Full.gif"></image>
@@ -173,7 +213,6 @@
                     <image style="object-fit: scale-down; max-width: 128px; padding-top: 10px; padding-left: 2px; padding-right: 2px;" src="/assets/gifs/ALE2015_128_50_Full.gif"></image>
                     <image style="object-fit: scale-down; max-width: 128px; padding-top: 10px; padding-left: 2px; padding-right: 2px;" src="/assets/gifs/AL2025_128_50_Full.gif"></image>
                     <image style="object-fit: fill; max-width: 150px; min-height: 100%; padding-top: 10px; padding-left: 2px; padding-right: 2px;" src="/assets/gifs/HOF_RoyHalladay_128_50_Full.gif"></image>
-
                 </div>
             </div>
         </div>
