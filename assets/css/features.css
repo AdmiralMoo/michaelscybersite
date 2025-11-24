@@ -35,6 +35,8 @@
     display: block;
     position: relative;
     bottom: -6%;
+
+    text-wrap: nowrap;
 }
 
 .counter-box-counter
@@ -51,7 +53,7 @@
     top: 5%;
     max-width: 70%;
     justify-content: center;
-    background-color: rgb(32, 0, 0);
+    background-color: rgb(24, 0, 0);
     left: 15%;
 }
 
@@ -61,7 +63,8 @@
     max-height: 256px;
     min-height: 150px;
     min-width: 386px;
-    max-width:486px;
+    max-width:600px;
+    width: 100%;
 
     border: 0px outset;
 
@@ -83,6 +86,8 @@
     display: block;
     position: relative;
     bottom: -6%;
+
+    text-wrap: nowrap;
 }
 
 .lcd-listbox-element
@@ -101,6 +106,11 @@
     padding: 2px;
 }
 
+.bookstats-container .side-by-side
+{
+    width: unset;
+}
+
 .lcd-listbox-display
 {
     display: block;
@@ -108,6 +118,30 @@
     top: 5%;
     max-width: 90%;
     justify-content: center;
-    background-color: rgb(32, 0, 0);
+    background-color: rgb(24, 0, 0);
     left: 4%;
+}
+
+.lcd-flicker-text
+{
+    color: red;
+    animation: flickerColor 0.15s infinite alternate;
+
+    text-shadow: 
+    0 0 2px rgb(158, 51, 51), 
+    0 0 4px rgba(173, 0, 0),
+    0 0 6px rgba(83, 0, 0), 
+    0 0 12px rgba(37, 0, 0); 
+}
+
+@keyframes flickerColor {
+  0% {
+    color: red;
+  }
+  50% {
+    color: rgb(214, 0, 0);
+  }
+  100% {
+    color: rgb(255, 28, 28);
+  }
 }
