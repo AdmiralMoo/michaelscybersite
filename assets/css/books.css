@@ -118,3 +118,13 @@ For the recent books showcase
 {
   height: max-content;
 }
+
+.box-container p
+{
+    padding: 2px;
+}
+
+.bookstats-container .side-by-side
+{
+    width: unset;
+}

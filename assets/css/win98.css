@@ -97,6 +97,11 @@ Overrides For Borders & Colours
     background-color: #c0c0c0;
 }
 
+.text-fill
+{
+    background-color: white;
+}
+
 .body-box .grid-box-container
 {
     border: 4px solid;

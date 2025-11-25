@@ -31,6 +31,7 @@ function injectHead(injectHeader) {
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <base href="${baseHref}">
     <link rel="stylesheet" type="text/css" href="/assets/css/base.css"/>
+    <link rel="stylesheet" type="text/css" href="/assets/css/features.css"/>
     <link rel="icon" type="image/x-icon" href="/assets/site/favicon.ico">
     `);
 
@@ -104,7 +105,7 @@ function lazyLoadImages() {
 
                     if (realSrc) {
                         img.onload = () => {
-                            //If this image is inside a carousel, recalc it
+                            //If this image is inside a carousel, recalculate it
                             const carousel = img.closest(".simple-image-carousel");
                             if (carousel && typeof carousel._recalc === "function") {
                                 carousel._recalc();
