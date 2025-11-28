@@ -502,5 +502,13 @@
         "monthread": "November",
         "yearread": "2025",
         "cover": "/assets/books/ulyssesstudy.jpg"
+    },
+    {
+        "name":"Northanger Abbey",
+        "author": "Jane Austen",
+        "year": "1817",
+        "monthread": "November",
+        "yearread": "2025",
+        "cover": "/assets/books/northangerabbey.jpg"
     }
 ]
