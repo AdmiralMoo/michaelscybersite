@@ -328,5 +328,15 @@
             { "artist": "Styx", "album": "Styx I", "cover": "./assets/albumart/styx - styx i.webp" },
             { "artist": "Billy Joel", "album": "Storm Front", "cover": "./assets/albumart/billy joel - storm front.webp" }
         ]
+    },
+    {
+        "month": "November 2025",
+        "albums": [
+            { "artist": "Derek & The Dominos", "album": "Layla & Other Assorted Love Songs", "cover": "./assets/albumart/derek and the dominos - layla and other assorted love songs.webp" },
+            { "artist": "Genesis", "album": "Abacab", "cover": "./assets/albumart/genesis - abacab.webp" },
+            { "artist": "Fleetwood Mac", "album": "Tango In The Night", "cover": "./assets/albumart/fleetwood mac - tango in the night.webp" },
+            { "artist": "Yes", "album": "90125", "cover": "./assets/albumart/yes - 90125.jpg" },
+            { "artist": "Genesis", "album": "Wind & Wuthering", "cover": "./assets/albumart/genesis - wind & wuthering.webp" }
+        ]
     }
 ]
