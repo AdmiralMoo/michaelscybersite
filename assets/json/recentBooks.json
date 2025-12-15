@@ -509,6 +509,14 @@
         "year": "1817",
         "monthread": "November",
         "yearread": "2025",
-        "cover": "/assets/books/northangerabbey.jpg"
+        "cover": "/assets/books/northangerabbey.webp"
+    },
+    {
+        "name":"Wuthering Heights",
+        "author": "Emily Bronte",
+        "year": "1847",
+        "monthread": "December",
+        "yearread": "2025",
+        "cover": "/assets/books/wutheringheights.webp"
     }
 ]
