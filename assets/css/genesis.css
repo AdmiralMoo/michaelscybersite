@@ -299,6 +299,50 @@
     color: #502c97;
 }
 
+#thewaywewalklongs
+{
+    background-color: #f2f3ed;
+    color: #000000;
+    font-family: 'Myriad', sans-serif;
+    font-style: normal;
+}
+
+#thewaywewalklongs h1
+{
+    font-family: 'Myriad', sans-serif;
+    color: #4e1639;
+    font-style: italic;
+}
+
+#thewaywewalklongs h2
+{
+    font-family: 'Myriad', sans-serif;
+    font-weight: bold;
+    color: #4e1639;
+}
+
+#thewaywewalkshorts
+{
+    background-color: #f9faf7;
+    color: #000000;
+    font-family: 'Myriad', sans-serif;
+    font-style: normal;
+}
+
+#thewaywewalkshorts h1
+{
+    font-family: 'Myriad', sans-serif;
+    color: #b289b9;
+    font-style: italic;
+}
+
+#thewaywewalkshorts h2
+{
+    font-family: 'Myriad', sans-serif;
+    font-weight: bold;
+    color: #aa7725;
+}
+
 #callingallstations
 {
     background-color: #000000;
