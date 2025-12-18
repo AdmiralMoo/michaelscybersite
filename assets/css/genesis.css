@@ -621,3 +621,49 @@
     color: #071e13;
     font-variant:small-caps;
 }
+
+#ahotnightinparis
+{
+    background-color: #d0181b;
+    color: #000000;
+    font-family: 'Franklin Gothic Medium', sans-serif;
+    font-weight: normal;
+}
+
+#ahotnightinparis h1
+{
+    font-family: 'Gill Sans MT', serif;
+    color: #ffffff;
+    font-variant:small-caps;
+}
+
+#ahotnightinparis h2
+{
+    font-family: 'Gill Sans MT', serif;
+    font-weight: bold;
+    color: #ffffff;
+    font-variant:small-caps;
+}
+
+#testify
+{
+    background-color: #336074;
+    color: #ffffff;
+    font-family: 'PhilCollins', sans-serif;
+    font-weight: normal;
+}
+
+#testify h1
+{
+    font-family: 'windwuther', serif;
+    color: #ffffff;
+    font-variant:small-caps;
+}
+
+#testify h2
+{
+    font-family: 'PhilCollins', serif;
+    font-weight: bold;
+    color: #ffffff;
+    font-variant:small-caps;
+}
