@@ -1,11 +1,40 @@
 [    
     {
+        "headline" : "\"Wish You Were Here\" UK's 2025 #1 Christmas Album",
+        "date" : "12/19/2025",
+        "body" : "This week, Pink Floyd's masterpiece <i>Wish You Were Here</i> has landed the number one spot on the official UK albums chart thanks to its conveniently-timed 50th anniversary re-release. Because it's the month of December, that now makes this legendary album a Christmas album. If <i>The Empire Strikes Back</i> is a Christmas movie, then <i>Wish You Were Here</i> is a Christmas album.",
+        "image" : "/assets/images/happygilmour.webp",
+        "imagestyle": ""
+    }, 
+    {
+        "headline" : "24 Hours of Daytona Entry List Revealed, Grid Packed",
+        "date" : "12/13/2025",
+        "body" : "The 61-car entry list for the 24 Hours of Daytona was released today, and it's great to see sportscar racing the healthiest it's ever been. We've got around a month to go until we see the flag fly in Florida this January for the 64th running of the Rolex 24, and it's going to be an awesome race!<br><br>I'll be rooting once again for the Porsche Penske #7 car piloted by Felipe Nasr, Julien Andlauer and former AO Racing \"Rexy\" driver Laurin Heinrich, and I'm looking forward to more great battles with the WTR Cadillac V.Series-R's!<br><br>In addition to last year's continuing grid, the Aston Martin Valkyrie makes it's Rolex 24 debut with the #23 entry.<br><br>Iron Dames is notably—and most unfortunately—absent. I hope they get their funding situation sorted out so they can get back on track soon. ",
+        "image" : "/assets/images/24hdaytona.webp",
+        "imagestyle": ""
+    }, 
+    {
+        "headline" : "Verstappen 2 Points Shy of Title, Piastri Finishes 3rd",
+        "date" : "12/07/2025",
+        "body" : "Well, it happened today—Lando Norris is the 2025 World Champion. I've never liked the guy and I'm not happy with it, but it is what it is. I can't help but think about Monza, when Piastri pulled over and let Norris through—those points could've given Max his fifth title. I think of Max's over-agression on George which cost him a handful of points; Piastri's safety-car braking incident at Silverstone. That's just the way it goes, right?<br><br>Hamilton is so washed.",
+        "image" : "/assets/images/piastriloss.webp",
+        "imagestyle": ""
+    },
+    {
+        "headline" : "Toyota Unveils GR GT3, GR010 EVO, HAAS Title Sponsorship",
+        "date" : "12/05/2025",
+        "body" : "Toyota has made a massive statement reiterating their commitment to all kinds of racing. Today, they revealed the successor to their recently retired Lexus GT3—the purpose-built GT GT3. It's an awesome looking car built with the track in mind to compete in the GT3 class. While it might not hit the track right away, it's expected to compete full-time in all series next year in 2027. This comes at the same time more details about Toyota's new hypercar challenger—the GR010 EVO—have come out, with a complete aero and internal rework to compete for overall victory in WEC. <br><br>Toyota also announced a title sponsorship for HAAS F1, marking a more complete return to F1 since the 2008 financial crisis. It seems like Toyota has slowly re-entered back into the single-seater landscape, having sponsored a driver and car in F2 this year as well. I'm hoping they'll take over HAAS in a more complete capacity in the years to come.",
+        "image" : "/assets/images/grgt3gr010evo.webp",
+        "imagestyle": ""
+    },
+    {
         "headline" : "The Dream Has Died",
         "date" : "11/09/2025",
         "body" : "The collapse of Oscar Piastri's form in the latter half of the 2025 season will be studied and contested for years to come. Lando Norris has a commanding lead on the title with just three races to go, and with the pace he's shown, I doubt whatever Piastri will be able to muster will be enough.<br><br>Hamilton is washed. I never wanted him in a Ferrari, and here we are at the end of the season without even a podium to show.<br><br>Lando Norris, World Drivers Champion—a disgusting thoguht!",
         "image" : "/assets/images/averagehamilton.webp",
         "imagestyle": ""
-    }, {
+    }, 
+    {
         "headline" : "...And What a Season it Was",
         "date" : "11/02/2025",
         "body" : "With the crack of Alejandro Kirk's broken bat, the L.A. Dodgers made the final out they needed to win the 2025 World Series. I knew the Jays weren't playing well enough to win it when we were up a run in the 8th and couldn't cache in with the bases loaded. Some might say IKF's slide was the definitive moment—there will always be if's, but's and what if's, but if my grandmother had wheels, she'd be a bicycle.<br><br>This was a wonderful, special season to watch and I'm happy that the Jays are back at the top of baseball after so long. We'll see what happens this offseason and if the team can stay together to rally another year.<br><br>Thank you, Blue Jays. I've been waiting for this my whole life and the deep playoff run was everything I'd hoped it would be.",

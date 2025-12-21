@@ -343,6 +343,28 @@
     color: #aa7725;
 }
 
+#fromgenesistorevelation
+{
+    background-color: #b45f54;
+    color: #000000;
+    font-family: 'Garamond', sans-serif;
+    font-style: normal;
+}
+
+#fromgenesistorevelation h1
+{
+    font-family: 'Garamond', sans-serif;
+    color: #000000;
+    font-style: italic;
+}
+
+#fromgenesistorevelation h2
+{
+    font-family: 'Garamond', sans-serif;
+    font-weight: bold;
+    color: #000000;
+}
+
 #callingallstations
 {
     background-color: #000000;
