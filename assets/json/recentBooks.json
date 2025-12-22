@@ -518,5 +518,13 @@
         "monthread": "December",
         "yearread": "2025",
         "cover": "/assets/books/wutheringheights.webp"
+    },
+    {
+        "name":"The Fountainhead",
+        "author": "Ayn Rand",
+        "year": "1943",
+        "monthread": "December",
+        "yearread": "2025",
+        "cover": "/assets/books/thefountainhead.webp"
     }
 ]
