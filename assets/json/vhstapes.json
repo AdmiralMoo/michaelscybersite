@@ -108,6 +108,15 @@
         "imagespine" : "./assets/vhs/Dune_Spine.webp"
     },
     {
+        "id" : "highlander",
+        "name" : "highlander",
+        "year" : "1986",
+        "body" : "",
+        "tags" : "scifi;",
+        "imagefront" : "./assets/vhs/Highlander_Front.webp",
+        "imagespine" : "./assets/vhs/Highlander_Spine.webp"
+    },
+    {
         "id" : "redoct",
         "name" : "The Hunt For Red October",
         "year" : "1990",
@@ -241,6 +250,15 @@
         "tags" : "favourites;drama;shelfmain",
         "imagefront" : "./assets/vhs/SaturdayNightFever_Front.webp",
         "imagespine" : "./assets/vhs/SaturdayNightFever_Spine.webp"
+    },
+    {
+        "id" : "singles",
+        "name" : "Singles",
+        "year" : "1992",
+        "body" : "Imagine <i>Friends (1994-2004)</i> but it takes place in Seattle at the height of the Grunge scene: that's <i>Singles (1992)</i>! Featuring an all-star soundtrack including Alice In Chains, Soundgarden, Pearl Jam, Mother Love Bone, Mudhoney and The Smashing Pumpkins (amongst others), this has to be one of the coolest romantic comedies out there. It's goofy, it's funny, it's got a legendary soundtrack, Eddie Vedder, Chris Cornell and Bridget Fonda—what else could you want?",
+        "tags" : "comedy",
+        "imagefront" : "./assets/vhs/Singles_Front.webp",
+        "imagespine" : "./assets/vhs/Singles_Spine.webp"
     },
     {
         "id" : "trek1",

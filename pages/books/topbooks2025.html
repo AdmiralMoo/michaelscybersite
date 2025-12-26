@@ -1,0 +1,321 @@
+<head>
+    <script src="/head-inject.js"></script>
+
+    <title>Favourite Books of 2025</title>
+    <link rel="stylesheet" type="text/css" href="/assets/css/win98.css"/>
+    <link rel="stylesheet" type="text/css" href="/assets/css/music.css"/>
+    <link rel="stylesheet" type="text/css" href="/assets/css/books.css"/>
+    <style>
+        .grid-box-album
+        {
+            flex: 20%;
+            word-wrap: break-word;
+        }
+
+        .grid-box-album img
+        {
+            object-fit: fill;
+            max-width: 100%;
+            min-width: 100%;
+            height:auto;
+            flex-grow:1;
+        }
+
+        .grid-box-container
+        {
+            display:flex;
+            flex-wrap:wrap;
+        }
+
+
+        .grid-box-album:last-child
+        {
+            
+        }
+
+        .grid-box-container > *
+        {
+            text-align: center;
+        }
+
+        @media(max-width:900px)
+        {
+            .body-box .grid-box-container
+            {
+                flex-direction: row;
+                word-wrap: break-word;
+            }
+
+            .grid-box-album
+            {
+                flex: 30%;
+            }
+
+            .grid-box-album:last-child
+            {
+                max-width :30%;
+            }
+        }
+
+        @media(max-width:600px)
+        {
+            .body-box .grid-box-container
+            {
+                flex-direction: row;
+                word-break: break-all;
+                word-wrap: break-word;
+                font-size: 1.0em;
+            }
+
+            .grid-box-album
+            {
+                flex: 50%;
+            }
+
+            .grid-box-album:last-child
+            {
+                max-width :50%;
+            }
+        }
+
+        .ImageHeader img
+        {
+            height:20vw;
+        }
+
+        @media (max-width: 600px)
+        {
+            .ImageHeader img
+            {
+                height: 50vw;
+            }
+
+            .ImageHeader-Text
+            {
+                font-size: 1.2em;
+            }
+        }
+
+        .books-box
+        {
+            position: relative; 
+            background-image:url("/assets/site/bgpaper1.jpg");
+            padding: 10px;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            width: 100%;
+
+            flex-direction: column;
+        }
+
+        .bookslist-overlay 
+        {
+            position: absolute;
+            inset: 0;          
+            background-image:url("/assets/site/bgpaper1.jpg");
+            mix-blend-mode:multiply;
+            z-index: 10;
+            pointer-events: none;
+        }
+
+        .books-box >*
+        {
+            
+        }
+
+        .bookslist-entry
+        {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            opacity: 90%;
+
+            padding-bottom:32px;
+        }
+
+        .bookslist-title
+        {
+            text-align: center;
+        }
+
+        .bookslist-title h1
+        {
+            font-weight: bold;
+            font-style: italic;
+        }
+
+        .bookslist-cover
+        {
+            max-width: 300px;
+            padding-top: 8px;
+            padding-bottom: 8px;
+        }
+
+        .bookslist-content
+        {
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <div class="maincontent-centred" style="min-height:60vh;">
+
+        <div id="albums" class="spacer"></div>
+        
+        <div class="ImageHeader outsideborder">
+            <div class="insideborder">
+                <img class="lazyload" src="/assets/gifs/LoadingCloudsText.gif" data-src="https://1drv.ms/i/c/19eb4e25e0b8e9bb/IQTn2CNpNnbSTIuhAmRPr9HtAfscRkqfH0PMet93BKpunWs?width=1024">
+            </div>
+            <div class="ImageHeader-Text"><h1>My Favourite Books of 2025</h1></div>
+            <div class="ImageHeader-MyPhoto">Photo: MichaelsCybersite.net, 2025</div>
+        </div>
+        
+        <div class="body-box outsideborder stacked">
+            <div class="box-container" style="padding:10px;">
+                <p>2025 was a pretty big year for reading—after a long time of not being able to read after a brain injury, I was back to reading full-time. From fifty-two books, these were the books I enjoyed the most this year</p>
+            </div>
+            <div class="body-box outsideborder" style="flex-direction: column; gap:0px;">
+                <div class="books-box insideborder">
+                    <div class="bookslist-overlay"></div>
+                    <div class="bookslist-entry">
+                        <div class="bookslist-title">
+                            <h1>A Farewell To Arms</h1>
+                            <hr style="width: 80px; margin-top:2px; margin-bottom: 2px;">
+                            <h2>by Earnest Hemingway</h2>
+                        </div>
+                        <div class="bookslist-cover">
+                            <img src="/assets/books/farewelltoarms.jpg">
+                        </div>
+                        <div class="bookslist-content">
+                            I think <i>A Farewell to Arms</i> is one of the greatest books of all time. It reeks with the stench of bloody, horrific memories; I was filled with a sense of hope and dread the whole way through. I don't know how much of it was real, but I feel like there was a Rinaldi and a Catherine somewhere in real life—they feel too much like memories to be just characters in a book. It's well written and perfectly paced. 
+                        </div>
+                    </div>
+                    <div class="bookslist-entry">
+                        <div class="bookslist-title">
+                            <h1>Persuasion</h1>
+                            <hr style="width: 80px; margin-top:2px; margin-bottom: 2px;">
+                            <h2>by Jane Austen</h2>
+                        </div>
+                        <div class="bookslist-cover">
+                            <img src="/assets/books/persuasion.jpg">
+                        </div>
+                        <div class="bookslist-content">
+                            test 123
+                        </div>
+                    </div>
+                    <div class="bookslist-entry">
+                        <div class="bookslist-title">
+                            <h1>Wuthering Heights</h1>
+                            <hr style="width: 80px; margin-top:2px; margin-bottom: 2px;">
+                            <h2>by Emily Bronte</h2>
+                        </div>
+                        <div class="bookslist-cover">
+                            <img src="/assets/books/wutheringheights.webp">
+                        </div>
+                        <div class="bookslist-content">
+                            test 123
+                        </div>
+                    </div>
+                    <div class="bookslist-entry">
+                        <div class="bookslist-title">
+                            <h1>Blood Music</h1>
+                            <hr style="width: 80px; margin-top:2px; margin-bottom: 2px;">
+                            <h2>by Greg Bear</h2>
+                        </div>
+                        <div class="bookslist-cover">
+                            <img src="/assets/books/bloodmusic.webp">
+                        </div>
+                        <div class="bookslist-content">
+                            test 123
+                        </div>
+                    </div>
+                    <div class="bookslist-entry">
+                        <div class="bookslist-title">
+                            <h1>Ringworld</h1>
+                            <hr style="width: 80px; margin-top:2px; margin-bottom: 2px;">
+                            <h2>by Larry Niven</h2>
+                        </div>
+                        <div class="bookslist-cover">
+                            <img src="/assets/books/ringworld.webp">
+                        </div>
+                        <div class="bookslist-content">
+                            test 123
+                        </div>
+                    </div>
+                    <div class="bookslist-entry">
+                        <div class="bookslist-title">
+                            <h1>Far From The Madding Crowd</h1>
+                            <hr style="width: 80px; margin-top:2px; margin-bottom: 2px;">
+                            <h2>by Thomas Hardy</h2>
+                        </div>
+                        <div class="bookslist-cover">
+                            <img src="/assets/books/maddingcrowd.jpg">
+                        </div>
+                        <div class="bookslist-content">
+                            test 123
+                        </div>
+                    </div>
+                    <div class="bookslist-entry">
+                        <div class="bookslist-title">
+                            <h1>Grief Is The Thing With Feathers</h1>
+                            <hr style="width: 80px; margin-top:2px; margin-bottom: 2px;">
+                            <h2>by Max Porter</h2>
+                        </div>
+                        <div class="bookslist-cover">
+                            <img src="/assets/books/griefisthething.webp">
+                        </div>
+                        <div class="bookslist-content">
+                            test 123
+                        </div>
+                    </div>
+                    <div class="bookslist-entry">
+                        <div class="bookslist-title">
+                            <h1>Pride & Prejudice</h1>
+                            <hr style="width: 80px; margin-top:2px; margin-bottom: 2px;">
+                            <h2>by Jane Austen</h2>
+                        </div>
+                        <div class="bookslist-cover">
+                            <img src="/assets/books/prideandprejudice.webp">
+                        </div>
+                        <div class="bookslist-content">
+                            test 123
+                        </div>
+                    </div>
+                    <div class="bookslist-entry">
+                        <div class="bookslist-title">
+                            <h1>The Fountainhead</h1>
+                            <hr style="width: 80px; margin-top:2px; margin-bottom: 2px;">
+                            <h2>by Ayn Rand</h2>
+                        </div>
+                        <div class="bookslist-cover">
+                            <img src="/assets/books/thefountainhead.webp">
+                        </div>
+                        <div class="bookslist-content">
+                            test 123
+                        </div>
+                    </div>
+                    <div class="bookslist-entry">
+                        <div class="bookslist-title">
+                            <h1>Ham on Rye</h1>
+                            <hr style="width: 80px; margin-top:2px; margin-bottom: 2px;">
+                            <h2>by Charles Bukowski</h2>
+                        </div>
+                        <div class="bookslist-cover">
+                            <img src="/assets/books/hamonrye.webp">
+                        </div>
+                        <div class="bookslist-content">
+                            test 123
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>

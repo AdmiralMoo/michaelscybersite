@@ -36,7 +36,7 @@
             { "artist": "Dire Straits", "album": "Dire Straits", "cover": "./assets/albumart/dire straits - dire straits.jpg" },
             { "artist": "Pink Floyd", "album": "The Dark Side of The Moon", "cover": "./assets/albumart/pink floyd - the dark side of the moon.jpg" },
             { "artist": "Nine Inch Nails", "album": "The Downward Spiral", "cover": "./assets/albumart/nine inch nails - the downward spiral.jpg" },
-            { "artist": "Antonín Dvořák", "album": "Sinfonie Nr. 9 »Aus Der Neuen Welt«", "cover": "./assets/albumart/antonin dvorak - symphonie no 9.jpg" }
+            { "artist": "Antonín Dvořák", "album": "Sinfonie Nr. 9 »Aus Der Neuen Welt«", "cover": "./assets/albumart/antonin dvorak - aus der neuen welt.jpg" }
         ]
     },
     {
@@ -144,7 +144,7 @@
         "albums": [
             { "artist": "Dire Straits", "album": "Love Over Gold", "cover": "./assets/albumart/dire straits - love over gold.jpg" },
             { "artist": "Alanis Morissette", "album": "Jagged Little Pill", "cover": "./assets/albumart/alanis morissette - jagged little pill.jpg" },
-            { "artist": "Metallica", "album": "Kill Em' All", "cover": "./assets/albumart/metallica - kill 'em all.jpg" },
+            { "artist": "Metallica", "album": "Kill Em' All", "cover": "./assets/albumart/metallica - kill em all.jpg" },
             { "artist": "Nine Inch Nails", "album": "With Teeth", "cover": "./assets/albumart/nine inch nails - with teeth.jpg" },
             { "artist": "The Bangles", "album": "Greatest Hits", "cover": "./assets/albumart/the bangles - greatest hits.jpg" }
         ]
@@ -155,7 +155,7 @@
             { "artist": "Alanis Morissette", "album": "Jagged Little Pill", "cover": "./assets/albumart/alanis morissette - jagged little pill.jpg" },
             { "artist": "Nine Inch Nails", "album": "Pretty Hate Machine", "cover": "./assets/albumart/nine inch nails - pretty hate machine.jpg" },
             { "artist": "Pink Floyd", "album": "Atom Heart Mother", "cover": "./assets/albumart/pink floyd - atom heart mother.jpg" },
-            { "artist": "Metallica", "album": "Kill Em' All", "cover": "./assets/albumart/metallica - kill 'em all.jpg" },
+            { "artist": "Metallica", "album": "Kill Em' All", "cover": "./assets/albumart/metallica - kill em all.jpg" },
             { "artist": "Dire Straits", "album": "Love Over Gold", "cover": "./assets/albumart/dire straits - love over gold.jpg" }
         ]
     },
@@ -323,7 +323,7 @@
         "month": "October 2025",
         "albums": [
             { "artist": "Fleetwood Mac", "album": "Tango In The Night", "cover": "./assets/albumart/fleetwood mac - tango in the night.webp" },
-            { "artist": "Grateful Dead", "album": "In The Dark", "cover": "./assets/albumart/grateful dead - in the dark.webp" },
+            { "artist": "Grateful Dead", "album": "In The Dark", "cover": "./assets/albumart/the grateful dead - in the dark.webp" },
             { "artist": "Pink Floyd", "album": "Wish You Were Here", "cover": "./assets/albumart/pink floyd - wish you were here.jpg" },
             { "artist": "Styx", "album": "Styx I", "cover": "./assets/albumart/styx - styx i.webp" },
             { "artist": "Billy Joel", "album": "Storm Front", "cover": "./assets/albumart/billy joel - storm front.webp" }
@@ -336,7 +336,7 @@
             { "artist": "Genesis", "album": "Abacab", "cover": "./assets/albumart/genesis - abacab.webp" },
             { "artist": "Fleetwood Mac", "album": "Tango In The Night", "cover": "./assets/albumart/fleetwood mac - tango in the night.webp" },
             { "artist": "Yes", "album": "90125", "cover": "./assets/albumart/yes - 90125.jpg" },
-            { "artist": "Genesis", "album": "Wind & Wuthering", "cover": "./assets/albumart/genesis - wind & wuthering.webp" }
+            { "artist": "Genesis", "album": "Wind & Wuthering", "cover": "./assets/albumart/genesis - wind and wuthering.webp" }
         ]
     }
 ]

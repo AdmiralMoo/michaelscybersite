@@ -317,13 +317,16 @@ Album showcase
 .albumitem-descriptionbox
 {
     width: 70%;
+    height: 100%;
     display:flex;
     flex-direction: column;
 
-    margin-top: 0px;
+    margin: 4px;
     align-self: baseline;
 
     padding-left: 4px;
+
+    background: white;
 }
 
 .albumitem-duration

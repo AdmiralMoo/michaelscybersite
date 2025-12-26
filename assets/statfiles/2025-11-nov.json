@@ -1,9 +1,9 @@
 {
-    "label": "",
+    "label": "November 2025",
     "description": "",
     "startdate": "2025/11/1",
     "enddate": "2025/11/30",
-    "totaltime": 799595.6487981863,
+    "totaltime": 798915.315464853,
     "albums": {
         "Derek And The Dominos/Layla And Other Assorted Love Songs": {
             "albumname": "Layla And Other Assorted Love Songs",
@@ -689,11 +689,11 @@
             "listencount": 1,
             "time": 2660.0
         },
-        "Franz Schubert/Trout Quintet": {
-            "albumname": "Trout Quintet",
+        "Franz Schubert/Forellenquintett": {
+            "albumname": "Forellenquintett",
             "albumartist": "Franz Schubert",
             "listencount": 1,
-            "time": 2725.3333333333335
+            "time": 2045.0
         },
         "Dire Straits/Communique": {
             "albumname": "Communique",

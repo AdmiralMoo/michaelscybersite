@@ -72,20 +72,25 @@
 
     .localbutton    
     {
-        width: 100%;
-        flex-grow: 1;
+        flex: 1 1 fit-content;
+        min-width: fit-content;
 
-        text-wrap-mode:wrap;
-        text-wrap-style:pretty;
+        text-wrap-mode: wrap;
+        text-wrap-style: pretty;
         font-weight:bold;
         text-align: center;
         padding: 2px;
+
+        max-width: 100%;
+
+        background-color: #c0c0c0;
     }
 
     .navbar-row
     {
         display: flex;
         flex-direction: row;
+        flex-wrap: wrap;
         width: 100%;
         align-content: stretch;
         box-sizing: border-box;
@@ -104,17 +109,22 @@
             </div>
 
             <div class="navbar-row win98border">
-                <div class="navbutton outsideborder localbutton" onclick="LoadJSON('2025-01-jan.json')">January 2025</div>
-                <div class="navbutton outsideborder localbutton" onclick="LoadJSON('2025-02-feb.json')">February 2025</div>
-                <div class="navbutton outsideborder localbutton" onclick="LoadJSON('2025-03-mar.json')">March 2025</div>
-                <div class="navbutton outsideborder localbutton" onclick="LoadJSON('2025-04-apr.json')">April 2025</div>
-                <div class="navbutton outsideborder localbutton" onclick="LoadJSON('2025-05-may.json')">May 2025</div>
-                <div class="navbutton outsideborder localbutton" onclick="LoadJSON('2025-06-jun.json')">June 2025</div>
-                <div class="navbutton outsideborder localbutton" onclick="LoadJSON('2025-07-jul.json')">July 2025</div>
-                <div class="navbutton outsideborder localbutton" onclick="LoadJSON('2025-08-aug.json')">August 2025</div>
-                <div class="navbutton outsideborder localbutton" onclick="LoadJSON('2025-09-sep.json')">September 2025</div>
-                <div class="navbutton outsideborder localbutton" onclick="LoadJSON('2025-10-oct.json')">October 2025</div>
-                <div class="navbutton outsideborder localbutton" onclick="LoadJSON('2025-11-nov.json')">November 2025</div>
+                <div class="localbutton outsideborder navbutton" onclick="LoadJSON('2025-01-jan.json')">Top Albums of 2025</div>
+            </div>
+
+            <div class="navbar-row win98border">
+                <div class="localbutton outsideborder navbutton" onclick="LoadJSON('2025-01-jan.json')">January 2025</div>
+                <div class="localbutton outsideborder navbutton" onclick="LoadJSON('2025-02-feb.json')">February 2025</div>
+                <div class="localbutton outsideborder navbutton" onclick="LoadJSON('2025-03-mar.json')">March 2025</div>
+                <div class="localbutton outsideborder navbutton" onclick="LoadJSON('2025-04-apr.json')">April 2025</div>
+                <div class="localbutton outsideborder navbutton" onclick="LoadJSON('2025-05-may.json')">May 2025</div>
+                <div class="localbutton outsideborder navbutton" onclick="LoadJSON('2025-06-jun.json')">June 2025</div>
+                <div class="localbutton outsideborder navbutton" onclick="LoadJSON('2025-07-jul.json')">July 2025</div>
+                <div class="localbutton outsideborder navbutton" onclick="LoadJSON('2025-08-aug.json')">August 2025</div>
+                <div class="localbutton outsideborder navbutton" onclick="LoadJSON('2025-09-sep.json')">September 2025</div>
+                <div class="localbutton outsideborder navbutton" onclick="LoadJSON('2025-10-oct.json')">October 2025</div>
+                <div class="localbutton outsideborder navbutton" onclick="LoadJSON('2025-11-nov.json')">November 2025</div>
+                <div class="localbutton outsideborder navbutton" onclick="LoadJSON('2025-11-nov.json')">December 2025</div>
             </div>
 
             <!--Chart Data-->

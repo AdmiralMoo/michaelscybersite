@@ -160,6 +160,7 @@
       "Mets Cancel Elmo Bobblehead Night Amid PED Scandal",
       "New York Mets: Elmo Apologizes for Profanity-Laced Postgame Interview",
       "New York Mets Miss Out On Postseason After $1B Offseason, Elmo Signing",
+      "Pete Alonso, Brando Nimmo—now Elmo? New York Mets Nightmare Offseason Continues",
       "\"E—Elmo says he was taken out of context!\": Elmo responds to 'racist', 'abhorrent' rant caught on video",
       "Expert: If the United Nations didn’t exist, it would have to be created",
       "Psychic Hit By Car Says He \"Never Saw It Coming\""
@@ -178,7 +179,7 @@
       "WANTED: Someone to describe the clouds to me as I drive",
       "WANTED: Passenger who moo's at cows as we drive through farmland",
       "WANTED: Desk lamp that understands the burden of illumination",
-      "WANTED: Someone who doesn't hate Emma Woodhouse",
+      "WANTED: Someone who doesn't hate Emma Woodhouse for interview",
       "WANTED: Brick. For The Wall. Just one more",
       "WANTED: Chair that understands the weight of being sat on",
       "WANTED: Reasonable explanation for anything. Will settle for vibes",
@@ -223,6 +224,8 @@
       "SEEKING: Roommate who doesn’t ask where the money comes from",
       "SEEKING: Someone who can explain what just happened",
       "SEEKING: Applicants with zero red flags and no personality",
+      "SEEKING: Modernist Architect",
+      "SEEKING: Fun Facts",
       "HIRING: Archivist for all the things I never said",
       "HIRING: One man band. Must play Led Zeppelin, Sabrina Carpenter, Richard Strauss",
       "HIRING: Librarian for unsorted memories",
@@ -242,7 +245,7 @@
       "HIRING: Historian to make us look good in retrospect",
       "HIRING: Ethics officer who knows how to wink subtly",
       "HIRING: Candidate with 10+ years experience in 3-year-old field",
-      "HIRING: Male actor to interrupt town hall meetings",
+      "HIRING: Male actor to interrupt town hall meetings. Need large, muscular, heavy Austrian/German accent",
       "HIRING: Actor with rabbit costume to scare attendees at open house",
       "FOR SALE: Very large, annotated map of Ringworld",
       "FOR SALE: Scapegoat, lightly used (thrown under bus only once",
@@ -383,6 +386,8 @@
       "ChatGPT",
       "Microsoft Copilot",
       "Microsoft Clippy",
+      "AI",
+      "A Lady",
 
       "Will Wright",
       "Guido Van Rossum",
@@ -415,6 +420,15 @@
       "Fyodor Dostoevsky",
       "Aleksandr Solzhenitsyn",
       "Owen Wister",
+      "Charlotte Brontë",
+      "Ann Brontë",
+      "Emily Brontë",
+      "Frances Burney",
+      "Ayn Rand",
+
+      "Henry Chinaski",
+      "Charles Foster Kane",
+      "Gail Wynand",
       
       "Carl Jung",
       "Friedrich Nietzsche",
@@ -443,7 +457,8 @@
       "David Jon Gilmour",
       "George Roger Waters",
       "Richard William Wright",
-      "Nicholas Berkeley Mason"
+      "Nicholas Berkeley Mason",
+      "Roger Keith Barrett"
     ],
     "bylines":[
       "By ",
@@ -465,6 +480,8 @@
       "Chiseled onto stone by ",
       "Overheard by ",
       "Typed angrily by ",
-      "Scribbled in crayon by "
+      "Scribbled in crayon by ",
+      "Disputedly by ",
+      "Written out of spite by "
     ]
   }

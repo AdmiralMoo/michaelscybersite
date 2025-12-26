@@ -38,7 +38,7 @@ ________________________________________________________________________________
 | #30  | x2  | Guns N Roses/Appetite For Destruction                                                        | 107 Minutes and 37 Seconds  |
 | #31  | x2  | Stone Temple Pilots/Purple                                                                   | 93 Minutes and 59 Seconds   |
 | #32  | x2  | Various Artists/The Terminator Original Soundtrack                                           | 71 Minutes and 16 Seconds   |
-| #33  | x2  | Grateful Dead/In The Dark                                                                    | 81 Minutes and 14 Seconds   |  
+| #33  | x2  | Grateful Dead/In The Dark                                                                    | 81 Minutes and 14 Seconds   |
 | #34  | x2  | Bush/Razorblade Suitcase                                                                     | 123 Minutes and 19 Seconds  |
 | #35  | x2  | Genesis/Invisible Touch                                                                      | 91 Minutes and 25 Seconds   |
 | #36  | x2  | Rush/Hold Your Fire                                                                          | 101 Minutes and 1 Seconds   |
@@ -57,7 +57,7 @@ ________________________________________________________________________________
 | #49  | x2  | Metallica/And Justice For All                                                                | 130 Minutes and 54 Seconds  |
 | #50  | x2  | Billy Joel/An Innocent Man                                                                   | 80 Minutes and 43 Seconds   |
 |------|-----|----------------------------------------------------------------------------------------------|-----------------------------|
-| #51  | x2  | Mother Love Bone/Shine                                                                       | 50 Minutes and 37 Seconds   |  
+| #51  | x2  | Mother Love Bone/Shine                                                                       | 50 Minutes and 37 Seconds   |
 | #52  | x2  | Phil Collins/Hello I Must Be Going                                                           | 91 Minutes and 33 Seconds   |
 | #53  | x2  | Alice In Chains/Black Gives Way To Blue                                                      | 108 Minutes and 35 Seconds  |
 | #54  | x2  | Alice In Chains/The Devil Put Dinosaurs Here                                                 | 134 Minutes and 44 Seconds  |
@@ -122,7 +122,7 @@ ________________________________________________________________________________
 | #112 | x1  | The Police/Ghost In The Machine                                                              | 41 Minutes and 9 Seconds    |
 | #113 | x1  | Janes Addiction/Nothings Shocking                                                            | 45 Minutes and 27 Seconds   |
 | #114 | x1  | Supertramp/Crime Of The Century                                                              | 44 Minutes and 20 Seconds   |
-| #115 | x1  | Franz Schubert/Trout Quintet                                                                 | 45 Minutes and 25 Seconds   |
+| #115 | x1  | Franz Schubert/Forellenquintett                                                              | 34 Minutes and 5 Seconds    |
 | #116 | x1  | Dire Straits/Communique                                                                      | 41 Minutes and 59 Seconds   |
 | #117 | x1  | Veruca Salt/American Thighs                                                                  | 52 Minutes and 28 Seconds   |
 | #118 | x1  | Babe Ruth/First Base                                                                         | 42 Minutes and 2 Seconds    |
@@ -130,9 +130,9 @@ ________________________________________________________________________________
 | #120 | x1  | The Sex Pistols/Never Mind The Bollocks                                                      | 38 Minutes and 48 Seconds   |
 | #121 | x1  | Bullet For My Valentine/The Poison                                                           | 53 Minutes and 40 Seconds   |
 |------|-----|----------------------------------------------------------------------------------------------|-----------------------------|
-|_________________________________________________________________________________________________________________________________________|  
+|_________________________________________________________________________________________________________________________________________|
 
 280 listens to albums in total
 
-799595 total seconds spent listening to music, equivalent to 13326 Minutes, 222 Hours or 9 Days. That is 2.47% of the year. That is 30.85% of a month.
+798915 total seconds spent listening to music, equivalent to 13315 Minutes, 221 Hours or 9 Days. That is 2.47% of the year. That is 30.82% of a month.
 Press Enter to continue...

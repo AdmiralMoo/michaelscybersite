@@ -140,7 +140,7 @@
           {
               "title": "Aus Der Neuen Welt",
               "artist": "Antonín Dvořák",
-              "cover": "./assets/albumart/antonin dvorak - symphonie no 9.jpg",
+              "cover": "./assets/albumart/antonin dvorak - aus der neuen welt.jpg",
               "description": "Some Test Text"
           },
           {
@@ -152,7 +152,7 @@
           {
               "title": "Peer Gynt Suites Nos. 1 & 2",
               "artist": "Edvard Grieg",
-              "cover": "./assets/albumart/edvard grieg - peer gynt suites 1 & 2.webp",
+              "cover": "./assets/albumart/edvard grieg - peer gynt suites nos 1 and 2.webp",
               "description": "Some Test Text"
           }
         ]
@@ -473,7 +473,7 @@
           {
             "title": "Sixteen Stone",
             "artist": "Bush",
-            "cover": "./assets/albumart/bush x - sixteen stone.jpg",
+            "cover": "./assets/albumart/bush - sixteen stone.jpg",
             "description": "Some Test Text"
           },
           {
@@ -587,7 +587,7 @@
           {
             "title": "Transit of Venus",
             "artist": "Three Days Grace",
-            "cover": "./assets/albumart/three days grace - the transit of venus.jpg",
+            "cover": "./assets/albumart/three days grace - transit of venus.jpg",
             "description": "Some Test Text"
           },
           {
@@ -714,7 +714,208 @@
           {
             "title": "Wind & Wuthering",
             "artist": "Genesis",
-            "cover": "./assets/albumart/genesis - wind & wuthering.webp",
+            "cover": "./assets/albumart/genesis - wind and wuthering.webp",
+            "description": "Some Test Text"
+          }
+        ]
+      },
+      {
+      "label": "Albums of The 2020's",
+      "background": "./assets/images/59376.webp",
+      "albums": 
+        [
+          {
+            "title": "Pressure Machine",
+            "artist": "The Killers",
+            "cover": "./assets/albumart/the killers - pressure machine.jpg",
+            "description": "Some Test Text"
+          },
+          {
+            "title": "Saviors",
+            "artist": "Green Day",
+            "cover": "./assets/albumart/green day - saviors.jpg",
+            "description": "Some Test Text"
+          },
+          {
+            "title": "Short n' Sweet",
+            "artist": "Sabrina Carpenter",
+            "cover": "./assets/albumart/sabrina carpenter - short n sweet.jpg",
+            "description": "Some Test Text"
+          }
+        ]
+      },
+      {
+      "label": "Albums of The 2010's",
+      "background": "./assets/images/59376.webp",
+      "albums": 
+        [
+          {
+            "title": "Revolution Radio",
+            "artist": "Green Day",
+            "cover": "./assets/albumart/green day - revolution radio.jpg",
+            "description": "Some Test Text"
+          },
+          {
+            "title": "Hesitation Marks",
+            "artist": "Nine Inch Nails",
+            "cover": "./assets/albumart/nine inch nails - hesitation marks.jpg",
+            "description": "Some Test Text"
+          },
+          {
+            "title": "After Laughter",
+            "artist": "Paramore",
+            "cover": "./assets/albumart/paramore - after laughter.jpg",
+            "description": "Some Test Text"
+          },
+          {
+            "title": "Three Days Grace",
+            "artist": "Outsider",
+            "cover": "./assets/albumart/three days grace - outsider.jpg",
+            "description": "Some Test Text"
+          },
+          {
+            "title": "The Devil Put Dinosaurs Here",
+            "artist": "Alice In Chains",
+            "cover": "./assets/albumart/alice in chains - the devil put dinosaurs here.jpg",
+            "description": "Some Test Text"
+          },
+          {
+            "title": "We Are Not Your Kind",
+            "artist": "Slipknot",
+            "cover": "./assets/albumart/slipknot - we are not your kind.jpg",
+            "description": "Some Test Text"
+          },
+          {
+            "title": "Phobia",
+            "artist": "Breaking Benjamin",
+            "cover": "./assets/albumart/breaking benjamin - phobia.jpg",
+            "description": "Some Test Text"
+          },
+          {
+            "title": "That's The Spirit",
+            "artist": "Bring Me The Horizon",
+            "cover": "./assets/albumart/bring me the horizon - thats the spirit.webp",
+            "description": "Some Test Text"
+          }
+        ]
+      },
+      {
+      "label": "Albums of The 2000's",
+      "background": "./assets/images/1113.webp",
+      "albums": 
+        [
+          {
+            "title": "Black Gives Way to Blue",
+            "artist": "Alice In Chains",
+            "cover": "./assets/albumart/alice in chains - black gives way to blue.jpg",
+            "description": "Some Test Text"
+          },
+          {
+            "title": "With Teeth",
+            "artist": "Nine Inch Nails",
+            "cover": "./assets/albumart/nine inch nails - with teeth.jpg",
+            "description": "Some Test Text"
+          },
+          {
+            "title": "21st Century Breakdown",
+            "artist": "Green Day",
+            "cover": "./assets/albumart/green day - 21st century breakdown.jpg",
+            "description": "Some Test Text"
+          },
+          {
+            "title": "Three Days Grace",
+            "artist": "One-X",
+            "cover": "./assets/albumart/three days grace - one x.jpg",
+            "description": "Some Test Text"
+          },
+          {
+            "title": "Phobia",
+            "artist": "Breaking Benjamin",
+            "cover": "./assets/albumart/breaking benjamin - phobia.jpg",
+            "description": "Some Test Text"
+          },
+          {
+            "title": "Half Hour of Power",
+            "artist": "Sum 41",
+            "cover": "./assets/albumart/sum 41 - half hour of power.jpg",
+            "description": "Some Test Text"
+          },
+          {
+            "title": "Chuck",
+            "artist": "Sum 41",
+            "cover": "./assets/albumart/sum 41 - chuck.jpg",
+            "description": "Some Test Text"
+          },
+          {
+            "title": "Hedley",
+            "artist": "Hedley",
+            "cover": "./assets/albumart/hedley - hedley.jpg",
+            "description": "Some Test Text"
+          },
+          {
+            "title": "American Idiot",
+            "artist": "Green Day",
+            "cover": "./assets/albumart/green day - american idiot.webp",
+            "description": "Some Test Text"
+          },
+          {
+            "title": "The Amalgamut",
+            "artist": "Filter",
+            "cover": "./assets/albumart/filter - the amalgamut.jpg",
+            "description": "Some Test Text"
+          },
+          {
+            "title": "Audioslave",
+            "artist": "Audioslave",
+            "cover": "./assets/albumart/audioslave - audioslave.jpg",
+            "description": "Some Test Text"
+          },
+          {
+            "title": "Move Along",
+            "artist": "The All-American Rejects",
+            "cover": "./assets/albumart/the all american rejects - move along.jpg",
+            "description": "Some Test Text"
+          },
+          {
+            "title": "American Hi-Fi",
+            "artist": "American Hi-Fi",
+            "cover": "./assets/albumart/american hi-fi - american hi-fi.jpg",
+            "description": "Some Test Text"
+          },
+          {
+            "title": "Weathered",
+            "artist": "Creed",
+            "cover": "./assets/albumart/creed - weathered.jpg",
+            "description": "Some Test Text"
+          },
+          {
+            "title": "Franz Ferdinand",
+            "artist": "Franz Ferdinand",
+            "cover": "./assets/albumart/franz ferdinand - franz ferdinand.jpg",
+            "description": "Some Test Text"
+          },
+          {
+            "title": "Decemberunderground",
+            "artist": "AFI",
+            "cover": "./assets/albumart/afi - decemberunderground.jpg",
+            "description": "Some Test Text"
+          },
+          {
+            "title": "Hot Fuss",
+            "artist": "The Killers",
+            "cover": "./assets/albumart/the killers - hot fuss.jpg",
+            "description": "Some Test Text"
+          },
+          {
+            "title": "Three Cheers For Sweet Revenge",
+            "artist": "My Chemical Romance",
+            "cover": "./assets/albumart/my chemical romance - three cheers for sweet revenge.webp",
+            "description": "Some Test Text"
+          },
+          {
+            "title": "Brand New Eyes",
+            "artist": "Paramore",
+            "cover": "./assets/albumart/paramore - brand new eyes.jpg",
             "description": "Some Test Text"
           }
         ]
@@ -853,7 +1054,7 @@
           {
             "title": "Sixteen Stone",
             "artist": "Bush",
-            "cover": "./assets/albumart/bush x - sixteen stone.jpg",
+            "cover": "./assets/albumart/bush - sixteen stone.jpg",
             "description": "Some Test Text"
           },
           {
@@ -997,8 +1198,8 @@
           },
           {
             "title": "In The Dark ",
-            "artist": "Grateful Dead",
-            "cover": "./assets/albumart/grateful dead - in the dark.png",
+            "artist": "The Grateful Dead",
+            "cover": "./assets/albumart/the grateful dead - in the dark.png",
             "description": "Some Test Text"
           },
           {

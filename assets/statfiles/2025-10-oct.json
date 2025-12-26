@@ -1,623 +1,741 @@
 {
-    "label": "",
+    "label": "October 2025",
     "description": "",
     "startdate": "2025/10/1",
     "enddate": "2025/10/31",
+    "totaltime": 888743.7712471661,
     "albums": {
         "Fleetwood Mac/Tango In The Night": {
             "albumname": "Tango In The Night",
             "albumartist": "Fleetwood Mac",
-            "listencount": 18
+            "listencount": 18,
+            "time": 48161.28
         },
-        "Grateful Dead/In The Dark": {
+        "The Grateful Dead/In The Dark": {
             "albumname": "In The Dark",
-            "albumartist": "Grateful Dead",
-            "listencount": 18
-        },
-        "Pink Floyd/Wish You Were Here": {
-            "albumname": "Wish You Were Here",
-            "albumartist": "Pink Floyd",
-            "listencount": 10
-        },
-        "Yes/90125": {
-            "albumname": "90125",
-            "albumartist": "Yes",
-            "listencount": 9
-        },
-        "Styx/Styx I": {
-            "albumname": "Styx I",
-            "albumartist": "Styx",
-            "listencount": 9
-        },
-        "Billy Joel/Storm Front": {
-            "albumname": "Storm Front",
-            "albumartist": "Billy Joel",
-            "listencount": 9
-        },
-        "Phil Collins/No Jacket Required": {
-            "albumname": "No Jacket Required",
-            "albumartist": "Phil Collins",
-            "listencount": 8
-        },
-        "Fleetwood Mac/Rumours": {
-            "albumname": "Rumours",
-            "albumartist": "Fleetwood Mac",
-            "listencount": 7
-        },
-        "The Killers/Pressure Machine": {
-            "albumname": "Pressure Machine",
-            "albumartist": "The Killers",
-            "listencount": 6
-        },
-        "Supertramp/Supertramp": {
-            "albumname": "Supertramp",
-            "albumartist": "Supertramp",
-            "listencount": 6
-        },
-        "Supertramp/Crime Of The Century": {
-            "albumname": "Crime Of The Century",
-            "albumartist": "Supertramp",
-            "listencount": 6
-        },
-        "Derek And The Dominos/Layla And Other Assorted Love Songs": {
-            "albumname": "Layla And Other Assorted Love Songs",
-            "albumartist": "Derek And The Dominos",
-            "listencount": 6
-        },
-        "Grateful Dead/Workingmans Dead": {
-            "albumname": "Workingmans Dead",
-            "albumartist": "Grateful Dead",
-            "listencount": 6
-        },
-        "Genesis/Wind And Wuthering": {
-            "albumname": "Wind And Wuthering",
-            "albumartist": "Genesis",
-            "listencount": 6
-        },
-        "Pink Floyd/The Dark Side Of The Moon": {
-            "albumname": "The Dark Side Of The Moon",
-            "albumartist": "Pink Floyd",
-            "listencount": 5
+            "albumartist": "The Grateful Dead",
+            "listencount": 18,
+            "time": 43866.0
         },
         "The Grateful Dead/Workingmans Dead": {
             "albumname": "Workingmans Dead",
             "albumartist": "The Grateful Dead",
-            "listencount": 5
+            "listencount": 11,
+            "time": 23678.16
+        },
+        "Pink Floyd/Wish You Were Here": {
+            "albumname": "Wish You Were Here",
+            "albumartist": "Pink Floyd",
+            "listencount": 10,
+            "time": 26544.0
+        },
+        "Yes/90125": {
+            "albumname": "90125",
+            "albumartist": "Yes",
+            "listencount": 9,
+            "time": 24162.0
+        },
+        "Styx/Styx I": {
+            "albumname": "Styx I",
+            "albumartist": "Styx",
+            "listencount": 9,
+            "time": 17604.0
+        },
+        "Billy Joel/Storm Front": {
+            "albumname": "Storm Front",
+            "albumartist": "Billy Joel",
+            "listencount": 9,
+            "time": 24281.64
+        },
+        "Phil Collins/No Jacket Required": {
+            "albumname": "No Jacket Required",
+            "albumartist": "Phil Collins",
+            "listencount": 8,
+            "time": 24361.81333333333
+        },
+        "Fleetwood Mac/Rumours": {
+            "albumname": "Rumours",
+            "albumartist": "Fleetwood Mac",
+            "listencount": 7,
+            "time": 16786.933333333334
+        },
+        "The Killers/Pressure Machine": {
+            "albumname": "Pressure Machine",
+            "albumartist": "The Killers",
+            "listencount": 6,
+            "time": 18492.64
+        },
+        "Supertramp/Supertramp": {
+            "albumname": "Supertramp",
+            "albumartist": "Supertramp",
+            "listencount": 6,
+            "time": 17221.600000000002
+        },
+        "Supertramp/Crime Of The Century": {
+            "albumname": "Crime Of The Century",
+            "albumartist": "Supertramp",
+            "listencount": 6,
+            "time": 15960.0
+        },
+        "Derek And The Dominos/Layla And Other Assorted Love Songs": {
+            "albumname": "Layla And Other Assorted Love Songs",
+            "albumartist": "Derek And The Dominos",
+            "listencount": 6,
+            "time": 27743.760000000002
+        },
+        "Genesis/Wind And Wuthering": {
+            "albumname": "Wind And Wuthering",
+            "albumartist": "Genesis",
+            "listencount": 6,
+            "time": 18329.36
+        },
+        "Pink Floyd/The Dark Side Of The Moon": {
+            "albumname": "The Dark Side Of The Moon",
+            "albumartist": "Pink Floyd",
+            "listencount": 5,
+            "time": 12886.333333333334
         },
         "Pink Floyd/Animals": {
             "albumname": "Animals",
             "albumartist": "Pink Floyd",
-            "listencount": 5
+            "listencount": 5,
+            "time": 12539.0
         },
         "Genesis/Invisible Touch": {
             "albumname": "Invisible Touch",
             "albumartist": "Genesis",
-            "listencount": 5
+            "listencount": 5,
+            "time": 13714.333333333334
         },
         "Genesis/Selling England By The Pound": {
             "albumname": "Selling England By The Pound",
             "albumartist": "Genesis",
-            "listencount": 4
+            "listencount": 4,
+            "time": 12913.6
         },
         "Genesis/Abacab": {
             "albumname": "Abacab",
             "albumartist": "Genesis",
-            "listencount": 4
+            "listencount": 4,
+            "time": 11205.6
         },
         "Rem/Automatic For The People": {
             "albumname": "Automatic For The People",
             "albumartist": "Rem",
-            "listencount": 4
+            "listencount": 4,
+            "time": 11728.533333333333
         },
         "Led Zeppelin/Houses Of The Holy": {
             "albumname": "Houses Of The Holy",
             "albumartist": "Led Zeppelin",
-            "listencount": 4
+            "listencount": 4,
+            "time": 9814.133333333333
         },
         "Creedence Clearwater Revival/Willy And The Poor Boys": {
             "albumname": "Willy And The Poor Boys",
             "albumartist": "Creedence Clearwater Revival",
-            "listencount": 4
+            "listencount": 4,
+            "time": 8408.874376417234
         },
         "Yes/Big Generator": {
             "albumname": "Big Generator",
             "albumartist": "Yes",
-            "listencount": 4
+            "listencount": 4,
+            "time": 10477.706666666667
         },
         "White Lion/Pride": {
             "albumname": "Pride",
             "albumartist": "White Lion",
-            "listencount": 4
+            "listencount": 4,
+            "time": 0.0
         },
         "Nine Inch Nails/Pretty Hate Machine": {
             "albumname": "Pretty Hate Machine",
             "albumartist": "Nine Inch Nails",
-            "listencount": 4
+            "listencount": 4,
+            "time": 11708.0
         },
         "Pearl Jam/Ten": {
             "albumname": "Ten",
             "albumartist": "Pearl Jam",
-            "listencount": 3
+            "listencount": 3,
+            "time": 9613.8
         },
         "Phil Collins/Hello I Must Be Going": {
             "albumname": "Hello I Must Be Going",
             "albumartist": "Phil Collins",
-            "listencount": 3
+            "listencount": 3,
+            "time": 8240.0
         },
         "Three Days Grace/Human": {
             "albumname": "Human",
             "albumartist": "Three Days Grace",
-            "listencount": 3
+            "listencount": 3,
+            "time": 7123.68
         },
         "Nine Inch Nails/With Teeth": {
             "albumname": "With Teeth",
             "albumartist": "Nine Inch Nails",
-            "listencount": 3
+            "listencount": 3,
+            "time": 10098.04
         },
         "Lou Reed/Transformer": {
             "albumname": "Transformer",
             "albumartist": "Lou Reed",
-            "listencount": 3
+            "listencount": 3,
+            "time": 6679.92
         },
         "Creed/Human Clay": {
             "albumname": "Human Clay",
             "albumartist": "Creed",
-            "listencount": 3
+            "listencount": 3,
+            "time": 10883.400000000001
         },
         "Rush/Hold Your Fire": {
             "albumname": "Hold Your Fire",
             "albumartist": "Rush",
-            "listencount": 3
+            "listencount": 3,
+            "time": 9092.2
         },
         "Billy Joel/52Nd Street": {
             "albumname": "52Nd Street",
             "albumartist": "Billy Joel",
-            "listencount": 3
+            "listencount": 3,
+            "time": 7285.0
         },
         "The Smashing Pumpkins/Pisces Iscariot": {
             "albumname": "Pisces Iscariot",
             "albumartist": "The Smashing Pumpkins",
-            "listencount": 3
+            "listencount": 3,
+            "time": 10341.68
         },
         "Crowded House/Crowded House": {
             "albumname": "Crowded House",
             "albumartist": "Crowded House",
-            "listencount": 3
+            "listencount": 3,
+            "time": 7023.08
         },
         "Dire Straits/Brothers In Arms": {
             "albumname": "Brothers In Arms",
             "albumartist": "Dire Straits",
-            "listencount": 3
+            "listencount": 3,
+            "time": 9945.48
         },
         "Creed/Weathered": {
             "albumname": "Weathered",
             "albumartist": "Creed",
-            "listencount": 3
+            "listencount": 3,
+            "time": 9015.880000000001
         },
         "Alice In Chains/Facelift": {
             "albumname": "Facelift",
             "albumartist": "Alice In Chains",
-            "listencount": 3
+            "listencount": 3,
+            "time": 9742.92
         },
         "Sabrina Carpenter/Short N Sweet": {
             "albumname": "Short N Sweet",
             "albumartist": "Sabrina Carpenter",
-            "listencount": 2
+            "listencount": 2,
+            "time": 4351.84
         },
         "The Tragically Hip/Day For Night": {
             "albumname": "Day For Night",
             "albumartist": "The Tragically Hip",
-            "listencount": 2
+            "listencount": 2,
+            "time": 7147.333333333333
         },
         "Pearl Jam/Vs": {
             "albumname": "Vs",
             "albumartist": "Pearl Jam",
-            "listencount": 2
+            "listencount": 2,
+            "time": 5553.92
         },
         "Pink Floyd/Meddle": {
             "albumname": "Meddle",
             "albumartist": "Pink Floyd",
-            "listencount": 2
+            "listencount": 2,
+            "time": 5608.586666666666
         },
         "King Crimson/In The Court Of The Crimson King": {
             "albumname": "In The Court Of The Crimson King",
             "albumartist": "King Crimson",
-            "listencount": 2
+            "listencount": 2,
+            "time": 5269.12
         },
         "Genesis/Genesis": {
             "albumname": "Genesis",
             "albumartist": "Genesis",
-            "listencount": 2
+            "listencount": 2,
+            "time": 5518.933333333333
         },
         "Rem/Lifes Rich Pageant": {
             "albumname": "Lifes Rich Pageant",
             "albumartist": "Rem",
-            "listencount": 2
+            "listencount": 2,
+            "time": 4619.866666666667
         },
         "Skin Yard/1000 Smiling Knuckles": {
             "albumname": "1000 Smiling Knuckles",
             "albumartist": "Skin Yard",
-            "listencount": 2
+            "listencount": 2,
+            "time": 4163.733333333334
         },
         "Nine Inch Nails/Hesitation Marks": {
             "albumname": "Hesitation Marks",
             "albumartist": "Nine Inch Nails",
-            "listencount": 2
+            "listencount": 2,
+            "time": 7434.453333333334
         },
         "Johann Strauss Ii/An Der Schonen Blauen Donau": {
             "albumname": "An Der Schonen Blauen Donau",
             "albumartist": "Johann Strauss Ii",
-            "listencount": 2
+            "listencount": 2,
+            "time": 6060.0
         },
         "Bryan Adams/Reckless": {
             "albumname": "Reckless",
             "albumartist": "Bryan Adams",
-            "listencount": 2
+            "listencount": 2,
+            "time": 4559.866666666667
         },
         "Janes Addiction/Nothings Shocking": {
             "albumname": "Nothings Shocking",
             "albumartist": "Janes Addiction",
-            "listencount": 2
+            "listencount": 2,
+            "time": 5454.0
         },
         "Green Day/Revolution Radio": {
             "albumname": "Revolution Radio",
             "albumartist": "Green Day",
-            "listencount": 2
+            "listencount": 2,
+            "time": 5356.8
         },
         "Pink Floyd/The Division Bell": {
             "albumname": "The Division Bell",
             "albumartist": "Pink Floyd",
-            "listencount": 2
+            "listencount": 2,
+            "time": 7982.0
         },
         "Led Zeppelin/Led Zeppelin": {
             "albumname": "Led Zeppelin",
             "albumartist": "Led Zeppelin",
-            "listencount": 2
+            "listencount": 2,
+            "time": 5380.1866666666665
         },
         "Bruce Springsteen/Born In The Usa": {
             "albumname": "Born In The Usa",
             "albumartist": "Bruce Springsteen",
-            "listencount": 2
+            "listencount": 2,
+            "time": 5627.733333333334
         },
         "Various Artists/Saturday Night Fever The Original Movie Sound Track": {
             "albumname": "Saturday Night Fever The Original Movie Sound Track",
             "albumartist": "Various Artists",
-            "listencount": 2
+            "listencount": 2,
+            "time": 9123.733333333334
         },
         "Nine Inch Nails/The Downward Spiral": {
             "albumname": "The Downward Spiral",
             "albumartist": "Nine Inch Nails",
-            "listencount": 2
+            "listencount": 2,
+            "time": 7817.5199999999995
         },
         "Led Zeppelin/Led Zeppelin Iv": {
             "albumname": "Led Zeppelin Iv",
             "albumartist": "Led Zeppelin",
-            "listencount": 2
+            "listencount": 2,
+            "time": 5113.92
         },
         "Three Days Grace/Outsider": {
             "albumname": "Outsider",
             "albumartist": "Three Days Grace",
-            "listencount": 2
+            "listencount": 2,
+            "time": 4731.253333333333
         },
         "Yes/Fragile": {
             "albumname": "Fragile",
             "albumartist": "Yes",
-            "listencount": 2
+            "listencount": 2,
+            "time": 4940.32
         },
         "Rem/Up": {
             "albumname": "Up",
             "albumartist": "Rem",
-            "listencount": 2
+            "listencount": 2,
+            "time": 7743.866666666667
         },
         "Dire Straits/Communique": {
             "albumname": "Communique",
             "albumartist": "Dire Straits",
-            "listencount": 1
+            "listencount": 1,
+            "time": 2519.16
         },
         "Babe Ruth/First Base": {
             "albumname": "First Base",
             "albumartist": "Babe Ruth",
-            "listencount": 1
+            "listencount": 1,
+            "time": 2522.7333333333336
         },
         "Bruce Springsteen/Tunnel Of Love": {
             "albumname": "Tunnel Of Love",
             "albumartist": "Bruce Springsteen",
-            "listencount": 1
+            "listencount": 1,
+            "time": 2785.3333333333335
         },
         "Joy Division/Closer": {
             "albumname": "Closer",
             "albumartist": "Joy Division",
-            "listencount": 1
+            "listencount": 1,
+            "time": 2659.693333333333
         },
         "Alanis Morissette/Jagged Little Pill": {
             "albumname": "Jagged Little Pill",
             "albumartist": "Alanis Morissette",
-            "listencount": 1
+            "listencount": 1,
+            "time": 3450.0933333333332
         },
         "Van Morrison/Moondance": {
             "albumname": "Moondance",
             "albumartist": "Van Morrison",
-            "listencount": 1
+            "listencount": 1,
+            "time": 2354.4666666666667
         },
         "Genesis/We Cant Dance": {
             "albumname": "We Cant Dance",
             "albumartist": "Genesis",
-            "listencount": 1
+            "listencount": 1,
+            "time": 4295.7733333333335
         },
         "Meat Loaf/Bat Out Of Hell": {
             "albumname": "Bat Out Of Hell",
             "albumartist": "Meat Loaf",
-            "listencount": 1
+            "listencount": 1,
+            "time": 2795.96
         },
         "Teenage Fanclub/Bandwagonesque": {
             "albumname": "Bandwagonesque",
             "albumartist": "Teenage Fanclub",
-            "listencount": 1
+            "listencount": 1,
+            "time": 2574.96
         },
         "Duran Duran/Seven And The Ragged Tiger": {
             "albumname": "Seven And The Ragged Tiger",
             "albumartist": "Duran Duran",
-            "listencount": 1
+            "listencount": 1,
+            "time": 2256.0
         },
         "Blind Melon/Blind Melon": {
             "albumname": "Blind Melon",
             "albumartist": "Blind Melon",
-            "listencount": 1
+            "listencount": 1,
+            "time": 3324.0
         },
         "Hammerbox/Numb": {
             "albumname": "Numb",
             "albumartist": "Hammerbox",
-            "listencount": 1
+            "listencount": 1,
+            "time": 2525.16
         },
         "Van Halen/1984": {
             "albumname": "1984",
             "albumartist": "Van Halen",
-            "listencount": 1
+            "listencount": 1,
+            "time": 2002.4
         },
         "Mark Knopfler/All The Roadrunning": {
             "albumname": "All The Roadrunning",
             "albumartist": "Mark Knopfler",
-            "listencount": 1
+            "listencount": 1,
+            "time": 3033.2533333333336
         },
         "Van Halen/Van Halen": {
             "albumname": "Van Halen",
             "albumartist": "Van Halen",
-            "listencount": 1
+            "listencount": 1,
+            "time": 2132.2933333333335
         },
         "Survivor/Eye Of The Tiger": {
             "albumname": "Eye Of The Tiger",
             "albumartist": "Survivor",
-            "listencount": 1
+            "listencount": 1,
+            "time": 2291.0
         },
         "Alice In Chains/Alice In Chains": {
             "albumname": "Alice In Chains",
             "albumartist": "Alice In Chains",
-            "listencount": 1
+            "listencount": 1,
+            "time": 3893.746666666667
         },
         "Abba/Abba Gold": {
             "albumname": "Abba Gold",
             "albumartist": "Abba",
-            "listencount": 1
+            "listencount": 1,
+            "time": 3094.693333333333
         },
         "Guns N Roses/Appetite For Destruction": {
             "albumname": "Appetite For Destruction",
             "albumartist": "Guns N Roses",
-            "listencount": 1
+            "listencount": 1,
+            "time": 3228.8
         },
         "Mike Oldfield/Five Miles Out": {
             "albumname": "Five Miles Out",
             "albumartist": "Mike Oldfield",
-            "listencount": 1
+            "listencount": 1,
+            "time": 2996.0
         },
         "Pink Floyd/The Wall": {
             "albumname": "The Wall",
             "albumartist": "Pink Floyd",
-            "listencount": 1
+            "listencount": 1,
+            "time": 4886.266666666666
         },
         "Richard Strauss/Also Sprach Zarathustra": {
             "albumname": "Also Sprach Zarathustra",
             "albumartist": "Richard Strauss",
-            "listencount": 1
+            "listencount": 1,
+            "time": 2109.0
         },
         "Stone Temple Pilots/Core": {
             "albumname": "Core",
             "albumartist": "Stone Temple Pilots",
-            "listencount": 1
+            "listencount": 1,
+            "time": 3217.56
         },
         "Rush/Counterparts": {
             "albumname": "Counterparts",
             "albumartist": "Rush",
-            "listencount": 1
+            "listencount": 1,
+            "time": 3264.84
         },
         "Phil Collins/But Seriously": {
             "albumname": "But Seriously",
             "albumartist": "Phil Collins",
-            "listencount": 1
+            "listencount": 1,
+            "time": 3585.2
         },
         "Genesis/Duke": {
             "albumname": "Duke",
             "albumartist": "Genesis",
-            "listencount": 1
+            "listencount": 1,
+            "time": 3306.4
         },
         "Temple Of The Dog/Temple Of The Dog": {
             "albumname": "Temple Of The Dog",
             "albumartist": "Temple Of The Dog",
-            "listencount": 1
+            "listencount": 1,
+            "time": 3316.9333333333334
         },
         "Three Days Grace/Transit Of Venus": {
             "albumname": "Transit Of Venus",
             "albumartist": "Three Days Grace",
-            "listencount": 1
+            "listencount": 1,
+            "time": 2504.2666666666664
         },
         "The Police/Synchronicity": {
             "albumname": "Synchronicity",
             "albumartist": "The Police",
-            "listencount": 1
+            "listencount": 1,
+            "time": 2668.5066666666667
         },
         "The All American Rejects/Move Along": {
             "albumname": "Move Along",
             "albumartist": "The All American Rejects",
-            "listencount": 1
+            "listencount": 1,
+            "time": 2534.653333333333
         },
         "John Cougar Mellencamp/Scarecrow": {
             "albumname": "Scarecrow",
             "albumartist": "John Cougar Mellencamp",
-            "listencount": 1
+            "listencount": 1,
+            "time": 2468.733333333333
         },
         "Marilyn Manson/Smells Like Children": {
             "albumname": "Smells Like Children",
             "albumartist": "Marilyn Manson",
-            "listencount": 1
+            "listencount": 1,
+            "time": 3291.693333333333
         },
         "Filter/The Amalgamut": {
             "albumname": "The Amalgamut",
             "albumartist": "Filter",
-            "listencount": 1
+            "listencount": 1,
+            "time": 3459.8
         },
         "The Clash/Black Market Clash": {
             "albumname": "Black Market Clash",
             "albumartist": "The Clash",
-            "listencount": 1
+            "listencount": 1,
+            "time": 2073.866666666667
         },
         "The Clash/The Clash": {
             "albumname": "The Clash",
             "albumartist": "The Clash",
-            "listencount": 1
+            "listencount": 1,
+            "time": 2613.3333333333335
         },
         "Supertramp/Breakfast In America": {
             "albumname": "Breakfast In America",
             "albumartist": "Supertramp",
-            "listencount": 1
+            "listencount": 1,
+            "time": 2760.733333333333
         },
         "Boston/Boston": {
             "albumname": "Boston",
             "albumartist": "Boston",
-            "listencount": 1
+            "listencount": 1,
+            "time": 2260.6266666666666
         },
         "King Crimson/Islands": {
             "albumname": "Islands",
             "albumartist": "King Crimson",
-            "listencount": 1
+            "listencount": 1,
+            "time": 2487.6933333333336
         },
         "Antonin Dvorak/Aus Der Neuen Welt": {
             "albumname": "Aus Der Neuen Welt",
             "albumartist": "Antonin Dvorak",
-            "listencount": 1
+            "listencount": 1,
+            "time": 2552.7599999999998
         },
         "Led Zeppelin/In Through The Out Door": {
             "albumname": "In Through The Out Door",
             "albumartist": "Led Zeppelin",
-            "listencount": 1
+            "listencount": 1,
+            "time": 2553.36
         },
         "Veruca Salt/Eight Arms To Hold You": {
             "albumname": "Eight Arms To Hold You",
             "albumartist": "Veruca Salt",
-            "listencount": 1
+            "listencount": 1,
+            "time": 3074.2933333333335
         },
         "Creedence Clearwater Revival/Pendulum": {
             "albumname": "Pendulum",
             "albumartist": "Creedence Clearwater Revival",
-            "listencount": 1
+            "listencount": 1,
+            "time": 2498.7333333333336
         },
         "Goo Goo Dolls/A Boy Named Goo": {
             "albumname": "A Boy Named Goo",
             "albumartist": "Goo Goo Dolls",
-            "listencount": 1
+            "listencount": 1,
+            "time": 2539.866666666667
         },
-        "Grateful Dead/American Beauty": {
+        "The Grateful Dead/American Beauty": {
             "albumname": "American Beauty",
-            "albumartist": "Grateful Dead",
-            "listencount": 1
+            "albumartist": "The Grateful Dead",
+            "listencount": 1,
+            "time": 2546.293333333333
         },
         "Green Day/Dookie": {
             "albumname": "Dookie",
             "albumartist": "Green Day",
-            "listencount": 1
+            "listencount": 1,
+            "time": 2386.0
         },
         "Green Day/American Idiot": {
             "albumname": "American Idiot",
             "albumartist": "Green Day",
-            "listencount": 1
+            "listencount": 1,
+            "time": 3909.4968707482994
         },
         "The Smashing Pumpkins/Siamese Dream": {
             "albumname": "Siamese Dream",
             "albumartist": "The Smashing Pumpkins",
-            "listencount": 1
+            "listencount": 1,
+            "time": 3735.8
         },
         "Soundgarden/Superunknown": {
             "albumname": "Superunknown",
             "albumartist": "Soundgarden",
-            "listencount": 1
+            "listencount": 1,
+            "time": 4212.933333333333
         },
         "The Smashing Pumpkins/Mellon Collie And The Infinite Sadness": {
             "albumname": "Mellon Collie And The Infinite Sadness",
             "albumartist": "The Smashing Pumpkins",
-            "listencount": 1
+            "listencount": 1,
+            "time": 7311.413333333333
         },
         "The All American Rejects/When The World Comes Down": {
             "albumname": "When The World Comes Down",
             "albumartist": "The All American Rejects",
-            "listencount": 1
+            "listencount": 1,
+            "time": 2735.213333333333
         },
         "Hater/Hater": {
             "albumname": "Hater",
             "albumartist": "Hater",
-            "listencount": 1
+            "listencount": 1,
+            "time": 1871.0933333333332
         },
         "Rush/Moving Pictures": {
             "albumname": "Moving Pictures",
             "albumartist": "Rush",
-            "listencount": 1
+            "listencount": 1,
+            "time": 2408.0666666666666
         },
         "Jethro Tull/Thick As A Brick": {
             "albumname": "Thick As A Brick",
             "albumartist": "Jethro Tull",
-            "listencount": 1
+            "listencount": 1,
+            "time": 2616.4666666666667
         },
         "Billy Joel/An Innocent Man": {
             "albumname": "An Innocent Man",
             "albumartist": "Billy Joel",
-            "listencount": 1
+            "listencount": 1,
+            "time": 2421.5333333333333
         },
         "Bryan Adams/Cuts Like A Knife": {
             "albumname": "Cuts Like A Knife",
             "albumartist": "Bryan Adams",
-            "listencount": 1
+            "listencount": 1,
+            "time": 0.0
         },
         "Various Artists/Top Gun Original Motion Picture Soundtrack": {
             "albumname": "Top Gun Original Motion Picture Soundtrack",
             "albumartist": "Various Artists",
-            "listencount": 1
+            "listencount": 1,
+            "time": 2324.36
         },
         "The Sex Pistols/Never Mind The Bollocks": {
             "albumname": "Never Mind The Bollocks",
             "albumartist": "The Sex Pistols",
-            "listencount": 1
+            "listencount": 1,
+            "time": 2328.3333333333335
         },
         "Various Artists/Transformers The Movie Original Motion Picture Soundtrack": {
             "albumname": "Transformers The Movie Original Motion Picture Soundtrack",
             "albumartist": "Various Artists",
-            "listencount": 1
+            "listencount": 1,
+            "time": 2271.0533333333333
         },
         "Alice In Chains/Jar Of Flies": {
             "albumname": "Jar Of Flies",
             "albumartist": "Alice In Chains",
-            "listencount": 1
+            "listencount": 1,
+            "time": 1851.8
         },
         "The Clash/London Calling": {
             "albumname": "London Calling",
             "albumartist": "The Clash",
-            "listencount": 1
+            "listencount": 1,
+            "time": 3907.4266666666667
         },
         "Nine Inch Nails/Broken": {
             "albumname": "Broken",
             "albumartist": "Nine Inch Nails",
-            "listencount": 1
+            "listencount": 1,
+            "time": 1896.2266666666667
         },
         "Prince And The Revolution/Purple Rain": {
             "albumname": "Purple Rain",
             "albumartist": "Prince And The Revolution",
-            "listencount": 1
+            "listencount": 1,
+            "time": 2632.0666666666666
         }
     }
 }

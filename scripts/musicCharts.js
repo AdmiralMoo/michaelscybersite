@@ -39,10 +39,19 @@ function buildChartTable(statData)
         {
             finalName = String(fullName + ".webp");
         }
-        else
+        else if (fileExists("./assets/albumart/" + fullName + ".jpg"))
         {
             finalName = String(fullName + ".jpg");
         }
+        else if (fileExists("./assets/albumart/" + fullName + ".jpeg"))
+        {
+            finalName = String(fullName + ".jpg");
+        }
+        else
+        {
+            finalName = String("cd_tray.jpg");
+        }
+        
 
         if (currentIndex == 6)
         {
