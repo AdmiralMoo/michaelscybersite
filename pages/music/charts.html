@@ -95,12 +95,45 @@
         align-content: stretch;
         box-sizing: border-box;
     }
+
+    .albumStatBox
+    {
+        width: max-content;
+    }
+
+    .resizableStatBox
+    {
+        display: flex;
+        flex-direction: row;
+        gap: 12px;
+    }
+
+    @media(max-width:600px)
+    {
+        .resizableStatBox
+        {
+            flex-direction: column;
+        }
+
+        .number-card
+        {
+            aspect-ratio: unset;
+        }
+
+        .number-card h3
+        {
+            padding: 2px;
+        }
+    }
 </style>
 
 
 <body>
     <main>
         <div class="maincontent-centred" style="min-height:60vh;">
+            <div class="mobile-only" style="color:red; font-family: Arial, Helvetica, sans-serif; font-weight: bold; background-color: yellow;">
+                <p>This page isn't ideal on mobile; check it out on a computer for the real deal!</p>
+            </div>
             <!--The Charts-->
             <div id="charts"></div>
             <div class="header-one-box outsideborder">
@@ -109,7 +142,7 @@
             </div>
 
             <div class="navbar-row win98border">
-                <div class="localbutton outsideborder navbutton" onclick="LoadJSON('2025-01-jan.json')">Top Albums of 2025</div>
+                <div class="localbutton outsideborder navbutton" onclick="LoadJSON('2025-all.json')">Top Albums of 2025</div>
             </div>
 
             <div class="navbar-row win98border">
@@ -124,7 +157,7 @@
                 <div class="localbutton outsideborder navbutton" onclick="LoadJSON('2025-09-sep.json')">September 2025</div>
                 <div class="localbutton outsideborder navbutton" onclick="LoadJSON('2025-10-oct.json')">October 2025</div>
                 <div class="localbutton outsideborder navbutton" onclick="LoadJSON('2025-11-nov.json')">November 2025</div>
-                <div class="localbutton outsideborder navbutton" onclick="LoadJSON('2025-11-nov.json')">December 2025</div>
+                <div class="localbutton outsideborder navbutton" onclick="LoadJSON('2025-12-dec.json')">December 2025</div>
             </div>
 
             <!--Chart Data-->

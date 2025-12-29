@@ -112,7 +112,8 @@ function getMostListenedAlbum()
         const artist = album.albumartist;
         const listens = album.listencount;
 
-        if (!artistCounts[artist]) artistCounts[artist] = 0;
+        if (!artistCounts[artist]) 
+            artistCounts[artist] = 0;
             artistCounts[artist] += listens;
     }
 
@@ -122,6 +123,68 @@ function getMostListenedAlbum()
     let topArtists = sortedArtists.slice(0, topN);
 
     return topArtists;
+}
+
+function getQuantifiedListeningStats()
+{
+    let returnData = [];
+    
+    let uniqueAlbumsCount = 0;
+    let uniqueArtistsCount = 0;
+    let totalListensCount = 0;
+    let totalListeningTime = 0;
+    let averageListensPerDay = 0;
+    let averageAlbumLength = 0;
+
+    let uniqueArtists = [];
+    let uniqueAlbums = [];
+    let albumLengths = 0;
+    
+    let artistTimes = {};
+    for (let key in statData.albums)
+    {
+        const album = statData.albums[key];
+        const artist = album.albumartist;
+
+        //Add unqiue artists
+        if (!uniqueArtists.includes(artist))
+        {
+            uniqueArtists.push(artist);
+        }
+
+        //Add unique albums
+        if (!uniqueAlbums.includes(album))
+        {
+            uniqueAlbums.push(album);
+        }
+        
+        //Get artist times
+        if (!artistTimes[artist]) 
+        {
+            artistTimes[artist] = 0;
+        }
+        
+        artistTimes[artist] += album.time;
+
+        totalListensCount += (1 * album.listencount);
+
+        albumLengths += (album.time / album.listencount);
+        totalListeningTime += album.time;
+    }
+
+    artistTimesFormatted = [];
+    for (const [key, value] of Object.entries(artistTimes)) {
+        artistTimesFormatted[key] = (value / totalListeningTime) * 100;
+    }
+    let artistTimesSorted = Object.entries(artistTimesFormatted).sort((a, b) => b[1] - a[1]);
+
+    uniqueAlbumsCount = uniqueAlbums.length;
+    uniqueArtistsCount = uniqueArtists.length;
+    averageAlbumLength = albumLengths / totalListensCount;
+
+    returnData = [uniqueAlbumsCount, uniqueArtistsCount, averageAlbumLength, totalListeningTime, totalListensCount, artistTimesSorted.slice(0,10), artistTimesSorted.slice(-10).reverse()];
+
+    return returnData;
 }
 
 function LoadJSON(file)
@@ -139,16 +202,33 @@ function LoadJSON(file)
         let statLabel = chartTableData["label"];
         let statDescription = chartTableData["description"];
 
+        //Most Listened Albums Data
         let mostListenedData = getMostListenedAlbum(statData);
 
-        let mostListenedHTML = `<b>Top Artists This Month:</b><br>`;
+        let mostListenedHTML = `<div class="albumStatBox"><h4>Top Artists:</h4>`;
         mostListenedHTML += ``;
         for (let i = 0; i < 10; i++) {
             mostListenedHTML += `
             <span><b>#${i + 1} : </b>${mostListenedData[i][0]} <i>(${mostListenedData[i][1]} Listens</i>)</span><br>
             `;
         }
+
+        mostListenedHTML += `</div>`;
         
+        //Album Listening Stats Data
+        let listeningTimeDataHTML = `<div class="albumStatBox"><h4>Listening Stats:</h4>`;
+        let listeningStatData = getQuantifiedListeningStats();
+
+        listeningTimeDataHTML += `
+            Total Listening Time (minutes): ${Math.floor(listeningStatData[3] / 60).toLocaleString()} <br>
+            Total Listens: ${listeningStatData[4]} <br>
+            Total Unique Albums: ${listeningStatData[0]} <br>
+            Total Artists: ${listeningStatData[1]} <br>
+            Top Artist By Time: ${listeningStatData[5][0][0]}, ${listeningStatData[5][0][1].toLocaleString(undefined, { maximumFractionDigits: 1})}% <br>
+        `;
+
+        listeningTimeDataHTML += `</div>`;
+
         TestStyle.innerHTML += newInnerHTML;
 
         //Get the html-thing that these stats go in
@@ -161,7 +241,10 @@ function LoadJSON(file)
             <div class="box-container insideborder" style="width: 100%; padding:8px;">
                 <h2>${statLabel}</h2>
                 <p>${statDescription}</p>
-                ${mostListenedHTML}
+                <div class="resizableStatBox">
+                    ${mostListenedHTML}
+                    ${listeningTimeDataHTML}
+                </div
             </div>
         `;
 

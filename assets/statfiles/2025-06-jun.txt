@@ -26,6 +26,7 @@ ________________________________________________________________________________
 | #19  | x4  | Bryan Adams/Reckless                                                                         | 151 Minutes and 59 Seconds  |
 | #20  | x4  | Supertramp/Supertramp                                                                        | 191 Minutes and 21 Seconds  |
 | #21  | x4  | Led Zeppelin/Led Zeppelin Iv                                                                 | 179 Minutes and 20 Seconds  |
+| #21  | x4  | Led Zeppelin/Led Zeppelin Iv                                                                 | 170 Minutes and 27 Seconds  |
 | #22  | x4  | The Bangles/Greatest Hits                                                                    | 193 Minutes and 40 Seconds  |
 | #23  | x4  | Yes/90125                                                                                    | 178 Minutes and 58 Seconds  |
 | #24  | x3  | Ludwig Van Beethoven/Piano Sonata No 8                                                       | 60 Minutes and 18 Seconds   |
@@ -125,7 +126,7 @@ ________________________________________________________________________________
 | #116 | x1  | Dire Straits/Dire Straits                                                                    | 41 Minutes and 25 Seconds   |
 | #117 | x1  | Joy Division/Unknown Pleasures                                                               | 39 Minutes and 25 Seconds   |
 | #118 | x1  | Ludwig Van Beethoven/Symphony No 5                                                           | 33 Minutes and 31 Seconds   |
-| #119 | x1  | Antonin Dvorak/Symphony No 9                                                                 | 42 Minutes and 32 Seconds   |
+| #119 | x1  | Antonin Dvorak/Aus Der Neuen Welt                                                            | 42 Minutes and 32 Seconds   |
 | #120 | x1  | Green Day/Nimrod                                                                             | 49 Minutes and 9 Seconds    |
 | #121 | x1  | Yes/Fragile                                                                                  | 41 Minutes and 10 Seconds   |
 |------|-----|----------------------------------------------------------------------------------------------|-----------------------------|

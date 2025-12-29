@@ -43,7 +43,7 @@ ________________________________________________________________________________
 | #34  | x2  | Pink Floyd/The Division Bell                                                                 | 133 Minutes and 2 Seconds   |
 | #35  | x2  | King Crimson/Islands                                                                         | 82 Minutes and 55 Seconds   |
 | #36  | x2  | Led Zeppelin/In Through The Out Door                                                         | 85 Minutes and 6 Seconds    |
-| #37  | x2  | Antonin Dvorak/Symphony No 9                                                                 | 85 Minutes and 5 Seconds    |
+| #37  | x2  | Antonin Dvorak/Aus Der Neuen Welt                                                            | 85 Minutes and 5 Seconds    |
 | #38  | x2  | Bryan Adams/Reckless                                                                         | 75 Minutes and 59 Seconds   |
 | #39  | x2  | Led Zeppelin/Houses Of The Holy                                                              | 81 Minutes and 47 Seconds   |
 | #40  | x2  | Pearl Jam/Vs                                                                                 | 92 Minutes and 33 Seconds   |
@@ -121,4 +121,4 @@ ________________________________________________________________________________
 311 listens to albums in total
 
 862627 total seconds spent listening to music, equivalent to 14377 Minutes, 239 Hours or 9 Days. That is 2.47% of the year. That is 33.28% of a month.
-Press Enter to continue...  
+Press Enter to continue...

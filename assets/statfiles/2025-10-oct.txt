@@ -135,5 +135,5 @@ ________________________________________________________________________________
 
 321 listens to albums in total
 
-888743 total seconds spent listening to music, equivalent to 14812 Minutes, 246 Hours or 10 Days. That is 2.74% of the year. That is 34.29% of a month.
-Press Enter to continue...
+888743 total seconds spent listening to music, equivalent to 14812 Minutes, 246 Hours or 10 Days. That is 2.74% of the year. That is 34.29% of a month.       
+Press Enter to continue...  

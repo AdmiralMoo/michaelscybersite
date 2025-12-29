@@ -29,6 +29,12 @@
             "listencount": 10,
             "time": 26846.666666666664
         },
+        "The Grateful Dead/In The Dark": {
+            "albumname": "In The Dark",
+            "albumartist": "The Grateful Dead",
+            "listencount": 8,
+            "time": 19496.0
+        },
         "Genesis/Wind And Wuthering": {
             "albumname": "Wind And Wuthering",
             "albumartist": "Genesis",
@@ -52,12 +58,6 @@
             "albumartist": "Phil Collins",
             "listencount": 6,
             "time": 18271.36
-        },
-        "The Grateful Dead/In The Dark": {
-            "albumname": "In The Dark",
-            "albumartist": "The Grateful Dead",
-            "listencount": 6,
-            "time": 14622.0
         },
         "John Cougar Mellencamp/Scarecrow": {
             "albumname": "Scarecrow",
@@ -196,12 +196,6 @@
             "albumartist": "Various Artists",
             "listencount": 2,
             "time": 4276.0
-        },
-        "Grateful Dead/In The Dark": {
-            "albumname": "In The Dark",
-            "albumartist": "Grateful Dead",
-            "listencount": 2,
-            "time": 4874.0
         },
         "Bush/Razorblade Suitcase": {
             "albumname": "Razorblade Suitcase",
