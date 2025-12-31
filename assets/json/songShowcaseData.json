@@ -537,5 +537,40 @@
         "album": "Layla & Other Assorted Love Songs",
         "art":"/assets/albumart/derek and the dominos - layla and other assorted love songs.webp",
         "duration":"7:05"
+    },
+    {
+        "name": "Fuel", 
+        "artist": "Metallica",
+        "album": "Reload",
+        "art":"/assets/albumart/metallica - reload.jpg",
+        "duration":"4:26"
+    },
+    {
+        "name": "Easy Lover", 
+        "artist": "Phil Collins & Phillip Bailey",
+        "album": "Hits",
+        "art":"/assets/albumart/phil collins - hits.webp",
+        "duration":"5:02"
+    },
+    {
+        "name": "Shout", 
+        "artist": "Tears For Fears",
+        "album": "Songs From The Big Chair",
+        "art":"/assets/albumart/tears for fears - songs from the big chair.webp",
+        "duration":"6:31"
+    },
+    {
+        "name": "Like It Or Not", 
+        "artist": "Genesis",
+        "album": "Abacab",
+        "art":"/assets/albumart/genesis - abacab.webp",
+        "duration":"4:53"
+    },
+    {
+        "name": "Volcano Girls", 
+        "artist": "Veruca Salt",
+        "album": "Eight Arms To Hold You",
+        "art":"/assets/albumart/veruca salt - eight arms to hold you.webp",
+        "duration":"3:19"
     }
 ]

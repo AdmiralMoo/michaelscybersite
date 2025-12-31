@@ -2,26 +2,26 @@
     "label": "December 2025",
     "description": "",
     "startdate": "2025/12/1",
-    "enddate": "2025/12/29",
-    "totaltime": 943886.6445124721,
+    "enddate": "2025/12/30",
+    "totaltime": 1014042.7511791385,
     "albums": {
         "Tears For Fears/Songs From The Big Chair": {
             "albumname": "Songs From The Big Chair",
             "albumartist": "Tears For Fears",
-            "listencount": 21,
-            "time": 52718.96
+            "listencount": 22,
+            "time": 55229.386666666665
+        },
+        "Zz Top/Afterburner": {
+            "albumname": "Afterburner",
+            "albumartist": "Zz Top",
+            "listencount": 14,
+            "time": 31575.04
         },
         "Derek And The Dominos/Layla And Other Assorted Love Songs": {
             "albumname": "Layla And Other Assorted Love Songs",
             "albumartist": "Derek And The Dominos",
             "listencount": 14,
             "time": 64735.44
-        },
-        "Zz Top/Afterburner": {
-            "albumname": "Afterburner",
-            "albumartist": "Zz Top",
-            "listencount": 13,
-            "time": 29319.68
         },
         "Johann Strauss Ii/An Der Schonen Blauen Donau": {
             "albumname": "An Der Schonen Blauen Donau",
@@ -41,17 +41,17 @@
             "listencount": 9,
             "time": 22224.0
         },
+        "Fleetwood Mac/Tango In The Night": {
+            "albumname": "Tango In The Night",
+            "albumartist": "Fleetwood Mac",
+            "listencount": 9,
+            "time": 24080.64
+        },
         "Yes/90125": {
             "albumname": "90125",
             "albumartist": "Yes",
             "listencount": 9,
             "time": 24162.0
-        },
-        "Fleetwood Mac/Tango In The Night": {
-            "albumname": "Tango In The Night",
-            "albumartist": "Fleetwood Mac",
-            "listencount": 8,
-            "time": 21405.013333333332
         },
         "Genesis/Invisible Touch": {
             "albumname": "Invisible Touch",
@@ -77,6 +77,12 @@
             "listencount": 6,
             "time": 6156.0
         },
+        "Pink Floyd/The Dark Side Of The Moon": {
+            "albumname": "The Dark Side Of The Moon",
+            "albumartist": "Pink Floyd",
+            "listencount": 6,
+            "time": 15463.600000000002
+        },
         "Phil Collins/No Jacket Required": {
             "albumname": "No Jacket Required",
             "albumartist": "Phil Collins",
@@ -89,17 +95,17 @@
             "listencount": 5,
             "time": 12141.666666666668
         },
+        "Fleetwood Mac/Rumours": {
+            "albumname": "Rumours",
+            "albumartist": "Fleetwood Mac",
+            "listencount": 5,
+            "time": 11990.666666666666
+        },
         "Pink Floyd/Wish You Were Here": {
             "albumname": "Wish You Were Here",
             "albumartist": "Pink Floyd",
             "listencount": 5,
             "time": 13272.0
-        },
-        "Pink Floyd/The Dark Side Of The Moon": {
-            "albumname": "The Dark Side Of The Moon",
-            "albumartist": "Pink Floyd",
-            "listencount": 5,
-            "time": 12886.333333333334
         },
         "Styx/Styx I": {
             "albumname": "Styx I",
@@ -113,17 +119,17 @@
             "listencount": 4,
             "time": 9748.0
         },
+        "Phil Collins/Hello I Must Be Going": {
+            "albumname": "Hello I Must Be Going",
+            "albumartist": "Phil Collins",
+            "listencount": 4,
+            "time": 10986.666666666666
+        },
         "Green Day/Saviors": {
             "albumname": "Saviors",
             "albumartist": "Green Day",
             "listencount": 4,
             "time": 11050.666666666666
-        },
-        "Fleetwood Mac/Rumours": {
-            "albumname": "Rumours",
-            "albumartist": "Fleetwood Mac",
-            "listencount": 4,
-            "time": 9592.533333333333
         },
         "Pink Floyd/Meddle": {
             "albumname": "Meddle",
@@ -131,11 +137,29 @@
             "listencount": 4,
             "time": 11217.173333333332
         },
+        "Genesis/Genesis": {
+            "albumname": "Genesis",
+            "albumartist": "Genesis",
+            "listencount": 4,
+            "time": 11037.866666666667
+        },
         "Pink Floyd/The Division Bell": {
             "albumname": "The Division Bell",
             "albumartist": "Pink Floyd",
             "listencount": 4,
             "time": 15964.0
+        },
+        "Rush/Counterparts": {
+            "albumname": "Counterparts",
+            "albumartist": "Rush",
+            "listencount": 4,
+            "time": 13059.36
+        },
+        "Metallica/Reload": {
+            "albumname": "Reload",
+            "albumartist": "Metallica",
+            "listencount": 4,
+            "time": 18258.506666666668
         },
         "Supertramp/Breakfast In America": {
             "albumname": "Breakfast In America",
@@ -179,11 +203,11 @@
             "listencount": 3,
             "time": 7097.0
         },
-        "Phil Collins/Hello I Must Be Going": {
-            "albumname": "Hello I Must Be Going",
-            "albumartist": "Phil Collins",
+        "Rem/Automatic For The People": {
+            "albumname": "Automatic For The People",
+            "albumartist": "Rem",
             "listencount": 3,
-            "time": 8240.0
+            "time": 8796.4
         },
         "Prince And The Revolution/Purple Rain": {
             "albumname": "Purple Rain",
@@ -197,11 +221,11 @@
             "listencount": 3,
             "time": 8093.88
         },
-        "Genesis/Genesis": {
-            "albumname": "Genesis",
-            "albumartist": "Genesis",
+        "Rush/Hold Your Fire": {
+            "albumname": "Hold Your Fire",
+            "albumartist": "Rush",
             "listencount": 3,
-            "time": 8278.4
+            "time": 9092.2
         },
         "Skin Yard/1000 Smiling Knuckles": {
             "albumname": "1000 Smiling Knuckles",
@@ -221,12 +245,6 @@
             "listencount": 3,
             "time": 9685.2
         },
-        "Rush/Counterparts": {
-            "albumname": "Counterparts",
-            "albumartist": "Rush",
-            "listencount": 3,
-            "time": 9794.52
-        },
         "Wolfgang Amadeus Mozart/Serenata Notturna": {
             "albumname": "Serenata Notturna",
             "albumartist": "Wolfgang Amadeus Mozart",
@@ -238,6 +256,12 @@
             "albumartist": "The Sex Pistols",
             "listencount": 3,
             "time": 6985.0
+        },
+        "Billy Joel/The Stranger": {
+            "albumname": "The Stranger",
+            "albumartist": "Billy Joel",
+            "listencount": 3,
+            "time": 7641.799999999999
         },
         "Jethro Tull/Thick As A Brick": {
             "albumname": "Thick As A Brick",
@@ -263,12 +287,6 @@
             "listencount": 2,
             "time": 6010.586666666667
         },
-        "Rem/Automatic For The People": {
-            "albumname": "Automatic For The People",
-            "albumartist": "Rem",
-            "listencount": 2,
-            "time": 5864.266666666666
-        },
         "Various Artists/Saturday Night Fever The Original Movie Sound Track": {
             "albumname": "Saturday Night Fever The Original Movie Sound Track",
             "albumartist": "Various Artists",
@@ -280,12 +298,6 @@
             "albumartist": "King Crimson",
             "listencount": 2,
             "time": 5269.12
-        },
-        "Rush/Hold Your Fire": {
-            "albumname": "Hold Your Fire",
-            "albumartist": "Rush",
-            "listencount": 2,
-            "time": 6061.466666666667
         },
         "The Breeders/Last Splash": {
             "albumname": "Last Splash",
@@ -377,11 +389,11 @@
             "listencount": 2,
             "time": 6612.8
         },
-        "Metallica/Reload": {
-            "albumname": "Reload",
-            "albumartist": "Metallica",
+        "Pearl Jam/Ten": {
+            "albumname": "Ten",
+            "albumartist": "Pearl Jam",
             "listencount": 2,
-            "time": 9129.253333333334
+            "time": 6409.2
         },
         "Dire Straits/Brothers In Arms": {
             "albumname": "Brothers In Arms",
@@ -731,12 +743,6 @@
             "listencount": 1,
             "time": 2870.266666666667
         },
-        "Pearl Jam/Ten": {
-            "albumname": "Ten",
-            "albumartist": "Pearl Jam",
-            "listencount": 1,
-            "time": 3204.6
-        },
         "Various Artists/La Bamba Original Motion Picture Soundtrack": {
             "albumname": "La Bamba Original Motion Picture Soundtrack",
             "albumartist": "Various Artists",
@@ -755,6 +761,12 @@
             "listencount": 1,
             "time": 2507.8
         },
+        "Blind Melon/Blind Melon": {
+            "albumname": "Blind Melon",
+            "albumartist": "Blind Melon",
+            "listencount": 1,
+            "time": 3324.0
+        },
         "The Grateful Dead/Workingmans Dead": {
             "albumname": "Workingmans Dead",
             "albumartist": "The Grateful Dead",
@@ -766,12 +778,6 @@
             "albumartist": "Candlebox",
             "listencount": 1,
             "time": 3205.4
-        },
-        "Billy Joel/The Stranger": {
-            "albumname": "The Stranger",
-            "albumartist": "Billy Joel",
-            "listencount": 1,
-            "time": 2547.2666666666664
         },
         "Johannes Brahms/Symphony No 3": {
             "albumname": "Symphony No 3",
@@ -796,6 +802,48 @@
             "albumartist": "Sum 41",
             "listencount": 1,
             "time": 1586.0933333333335
+        },
+        "The Beatles/Sgt Peppers Lonely Hearts Club Band": {
+            "albumname": "Sgt Peppers Lonely Hearts Club Band",
+            "albumartist": "The Beatles",
+            "listencount": 1,
+            "time": 2390.4666666666667
+        },
+        "Phil Collins/Face Value": {
+            "albumname": "Face Value",
+            "albumartist": "Phil Collins",
+            "listencount": 1,
+            "time": 2868.56
+        },
+        "Creed/My Own Prison": {
+            "albumname": "My Own Prison",
+            "albumartist": "Creed",
+            "listencount": 1,
+            "time": 2950.0666666666666
+        },
+        "Dire Straits/On Every Street": {
+            "albumname": "On Every Street",
+            "albumartist": "Dire Straits",
+            "listencount": 1,
+            "time": 3621.0666666666666
+        },
+        "Deep Purple/Machine Head": {
+            "albumname": "Machine Head",
+            "albumartist": "Deep Purple",
+            "listencount": 1,
+            "time": 2266.2
+        },
+        "Mother Love Bone/Apple": {
+            "albumname": "Apple",
+            "albumartist": "Mother Love Bone",
+            "listencount": 1,
+            "time": 3706.84
+        },
+        "Phil Collins/Hits": {
+            "albumname": "Hits",
+            "albumartist": "Phil Collins",
+            "listencount": 1,
+            "time": 4449.866666666667
         }
     }
 }

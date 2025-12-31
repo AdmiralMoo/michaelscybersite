@@ -5,6 +5,7 @@ def BuildFile(image_dir, output_file):
     # Allowed image extensions
     valid_extensions = (".jpg", ".jpeg", ".png", ".gif", ".webp")
 
+
     # List all valid image files in the directory
     images = [f for f in os.listdir(os.getcwd()+image_dir) if f.lower().endswith(valid_extensions)]
 

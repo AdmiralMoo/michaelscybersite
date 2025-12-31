@@ -338,5 +338,15 @@
             { "artist": "Yes", "album": "90125", "cover": "./assets/albumart/yes - 90125.jpg" },
             { "artist": "Genesis", "album": "Wind & Wuthering", "cover": "./assets/albumart/genesis - wind and wuthering.webp" }
         ]
+    },
+    {
+        "month": "December 2025",
+        "albums": [
+            { "artist": "Tears For Fears", "album": "Songs From The Big Chair", "cover": "./assets/albumart/tears for fears - songs from the big chair.webp" },
+            { "artist": "ZZ Top", "album": "Afterburner", "cover": "./assets/albumart/zz top - afterburner.webp" },
+            { "artist": "Derek & The Dominos", "album": "Layla & Other Assorted Love Songs", "cover": "./assets/albumart/derek and the dominos - layla and other assorted love songs.webp" },
+            { "artist": "Johann Strauss II", "album": "An Der Schönen, Blauen Donau", "cover": "./assets/albumart/johann strauss ii - an der schonen blauen donau.jpg" },
+            { "artist": "Genesis", "album": "Abacab", "cover": "./assets/albumart/genesis - abacab.webp" }
+        ]
     }
 ]

@@ -526,5 +526,13 @@
         "monthread": "December",
         "yearread": "2025",
         "cover": "/assets/books/thefountainhead.webp"
+    },
+    {
+        "name":"Sense & Sensibility",
+        "author": "Jane Austen",
+        "year": "1811",
+        "monthread": "December",
+        "yearread": "2025",
+        "cover": "/assets/books/senseandsensibility.webp"
     }
 ]
