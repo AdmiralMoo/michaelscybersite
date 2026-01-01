@@ -136,11 +136,13 @@ function fillBooksRead()
                 }
 
                 const isThisYear = readDate.getFullYear() === now.getFullYear();
+                const isLast12Months = readDate >= twelveMonthsAgo;
 
                 if (isThisYear) {
                     sinceNewYearCount++;
+                }
 
-                    // Only count authors from THIS YEAR
+                if (isLast12Months) {
                     authorFreq.set(b.author, (authorFreq.get(b.author) || 0) + 1);
                 }
 

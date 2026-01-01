@@ -534,5 +534,13 @@
         "monthread": "December",
         "yearread": "2025",
         "cover": "/assets/books/senseandsensibility.webp"
+    },
+    {
+        "name":"Summer Morning, Summer Night",
+        "author": "Ray Bradbury",
+        "year": "2002",
+        "monthread": "January",
+        "yearread": "2026",
+        "cover": "/assets/books/summermorningsummernight.webp"
     }
 ]
