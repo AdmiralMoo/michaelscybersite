@@ -3,8 +3,8 @@
 
     <title>Michael's Cybersite - Books</title>
     <link rel="stylesheet" type="text/css" href="/assets/css/win98.css"/>
-    <link rel="stylesheet" type="text/css" href="/assets/css/books.css"/>
     <link rel="stylesheet" type="text/css" href="/assets/css/features.css"/>
+    <link rel="stylesheet" type="text/css" href="/assets/css/books.css"/>
 </head>
 
 <body>
@@ -84,6 +84,7 @@
             </div>
             
             <!--Random book Showcase-->
+            <!--
             <div class="body-box outsideborder" style="flex-direction: column;">
                 <div style="display:flex; flex-direction: row;">
                     <a id="noformat" >
@@ -91,14 +92,26 @@
                             <p><</p>
                         </div>
                     </a>
-                    <div id="bookContainer" class="book-grid">
-                        <!-- Books will be inserted here dynamically -->
-                    </div>
+                    <div id="bookContainer" class="book-grid">                    </div>
                     <a id="noformat">
                         <div class="button-generic button-vertical outsideborder" id="shiftBookRight" style="">
                             <p>></p>
                         </div>
                     </a>
+                </div>
+            </div>
+            -->
+
+            <div class="body-fill image-carousel-parent outsideborder" id="bookContainer">
+                <div class="image-carousel-navbar">
+                    <div class="button-generic carousel-selector-button outsideborder" id="image-carousel-left">
+                        <span>◄</span>
+                    </div>
+                    <div class="image-carousel-filmstrip insideborder">
+                    </div>
+                    <div class="button-generic carousel-selector-button outsideborder" id="image-carousel-right">
+                        <span>►</span>
+                    </div>
                 </div>
             </div>
             
@@ -155,6 +168,7 @@
         </div>
     </main>
 
+    <script src="./scripts/recentBooksNew.js"></script>
     <script src="./scripts/recentBooks.js"></script>
 
     <div class="scrolling-books fade-edge-div"></div>

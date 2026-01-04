@@ -142,3 +142,85 @@
     color: rgb(255, 28, 28);
   }
 }
+
+/* IMAGE CAROUSEL STUFF */
+/*The image carousel itself*/
+.image-carousel-parent
+{
+    height: fit-content;
+    width:100%;
+}
+
+/*The active image of the carousel*/
+.image-carousel-activeimg
+{
+    display:flex;
+    justify-content:center;
+
+    padding:1%;
+
+    object-fit:cover;
+}
+
+.image-carousel-activeimg .insideborder
+{
+    max-width: 660px;
+    width:100%;
+    height:100%;
+    aspect-ratio: 6 / 4;
+}
+
+.image-carousel-activeimg img
+{
+    width: 100%;
+    height: 100%;
+}
+
+.image-carousel-navbar
+{
+    display: flex;
+    flex-direction: row;
+}
+
+/*The filmstrip obeject which holds image icon buttons*/
+.image-carousel-filmstrip
+{
+    display: flex;
+    flex-direction: row;
+    padding:0.5%;
+    overflow-x: hidden;
+    background-color: #525252;
+}
+
+/*Buttons on the carousel to select images*/
+.carousel-button
+{
+    min-width:256px;
+    border-width: 7px;
+    aspect-ratio: 6 / 4;
+}
+
+.carousel-button img
+{
+    object-fit:fill;
+    width:100%;
+    height:100%;
+}
+
+/*Buttons to advance to the next and previous rows of images*/
+.carousel-selector-button
+{
+    font-size:1.5em;
+    display:flex;
+    line-height: 0;
+    max-width: 48px;
+
+    user-select: none;
+    -ms-user-select: none;
+    -webkit-user-select: none;
+}
+
+.carousel-selector-button span
+{
+    margin:auto;
+}

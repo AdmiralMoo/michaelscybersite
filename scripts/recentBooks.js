@@ -1,6 +1,6 @@
-document.addEventListener("DOMContentLoaded", () => {
-    resizeBookDisplay(); // Initialize display when page loads
-});
+//document.addEventListener("DOMContentLoaded", () => {
+//    resizeBookDisplay(); // Initialize display when page loads
+//});
 
 let currentBookIndex = 0;
 let booksDatabase = [];
@@ -191,10 +191,10 @@ function fillBooksRead()
         })
     }
 
-document.getElementById("shiftBookLeft").addEventListener("click", () => skipBook("left"));
-document.getElementById("shiftBookRight").addEventListener("click", () => skipBook("right"));
-window.addEventListener("resize", resizeBookDisplay);
+//document.getElementById("shiftBookLeft").addEventListener("click", () => skipBook("left"));
+//document.getElementById("shiftBookRight").addEventListener("click", () => skipBook("right"));
+//window.addEventListener("resize", resizeBookDisplay);
 
 // Initialize the display
-updateBookShowcase();
+//updateBookShowcase();
 fillBooksRead();

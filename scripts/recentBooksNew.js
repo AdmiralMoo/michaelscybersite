@@ -4,7 +4,6 @@ class bookCarousel
     {
         this.carouselID = carouselID;
         this.booksDatabase = [];
-        this.activeImage = 0;
         this.init();
     }
 
@@ -17,7 +16,7 @@ class bookCarousel
             .then(data => {
 
             console.log(data);
-            this.booksDatabase = data.find(set => set.setname === this.carouselID)?.images || [];
+            this.booksDatabase = data;
             this.booksDatabase = this.booksDatabase.reverse();
             this.stickSomeImagesInThere();
             });
@@ -32,42 +31,72 @@ class bookCarousel
     {
         const carouselParentContainer = document.getElementById("bookContainer");
         const carouselFilmStrip = carouselParentContainer.querySelector(".image-carousel-filmstrip");
-        const carouselActiveImgContainer = carouselParentContainer.querySelector('.image-carousel-activeimg');
         if (!carouselParentContainer)
         {
             console.error(`Carousel container disappeared! Missing carousel container alert! Excuse me! Excuse me! Have you seen the carousel container parent? ${this.carouselID}`);
             return;
         }
-        
-        //Sets the big, active image
-        carouselActiveImgContainer.querySelector('img').src = this.booksDatabase[this.activeImage]?.url || '';
 
         //Populates the filmstrip with other images
         this.booksDatabase.forEach((book, index) => {
+            let bookName = "book-" + book.name.replace(/[^a-zA-Z0-9-_]/g, "-");
+
             //Insert new images
             carouselFilmStrip.insertAdjacentHTML("beforeend", `
-                <div class="button-generic carousel-button outsideborder">
-                    <img src="/assets/gifs/NikonGIF.gif" data-src="${book.url}240" class="lazyload" id="${book.name}">
+                <div class="carousel-book outsideborder">
+                    <img src="/assets/gifs/BookLoading.gif" data-src="${book.cover}" class="lazyload" id="${bookName}">
                 </div>
             `)
 
-            //Add an event listener to replace the active image with the clicked image
-            const newImage = carouselFilmStrip.querySelector(`#${book.name}`);
-            newImage.addEventListener("click", () => {
-                this.activeImage = book.url;
-                carouselActiveImgContainer.innerHTML = 
-                `
-                <div class="insideborder">
-                    <img src="/assets/gifs/NikonGIF.gif" data-src="${book.url}" class="lazyload">
-                </div>
+            let img = carouselFilmStrip.querySelector(`#${bookName}`);
+            img.addEventListener("mouseenter", function(e) 
+            {
+                //If there was an old tool tip, EXTERMINATE IT
+                let oldTooltip = document.getElementById("global-tooltip");
+                if (oldTooltip)
+                {
+                    oldTooltip.remove();
+                }
+
+                //Create the new one
+                let tooltip = document.createElement("div");
+                tooltip.id = "global-tooltip";
+                tooltip.className = "tooltip";
+                tooltip.innerHTML = `
+                    <span class="tooltiptext" style="visibility: visible;">
+                        <div class="toolheading">
+                            <img src="\\assets\\icons\\icon_msg_info.png">
+                            <h4 style="">Read in ${book.monthread} ${book.yearread}</h4>
+                        </div>
+                        <i>${book.name} (${book.year})</i><br> by ${book.author}
+                    </span>
                 `;
 
-                //Lazyload
-                if (typeof lazyLoadImages === "function")
+                document.body.appendChild(tooltip);
+
+                //Position the tooltip
+                const rect = img.getBoundingClientRect();
+                tooltip.style.position = "absolute";
+                tooltip.style.left = (rect.left + window.scrollX + 24) + 'px';
+                tooltip.style.top = (rect.top + window.scrollY - tooltip.offsetHeight + 48) + 'px';
+                tooltip.style.zIndex = 9999;
+            })
+
+            img.addEventListener("mouseleave", function(e)
+            {
+                //EXTERMINATE THE TOOLTIP
+                let oldTooltip = document.getElementById("global-tooltip");
+                if (oldTooltip)
                 {
-                    lazyLoadImages();
+                    oldTooltip.remove();
                 }
-            });
+            })
+
+            //Lazyload
+            if (typeof lazyLoadImages === "function")
+            {
+                lazyLoadImages();
+            }
         });
 
         //Adds Event Listeners to the left and right buttons
@@ -92,7 +121,9 @@ class bookCarousel
 
 function initializeCarousels()
 {
-    
+    document.querySelectorAll('.image-carousel-parent').forEach(carousel => {
+        new bookCarousel(carousel.id);
+    });
 }
 
 window.onload = initializeCarousels;

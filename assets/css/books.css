@@ -128,3 +128,48 @@ For the recent books showcase
 {
     width: unset;
 }
+
+/*IMAGE CAROUSEL OVERRIDES*/
+.image-carousel-navbar
+{
+    width: 100%;
+}
+
+.image-carousel-filmstrip
+{
+    padding: 0px;
+    -webkit-overflow-scrolling: touch; 
+}
+
+.carousel-book
+{
+    height: 286px;
+    max-width: 256px;
+}
+
+.carousel-book img
+{
+    width: auto;
+    height: 100%;
+    object-fit: scale-down;
+}
+
+@media(max-width: 400px)
+{
+  .image-carousel-filmstrip
+  {
+    overflow: scroll;
+  }
+
+  .carousel-book
+  {
+    max-width: 196px;
+    height: 196px;
+  }
+
+  .carousel-selector-button
+  {
+    max-width: 28px;
+    padding: 0px;
+  }
+}
