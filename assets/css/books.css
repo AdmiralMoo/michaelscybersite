@@ -169,7 +169,10 @@ For the recent books showcase
 
   .carousel-selector-button
   {
-    max-width: 28px;
+    max-width: 0px;
     padding: 0px;
+    width: 0px;
+    visibility: hidden;
+    border: 0px;
   }
 }
