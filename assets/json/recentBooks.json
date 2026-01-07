@@ -542,5 +542,13 @@
         "monthread": "January",
         "yearread": "2026",
         "cover": "/assets/books/summermorningsummernight.webp"
+    },
+    {
+        "name":"Martian Time-Slip",
+        "author": "Phillip K. Dick",
+        "year": "1964",
+        "monthread": "January",
+        "yearread": "2026",
+        "cover": "/assets/books/martiantimeslip.webp"
     }
 ]
