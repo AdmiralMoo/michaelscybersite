@@ -550,5 +550,13 @@
         "monthread": "January",
         "yearread": "2026",
         "cover": "/assets/books/martiantimeslip.webp"
+    },
+    {
+        "name":"The Songs of Distant Earth",
+        "author": "Arthur C. Clarke",
+        "year": "1986",
+        "monthread": "January",
+        "yearread": "2026",
+        "cover": "/assets/books/thesongsofdistantearth.webp"
     }
 ]
