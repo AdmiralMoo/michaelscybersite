@@ -1,121 +1,142 @@
 [    
     {
+        "headline" : "Bob Weir of The Grateful Dead Has Died",
+        "date" : "01/10/2026",
+        "body" : "Sad news in the music world today: founding member and longtime guitarist of The Grateful Dead, Bob Weir, has passed away at age 78.<br><br>Weir stuck with the band throughout The Endless Tour and continued to play with various incarnations of the group after their dissolution in 1995. He was a fantastic songwriter and guitarist.<br><br>Some of my favourite Grateful Dead/Weir songs include 'Hell In A Bucket', 'Sugar Magnolia' and 'Truckin''",
+        "image" : "/assets/images/newspaper/bobweir.webp",
+        "imagestyle": ""
+    }, 
+    {
+        "headline" : "Audi Tests New F1 Car",
+        "date" : "01/09/2026",
+        "body" : "An all-black prototype of Audi's first Formula 1 car was tested today in secret at Circuit de Barcelona-Catalunya. The inaptly named R26—sharing the name of Alonso's title-winning 2006 Renault—is the first F1 car from this regulation set to run on track.<br><br>Although footage of the test was grainy, it was visible how different the car's geometry is to last year. F1 launch season is just around the corner, though it doesn't really mean much since they're just liveries.",
+        "image" : "/assets/images/newspaper/audifone.webp",
+        "imagestyle": ""
+    }, 
+    {
+        "headline" : "New Year, Same Crap—Imagine Dragons Still Sucks",
+        "date" : "01/01/2026",
+        "body" : "With the coming of the new year, I wanted to just remind everyone that Imagine Dragons is not, never has been and never should be considered music.<br><br>I don't like to dunk on bands that I don't like, and there's not a lot of music that I don't like. I don't jump on hate trains like a bandwagoner for no reason; I was a Creed fan when nobody else was—but I just can't stand Imagine Dragons.<br><br>If you like Imagine Dragons, there is help.",
+        "image" : "/assets/images/newspaper/imaginedragons.webp",
+        "imagestyle": ""
+    }, 
+    {
         "headline" : "\"Wish You Were Here\" UK's 2025 #1 Christmas Album",
         "date" : "12/19/2025",
         "body" : "This week, Pink Floyd's masterpiece <i>Wish You Were Here</i> has landed the number one spot on the official UK albums chart thanks to its conveniently-timed 50th anniversary re-release. Because it's the month of December, that now makes this legendary album a Christmas album. If <i>The Empire Strikes Back</i> is a Christmas movie, then <i>Wish You Were Here</i> is a Christmas album.",
-        "image" : "/assets/images/happygilmour.webp",
+        "image" : "/assets/images/newspaper/happygilmour.webp",
         "imagestyle": ""
     }, 
     {
         "headline" : "24 Hours of Daytona Entry List Revealed, Grid Packed",
         "date" : "12/13/2025",
         "body" : "The 61-car entry list for the 24 Hours of Daytona was released today, and it's great to see sportscar racing the healthiest it's ever been. We've got around a month to go until we see the flag fly in Florida this January for the 64th running of the Rolex 24, and it's going to be an awesome race!<br><br>I'll be rooting once again for the Porsche Penske #7 car piloted by Felipe Nasr, Julien Andlauer and former AO Racing \"Rexy\" driver Laurin Heinrich, and I'm looking forward to more great battles with the WTR Cadillac V.Series-R's!<br><br>In addition to last year's continuing grid, the Aston Martin Valkyrie makes it's Rolex 24 debut with the #23 entry.<br><br>Iron Dames is notably—and most unfortunately—absent. I hope they get their funding situation sorted out so they can get back on track soon. ",
-        "image" : "/assets/images/24hdaytona.webp",
+        "image" : "/assets/images/newspaper/24hdaytona.webp",
         "imagestyle": ""
     }, 
     {
         "headline" : "Verstappen 2 Points Shy of Title, Piastri Finishes 3rd",
         "date" : "12/07/2025",
         "body" : "Well, it happened today—Lando Norris is the 2025 World Champion. I've never liked the guy and I'm not happy with it, but it is what it is. I can't help but think about Monza, when Piastri pulled over and let Norris through—those points could've given Max his fifth title. I think of Max's over-agression on George which cost him a handful of points; Piastri's safety-car braking incident at Silverstone. That's just the way it goes, right?<br><br>Hamilton is so washed.",
-        "image" : "/assets/images/piastriloss.webp",
+        "image" : "/assets/images/newspaper/piastriloss.webp",
         "imagestyle": ""
     },
     {
         "headline" : "Toyota Unveils GR GT3, GR010 EVO, HAAS Title Sponsorship",
         "date" : "12/05/2025",
         "body" : "Toyota has made a massive statement reiterating their commitment to all kinds of racing. Today, they revealed the successor to their recently retired Lexus GT3—the purpose-built GT GT3. It's an awesome looking car built with the track in mind to compete in the GT3 class. While it might not hit the track right away, it's expected to compete full-time in all series next year in 2027. This comes at the same time more details about Toyota's new hypercar challenger—the GR010 EVO—have come out, with a complete aero and internal rework to compete for overall victory in WEC. <br><br>Toyota also announced a title sponsorship for HAAS F1, marking a more complete return to F1 since the 2008 financial crisis. It seems like Toyota has slowly re-entered back into the single-seater landscape, having sponsored a driver and car in F2 this year as well. I'm hoping they'll take over HAAS in a more complete capacity in the years to come.",
-        "image" : "/assets/images/grgt3gr010evo.webp",
+        "image" : "/assets/images/newspaper/grgt3gr010evo.webp",
         "imagestyle": ""
     },
     {
         "headline" : "The Dream Has Died",
         "date" : "11/09/2025",
         "body" : "The collapse of Oscar Piastri's form in the latter half of the 2025 season will be studied and contested for years to come. Lando Norris has a commanding lead on the title with just three races to go, and with the pace he's shown, I doubt whatever Piastri will be able to muster will be enough.<br><br>Hamilton is washed. I never wanted him in a Ferrari, and here we are at the end of the season without even a podium to show.<br><br>Lando Norris, World Drivers Champion—a disgusting thoguht!",
-        "image" : "/assets/images/averagehamilton.webp",
+        "image" : "/assets/images/newspaper/averagehamilton.webp",
         "imagestyle": ""
     }, 
     {
         "headline" : "...And What a Season it Was",
         "date" : "11/02/2025",
         "body" : "With the crack of Alejandro Kirk's broken bat, the L.A. Dodgers made the final out they needed to win the 2025 World Series. I knew the Jays weren't playing well enough to win it when we were up a run in the 8th and couldn't cache in with the bases loaded. Some might say IKF's slide was the definitive moment—there will always be if's, but's and what if's, but if my grandmother had wheels, she'd be a bicycle.<br><br>This was a wonderful, special season to watch and I'm happy that the Jays are back at the top of baseball after so long. We'll see what happens this offseason and if the team can stay together to rally another year.<br><br>Thank you, Blue Jays. I've been waiting for this my whole life and the deep playoff run was everything I'd hoped it would be.",
-        "image" : "/assets/images/alchamps.webp",
+        "image" : "/assets/images/newspaper/alchamps.webp",
         "imagestyle": ""
     }, 
     {
         "headline" : "Blue Jays Win World Series Game 1",
         "date" : "10/24/2025",
         "body" : "The Toronto Blue Jays absolutely creamed the Los Angeles Dodgers today in Game 1 of the World Series tonight at the Rogers Centre. The first couple of innings were tense, but Varsho tied the game with a two-run homer before everything exploded in the sixth.<br><br>Bottom of the 6th, 2025 World Series Game 1—one of the greatest innings of post-season baseball ever played, and most certainly one of the Blue Jays' finest innings. I personally made sure the whole neighbourhood knew when we scored; I was absolutely beside myself! I've never felt so excited about any live sports ever!<br><br>Addison Barger was just amazing: the first ever pinch hit grand slam in postseason history! He'll go down in history for that—all these guys are Blue Jays legends. I never thought the Blue Jays could make it this far after watching them amount to mediocrity so many times throughout my life. This is so, so special.<br><br>I think that having Geddy Lee do the intro to the World Series is the coolest thing I've ever witnessed. I can't believe one of the most epic, legendary bands in history just opened up the World Series for my favourite team!",
-        "image" : "/assets/images/wsgameone.webp",
+        "image" : "/assets/images/newspaper/wsgameone.webp",
         "imagestyle": ""
     },    
     {
         "headline" : "Blue Jays World Series Bound",
         "date" : "10/21/2025",
         "body" : "After defeating the Seattle Mariners, the Toronto Blue Jays will face the Los Angeles Dodgers this friday. Words cannot describe how special this is. It all comes down to this!",
-        "image" : "/assets/images/jayslegends.jpg",
+        "image" : "/assets/images/newspaper/jayslegends.jpg",
         "imagestyle": ""
     },
     {
         "headline" : "Blue Jays Advance to ALCS, Send Yankees to Cancun",
         "date" : "10/08/2025",
         "body" : "After a nail-biting bullpen game, the Jays defeated the Yankees 5–2 tonight in the Bronx. The Jays played well throughout the series, massively outscoring the Yanks and embarassing them—it was so much fun seeing all the despondent Yankees fans!<br><br>Vladimir Gurrero came alive with tons of hits and gold-glove plays, and Ernie Clement in particular really stood out to me. He hit .643 this series—that's 9–14! The whole lineup just played like they have all season and it felt so good to watch. <br><br>Now, the Jays get to rest as the other division series advance to additional games to determine who they'll face next. ",
-        "image" : "/assets/images/sadyanks.webp",
+        "image" : "/assets/images/newspaper/sadyanks.webp",
         "imagestyle": ""
     },
     {
         "headline" : "Shame on Volkswagen! Porsche Withdraws 963 from WEC",
         "date" : "10/07/2025",
         "body" : "After this past weekend's 6h of Fuji came to a close, Porsche released a press release to announce their intent to discontinue the 963 hypercar program and leave the World Endurance Championship.<br><br>There's not much to say about this—it's just a real shame and another black scar on the name of Volkswagen, the parent company of Porsche. The same day, it was announced they'd \"continue\" their \"racing\" efforts in Formula E.<br><br>This comes almost exactly ten years after Audi, another Volkswagen brand, announced their departure from WEC. For the first time in a long time, there very well might be no Porsche fighting for the top class win at Le Mans—we're truly going into a new era. I hope they'll come back soon and stop wasting their time in FE—it's just a shame. It's all a shame. Nobody wants to see this.",
-        "image" : "/assets/images/noPorsche.jpg",
+        "image" : "/assets/images/newspaper/noPorsche.jpg",
         "imagestyle": ""
     },
     {
         "headline" : "Rush Announce Reunion Tour",
         "date" : "10/06/2025",
         "body" : "Just days after Geddy Lee was sighted at the Toronto Blue Jays game and Alex Lifeson teased at the possibility of Rush coming together again to play, the two surviving members have announced the \"Fifty Something Tour\" to celebrate half a century of hard-rocking awesome music.<br><br>Anika Nilles will take the place of Neil Peart on tour. It's big shoes to fill, but if Lifeson and Lee think she's good enough, then she's good enough—no questions asked. I hope people don't try to compare her or give her crap about not being the person she's replacing, cause it's going to be awesome either way. This band is one of the greatest to ever do it, and are most certainly one of if not the best Canadian band. <br><br>All I can say is HELL YEAH!",
-        "image" : "/assets/images/rushthird.webp",
+        "image" : "/assets/images/newspaper/rushthird.webp",
         "imagestyle": ""
     },
     {
         "headline" : "Jays Blitz Yankees; Yesavage Makes History",
         "date" : "10/05/2025",
         "body" : "In my lifetime, October baseball in Canada has never felt quite like this. The Jays are 2–0 against the Yankess in the ALDS, outscoring them 23–8. Vladimir Gurrero Jr hit Toronto's first postseason grand slam, recreating Bautista's iconic bat flip moment from 2015. These two games are ones I'll never, ever forget—it was just so special. The Jays' bats are alive, and seemingly everybody is hitting well right now.<br><br>I was happy to see Gausman pitch the first game and equally happy to see Yesavage making his postseason debut in the second game. What an outing! His third major league start happens to be in game two of the ALDS, and he throws almost six innings of no-hit ball!<br><br>How wonderful it was to hear the crowd chanting \"YANKEES SUCK!\" over the TV broadcast.",
-        "image" : "/assets/images/yesavage.webp",
+        "image" : "/assets/images/newspaper/yesavage.webp",
         "imagestyle": ""
     },
     {
         "headline" : "McLaren Betray Oscar Piastri",
         "date" : "10/05/2025",
         "body" : "McLaren won the Constructor's Championship for the second year in a row today, but it didn't feel like something worth celebrating.<br><br>After a year fraught with silly team orders and meddling with race results, McLaren showed their true colours today after a Turn 1 collision between Oscar Piastri and Lando Norris. Norris barged past Piastri to eventually take third place, hitting Max Verstappen and sustaining front wing damage along the way. They made a huge deal about Piastri making a clean move on Norris in Monza, but this was \"just hard racing!\" according to Zak Brown.<br><br>It's been hard to root for a team like McLaren which rallies around a driver like Lando Norris and consistently screws over their second driver, who has been a team player all season and is getting nothing in return.<br><br>I suppose you can just call that naivete on Piastri's part—I certainly hope he'll take the championship into his own hands and stop playing the \"team game\" with silly Norris-biased Papaya Rules.",
-        "image" : "/assets/images/unhappiastri.webp",
+        "image" : "/assets/images/newspaper/unhappiastri.webp",
         "imagestyle": ""
     },
     {
         "headline" : "Toronto Blue Jays: 2025 AL East Champions",
         "date" : "09/28/2025",
         "body" : "With a decisive 13–4 victory against the Tampa Bay Rays, the Toronto Blue Jays won their division for the first time in ten years. The game got off to an explosive start with hits from Springer, Gurrero and eventually a grand salami by Kirk. Gausman wasn't the best today, but he gave it his best through three innings before handing it over to the bullpen. By the time the 7th inning came around, it was clear that the Jays had won—it just looked like the Rays were six feet underground.<br><br>I'm very excited for the post season. This week, it'll be the iconic Red Sox vs Yankees matchup to determine who will play the Jays this saturday. <br><br>It feels better than it did in 2015!",
-        "image" : "/assets/images/vladyii.jpg",
+        "image" : "/assets/images/newspaper/vladyii.jpg",
         "imagestyle": ""
     },
     {
         "headline" : "Max Verstappen Wins on Nordschleife Debut",
         "date" : "09/27/2025",
         "body" : "After getting his NLS license the weekend before the Azerbaijan Grand Prix, Max Verstappen found himself back at the Nürburgring Nordschleife this weekend to compete in his first NLS cup race. At the wheel of his Verstappen.com Ferrari 296 GT3, he took the lead into turn 1 and drove a brilliant two hour stint before handing it over to his teammate with a one minute lead. Verstappen's car stayed in the lead and took the victory, proving that he truly is one of the best to ever turn a wheel in anger. I'm happy to see him in a GT car!<br><br>That's not the only headline from the weekend though—Jann Mardenborough of the #9 Ford Mustang finished second on the podium. It's great to see him racing again! It's hard to believe that over ten years have passed since that fatal accident at the ring. I was sat on my PS3 playing Gran Turismo 6 and wondering if I could be a real racing driver just like Jann...<br><br>A final thought: Sainz scored a podium in a Williams, Antonelli scored a podium in a Mercedes and Verstappen has won in a Ferrari before Lewis Hamilton has done literally anything this season.",
-        "image" : "/assets/images/verstappen296.webp",
+        "image" : "/assets/images/newspaper/verstappen296.webp",
         "imagestyle": ""
     },
     {
         "headline" : "Toronto Blue Jays Clinch Playoff Spot, Set Sights on Division Title",
         "date" : "09/22/2025",
         "body" : "At last night's game against the Kansas City Royals, the Toronto Blue Jays punched their ticket to the postseason. Canada's team remembered they're supposed to hit the ball and did so, putting them up 8–5 against the Royals.<br><br>The Blue Jays are the first American League team to hit 90 wins, and are hoping to win the division in the next couple of games as the regular season draws to a close.<br><br>Tonight at home in the Rogers Centre, fans will be seeking to break the franchise Loonie Dogs record, as it is the final night of the season they'll be able to buy hot dogs for a dollar.",
-        "image" : "/assets/images/vlady.jpg",
+        "image" : "/assets/images/newspaper/vlady.jpg",
         "imagestyle": ""
     },
     {
         "headline" : "Sheer Horror: Jays Obliterated 1–20, Piastri In The Wall",
         "date" : "09/21/2025",
         "body" : "This weekend's Azerbaijan Grand Prix was certainly one to remember: Oscar Piastri found himself in the wall both in qualifying and in the race, making it the worst grand prix weekend of his career. His teammate and title rival had a golden opportunity to claw back some ground in the world championship, but as usual, bottled the opportunity—Norris finished seventh, scoring only six points.<br><br>Carlos Sainz put in a stunning drive to finish third and get Williams' first podium since 2017—he has now scored a podium at his new team before Lewis Hamilton, who replaced him at Ferrari.<br><br>In baseball, the Jays' bats have gone cold in the latter half of their series against the Rays and now two games into their series against the Royals. It's ugly to watch.",
-        "image" : "/assets/images/sheerhorror.webp",
+        "image" : "/assets/images/newspaper/sheerhorror.webp",
         "imagestyle": ""
     },
     {
@@ -136,7 +157,7 @@
         "headline" : "One Year On The Web",
         "date" : "09/09/2025",
         "body" : "As of today, it's been one year since this website launched. On September 9th, 2024, I created the GitHub Pages repository and uploaded the first version of this site. It was built in a crappy GUI website builder I abandoned a month later in favour of learning CSS, HTML and JavaScript. <br><br>That fresh start launched on October 2nd, 2024, and it evolved into the site I've got today. <br><br>It's been a blast, and I'm looking forward to many more years on the net!",
-        "image" : "/assets/images/cybersiteone.png",
+        "image" : "/assets/images/newspaper/cybersiteone.png",
         "imagestyle": ""
     },
     {
@@ -157,14 +178,14 @@
         "headline" : "Shock, Horror, Euphoria & Triumph: Piastric Wins 2025 Zandvoort GP",
         "date" : "08/31/2025",
         "body" : "Today, Formula 1 fans were treated to what I believe will be remembered as a modern classic—the 2025 Dutch Grand Prix had absolutely everything, and Oscar Piastri weathered it all to come out on top in another statement victory over teammate and title rival Lando Norris. <br><br>I laughed as Hamilton slid into the barriers and screeched with guttural terror as Antonelli took out LeClerc. Piastri had the race in the bag, but it still felt like Christmas, Easter and Birthday all rolled into one when Lando Norris ground to a halt with an engine issue. Outstanding drive from Isaac Hadjar, too—he really earned that podium this weekend!<br><br>Going into next week's race in Monza, Piastri holds a commanding 34-point lead in the championship.",
-        "image" : "/assets/images/zandvoort2025.webp",
+        "image" : "/assets/images/newspaper/zandvoort2025.webp",
         "imagestyle": ""
     },
     {
         "headline" : "Oscar Piastri Returns From Summer Break With Pole Position, Stroll Crashes Twice",
         "date" : "08/30/2025",
         "body" : "In a spectacular effort, Oscar Piastri has squeaked past Lando Norris to take pole position at this weekend's Dutch Grand Prix by a margin of just twelve thousandths. With that lap, Piastri also breaks the all-time lap record set by Max Verstappen in 2021 with a 1:08.662.<br><br>Although Alonso looked very promising throughout free practice, he qualified tenth while teammate Lance Stroll went for two excursions into the barriers, ultimately ending his weekend before it even began.",
-        "image" : "/assets/images/strollthings.webp",
+        "image" : "/assets/images/newspaper/strollthings.webp",
         "imagestyle": ""
     },  
     {
@@ -178,7 +199,7 @@
         "headline" : "Blue Jays Return to Top AL-East, Face Off Against Best Team in Baseball Next",
         "date" : "08/27/2025",
         "body" : "After an amazing run this 2025 season, the Toronto Blue Jays have returned to the top of the AL-East after a stressful 9–8 win over the Twins. The Jays have been in fine form offensively as of late, but have reminded me why they're so often called \"The Blow Jays\"—once the starter steps off the mound, their defense falls apart.",
-        "image" : "/assets/images/jays.webp",
+        "image" : "/assets/images/newspaper/jays.webp",
         "imagestyle": ""
     },  
     {
@@ -199,7 +220,7 @@
         "headline" : "07/25/2025: The Most Beautiful Day In All of Existence",
         "date" : "07/25/2025",
         "body" : "We have just lived through (numerically) the most beautiful day in all of existence.<br><br>Two zeroes, a seven, three twos and two fives—just marvelous! And in this order, too! We'll never have another day like this for the rest of history. Two twenty-fives—two quarters! It just looks so good no matter what font you put it in: it feels good to write; it feels good to see; it <i>is</i> good.<br><br>A bit of a silly thing, but I think it's the most beautiful day in all of existence—but what can I say? I'm just a guy who likes 2's, 5's and 7's.",
-        "image" : "/assets/images/07252025.webp",
+        "image" : "/assets/images/newspaper/07252025.webp",
         "imagestyle": ""
     },   
     {
@@ -234,7 +255,7 @@
         "headline" : "FERRARI WINS THIRD CONSECUTIVE 24 HOURS OF LE MANS",
         "date" : "06/15/2025",
         "body" : "Oh, glorious day! The 83 Ferrari driven by none other than Robert Kubica has won the 2025 24h of Le Mans. I'm just overjoyed! Ferrari has won Le Mans for three consecutive years, and each of their hypercars have now finished first at the greatest race of the year.<br><br>This is a full-circle moment for Robert Kubica, who drove some spectacular stints over the past day in France. All the drivers of the 83 were absolutely perfect, and they deserved the win. For a decade Kubica was looked at as the tragedy, the never-was—but no longer. Prime Kubica never left, he just went away for a while.",
-        "image" : "/assets/images/ferrarilemans2025.webp",
+        "image" : "/assets/images/newspaper/ferrarilemans2025.webp",
         "imagestyle": ""
     },    
     {
@@ -311,7 +332,7 @@
         "headline" : "Pink Floyd at Pompeii MCMLXXII Hits Theatres",
         "date" : "04/24/2025",
         "body" : "The 4k IMAX restoration of Pink Floyd's legendary performance in the ruins of Pompeii had the first of its limited screenings in theatres today. It's a spectacular film showing the band at the beginning of their breakthrough era in the early 1970s. Between live performances of tracks off <i>Meddle</i> and <i>A Saucerful of Secrets</i>, there's rather cathartic footage of them in the studio recording <i>The Dark Side of The Moon</i>. Band members reflect on the use of machines and electronics in music and make a great argument against creative AI. In a similarly prophetic clip, they discuss the occasional 'minor' arguments within the band—tensions which almost certainly led to Waters' split towards the end of the eighties. <br><br>This was a most amazing experience and I'm glad I went. The film restoration was just stunning: motion pictures of this quality simply cannot be made anymore.",
-        "image" : "/assets/images/pompeii.jpg",
+        "image" : "/assets/images/newspaper/pompeii.jpg",
         "imagestyle": ""
     },
     {
@@ -325,14 +346,14 @@
         "headline" : "Oscar Piastri Leads The Formula 1 Drivers World Championship",
         "date" : "04/20/2025",
         "body" : "After fending off Max Verstappen to win the 2025 Saudi Arabian Grand Prix, Oscar Piastri now leads the driver's world championship. He's the first Australian to do so since his manager Mark Webber led during the 2010 season, which I refuse to believe was now fifteen years ago.<br><br>I've been saying it for years: Piastri is going to be world champion. Could this be his year? It looks like Norris is his own worst enemy: he's struggling under pressure that he's created himself. Piastri is cool as a cucumber",
-        "image" : "/assets/images/piastripi1.webp",
+        "image" : "/assets/images/newspaper/piastripi1.webp",
         "imagestyle": ""
     },    
     {
         "headline" : "Christmas Comes Early: Norris Crashes, Piastri Battles Verstappen For Pole",
         "date" : "04/19/2025",
         "body" : "The neighbourhood knew the exact moment the F1 TV directors cut to Norris after he hit the wall becuase my Dad and I squealed rather loudly at the sight of it. Today's qualifying session saw the McLaren driver continue to struggle while his teammate delivered an astounding performance which rivaled the great Max Verstappen.<br><br>After trading fastest laps separated by the thinnest of margins, Max Verstappen came out on top and will start on pole position for tomorrow's grand prix. ",
-        "image" : "/assets/images/christmascomesearly.webp",
+        "image" : "/assets/images/newspaper/christmascomesearly.webp",
         "imagestyle": ""
     },
     {
@@ -353,14 +374,14 @@
         "headline" : "Piastri Wins Again In Bahrain",
         "date" : "04/13/2025",
         "body" : "Oscar Piastri has won the 2025 Bahrain Grand Prix and become the first driver to get multiple pole positions and wins this season so far. With this win, he is currently the only Formula 1 driver to have a 100% pole-to-win conversion rate—a cool stat, but one that can't last forever.<br><br>I've been saying it since he was in Formula 2: this guy is going to be a world champion. It was clear over the past couple seasons that he's been learning a lot every race, and now he's really starting to shine. Piastri WDC 2025!",
-        "image" : "/assets/images/piastriwin.jpg",
+        "image" : "/assets/images/newspaper/piastriwin.jpg",
         "imagestyle": ""
     },
     {
         "headline" : "Porsche Continues IMSA Domination At Long Beach",
         "date" : "04/12/2025",
-        "body" : "The No. 7 Porsche Penske 963 is three-for-three this weekend after leading a Porsche 1-2 across the line at the Acura Grand Prix of Long Beach. It's quite rare for a team to dominate like this in a sport as competitive and unpredictable as sportscar endurance racing, but Team Penske seems to have it all under control. In the GTD class, AO Racing’s No. 77 “Rexy” finished first once again ahead of the No. 12 Vasser Sullivan Lexus. <br><br>I’m overjoyed to see my two favourite cars wining their classes—it looks like this will be not only a championship season, but a record-breaking one. This kind of success is completely unprecedented, especially as the BMW's seem to have gotten their act together. ",
-        "image" : "/assets/images/porschedomination.webp",
+        "body" : "The No. 7 Porsche Penske 963 is three-for-three this weekend after leading a Porsche 1-2 across the line at the Acura Grand Prix of Long Beach. It's quite rare for a team to dominate like this in a sport as competitive and unpredictable as sportscar endurance racing, but Team Penske seems to have it all under control. In the GTD class, AO Racing's No. 77 'Rexy' finished first once again ahead of the No. 12 Vasser Sullivan Lexus. <br><br>I'm overjoyed to see my two favourite cars wining their classes—it looks like this will be not only a championship season, but a record-breaking one. This kind of success is completely unprecedented, especially as the BMW's seem to have gotten their act together. ",
+        "image" : "/assets/images/newspaper/porschedomination.webp",
         "imagestyle": ""
     },
     {
