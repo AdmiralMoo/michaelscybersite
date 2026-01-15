@@ -15,6 +15,15 @@ Border properties
   border-image: url("/assets/ui/Win98OutBorderInv.png") 3;
 }
 
+.insidecontent
+{
+  margin: 1px;
+  padding: 8px;
+  border-style:groove;
+  border-width: 2px;
+  border-color:#eeeeee;
+}
+
 .noborder
 {
     border: none;

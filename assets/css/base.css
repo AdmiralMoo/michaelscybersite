@@ -448,6 +448,8 @@ Formatting for header boxes
   margin:0px;
   padding:7px;
 
+  box-sizing: border-box;
+
   color: #FFFFFF;
   background-image: linear-gradient(to right, #000080 , #1084d0);
 }
@@ -502,6 +504,12 @@ Formatting for header boxes
   object-fit: contain;
 }
 
+.header-sub-box
+{
+  display: flex;
+  flex-direction: row;
+}
+
 .header-construction-box
 {
   width: 100%;
@@ -534,6 +542,29 @@ Formatting for header boxes
 /*
 Formatting for body boxes
 */
+
+.insidecontent
+{
+  margin: 4px;
+  padding: 8px;
+  border-style: solid;
+  border-width: 1px;
+  border-color:#eeeeee;
+}
+
+.inside-element-sunken
+{
+  border-style: inset;
+  border-width: 3px;
+  padding: 4px;
+
+  border-color:#adadad;
+
+  background-color: white;
+
+  width: 100%;
+  box-sizing: border-box;
+}
 
 .body-fill
 {
@@ -606,6 +637,57 @@ Formatting for body boxes
   flex: 0;
   width: fit-content;
   min-width: calc(100% / 3);
+}
+
+/* Formatting for windows-style navigation buttons */
+.windows-button
+{
+  aspect-ratio: 1/1;
+
+  display: block;
+  justify-content: center;
+  text-align: center;
+
+  min-width:32px;
+  height: 100%;
+
+  border-width: 2px;
+  border-style: solid;
+  border-image: url("/assets/ui/Win98OutBorder.png") 3;
+  border-image-repeat: repeat;
+  border-color: rgb(0, 0, 0);
+
+  
+}
+
+.windows-button > *
+{
+  padding:0px;
+  margin:0px;
+  line-height: 27px;
+  text-decoration: none;
+  font-weight: bolder;
+  color: black;
+}
+  
+.windows-button:hover {
+    background-color:rgb(224, 224, 224);
+    border-image: url("/assets/ui/Win98OutBorder.png") 3;
+    border-image-repeat: repeat;
+    filter: brightness(1.25);
+}
+
+.windows-button:active  {
+    background-color:rgb(136, 136, 136);
+    border-image: url("/assets/ui/Win98OutBorderInv.png") 3;
+    filter: brightness(0.9);
+}
+
+.windows-button:disabled 
+{
+    background-color:red;
+    filter: brightness(1.0);
+    filter: saturate(0.0);
 }
 
 /*Special grid boxes*/
