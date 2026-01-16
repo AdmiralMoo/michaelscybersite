@@ -566,5 +566,13 @@
         "monthread": "January",
         "yearread": "2026",
         "cover": "/assets/books/theunknownsoldier.webp"
+    },
+    {
+        "name":"Women",
+        "author": "Charles Bukowski",
+        "year": "1978",
+        "monthread": "January",
+        "yearread": "2026",
+        "cover": "/assets/books/women.webp"
     }
 ]
