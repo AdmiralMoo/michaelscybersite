@@ -786,9 +786,9 @@
             "description": "Some Test Text"
           },
           {
-            "title": "Phobia",
+            "title": "Ember",
             "artist": "Breaking Benjamin",
-            "cover": "./assets/albumart/breaking benjamin - phobia.jpg",
+            "cover": "./assets/albumart/breaking benjamin - ember.jpg",
             "description": "Some Test Text"
           },
           {
@@ -1173,9 +1173,9 @@
             "description": "Some Test Text"
           },
           {
-            "title": "Pretty Hate Machine",
-            "artist": "Nine Inch Nails",
-            "cover": "./assets/albumart/nine inch nails - pretty hate machine.jpg",
+            "title": "Songs From The Big Chair",
+            "artist": "Tears for Fears",
+            "cover": "./assets/albumart/tears for fears - songs from the big chair.webp",
             "description": "Some Test Text"
           },
           {
@@ -1199,7 +1199,7 @@
           {
             "title": "In The Dark ",
             "artist": "The Grateful Dead",
-            "cover": "./assets/albumart/the grateful dead - in the dark.png",
+            "cover": "./assets/albumart/the grateful dead - in the dark.webp",
             "description": "Some Test Text"
           },
           {
@@ -1215,9 +1215,9 @@
             "description": "Some Test Text"
           },
           {
-            "title": "No Jacket Required",
-            "artist": "Phil Collins",
-            "cover": "./assets/albumart/phil collins - no jacket required.webp",
+            "title": "Abacab",
+            "artist": "Genesis",
+            "cover": "./assets/albumart/genesis - abacab.webp",
             "description": "Some Test Text"
           },
           {
