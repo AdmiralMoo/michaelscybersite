@@ -1,0 +1,74 @@
+<head>
+    <script src="/head-inject.js"></script>
+
+    <title>Album Of The Day</title>
+    <link rel="stylesheet" type="text/css" href="/assets/css/win98.css"/>
+    <link rel="stylesheet" type="text/css" href="/assets/css/music.css"/>
+</head>
+
+<body>
+    <main>
+        <div class="maincontent-centred" style="min-height:60vh;">
+            <div class="header-one-box outsideborder">
+                <h1>Album of The Day: 2026</h1>
+                <img src="./assets/icons/icon_cd1.png">
+            </div>
+
+            <div class="body-box outsideborder">
+                <div class="box-container" style="padding:10px;">
+                    <p>This year, I decided that I was going to listen to a random album from my collection each day. I pick the album using the <i>Discographic</i> all on my iPhone, which is linked to my Discogs account.</p>
+                    <p>There are a couple of rules for the random albums:</p>
+                    <ol>
+                        <li>No Skips. The album is inevitable</li>
+                        <li>No Repeats. There will be 365 unique albums</li>
+                        <li>No Compilations. Only releases with original material</li>
+                        <li>No Classical. Classical music is not always "easy" background music—it deserves respect and attention</li>
+                    </ol>
+                    <p>At the time of writing, there are 597 non-classical CD's in my collection—quite a few which I'll admit I haven't listened to yet, or I haven't listened to in a while. I have such a vast, curated selection of music that I find it very fun to dig in like this and be surprised by old favourites and "I can't believe I had this!"</p>
+                </div>
+            </div>
+            <div class="body-box outsideborder stacked">
+                <div class="box-container" id="listenedalbums" style="width:100%; padding:12px;">
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+
+<script>
+    window.addEventListener("load", (event) => {
+        fetch("./assets/data/albums-of-the-day-2026.txt")
+        .then((res) => res.text())
+        .then((text) => {
+            const putstuffhere = document.getElementById("listenedalbums");
+            const lines = text.split('\n');
+
+            let date = Date.parse("January 1, 2026");
+            let day = 1;
+
+            lines.forEach(line => {
+                putstuffhere.innerHTML += `
+                    <b>${new Date(date).toLocaleDateString('en-US')} - #${day}:</b> ${line}<br>
+                `;
+
+                //Increment the fancy date
+                const newDate = new Date(date);
+                newDate.setDate(newDate.getDate() + 1);
+                date = newDate;
+
+                //increment the day index
+                day++;
+            })
+        })
+        .catch((e) => console.error(e));
+    })
+
+    function getDateFromThing(olddate)
+    {
+        let newDate = "";
+        newDate += olddate.getMonth();
+        newDate += "-";
+        newDate += olddate.getDay();
+        return newDate;
+    }
+</script>
