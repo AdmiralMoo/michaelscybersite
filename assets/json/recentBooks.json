@@ -574,5 +574,13 @@
         "monthread": "January",
         "yearread": "2026",
         "cover": "/assets/books/women.webp"
+    },
+    {
+        "name":"Roadwork",
+        "author": "Richard Bachman",
+        "year": "1981",
+        "monthread": "January",
+        "yearread": "2026",
+        "cover": "/assets/books/roadwork.webp"
     }
 ]
