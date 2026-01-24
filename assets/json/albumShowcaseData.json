@@ -1737,5 +1737,125 @@
         ],
         "applemusic":"https://music.apple.com/us/album/the-rembrandts-l-p/373220996",
         "spotify":"https://open.spotify.com/album/6koDBGMqurYl3EZnaxCF7N"
+    },
+    {
+        "artist": "Led Zeppelin",
+        "album": "Led Zeppelin",
+        "year": "1969",
+        "cover": "./assets/albumart/led zeppelin - led zeppelin.jpg",
+        "description": "Led Zeppelin's debut album is a bombastic, awesome entrance into the music world. It's fantastic to hear how their sound evolved over the years to come, and how they made rock history all the way from the start to the end.<br><br>From the groundbreaking hard-rocking highs to the bluesy depths, this one is a lot of fun every time. It's melodramatic in the best way. It's radically different from what was around at the time, and from Led Zeppelin's later works—if you're coming from Houses of The Holy or Led Zeppelin IV, you're in for a shock!<br><br>My favourite tracks are \"How Many More Times\", \"Good Times Bad Times\" and \"Your Time Is Gonna Come\".",
+        "genre": "Hard Rock",
+        "rating" : "85",
+        "duration": "44:45",
+        "tracks": [
+            "Good Times Bad Times",
+            "Babe I'm Gonna Leave You",
+            "You Shook Me",
+            "Dazed and Confused",
+            "Your Time Is Gonna Come",
+            "Black Mountain Side",
+            "Communication Breakdown",
+            "I Can't Quit You Baby",
+            "How Many More Times"
+        ],
+        "applemusic":"https://music.apple.com/us/album/the-rembrandts-l-p/373220996",
+        "spotify":"https://open.spotify.com/album/6koDBGMqurYl3EZnaxCF7N"
+    },
+    {
+        "artist": "Boston",
+        "album": "Boston",
+        "year": "1976",
+        "cover": "./assets/albumart/boston - boston.jpg",
+        "description": "Boston is one of those all-time iconic bands which fall under the “Classic Rock” umbrella. There are a couple of bands that, when I listen to them, I instantly feel good—Boston is one of them.<br><br>Their debut effort is a massive one, and probably one of the all-time great debut albums (and albums in general) in rock and music history. You'll almost certainly recognize “More Than A Feeling” off this album—if you're on the fence about listening to it, just imagine an entire album full of “More Than A Feeling's”! It's essential listening, I think. I'd recommend this one to your mom, dad, grandparents and their dog.<br>My Grade 11 Media Arts teacher, Mr. B, loved Boston, Pink Floyd, Led Zeppelin and all sorts of other awesome music. He was a really cool dude. If you (somehow) didn't get anything from his classes, the one thing you should've taken away was to listen to Boston.<br>My favourite songs off this one are \"More Than A Feeling\", \"Something About You\", \"Peace of Mind” and \"Long Time\"",
+        "genre": "Hard Rock",
+        "rating" : "93",
+        "duration": "37:37",
+        "tracks": [
+            "More Than a Feeling",
+            "Peace of Mind",
+            "Foreplay/Long Time",
+            "Rock & Roll Band",
+            "Smokin'",
+            "Hitch a Ride",
+            "Something About You",
+            "Let Me Take You Home Tonight"
+        ],
+        "applemusic":"https://music.apple.com/us/album/the-rembrandts-l-p/373220996",
+        "spotify":"https://open.spotify.com/album/6koDBGMqurYl3EZnaxCF7N"
+    },
+    {
+        "artist": "Boston",
+        "album": "Don't Look Back",
+        "year": "1978",
+        "cover": "./assets/albumart/boston - dont look back.jpg",
+        "description": "You'll always feel good listening to Boston. This album is like a quick injection of \"hell yeah!\"—just purely good, catchy rock n' roll.<br><br>This album followed their self-titled debut and delivered more of the same slick, polished hooks and smooth production; they're awesome songs about cruising, feeling good, love, partying and just generally being awesome. Boston is just awesome. I'd recommend this album to your grandma.<br><br>On the first day of class in 11th Grade Media Arts, Mr. B had the title track “Don't Look Back” playing on the projector in class. Mr. B was an awesome teacher and he liked the coolest music. Looking back, it feels like he just knew everything and he was right about so many things. This one's for you, Mr. B, keep being awesome out there.<br><br>My favourite songs off this one are \"Don't Look Back\", \"A Man I'll Never Be\" and \"Feelin' Satisfied\"",
+        "genre": "Hard Rock",
+        "rating" : "91",
+        "duration": "33:46",
+        "tracks": [
+            "Don't Look Back",
+            "The Journey",
+            "It's Easy",
+            "A Man I'll Never Be",
+            "Feelin' Satisfied",
+            "Party",
+            "Used to Bad News",
+            "Don't Be Afraid"
+        ],
+        "applemusic":"https://music.apple.com/us/album/the-rembrandts-l-p/373220996",
+        "spotify":"https://open.spotify.com/album/6koDBGMqurYl3EZnaxCF7N"
+    },
+    {
+        "artist": "Boston",
+        "album": "Third Stage",
+        "year": "1986",
+        "cover": "./assets/albumart/boston - third stage.jpg",
+        "description": "Unfortunately, legal troubles and recording difficulties quickly ensued after the release of Boston's second album, delaying Third Stage by almost a decade. I would say the tumultuous six-year period this album took to create ultimately killed Boston's momentum and shifts them over into a \"what could've been\" kind of band.<br><br>That said, it's not a bad album. It's certainly quieter than the first two, reflecting more on stages of life, ageing and the time that'd passed. It feels more like a comeback album, restarting momentum rather than bursting onto the scene and riding the wave.<br><br>My favourite songs off this one are \"Amanda\", \"To Be A Man\", \"I Think I Like It\" and \"Hollyann\".",
+        "genre": "Hard Rock",
+        "rating" : "80",
+        "duration": "36:47",
+        "tracks": [
+            "Amanda",
+            "We're Ready",
+            "The Launch",
+            "Cool The Engines",
+            "My Destination",
+            "A New World",
+            "To Be A Man",
+            "I Think I Like It",
+            "Can'tcha Say (You Believe in Me)/Still in Love",
+            "Hollyann"
+        ],
+        "applemusic":"https://music.apple.com/us/album/the-rembrandts-l-p/373220996",
+        "spotify":"https://open.spotify.com/album/6koDBGMqurYl3EZnaxCF7N"
+    }
+    ,
+    {
+        "artist": "Derek And The Dominos",
+        "album": "Layla And Other Assorted Love Songs",
+        "year": "1986",
+        "cover": "./assets/albumart/derek and the dominos - layla and other assorted love songs.webp",
+        "description": "An ambitious, sprawling double-album put together in the wake of Blind Faith's dissolution and the recording of George Harrison's <i>All Things Must Pass</i>. This group brings together Eric Clapton with Bobby Whitlock, Carl Radle, Jim Gordon and Duane Allman in an all-out force of nature masterwork drenched in whiskey and yearning.<br><br>The entire thing is just desire, heartbreak and tortured guitars all leading up to the titular \"Layla\"—a contrasting outburst of slick, double-tracked guitars. The whole album feels like yearning and desire for a girl, \"Layla\" is the final tipping point of emotion with the second half of the song being the feeling of release. \"Thorn Tree In The Garden\" is the perfect closer because it feels like the aftermath of the whole thing once the feelings have largely passed.<br><br>I would say it's not that easy a listen if you go into it expecting a bunch of \"Layla's\"—that song really sticks out on the album in terms of sound, style and ferocity. It's largely a bluesy, jamming album from a bunch of sad guys playing guitar. It didn't do well commercially at first, but it was later revisited by critics as \"one of the greatest of all-time.\"<br><br>But hey, if you've got to listen to it more than once to love it, that means it's gonna love you back.<br><br>My favourite songs off this one are \"Layla\", \"Bell Bottom Blues\", \"I Am Yours\", \"I Looked Away\" and \"Why Does Love Got To Be So Sad?\".",
+        "genre": "Blues Rock",
+        "rating" : "88",
+        "duration": "76:44",
+        "tracks": [
+            "I Looked Away",
+            "Bell Bottom Blues",
+            "Keep on Growing",
+            "Nobody Knows When You're Down and Out",
+            "I Am Yours",
+            "Anyday", 
+            "Key to the Highway", 
+            "Tell the Truth", 
+            "Why Does Love Got To Be So Sad?",
+            "Have You Ever Loved a Woman?",
+            "Little Wing",
+            "It's Too Late",
+            "Layla",
+            "Thorn Tree in the Garden"
+        ],
+        "applemusic":"https://music.apple.com/us/album/the-rembrandts-l-p/373220996",
+        "spotify":"https://open.spotify.com/album/6koDBGMqurYl3EZnaxCF7N"
     }
 ]
