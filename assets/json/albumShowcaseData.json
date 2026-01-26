@@ -1828,12 +1828,11 @@
         ],
         "applemusic":"https://music.apple.com/us/album/the-rembrandts-l-p/373220996",
         "spotify":"https://open.spotify.com/album/6koDBGMqurYl3EZnaxCF7N"
-    }
-    ,
+    },
     {
         "artist": "Derek And The Dominos",
         "album": "Layla And Other Assorted Love Songs",
-        "year": "1986",
+        "year": "1970",
         "cover": "./assets/albumart/derek and the dominos - layla and other assorted love songs.webp",
         "description": "An ambitious, sprawling double-album put together in the wake of Blind Faith's dissolution and the recording of George Harrison's <i>All Things Must Pass</i>. This group brings together Eric Clapton with Bobby Whitlock, Carl Radle, Jim Gordon and Duane Allman in an all-out force of nature masterwork drenched in whiskey and yearning.<br><br>The entire thing is just desire, heartbreak and tortured guitars all leading up to the titular \"Layla\"—a contrasting outburst of slick, double-tracked guitars. The whole album feels like yearning and desire for a girl, \"Layla\" is the final tipping point of emotion with the second half of the song being the feeling of release. \"Thorn Tree In The Garden\" is the perfect closer because it feels like the aftermath of the whole thing once the feelings have largely passed.<br><br>I would say it's not that easy a listen if you go into it expecting a bunch of \"Layla's\"—that song really sticks out on the album in terms of sound, style and ferocity. It's largely a bluesy, jamming album from a bunch of sad guys playing guitar. It didn't do well commercially at first, but it was later revisited by critics as \"one of the greatest of all-time.\"<br><br>But hey, if you've got to listen to it more than once to love it, that means it's gonna love you back.<br><br>My favourite songs off this one are \"Layla\", \"Bell Bottom Blues\", \"I Am Yours\", \"I Looked Away\" and \"Why Does Love Got To Be So Sad?\".",
         "genre": "Blues Rock",
@@ -1854,6 +1853,75 @@
             "It's Too Late",
             "Layla",
             "Thorn Tree in the Garden"
+        ],
+        "applemusic":"https://music.apple.com/us/album/the-rembrandts-l-p/373220996",
+        "spotify":"https://open.spotify.com/album/6koDBGMqurYl3EZnaxCF7N"
+    },
+    {
+        "artist": "Eric Clapton",
+        "album": "Slowhand",
+        "year": "1977",
+        "cover": "./assets/albumart/eric clapton - slowhand.webp",
+        "description": "It’s difficult to put into words the look I got when someone asked me what music I’ve enjoyed recently and I said “well, I’ve been really into Cocaine recently.”<br><br>I was, of course, talking about the leadoff track on Eric Clapton’s fifth album, <i>Slowhand</i>. It’s a fantastic album, and the first Clapton solo album I listened to after discovering him through Cream and later Derek & The Dominos. It’s well put together, bluesy and fun to listen to—but I guess I say all music I recommend is fun to listen to, don’t I?<br><br>I like Eric Clapton. I like this album. These songs don’t all have the big hooks and bounces for the casual listener, but they’ll love you back if you put some love into them.<br><br>My favourite tracks off this one are “Cocaine”, “Lay Down Sally”, “Next Time You See Her” and “Mean old Frisco”.",
+        "genre": "Blues Rock",
+        "rating" : "85",
+        "duration": "39:08",
+        "tracks": [
+            "Cocaine",
+            "Wonderful Tonight",
+            "Lay Down Sally",
+            "Next Time You See Her",
+            "We're All The Way",
+            "The Core",
+            "May You Never",
+            "Mean Old Frisco",
+            "Peaches and Diesel"
+        ],
+        "applemusic":"https://music.apple.com/us/album/the-rembrandts-l-p/373220996",
+        "spotify":"https://open.spotify.com/album/6koDBGMqurYl3EZnaxCF7N"
+    },
+    {
+        "artist": "Phil Collins",
+        "album": "Hello, I Must Be Going!",
+        "year": "1982",
+        "cover": "./assets/albumart/phil collins - hello i must be going.webp",
+        "description": "This album was my introduction to Phil Collins outside of Genesis. On my birthday, I rode my bike around the city and found it at a thrift store. Afterwards, I sat on a hot bench in the summer sun and looked up at the bright blue sky, then down at the deep blue of this album behind Collins’ face. I took another bite of my eggroll. Life was perfect.<br><br>Collins’ first solo album, Face Value, is a really good release coming out of the blocks firing. The follow-up to this one, No Jacket Required, is widely considered to be his best and most popular. Despite all that, this one is my favourite. It’s monstrously groovy, strong and really well executed. Despite its upbeat sound, the songs vary in subject matter—it’s a very interesting experience sonically and lyrically.<br><br>I first listened to this album in a dark hotel room off my iPod a couple days later—I’d just been to the Canadian Tire Grand Prix. So many good memories with this one. I listened to it a lot that summer, and I continually return to it.<br><br>My favourite tracks off this one are “Don’t Let Him Steal Your Heart Away”, “Why Can’t It Wait ‘Til Morning”, “It Don’t Matter To Me” and “I Don’t Care Anymore.” Above all, though, “I Cannot Believe It's True” is what I believe to be one of the best Phil Collins songs.",
+        "genre": "Pop Rock",
+        "rating" : "90",
+        "duration": "45:10",
+        "tracks": [
+            "I Don't Care Anymore",
+            "I Cannot Believe It's True",
+            "Like China",
+            "Do You Know, Do You Care?",
+            "You Can't Hurry Love",
+            "It Don't Matter To Me",
+            "Thru These Walls",
+            "Don't Let Him Steal Your Heart Away",
+            "The West Side",
+            "Why Can't It Wait 'Til Morning"
+        ],
+        "applemusic":"https://music.apple.com/us/album/the-rembrandts-l-p/373220996",
+        "spotify":"https://open.spotify.com/album/6koDBGMqurYl3EZnaxCF7N"
+    },
+    {
+        "artist": "The Grateful Dead",
+        "album": "Workingman's Dead",
+        "year": "1970",
+        "cover": "./assets/albumart/the grateful dead - workingmans dead.jpg",
+        "description": "Workingman’s Dead is a triumph in music. While, nothing can capture the unique, eclectic fusion of the Dead’s live sound, their studio albums (such as this one) feel like whole other beasts which stand on their own. It’s an interestingly concise and put-together album compared to their previous psychedelic stuff.<br><br>This album is a cornerstone of the Dead’s style of unplugged Americana and Roots Rock. It’s really laid back—zonked like the band—and you can’t really find this breed of that feeling on their other studio efforts. It’s gentle and feels good to listen to. It’s entertaining, but it’s not going to whack you off your feet or send you to space, just let you exist and relax.<br><br>I highly recommend this one. I’m not doing a good job of describing it because you just have to hear it.<br><br>My favourite tracks are “Casey Jones”, “Cumberland Blues”, “New Speedway Boogie” and “Uncle John’s Band”.",
+        "genre": "Roots Rock",
+        "rating" : "93",
+        "duration": "35:33",
+        "tracks": [
+            "Uncle John's Band",
+            "High Time",
+            "Dire Wolf",
+            "New Speedway Boogie",
+            "Cumberland Blues",
+            "Black Peter",
+            "Easy Wind",
+            "Casey Jones"
         ],
         "applemusic":"https://music.apple.com/us/album/the-rembrandts-l-p/373220996",
         "spotify":"https://open.spotify.com/album/6koDBGMqurYl3EZnaxCF7N"
