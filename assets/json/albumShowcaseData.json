@@ -1862,7 +1862,7 @@
         "album": "Slowhand",
         "year": "1977",
         "cover": "./assets/albumart/eric clapton - slowhand.webp",
-        "description": "It’s difficult to put into words the look I got when someone asked me what music I’ve enjoyed recently and I said “well, I’ve been really into Cocaine recently.”<br><br>I was, of course, talking about the leadoff track on Eric Clapton’s fifth album, <i>Slowhand</i>. It’s a fantastic album, and the first Clapton solo album I listened to after discovering him through Cream and later Derek & The Dominos. It’s well put together, bluesy and fun to listen to—but I guess I say all music I recommend is fun to listen to, don’t I?<br><br>I like Eric Clapton. I like this album. These songs don’t all have the big hooks and bounces for the casual listener, but they’ll love you back if you put some love into them.<br><br>My favourite tracks off this one are “Cocaine”, “Lay Down Sally”, “Next Time You See Her” and “Mean old Frisco”.",
+        "description": "It’s difficult to put into words the look I got when someone asked me what music I’ve enjoyed lately and I said “well, I’ve been really into Cocaine recently.”<br><br>I was, of course, talking about the leadoff track on Eric Clapton’s fifth album, <i>Slowhand</i>. It’s a fantastic album, and the first Clapton solo album I listened to after discovering him through Cream and later Derek & The Dominos. It’s well put together, bluesy and fun to listen to—but I guess I say all music I recommend is fun to listen to, don’t I?<br><br>I like Eric Clapton. I like this album. These songs don’t all have the big hooks and bounces for the casual listener, but they’ll love you back if you put some love into them.<br><br>My favourite tracks off this one are “Cocaine”, “Lay Down Sally”, “Next Time You See Her” and “Mean old Frisco”.",
         "genre": "Blues Rock",
         "rating" : "85",
         "duration": "39:08",
@@ -1922,6 +1922,30 @@
             "Black Peter",
             "Easy Wind",
             "Casey Jones"
+        ],
+        "applemusic":"https://music.apple.com/us/album/the-rembrandts-l-p/373220996",
+        "spotify":"https://open.spotify.com/album/6koDBGMqurYl3EZnaxCF7N"
+    },
+    {
+        "artist": "Boston",
+        "album": "Walk On",
+        "year": "1994",
+        "cover": "./assets/albumart/boston - walk on.webp",
+        "description": "This album is a colossal triumph for a band which had experienced so much instability over the previous decade, despite the hits. After the departure of vocalist Brad Drelp after the recording of <i>Third Stage</i>, Boston enlisted Fran Cosmo to sing lead on their next album, <i>Walk On</i>.<br><br>Just like Alice In Chains, Boston was still Boston and they never forgot how to rock. This album is loud and hard-hitting—it feels like it’s got a conviction and <i>oomph</i> their other albums just don’t have. I absolutely love it!<br><br>You can’t see <i>Walk On</i> as an attempt for a washed out 70’s band to return to the spotlight—Boston never really went anywhere, they were just interrupted a couple of times. This record is certified platinum and generated some awesome, hard-rocking singles and is right up there with other Boston albums. <br><br>Don’t just <i>Walk On</i>, listen to this album and love it if you like Boston—it’s AWESOME! It’ll have you singing from the rooftops every time the organs, guitars and drums erupt from your speakers.<br><br>My favorite tracks off this one are “Walk On”, “I Need Your Love”, “Surrender to Me”, “What’s Your Name” and “Livin’ For You”.",
+        "genre": "Hard Rock",
+        "rating" : "94",
+        "duration": "44:24",
+        "tracks": [
+            "I Need Your Love",
+            "Surrender to Me", 
+            "Livin' for You",
+            "Walkin' at Night", 
+            "Walk On", 
+            "Get Organ-ized/Get Reorgan-ized",
+            "Walk On (Some More)",
+            "What's Your Name",
+            "Magdalene", 
+            "We Can Make It"
         ],
         "applemusic":"https://music.apple.com/us/album/the-rembrandts-l-p/373220996",
         "spotify":"https://open.spotify.com/album/6koDBGMqurYl3EZnaxCF7N"

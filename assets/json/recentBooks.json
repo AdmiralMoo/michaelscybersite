@@ -582,5 +582,13 @@
         "monthread": "January",
         "yearread": "2026",
         "cover": "/assets/books/roadwork.webp"
+    },
+    {
+        "name":"Notes From the Underground",
+        "author": "Fyodor Dostoevsky",
+        "year": "1864",
+        "monthread": "January",
+        "yearread": "2026",
+        "cover": "/assets/books/notesfromtheunderground.webp"
     }
 ]
