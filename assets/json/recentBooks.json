@@ -590,5 +590,13 @@
         "monthread": "January",
         "yearread": "2026",
         "cover": "/assets/books/notesfromtheunderground.webp"
+    },
+    {
+        "name":"The Old Man and The Sea",
+        "author": "Ernest Hemingway",
+        "year": "1952",
+        "monthread": "February",
+        "yearread": "2026",
+        "cover": "/assets/books/theoldmanandthesea.webp"
     }
 ]
