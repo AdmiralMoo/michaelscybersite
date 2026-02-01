@@ -348,5 +348,15 @@
             { "artist": "Johann Strauss II", "album": "An Der Schönen, Blauen Donau", "cover": "./assets/albumart/johann strauss ii - an der schonen blauen donau.jpg" },
             { "artist": "Genesis", "album": "Abacab", "cover": "./assets/albumart/genesis - abacab.webp" }
         ]
+    },
+    {
+        "month": "January 2026",
+        "albums": [
+            { "artist": "Eric Clapton", "album": "Slowhand", "cover": "./assets/albumart/eric clapton - slowhand.webp" },
+            { "artist": "Billy Joel", "album": "The Stranger", "cover": "./assets/albumart/billy joel - the stranger.webp" },
+            { "artist": "Genesis", "album": "Genesis", "cover": "./assets/albumart/genesis - genesis.jpg" },
+            { "artist": "Foreigner", "album": "4", "cover": "./assets/albumart/foreigner - 4.webp" },
+            { "artist": "ZZ Top", "album": "Afterburner", "cover": "./assets/albumart/zz top - afterburner.webp" }
+        ]
     }
 ]

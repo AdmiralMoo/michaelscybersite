@@ -218,6 +218,8 @@
     user-select: none;
     -ms-user-select: none;
     -webkit-user-select: none;
+
+    height:100%;
 }
 
 .carousel-selector-button span
