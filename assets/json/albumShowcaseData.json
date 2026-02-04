@@ -1949,5 +1949,31 @@
         ],
         "applemusic":"https://music.apple.com/us/album/the-rembrandts-l-p/373220996",
         "spotify":"https://open.spotify.com/album/6koDBGMqurYl3EZnaxCF7N"
+    },
+    {
+        "artist": "Stone Temple Pilots",
+        "album": "Purple",
+        "year": "1994",
+        "cover": "./assets/albumart/stone temple pilots - purple.jpg",
+        "description": "This album was released without any markings on the spine or front which would indicate its’ name—for all practical intents and purposes in the physical realm, it’s a self-titled album. I’m not really sure where I first heard its name was purple because I still think of it as “the self-titled album”.<br><br>It’s a big step up over their debut in terms of production, flow and content; there’s hard-rocking grunge steeped in blues with elements of country and psychedelic rock. The bonus track after “Kitchenware and Candybars” is jazzy like lounge music—it’s a bit of a shock realizing this gritty Seattle singer is the second coming of Frank Sinatra in another timeline. <br><br>This album is a classic in the Grunge space and there’s lots of really fun songs on it, including ones which got lots of radio airplay. <br><br>My favourite tracks off this one are “Army Ants”, “Vasoline”, “Still Remains” and “Big Empty.”<br><br>",
+        "genre": "Grunge",
+        "rating" : "73",
+        "duration": "46:59",
+        "tracks": [
+            "Meatplow",
+            "Vasoline",
+            "Lounge Fly", 
+            "Interstate Love Song",
+            "Still Remains",
+            "Pretty Penny",
+            "Silvergun Superman", 
+            "Big Empty",
+            "Unglued",
+            "Army Ants",
+            "Kitchenware & Candybars",
+            "12 Gracious Melodies [Hidden Track]"
+        ],
+        "applemusic":"https://music.apple.com/us/album/the-rembrandts-l-p/373220996",
+        "spotify":"https://open.spotify.com/album/6koDBGMqurYl3EZnaxCF7N"
     }
 ]

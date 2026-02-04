@@ -598,5 +598,13 @@
         "monthread": "February",
         "yearread": "2026",
         "cover": "/assets/books/theoldmanandthesea.webp"
+    },
+    {
+        "name":"The Sun Also Rises",
+        "author": "Ernest Hemingway",
+        "year": "1926",
+        "monthread": "February",
+        "yearread": "2026",
+        "cover": "/assets/books/thesunalsorises.webp"
     }
 ]
