@@ -94,7 +94,7 @@
         "cover": "./assets/albumart/nine inch nails - broken.jpg",
         "description": "Pure, raw, relentless energy. This album spurs you up and sends you on a non-stop half-hour journey of colossal, aggressive guitars and distorted vocals. This EP unleashes the bitterness, hate and anger you can tangibly feel in the passionate—albeit subdued—singing on Pretty Hate Machine. It's an outburst of so many emotions, and I love it.<br><br>This EP was experimental for NIN; it served as a sandbox to test and refine sounds that would be used on <i>The Downward Spiral</i>. In fact, if you listen to this between the albums which come before and after it, it feels like a bridge between the two. This is my favourite NIN release. It's very heavy, and I think this isn't something you can recommend to just about anybody, but I think it's great. <br><br>My favourite tracks off this one are 'Last' and 'Happiness In Slavery', the latter of which is in my top three NIN songs overall.",
         "genre": "Industrial Metal",
-        "rating" : "100",
+        "rating" : "97",
         "duration": "33:09",
         "tracks": [
             "Pinion",
@@ -140,7 +140,7 @@
         "cover": "./assets/albumart/the tuesdays - the tuesdays.jpg",
         "description": "Do you like The Bangles? If so, here's the <i>Norwegian Bangles</i>—The Tuesdays—with what seems to be their first album in this incarnation of the band. I found this one at a thrift store and bought it thinking 'I bet they sound like The Bangles, but with the 90s alternative edge'. Somehow, I got that right, and I enjoy this half-decent album from time to time.<br><br>It's certainly not going to blow your brains out or send you to <i>The Dark Side of The Moon</i>, but it's energetic, catchy and enjoyable. The music is awesome, but it's more often than not let down by the songwriting. I'm realizing this album doesn't really exist online, so I don't know where you'll listen to it if you want to. But hey, a wise man once said, 'life, uh, finds a way'. My favourite track off this one is 'It's up to you'.",
         "genre": "Power Pop",
-        "rating" : "65",
+        "rating" : "63",
         "duration": "44:33",
         "tracks": [
             "Too Late to Be Good",
@@ -510,7 +510,7 @@
         "cover": "./assets/albumart/yes - 90125.jpg",
         "description": "A lot of people say that Yes went downhill in the 80s with this album. Due to the perceived decline of traditional rock and the rise of synthesizers, record labels forced Progressive Rock bands to distill their long and rambling compositions into short, radio-friendly tracks. Many fans of these bands swore they'd lever listen to this, and say that all these bands committed treason and crimes against humanity in this switch.<br><br>Progressive Rock became Progressive Pop, and yeah, it's very different, but there's still so much to enjoy. It has awesome guitar work and super catchy hooks; symphonic passages were replaced with solos layered atop bouncing synths to create a spectacular blend of then-contemporary pop and their out-of-this-world progressive origins. Some of these songs were written in conjunction with former Led Zeppelin members Jimmy Page and Robert Plant for a supergroup called 'XYZ' which never came to light. You've got <i>80s Pop</i> music, then you've got <i>Progressive Pop</i>—the latter wins every time.<br><br>Random fun fact: the title of the album is the catalogue ID of the album. My copy is '7 90125-2'<br><br>This is an album I would recommend to anyone. Whether you like Progressive Rock or not, you can really enjoy this one; these guys took their experience in being a pioneering band in one scene, and blazed their own trail in another. My favourite tracks are 'Leave it', 'Owner of a Lonely Heart' and 'It Can Happen'; the whole album is just a back-to-back riot of great music, really.",
         "genre": "Progressive Pop",
-        "rating" : "87",
+        "rating" : "96",
         "duration": "44:34",
         "tracks": [
             "Owner of a Lonely Heart",
@@ -1008,7 +1008,7 @@
         "cover": "./assets/albumart/richard strauss - eine alpensinfonie.jpg",
         "description": "Another spectacular tone poem from Richard Strauss. Eine Alpensinfonie consists of twenty-two musical sections, elaborated thematically as a single sonata-movement. Its an observation of the Bavarian Alps; their beauty, and their peril. If you close your eyes, you can imagine what Strauss saw when he lived there in the early 1900s.<br><br>Despite this being such an exciting composition, it was composed in three months between projects while Strauss was waiting on a collaborator to compose an opera. He said 'it gives me less pleasure than shaking maybugs off trees'.<br><br>Fun fact about this release right here: it was the very first test-pressing used during the development of the compact disc at Polydor. Deutsche Grammophon was instrumental (ha!) in the development of this wonderful technology and assisted the teams at both Phillips and Sony wherever they could.",
         "genre": "Tone Poem",
-        "rating" : "88",
+        "rating" : "80",
         "duration": "50:49",
         "tracks": [
             "Nacht",
@@ -1718,7 +1718,7 @@
         "cover": "./assets/albumart/american hi-fi - american hi-fi.jpg",
         "description": "American Hi-Fi is a Boston-based pop-punk/power-pop band fronted by Stacy Jones, the drummer of Veruca Salt. The album was produced by Canadian music legend Bob Rock, and has a punchy, excitable sound that I just can't get enough of. It's a fun album to listen to!<br><br>Just imagine Weezer and early Blink-182, but they're actually <i>good</i>. I know I talk a big game about liking all sorts of music—and I do—but I'm not a fan of Weezer. This website is a No-Weezer-Zone. Trespassers will be shot, survivors will be shot again.<br><br>The guitar work is pretty cool. I guess overall, the album isn't something earth-shattering, but it's an enjoyable record. It's something that I think should be listened to simply becuase it's good, honest music. <br><br>My favourite tracks off this one are \"Flavor of the Weak\", \"A Bigger Mood\", \"My Only Enemy\" and \"Another Perfect Day\".",
         "genre": "Pop Punk",
-        "rating" : "78",
+        "rating" : "70",
         "duration": "48:48",
         "tracks": [
             "Surround",
@@ -1812,7 +1812,7 @@
         "cover": "./assets/albumart/boston - third stage.jpg",
         "description": "Unfortunately, legal troubles and recording difficulties quickly ensued after the release of Boston's second album, delaying Third Stage by almost a decade. I would say the tumultuous six-year period this album took to create ultimately killed Boston's momentum and shifts them over into a \"what could've been\" kind of band.<br><br>That said, it's not a bad album. It's certainly quieter than the first two, reflecting more on stages of life, ageing and the time that'd passed. It feels more like a comeback album, restarting momentum rather than bursting onto the scene and riding the wave.<br><br>My favourite songs off this one are \"Amanda\", \"To Be A Man\", \"I Think I Like It\" and \"Hollyann\".",
         "genre": "Hard Rock",
-        "rating" : "80",
+        "rating" : "70",
         "duration": "36:47",
         "tracks": [
             "Amanda",
@@ -1972,6 +1972,29 @@
             "Army Ants",
             "Kitchenware & Candybars",
             "12 Gracious Melodies [Hidden Track]"
+        ],
+        "applemusic":"https://music.apple.com/us/album/the-rembrandts-l-p/373220996",
+        "spotify":"https://open.spotify.com/album/6koDBGMqurYl3EZnaxCF7N"
+    },
+    {
+        "artist": "The Eagles",
+        "album": "Hotel California",
+        "year": "1976",
+        "cover": "./assets/albumart/eagles - hotel california.webp",
+        "description": "Hotel California is one of the most melancholic, depressing albums I know. It’s sadder and steeped in more regret than any heavy metal, any “emo”—anything that’s tried to be sad since. <br><br>Sure, it’s legendary; it’s got slick licks and catchy hooks, good sequencing and fantastic songwriting—it’s got soul. It’s a beautiful album, really, but it sounds like someone who has lived long enough to hurt, love and grow apart. <br><br>That said, I wouldn’t discourage anyone from listening to this. If you’ve lived, loved and lost—if you’ve drawn a breath as a red-blooded, feelin’, free-wheelin’ human bein’, you’ll find a melody to enjoy here. <br><br>My favourite tracks off this one are “The Last Resort”, “Life in the Fast Lane”, “Wasted Time” and “Hotel California.”",
+        "genre": "Soft Rock",
+        "rating" : "89",
+        "duration": "43:78",
+        "tracks": [
+            "Hotel California",
+            "New Kid in Town",
+            "Life in the Fast Lane",
+            "Wasted Time",
+            "Wasted Time (Reprise)",
+            "Victim of Love",
+            "Pretty Maids All in a Row",
+            "Try and Love Again",
+            "The Last Resort"
         ],
         "applemusic":"https://music.apple.com/us/album/the-rembrandts-l-p/373220996",
         "spotify":"https://open.spotify.com/album/6koDBGMqurYl3EZnaxCF7N"
