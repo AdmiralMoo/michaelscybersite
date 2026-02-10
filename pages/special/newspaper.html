@@ -1,0 +1,451 @@
+<style>
+    /* Formatting Gubbins */
+    sup 
+    {
+        line-height: 0;
+        font-size: 0.83em;
+        vertical-align: super;
+    }
+
+    /* Styles for Hyperlinks */
+
+    .hyperlink
+    {
+        font-size: 0.9em;
+        font-style: italic;
+        font-weight: bold;
+        color: blue;
+        text-decoration: underline;
+        cursor: pointer;
+    }
+
+    .hyperlink:hover
+    {
+        color: rgb(75, 75, 255);
+    }
+
+    .hyperlink:visited, .hyperlink:active
+    {
+        color: rgb(255, 0, 255);
+    }
+
+    /* Body & Container Formatting */
+    body
+    {
+        width: 1200px;
+        z-index:2;
+    }
+
+    .newspaper-container
+    {
+        background-color: lightgray;
+        border: solid black 1px;
+
+        padding: 4px;
+
+        /*mask: repeating-conic-gradient(from 135deg at 50% 5px,#0000 0,#000 1deg 89deg,#0000 90deg 180deg) 50% -5px/10px;*/
+    }
+
+    /* Newspaper Banner Styles */
+    #newspaper-name
+    {
+        width: 100%;
+        object-fit: scale-down;
+        align-items: center;
+
+        padding-top: 0px;
+        padding-bottom: 2px;
+    }
+
+    .newspaper-header
+    {
+        width: 100%;
+    }
+
+    .newspaper-header-bar
+    {
+        width: 100%;
+        display: grid; 
+        grid-template-columns: 1fr 1fr 1fr;
+
+        border-bottom: 6px black double; 
+    }
+
+    .newspaper-header-bar p
+    {
+        margin:0px; 
+        padding:4px; 
+        font-family: 'EB Garamond', serif; 
+        font-weight:bold;
+        text-align: center;
+        place-items: end center;
+    }
+
+    #newspaper-header-slogan
+    {
+        margin:0; 
+        padding:0; 
+        align-self: center; 
+        font-family: 'EB Garamond', serif; 
+        font-size: 0.85em;
+        font-weight:bold; 
+        transform:scaleX(1.3);
+        text-align: center;
+        width: 100%;
+
+        padding-bottom: 8px;
+    }
+
+    /* Newspaper Grid Positioning */
+    .news-layout
+    {
+        display: grid;
+        grid-template-columns: 1fr 1fr 240px;
+        grid-template-rows: auto auto auto;
+        border: 1px solid black;
+
+        grid-template-areas:
+            "main       main        sidebar"
+            "top-left   top-right   sidebar"
+            "bot-left   bot-right   sidebar"
+            "cs         cs          cs";
+    }
+
+    .story-one  { grid-area: top-left; }
+    .story-two  { grid-area: top-right; }
+    .main       { grid-area: main; }
+    .bot-left   { grid-area: bot-left; }
+    .bot-right  { grid-area: bot-right; }
+    .sidebar    { grid-area: sidebar; }
+
+    /* Classifieds Formatting */
+    .classifieds-container 
+    { 
+        grid-area: cs;
+        border-top: 1px black solid;
+        padding: 4px;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .classifieds-body
+    {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+
+        gap: 1px;
+        padding: 2px;
+    }
+
+    #cs2,#cs3,#cs4,#cs5
+    {
+        padding-left: 6px;
+        box-sizing: border-box;
+        border-left: 1px black solid;
+    }
+
+    #classifieds-header
+    {
+        width: 100%;
+        font-weight: bold;
+        font-size: 1.2em;
+        text-align: center;
+        
+    }
+
+    /* Story Formatting */
+    .story-container
+    {
+        padding: 6px;
+    }
+
+    .story-headline
+    {
+        font-size: 1.6em;
+        font-weight: bold;
+    }
+
+    .story-body p
+    {
+        padding: 4px;
+    }
+
+    .story-image
+    {
+        float: left;
+        padding-right: 8px;
+        max-width: 50%;
+    }
+
+    .story-image img
+    {
+        object-fit: scale-down;
+        width: 100%;
+    }
+
+    .bw
+    {
+        filter: saturate(0.0);
+    }
+
+    /* Newspaper Banner Sizing */
+    @media(max-width: 400px)
+    {
+
+    }
+</style>
+
+
+<body>
+    <div class="newspaper-container">
+        <div class="newspaper-header">
+            <img id="newspaper-name" src="assets\site\sitebanner_gazette_1.png" style="max-height:50px;">
+            <p id="newspaper-header-slogan">– FACT, CONJECTURE, AND EVERYTHING IN BETWEEN –</p>
+            <span class="newspaper-header-bar">
+                <p style="text-align: left;" id="newspaper-date">GOOD AFTERNOON–TODAY IS MARCH 10TH</p>
+                <p id="newspaper-greeting">GOOD AFTERNOON–TODAY IS MARCH 10TH</p>
+                <p style="text-align: right;" id="newspaper-price">$4.50</p>
+            </span>
+        </div>
+        <div class="newspaper-body">
+            <div class="news-layout">
+                <div class="story-container main">
+                    <div>
+                        <span class="story-headline">Cadillac Shakes Down Car, Red Bull Launches Liveries</span>
+                        <div>
+                            <span>Correspondence by Ernest Hemingway</span>
+                            <span>02/10/2026</span>
+                        </div>
+                    </div>
+                    <div class="story-body">
+                        <div class="story-image">
+                            <img src="/assets/images/newspaper/cadillacshakedown.webp">
+                        </div>
+                        <p>Cadillac took their first step out on track today as F1's newest team as Sergio Perez took their 2026 challenger out for a spin at Silverstone<br><br>With it, we actually got some pretty clear shots of a car under the new regulations released officially by the Cadillac race team. I'm excited to see how they do. My Dad has become a big fan of them in recent years because of their V.Series-R program in IMSA.<br><br>Red Bull and their sister team launched their liveries on showcars as well, and I have to say, they're looking good. Not much changed other than a return to glossy paint finish, which I think is brilliant. In fact, I was just complaining about matte finishes last season!</p>
+                    </div>
+                </div>
+                <div class="story-one"></div>
+                <div class="story-two">X</div>
+                <div class="bot-left">X</div>
+                <div class="bot-right">X</div>
+                <div class="sidebar">|</div>
+                <div class="classifieds-container">
+                    <div id="classifieds-header">CLASSIFIEDS</div>
+                    <hr style="margin: 0px; padding: 1px; width: 5%;"></hr>
+                    <div class="classifieds-body">
+                        <div id="cs1"></div>
+                        <div id="cs2"></div>
+                        <div id="cs3"></div>
+                        <div id="cs4"></div>
+                        <div id="cs5"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <span class="hyperlink">read the full changelog...</span>
+    </div>
+</body>
+
+<script>
+    window.onload = function() 
+    {
+        UpdateNewsTitle();
+        UpdateSiteClassifieds();
+    }
+
+    /*News Titles*/
+    function UpdateNewsTitle() 
+    {
+        //Set the newspaper name:
+        const newspaperBanner = document.getElementById("newspaper-name");
+        newspaperBanner.src = "/assets/site/sitebanner_gazette_" + Math.floor(Math.random() * 10 + 1) + ".png";
+        
+        //Define greeting based on the time of day
+        const date = new Date();
+        let greeting = '';
+        let datemsg = '';
+        const hour = date.getHours();
+
+        if (hour >= 5 && hour < 12) {
+            greeting = 'GOOD MORNING';
+        } else if (hour >= 12 && hour < 17) {
+            greeting = 'GOOD AFTERNOON';
+        } else if (hour >= 17 && hour < 21) {
+            greeting = 'GOOD EVENING';
+        } else {
+            greeting = 'GO TO BED';
+        }
+
+        document.getElementById('newspaper-greeting').innerHTML = `${greeting}`;
+
+        //Get the date and format it
+        const options = { month: 'long', day: 'numeric' };
+        let formattedDate = date.toLocaleDateString('en-US', options); 
+        formattedDate = formattedDate.toUpperCase();
+
+        if (formattedDate.slice(-1) == 1)
+        {
+            formattedDate += "<sup>st</sup>";
+        } else if (formattedDate.slice(-1) == 2)
+        {
+            formattedDate += "<sup>nd</sup>";
+        } else if (formattedDate.slice(-1) == 3)
+        {
+            formattedDate += "<sup>rd</sup>";
+        } else
+        {
+            formattedDate += "<sup>th</sup>";
+        }
+
+        document.getElementById('newspaper-date').innerHTML = `${formattedDate}, ${date.getFullYear()}`;
+
+        //Set a price
+        let price = Math.floor(Math.random() * 683 + 25) / 100;
+        document.getElementById('newspaper-price').innerHTML = `$${price}`;
+    };
+
+    /*Classifieds*/
+
+    function UpdateSiteClassifieds()
+    {
+        fetch('/assets/json/newspapermessages.json')
+        .then(response => response.json())
+        .then(data => {
+            const classifieds = data.classifieds;
+            const randomMessageOne = classifieds[Math.floor(Math.random() * classifieds.length)];
+            const randomMessageTwo = classifieds[Math.floor(Math.random() * classifieds.length)];
+            const randomMessageThree = classifieds[Math.floor(Math.random() * classifieds.length)];
+            const randomMessageFour = classifieds[Math.floor(Math.random() * classifieds.length)];
+            const randomMessageFive = classifieds[Math.floor(Math.random() * classifieds.length)];
+
+            document.querySelector('#cs1').innerHTML = `${formatClassified(randomMessageOne)}`;
+            document.querySelector('#cs2').innerHTML = `${formatClassified(randomMessageTwo)}`;
+            document.querySelector('#cs3').innerHTML = `${formatClassified(randomMessageThree)}`;
+            document.querySelector('#cs4').innerHTML = `${formatClassified(randomMessageFour)}`;
+            document.querySelector('#cs5').innerHTML = `${formatClassified(randomMessageFive)}`;
+        })
+        .catch(error => console.error('Error fetching footer messages:', error));
+    }
+
+    function formatClassified(msg) 
+    {
+        const parts = msg.split(":");
+        if (parts.length > 1) {
+            return `<b>${parts[0]}:</b>${parts.slice(1).join(":")}`;
+        }
+        return msg;
+    }
+
+    /*News Stories*/
+    function InsertNewsStory(slotID, storyIndex, truncate)
+    {
+        const newspaperBodyArea = document.getElementById(slotID);
+        newspaperBodyArea.innerHTML = "";
+        let htmlContent = '';
+
+        fetch('./assets/json/newspapermessages.json')
+            .then(response => response.json())
+            .then(data => {
+            const bylines = data.bylines;
+            const authors = data.newsauthors;
+
+            newsStories.forEach(story => {
+                if (storiesLoaded < showStories) {
+                const prefix = bylines[Math.floor(Math.random() * bylines.length)];
+                const author = authors[Math.floor(Math.random() * authors.length)];
+                const byline = prefix + author;
+
+                htmlContent += `
+                    <div class="story-headline">
+                        <span>${story.headline}</span>
+                    </div>
+                    <div class="story-body">
+                        <div class="story-image">
+                            <img src="/assets/images/newspaper/cadillacshakedown.webp">
+                        </div>
+                        <p>Cadillac took their first step out on track today as F1's newest team as Sergio Perez took their 2026 challenger out for a spin at Silverstone<br><br>With it, we actually got some pretty clear shots of a car under the new regulations released officially by the Cadillac race team. I'm excited to see how they do. My Dad has become a big fan of them in recent years because of their V.Series-R program in IMSA.<br><br>Red Bull and their sister team launched their liveries on showcars as well, and I have to say, they're looking good. Not much changed other than a return to glossy paint finish, which I think is brilliant. In fact, I was just complaining about matte finishes last season!</p>
+                    </div>
+                    <div class="newsbox body-box grooveborder" style="flex-direction: column; gap: 0; margin: 0;">
+                    <div class="side-by-side newstitle">
+                        <p><i>${story.headline}</i></p>
+                        <p>${story.date}</p>
+                    </div>
+                    <div style="text-align:right; margin-bottom: 5px;">
+                        <i><b>${byline}</b></i>
+                    </div>
+                    <div class="body-box" style="padding: 0;">
+                        <div class="img-container">
+                        <img style="${story.imagestyle}" src="${story.image}" alt="News Image">
+                        </div>
+                        <div class="box-container">
+                        <p>${story.body}</p>
+                        </div>
+                    </div>
+                    </div>
+                `;
+                }
+            });
+        );
+    }
+    
+    function UpdateNewsStories() 
+    {
+        if (!newsStories) {
+            console.error('No news stories loaded');
+            return;
+        }
+
+        const newspaperBodyArea = document.getElementById("newsContainer");
+        newspaperBodyArea.innerHTML = "";
+        let htmlContent = '';
+
+        fetch('./assets/json/newspapermessages.json')
+            .then(response => response.json())
+            .then(data => {
+            const bylines = data.bylines;
+            const authors = data.newsauthors;
+
+            newsStories.forEach(story => {
+                if (storiesLoaded < showStories) {
+                const prefix = bylines[Math.floor(Math.random() * bylines.length)];
+                const author = authors[Math.floor(Math.random() * authors.length)];
+                const byline = prefix + author;
+
+                htmlContent += `
+                    <div class="newsbox body-box grooveborder" style="flex-direction: column; gap: 0; margin: 0;">
+                    <div class="side-by-side newstitle">
+                        <p><i>${story.headline}</i></p>
+                        <p>${story.date}</p>
+                    </div>
+                    <div style="text-align:right; margin-bottom: 5px;">
+                        <i><b>${byline}</b></i>
+                    </div>
+                    <div class="body-box" style="padding: 0;">
+                        <div class="img-container">
+                        <img style="${story.imagestyle}" src="${story.image}" alt="News Image">
+                        </div>
+                        <div class="box-container">
+                        <p>${story.body}</p>
+                        </div>
+                    </div>
+                    </div>
+                `;
+                storiesLoaded++;
+                }
+            });
+
+            htmlContent += `
+                <div id="moreStoriesButton" class="navbutton outsideborder" style="min-width:100%">
+                <p>Load More Stories</p>
+                </div>
+            `;
+
+            newspaperBodyArea.innerHTML = htmlContent;
+            document.getElementById("moreStoriesButton")
+                .addEventListener("click", () => showMoreStories());
+            }
+        );
+    }
+</script>
