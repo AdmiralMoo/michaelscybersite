@@ -7,6 +7,17 @@
         vertical-align: super;
     }
 
+    .bw
+    {
+        filter: saturate(0.0);
+    }
+
+    .space-between
+    {
+        display: flex;
+        justify-content: space-between;
+    }
+
     /* Styles for Hyperlinks */
 
     .hyperlink
@@ -111,12 +122,12 @@
             "cs         cs          cs";
     }
 
-    .story-one  { grid-area: top-left; }
+    .story-one  { grid-area: top-left;  }
     .story-two  { grid-area: top-right; }
-    .main       { grid-area: main; }
-    .bot-left   { grid-area: bot-left; }
+    .main       { grid-area: main;      }
+    .bot-left   { grid-area: bot-left;  }
     .bot-right  { grid-area: bot-right; }
-    .sidebar    { grid-area: sidebar; }
+    .sidebar    { grid-area: sidebar;   }
 
     /* Classifieds Formatting */
     .classifieds-container 
@@ -130,6 +141,7 @@
         align-items: center;
         justify-content: center;
     }
+
     .classifieds-body
     {
         display: grid;
@@ -158,7 +170,8 @@
     /* Story Formatting */
     .story-container
     {
-        padding: 6px;
+        padding: 4px;
+        margin: 4px;
     }
 
     .story-headline
@@ -167,9 +180,17 @@
         font-weight: bold;
     }
 
+    .story-body
+    {
+        margin-top: 2px;
+    }
+    
     .story-body p
     {
-        padding: 4px;
+        margin-top:0px;
+        padding-left: 4px;
+        padding-right: 4px;
+        padding-bottom: 4px;
     }
 
     .story-image
@@ -185,9 +206,67 @@
         width: 100%;
     }
 
-    .bw
+    /* Story-specific formatting */
+    .story-one .story-image, .story-two .story-image
     {
         filter: saturate(0.0);
+    }
+
+    .story-one .story-headline, .story-two .story-headline
+    {
+        font-size: 1.3em;
+        letter-spacing: -0.5px;
+    }
+
+    .main
+    {
+        border-bottom: 1px solid black;  
+        padding-bottom: 8px;
+    }
+
+    .story-two
+    {
+        border-left: 1px solid black;
+        padding-left: 12px;
+    }
+
+    /* News Popups For Crap-Cut-Truncated-Things */
+    .news-popup::after
+    {
+        content: "";
+        visibility: hidden;
+    }
+
+    #modal-1, #modal-2 {
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        background-color: rgba(0,0,0,.5);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #modal-1:not(:target), #modal-2:not(:target)
+    {
+        visibility: hidden;
+        opacity: 0;
+    }
+
+    .modal__window 
+    {
+        position: relative;
+        background-color: white;
+        padding: 4em 2em;
+    }
+
+    .modal__close 
+    {
+        position: absolute;
+        top: -30px;
+        right: 0;
     }
 
     /* Newspaper Banner Sizing */
@@ -211,23 +290,9 @@
         </div>
         <div class="newspaper-body">
             <div class="news-layout">
-                <div class="story-container main">
-                    <div>
-                        <span class="story-headline">Cadillac Shakes Down Car, Red Bull Launches Liveries</span>
-                        <div>
-                            <span>Correspondence by Ernest Hemingway</span>
-                            <span>02/10/2026</span>
-                        </div>
-                    </div>
-                    <div class="story-body">
-                        <div class="story-image">
-                            <img src="/assets/images/newspaper/cadillacshakedown.webp">
-                        </div>
-                        <p>Cadillac took their first step out on track today as F1's newest team as Sergio Perez took their 2026 challenger out for a spin at Silverstone<br><br>With it, we actually got some pretty clear shots of a car under the new regulations released officially by the Cadillac race team. I'm excited to see how they do. My Dad has become a big fan of them in recent years because of their V.Series-R program in IMSA.<br><br>Red Bull and their sister team launched their liveries on showcars as well, and I have to say, they're looking good. Not much changed other than a return to glossy paint finish, which I think is brilliant. In fact, I was just complaining about matte finishes last season!</p>
-                    </div>
-                </div>
-                <div class="story-one"></div>
-                <div class="story-two">X</div>
+                <div id="readmore-one" class="story-container main"></div>
+                <div id="readmore-two"class="story-container story-one"></div>
+                <div id="readmore-three"class="story-container story-two"></div>
                 <div class="bot-left">X</div>
                 <div class="bot-right">X</div>
                 <div class="sidebar">|</div>
@@ -244,7 +309,6 @@
                 </div>
             </div>
         </div>
-        <span class="hyperlink">read the full changelog...</span>
     </div>
 </body>
 
@@ -253,6 +317,9 @@
     {
         UpdateNewsTitle();
         UpdateSiteClassifieds();
+        InsertNewsStory("main", 0, false);
+        InsertNewsStory("story-one", 1, true);
+        InsertNewsStory("story-two", 2, true);
     }
 
     /*News Titles*/
@@ -341,110 +408,84 @@
     /*News Stories*/
     function InsertNewsStory(slotID, storyIndex, truncate)
     {
-        const newspaperBodyArea = document.getElementById(slotID);
+        const newspaperBodyArea = document.getElementsByClassName(slotID)[0];
         newspaperBodyArea.innerHTML = "";
         let htmlContent = '';
+        let byline = ''
 
-        fetch('./assets/json/newspapermessages.json')
+        /* Get the byline */
+        fetch('/assets/json/newspapermessages.json')
             .then(response => response.json())
-            .then(data => {
-            const bylines = data.bylines;
-            const authors = data.newsauthors;
+            .then(data => 
+            {
+                const bylines = data.bylines;
+                const authors = data.newsauthors;
 
-            newsStories.forEach(story => {
-                if (storiesLoaded < showStories) {
                 const prefix = bylines[Math.floor(Math.random() * bylines.length)];
                 const author = authors[Math.floor(Math.random() * authors.length)];
-                const byline = prefix + author;
+                byline = prefix + author;
+            }
+        );
 
+        /* Get the story */
+        fetch('/assets/json/newspaperStories.json')
+            .then(response => response.json())
+            .then(data => 
+            {
+                story = data[storyIndex];
+                bodyText = story.body;
+
+                /* "Cut the crap" as The Clash say */
+                if (truncate)
+                {
+                    bodyText = bodyText.split(" ").splice(0,45).join(" ");
+                    bodyText += "...";
+                }
+
+                /* Build content */
                 htmlContent += `
-                    <div class="story-headline">
-                        <span>${story.headline}</span>
+                    <div class="story-header">
+                        <span class="story-headline">${story.headline}</span>
+                        <div class="space-between">
+                            <span style="font-style: italic;">${byline}</span>
+                            <span>${story.date}</span>
+                        </div>
                     </div>
                     <div class="story-body">
                         <div class="story-image">
-                            <img src="/assets/images/newspaper/cadillacshakedown.webp">
+                            <img src="${story.image}">
                         </div>
-                        <p>Cadillac took their first step out on track today as F1's newest team as Sergio Perez took their 2026 challenger out for a spin at Silverstone<br><br>With it, we actually got some pretty clear shots of a car under the new regulations released officially by the Cadillac race team. I'm excited to see how they do. My Dad has become a big fan of them in recent years because of their V.Series-R program in IMSA.<br><br>Red Bull and their sister team launched their liveries on showcars as well, and I have to say, they're looking good. Not much changed other than a return to glossy paint finish, which I think is brilliant. In fact, I was just complaining about matte finishes last season!</p>
-                    </div>
-                    <div class="newsbox body-box grooveborder" style="flex-direction: column; gap: 0; margin: 0;">
-                    <div class="side-by-side newstitle">
-                        <p><i>${story.headline}</i></p>
-                        <p>${story.date}</p>
-                    </div>
-                    <div style="text-align:right; margin-bottom: 5px;">
-                        <i><b>${byline}</b></i>
-                    </div>
-                    <div class="body-box" style="padding: 0;">
-                        <div class="img-container">
-                        <img style="${story.imagestyle}" src="${story.image}" alt="News Image">
-                        </div>
-                        <div class="box-container">
-                        <p>${story.body}</p>
-                        </div>
-                    </div>
-                    </div>
+                        <p>${bodyText}
                 `;
+
+                if (truncate)
+                {
+                    htmlContent += `
+                        <br><span class="hyperlink" style="text-align: end; width: 35%; float: right;"><a href="#modal-${storyIndex}>read the full story...</a></span>
+                    `;
                 }
-            });
-        );
-    }
-    
-    function UpdateNewsStories() 
-    {
-        if (!newsStories) {
-            console.error('No news stories loaded');
-            return;
-        }
 
-        const newspaperBodyArea = document.getElementById("newsContainer");
-        newspaperBodyArea.innerHTML = "";
-        let htmlContent = '';
-
-        fetch('./assets/json/newspapermessages.json')
-            .then(response => response.json())
-            .then(data => {
-            const bylines = data.bylines;
-            const authors = data.newsauthors;
-
-            newsStories.forEach(story => {
-                if (storiesLoaded < showStories) {
-                const prefix = bylines[Math.floor(Math.random() * bylines.length)];
-                const author = authors[Math.floor(Math.random() * authors.length)];
-                const byline = prefix + author;
+                //https://dev.to/pachicodes/creating-a-css-modal-window-pop-up-step-by-step-1f59
 
                 htmlContent += `
-                    <div class="newsbox body-box grooveborder" style="flex-direction: column; gap: 0; margin: 0;">
-                    <div class="side-by-side newstitle">
-                        <p><i>${story.headline}</i></p>
-                        <p>${story.date}</p>
-                    </div>
-                    <div style="text-align:right; margin-bottom: 5px;">
-                        <i><b>${byline}</b></i>
-                    </div>
-                    <div class="body-box" style="padding: 0;">
-                        <div class="img-container">
-                        <img style="${story.imagestyle}" src="${story.image}" alt="News Image">
-                        </div>
-                        <div class="box-container">
-                        <p>${story.body}</p>
-                        </div>
-                    </div>
+                        </p>
                     </div>
                 `;
-                storiesLoaded++;
+
+                if (truncate)
+                {
+                    htmlContent += `
+                        <div id="modal-${storyIndex}">
+                            <div class="modal__window">
+                                <a class="modal__close" href="#">X</a>
+                                <h2>Please to meet you!</h2>
+                                <p>Hello there, I am a nice Modal Window.</p> 
+                            </div>
+                        </div>
+                    `;
                 }
-            });
 
-            htmlContent += `
-                <div id="moreStoriesButton" class="navbutton outsideborder" style="min-width:100%">
-                <p>Load More Stories</p>
-                </div>
-            `;
-
-            newspaperBodyArea.innerHTML = htmlContent;
-            document.getElementById("moreStoriesButton")
-                .addEventListener("click", () => showMoreStories());
+                newspaperBodyArea.innerHTML = htmlContent;
             }
         );
     }
