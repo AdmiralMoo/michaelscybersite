@@ -19,8 +19,7 @@
     }
 
     /* Styles for Hyperlinks */
-
-    .hyperlink
+    .hyperlink, .hyperlink:visited
     {
         font-size: 0.9em;
         font-style: italic;
@@ -35,7 +34,7 @@
         color: rgb(75, 75, 255);
     }
 
-    .hyperlink:visited, .hyperlink:active
+    .hyperlink:active
     {
         color: rgb(255, 0, 255);
     }
@@ -50,9 +49,8 @@
     .newspaper-container
     {
         background-color: lightgray;
-        border: solid black 1px;
-
-        padding: 4px;
+    
+        padding: 6px;
 
         /*mask: repeating-conic-gradient(from 135deg at 50% 5px,#0000 0,#000 1deg 89deg,#0000 90deg 180deg) 50% -5px/10px;*/
     }
@@ -164,7 +162,6 @@
         font-weight: bold;
         font-size: 1.2em;
         text-align: center;
-        
     }
 
     /* Story Formatting */
@@ -198,6 +195,7 @@
         float: left;
         padding-right: 8px;
         max-width: 50%;
+        z-index: 1;
     }
 
     .story-image img
@@ -210,6 +208,7 @@
     .story-one .story-image, .story-two .story-image
     {
         filter: saturate(0.0);
+        z-index: 1;
     }
 
     .story-one .story-headline, .story-two .story-headline
@@ -224,10 +223,38 @@
         padding-bottom: 8px;
     }
 
+    .story-one
+    {
+        border-bottom: 1px solid black;
+    }
+
     .story-two
     {
         border-left: 1px solid black;
         padding-left: 12px;
+    }
+
+    .bot-left
+    {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .story-three-a, .story-three-b
+    {
+        padding: 4px;
+        margin: 4px;
+    }
+
+    .story-three-b
+    {
+        border-left: 1px solid black;
+        padding-left: 12px;
+    }
+
+    .bot-left .story-headline
+    {
+        font-size: 1.1em;
     }
 
     /* News Popups For Crap-Cut-Truncated-Things */
@@ -237,19 +264,21 @@
         visibility: hidden;
     }
 
-    #modal-1, #modal-2 {
+    #modal-one, #modal-two, #modal-three, #modal-four, #modal-five, #modal-six, #modal-seven {
         position: fixed;
         top: 0;
         left: 0;
         height: 100%;
+        max-width: 100%;
         width: 100%;
         background-color: rgba(0,0,0,.5);
         display: flex;
         justify-content: center;
         align-items: center;
+        z-index: 2;
     }
 
-    #modal-1:not(:target), #modal-2:not(:target)
+    #modal-one:not(:target), #modal-two:not(:target), #modal-three:not(:target), #modal-four:not(:target), #modal-five:not(:target), #modal-six:not(:target), #modal-seven:not(:target)
     {
         visibility: hidden;
         opacity: 0;
@@ -257,16 +286,33 @@
 
     .modal__window 
     {
-        position: relative;
-        background-color: white;
+        position: relative; 
+        background-color: rgb(240,240,240);
+        max-width: 512px;
         padding: 4em 2em;
+
+        box-shadow: 12px 12px rgb(0, 0, 0), 24px 24px rgba(0, 0, 0, 0.75), 36px 36px rgba(0, 0, 0, 0.5), 48px 48px rgba(0, 0, 0, 0.25);
     }
 
     .modal__close 
     {
         position: absolute;
-        top: -30px;
+        top: 0;
         right: 0;
+
+        width: 32px;
+        height: 32px;
+        background-color: rgb(202, 23, 23);
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-justify: center;
+
+        color: black;
+        font-weight: bold;
+        font-family: sans-serif;
+        text-decoration: none;
     }
 
     /* Newspaper Banner Sizing */
@@ -290,11 +336,14 @@
         </div>
         <div class="newspaper-body">
             <div class="news-layout">
-                <div id="readmore-one" class="story-container main"></div>
-                <div id="readmore-two"class="story-container story-one"></div>
-                <div id="readmore-three"class="story-container story-two"></div>
-                <div class="bot-left">X</div>
-                <div class="bot-right">X</div>
+                <div class="story-container main"></div>
+                <div class="story-container story-one"></div>
+                <div class="story-container story-two"></div>
+                <div class="bot-left">
+                    <div class="story-three-a"></div>
+                    <div class="story-three-b"></div>
+                </div>
+                <div class="bot-right"></div>
                 <div class="sidebar">|</div>
                 <div class="classifieds-container">
                     <div id="classifieds-header">CLASSIFIEDS</div>
@@ -317,9 +366,11 @@
     {
         UpdateNewsTitle();
         UpdateSiteClassifieds();
-        InsertNewsStory("main", 0, false);
-        InsertNewsStory("story-one", 1, true);
-        InsertNewsStory("story-two", 2, true);
+        InsertNewsStory("main", 0, true, true, 200, "read the full story...");
+        InsertNewsStory("story-one", 1, true, true, 45, "read the full story...");
+        InsertNewsStory("story-two", 2, true, true, 45, "read the full story...");
+        InsertNewsStory("story-three-a", 3, false, false, 0, "read...");
+        InsertNewsStory("story-three-b", 4, false, false, 0, "read...");
     }
 
     /*News Titles*/
@@ -406,12 +457,21 @@
     }
 
     /*News Stories*/
-    function InsertNewsStory(slotID, storyIndex, truncate)
+    function InsertNewsStory(slotID, storyIndex, showImage, showByline, truncateWords, truncatePrompt)
     {
         const newspaperBodyArea = document.getElementsByClassName(slotID)[0];
         newspaperBodyArea.innerHTML = "";
         let htmlContent = '';
         let byline = ''
+        let indexString = '';
+        let truncate = true;
+        if (storyIndex == 0) { indexString = "one"; }
+        if (storyIndex == 1) { indexString = "two"; }
+        if (storyIndex == 2) { indexString = "three"; }
+        if (storyIndex == 3) { indexString = "four"; }
+        if (storyIndex == 4) { indexString = "five"; }
+        if (storyIndex == 5) { indexString = "six"; }
+        if (storyIndex == 6) { indexString = "seven"; }
 
         /* Get the byline */
         fetch('/assets/json/newspapermessages.json')
@@ -434,12 +494,22 @@
             {
                 story = data[storyIndex];
                 bodyText = story.body;
+                let modalID = `modal-${indexString}`;
 
-                /* "Cut the crap" as The Clash say */
+                /* "Cut the crap" as The Clash say 
+                 * -Check to see if we even need to truncate in the first place
+                */
                 if (truncate)
                 {
-                    bodyText = bodyText.split(" ").splice(0,45).join(" ");
-                    bodyText += "...";
+                    if (story.body.split(" ").length < truncateWords)
+                    {
+                        truncate = false;
+                    }
+                    else
+                    {
+                        bodyText = bodyText.split(" ").splice(0,truncateWords).join(" ");
+                        bodyText += "...";
+                    }
                 }
 
                 /* Build content */
@@ -447,25 +517,52 @@
                     <div class="story-header">
                         <span class="story-headline">${story.headline}</span>
                         <div class="space-between">
+                `;
+
+                if (showByline)
+                {
+                    htmlContent += `
                             <span style="font-style: italic;">${byline}</span>
-                            <span>${story.date}</span>
+                    `;
+                }
+
+                if (truncate && !showByline)
+                {
+                    htmlContent += `
+                        <span>${story.date}</span>
+                        <br><a class="hyperlink" style="text-align: end; width: 35%; float: right;" href="\#${modalID}">${truncatePrompt}</a>
+                    `;
+                }
+                else
+                {
+                    htmlContent += `
+                        <span>${story.date}</span>
+                    `;
+                }
+
+                htmlContent += `
                         </div>
                     </div>
                     <div class="story-body">
+                `;
+
+                /* If we want an image thumbnail */
+                if (showImage)
+                {
+                    htmlContent += `
                         <div class="story-image">
                             <img src="${story.image}">
                         </div>
                         <p>${bodyText}
-                `;
-
-                if (truncate)
-                {
-                    htmlContent += `
-                        <br><span class="hyperlink" style="text-align: end; width: 35%; float: right;"><a href="#modal-${storyIndex}>read the full story...</a></span>
                     `;
                 }
 
-                //https://dev.to/pachicodes/creating-a-css-modal-window-pop-up-step-by-step-1f59
+                if (truncate && showByline)
+                {
+                    htmlContent += `
+                        <br><a class="hyperlink" style="text-align: end; width: 35%; float: right;" href="\#${modalID}">${truncatePrompt}</a>
+                    `;
+                }
 
                 htmlContent += `
                         </p>
@@ -475,11 +572,19 @@
                 if (truncate)
                 {
                     htmlContent += `
-                        <div id="modal-${storyIndex}">
+                        <div id="${modalID}">
                             <div class="modal__window">
                                 <a class="modal__close" href="#">X</a>
-                                <h2>Please to meet you!</h2>
-                                <p>Hello there, I am a nice Modal Window.</p> 
+                                <h2>${story.headline}</h2>
+                                <div class="space-between">
+                                    <span style="font-style: italic;">${byline}</span>
+                                    <span>${story.date}</span>
+                                </div>
+                                <hr style="width: 97%;">
+                                <div style="width:100%; height: auto;">
+                                    <img class="bw" style="object-fit: fill; width: 100%;" src="${story.image}">
+                                </div>
+                                <p>${story.body}</p> 
                             </div>
                         </div>
                     `;
