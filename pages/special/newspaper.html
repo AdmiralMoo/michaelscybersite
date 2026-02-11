@@ -116,7 +116,7 @@
         grid-template-areas:
             "main       main        sidebar"
             "top-left   top-right   sidebar"
-            "bot-left   bot-right   sidebar"
+            "bot-left   bot-right   bot-corner"
             "cs         cs          cs";
     }
 
@@ -125,6 +125,7 @@
     .main       { grid-area: main;      }
     .bot-left   { grid-area: bot-left;  }
     .bot-right  { grid-area: bot-right; }
+    .bot-corner { grid-area: bot-corner; }
     .sidebar    { grid-area: sidebar;   }
 
     /* Classifieds Formatting */
@@ -259,6 +260,12 @@
         font-size: 1.1em;
     }
 
+    .sidebar
+    {
+        border-left: 1px solid black;
+        padding-left: 12px;
+    }
+
     /* News Popups For Crap-Cut-Truncated-Things */
     .news-popup::after
     {
@@ -346,7 +353,24 @@
                     <div class="story-container story-three-b"></div>
                 </div>
                 <div class="bot-right"></div>
-                <div class="story-container sidebar">|</div>
+                <div class="story-container sidebar">
+                    <div class="story-header">
+                        <p class="story-headline" style="width:100%; text-align: center; padding-top:0px; margin-top:0px; margin-bottom: -3px;">MIXED NUTS</p>
+                        <hr style="width:95%"> 
+                        <p class="story-headline" style="
+                            width:100%; 
+                            text-align: center; 
+                            padding-top:0px; 
+                            padding-bottom:3px; 
+                            margin-top:-3px; 
+                            margin-bottom: 0px; 
+                            letter-spacing: -0.5px; 
+                            font-size: 0.9em;
+                            border-bottom: 3px double black;
+                            ">Quality Reporting From Your Backyard & Beyond
+                        </p>
+                    </div>
+                </div>
                 <div class="classifieds-container">
                     <div id="classifieds-header">CLASSIFIEDS</div>
                     <hr style="margin: 0px; padding: 1px; width: 5%;"></hr>
@@ -358,6 +382,7 @@
                         <div id="cs5"></div>
                     </div>
                 </div>
+                <div class="story-container bot-corner"></div>
             </div>
         </div>
     </div>
@@ -428,7 +453,6 @@
     };
 
     /*Classifieds*/
-
     function UpdateSiteClassifieds()
     {
         fetch('/assets/json/newspapermessages.json')
@@ -478,7 +502,7 @@
                 content += result;
             }
 
-            document.getElementsByClassName(slotID)[0].innerHTML = content;
+            document.getElementsByClassName(slotID)[0].innerHTML += content;
         })
         .catch(error => console.error('Error fetching footer messages:', error));
     }
@@ -620,5 +644,20 @@
                 newspaperBodyArea.innerHTML = htmlContent;
             }
         );
+    }
+
+    function retrieveArticle(articleName)
+    { 
+        fetch('./assets/json/articlesDatabase.json')
+        .then(response => response.json())
+        .then(data => 
+            {
+                let filteredArticle;
+                filteredArticle = data.filter(article => articleName.includes(article.name));
+
+                return filteredArticle;
+            }
+        )
+        .catch(error => console.error('The JSON loader shit itself:', error));
     }
 </script>

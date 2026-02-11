@@ -606,5 +606,13 @@
         "monthread": "February",
         "yearread": "2026",
         "cover": "/assets/books/thesunalsorises.webp"
+    },
+    {
+        "name":"-30-: The Collapse of the Great American Newspaper",
+        "author": "Charles M. Madigan",
+        "year": "2007",
+        "monthread": "February",
+        "yearread": "2026",
+        "cover": "/assets/books/greatamericannewspaper.webp"
     }
 ]
