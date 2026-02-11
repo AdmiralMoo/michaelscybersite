@@ -244,6 +244,8 @@
     {
         padding: 4px;
         margin: 4px;
+
+        font-size: 0.8em;
     }
 
     .story-three-b
@@ -340,11 +342,11 @@
                 <div class="story-container story-one"></div>
                 <div class="story-container story-two"></div>
                 <div class="bot-left">
-                    <div class="story-three-a"></div>
-                    <div class="story-three-b"></div>
+                    <div class="story-container story-three-a"></div>
+                    <div class="story-container story-three-b"></div>
                 </div>
                 <div class="bot-right"></div>
-                <div class="sidebar">|</div>
+                <div class="story-container sidebar">|</div>
                 <div class="classifieds-container">
                     <div id="classifieds-header">CLASSIFIEDS</div>
                     <hr style="margin: 0px; padding: 1px; width: 5%;"></hr>
@@ -371,6 +373,7 @@
         InsertNewsStory("story-two", 2, true, true, 45, "read the full story...");
         InsertNewsStory("story-three-a", 3, false, false, 0, "read...");
         InsertNewsStory("story-three-b", 4, false, false, 0, "read...");
+        InsertFakeStory("sidebar", 6);
     }
 
     /*News Titles*/
@@ -454,6 +457,30 @@
             return `<b>${parts[0]}:</b>${parts.slice(1).join(":")}`;
         }
         return msg;
+    }
+
+    /* Fake Stories*/
+    function InsertFakeStory(slotID, quantity)
+    {
+        fetch('/assets/json/newspapermessages.json')
+        .then(response => response.json())
+        .then(data => {
+            const messages = data.messages;
+            let content = '';
+
+            for (let i = 0; i < quantity; i++)
+            {   
+                const randomMessage = messages[Math.floor(Math.random() * messages.length)];
+
+                let randomNumber = 1 + Math.floor(Math.random() * 30);
+                let result = `<p><i><b>${randomMessage}</b></i>—Page ${randomNumber}</p>`;
+
+                content += result;
+            }
+
+            document.getElementsByClassName(slotID)[0].innerHTML = content;
+        })
+        .catch(error => console.error('Error fetching footer messages:', error));
     }
 
     /*News Stories*/
