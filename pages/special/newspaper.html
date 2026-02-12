@@ -399,6 +399,15 @@
         InsertNewsStory("story-three-a", 3, false, false, 0, "read...");
         InsertNewsStory("story-three-b", 4, false, false, 0, "read...");
         InsertFakeStory("sidebar", 6);
+
+        initBlogposts();
+    }
+
+    async function initBlogposts() 
+    {
+        const story = await retrieveArticle("Never Forget What They Took From Us");
+
+        InsertNewsStory("bot-right", 666, true, false, 45, "read blogpost...", story);
     }
 
     /*News Titles*/
@@ -508,7 +517,7 @@
     }
 
     /*News Stories*/
-    function InsertNewsStory(slotID, storyIndex, showImage, showByline, truncateWords, truncatePrompt)
+    function InsertNewsStory(slotID, storyIndex, showImage, showByline, truncateWords, truncatePrompt, storyData)
     {
         const newspaperBodyArea = document.getElementsByClassName(slotID)[0];
         newspaperBodyArea.innerHTML = "";
@@ -516,6 +525,7 @@
         let byline = ''
         let indexString = '';
         let truncate = true;
+        let blogpost = false;
         if (storyIndex == 0) { indexString = "one"; }
         if (storyIndex == 1) { indexString = "two"; }
         if (storyIndex == 2) { indexString = "three"; }
@@ -543,8 +553,21 @@
             .then(response => response.json())
             .then(data => 
             {
-                story = data[storyIndex];
-                bodyText = story.body;
+                if (storyIndex == 666 && storyData != null)
+                {
+                    story = storyData;
+                    bodyText = story.body;
+                    blogpost = true;
+                    if (story.date == undefined)
+                    {
+                        story.date = "";
+                    }
+                }
+                else
+                {
+                    story = data[storyIndex];
+                    bodyText = story.body;
+                }
                 let modalID = `modal-${indexString}`;
 
                 /* "Cut the crap" as The Clash say 
@@ -577,12 +600,15 @@
                     `;
                 }
 
-                if (truncate && !showByline)
+                let linkInserted = false;
+                if (truncate && !showByline && storyData == null)
                 {
                     htmlContent += `
                         <span>${story.date}</span>
                         <br><a class="hyperlink" style="text-align: end; width: 35%; float: right;" href="\#${modalID}">${truncatePrompt}</a>
                     `;
+
+                    linkInserted = true;
                 }
                 else
                 {
@@ -608,11 +634,22 @@
                     `;
                 }
 
-                if (truncate && showByline)
+                if (truncate || !linkInserted)
                 {
+                    let oldModalID = modalID;
+                    if (blogpost)
+                    {
+                        modalID = storyData.link;
+                    }
+                    else 
+                    {
+                        modalID = "\#" + modalID;
+                    }
                     htmlContent += `
-                        <br><a class="hyperlink" style="text-align: end; width: 35%; float: right;" href="\#${modalID}">${truncatePrompt}</a>
+                        <br><a class="hyperlink" style="text-align: end; width: 35%; float: right;" href="${modalID}">${truncatePrompt}</a>
                     `;
+
+                    modalID = oldModalID;
                 }
 
                 htmlContent += `
@@ -648,14 +685,24 @@
 
     function retrieveArticle(articleName)
     { 
-        fetch('./assets/json/articlesDatabase.json')
+        return fetch('/assets/json/articlesDatabase.json')
         .then(response => response.json())
         .then(data => 
             {
                 let filteredArticle;
-                filteredArticle = data.filter(article => articleName.includes(article.name));
+                filteredArticle = data.find(article => articleName.includes(article.name));
 
-                return filteredArticle;
+                const { category, name, description, image, link } = filteredArticle;
+
+                console.log(name);
+                console.log(description);
+
+                return {
+                    headline: name,
+                    body: description,
+                    image: image,
+                    link: link
+                };
             }
         )
         .catch(error => console.error('The JSON loader shit itself:', error));
