@@ -1,4 +1,11 @@
 <style>
+    @font-face {
+        font-family: 'Future';
+        src: url('/assets/fonts/FUTURE.TTF') format('truetype');
+        font-weight: normal;
+        font-style: normal;
+    }
+
     /* Formatting Gubbins */
     sup 
     {
@@ -232,16 +239,18 @@
     .story-two
     {
         border-left: 1px solid black;
+        border-bottom: 1px solid black;
         padding-left: 12px;
     }
 
     .bot-left
     {
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 2fr 2fr;
+        border-right: 1px solid black;
     }
 
-    .story-three-a, .story-three-b
+    .story-three-a, .story-three-b, .story-three-c, .story-three-d, .story-four-a, .story-four-b
     {
         padding: 4px;
         margin: 4px;
@@ -249,10 +258,38 @@
         font-size: 0.8em;
     }
 
-    .story-three-b
+    .bot-right-container
     {
-        border-left: 1px solid black;
+        font-size: 0.9em;
+
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .bot-right .story-image
+    {
+        padding-right: 8px;
+        max-width: 50%;
+        filter: saturate(0);
+    }
+
+    .story-three-b, .story-three-d
+    {
+        border-left: 1px dashed black;
         padding-left: 12px;
+    }
+
+    .story-three-c, .story-three-d
+    {
+        border-top: 1px dashed black;
+        padding-top: 12px;
+    }
+
+    .story-four-b
+    {
+        border-left: 1px dashed black;
+        padding-top: 12px;
+        padding: 8px;
     }
 
     .bot-left .story-headline
@@ -351,8 +388,16 @@
                 <div class="bot-left">
                     <div class="story-container story-three-a"></div>
                     <div class="story-container story-three-b"></div>
+                    <div class="story-container story-three-c"></div>
+                    <div class="story-container story-three-d"></div>
                 </div>
-                <div class="bot-right"></div>
+                <div class="bot-right">
+                    <p class="story-headline" style="font-family: 'Future';width:100%; text-align: center; padding-top:0px; margin-top:0px; margin-bottom: -3px;">FROM THE BLOGOSPHERE</p>
+                    <div class="bot-right-container">
+                        <div class="story-container story-four-a"></div>
+                        <div class="story-container story-four-b bw"></div>
+                    </div>
+                </div>
                 <div class="story-container sidebar">
                     <div class="story-header">
                         <p class="story-headline" style="width:100%; text-align: center; padding-top:0px; margin-top:0px; margin-bottom: -3px;">MIXED NUTS</p>
@@ -398,6 +443,8 @@
         InsertNewsStory("story-two", 2, true, true, 45, "read the full story...");
         InsertNewsStory("story-three-a", 3, false, false, 0, "read...");
         InsertNewsStory("story-three-b", 4, false, false, 0, "read...");
+        InsertNewsStory("story-three-c", 5, false, false, 0, "read...");
+        InsertNewsStory("story-three-d", 6, false, false, 0, "read...");
         InsertFakeStory("sidebar", 6);
 
         initBlogposts();
@@ -405,9 +452,10 @@
 
     async function initBlogposts() 
     {
-        const story = await retrieveArticle("Never Forget What They Took From Us");
-
-        InsertNewsStory("bot-right", 666, true, false, 45, "read blogpost...", story);
+        const storya = await retrieveArticle("Never Forget What They Took From Us");
+        const storyb = await retrieveArticle("The Soundtrack of Summer 2025");
+        InsertNewsStory("story-four-a", 666, true, false, 45, "read blogpost...", storya);
+        InsertNewsStory("story-four-b", 666, true, false, 45, "read blogpost...", storyb);
     }
 
     /*News Titles*/
@@ -634,7 +682,8 @@
                     `;
                 }
 
-                if (truncate || !linkInserted)
+                //
+                if ((truncate || !linkInserted) && !linkInserted)
                 {
                     let oldModalID = modalID;
                     if (blogpost)
