@@ -5,6 +5,12 @@
         font-weight: normal;
         font-style: normal;
     }
+    @font-face {
+        font-family: 'Gill Sans Condensed';
+        src: url('/assets/fonts/GillSansMTcondensed.TTF') format('truetype');
+        font-weight: normal;
+        font-style: normal;
+    }
 
     /* Formatting Gubbins */
     sup 
@@ -49,7 +55,7 @@
     /* Body & Container Formatting */
     body
     {
-        width: 1200px;
+        /*width: 1200px;*/
         z-index:2;
     }
 
@@ -123,7 +129,7 @@
         grid-template-areas:
             "main       main        sidebar"
             "top-left   top-right   sidebar"
-            "bot-left   bot-right   bot-corner"
+            "bot-left   bot-mid   bot-corner"
             "cs         cs          cs";
     }
 
@@ -131,7 +137,7 @@
     .story-two  { grid-area: top-right; }
     .main       { grid-area: main;      }
     .bot-left   { grid-area: bot-left;  }
-    .bot-right  { grid-area: bot-right; }
+    .bot-mid  { grid-area: bot-mid; }
     .bot-corner { grid-area: bot-corner; }
     .sidebar    { grid-area: sidebar;   }
 
@@ -258,7 +264,7 @@
         font-size: 0.8em;
     }
 
-    .bot-right-container
+    .bot-mid-container
     {
         font-size: 0.9em;
 
@@ -266,7 +272,7 @@
         grid-template-columns: 1fr 1fr;
     }
 
-    .bot-right .story-image
+    .bot-mid .story-image
     {
         padding-right: 8px;
         max-width: 50%;
@@ -301,6 +307,22 @@
     {
         border-left: 1px solid black;
         padding-left: 12px;
+        border-bottom: 1px solid black;
+    }
+
+    .bot-corner
+    {
+        border-left: 1px solid black;
+    }
+
+    #siteChangeHeader
+    {
+        font-family: 'Gill Sans Condensed', sans-serif;
+        letter-spacing: -0.5px;
+        font-size: 1.3em;
+        font-weight: bold;
+        padding-top:0px;
+        margin-top:0px;
     }
 
     /* News Popups For Crap-Cut-Truncated-Things */
@@ -391,11 +413,11 @@
                     <div class="story-container story-three-c"></div>
                     <div class="story-container story-three-d"></div>
                 </div>
-                <div class="bot-right">
+                <div class="bot-mid">
                     <p class="story-headline" style="font-family: 'Future';width:100%; text-align: center; padding-top:0px; margin-top:0px; margin-bottom: -3px;">FROM THE BLOGOSPHERE</p>
-                    <div class="bot-right-container">
+                    <div class="bot-mid-container">
                         <div class="story-container story-four-a"></div>
-                        <div class="story-container story-four-b bw"></div>
+                        <div class="story-container story-four-b"></div>
                     </div>
                 </div>
                 <div class="story-container sidebar">
@@ -427,7 +449,10 @@
                         <div id="cs5"></div>
                     </div>
                 </div>
-                <div class="story-container bot-corner"></div>
+                <div class="story-container bot-corner">
+                    <div id="siteChangeHeader">CHANGELOG</div>
+                    <div id="siteChangeContainer"></div>
+                </div>
             </div>
         </div>
     </div>
@@ -446,6 +471,7 @@
         InsertNewsStory("story-three-c", 5, false, false, 0, "read...");
         InsertNewsStory("story-three-d", 6, false, false, 0, "read...");
         InsertFakeStory("sidebar", 6);
+        UpdateSiteChangelog();
 
         initBlogposts();
     }
@@ -685,20 +711,23 @@
                 //
                 if ((truncate || !linkInserted) && !linkInserted)
                 {
-                    let oldModalID = modalID;
-                    if (blogpost)
+                    if (truncate || blogpost)
                     {
-                        modalID = storyData.link;
-                    }
-                    else 
-                    {
-                        modalID = "\#" + modalID;
-                    }
-                    htmlContent += `
-                        <br><a class="hyperlink" style="text-align: end; width: 35%; float: right;" href="${modalID}">${truncatePrompt}</a>
-                    `;
+                        let oldModalID = modalID;
+                        if (blogpost)
+                        {
+                            modalID = storyData.link;
+                        }
+                        else 
+                        {
+                            modalID = "\#" + modalID;
+                        }
+                        htmlContent += `
+                            <br><a class="hyperlink" style="text-align: end; width: 35%; float: right;" href="${modalID}">${truncatePrompt}</a>
+                        `;
 
-                    modalID = oldModalID;
+                        modalID = oldModalID;
+                    }
                 }
 
                 htmlContent += `
@@ -756,4 +785,67 @@
         )
         .catch(error => console.error('The JSON loader shit itself:', error));
     }
+
+    function UpdateSiteChangelog()
+{
+    fetch('/assets/json/newspapermessages.json')
+    .then(response => response.json())
+    .then(data => {
+        //Update the headline
+        const changeheadlines = data.sitechange;
+        const randomHeadline = changeheadlines[Math.floor(Math.random() * changeheadlines.length)];
+        document.getElementById('siteChangeHeader').innerText = randomHeadline;
+
+        //Update the changelog with the most recent entry
+        fetch('/pages/main/changelog.html')
+        .then(stuff => stuff.text())
+        .then(html => {
+            const doc = new DOMParser().parseFromString(html, "text/html");
+            const h2 = doc.querySelector('h2');
+            let node = h2.nextElementSibling;
+            let items = "";
+
+            while (node && node.tagName !== "H2") {
+                if (node.tagName === "LI") {
+                    testData = items + `<li>${node.innerHTML}</li>`;
+                    if (testData.split(" ").length > 17)
+                    {
+                        items += `
+                        <br><a class="hyperlink" style="text-align: end; width: 100%; float: right;" href="/pages/main/changelog.html">...read full changelog</a>
+                        `;
+                        break;
+                    }
+                    else 
+                    {
+                        items = testData;
+                    }
+                }
+                node = node.nextElementSibling;
+            }
+
+            const dateOnly = h2.textContent.split("–")[0].trim();
+
+            const prefix = data.bylines[Math.floor(Math.random() * data.bylines.length)];
+            const author = data.newsauthors[Math.floor(Math.random() * data.newsauthors.length)];
+            const byline = `<b><i>${prefix}${author}</i></b>`;
+
+            /*
+                <div style="text-align: right; width:70%">
+                    <span class="byline" style="padding-right:16px">${byline}</span>
+                </div>
+            */
+
+
+            document.getElementById('siteChangeContainer').innerHTML =
+            `
+            <div style="display:flex; flex-direction:row; align-content: stretch">
+                <div style="text-align: left; width:30%">
+                    <span><b>${dateOnly}</b></span>
+                </div>
+            </div>
+            <ul style="padding-left: 16px; margin-top: 0px;">${items}</ul>`;
+        });
+    })
+    .catch(error => console.error('BREAKING: SITE CHANGELOG UPDATE FAILS AFTER', error));
+}
 </script>

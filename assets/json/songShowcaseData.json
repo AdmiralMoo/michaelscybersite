@@ -73,7 +73,7 @@
         "name": "Glycerine", 
         "artist": "Bush",
         "album": "Sixteen Stone",
-        "art":"/assets/albumart/bush x - sixteen stone.jpg",
+        "art":"/assets/albumart/bush - sixteen stone.jpg",
         "duration":"4:26"
     },    
     {
@@ -388,7 +388,7 @@
         "name": "Everything Zen", 
         "artist": "Bush",
         "album": "Sixteen Stone",
-        "art":"/assets/albumart/bush x - sixteen stone.jpg",
+        "art":"/assets/albumart/bush - sixteen stone.jpg",
         "duration":"4:38"
     },
     {
@@ -572,5 +572,40 @@
         "album": "Eight Arms To Hold You",
         "art":"/assets/albumart/veruca salt - eight arms to hold you.webp",
         "duration":"3:19"
+    },
+    {
+        "name": "I Need Your Love", 
+        "artist": "Boston",
+        "album": "Walk On",
+        "art":"/assets/albumart/boston - walk on.webp",
+        "duration":"5:33"
+    },
+    {
+        "name": "Walk On", 
+        "artist": "Boston",
+        "album": "Walk On",
+        "art":"/assets/albumart/boston - walk on.webp",
+        "duration":"2:58"
+    },
+    {
+        "name": "Sharp Dressed Man", 
+        "artist": "ZZ Top",
+        "album": "Eliminator",
+        "art":"/assets/albumart/zz top - eliminator.webp",
+        "duration":"4:18"
+    },
+    {
+        "name": "Cocaine", 
+        "artist": "Eric Clapton",
+        "album": "Slowhand",
+        "art":"/assets/albumart/eric clapton - slowhand.webp",
+        "duration":"3:42"
+    },
+    {
+        "name": "How You Remind Me", 
+        "artist": "Nickelback",
+        "album": "Silver Side Up",
+        "art":"/assets/albumart/nickelback - silver side up.webp",
+        "duration":"3:44"
     }
 ]
