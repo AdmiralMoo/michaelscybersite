@@ -614,5 +614,13 @@
         "monthread": "February",
         "yearread": "2026",
         "cover": "/assets/books/greatamericannewspaper.webp"
+    },
+    {
+        "name":"Sphere",
+        "author": "Michael Crichton",
+        "year": "1987",
+        "monthread": "February",
+        "yearread": "2026",
+        "cover": "/assets/books/sphere.webp"
     }
 ]
