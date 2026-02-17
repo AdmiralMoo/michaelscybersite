@@ -2,6 +2,7 @@
     <title>Michael's Cybersite - Home</title>
     <link rel="stylesheet" type="text/css" href="/assets/css/win98.css"/>
     <link rel="stylesheet" type="text/css" href="/assets/css/newspaper.css"/>
+    <link rel="stylesheet" type="text/css" href="/assets/css/ticker.css"/>
 </head>
 
 <style>
@@ -174,7 +175,17 @@
                 <p id="newspaper-footer" style="margin:0; padding:0; align-self: center; font-family: 'EB Garamond', serif; font-weight:bold;">TRUST NO ONE</p>
             </div>
 
-            
+            <!--Ticker-->
+            <div class="body-box outsideborder">
+                <div class="ticker-container insideborder">
+                    <div class="ticker-wrap lcd-box">
+                        <div class="ticker lcd-panel" style="text-decoration: none; pointer-events: all; text-align: center; padding:6px;" id="ticker-items">
+                            <div class="ticker__item lcd-flicker-text">RANDOM ALBUM OF THE DAY</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
             <!--Other pages box-->
                 
             <div class="spacer"></div>
@@ -220,6 +231,7 @@
     <script>var currentPageCategory = "home";</script>
     <script>var featuredTitles = "The Soundtrack of Summer 2025;My VHS Shelf;Never Forget What They Took From Us";</script>
     <script src="./scripts/articlesLoader.js"></script>
+    <script src="./scripts/album-of-the-day.js"></script>
     <!--<script src="./scripts/sportsCalendars.js"></script>
     <script>loadNextJaysGame();</script>-->
 
@@ -237,6 +249,7 @@
             frame.onload = () => {
                 /*frame.contentWindow.updateSongData(songData);*/
                 frame.contentWindow.playRandomSong();
+                injectTickerAlbums(7, "ticker-items");
             };
         });
     </script>
