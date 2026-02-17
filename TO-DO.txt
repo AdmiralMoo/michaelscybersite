@@ -1,3 +1,4 @@
 TO-DO
 -Write a blog
 -Write an LCD ticket text widget
+-Add memes as comics to the newspaper
