@@ -622,5 +622,13 @@
         "monthread": "February",
         "yearread": "2026",
         "cover": "/assets/books/sphere.webp"
+    },
+    {
+        "name":"The Rock: The Life and Crimes of Palmer Rockey",
+        "author": "Cookie Ann Rockey",
+        "year": "2011",
+        "monthread": "February",
+        "yearread": "2026",
+        "cover": "/assets/books/therock.webp"
     }
 ]
