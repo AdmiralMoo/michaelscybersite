@@ -1,11 +1,458 @@
-.collapse-box
-{
-    display: flex;
-    flex-direction: row;
+@font-face {
+    font-family: 'Future';
+    src: url('/assets/fonts/FUTURE.TTF') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Gill Sans Condensed';
+    src: url('/assets/fonts/GillSansMTcondensed.TTF') format('truetype');
+    font-weight: normal;
+    font-style: normal;
 }
 
-.news-content
+/* Formatting Gubbins */
+sup 
 {
+    line-height: 0;
+    font-size: 0.83em;
+    vertical-align: super;
+}
+
+.bw
+{
+    filter: saturate(0.0);
+}
+
+.space-between
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Styles for Hyperlinks */
+.hyperlink, .hyperlink:visited
+{
+    font-size: 0.9em;
+    font-style: italic;
+    font-weight: bold;
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.hyperlink:hover
+{
+    color: rgb(75, 75, 255);
+}
+
+.hyperlink:active
+{
+    color: rgb(255, 0, 255);
+}
+
+/* Body & Container Formatting */
+body
+{
+    /*width: 1200px;*/
+    z-index:2;
+}
+
+.newspaper-container
+{
+    background-color: lightgray;
+
+    padding: 6px;
+
+    /*mask: repeating-conic-gradient(from 135deg at 50% 5px,#0000 0,#000 1deg 89deg,#0000 90deg 180deg) 50% -5px/10px;*/
+}
+
+/* Newspaper Banner Styles */
+#newspaper-name
+{
+    width: 100%;
+    object-fit: scale-down;
+    align-items: center;
+
+    padding-top: 0px;
+    padding-bottom: 2px;
+}
+
+.newspaper-header
+{
+    width: 100%;
+}
+
+.newspaper-header-bar
+{
+    width: 100%;
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr;
+
+    border-bottom: 6px black double; 
+}
+
+.newspaper-header-bar p
+{
+    margin:0px; 
+    padding:4px; 
+    font-family: 'EB Garamond', serif; 
+    font-weight:bold;
+    text-align: center;
+    place-items: end center;
+}
+
+#newspaper-header-slogan
+{
+    margin:0; 
+    padding:0; 
+    align-self: center; 
+    font-family: 'EB Garamond', serif; 
+    font-size: 0.85em;
+    font-weight:bold; 
+    transform:scaleX(1.3);
+    text-align: center;
+    width: 100%;
+
+    padding-bottom: 8px;
+}
+
+/* Newspaper Grid Positioning */
+.news-layout
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 240px;
+    grid-template-rows: auto auto auto;
+    border: 1px solid black;
+
+    grid-template-areas:
+        "main       main        sidebar"
+        "top-left   top-right   sidebar"
+        "bot-left   bot-mid   bot-corner"
+        "cs         cs          cs";
+}
+
+.story-one  { grid-area: top-left;  }
+.story-two  { grid-area: top-right; }
+.main       { grid-area: main;      }
+.bot-left   { grid-area: bot-left;  }
+.bot-mid  { grid-area: bot-mid; }
+.bot-corner { grid-area: bot-corner; }
+.sidebar    { grid-area: sidebar;   }
+
+/* Classifieds Formatting */
+.classifieds-container 
+{ 
+    grid-area: cs;
+    border-top: 1px black solid;
+    padding: 4px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.classifieds-body
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+
+    gap: 1px;
+    padding: 2px;
+}
+
+#cs2,#cs3,#cs4,#cs5
+{
+    padding-left: 6px;
+    box-sizing: border-box;
+    border-left: 1px black solid;
+}
+
+#classifieds-header
+{
+    width: 100%;
+    font-weight: bold;
+    font-size: 1.2em;
+    text-align: center;
+}
+
+/* Story Formatting */
+.story-container
+{
+    padding: 4px;
+    margin: 4px;
+}
+
+.story-headline
+{
+    font-size: 1.6em;
+    font-weight: bold;
+}
+
+.story-body
+{
+    margin-top: 2px;
+}
+
+.story-body p
+{
+    margin-top:0px;
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-bottom: 4px;
+}
+
+.story-image
+{
+    float: left;
+    padding-right: 8px;
+    max-width: 50%;
+    z-index: 1;
+}
+
+.story-image img
+{
+    object-fit: scale-down;
+    width: 100%;
+}
+
+/* Story-specific formatting */
+.story-one .story-image, .story-two .story-image
+{
+    filter: saturate(0.0);
+    z-index: 1;
+}
+
+.story-one .story-headline, .story-two .story-headline
+{
+    font-size: 1.3em;
+    letter-spacing: -0.5px;
+}
+
+.main
+{
+    border-bottom: 1px solid black;  
+    padding-bottom: 8px;
+}
+
+.story-one
+{
+    border-bottom: 1px solid black;
+}
+
+.story-two
+{
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+    padding-left: 12px;
+}
+
+.bot-left
+{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    border-right: 1px solid black;
+}
+
+.story-three-a, .story-three-b, .story-three-c, .story-three-d, .story-four-a, .story-four-b
+{
+    padding: 4px;
+    margin: 4px;
+
+    font-size: 0.8em;
+}
+
+.bot-mid-container
+{
+    font-size: 0.9em;
+
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.bot-mid .story-image
+{
+    padding-right: 8px;
+    max-width: 50%;
+    filter: saturate(0);
+}
+
+.story-three-b, .story-three-d
+{
+    border-left: 1px dashed black;
+    padding-left: 12px;
+}
+
+.story-three-c, .story-three-d
+{
+    border-top: 1px dashed black;
+    padding-top: 12px;
+}
+
+.story-four-b
+{
+    border-left: 1px dashed black;
+    padding-top: 12px;
     padding: 8px;
-    background-color: white;
+}
+
+.bot-left .story-headline
+{
+    font-size: 1.1em;
+}
+
+.sidebar
+{
+    border-left: 1px solid black;
+    padding-left: 12px;
+    border-bottom: 1px solid black;
+}
+
+.bot-corner
+{
+    border-left: 1px solid black;
+}
+
+#siteChangeHeader
+{
+    font-family: 'Gill Sans Condensed', sans-serif;
+    letter-spacing: -0.5px;
+    font-size: 1.3em;
+    font-weight: bold;
+    padding-top:0px;
+    margin-top:0px;
+}
+
+/* News Popups For Crap-Cut-Truncated-Things */
+.news-popup::after
+{
+    content: "";
+    visibility: hidden;
+}
+
+#modal-one, #modal-two, #modal-three, #modal-four, #modal-five, #modal-six, #modal-seven {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    max-width: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+}
+
+#modal-one:not(:target), #modal-two:not(:target), #modal-three:not(:target), #modal-four:not(:target), #modal-five:not(:target), #modal-six:not(:target), #modal-seven:not(:target)
+{
+    visibility: hidden;
+    opacity: 0;
+}
+
+.modal__window 
+{
+    position: relative; 
+    background-color: rgb(240,240,240);
+    max-width: 512px;
+    padding: 4em 2em;
+
+    box-shadow: 12px 12px rgb(0, 0, 0), 24px 24px rgba(0, 0, 0, 0.75), 36px 36px rgba(0, 0, 0, 0.5), 48px 48px rgba(0, 0, 0, 0.25);
+}
+
+.modal__close 
+{
+    position: absolute;
+    top: 0;
+    right: 0;
+
+    width: 32px;
+    height: 32px;
+    background-color: rgb(202, 23, 23);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-justify: center;
+
+    color: black;
+    font-weight: bold;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+
+/* Newspaper Banner Sizing */
+@media(max-width: 900px)
+{
+    .news-layout
+    {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        border: 1px solid black;
+
+        grid-template-areas:
+        "main      main"
+        "top-left  top-right"
+        "bot-left  bot-mid"
+        "sidebar   sidebar"
+        "bot-corner bot-corner"
+        "cs        cs";
+    }
+
+    .news-layout p
+    {
+        margin-top: 2px;
+        margin-bottom: 2px;
+        padding: 5px;
+    }
+}
+
+@media(max-width: 600px)
+{
+    .classifieds-body
+    {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    #cs1, #cs2, #cs3, #cs4, #cs5
+    {
+        gap: 4px;
+        padding: 5px;
+    }
+
+    #cs1 { grid-column: 1 / -1; }
+}
+
+@media(max-width: 400px)
+{
+    .classifieds-body
+    {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .news-layout
+    {
+        display: grid;
+        grid-template-columns: 1fr;
+        border: 1px solid black;
+
+        grid-template-areas:
+        "main"
+        "top-left"
+        "top-right"
+        "bot-left"
+        "bot-mid"
+        "sidebar"
+        "bot-corner"
+        "cs";
+    }
+
+    #cs1, #cs2, #cs3, #cs4, #cs5
+    {
+        gap: 4px;
+        padding: 5px;
+    }
 }
