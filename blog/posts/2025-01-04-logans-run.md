@@ -2,8 +2,15 @@
 title: Logan’s Run at Mayfair Theatre
 date: 2025-01-04
 slug: 2025-01-04-logans-run
+category: movies
+tags:
+    - movie
+    - mayfair
+    - adventure
 ---
-{{ image "/blog/resources/2025-01-04_1.webp" image }}
+
+<div class="blog-image blog-image-right"><img src="/blog/resources/2025-01-04_1.webp"></div>
+
 While walking down Bank Street after seeing the New Years fireworks at Lansdowne Park, I passed by the Mayfair Theatre and a very familiar movie poster: Logan’s Run (1976). I’ve seen it once before, albeit at home on my computer, and I decided it would be cool to see in theatres. The screening was on January 4th, 2026, at 21:00. 
 
 ###THE MOVIE
@@ -18,7 +25,7 @@ The music is composed by film legend Jerry Goldsmith, who did countless other so
 ###THE THEATRE
 Tickets were $13.00 at the door. The theatre opened in 1932 so it’s a little worn down, but it feels real. Nothing in there—from the time you walk in to the time you leave—feels forced or choreographed by the clueless marketing department of a major corporation. It’s got a kind of magic you just can’t capture or recreate.
 
-This was my first time at The Mayfair Threatre. The theatre itself small compared to an IMAX cinema, but grandiose in design. The ceiling is domed and there are ornamental fixtures and facias. The popcorn walls are painted an obnoxious shade of yellow and red; the ceiling is bare concrete grey and from one of the fake porches off to the right, the bare skeleton of the T-101 stares down imposingly upon us. 
+This was my first time at The Mayfair Threatre. The theatre itself small compared to an IMAX cinema, but grandiose in design and spirit. The ceiling is domed and there are ornamental fixtures and facias. The stucco walls are painted an obnoxious shade of yellow and red; the ceiling is bare concrete grey and from one of the fake porches off to the right, the bare skeleton of the T-101 stares down imposingly upon us. 
 
 Before the movie started, the screen showed a mix of ads, previews for upcoming screenings and historic photos: a tall, svelte, blonde woman bends down to pick a can of beans from a Mayfair Markets shelf; The Mayfair Theatre screens a new movie in the 1950’s with Hudson taxi cabs trundling about the streets; When Harry Met Sally is to be screened in a couple weeks as a tribute to the late Rob Reiner. 
 

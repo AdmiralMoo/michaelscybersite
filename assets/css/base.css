@@ -363,11 +363,24 @@ Fonts
     font-style: italic;
 }
 
-
 @font-face {
   font-family: 'Microsoft Sans-Serif';
   src: url('/assets/fonts/micross.ttf') format('truetype');
   font-weight: lighter;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Microsoft Sans-Serif Neue';
+  src: url('/assets/fonts/w95font.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Microsoft Sans-Serif Neue';
+  src: url('/assets/fonts/w95font-bold.woff') format('woff');
+  font-weight: bold;
   font-style: normal;
 }
 /*
@@ -1335,19 +1348,55 @@ ul, li, ol
   max-width: 128px;
 }
 
-.blog-image-centered
+.blog-image-center
 {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  max-height: 386px;
+  max-width: unset;
+  width: 100%;
 }
 
-.blog-image-float-right
+.blog-image-right
 {
   float:right;
 
 }
-.blog-image-float-left
+.blog-image-left
 {
   float:left;
+}
+
+.blog-tag
+{
+  padding: 4px;
+  padding-right: 6px;
+  background-color: rgb(178, 226, 249);
+
+  filter: drop-shadow(2px 2px 0px);
+
+  border: 1px solid black;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+
+  font-family: 'Microsoft Sans-Serif Neue';
+  font-style:italic;
+}
+
+.blog-logo
+{
+  display: flex;
+  position: absolute;
+  left: 25;
+  bottom: 25;
+}
+
+.blog-logo img
+{
+  display: block;
+  aspect-ratio: 6/1;
+  width: 45vw;
+  min-width: 256px;
+  height: unset;
+  object-fit: fill;
+  image-rendering: pixelated;
 }

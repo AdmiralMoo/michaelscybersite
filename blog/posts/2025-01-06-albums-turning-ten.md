@@ -2,6 +2,9 @@
 title: Albums Turning 10 This Year
 date: 2025-01-08
 slug: 2025-01-08-albums-turning
+category: music
+tags:
+    - retrospective
 ---
 For the past year, I kept listening to Revolution Radio thinking “I can’t believe this album is about to turn ten years old!” Lo-and-behold—with the coming of 2026—exactly that will happen on October 7th. 
 
@@ -14,6 +17,9 @@ This was my introduction to Wolfmother when I first heard the titular single “
 Honestly, I’ve never particularly loved the bulk of Blink-182’s music, but I liked California the moment I heard it. “She’s Out of Her Mind” is such a banger!
 ###BILLY TALENT/AFRAID OF HEIGHTS
 Billy Talent is a surprisingly consistent band, having started off with a strong, signature sound and continued with it all the way through. This was a solid entry into their discography. 
+
+<div class="blog-image blog-image-center"><img src="/assets/albumart/billy talent - afraid of heights.jpg"></div>
+
 ###RED HOT CHILI PEPPERS/THE GETAWAY
 Similar to Blink-182, I’m not a huge Chili Peppers fan. I enjoyed By The Way the most out of all their albums, but The Getaway is decent too. 
 ###GREEN DAY/REVOLUTION RADIO
@@ -22,6 +28,9 @@ I might be biased, but to me, this is the crown jewel of the year, one of the be
 I listened to “Bang Bang” and “Revolution Radio” so many times that summer. I remember the album leaking the day before it came out, but I waited for October 7th to hear it in full. It was proof that they still had it, and in 2026, they’re still going strong!
 
 I suppose out of all these albums, this one means the most to me and it’s stayed with me through many different parts of my life now. That’s why it’s the most difficult to believe that it’s coming up on ten years ago.  
+
+<div class="blog-image blog-image-center"><img src="/assets/albumart/green day - revolution radio.jpg"></div>
+
 ###SUM 41/13 VOICES 
 What a comeback for Sum 41! This album is freaking awesome and it feels like it’s got direction, unlike their previous two efforts. It integrates their heavy metal/punk rock sound and still proved they could write hits. 
 ###KINGS OF LEON/WALLS
