@@ -630,5 +630,13 @@
         "monthread": "February",
         "yearread": "2026",
         "cover": "/assets/books/therock.webp"
+    },
+    {
+        "name":"Forty Words for Sorrow",
+        "author": "Giles Blunt",
+        "year": "2000",
+        "monthread": "February",
+        "yearread": "2026",
+        "cover": "/assets/books/fortywordsforsorrow.webp"
     }
 ]

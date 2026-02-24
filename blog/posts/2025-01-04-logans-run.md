@@ -3,7 +3,9 @@ title: Logan’s Run at Mayfair Theatre
 date: 2025-01-04
 slug: 2025-01-04-logans-run
 ---
+{{ image "/blog/resources/2025-01-04_1.webp" image }}
 While walking down Bank Street after seeing the New Years fireworks at Lansdowne Park, I passed by the Mayfair Theatre and a very familiar movie poster: Logan’s Run (1976). I’ve seen it once before, albeit at home on my computer, and I decided it would be cool to see in theatres. The screening was on January 4th, 2026, at 21:00. 
+
 ###THE MOVIE
 It’s a sci-fi flick set in a dystopian future where lab-grown humans in a protected settlement are killed at the age of thirty. If they don’t show up to their death ceremony—disguised as a rebirth ritual called “Carousel”—they’re hunted down by “Sandmen”. 
 
@@ -12,6 +14,7 @@ The main character, Logan 5 (Michael York), is one of these Sandmen. He question
 The movie’s effects were pretty impressive for the time and it was brought to life by director Michael Anderson and a relatively high budget of around eight million. The dialogue is well-written—though sometimes corny, scenes are well-shot and acting really isn’t all that bad. It’s everything you could want from a quirky 70’s sci-fi movie, in my opinion.
 
 The music is composed by film legend Jerry Goldsmith, who did countless other soundtracks—including various Star Trek films and series, Planet of The Apes and Alien amongst many others. 
+
 ###THE THEATRE
 Tickets were $13.00 at the door. The theatre opened in 1932 so it’s a little worn down, but it feels real. Nothing in there—from the time you walk in to the time you leave—feels forced or choreographed by the clueless marketing department of a major corporation. It’s got a kind of magic you just can’t capture or recreate.
 

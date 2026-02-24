@@ -46,6 +46,11 @@ for filename in os.listdir(dir_posts):
     html_body = html_body.replace("{{ date }}", str(meta["date"]))
     html_body = html_body.replace("{{ content }}", markdown.markdown(crap_body))
 
+    html_body = html_body.replace("{{ image r ", '\n\n<div class="blog-image blog-image-float-right"><img src=')
+    html_body = html_body.replace("{{ image l ", '\n\n<div class="blog-image blog-image-float-left"><img src=')
+    html_body = html_body.replace("{{ image ", '\n\n<div class="blog-image blog-image-centered"><img src=')
+    html_body = html_body.replace(" image }}", '></div>\n\n')
+
     #VII. Concatenate more strings to create the output directory
     toilet = os.path.join(dir_output, f"{meta['slug']}.html")
 

@@ -574,6 +574,15 @@ Formatting for body boxes
     background-color: white;
 }
 
+.content-box {
+    padding: 12px;
+}
+
+.content-box h3
+{
+  margin-left:0px;
+}
+
 .body-box {
     width: 100%;
     display: flex;
@@ -1305,4 +1314,40 @@ ul, li, ol
 .hidden
 {
   visibility: hidden;
+}
+
+/* Blog */
+.blog-image
+{
+  max-width: 256px;
+  padding: 4px;
+} 
+
+.blog-image img
+{
+  object-fit: scale-down;
+  image-rendering: optimizeSpeed;
+  width: 100%;
+}
+
+.blog-image-small 
+{
+  max-width: 128px;
+}
+
+.blog-image-centered
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.blog-image-float-right
+{
+  float:right;
+
+}
+.blog-image-float-left
+{
+  float:left;
 }
