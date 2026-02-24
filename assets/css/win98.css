@@ -106,6 +106,10 @@ Overrides For Borders & Colours
     background-color: #c0c0c0;
 }
 
+.content-fill {
+    background-color: white;
+}
+
 .text-fill
 {
     background-color: white;

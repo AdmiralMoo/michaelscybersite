@@ -8,6 +8,14 @@
 <body>
     <main>
         <div class="maincontent-centred" style="min-height:60vh;">
+            <div class="ImageHeader outsideborder">
+                <div class="insideborder">
+                    <img class="lazyload" src="/assets/gifs/LoadingCloudsText.gif" data-src="/assets/pictures/DSC_182645.webp">
+                </div>
+                <div class="ImageHeader-Text"><h1>Coffee Shop Rock</h1></div>
+                <div class="ImageHeader-MyPhoto">Photo: MichaelsCybersite.net, 2025</div>
+            </div>
+
             <div class="outsideborder body-fill" style="border-width: 4px;">
                 <div class="header-one-box">
                     <h1>{{ title }}</h1>
@@ -22,7 +30,9 @@
                     </div>
                 </div>
                 <div class="insidecontent">
-                    {{ content }}
+                    <div class="insideborder body-box content-fill">
+                        {{ content }}
+                    </div>
                 </div>
             </div>
         </div>
