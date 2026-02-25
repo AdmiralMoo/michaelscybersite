@@ -61,6 +61,9 @@ for filename in os.listdir(dir_posts):
             html_body = html_body.replace("{{ icon }}", "icon_film.png")
         elif meta['category'] == 'photography':
             html_body = html_body.replace("{{ theme }}", '<link rel="stylesheet" type="text/css" href="/assets/css/photos.css"/>')
+        elif meta['category'] == 'general':
+            html_body = html_body.replace("{{ theme }}", "")
+            html_body = html_body.replace("{{ icon }}", "icon_home.png")
     else:
         html_body = html_body.replace("{{ theme }}", "")
         html_body = html_body.replace("{{ icon }}", "icon_home.png")
