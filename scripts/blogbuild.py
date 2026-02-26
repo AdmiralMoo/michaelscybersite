@@ -1,8 +1,10 @@
-import os, markdown, yaml
+import os, markdown, yaml, json
+from datetime import datetime
 
 dir_posts = "blog/posts"
 dir_output = "blog/generated"
 postTempa = "pages/templates/blogpost.html"
+blog_index = []
 
 #open the timeline
 postTempa = os.path.join(os.getcwd().replace("scripts",""), postTempa)
@@ -68,6 +70,17 @@ for filename in os.listdir(dir_posts):
         html_body = html_body.replace("{{ theme }}", "")
         html_body = html_body.replace("{{ icon }}", "icon_home.png")
 
+    #VI.I (ha!) Add to the master JSON
+    blog_index.append(
+    {
+        "title":        meta["title"],
+        "date":         str(meta["date"]),
+        "slug":         meta["slug"],
+        "category":     meta.get("category", ""),
+        "tags":         meta.get("tags", [])
+#        "description":  meta.get("description", "")
+    })
+
     #VII. Concatenate more strings to create the output directory
     toilet = os.path.join(dir_output, f"{meta['slug']}.html")
 
@@ -76,3 +89,12 @@ for filename in os.listdir(dir_posts):
         f.write(html_body);
 
     print(f"Built {toilet}")
+
+#Sort and save the JSON
+blog_index.sort(
+    key=lambda x: datetime.strptime(x["date"], "%Y-%m-%d"),
+    reverse=True
+)
+
+with open("assets/json/blogIndex.json", "w", encoding="utf-8") as f:
+    json.dump(blog_index, f, indent=2)

@@ -32,9 +32,10 @@ I, however, was not deterred by such accusations; an idea only looks stupid if i
 I’ve been programming in Python for around eleven years now—I’m most comfortable in it above all other languages. I stared at the API for the Markdown and PyYAML libraries, and I wrote a skeleton of how it was going to work. 
 
 The blog system would be made up of a couple components:
--	Markdown files: The digital equivalent of a raw cookie ready to be put into the oven. Each markdown file contains the information for the blogpost, including the title, date, category, tags, images and the all-important body content. 
--	Python script: The oven which bakes the cookies. Every time I update my site, this script will run and “bake” the Markdown files into real webpages. This way, I don’t have to do all the formatting myself. Would you want to hold each individual blob of proto-cookie over an open fire? No—you get an oven!
--	HTML files: The baked cookies. My oven is a special, fancy, Bluetooth-connected one which makes a list of all the cookies it built so that they can be sorted, categorized and displayed automatically for your viewing pleasure. 
+
++ **Markdown Files**: The digital equivalent of a raw cookie ready to be put into the oven. Each markdown file contains the information for the blogpost, including the title, date, category, tags, images and the all-important body content. 
++ **Python Script**: The oven which bakes the cookies. Every time I update my site, this script will run and “bake” the Markdown files into real webpages. This way, I don’t have to do all the formatting myself. Would you want to hold each individual blob of proto-cookie over an open fire? No—you get an oven!
++ **HTML Files**: The baked cookies. My oven is a special, fancy, Bluetooth-connected one which makes a list of all the cookies it built so that they can be sorted, categorized and displayed automatically for your viewing pleasure. 
 
 It sounds pretty simple, doesn’t it? In essence, it is—but I suppose you could say the same thing about a lot of other things… 
 

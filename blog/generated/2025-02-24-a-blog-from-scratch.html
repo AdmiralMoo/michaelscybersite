@@ -44,10 +44,12 @@
 <p>I, however, was not deterred by such accusations; an idea only looks stupid if it doesn’t work, it isn’t executed well or it plunges you into irrevocable financial debt—and I figured I could avoid all three. </p>
 <h3>A BLOG, FROM SCRATCH</h3>
 <p>I’ve been programming in Python for around eleven years now—I’m most comfortable in it above all other languages. I stared at the API for the Markdown and PyYAML libraries, and I wrote a skeleton of how it was going to work. </p>
-<p>The blog system would be made up of a couple components:
--   Markdown files: The digital equivalent of a raw cookie ready to be put into the oven. Each markdown file contains the information for the blogpost, including the title, date, category, tags, images and the all-important body content. 
--   Python script: The oven which bakes the cookies. Every time I update my site, this script will run and “bake” the Markdown files into real webpages. This way, I don’t have to do all the formatting myself. Would you want to hold each individual blob of proto-cookie over an open fire? No—you get an oven!
--   HTML files: The baked cookies. My oven is a special, fancy, Bluetooth-connected one which makes a list of all the cookies it built so that they can be sorted, categorized and displayed automatically for your viewing pleasure. </p>
+<p>The blog system would be made up of a couple components:</p>
+<ul>
+<li><strong>Markdown Files</strong>: The digital equivalent of a raw cookie ready to be put into the oven. Each markdown file contains the information for the blogpost, including the title, date, category, tags, images and the all-important body content. </li>
+<li><strong>Python Script</strong>: The oven which bakes the cookies. Every time I update my site, this script will run and “bake” the Markdown files into real webpages. This way, I don’t have to do all the formatting myself. Would you want to hold each individual blob of proto-cookie over an open fire? No—you get an oven!</li>
+<li><strong>HTML Files</strong>: The baked cookies. My oven is a special, fancy, Bluetooth-connected one which makes a list of all the cookies it built so that they can be sorted, categorized and displayed automatically for your viewing pleasure. </li>
+</ul>
 <p>It sounds pretty simple, doesn’t it? In essence, it is—but I suppose you could say the same thing about a lot of other things… </p>
 <h3>THE IMPLEMENTATION</h3>
 <p>I wrote the Python script—the oven—in bits and pieces here and there. It took a while to flip back and forth to the documentation and understand all the Markdown notation and how it got converted into HTML; there were a lot of unexpected behaviours everywhere I looked.</p>
@@ -68,7 +70,7 @@
 
                     </div>
                     <div style="padding: 3px; justify-self: flex-end">
-                        <i>Published on </i> 2025-02-24
+                        <i>Published on 2025-02-24</i>
                     </div>
                 </div>
             </div>
