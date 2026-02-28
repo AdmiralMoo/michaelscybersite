@@ -638,5 +638,13 @@
         "monthread": "February",
         "yearread": "2026",
         "cover": "/assets/books/fortywordsforsorrow.webp"
+    },
+    {
+        "name":"The Delicate Storm",
+        "author": "Giles Blunt",
+        "year": "2003",
+        "monthread": "February",
+        "yearread": "2026",
+        "cover": "/assets/books/thedelicatestorm.webp"
     }
 ]
