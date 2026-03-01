@@ -1,7 +1,7 @@
 ---
 title: Albums Turning 10 This Year
-date: 2025-01-08
-slug: 2025-01-08-albums-turning
+date: 2026-01-08
+slug: 2026-01-08-albums-turning
 category: music
 tags:
     - retrospective

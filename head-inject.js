@@ -94,42 +94,60 @@ function injectFooter(newFooterPath)
 
 //Lazy loading. Dynamically lazy load images when HTML is injected by JS
 function lazyLoadImages() {
-    const lazyImages = document.querySelectorAll("img.lazyload");
+    const lazyElements = document.querySelectorAll("img.lazyload, div.lazyload");
 
     if ("IntersectionObserver" in window) {
         let observer = new IntersectionObserver((entries, observer) => {
             entries.forEach(entry => {
                 if (entry.isIntersecting) {
-                    let img = entry.target;
-                    const realSrc = img.getAttribute("data-src");
+                    let elment = entry.target;
 
-                    if (realSrc) {
-                        img.onload = () => {
-                            //If this image is inside a carousel, recalculate it
-                            const carousel = img.closest(".simple-image-carousel");
-                            if (carousel && typeof carousel._recalc === "function") {
-                                carousel._recalc();
-                            }
-                        };
+                    if (elment.tagName === "IMG") {
+                        const realSrc = elment.getAttribute("data-src");
 
-                        img.src = realSrc;
-                        img.onerror = () => handleImageError(img);
+                        if (realSrc) {
+                            elment.onload = () => {
+                                const carousel = elment.closest(".simple-image-carousel");
+                                if (carousel && typeof carousel._recalc === "function") {
+                                    carousel._recalc();
+                                }
+                            };
+
+                            elment.src = realSrc;
+                            elment.onerror = () => handleImageError(elment);
+                        }
                     }
 
+                    if (elment.tagName === "DIV") {
+                        const realBg = elment.getAttribute("data-bg");
+                        if (realBg) {
+                            elment.style.backgroundImage = `url("${realBg}")`;
+                        }
+                    }
 
-                    img.classList.add("loaded");
-                    img.classList.remove("lazyload");
-                    observer.unobserve(img);
+                    elment.classList.add("loaded");
+                    elment.classList.remove("lazyload");
+                    observer.unobserve(elment);
                 }
             });
         });
 
-        lazyImages.forEach(img => observer.observe(img));
+        lazyElements.forEach(elment => observer.observe(elment));
     } else {
-        lazyImages.forEach(img => {
-            img.src = img.getAttribute("data-src");
-            img.classList.add("loaded");
-            img.classList.remove("lazyload");
+        lazyElements.forEach(elment => {
+            if (elment.tagName === "IMG") {
+                elment.src = elment.getAttribute("data-src");
+            }
+
+            if (elment.tagName === "DIV") {
+                const realBg = elment.getAttribute("data-bg");
+                if (realBg) {
+                    elment.style.backgroundImage = `url("${realBg}")`;
+                }
+            }
+
+            elment.classList.add("loaded");
+            elment.classList.remove("lazyload");
         });
     }
 }

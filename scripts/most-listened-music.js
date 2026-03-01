@@ -33,11 +33,14 @@ function updateAlbumChartDisplay()
         albumIndex++;
         const albumElement = document.createElement("div");
         albumElement.classList.add("album");
+        //<img src="/assets/gifs/DiscLoading.gif" data-src="${album.cover}" class="lazyload" alt="${album.album}">
 
         albumElement.innerHTML = `
-            <img src="/assets/gifs/DiscLoading.gif" data-src="${album.cover}" class="lazyload" alt="${album.album}">
-            <p id="albumNumber">#${albumIndex}</p>
-            <p id="albumLabel">${album.artist}<br><i>${album.album}</i></p>
+            <div style="background-image:url('/assets/gifs/DiscLoading.gif');" data-bg="${album.cover}" class="lazyload album-img" alt="${album.album}"></div>
+            <div class="album-text">
+                <div class="album-number-container">${albumIndex}</div>
+                <p>${album.artist}<br><i>${album.album}</i></p>
+            </div>
         `;
         
         albumContainer.appendChild(albumElement);

@@ -1998,5 +1998,25 @@
         ],
         "applemusic":"https://music.apple.com/us/album/the-rembrandts-l-p/373220996",
         "spotify":"https://open.spotify.com/album/6koDBGMqurYl3EZnaxCF7N"
+    },
+    {
+        "artist": "Rush",
+        "album": "Permanent Waves",
+        "year": "1980",
+        "cover": "./assets/albumart/rush - permanent waves.webp",
+        "description": "Although Rush's seventh studio album, <i>Permanent Waves</i> is their shortest, it packs a massive punch. This album marked the band's entry into a more radio-friendly sound, following the cresting wave of the Progressive Rock genre as a whole. <br><br>\"The Spirit of Radio\"—one of the all-time killer leadoff tracks—yielded Rush their first Top 30 single in Canada. This album is awesome. Rush, as it as then already, was awesome. Nobody could've predicted how much more awesome they would be over the next two decades...<br><br>I think this is a good album to listen to if you haven't gotten into the more Progressive side of Rush, but any Rush album is a good one to start with. What I'm trying to say is that if you're not listening to this band, you probably should because they're awesome. <br><br>Fun fact: did you know the girl on the cover is credited in the liner notes as \"Ou la la\"? Space Invaders, Hockey and Volleyball are also thanked in the making of the album.<br><br>My favourite tracks off this one are \"The Spirit of Radio\", \"Natural Science\" and \"Freewill\".", 
+        "genre": "Progressive Rock",
+        "rating" : "90",
+        "duration": "36:05",
+        "tracks": [
+            "The Spirit of Radio",
+            "Freewill",
+            "Jacob's Ladder",
+            "Entre Nous",
+            "Different Strings",
+            "Natural Science"
+        ],
+        "applemusic":"https://music.apple.com/us/album/the-rembrandts-l-p/373220996",
+        "spotify":"https://open.spotify.com/album/6koDBGMqurYl3EZnaxCF7N"
     }
 ]

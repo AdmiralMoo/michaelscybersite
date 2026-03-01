@@ -1,7 +1,7 @@
 ---
 title: Logan’s Run at Mayfair Theatre
-date: 2025-01-04
-slug: 2025-01-04-logans-run
+date: 2026-01-04
+slug: 2026-01-04-logans-run
 category: movies
 tags:
     - movie
@@ -9,7 +9,7 @@ tags:
     - adventure
 ---
 
-<div class="blog-image blog-image-right"><img src="/blog/resources/2025-01-04_1.webp"></div>
+<div class="blog-image blog-image-right"><img src="/blog/resources/2026-01-04_1.webp"></div>
 
 While walking down Bank Street after seeing the New Years fireworks at Lansdowne Park, I passed by the Mayfair Theatre and a very familiar movie poster: Logan’s Run (1976). I’ve seen it once before, albeit at home on my computer, and I decided it would be cool to see in theatres. The screening was on January 4th, 2026, at 21:00. 
 

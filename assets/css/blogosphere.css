@@ -1,3 +1,16 @@
+.filled-logo
+{
+    align-items: center;
+    display:flex;
+    justify-content:center;
+}
+
+.filled-logo img
+{
+    max-width: 768px;
+    object-fit:cover;
+}
+
 .blogosphere-recent-container
 {
     width: 100%;
@@ -6,6 +19,22 @@
     grid-template-columns: 1fr 1fr 1fr 1fr;
 
     gap: 20px;
+}
+
+.blogosphere-new-parent
+{
+    background-image: url("/assets/gifs/binary_gif.gif");
+    padding: 24px;
+    padding-bottom: 54px;
+    padding-top: 54px;
+
+    mask-image: linear-gradient(
+        to bottom,
+        transparent 0%,
+        black 10%,
+        black 90%,
+        transparent 100%
+    );
 }
 
 .blogosphere-recent-box
@@ -60,6 +89,12 @@
     font-family: 'Microsoft Sans-Serif Neue';
 }
 
+.blogosphere-recent-box a
+{
+    text-decoration: none;
+    color: black;
+}
+
 .blogosphere-recent-title
 {
     padding: 0px;
@@ -68,4 +103,72 @@
 .blogosphere-recent-date
 {
     font-size: 0.8em;
+}
+
+.blogosphere-genre-tag 
+{
+    font-family: 'Microsoft Sans-Serif Neue';
+    font-weight: bold;
+    font-style: italic;
+    padding: 6px;
+    text-align: center;
+    background-color: white;
+    box-shadow: 0px 3px 4px inset black, 0px -3px 4px inset black;
+}
+
+.blogosphere-category-grid
+{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width: 100%;
+    gap: 20px;
+}
+
+.blogosphere-category-grid div
+{
+    padding: 16px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.blogosphere-category-grid img
+{
+    height: 48px;
+}
+
+.bg-movies
+{
+    background-image: linear-gradient(to right, #1c1c22 , #4e5472);
+    color: white;
+}
+
+.bg-books
+{
+    background-image: linear-gradient(to right, #800000 , #d01010);
+    color: white;
+}
+
+.bg-photography
+{
+  color: #000000;
+  background-image: linear-gradient(to right, #ffe200 , #ffe947);
+  font-family: 'Futura Condensed Extra Bold Italic';
+  letter-spacing: -0.05em;
+}
+
+.bg-music
+{
+    color: #FFFFFF;
+    background-image: linear-gradient(to right, #1a8000 , #10d03a);
+}
+
+.bg-general
+{
+  color: #FFFFFF;
+  background-image: linear-gradient(to right, #000080 , #1084d0);
 }

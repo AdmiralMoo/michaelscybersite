@@ -358,5 +358,15 @@
             { "artist": "Foreigner", "album": "4", "cover": "./assets/albumart/foreigner - 4.webp" },
             { "artist": "ZZ Top", "album": "Afterburner", "cover": "./assets/albumart/zz top - afterburner.webp" }
         ]
+    },
+    {
+        "month": "February 2026",
+        "albums": [
+            { "artist": "Boston", "album": "Walk On", "cover": "./assets/albumart/boston - walk on.webp" },
+            { "artist": "Foreigner", "album": "4", "cover": "./assets/albumart/foreigner - 4.webp" },
+            { "artist": "The Edgar Winter Group", "album": "They Only Come Out At Night", "cover": "./assets/albumart/the edgar winter group - they only come out at night.jpg" },
+            { "artist": "R.E.M.", "album": "Out of Time", "cover": "./assets/albumart/rem - out of time.jpg" },
+            { "artist": "Eagles", "album": "Hotel California", "cover": "./assets/albumart/eagles - hotel california.webp" }
+        ]
     }
 ]

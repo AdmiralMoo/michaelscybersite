@@ -468,11 +468,20 @@
         "imagespine" : "./assets/vhs/TheSongRemainsTheSame_Spine.webp"
     },
     {
+        "id" : "livewithoutanet",
+        "name" : "Van Halen: Live Without a Net",
+        "year" : "1986",
+        "body" : "I'll admit, I was once a hater of Van Hagar. It just didn't feel the same and I didn't like it. I'm proud to say that as of the summer of 2025, I came to my senses and I'm now reformed.<br><br>This tape is from the 5150 tour and is packed with hard-rocking awesomeness from EVH and company. What more is there to say? It's something you feel good watching and listening to; something really exciting! I absolutely love 5150.",
+        "tags" : "music",
+        "imagefront" : "./assets/vhs/VanHalenLiveWithoutANet_Front.webp",
+        "imagespine" : "./assets/vhs/VanHalenLiveWithoutANet_Spine.webp"
+    },
+    {
         "id" : "woodstock",
         "name" : "Woodstock",
         "year" : "1970",
         "body" : "",
-        "tags" : "music;shelfmain",
+        "tags" : "music",
         "imagefront" : "./assets/vhs/Woodstock_Front.webp",
         "imagespine" : "./assets/vhs/Woodstock_Spine.webp"
     }
