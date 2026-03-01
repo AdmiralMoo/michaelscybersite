@@ -142,3 +142,6 @@ index_output = index_template.replace("{{ recent_posts }}", recent_posts_html)
 
 with open("blog/index.html", "w", encoding="utf-8") as f:
     f.write(index_output)
+
+
+    

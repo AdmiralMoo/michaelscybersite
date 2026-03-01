@@ -198,6 +198,8 @@ footer span
     padding-top:5px;
     justify-content: center;
     align-items: center;
+
+    font-family: "Microsoft Sans-Serif Neue";
   }
 
   #noformat
@@ -221,7 +223,9 @@ footer span
   {
     text-decoration: none;
     text-align: center;
-    font-size: 1.8em;
+    font-size: 1.5em;
+    padding-top:3px;
+    padding-bottom: 6px;
     pointer-events: none;
     user-select: none;
     margin:0;
