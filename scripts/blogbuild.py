@@ -105,7 +105,6 @@ with open("assets/json/blogIndex.json", "w", encoding="utf-8") as f:
 with open("pages/templates/blogindex.html", encoding="utf-8") as f:
     index_template = f.read()
 
-#
 recent_posts_html = ""
 posts_html = ""
 
@@ -143,5 +142,5 @@ index_output = index_template.replace("{{ recent_posts }}", recent_posts_html)
 with open("blog/index.html", "w", encoding="utf-8") as f:
     f.write(index_output)
 
-
-    
+#Generate categories
+categories = { "general", "music", "books", "movies" }
