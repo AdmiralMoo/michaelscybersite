@@ -71,7 +71,7 @@
 .blogosphere-post-image
 {
     position: relative;
-    
+
     height: 100%;
     width: auto;
     aspect-ratio: 2/1;
@@ -223,4 +223,19 @@
 {
   color: #FFFFFF;
   background-image: linear-gradient(to right, #000080 , #1084d0);
+}
+
+p
+{
+    font-size: 1.2em;
+}
+
+li, ul
+{
+    font-size: 1.1em;
+}
+
+h3
+{
+    font-size: 1.5em;
 }
