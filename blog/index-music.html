@@ -1,27 +1,24 @@
 <head>
     <script src="/head-inject.js"></script>
 
-    <title>{{ title }}</title>
+    <title>The Blogosphere</title>
     <link rel="stylesheet" type="text/css" href="/assets/css/win98.css"/>
     <link rel="stylesheet" type="text/css" href="/assets/css/blogosphere.css"/>
-    {{ theme }}
 </head>
 
 <body>
     <main>
         <div class="maincontent-centred" style="min-height:60vh;">
-            <div class="ImageHeader outsideborder">
-                <div class="insideborder">
-                    <img class="lazyload" src="/assets/gifs/LoadingCloudsText.gif" data-src="/blog/resources/{{ date }}_0.webp">
+            <div class="invisible-box">
+                <div class="filled-logo" style="image-rendering:pixelated">
+                    <img src="./assets/images/logo_blogosphere_shadow.webp">
                 </div>
-                <div class="blog-logo"><img style="object-fit:fill; aspect-ratio: 10/1;" src="/assets/images/logo_blogosphere_shadow.webp"></div>
-                <div class="ImageHeader-MyPhoto">Photo: MichaelsCybersite.net, 2025</div>
             </div>
 
             <div class="outsideborder body-fill" style="border-width: 4px;">
-                <div class="header-one-box">
-                    <h1>{{ title }}</h1>
-                    <img src="./assets/icons/{{ icon }}">
+                <div class="header-one-box bg-Music">
+                    <h1>Music Blog Posts</h1>
+                    <img src="./assets/icons/icon_cd1.png">
                 </div>
                 <div class="insidecontent header-sub-box body-fill" style="padding:2px; box-sizing: border-box;">
                     <a class="noformat" href="/blog/index.html">
@@ -30,20 +27,28 @@
                         </div>
                     </a>
                     <div class="insideborder inside-element-sunken">
-                        https://www.michaelscybersite.net/blog/{{ date }}
+                        https://www.michaelscybersite.net/blog/categories/Music
                     </div>
                 </div>
                 <div class="insidecontent">
                     <div class="insideborder content-fill content-box">
-                        {{ content }}
+                        <div class="blogosphere-post-container">
+                            
+            <div class="blogosphere-post-rect">
+                <div class="blogosphere-post-image" style="background-image: url('/blog/resources/2026-01-08_0.webp');"></div>
+                <a href="/blog/generated/2026-01-08-albums-turning.html">
+                    <div class="blogosphere-post-body body-fill outsideborder win-bluebutton" style="border-width: 5px;">
+                        <div class="blogosphere-recent-title">Albums Turning 10 This Year</div>
+                        <div class="blogosphere-recent-date">2026-01-08</div>
+                    </div>
+                </a>
+            </div>
+            
+                        </div>
                     </div>
                 </div>
                 <div class="insidecontent" style="display: flex; justify-content: space-between;">
                     <div style="padding: 3px; justify-self: flex-start">
-                        {{ tags }}
-                    </div>
-                    <div style="padding: 3px; justify-self: flex-end">
-                        <i>Published on {{ date }}</i>
                     </div>
                 </div>
             </div>

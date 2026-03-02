@@ -5,6 +5,12 @@ dir_posts = "blog/posts"
 dir_output = "blog/generated"
 postTempa = "pages/templates/blogpost.html"
 blog_index = []
+blogPostCategories = {
+    "general": [],
+    "books": [],
+    "movies": [],
+    "music": []
+}
 
 #open the timeline
 postTempa = os.path.join(os.getcwd().replace("scripts",""), postTempa)
@@ -54,34 +60,41 @@ for filename in os.listdir(dir_posts):
 
     html_body = html_body.replace("{{ tags }}", tags);
 
-    if "category" in meta:
-        if meta['category'] == 'music':
-            html_body = html_body.replace("{{ theme }}", '<link rel="stylesheet" type="text/css" href="/assets/css/music.css"/>')
-            html_body = html_body.replace("{{ icon }}", "icon_cd1.png")
-        elif meta['category'] == 'movies':
-            html_body = html_body.replace("{{ theme }}", '<link rel="stylesheet" type="text/css" href="/assets/css/movies.css"/>')
-            html_body = html_body.replace("{{ icon }}", "icon_film.png")
-        elif meta['category'] == 'photography':
-            html_body = html_body.replace("{{ theme }}", '<link rel="stylesheet" type="text/css" href="/assets/css/photos.css"/>')
-        elif meta['category'] == 'books':
-            html_body = html_body.replace("{{ theme }}", '<link rel="stylesheet" type="text/css" href="/assets/css/books.css"/>')
-        elif meta['category'] == 'general':
-            html_body = html_body.replace("{{ theme }}", "")
-            html_body = html_body.replace("{{ icon }}", "icon_home.png")
-    else:
-        html_body = html_body.replace("{{ theme }}", "")
-        html_body = html_body.replace("{{ icon }}", "icon_home.png")
-
-    #VI.I (ha!) Add to the master JSON
-    blog_index.append(
-    {
+    postData = {
         "title":        meta["title"],
         "date":         str(meta["date"]),
         "slug":         meta["slug"],
         "category":     meta.get("category", ""),
         "tags":         meta.get("tags", [])
 #        "description":  meta.get("description", "")
-    })
+    }
+
+    #VI.I (ha!) Add to the master JSON
+    blog_index.append(postData);
+
+    if "category" in meta:
+        if meta['category'] == 'music':
+            html_body = html_body.replace("{{ theme }}", '<link rel="stylesheet" type="text/css" href="/assets/css/music.css"/>')
+            html_body = html_body.replace("{{ icon }}", "icon_cd1.png")
+            blogPostCategories['music'].append(postData)
+        elif meta['category'] == 'movies':
+            html_body = html_body.replace("{{ theme }}", '<link rel="stylesheet" type="text/css" href="/assets/css/movies.css"/>')
+            html_body = html_body.replace("{{ icon }}", "icon_film.png")
+            blogPostCategories['movies'].append(postData)
+        elif meta['category'] == 'photography':
+            html_body = html_body.replace("{{ theme }}", '<link rel="stylesheet" type="text/css" href="/assets/css/photos.css"/>')
+            #blogPostCategories['music'].append(meta["title"])
+        elif meta['category'] == 'books':
+            html_body = html_body.replace("{{ theme }}", '<link rel="stylesheet" type="text/css" href="/assets/css/books.css"/>')
+            blogPostCategories['books'].append(postData)
+        elif meta['category'] == 'general':
+            html_body = html_body.replace("{{ theme }}", "")
+            html_body = html_body.replace("{{ icon }}", "icon_home.png")
+            blogPostCategories['general'].append(postData)
+    else:
+        html_body = html_body.replace("{{ theme }}", "")
+        html_body = html_body.replace("{{ icon }}", "icon_home.png")
+        blogPostCategories['general'].append(postData)
 
     #VII. Concatenate more strings to create the output directory
     toilet = os.path.join(dir_output, f"{meta['slug']}.html")
@@ -143,4 +156,43 @@ with open("blog/index.html", "w", encoding="utf-8") as f:
     f.write(index_output)
 
 #Generate categories
-categories = { "general", "music", "books", "movies" }
+#1. iterate through each category, then through each post in each category
+for category in blogPostCategories.items():
+    category_html = "";
+
+    with open("pages/templates/blogindex-category.html", encoding="utf-8") as f:
+        category_template = f.read()
+
+    for post in category[1]:
+        category_html += f"""
+            <div class="blogosphere-post-rect">
+                <div class="blogosphere-post-image" style="background-image: url('/blog/resources/{post['date']}_0.webp');"></div>
+                <a href="/blog/generated/{post['slug']}.html">
+                    <div class="blogosphere-post-body body-fill outsideborder win-bluebutton" style="border-width: 5px;">
+                        <div class="blogosphere-recent-title">{post['title']}</div>
+                        <div class="blogosphere-recent-date">{post['date']}</div>
+                    </div>
+                </a>
+            </div>
+            """
+        
+    category_template = category_template.replace("{{ category }}", category[0].capitalize())
+
+    if (category_html == ""):
+        category_html = "<i><b>Nada!</i></b>"
+
+    category_template = category_template.replace("{{ posts }}", category_html)
+
+    if post['category'] == 'music':
+        category_template = category_template.replace("{{ icon }}", "icon_cd1.png")
+    elif post['category'] == 'movies':
+        category_template = category_template.replace("{{ icon }}", "icon_film.png")
+    elif post['category'] == 'photography':
+        category_template = category_template.replace("{{ icon }}", "icon_camera_older.png")
+    elif post['category'] == 'books':
+        category_template = category_template.replace("{{ icon }}", "icon_book_virginian.png")
+    elif post['category'] == 'general':
+        category_template = category_template.replace("{{ icon }}", "icon_home.png")
+
+    with open(f"blog/index-{category[0]}.html", "w", encoding="utf-8") as f:
+        f.write(category_template)
