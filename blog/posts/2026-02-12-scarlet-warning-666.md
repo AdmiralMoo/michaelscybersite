@@ -9,7 +9,7 @@ tags:
     - palmer-rockey
 ---
 
-<div class="blog-image blog-image-right"><img src="/blog/resources/2026-02-12_1.webp"></div>
+<div class="blog-image blog-image-right"><img src="/blog/resources/2026-02-12_1.webp"><span></span>The movie schedule board outside the Mayfair on the week Scarlet Warning was showing.</div>
 
 Last night at The Mayfair, my local movie theatre, I saw the third and final screening of Scarlet Warning 666. It was so good—so bad—that I had to see it a second time; the first was this past Sunday, the 8th of February. 
 

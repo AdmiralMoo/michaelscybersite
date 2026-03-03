@@ -1,5 +1,15 @@
 [
   {
+    "title": "Two Months At The Mayfair",
+    "date": "2026-02-27",
+    "slug": "2026-02-27-two-months-mayfair",
+    "category": "movies",
+    "tags": [
+      "retrospective",
+      "rambling"
+    ]
+  },
+  {
     "title": "A Blog From Scratch",
     "date": "2026-02-24",
     "slug": "2026-02-24-a-blog-from-scratch",
@@ -38,6 +48,15 @@
       "movie",
       "mayfair",
       "adventure"
+    ]
+  },
+  {
+    "title": "Never Forget What They Took From Us",
+    "date": "2025-09-23",
+    "slug": "2025-09-23-ice-cream",
+    "category": "general",
+    "tags": [
+      "retrospective"
     ]
   }
 ]

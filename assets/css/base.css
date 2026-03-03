@@ -224,8 +224,8 @@ footer span
     text-decoration: none;
     text-align: center;
     font-size: 1.5em;
-    padding-top:3px;
-    padding-bottom: 6px;
+    padding-top:6px;
+    padding-bottom: 4px;
     pointer-events: none;
     user-select: none;
     margin:0;
@@ -1347,76 +1347,4 @@ ul, li, ol
 .hidden
 {
   visibility: hidden;
-}
-
-/* Blog */
-.blog-image
-{
-  max-width: 256px;
-  padding: 4px;
-} 
-
-.blog-image img
-{
-  object-fit: scale-down;
-  image-rendering: optimizeSpeed;
-  width: 100%;
-}
-
-.blog-image-small 
-{
-  max-width: 128px;
-}
-
-.blog-image-center
-{
-  display: flex;
-  max-height: 386px;
-  max-width: unset;
-  width: 100%;
-}
-
-.blog-image-right
-{
-  float:right;
-
-}
-.blog-image-left
-{
-  float:left;
-}
-
-.blog-tag
-{
-  padding: 4px;
-  padding-right: 6px;
-  background-color: rgb(178, 226, 249);
-
-  filter: drop-shadow(2px 2px 0px);
-
-  border: 1px solid black;
-  border-top-right-radius: 8px;
-  border-bottom-right-radius: 8px;
-
-  font-family: 'Microsoft Sans-Serif Neue';
-  font-style:italic;
-}
-
-.blog-logo
-{
-  display: flex;
-  position: absolute;
-  left: 25;
-  bottom: 25;
-}
-
-.blog-logo img
-{
-  display: block;
-  aspect-ratio: 6/1;
-  width: 45vw;
-  min-width: 256px;
-  height: unset;
-  object-fit: fill;
-  image-rendering: pixelated;
 }
