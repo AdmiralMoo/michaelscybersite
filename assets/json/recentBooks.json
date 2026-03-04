@@ -654,5 +654,13 @@
         "monthread": "March",
         "yearread": "2026",
         "cover": "/assets/books/blackflyseason.webp"
+    },
+    {
+        "name":"Neuromancer",
+        "author": "William Gibson",
+        "year": "1984",
+        "monthread": "March",
+        "yearread": "2026",
+        "cover": "/assets/books/neuromancer.webp"
     }
 ]
