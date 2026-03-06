@@ -662,5 +662,13 @@
         "monthread": "March",
         "yearread": "2026",
         "cover": "/assets/books/neuromancer.webp"
+    },
+    {
+        "name":"By The Time You Read This",
+        "author": "Giles Blunt",
+        "year": "2006",
+        "monthread": "March",
+        "yearread": "2026",
+        "cover": "/assets/books/bythetimeyoureadthis.webp"
     }
 ]
