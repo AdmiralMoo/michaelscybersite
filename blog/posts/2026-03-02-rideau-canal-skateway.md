@@ -1,0 +1,94 @@
+---
+title: Skating on the Rideau Canal
+date: 2026-03-02
+slug: 2026-03-02-rideau-canal-skateway
+category: general
+tags:
+    - adventure
+    - rideau-canal
+    - skating
+---
+
+<div class="blog-image blog-image-med blog-image-right"><img src="/blog/resources/2026-03-02_Canal_DSC_6948.webp"><span>A southward view of the canal just past Dow's Lake.</span></div>
+
+Today—March 2nd, 2026—is the last day for the next two weeks with a high below zero. There’s already been a couple of warm spells, and with the effervescent scent of spring in the air, I figured—barring any odd weather events to come—today will be the final day the Rideau Canal is open for the season.
+
+The first time I went to the canal was on December 31st, 2025—the first day it was opened to the public. I’ve been at least two-dozen times since then and I wanted to go one last time before it closed. I thought it would be nice to write about my experience with the canal after my first season skating on it. 
+
+###THE DAY
+
+<div class="blog-image blog-image-left"><img src="/blog/resources/2026-03-02_Canal_DSC_6577.webp"><span>A beautiful patch of trees across the canal from the pathway south of Carleton</span></div>
+
+After last night’s abrupt cold snap, the temperature let up to just six below this afternoon at around three o’ clock. A harsh, westward wind streaked over Dow’s Lake, but it wasn’t an issue anywhere else since there was either building or quay-cover. The cloudless sky was a vivid, blowtorch blue and the afternoon sun shone triumphantly on the world knowing winter’s grasp would soon give way to spring. 
+
+Because of school hours and the way my canal visits lined up with trips downtown, this was actually the first time I’d skated in broad daylight. It was splendid, to say the least! 
+
+On my way there, I walked along a path parallel to the canal towards the southernmost entrance at Carleton. Other than a couple of puddles, the concrete was dry and iceless, but not without hazard—everything is terribly muddy. In some places, the snow gave way to matted yellow grass along the pathway; somewhat unsightly scenes of a withering winter and coming spring, but welcome ones. 
+
+<div class="blog-image blog-image-right"><img src="/blog/resources/2026-03-02_Canal_DSC_6640.webp"><span>The vastness of Dow's Lake looking towards the pavillion. It's like a skateway superhighway across an icy desert out there!</span></div>
+
+The ice and dimpled snow, undisturbed, shines in the sun like polished metal. Thick patches of pine and spruce line the west bank of the canal while skeletons of bare maple and poplars poke out in between; thanks to the evergreens, there’s more green here than I would’ve expected. 
+
+The entrance at Carleton was busy. Skaters impatiently wheeled around the wooden signpost marking the 7.8-kilometre mark as their peers struggled to tighten their blades. 
+
+I laced up and got going. The ice was in good condition: other than a couple abrupt bumps, it was all flat—even across Dow’s Lake which I’ve often found to be wavy over long distances. Where it didn’t bear the marks of a thousand cuts, the ice took on the colour of the brilliant blue sky. Shadows of maples and yellowed willows cast across the way as I made my way north. 
+
+###CANAL ACCESS 
+
+<div class="blog-image blog-image-med blog-image-left"><img src="/blog/resources/2026-03-02_Canal_DSC_6735.webp"><span>The stairs at Hawthorne and Colonel By—A typical canal entrance when there's no rest stop.</span></div>
+
+Over the course of the season, the canal opened in segments. There are quite a few entrances to the canal—each one has at least four benches, a trash can and a communal shelf where people leave bags and shoes. Larger rest stops will have a more full selection of amenities, but it’s rather easy to get on and off the canal from across that stretch of the city. 
+
+On December 31st, 2025, a three-kilometre stretch between Somerset West and Bank Street Bridge was prepared for the initial opening before expanding steadily north as the frigid cold persisted. I kept going back every couple of days and felt as if I’d unlocked a new part of the canal. The Dow’s Lake and Carleton section opened up after everything else, and thus, it’s the one I’m least familiar with. 
+
+That said, I’ve done the whole length of the canal quite a few times now. I’ve made a point to stop and every stop, try something from each food stand and take in the sights everywhere I went; I was intent on having a full experience at the canal, and by golly, did I ever. 
+
+###SKATING & CONDITIONS
+
+<div class="blog-image blog-image-right"><img src="/blog/resources/2026-03-02_Canal_DSC_6757.webp"><span>uOttawa as seen from the Concord Rest Stop</span></div>
+
+I only learned to skate this past December; I borrowed a pair from my Dad and went out to an outdoor rink by my campus maintained by the City of Ottawa. It was a bit rough at first since I was going at it blind, but I thought of long relaxing night skates under the stars after class or the possibility of skating with a pretty girl and I learned quickly. 
+
+I don’t think the canal is a good place to start if you don’t know how to skate at all, though they do rent out skates and I see a lot of people try. On the worst of days, you might encounter lots of bumps and ridges in the ice—manageable if you’ve had a couple hours on ice, but maybe not a complete novice. 
+
+By the time the canal opened I was decent, having practiced every day; I’ve certainly come leaps and bounds in the two months since then. According to my Apple Watch, I had around twelve hours on smooth, well maintained ice before I went out on the canal. That’s not to say the canal is terrible—it’s quite the opposite—but real frozen water instead of a controlled surface does make a difference if you’re just figuring things out. 
+
+<div class="blog-image blog-image-left"><img src="/blog/resources/2026-03-02_Canal_DSC_6760.webp"><span>The canal at one of the busier sections closer to downtown</span></div>
+
+Nowadays, I can stop, go, turn sharply, balance on one foot and even skate with hands in my pocket or behind my back. It seemed like a far cry when I first got on the ice, and I’m glad the canal wasn’t open when I started because it was quite bumpy at first. The conditions have certainly improved and peaked, I would say, from mid-January up to now. 
+
+When there are heavy snows, the crews will wait until the whole weather system has passed before they flood the canal and smooth over the ice. It might take a couple days during a snowstorm but as soon as things clear up, they’ll be out first-thing in the morning like clockwork. The city does a fantastic job of maintaining the ice and the facilities.
+
+###CONCESSIONS & AMENITIES
+
+<div class="blog-image blog-image-med blog-image-right"><img src="/blog/resources/2026-03-02_Canal_DSC_6937.webp"><span>The mononymous POUTINE</span></div>
+
+As well as the ice, the city does a great job of providing amenities such as toilets, warm rest areas, benches and tables, shelves to store shoes and bags, and—of course—food. 
+
+Just as you will find a Tim Hortons or Walmart if you drive half an hour in any direction, each major rest stop—Rideau, Concord, Fifth, Bronson and Dow’s Lake—will have a Beavertails ready to serve you a deep-fried slab of diabetes. Other rest stop concessions this year included Guylaine Café, Snack O'Shack, 3Brothers, Brown Bag Coffee Roasters, two Dunrobin Distillery stands and one shack aptly branded “POUTINE” in all black letters.  
+
+I’m not a big dessert fan, but I did try a Beavertail and it was alright (I was coerced by the aforementioned pretty girl). The hashbrown-looking fried dough pastries go for around $9.00 and are slathered in a mix of cinnamon, sugar, chocolate or whipped cream, amongst other unholy combinations. 
+
+<div class="blog-image blog-image-left"><img src="/blog/resources/2026-03-02_Canal_DSC_6939.webp"><span>The rest stop at Dow's Lake</span></div>
+
+I was standing in line at a Beavertails today thinking I’d have another just for the sake of it. The line was long, and I was looking around appreciating the scenery when I saw three beautiful words shining gloriously in the sun in black-on-white lettering: Chilli Cheese Dog.
+
+You know how you drift away from certain people and you don’t talk for a while? You catch up and wonder why you ever stopped talking in the first place; it feels really good and you almost want to make up for lost time. That’s how I feel about Chilli Cheese Dogs right now.
+
+The rest stops are lined with Christmas trees planted into the ice and have tables, benches and night lighting for the full sit-down experience. The washrooms are always surprisingly clean and although the heated changing rooms get crowded, people are always courteous to move over and make space to get your skates on and off.
+
+###THE CANAL
+
+<div class="blog-image blog-image-right"><img src="/blog/resources/2026-03-02_Canal_DSC_6802.webp"><span>A south-facing view from the northernmost part of the canal downtown. Changing rooms and bathrooms are visible in the left centre of the image. </span></div>
+
+The core experience of skating the canal is a lot of fun. I often bike up and down the path which runs along Colonel By and it’s very cool to see everything from down at water level without crashing my bike into the forbidden zone or drowning. 
+
+Some parts of the canal are open like in Dow’s Lake or bordered by trees as it is down at Carleton. Further up, it’s mostly the concrete walls hidden underwater in the summer. There are lights all the way up and down the canal except for the final stretch between Dow’s and Carleton, but that’s a fantastic experience of its own on a moonlit night. 
+
+<div class="blog-image blog-image-left"><img src="/blog/resources/2026-03-02_Canal_DSC_6912.webp"><span>The final snowy sunset over Dow's Lake Pavillion</span></div>
+
+Access to Lansdowne Park and Bank St. are fantastic—that area is packed with things to do throughout the winter. Going the whole way and seeing downtown creep into view is quite a breathtaking sight. 
+
+You can get around the city on the canal and plan an adventure; I’ve often started at Carleton and gone up to the NAC for a concert or started downtown and skated south to the Mayfair for a movie. A friend of mine told me she skates to uOttawa for class instead of taking the O-Train. Purposeful or purposeless, time spent on the canal is always a lot of fun whether it’s your final destination or just something in the middle. The idea that you can traverse large parts of a city on skates is absolutely amazing, and I’m grateful that we have this in Ottawa. 
+
+I would highly recommend anyone go at least once, but if you keep going back, there’s so much to discover. All in all, I’ve had a great time skating on the Rideau Canal and I’m looking forward to going back next year. 

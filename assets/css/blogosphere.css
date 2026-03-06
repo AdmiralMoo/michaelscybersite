@@ -43,6 +43,8 @@
     grid-template-columns: 1fr 1fr;
     width: 100%;
     gap: 5px;
+
+    overflow: auto;
 }
 
 .blogosphere-post-container a
@@ -66,6 +68,8 @@
     font-size: 1.5em;
 
     font-family: "Microsoft Sans-Serif Neue";
+
+    overflow: auto;
 }
 
 .blogosphere-post-image
@@ -281,6 +285,23 @@ h3
 {
   max-width: 128px;
 }
+
+.blog-image-med
+{
+    width: 386px;
+}
+
+.blog-image-med img
+{
+  max-width: 384px;
+
+}
+
+.blog-image-large img
+{
+  max-width: 512px;
+}
+
 
 .blog-image-center img
 {
