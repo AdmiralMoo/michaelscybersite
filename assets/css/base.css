@@ -687,7 +687,7 @@ Formatting for body boxes
   border-image-repeat: repeat;
   border-color: rgb(0, 0, 0);
 
-  
+  box-sizing:border-box;
 }
 
 .windows-button > *
@@ -698,6 +698,7 @@ Formatting for body boxes
   text-decoration: none;
   font-weight: bolder;
   color: black;
+  box-sizing:border-box;
 }
   
 .windows-button:hover {
@@ -705,6 +706,7 @@ Formatting for body boxes
     border-image: url("/assets/ui/Win98OutBorder.png") 3;
     border-image-repeat: repeat;
     filter: brightness(1.25);
+    box-sizing:border-box;
 }
 
 .windows-button:active  {
@@ -912,7 +914,7 @@ ul, li, ol
     margin-left: 0.5em;
   }
   
-  h1, h2, h3, h4, p
+  h1, h2, h3, h4
   {
     margin-top: 0;
     margin-bottom: 0;

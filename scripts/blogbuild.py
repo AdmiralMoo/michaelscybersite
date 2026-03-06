@@ -52,6 +52,7 @@ for filename in os.listdir(dir_posts):
     html_body = template
     html_body = html_body.replace("{{ title }}", meta["title"])
     html_body = html_body.replace("{{ date }}", str(meta["date"]))
+    html_body = html_body.replace("{{ year }}", str(meta["date"]).split("-")[0])
     html_body = html_body.replace("{{ content }}", markdown.markdown(crap_body))
 
     tags = ''
