@@ -235,6 +235,21 @@ Album showcase
     white-space: nowrap; 
 }
 
+.showcaseAlbumTrackHighlight
+{
+    /*text-shadow: 0 0 3px rgb(242, 255, 0);*/
+    text-decoration-line: underline;
+    text-decoration-color: rgb(173, 173, 173);
+    text-decoration-style: wavy;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 3px;
+}
+
+.showcaseAlbumTrackFavourite
+{
+    /*text-decoration: underline;*/
+}
+
 @media (max-width:500px)
 {
     .albumShowcaseTopDisplay

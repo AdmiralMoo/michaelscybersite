@@ -607,5 +607,19 @@
         "album": "Silver Side Up",
         "art":"/assets/albumart/nickelback - silver side up.webp",
         "duration":"3:44"
+    },
+    {
+        "name": "\"5150\"", 
+        "artist": "Van Halen",
+        "album": "5150",
+        "art":"/assets/albumart/van halen - 5150.jpg",
+        "duration":"5:44"
+    },
+    {
+        "name": "Why Can't This Be Love", 
+        "artist": "Van Halen",
+        "album": "5150",
+        "art":"/assets/albumart/van halen - 5150.jpg",
+        "duration":"3:48"
     }
 ]

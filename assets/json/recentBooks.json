@@ -670,5 +670,13 @@
         "monthread": "March",
         "yearread": "2026",
         "cover": "/assets/books/bythetimeyoureadthis.webp"
+    },
+    {
+        "name":"Crime Machine",
+        "author": "Giles Blunt",
+        "year": "2010",
+        "monthread": "March",
+        "yearread": "2026",
+        "cover": "/assets/books/crimemachine.webp"
     }
 ]

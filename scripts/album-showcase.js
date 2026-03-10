@@ -28,7 +28,25 @@ function updateAlbumShowcase() {
         let trackIndex = 0;
         showcaseAlbum.tracks.forEach(track => {
             trackIndex += 1;
-            tracksList += `<li>${track}</li>`;
+            let sTrack = String(track);
+            let sTrackStyle = "";
+            let sTrackSuffix = "";
+
+            if (sTrack.includes("!*"))
+            {
+                sTrack = sTrack.replace("!*", "");
+                sTrackStyle = "showcaseAlbumTrackFavourite";
+                sTrackSuffix = "★";
+            }
+
+            if (sTrack.includes("*"))
+            {
+                sTrack = sTrack.replace("*", "");
+                sTrackStyle = "showcaseAlbumTrackHighlight";
+                sTrackSuffix = "";
+            }
+
+            tracksList += `<li class=${sTrackStyle}>${sTrack} ${sTrackSuffix}</li>`;
         });
 
         albumShowcaseParent.innerHTML += `
