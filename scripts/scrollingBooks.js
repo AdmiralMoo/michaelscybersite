@@ -52,6 +52,10 @@ function resetbook(book) {
     const totalTime = duration * 1500;
     setTimeout(() => {
         resetbook(book);
+        if (bookImages.length > 3)
+        {
+            book.remove();
+        }
     }, totalTime);
 }
 

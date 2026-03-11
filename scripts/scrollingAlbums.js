@@ -52,6 +52,10 @@ function resetAlbum(album) {
     const totalTime = duration * 1500;
     setTimeout(() => {
         resetAlbum(album);
+        if (albumImages.length > 3)
+        {
+            album.remove();
+        }
     }, totalTime);
 }
 
