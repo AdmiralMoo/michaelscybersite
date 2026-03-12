@@ -364,6 +364,45 @@ h3
     justify-content: space-between; 
 }
 
+/* All posts display */
+.blogosphere-allposts-container
+{
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 100%;
+    gap: 20px;
+}
+
+.blogosphere-allpost-post
+{
+    width: 100%;
+    min-height: 128px;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.blogosphere-allpost-body
+{
+    display:flex; 
+    align-items:center;
+    justify-content: left;
+    padding: 8px;
+
+    width: 75%;
+    height: 100%;
+}
+
+.blogosphere-allpost-image
+{
+    width: 25%;
+    height: 100%;
+
+    background-image: url('');
+    background-size: contain;
+    background-position: center;
+}
+
 @media(max-width: 400px)
 {
     /* Blogosphere home page */

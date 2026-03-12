@@ -18,8 +18,8 @@ export function initNewspaper(root = document)
 
 async function initBlogposts(root) 
 {
-    const storya = await retrieveArticle("Never Forget What They Took From Us");
-    const storyb = await retrieveArticle("The Soundtrack of Summer 2025");
+    const storya = await retrieveBlogpost(0);
+    const storyb = await retrieveBlogpost(1);
     InsertNewsStory(root, "story-four-a", 666, true, false, 45, "read blogpost...", storya);
     InsertNewsStory(root, "story-four-b", 666, true, false, 45, "read blogpost...", storyb);
 }
@@ -325,6 +325,26 @@ function retrieveArticle(articleName)
         }
     )
     .catch(error => console.error('The JSON loader shit itself:', error));
+}
+
+function retrieveBlogpost(blogIndex)
+{
+    return fetch('/assets/json/blogIndex.json')
+    .then(response => response.json())
+    .then(data =>
+    {
+        let targetBlogpost;
+        targetBlogpost = data[blogIndex];
+
+        const { category, title, description, date, slug } = targetBlogpost;
+
+        return {
+            headline: title,
+            body: "...",
+            image: `/blog/resources/${date}_0.webp`,
+            link: `/blog/generated/${slug}.html`
+        }
+    })
 }
 
 function UpdateSiteChangelog(root)

@@ -494,7 +494,6 @@
             "*The Song Remains The Same",
             "The Rain Song",
             "!*Over The Hills and far Away",
-            "The Rain Song",
             "The Crunge",
             "*Dancing Days",
             "D'yer Mak'er",
@@ -1984,7 +1983,7 @@
         "description": "Hotel California is one of the most melancholic, depressing albums I know. It’s sadder and steeped in more regret than any heavy metal, any “emo”—anything that’s tried to be sad since. <br><br>Sure, it’s legendary; it’s got slick licks and catchy hooks, good sequencing and fantastic songwriting—it’s got soul. It’s a beautiful album, really, but it sounds like someone who has lived long enough to hurt, love and grow apart. <br><br>That said, I wouldn’t discourage anyone from listening to this. If you’ve lived, loved and lost—if you’ve drawn a breath as a red-blooded, feelin’, free-wheelin’ human bein’, you’ll find a melody to enjoy here. <br><br>My favourite tracks off this one are “The Last Resort”, “Life in the Fast Lane”, “Try and Love Again” and “Hotel California.”",
         "genre": "Soft Rock",
         "rating" : "89",
-        "duration": "43:78",
+        "duration": "43:28",
         "tracks": [
             "*Hotel California",
             "New Kid in Town",
@@ -2062,6 +2061,96 @@
             "Woman in Black",
             "Girl on the Moon",
             "*Don't Let Go"
+        ],
+        "applemusic":"https://music.apple.com/us/album/the-rembrandts-l-p/373220996",
+        "spotify":"https://open.spotify.com/album/6koDBGMqurYl3EZnaxCF7N"
+    },
+    {
+        "artist": "Dire Straits",
+        "album": "Dire Straits",
+        "year": "1977",
+        "cover": "./assets/albumart/dire straits - dire straits.jpg",
+        "description": "Right out of the gates, Dire Straits came firing on all cylinders with this fantastic debut album. <br><br>The album is tight, groovy and well-written; already very polished for a new band. Mark Knopfler comes into his own at the helm of the band after playing in Brewer’s Droop as a guitarist in the early 70’s, showing off his incredible technical skill and knack for writing hooks. <br><br>The album generated the massive hit “Sultans of Swing”, which I’m sure everybody has heard at some point in their lives on the radio. While that song is instantly recognizable, I’d highly encourage exploring the rest of the album—it’s just chock-full of fantastic, bluesy pub rock. They brought their best stuff and put together a really solid LP.<br><br>I feel cool listening to this album; I walk around back straight, hands in pockets, and this is the kind of album that makes you walk like a dude. You just feel good about yourself, somehow. <br><br>My favourite tracks off this one are “Setting Me Up”, “Southbound Again”, “Sultans of Swing” and “Wild West End”. ",
+        "genre": "Roots Rock",
+        "rating" : "90",
+        "duration": "41:34",
+        "tracks": [
+            "Down to the Waterline",
+            "Water of Love",
+            "*Setting Me Up",
+            "Six Blade Knife",
+            "*Southbound Again",
+            "!*Sultans of Swing",
+            "In the Gallery",
+            "*Wild West End",
+            "Lions"
+        ],
+        "applemusic":"https://music.apple.com/us/album/the-rembrandts-l-p/373220996",
+        "spotify":"https://open.spotify.com/album/6koDBGMqurYl3EZnaxCF7N"
+    },
+    {
+        "artist": "Dire Straits",
+        "album": "Communiqué",
+        "year": "1979",
+        "cover": "./assets/albumart/dire straits - communique.jpg",
+        "description": "While Communique didn’t perform as well as their self-titled debut, it’s still a fantastic album. It’s more of the same thing, really—catchy hooks, exceptional bluesy technique and a bit more vivid Knopfler-esque storytelling on display. <br><br>It’s slower than their first album, which is why I think it’s compared unfavourably to its predecessor. Most tracks hover solidly around the 4–5 minute mark rather than the varied 2–6 minute songs of Dire Straits. <br><br>Still, nothing is lost on Knopfler and crew. I think it’s a very compelling record with lots of fun tracks. If you liked the first one, you’ll like the second one—don’t be picky! Just be grateful that Mark Knopfler has blessed us with as much music as he has over the years. <br><br>My favourite tracks on this one are “Lady Writer”, “Follow Me Home”, “Angel of Mercy” and “Portobello Belle.”",
+        "genre": "Roots Rock",
+        "rating" : "82",
+        "duration": "42:44",
+        "tracks": [
+            "Once Upon a Time in the West",
+            "Used to Bad News",
+            "Where Do You Think You're Going?",
+            "Communiqué",
+            "!*Lady Writer",
+            "*Angel of Mercy",
+            "*Portabello Belle", 
+            "Single-Handed Sailor",
+            "*Follow Me Home"
+        ],
+        "applemusic":"https://music.apple.com/us/album/the-rembrandts-l-p/373220996",
+        "spotify":"https://open.spotify.com/album/6koDBGMqurYl3EZnaxCF7N"
+    },
+    {
+        "artist": "Dire Straits",
+        "album": "Making Movies",
+        "year": "1980",
+        "cover": "./assets/albumart/dire straits - making movies.webp",
+        "description": "While Communique was a rather safe follow-up to their debut album, Making Movies marks a departure from their original sound while still maintaining some of its pub-rock influence. Mark Knopfler becomes more confident and shows more of his incredible playing and storytelling ability.<br><br>Right off the bat, “Tunnel of Love” bursts through the gate as a catchy song with urgency that feels exactly what it’s like to listen to Dire Straits as you leave the house in the night, hands in your pockets, off on an adventure somewhere. It rambles on vividly in a way seen later on in Love Over Gold and his solo work in the 1990’s and 2000’s. <br><br>Making Movies is the band’s shortest album, clocking in at just 38 minutes and 17 seconds across 7 tracks. Don’t let that deceive you, though—it’s still jam-packed with catchy hooks and is more efficient than ever in its delivery of pure Dire Straits pleasure. <br><br>The first half of the record has longer songs averaging at around six and a half minutes while the second side features shorter ones in the four minute range. “Expresso Love” and “Solid Rock” mark some of the heaviest Dire Straits songs—the latter of which I think is one of their best. <br><br>My favourite tracks off this one are “Solid Rock”, “Tunnel of Love”, “Expresso Love” and “Romeo and Juliet”. ",
+        "genre": "Roots Rock",
+        "rating" : "82",
+        "duration": "38:17",
+        "tracks": [
+            "*Tunnel of Love",
+            "*Romeo and Juliet",
+            "Skateaway",
+            "*Expresso Love",
+            "Hand in Hand",
+            "!*Solid Rock",
+            "Les Boys"
+        ],
+        "applemusic":"https://music.apple.com/us/album/the-rembrandts-l-p/373220996",
+        "spotify":"https://open.spotify.com/album/6koDBGMqurYl3EZnaxCF7N"
+    },
+    {
+        "artist": "Dire Straits",
+        "album": "Brothers in Arms",
+        "year": "1985",
+        "cover": "./assets/albumart/dire straits - brothers in arms.jpg",
+        "description": "It’s difficult to find words for an album as colossal as this one. Brothers in Arms is—in the most bittersweet way—the pinnacle of Dire Straits’ success: it’s back-to-back-to-back banger after banger, featuring the most polished, addictive Knopfler guitars ever recorded. <br><br>With this album—and only this album, arguably—Knopfler largely shed his connections to roots, blues, pub and country rock in favour of slick, radio-oriented hits. It was one of the first albums recorded with the Compact Disc in mind, completely digital from start to finish. It became the first CD to break the one million sales mark, eventually selling over thirty million copies worldwide. <br><br>Brothers in Arms generated the supermassive mega-hit “Money For Nothing” featuring Sting—a timeless melody which still gets lots of recognition and airplay today. I look at the track-listing of this album and I’m just blown away at the sheer volume of awesome music on it. <br><br>The success of this album destroyed the band, and it destroyed Mark Knopfler much in the way that Born in The U.S.A. destroyed Bruce Springsteen. <br><br>I was first introduced to the album after finding a copy of it on cassette at a local thrift store. Two years later, I tracked down a CD which was signed “Jim Baxter”—the original owner of the disc, not (seemingly) the footballer. It’s a lot to me. <br><br>If you’re going to listen to a Dire Straits album, I would highly recommend this one. My favourite tracks off it are “So Far Away”, “Walk of Life”, “Your Latest Trick”, and “Brothers in Arms”. ",
+        "genre": "Pop Rock",
+        "rating" : "95",
+        "duration": "55:11",
+        "tracks": [
+            "*So Far Away",
+            "Money For Nothing",
+            "*Walk of Life",
+            "!*Your Latest Trick",
+            "Why Worry",
+            "Ride Across The River",
+            "The Man's Too Strong",
+            "One World",
+            "*Brothers in Arms"
         ],
         "applemusic":"https://music.apple.com/us/album/the-rembrandts-l-p/373220996",
         "spotify":"https://open.spotify.com/album/6koDBGMqurYl3EZnaxCF7N"

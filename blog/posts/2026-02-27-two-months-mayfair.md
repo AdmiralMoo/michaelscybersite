@@ -16,7 +16,7 @@ As I wrote in [my blog post](/blog/generated/2026-01-04-logans-run.html) from Ja
 
 ###THE MOVIES & ATMOSPHERE AT THE MAYFAIR
 
-<div class="blog-image blog-image-right"><img src="/blog/resources/2026_02_27_sally.webp"><span>The <i>When Harry Met Sally</i> poster outside the theatre</span></div>
+<div class="blog-image blog-image-right"><img src="/blog/resources/2026-02-27_sally.webp"><span>The <i>When Harry Met Sally</i> poster outside the theatre</span></div>
 
 Since *Logan’s Run*, I’ve been to the Mayfair another seven times. I went back almost two weeks later to see *When Harry Met Sally (1989)* and it was a very different and even more pleasant experience. 
 
@@ -26,7 +26,7 @@ I’ve never felt a sense of community when watching a movie. I’ve never been 
 
 Although not every movie is sold-out nor are they all funny riots, that sense of togetherness stays—even if you’re just one of five at the most obscure late-night grindhouse releases.
 
-<div class="blog-image blog-image-left"><img src="/blog/resources/2026_02_27_casablanca.webp"><span>The <i>Casablanca</i> poster outside the theatre</span></div>
+<div class="blog-image blog-image-left"><img src="/blog/resources/2026-02-27_casablanca.webp"><span>The <i>Casablanca</i> poster outside the theatre</span></div>
 
 I had a great experience watching *Scarlet Warning 666 (1974)* and I went to see it a second time the day after I watched *Tank Girl (1995)*. A couple days later, it was another sold out show with *Casablanca (1942)*. 
 
@@ -36,7 +36,7 @@ Finally, a couple days ago, I watched *Scum of The Earth (1974)*—another obscu
 
 ###THE THEATREGOING EXPERIENCE AT THE MAYFAIR
 
-<div class="blog-image blog-image-right"><img src="/blog/resources/2026_02_27_toilet.webp"><span>A replica of the Zero Gravity Toilet instruction panel from <i>Space Odyssey</i>. So much Eurostile!</span></div>
+<div class="blog-image blog-image-right"><img src="/blog/resources/2026-02-27_toilet.webp"><span>A replica of the Zero Gravity Toilet instruction panel from <i>Space Odyssey</i>. So much Eurostile!</span></div>
 
 After a couple shows, the already very pleasant staff became even more friendly as they recognized me. When I step into the theatre, it feels like I’m slipping into a whole other world—a safe and pleasant pocket of euphoric insanity. The real world melts away and I’m immersed in that now familiar old building with it’s Spanish-revival stucco walls and eloquent fascias.  
 
@@ -68,7 +68,7 @@ At Cineplex in particular, I’ve always found it difficult to even get the tick
 
 ###THE MAYFAIR: EVERYTHING THAT WAS EVER GOOD ABOUT CINEMAS
 
-<div class="blog-image blog-image-left"><img src="/blog/resources/2026_02_27_food.webp"><span>Large popcorn (overflowing) and a large drink (filled to the brim).</span></div>
+<div class="blog-image blog-image-left"><img src="/blog/resources/2026-02-27_food.webp"><span>Large popcorn (overflowing) and a large drink (filled to the brim).</span></div>
 
 I’m not saying it’s all doom and gloom when you go to the Cineplex—I actually had a pretty fun time seeing *Pink Floyd At Pompeii – MCMLXXII (2025)* and *Roger Waters: This Is Not a Drill (2025)*. But if I’ve seen ten movies in five years but I was only happy coming out of two of them, and now I’ve seen eight movies in two months and I’m beyond elated, you can probably understand why I feel so passionately about this. 
 
