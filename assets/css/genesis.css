@@ -491,6 +491,27 @@
     color: #000000;
 }
 
+#trespass
+{
+    background-color: #aed7eb;
+    color: #000000;
+    font-family: 'Franklin Gothic Medium', sans-serif;
+    font-weight: normal;
+}
+
+#trespass h1
+{
+    font-family: 'Nursery', serif;
+    color: #000000;
+}
+
+#trespass h2
+{
+    font-family: 'Nursery', serif;
+    font-weight: bold;
+    color: #000000;
+}
+
 #facevalue
 {
     background-color: #000000;
