@@ -678,5 +678,13 @@
         "monthread": "March",
         "yearread": "2026",
         "cover": "/assets/books/crimemachine.webp"
+    },
+    {
+        "name":"The Ringworld Engineers",
+        "author": "Larry Niven",
+        "year": "1979",
+        "monthread": "March",
+        "yearread": "2026",
+        "cover": "/assets/books/ringworldengineers.webp"
     }
 ]
