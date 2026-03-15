@@ -1,0 +1,19 @@
+@font-face {
+  font-family: 'Quartz';
+  src: url('/assets/fonts/quartz.ttf') format('truetype');
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'VCR';
+  src: url('/assets/fonts/VCR_OSD.ttf') format('truetype');
+  font-style: normal;
+  font-weight: normal;
+}
+
+.header-one-box, .header-two-box
+{
+  color: #FFFFFF;
+  background-image: linear-gradient(to right, #26016b , #3f1fa6);
+}

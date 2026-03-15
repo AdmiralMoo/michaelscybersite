@@ -9,6 +9,7 @@ blogPostCategories = {
     "general": [],
     "books": [],
     "movies": [],
+    "games": [],
     "music": []
 }
 
@@ -84,10 +85,16 @@ for filename in os.listdir(dir_posts):
             blogPostCategories['movies'].append(postData)
         elif meta['category'] == 'photography':
             html_body = html_body.replace("{{ theme }}", '<link rel="stylesheet" type="text/css" href="/assets/css/photos.css"/>')
+            html_body = html_body.replace("{{ icon }}", "icon_camera_older.png")
             #blogPostCategories['music'].append(meta["title"])
         elif meta['category'] == 'books':
             html_body = html_body.replace("{{ theme }}", '<link rel="stylesheet" type="text/css" href="/assets/css/books.css"/>')
+            html_body = html_body.replace("{{ icon }}", "icon_book_virginian.png")
             blogPostCategories['books'].append(postData)
+        elif meta['category'] == 'games':
+            html_body = html_body.replace("{{ theme }}", '<link rel="stylesheet" type="text/css" href="/assets/css/games.css"/>')
+            html_body = html_body.replace("{{ icon }}", "icon_games.png")
+            blogPostCategories['games'].append(postData)
         elif meta['category'] == 'general':
             html_body = html_body.replace("{{ theme }}", "")
             html_body = html_body.replace("{{ icon }}", "icon_home.png")
@@ -120,28 +127,40 @@ with open("pages/templates/blogindex.html", encoding="utf-8") as f:
     index_template = f.read()
 
 recent_posts_html = ""
+index_allposts_html = ""
 posts_html = ""
 
-#for post in blog_index:
-#    posts_html += f"""
-#    <li>
-#        <a href="/blog/generated/{post['slug']}.html">
-#            {post['title']}
-#        </a>
-#        <span>— {post['date']}</span>
-#    </li>
-#    """
+allposts_index = 0;
+
+for post in blog_index:
+    if (allposts_index >= 20):
+        break;
+    
+    allposts_index += 1;
+    index_allposts_html += f"""
+    <div class="blogosphere-allpost-post">
+        <a href="/blog/generated/{post['slug']}.html" style="width:100%" class="noformat blogosphere-allpost-post">
+            <div class="blogosphere-allpost-image" style="background-image:url('/blog/resources/{post['date']}_0.webp')"></div>
+            <div class="blogosphere-allpost-body body-fill outsideborder win-bluebutton">
+                <h4>{post['title']}</h4>
+                <span>{post['date']}</span>
+            </div>
+        </a>
+    </div>
+    """
+
 
 recent_posts_index = 0;
 for post in blog_index:
     if (recent_posts_index >= 4):
         break;
+
     recent_posts_index += 1;
     recent_posts_html += f"""
     <div class="blogosphere-recent-box">
         <div class="blogosphere-recent-image" style="background-image: url('/blog/resources/{post['date']}_0.webp');"></div>
         <div class="blogosphere-genre-tag bg-{post['category']}">{post['category'].title()}</div>
-        <a href="/blog/generated/{post['slug']}.html">
+        <a href="/blog/generated/{post['slug']}.html" class="noformat">
             <div class="blogosphere-recent-body body-fill outsideborder win-bluebutton" style="border-width: 5px;">
                 <div class="blogosphere-recent-title">{post['title']}</div>
                 <div class="blogosphere-recent-date">{post['date']}</div>
@@ -152,6 +171,8 @@ for post in blog_index:
     
 
 index_output = index_template.replace("{{ recent_posts }}", recent_posts_html)
+index_output = index_output.replace("{{ all_posts }}", index_allposts_html)
+
 
 with open("blog/index.html", "w", encoding="utf-8") as f:
     f.write(index_output)
@@ -192,6 +213,8 @@ for category in blogPostCategories.items():
         category_template = category_template.replace("{{ icon }}", "icon_camera_older.png")
     elif post['category'] == 'books':
         category_template = category_template.replace("{{ icon }}", "icon_book_virginian.png")
+    elif post['category'] == 'games':
+        category_template = category_template.replace("{{ icon }}", "icon_games.png")
     elif post['category'] == 'general':
         category_template = category_template.replace("{{ icon }}", "icon_home.png")
 

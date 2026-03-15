@@ -18,6 +18,15 @@
         "imagespine" : "./assets/vhs/2010TheYearWeMakeContact_Spine.webp"
     },
     {
+        "id" : "farewell",
+        "name" : "A Farewell To Arms",
+        "year" : "1932",
+        "body" : "",
+        "tags" : "drama;",
+        "imagefront" : "./assets/vhs/AFarewellToArms_Front.webp",
+        "imagespine" : "./assets/vhs/AFarewellToArms_Spine.webp"
+    },
+    {
         "id" : "alien",
         "name" : "Alien",
         "year" : "1979",
@@ -72,6 +81,15 @@
         "imagespine" : "./assets/vhs/BladeRunner_Spine.webp"
     },
     {
+        "id" : "breakfast",
+        "name" : "The Breakfast Club",
+        "year" : "1985",
+        "body" : "",
+        "tags" : "drama",
+        "imagefront" : "./assets/vhs/BreakfastClub_Front.webp",
+        "imagespine" : "./assets/vhs/BreakfastClub_Spine.webp"
+    },
+    {
         "id" : "citkane",
         "name" : "Citizen Kane",
         "year" : "1941",
@@ -90,6 +108,15 @@
         "imagespine" : "./assets/vhs/CloseEncountersOfTheThirdKind_Spine.webp"
     },
     {
+        "id" : "dtess",
+        "name" : "The Day The Earth Stood Still",
+        "year" : "1951",
+        "body" : "",
+        "tags" : "scifi;",
+        "imagefront" : "./assets/vhs/TheDayTheEarthStoodStill_Front.webp",
+        "imagespine" : "./assets/vhs/TheDayTheEarthStoodStill_Spine.webp"
+    },
+    {
         "id" : "destmoon",
         "name" : "Destination Moon",
         "year" : "1950",
@@ -106,6 +133,15 @@
         "tags" : "favourites;scifi;shelfmain",
         "imagefront" : "./assets/vhs/Dune_Front.webp",
         "imagespine" : "./assets/vhs/Dune_Spine.webp"
+    },
+    {
+        "id" : "ridgemont",
+        "name" : "Fast Times at Ridgemont High",
+        "year" : "1982",
+        "body" : "",
+        "tags" : "drama",
+        "imagefront" : "./assets/vhs/FastTimesAtRidgemontHigh_Front.webp",
+        "imagespine" : "./assets/vhs/FastTimesAtRidgemontHigh_Spine.webp"
     },
     {
         "id" : "highlander",
@@ -162,6 +198,15 @@
         "imagespine" : "./assets/vhs/JurassicParkIII_Spine.webp"
     },
     {
+        "id" : "solomon",
+        "name" : "King Solomon's Mines",
+        "year" : "1950",
+        "body" : "",
+        "tags" : "shelfmain; drama",
+        "imagefront" : "./assets/vhs/KingSolomonsMines_Front.webp",
+        "imagespine" : "./assets/vhs/KingSolomonsMines_Spine.webp"
+    },
+    {
         "id" : "matrix1",
         "name" : "The Matrix",
         "year" : "1999",
@@ -169,6 +214,15 @@
         "tags" : "favourites;scifi;shelfmain",
         "imagefront" : "./assets/vhs/TheMatrix_Front.webp",
         "imagespine" : "./assets/vhs/TheMatrix_Spine.webp"
+    },
+    {
+        "id" : "metropolis",
+        "name" : "Metropolis",
+        "year" : "1927",
+        "body" : "",
+        "tags" : "scifi;",
+        "imagefront" : "./assets/vhs/Metropolis_Front.webp",
+        "imagespine" : "./assets/vhs/Metropolis_Spine.webp"
     },
     {
         "id" : "livingdead",
@@ -187,6 +241,15 @@
         "tags" : "favourites;western;shelfmain",
         "imagefront" : "./assets/vhs/TheOutlawJoseyWales_Front.webp",
         "imagespine" : "./assets/vhs/TheOutlawJoseyWales_Spine.webp"
+    },
+    {
+        "id" : "oxbow",
+        "name" : "The Ox-Bow Incident",
+        "year" : "1943",
+        "body" : "",
+        "tags" : "western;",
+        "imagefront" : "./assets/vhs/TheOxBowIncident_Front.webp",
+        "imagespine" : "./assets/vhs/TheOxBowIncident_Spine.webp"
     },
     {
         "id" : "python",
@@ -441,6 +504,15 @@
         "imagespine" : "./assets/vhs/TotalRecall_Spine.webp"
     },
     {
+        "id" : "universalsoldier",
+        "name" : "Universal Soldier",
+        "year" : "1992",
+        "body" : "",
+        "tags" : "scifi;shelfbottom",
+        "imagefront" : "./assets/vhs/UniversalSoldier_Front.webp",
+        "imagespine" : "./assets/vhs/UniversalSoldier_Spine.webp"
+    },
+    {
         "id" : "bbcwwd",
         "name" : "Walking With Dinosaurs",
         "year" : "1999",
@@ -468,6 +540,24 @@
         "imagespine" : "./assets/vhs/TheWarOfTheWorlds_Spine.webp"
     },
     {
+        "id" : "deflephistoria",
+        "name" : "Def Leppard: Historia",
+        "year" : "1988",
+        "body" : "",
+        "tags" : "music;",
+        "imagefront" : "./assets/vhs/DefLeppardHistoria_Front.webp",
+        "imagespine" : "./assets/vhs/DefLeppardHistoria_Spine.webp"
+    },
+    {
+        "id" : "defleplive",
+        "name" : "Def Leppard Live: In The Round In Your Face",
+        "year" : "1989",
+        "body" : "",
+        "tags" : "music;",
+        "imagefront" : "./assets/vhs/DefLeppardLive_Front.webp",
+        "imagespine" : "./assets/vhs/DefLeppardLive_Spine.webp"
+    },
+    {
         "id" : "ledzep",
         "name" : "Led Zeppelin: The Song Remains The Same",
         "year" : "1976",
@@ -480,10 +570,19 @@
         "id" : "livewithoutanet",
         "name" : "Van Halen: Live Without a Net",
         "year" : "1986",
-        "body" : "I'll admit, I was once a hater of Van Hagar. It just didn't feel the same and I didn't like it. I'm proud to say that as of the summer of 2025, I came to my senses and I'm now reformed.<br><br>This tape is from the 5150 tour and is packed with hard-rocking awesomeness from EVH and company. What more is there to say? It's something you feel good watching and listening to; something really exciting! I absolutely love 5150.",
+        "body" : "I'll admit, I was once a hater of Van Hagar. It just didn't feel the same and I didn't like it. I'm proud to say that as of the summer of 2025, I came to my senses and I'm now reformed.<br><br>This tape is from the 5150 tour and is packed with hard-rocking awesomeness from EVH and company. What more is there to say? It's something you feel good watching and listening to; something really exciting! I think this is probably one of the greatest live concert films of all time. I absolutely love 5150.",
         "tags" : "music",
         "imagefront" : "./assets/vhs/VanHalenLiveWithoutANet_Front.webp",
         "imagespine" : "./assets/vhs/VanHalenLiveWithoutANet_Spine.webp"
+    },
+    {
+        "id" : "liverighthererightnow",
+        "name" : "Van Halen Live: Right Here, Right Now",
+        "year" : "1993",
+        "body" : "",
+        "tags" : "music",
+        "imagefront" : "./assets/vhs/VanHalenLiveRightHereRightNow_Front.webp",
+        "imagespine" : "./assets/vhs/VanHalenLiveRightHereRightNow_Spine.webp"
     },
     {
         "id" : "woodstock",
