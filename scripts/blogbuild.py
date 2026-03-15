@@ -120,22 +120,34 @@ with open("pages/templates/blogindex.html", encoding="utf-8") as f:
     index_template = f.read()
 
 recent_posts_html = ""
+index_allposts_html = ""
 posts_html = ""
 
-#for post in blog_index:
-#    posts_html += f"""
-#    <li>
-#        <a href="/blog/generated/{post['slug']}.html">
-#            {post['title']}
-#        </a>
-#        <span>— {post['date']}</span>
-#    </li>
-#    """
+allposts_index = 0;
+
+for post in blog_index:
+    if (allposts_index >= 20):
+        break;
+    
+    allposts_index += 1;
+    index_allposts_html += f"""
+        <div class="blogosphere-allpost-post">
+            <a href="/blog/generated/{post['slug']}.html" style="width:100%" class="blogosphere-allpost-post">
+                <div class="blogosphere-allpost-image outsideborder" style="background-image:url('/blog/resources/{post['date']}_0.webp')"></div>
+                <div class="blogosphere-allpost-body body-fill outsideborder">
+                    <h4>{post['title']}</h4>
+                    <span>{post['date']}</span>
+                </div>
+            </a>
+        </div>
+        """
+
 
 recent_posts_index = 0;
 for post in blog_index:
     if (recent_posts_index >= 4):
         break;
+
     recent_posts_index += 1;
     recent_posts_html += f"""
     <div class="blogosphere-recent-box">
@@ -152,6 +164,8 @@ for post in blog_index:
     
 
 index_output = index_template.replace("{{ recent_posts }}", recent_posts_html)
+index_output = index_output.replace("{{ all_posts }}", index_allposts_html)
+
 
 with open("blog/index.html", "w", encoding="utf-8") as f:
     f.write(index_output)
