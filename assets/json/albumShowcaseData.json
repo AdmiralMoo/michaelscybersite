@@ -2154,5 +2154,32 @@
         ],
         "applemusic":"https://music.apple.com/us/album/the-rembrandts-l-p/373220996",
         "spotify":"https://open.spotify.com/album/6koDBGMqurYl3EZnaxCF7N"
+    },
+    {
+        "artist": "Nektar",
+        "album": "Journey to the Centre of the Eye",
+        "year": "1971",
+        "cover": "./assets/albumart/nektar - journey to the centre of the eye.webp",
+        "description": "Do you like mellotrons? If so, just listen to the album and ignore everything else I say.<br><br>I really like Nektar/Journey to the Centre of the Eye—it’s like In The Court of the Crimson King if it were allowed to ramble. It’s got the same progressive-psychedelic blend between hard-rocking space riffs and bouncing, gentle mellotrons and tape-delayed melodies. It feels space-y, grandiose and dramatic, but it’s fantastic—gentle clouds and dreamy vocals drifting by as the protagonist awakens into this disorienting, deeper level of reality. <br><br>Vocal sections are sparse, but even they sound a lot like King Crimson. Crimson’s sound was never locked in, much like Led Zeppelin, so no two of their albums sound the same. I think part of what I love about this album is that it sounds like the first Crimson album if they continued strictly in that direction with that same style. I really don’t feel like this album is a copycat, though, and I don’t want that similarity to detract from it. <br><br>Lush, dreamy, floating vocals and melodies escalate into increasingly urgent and far-out rhythms. This album has direction and momentum, reinforcing the idea that we are on a journey to the centre of the eye. The whole thing feels like an opening-up of consciousness into terrifying realities and truths, a journey through ever-larger perspectives as each song runs its course. You ascend another layer, ruminate in strumming, floating guitars, then it keeps going up. It’s surreal and hard to describe, but it’s awesome. <br><br>My favourite tracks off this one are “Burn Out My Eyes”, “The Dream Nebula”, “Death of The Mind” and “It’s All in My Mind”. ",
+        "genre": "Progressive Rock",
+        "rating" : "80",
+        "duration": "42:02",
+        "tracks": [
+            "Prelude",
+            "*Astronaught's Nightmare",
+            "Countenance",
+            "The Nine Lifeless Daughters of the Sun",
+            "Warp Oversight",
+            "*The Dream Nebula I",
+            "*The Dream Nebula II",
+            "!*It's All in The Mind",
+            "*Burn Out My Eyes",
+            "Void of Vision",
+            "Pupil of The Eye",
+            "Look Inside Yourself",
+            "*Death of The Mind"
+        ],
+        "applemusic":"https://music.apple.com/us/album/the-rembrandts-l-p/373220996",
+        "spotify":"https://open.spotify.com/album/6koDBGMqurYl3EZnaxCF7N"
     }
 ]
