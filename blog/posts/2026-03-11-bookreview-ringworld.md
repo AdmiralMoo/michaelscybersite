@@ -1,0 +1,27 @@
+---
+title: Book Review – Ringworld (1970)
+date: 2026-03-11
+slug: 2026-03-11-bookreview-ringworld
+category: books
+tags:
+    - review
+    - sci-fi
+---
+
+<div class="blog-image blog-image-med blog-image-right"><img src="/assets/books/ringworld.webp"><span>The cover of the edition of <i>Ringworld</i> I read, borrowed from the library. I've since found a copy of this same edition for my collection.</span></div>
+
+*Originally written March 1st, 2026*
+
+Considering the cultural ramifications, numerous accolades and mountains of praise heaped upon this book in the fifty years since it’s been published, it’s easy to think it’s all overblown. I stumbled across this book without any hype—it was available at my local library and I plucked it off the shelves because it sounded remotely familiar. I was blown away. 
+
+I’d say that this is one of the most complete, well-rounded and overall greatest Sci-Fi novels of all time. It’s an absolute joy to read and such a grand adventure beyond any conceivable scale the human mind can really grasp. It’s got everything I could want in a Sci-Fi book: projections of humanity complete with future history, a universe shared with detail-rich extraterrestrials, real or real-sounding pseudoscience, epic battles, space travel, cosmic-scale megastructures, an attractive (albeit frustrating) love interest, some cosmic-existential philosophy and a story of friendship. That sounds like a lot—and it is a lot—but Niven somehow folded it all nearly into the 350 page package that is *RINGWORLD*.
+
+It follows the story of a three-hundred year old man being recruited on an alien expedition to a newly discovered megastructure the size of a planet’s orbit around a star—the titular Ringworld. Louis Wu of Earth is selected by Nessus—a two-headed alien of the mysterious Puppeteer race—to join a crew of four who specifically picked for their unique attributes. They are joined by Speaker-to-Animals—a large, aggressive humanoid war-cat—and Teela Brown—a naive, attractive, immature and seemingly burdensome Earth woman.
+
+Niven introduces the most wild, fantastic concepts and grounds them using theoretical physics and real-sounding science; he set my imagination alight and images of such amazing wonders of impossible scale and function danced happily through my mind. This book followed me everywhere I went for three or four days and I enjoyed every single moment reading it. The story is fun and engaging all the way through, and it’s almost hard to believe how far I travelled and how many places I’d been once the book was finished. 
+
+My only real gripe with the book is that it features the most frustratingly stupid and one-dimensional female characters I’ve *ever* encountered in any form of media. I’m not sure if this has aged poorly, or if it’s always felt a little like spoilt milk. It’s certainly something that I can overlook, though, because the rest of the story is just so much fun to read. It’s there humming in the background and pops out from time to time, then you forget about it again.
+
+I would highly recommend Ringworld to anybody who likes Science Fiction. Even if you’re not super into the theoretical physics parts, they can just fly over your head while you enjoy the views of future Earth, Puppeteer Space and the Ringworld. You’ve got to have a bit of an imagination and some patience with this one because it’s difficult to describe some of the concepts in this book. If you give it some love, man, it’s gonna love you back!
+
+At the time of writing, it’s been almost a year since I read the book, and I think it’s borderline criminal the public library doesn’t have any of its sequels. Few books will take you as far as this one in just 350 pages.
