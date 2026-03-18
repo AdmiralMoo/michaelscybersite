@@ -361,6 +361,7 @@ Fonts
     font-weight: normal;
     font-style: italic;
 }
+
 @font-face {
     font-family: 'EB Garamond';
     src: url('/assets/fonts/EBGaramond-SemiBoldItalic.ttf') format('truetype');
@@ -385,6 +386,13 @@ Fonts
 @font-face {
   font-family: 'Microsoft Sans-Serif Neue';
   src: url('/assets/fonts/w95font-bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Franklin Gothic Heavy Bold';
+  src: url('/assets/fonts/FRAHVIT.TTF') format('woff');
   font-weight: bold;
   font-style: normal;
 }
@@ -604,15 +612,16 @@ Formatting for body boxes
 
 .flex-row
 {
-  display: flex;
-  flex-direction: row;
+display: grid;
+grid-template-columns: 21% 79%;
 }
 
 .content-box-sidebar
 {
-  min-width: 200px;
-  max-width: 286px;
+  min-width: 256px;
   width: min-content;
+  padding-right:4px;
+  height: 100%;
 }
 
 .body-box {
@@ -702,6 +711,8 @@ Formatting for body boxes
   border-color: rgb(0, 0, 0);
 
   box-sizing:border-box;
+
+  background-size: contain;
 }
 
 .windows-button > *
@@ -734,6 +745,37 @@ Formatting for body boxes
     background-color:red;
     filter: brightness(1.0);
     filter: saturate(0.0);
+}
+
+.windows-button-back
+{
+  background-image:url("/assets/site/button_arrow_back_normal.png");
+}
+
+.windows-button-back:hover
+{
+  background-image:url("/assets/site/button_arrow_back_hover.png");
+}
+
+.windows-button-back:active
+{
+  background-image:url("/assets/site/button_arrow_back_click.png");
+}
+
+.windows-button-home
+{
+  background-image:url("/assets/site/button_arrow_home_normal.png");
+}
+
+.windows-button-home:hover
+{
+  background-image:url("/assets/site/button_arrow_home_hover.png");
+}
+
+
+.windows-button-home:active
+{
+  background-image:url("/assets/site/button_arrow_home_click.png");
 }
 
 /*Special grid boxes*/
