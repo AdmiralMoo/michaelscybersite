@@ -11,6 +11,11 @@
     object-fit:cover;
 }
 
+.blog-home-fill
+{
+    background: linear-gradient(177deg, rgb(246, 255, 69), rgb(244, 252, 103) 30%, white 40%);
+}
+
 .blogosphere-recent-container
 {
     width: 100%;

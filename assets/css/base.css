@@ -215,8 +215,8 @@ footer span
   .navbutton {
     background-color: white;
     min-width:128px;
-    width:170px;
-    max-width:170px;
+    width:148px;
+    width:148px;
   }
 
   .navbutton p
@@ -224,12 +224,13 @@ footer span
     text-decoration: none;
     text-align: center;
     font-size: 1.5em;
-    padding-top:6px;
-    padding-bottom: 4px;
+    padding-top: 4px;
+    padding-bottom: 6px;
     pointer-events: none;
     user-select: none;
-    margin:0;
-    line-height:1;
+    margin: 0;
+    line-height: 1;
+    box-sizing: border-box;
   }
   
    /* Navbutton Button Image Behaviours*/
@@ -599,6 +600,19 @@ Formatting for body boxes
 .content-box h3
 {
   margin-left:0px;
+}
+
+.flex-row
+{
+  display: flex;
+  flex-direction: row;
+}
+
+.content-box-sidebar
+{
+  min-width: 200px;
+  max-width: 286px;
+  width: min-content;
 }
 
 .body-box {
