@@ -1,6 +1,14 @@
 import os, markdown, yaml, json
 from datetime import datetime
 
+def dateconvert(in_date):
+    out_date = str(in_date).replace("-","/")
+    return out_date
+
+def daterevert(in_date):
+    out_date = str(in_date).replace("/","-")
+    return out_date
+
 dir_posts = "blog/posts"
 dir_output = "blog/generated"
 postTempa = "pages/templates/blogpost.html"
@@ -10,6 +18,7 @@ blogPostCategories = {
     "books": [],
     "movies": [],
     "games": [],
+    "photography": [],
     "music": []
 }
 
@@ -53,6 +62,7 @@ for filename in os.listdir(dir_posts):
     html_body = template
     html_body = html_body.replace("{{ title }}", meta["title"])
     html_body = html_body.replace("{{ date }}", str(meta["date"]))
+    html_body = html_body.replace("{{ pubdate }}", dateconvert(meta["date"]))
     html_body = html_body.replace("{{ year }}", str(meta["date"]).split("-")[0])
     html_body = html_body.replace("{{ content }}", markdown.markdown(crap_body))
 
@@ -86,7 +96,7 @@ for filename in os.listdir(dir_posts):
         elif meta['category'] == 'photography':
             html_body = html_body.replace("{{ theme }}", '<link rel="stylesheet" type="text/css" href="/assets/css/photos.css"/>')
             html_body = html_body.replace("{{ icon }}", "icon_camera_older.png")
-            #blogPostCategories['music'].append(meta["title"])
+            blogPostCategories['photography'].append(postData)
         elif meta['category'] == 'books':
             html_body = html_body.replace("{{ theme }}", '<link rel="stylesheet" type="text/css" href="/assets/css/books.css"/>')
             html_body = html_body.replace("{{ icon }}", "icon_book_virginian.png")
@@ -136,18 +146,27 @@ for post in blog_index:
     if (allposts_index >= 20):
         break;
     
+    postTags = str(post['tags'])[1:-1]
+    
     allposts_index += 1;
     index_allposts_html += f"""
     <div class="blogosphere-allpost-post">
         <a href="/blog/generated/{post['slug']}.html" style="width:100%" class="noformat blogosphere-allpost-post">
-            <div class="blogosphere-allpost-image" style="background-image:url('/blog/resources/{post['date']}_0.webp')"></div>
+            <div class="blogosphere-allpost-image" style="background-image:url('/blog/resources/{daterevert(post['date'])}_0.webp')"></div>
             <div class="blogosphere-allpost-body body-fill outsideborder win-bluebutton">
                 <h4>{post['title']}</h4>
-                <span>{post['date']}</span>
+                <span>{dateconvert(post["date"])}</span>
             </div>
+            <div class="blogosphere-allpost-category blogosphere-genre-tag bg-{post['category']}">{post['category'].title()}</div>
         </a>
     </div>
     """
+
+"""tags for posts
+<div style="padding-top: 4px; font-size: 0.7em; font-style:italic;">
+{postTags}
+</div>
+"""
 
 
 recent_posts_index = 0;
@@ -158,12 +177,12 @@ for post in blog_index:
     recent_posts_index += 1;
     recent_posts_html += f"""
     <div class="blogosphere-recent-box">
-        <div class="blogosphere-recent-image" style="background-image: url('/blog/resources/{post['date']}_0.webp');"></div>
+        <div class="blogosphere-recent-image" style="background-image: url('/blog/resources/{daterevert(post['date'])}_0.webp');"></div>
         <div class="blogosphere-genre-tag bg-{post['category']}">{post['category'].title()}</div>
         <a href="/blog/generated/{post['slug']}.html" class="noformat">
             <div class="blogosphere-recent-body body-fill outsideborder win-bluebutton" style="border-width: 5px;">
                 <div class="blogosphere-recent-title">{post['title']}</div>
-                <div class="blogosphere-recent-date">{post['date']}</div>
+                <div class="blogosphere-recent-date">{dateconvert(post['date'])}</div>
             </div>
         </a>
     </div>
@@ -188,11 +207,11 @@ for category in blogPostCategories.items():
     for post in category[1]:
         category_html += f"""
             <div class="blogosphere-post-rect">
-                <div class="blogosphere-post-image" style="background-image: url('/blog/resources/{post['date']}_0.webp');"></div>
+                <div class="blogosphere-post-image" style="background-image: url('/blog/resources/{daterevert(post['date'])}_0.webp');"></div>
                 <a href="/blog/generated/{post['slug']}.html">
                     <div class="blogosphere-post-body body-fill outsideborder win-bluebutton" style="border-width: 5px;">
                         <div class="blogosphere-recent-title">{post['title']}</div>
-                        <div class="blogosphere-recent-date">{post['date']}</div>
+                        <div class="blogosphere-recent-date">{dateconvert(post['date'])}</div>
                     </div>
                 </a>
             </div>

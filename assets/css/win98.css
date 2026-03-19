@@ -219,3 +219,8 @@ Overrides For Borders & Colours
 
     cursor:not-allowed;
 }
+
+.ms-sans-text
+{
+    font-family: "Microsoft Sans-Serif Neue";
+}

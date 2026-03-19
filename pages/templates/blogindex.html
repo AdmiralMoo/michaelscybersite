@@ -9,73 +9,111 @@
 <body>
     <main>
         <div class="maincontent-centred" style="min-height:60vh;">
-            <div class="invisible-box">
-                <div class="filled-logo" style="image-rendering:pixelated">
-                    <img src="./assets/images/logo_blogosphere_shadow.webp">
+            <div class="outsideborder body-fill">
+                <div class="header-topelements">
+                    <div class="header-one-box">
+                        <h1>The Blogosphere</h1>
+                        <img src="./assets/icons/icon_folder_empty.png">
+                    </div>
+                    <div class="header-toolbar">
+                        <div class="insidecontent header-sub-box body-fill" style="padding:2px; box-sizing: border-box;">
+                            <a class="noformat" href="/index.html">
+                                <div class="windows-button windows-button-home" style="line-height: 34px;">
+                                </div>
+                            </a>
+                            <div class="insideborder inside-element-sunken">
+                                https://www.michaelscybersite.net/blog/home
+                            </div>
+                        </div>
+                    </div>
                 </div>
-            </div>
+                <div class="content-box flex-row">
+                    <div class="content-box-sidebar">
+                        <div class="insideborder content-fill" style="height:100%;">
 
-            <div class="blogosphere-new-parent">
-                <div class="body-box outsideborder" style="margin-bottom: 16px;">
-                    <div class="box-container insideborder" style="padding: 8px;font-family: 'Microsoft Sans-Serif Neue'; font-style:italic;">New From The Blogosphere...</div>
+                            <!--header for new posts-->  
+                            <div class="blog-subheading">
+                                <h4>Browse by Category</h4>
+                            </div>
+                            
+                            <!--buttons for categories-->
+                            <div class="blogosphere-category-flex noformat">
+                                <a class="noformat" href="/blog/index-general.html">
+                                    <div class="bg-general outsideborder win-bluebutton">
+                                        <span>General</span>
+                                        <img src="/assets/icons/icon_home.png">
+                                    </div>
+                                </a>
+                                <a class="noformat" href="/blog/index-books.html">
+                                    <div class="bg-books outsideborder win-bluebutton">
+                                        <span>Books</span>
+                                        <img src="/assets/icons/icon_book_virginian.png">
+                                    </div>
+                                </a>
+                                <a class="noformat" href="/blog/index-music.html">
+                                    <div class="bg-music outsideborder win-bluebutton">
+                                        <span>Music</span>
+                                        <img src="/assets/icons/icon_cd1.png">
+                                    </div>
+                                </a>
+                                <a class="noformat" href="/blog/index-movies.html">
+                                    <div class="bg-movies outsideborder win-bluebutton">
+                                        <span>Movies</span>
+                                        <img src="/assets/icons/icon_film.png">
+                                    </div>
+                                </a>
+                                
+                                <div class="bg-photography outsideborder win-bluebotton-disabled">
+                                    <span>Photography</span>
+                                    <img src="/assets/icons/icon_camera_older.png">
+                                </div>
+                                
+                                <a class="noformat" href="/blog/index-games.html">
+                                    <div class="bg-games outsideborder win-bluebutton">
+                                        <span>Games</span>
+                                        <img src="/assets/icons/icon_games.png">
+                                    </div>
+                                </a>
+                            </div>     
+                            <!--no more sidebar stuff-->  
+                        </div>
+                    </div>
+                    <div class="insideborder content-fill content-box" style="width: 100%;height:100%;">
+                        <div class="ms-sans-text">
+                            Welcome to my personal blog! I write about all sorts of stuff—whatever interests me, really. Take a gander and you might find something you'll enjoy.
+                        </div>
+                        
+                        <!--header for new posts-->  
+                        <div class="blog-subheading blog-subheading-rainborder">
+                            <h3>New from The Blogosphere...</h3>
+                        </div>
+                        
+                        <!--show the most recent four poasts-->  
+                        <div class="blogosphere-recent-container">
+                            {{ recent_posts }}
+                        </div>
+
+                        <!--header for all of the posts-->  
+                        <div class="blog-subheading">
+                            <h3>All Posts</h3>
+                        </div>
+
+                        <!--show EVERYTHING-->  
+                        <div class="blogosphere-allposts-container">
+                            {{ all_posts }}
+                        </div>
+                    </div>
                 </div>
-                <div class="blogosphere-recent-container">
-                    {{ recent_posts }}
+                <div class="insidecontent blog-footer">
+                        <div style="padding: 3px; justify-self: flex-start">
+                            The Blogosphere is still a work in progress!
+                        </div>
+                        <div style="padding: 3px; justify-self: flex-end">
+                            <i>This is my personal blog. All writing, opinions and photos are my own unless otherwise explicitly stated</i>
+                        </div>
+                    </div>
                 </div>
-            </div>
-            
-            <div class="spacer"></div>
-
-            <div class="body-box outsideborder" style="margin-bottom: 16px;">
-                <div class="box-container insideborder" style="padding: 8px;font-family: 'Microsoft Sans-Serif Neue'; font-style:italic;">Browse By Category</div>
-            </div>
-            <div class="blogosphere-category-grid noformat">
-                <a class="noformat" href="/blog/index-general.html">
-                    <div class="bg-general outsideborder win-bluebutton">
-                        <span>General</span>
-                        <img src="/assets/icons/icon_home.png">
-                    </div>
-                </a>
-                <a class="noformat" href="/blog/index-books.html">
-                    <div class="bg-books outsideborder win-bluebutton">
-                        <span>Books</span>
-                        <img src="/assets/icons/icon_book_virginian.png">
-                    </div>
-                </a>
-                <a class="noformat" href="/blog/index-music.html">
-                    <div class="bg-music outsideborder win-bluebutton">
-                        <span>Music</span>
-                        <img src="/assets/icons/icon_cd1.png">
-                    </div>
-                </a>
-                <a class="noformat" href="/blog/index-movies.html">
-                    <div class="bg-movies outsideborder win-bluebutton">
-                        <span>Movies</span>
-                        <img src="/assets/icons/icon_film.png">
-                    </div>
-                </a>
-                
-                <div class="bg-photography outsideborder win-bluebotton-disabled">
-                    <span>Photography</span>
-                    <img src="/assets/icons/icon_camera_older.png">
-                </div>
-                
-                <a class="noformat" href="/blog/index-games.html">
-                    <div class="bg-games outsideborder win-bluebutton">
-                        <span>Games</span>
-                        <img src="/assets/icons/icon_games.png">
-                    </div>
-                </a>
-            </div>            
-
-            <div class="spacer"></div>
-
-            <div class="body-box outsideborder" style="margin-bottom: 16px;">
-                <div class="box-container insideborder" style="padding: 8px;font-family: 'Microsoft Sans-Serif Neue'; font-style:italic;">All Posts</div>
-            </div>
-            <div class="blogosphere-allposts-container">
-                {{ all_posts }}
-            </div>
+            </div>        
         </div>
     </main>
 </body>
