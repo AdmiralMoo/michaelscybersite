@@ -3,6 +3,7 @@ title: Skating on the Rideau Canal
 date: 2026-03-02
 slug: 2026-03-02-rideau-canal-skateway
 category: general
+description: Reflections on the experience of skating the Rideau Canal as the season ends.
 tags:
     - adventure
     - rideau-canal

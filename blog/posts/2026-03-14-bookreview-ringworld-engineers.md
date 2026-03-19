@@ -3,6 +3,7 @@ title: Book Review – The Ringworld Engineers (1979)
 date: 2026-03-14
 slug: 2026-03-14-bookreview-ringworld-engineers
 category: books
+description: A no-spoilers review of Larry Niven's sequel to Ringworld
 tags:
     - review
     - sci-fi

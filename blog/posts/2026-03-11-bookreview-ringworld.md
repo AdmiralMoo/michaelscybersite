@@ -3,6 +3,7 @@ title: Book Review – Ringworld (1970)
 date: 2026-03-11
 slug: 2026-03-11-bookreview-ringworld
 category: books
+description: A no-spoilers review of Larry Niven's megalithic Sci-Fi classic, Ringworld
 tags:
     - review
     - sci-fi

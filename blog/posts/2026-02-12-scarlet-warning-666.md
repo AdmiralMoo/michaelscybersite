@@ -3,6 +3,7 @@ title: A Night At The Movies – Scarlet Warning 666
 date: 2026-02-12
 slug: 2026-02-12-scarlet-warning-666
 category: movies
+description: A strange, cult-classic-to-be is screened for the first time in over thirty years. 
 tags:
     - movie
     - mayfair

@@ -3,6 +3,7 @@ title: Pink Floyd's "Echoes" and 2001 A Space Odyssey in Sync
 date: 2025-09-10
 slug: 2025-09-10-2001-space-odyssey-pink-floyd-echoes
 category: movies
+description: My experience watching 2001: A Space Odyssey in 4k for the first time along with a mysterious perfect sync with Pink Floyd's "Echoes"
 tags:
     - pink-floyd
     - sci-fi

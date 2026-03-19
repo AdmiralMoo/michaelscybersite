@@ -3,6 +3,7 @@ title: Two Months At The Mayfair
 date: 2026-02-27
 slug: 2026-02-27-two-months-mayfair
 category: movies
+description: Reflecting on two months of seeing movies at The Mayfair Theatre
 tags:
     - retrospective
     - rambling

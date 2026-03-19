@@ -3,6 +3,7 @@ title: Albums Turning 10 This Year
 date: 2026-01-08
 slug: 2026-01-08-albums-turning
 category: music
+description: Eight albums I can't believe are a decade old this year.
 tags:
     - retrospective
 ---

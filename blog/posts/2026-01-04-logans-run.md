@@ -3,6 +3,7 @@ title: Logan’s Run at Mayfair Theatre
 date: 2026-01-04
 slug: 2026-01-04-logans-run
 category: movies
+description: A forgotten Sci-Fi classic and my first time at The Mayfair Threatre
 tags:
     - movie
     - mayfair

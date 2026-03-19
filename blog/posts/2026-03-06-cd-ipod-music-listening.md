@@ -3,6 +3,7 @@ title: Listening to Music on CDs and iPods in 2026
 date: 2026-03-06
 slug: 2026-03-06-cd-ipod-music-listening
 category: music
+description: My life without streaming and why it might not be for everyone.
 tags:
     - iPod
     - CD

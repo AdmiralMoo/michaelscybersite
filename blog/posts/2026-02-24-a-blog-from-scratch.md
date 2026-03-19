@@ -3,6 +3,7 @@ title: A Blog From Scratch
 date: 2026-02-24
 slug: 2026-02-24-a-blog-from-scratch
 category: general
+description: My experience creating this blog from scratch.
 tags:
     - programming
     - site
