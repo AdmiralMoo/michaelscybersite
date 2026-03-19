@@ -610,12 +610,6 @@ Formatting for body boxes
   margin-left:0px;
 }
 
-.flex-row
-{
-display: grid;
-grid-template-columns: 21% 79%;
-}
-
 .content-box-sidebar
 {
   min-width: 256px;
@@ -713,6 +707,9 @@ grid-template-columns: 21% 79%;
   box-sizing:border-box;
 
   background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: rgb(176,176,176);
 }
 
 .windows-button > *

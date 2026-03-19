@@ -23,6 +23,12 @@
     background-color: rgb(123,132,178);
 }
 
+.flex-row
+{
+  display: grid;
+  grid-template-columns: 21% 79%;
+}
+
 .blog-subheading
 {
     width: 100%;
@@ -489,6 +495,19 @@ h3
     text-align: center;
 }
 
+@media(max-width: 1200px)
+{
+    .blogosphere-recent-container
+    {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .flex-row
+    {
+        grid-template-columns: 0.5fr 1fr;
+    }
+}
+
 @media(max-width: 400px)
 {
     /* Blogosphere home page */
@@ -515,6 +534,22 @@ h3
         mask-image: linear-gradient( to bottom, transparent 0%, black 4%, black 96%, transparent 100% );
     }
 
+    .flex-row
+    {
+        grid-template-rows: 1fr;
+        grid-template-columns: unset;
+    }
+
+    .content-box-sidebar
+    {
+        width: unset;
+    }
+
+    .blogosphere-allpost-post
+    {
+        font-size: 0.9em;
+    }
+
     /* Blogosphere posts page */
     .blogosphere-post-container
     {
@@ -532,6 +567,7 @@ h3
     .windows-button
     {
         aspect-ratio: unset;
+        min-height: 32px;
     }
 
     h1
@@ -559,5 +595,15 @@ h3
     .blog-footer
     {
         flex-direction: column;
+    }
+
+    .ImageHeader
+    {
+        max-height: 386px;
+    }
+
+    .content-box p
+    {
+        line-height: 1.25em;
     }
 }
