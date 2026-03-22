@@ -1,5 +1,16 @@
 [
   {
+    "title": "Loving Books in A Generation That Doesn\u2019t Read",
+    "date": "2026-03-20",
+    "slug": "2026-03-20-gen-z-doesnt-read",
+    "category": "books",
+    "tags": [
+      "essay",
+      "books"
+    ],
+    "description": "My experience reading books as a Gen Z"
+  },
+  {
     "title": "Book Review \u2013 The Ringworld Engineers (1979)",
     "date": "2026-03-14",
     "slug": "2026-03-14-bookreview-ringworld-engineers",
@@ -7,7 +18,8 @@
     "tags": [
       "review",
       "sci-fi"
-    ]
+    ],
+    "description": "A no-spoilers review of Larry Niven's sequel to Ringworld"
   },
   {
     "title": "There Will Never Be Another MVP Baseball 2005",
@@ -19,7 +31,8 @@
       "mvp-baseball-2005",
       "baseball",
       "playstation-2"
-    ]
+    ],
+    "description": "A love letter to one of the greatest sports videogames of all time."
   },
   {
     "title": "Book Review \u2013 Ringworld (1970)",
@@ -29,7 +42,8 @@
     "tags": [
       "review",
       "sci-fi"
-    ]
+    ],
+    "description": "A no-spoilers review of Larry Niven's megalithic Sci-Fi classic, Ringworld"
   },
   {
     "title": "Listening to Music on CDs and iPods in 2026",
@@ -40,7 +54,8 @@
       "iPod",
       "CD",
       "Essay"
-    ]
+    ],
+    "description": "My life without streaming and why it might not be for everyone."
   },
   {
     "title": "Skating on the Rideau Canal",
@@ -51,7 +66,8 @@
       "adventure",
       "rideau-canal",
       "skating"
-    ]
+    ],
+    "description": "Reflections on the experience of skating the Rideau Canal as the season ends."
   },
   {
     "title": "Two Months At The Mayfair",
@@ -61,7 +77,8 @@
     "tags": [
       "retrospective",
       "rambling"
-    ]
+    ],
+    "description": "Reflecting on two months of seeing movies at The Mayfair Theatre"
   },
   {
     "title": "A Blog From Scratch",
@@ -71,7 +88,8 @@
     "tags": [
       "programming",
       "site"
-    ]
+    ],
+    "description": "My experience creating this blog from scratch."
   },
   {
     "title": "A Night At The Movies \u2013 Scarlet Warning 666",
@@ -82,7 +100,8 @@
       "movie",
       "mayfair",
       "palmer-rockey"
-    ]
+    ],
+    "description": "A strange, cult-classic-to-be is screened for the first time in over thirty years."
   },
   {
     "title": "Albums Turning 10 This Year",
@@ -91,7 +110,8 @@
     "category": "music",
     "tags": [
       "retrospective"
-    ]
+    ],
+    "description": "Eight albums I can't believe are a decade old this year."
   },
   {
     "title": "Logan\u2019s Run at Mayfair Theatre",
@@ -102,7 +122,8 @@
       "movie",
       "mayfair",
       "adventure"
-    ]
+    ],
+    "description": "A forgotten Sci-Fi classic and my first time at The Mayfair Threatre"
   },
   {
     "title": "Never Forget What They Took From Us",
@@ -111,7 +132,8 @@
     "category": "general",
     "tags": [
       "retrospective"
-    ]
+    ],
+    "description": "A story of love, loss and ice cream."
   },
   {
     "title": "Pink Floyd's \"Echoes\" and 2001 A Space Odyssey in Sync",
@@ -121,6 +143,7 @@
     "tags": [
       "pink-floyd",
       "sci-fi"
-    ]
+    ],
+    "description": "My experience watching 2001 A Space Odyssey in 4k for the first time along with a mysterious perfect sync with Pink Floyd's \"Echoes\""
   }
 ]

@@ -495,6 +495,52 @@ h3
     text-align: center;
 }
 
+.blogosphere-allpost-date
+{
+    font-size: 0.8em;
+}
+
+.blogosphere-allpost-description
+{
+    padding-top: 6px;
+}
+
+.blogosphere-allpost-post h4
+{
+    margin-left: 0px;
+}
+
+/* Featured posts */
+.blogosphere-featured-container
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+.blogosphere-featured-body
+{
+    width: 100%;
+    height: 128px;
+
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+    font-size: 1.1em;
+    font-weight: bold;
+    text-align: center;
+
+    font-family: 'Microsoft Sans-Serif Neue';
+}
+
+.blogosphere-featured-description
+{
+    padding-top: 6px;
+    font-weight: normal;
+}
+
 @media(max-width: 1200px)
 {
     .blogosphere-recent-container
@@ -511,7 +557,7 @@ h3
 @media(max-width: 400px)
 {
     /* Blogosphere home page */
-    .blogosphere-recent-container
+    .blogosphere-recent-container, .blogosphere-featured-container
     {
         grid-template-columns: 1fr;
     }

@@ -31,6 +31,33 @@
                     <div class="content-box-sidebar">
                         <div class="insideborder content-fill" style="height:100%;">
 
+                            <!--header for new sections-->  
+                            <div class="blog-subheading">
+                                <h4>Browse by Section</h4>
+                            </div>
+                            
+                            <!--buttons for sections-->
+                            <div class="blogosphere-category-flex noformat">
+                                <a class="noformat" href="/blog/index.html#featured">
+                                    <div class="bg-general outsideborder win-bluebutton">
+                                        <span>Featured Posts</span>
+                                        <img src="/assets/icons/icon_file_globes.png">
+                                    </div>
+                                </a>
+                                <a class="noformat" href="/blog/index.html#new">
+                                    <div class="bg-general outsideborder win-bluebutton">
+                                        <span>New Posts</span>
+                                        <img src="/assets/icons/icon_folder_globe.png">
+                                    </div>
+                                </a>
+                                <a class="noformat" href="/blog/index.html#all">
+                                    <div class="bg-general outsideborder win-bluebutton">
+                                        <span>All Posts</span>
+                                        <img src="/assets/icons/icon_folderfile_old.png">
+                                    </div>
+                                </a>
+                            </div>
+
                             <!--header for new posts-->  
                             <div class="blog-subheading">
                                 <h4>Browse by Category</h4>
@@ -84,13 +111,24 @@
                         </div>
                         
                         <!--header for new posts-->  
-                        <div class="blog-subheading blog-subheading-rainborder">
+                        <div id="new" class="blog-subheading blog-subheading-rainborder">
                             <h3>New from The Blogosphere...</h3>
                         </div>
                         
                         <!--show the most recent four poasts-->  
                         <div class="blogosphere-recent-container">
                             
+    <div class="blogosphere-recent-box">
+        <div class="blogosphere-recent-image" style="background-image: url('/blog/resources/2026-03-20_0.webp');"></div>
+        <div class="blogosphere-genre-tag bg-books">Books</div>
+        <a href="/blog/generated/2026-03-20-gen-z-doesnt-read.html" class="noformat">
+            <div class="blogosphere-recent-body body-fill outsideborder win-bluebutton" style="border-width: 5px;">
+                <div class="blogosphere-recent-title">Loving Books in A Generation That Doesn’t Read</div>
+                <div class="blogosphere-recent-date">2026/03/20</div>
+            </div>
+        </a>
+    </div>
+    
     <div class="blogosphere-recent-box">
         <div class="blogosphere-recent-image" style="background-image: url('/blog/resources/2026-03-14_0.webp');"></div>
         <div class="blogosphere-genre-tag bg-books">Books</div>
@@ -124,21 +162,45 @@
         </a>
     </div>
     
-    <div class="blogosphere-recent-box">
-        <div class="blogosphere-recent-image" style="background-image: url('/blog/resources/2026-03-06_0.webp');"></div>
-        <div class="blogosphere-genre-tag bg-music">Music</div>
-        <a href="/blog/generated/2026-03-06-cd-ipod-music-listening.html" class="noformat">
-            <div class="blogosphere-recent-body body-fill outsideborder win-bluebutton" style="border-width: 5px;">
-                <div class="blogosphere-recent-title">Listening to Music on CDs and iPods in 2026</div>
-                <div class="blogosphere-recent-date">2026/03/06</div>
-            </div>
-        </a>
-    </div>
-    
+                        </div>
+                        
+                        <!--header for featured posts-->  
+                        <div id="featured" class="blog-subheading">
+                            <h3>Featured Posts</h3>
+                        </div>
+                        
+                        <!--show featured poasts-->  
+                        <div class="blogosphere-featured-container">
+                            
+        <div class="blogosphere-recent-box">
+            <div class="blogosphere-recent-image" style="background-image: url('/blog/resources/2026-03-06_0.webp');"></div>
+            <div class="blogosphere-genre-tag bg-music">Music</div>
+            <a href="/blog/generated/2026-03-06-cd-ipod-music-listening.html" class="noformat">
+                <div class="blogosphere-featured-body body-fill outsideborder win-bluebutton" style="border-width: 5px;">
+                        <div class="blogosphere-recent-title" style="font-size: 1.1em">Listening to Music on CDs and iPods in 2026</div>
+                        <div class="blogosphere-recent-date">2026/03/06</div>
+                        <span class="blogosphere-featured-description">My life without streaming and why it might not be for everyone.</span>
+                </div>
+            </a>
+        </div>
+        
+                            
+        <div class="blogosphere-recent-box">
+            <div class="blogosphere-recent-image" style="background-image: url('/blog/resources/2026-03-02_0.webp');"></div>
+            <div class="blogosphere-genre-tag bg-general">General</div>
+            <a href="/blog/generated/2026-03-02-rideau-canal-skateway.html" class="noformat">
+                <div class="blogosphere-featured-body body-fill outsideborder win-bluebutton" style="border-width: 5px;">
+                        <div class="blogosphere-recent-title" style="font-size: 1.1em">Skating on the Rideau Canal</div>
+                        <div class="blogosphere-recent-date">2026/03/02</div>
+                        <span class="blogosphere-featured-description">Reflections on the experience of skating the Rideau Canal as the season ends.</span>
+                </div>
+            </a>
+        </div>
+        
                         </div>
 
                         <!--header for all of the posts-->  
-                        <div class="blog-subheading">
+                        <div id="all"  class="blog-subheading">
                             <h3>All Posts</h3>
                         </div>
 
@@ -146,11 +208,24 @@
                         <div class="blogosphere-allposts-container">
                             
     <div class="blogosphere-allpost-post">
+        <a href="/blog/generated/2026-03-20-gen-z-doesnt-read.html" style="width:100%" class="noformat blogosphere-allpost-post">
+            <div class="blogosphere-allpost-image" style="background-image:url('/blog/resources/2026-03-20_0.webp')"></div>
+            <div class="blogosphere-allpost-body body-fill outsideborder win-bluebutton">
+                <h4>Loving Books in A Generation That Doesn’t Read</h4>
+                <span class="blogosphere-allpost-date">2026/03/20</span>
+                <span class="blogosphere-allpost-description">My experience reading books as a Gen Z</span>
+            </div>
+            <div class="blogosphere-allpost-category blogosphere-genre-tag bg-books">Books</div>
+        </a>
+    </div>
+    
+    <div class="blogosphere-allpost-post">
         <a href="/blog/generated/2026-03-14-bookreview-ringworld-engineers.html" style="width:100%" class="noformat blogosphere-allpost-post">
             <div class="blogosphere-allpost-image" style="background-image:url('/blog/resources/2026-03-14_0.webp')"></div>
             <div class="blogosphere-allpost-body body-fill outsideborder win-bluebutton">
                 <h4>Book Review – The Ringworld Engineers (1979)</h4>
-                <span>2026/03/14</span>
+                <span class="blogosphere-allpost-date">2026/03/14</span>
+                <span class="blogosphere-allpost-description">A no-spoilers review of Larry Niven's sequel to Ringworld</span>
             </div>
             <div class="blogosphere-allpost-category blogosphere-genre-tag bg-books">Books</div>
         </a>
@@ -161,7 +236,8 @@
             <div class="blogosphere-allpost-image" style="background-image:url('/blog/resources/2026-03-13_0.webp')"></div>
             <div class="blogosphere-allpost-body body-fill outsideborder win-bluebutton">
                 <h4>There Will Never Be Another MVP Baseball 2005</h4>
-                <span>2026/03/13</span>
+                <span class="blogosphere-allpost-date">2026/03/13</span>
+                <span class="blogosphere-allpost-description">A love letter to one of the greatest sports videogames of all time.</span>
             </div>
             <div class="blogosphere-allpost-category blogosphere-genre-tag bg-games">Games</div>
         </a>
@@ -172,7 +248,8 @@
             <div class="blogosphere-allpost-image" style="background-image:url('/blog/resources/2026-03-11_0.webp')"></div>
             <div class="blogosphere-allpost-body body-fill outsideborder win-bluebutton">
                 <h4>Book Review – Ringworld (1970)</h4>
-                <span>2026/03/11</span>
+                <span class="blogosphere-allpost-date">2026/03/11</span>
+                <span class="blogosphere-allpost-description">A no-spoilers review of Larry Niven's megalithic Sci-Fi classic, Ringworld</span>
             </div>
             <div class="blogosphere-allpost-category blogosphere-genre-tag bg-books">Books</div>
         </a>
@@ -183,7 +260,8 @@
             <div class="blogosphere-allpost-image" style="background-image:url('/blog/resources/2026-03-06_0.webp')"></div>
             <div class="blogosphere-allpost-body body-fill outsideborder win-bluebutton">
                 <h4>Listening to Music on CDs and iPods in 2026</h4>
-                <span>2026/03/06</span>
+                <span class="blogosphere-allpost-date">2026/03/06</span>
+                <span class="blogosphere-allpost-description">My life without streaming and why it might not be for everyone.</span>
             </div>
             <div class="blogosphere-allpost-category blogosphere-genre-tag bg-music">Music</div>
         </a>
@@ -194,7 +272,8 @@
             <div class="blogosphere-allpost-image" style="background-image:url('/blog/resources/2026-03-02_0.webp')"></div>
             <div class="blogosphere-allpost-body body-fill outsideborder win-bluebutton">
                 <h4>Skating on the Rideau Canal</h4>
-                <span>2026/03/02</span>
+                <span class="blogosphere-allpost-date">2026/03/02</span>
+                <span class="blogosphere-allpost-description">Reflections on the experience of skating the Rideau Canal as the season ends.</span>
             </div>
             <div class="blogosphere-allpost-category blogosphere-genre-tag bg-general">General</div>
         </a>
@@ -205,7 +284,8 @@
             <div class="blogosphere-allpost-image" style="background-image:url('/blog/resources/2026-02-27_0.webp')"></div>
             <div class="blogosphere-allpost-body body-fill outsideborder win-bluebutton">
                 <h4>Two Months At The Mayfair</h4>
-                <span>2026/02/27</span>
+                <span class="blogosphere-allpost-date">2026/02/27</span>
+                <span class="blogosphere-allpost-description">Reflecting on two months of seeing movies at The Mayfair Theatre</span>
             </div>
             <div class="blogosphere-allpost-category blogosphere-genre-tag bg-movies">Movies</div>
         </a>
@@ -216,7 +296,8 @@
             <div class="blogosphere-allpost-image" style="background-image:url('/blog/resources/2026-02-24_0.webp')"></div>
             <div class="blogosphere-allpost-body body-fill outsideborder win-bluebutton">
                 <h4>A Blog From Scratch</h4>
-                <span>2026/02/24</span>
+                <span class="blogosphere-allpost-date">2026/02/24</span>
+                <span class="blogosphere-allpost-description">My experience creating this blog from scratch.</span>
             </div>
             <div class="blogosphere-allpost-category blogosphere-genre-tag bg-general">General</div>
         </a>
@@ -227,7 +308,8 @@
             <div class="blogosphere-allpost-image" style="background-image:url('/blog/resources/2026-02-12_0.webp')"></div>
             <div class="blogosphere-allpost-body body-fill outsideborder win-bluebutton">
                 <h4>A Night At The Movies – Scarlet Warning 666</h4>
-                <span>2026/02/12</span>
+                <span class="blogosphere-allpost-date">2026/02/12</span>
+                <span class="blogosphere-allpost-description">A strange, cult-classic-to-be is screened for the first time in over thirty years.</span>
             </div>
             <div class="blogosphere-allpost-category blogosphere-genre-tag bg-movies">Movies</div>
         </a>
@@ -238,7 +320,8 @@
             <div class="blogosphere-allpost-image" style="background-image:url('/blog/resources/2026-01-08_0.webp')"></div>
             <div class="blogosphere-allpost-body body-fill outsideborder win-bluebutton">
                 <h4>Albums Turning 10 This Year</h4>
-                <span>2026/01/08</span>
+                <span class="blogosphere-allpost-date">2026/01/08</span>
+                <span class="blogosphere-allpost-description">Eight albums I can't believe are a decade old this year.</span>
             </div>
             <div class="blogosphere-allpost-category blogosphere-genre-tag bg-music">Music</div>
         </a>
@@ -249,7 +332,8 @@
             <div class="blogosphere-allpost-image" style="background-image:url('/blog/resources/2026-01-04_0.webp')"></div>
             <div class="blogosphere-allpost-body body-fill outsideborder win-bluebutton">
                 <h4>Logan’s Run at Mayfair Theatre</h4>
-                <span>2026/01/04</span>
+                <span class="blogosphere-allpost-date">2026/01/04</span>
+                <span class="blogosphere-allpost-description">A forgotten Sci-Fi classic and my first time at The Mayfair Threatre</span>
             </div>
             <div class="blogosphere-allpost-category blogosphere-genre-tag bg-movies">Movies</div>
         </a>
@@ -260,7 +344,8 @@
             <div class="blogosphere-allpost-image" style="background-image:url('/blog/resources/2025-09-23_0.webp')"></div>
             <div class="blogosphere-allpost-body body-fill outsideborder win-bluebutton">
                 <h4>Never Forget What They Took From Us</h4>
-                <span>2025/09/23</span>
+                <span class="blogosphere-allpost-date">2025/09/23</span>
+                <span class="blogosphere-allpost-description">A story of love, loss and ice cream.</span>
             </div>
             <div class="blogosphere-allpost-category blogosphere-genre-tag bg-general">General</div>
         </a>
@@ -271,7 +356,8 @@
             <div class="blogosphere-allpost-image" style="background-image:url('/blog/resources/2025-09-10_0.webp')"></div>
             <div class="blogosphere-allpost-body body-fill outsideborder win-bluebutton">
                 <h4>Pink Floyd's "Echoes" and 2001 A Space Odyssey in Sync</h4>
-                <span>2025/09/10</span>
+                <span class="blogosphere-allpost-date">2025/09/10</span>
+                <span class="blogosphere-allpost-description">My experience watching 2001 A Space Odyssey in 4k for the first time along with a mysterious perfect sync with Pink Floyd's "Echoes"</span>
             </div>
             <div class="blogosphere-allpost-category blogosphere-genre-tag bg-movies">Movies</div>
         </a>

@@ -22,6 +22,12 @@ blogPostCategories = {
     "music": []
 }
 
+#get featured posts
+with open("blog/featured-posts.cfg", 'r') as f:
+    lines = f.readlines()
+    featured_post_1_slug = lines[0].split(':')[1].replace("\n","")
+    featured_post_2_slug = lines[1].split(':')[1].replace("\n","")
+
 #open the timeline
 postTempa = os.path.join(os.getcwd().replace("scripts",""), postTempa)
 with open(postTempa) as f:
@@ -77,8 +83,8 @@ for filename in os.listdir(dir_posts):
         "date":         str(meta["date"]),
         "slug":         meta["slug"],
         "category":     meta.get("category", ""),
-        "tags":         meta.get("tags", [])
-#        "description":  meta.get("description", "")
+        "tags":         meta.get("tags", []),
+        "description":  meta.get("description", "")
     }
 
     #VI.I (ha!) Add to the master JSON
@@ -155,19 +161,49 @@ for post in blog_index:
             <div class="blogosphere-allpost-image" style="background-image:url('/blog/resources/{daterevert(post['date'])}_0.webp')"></div>
             <div class="blogosphere-allpost-body body-fill outsideborder win-bluebutton">
                 <h4>{post['title']}</h4>
-                <span>{dateconvert(post["date"])}</span>
+                <span class="blogosphere-allpost-date">{dateconvert(post["date"])}</span>
+                <span class="blogosphere-allpost-description">{post["description"]}</span>
             </div>
             <div class="blogosphere-allpost-category blogosphere-genre-tag bg-{post['category']}">{post['category'].title()}</div>
         </a>
     </div>
     """
 
+    #Featured posts
+    if post['slug'] == featured_post_1_slug:
+        index_template = index_template.replace("{{ featured_post_1 }}", f"""
+        <div class="blogosphere-recent-box">
+            <div class="blogosphere-recent-image" style="background-image: url('/blog/resources/{daterevert(post['date'])}_0.webp');"></div>
+            <div class="blogosphere-genre-tag bg-{post['category']}">{post['category'].title()}</div>
+            <a href="/blog/generated/{post['slug']}.html" class="noformat">
+                <div class="blogosphere-featured-body body-fill outsideborder win-bluebutton" style="border-width: 5px;">
+                        <div class="blogosphere-recent-title" style="font-size: 1.1em">{post['title']}</div>
+                        <div class="blogosphere-recent-date">{dateconvert(post['date'])}</div>
+                        <span class="blogosphere-featured-description">{post["description"]}</span>
+                </div>
+            </a>
+        </div>
+        """)
+    if post['slug'] == featured_post_2_slug:
+        index_template = index_template.replace("{{ featured_post_2 }}", f"""
+        <div class="blogosphere-recent-box">
+            <div class="blogosphere-recent-image" style="background-image: url('/blog/resources/{daterevert(post['date'])}_0.webp');"></div>
+            <div class="blogosphere-genre-tag bg-{post['category']}">{post['category'].title()}</div>
+            <a href="/blog/generated/{post['slug']}.html" class="noformat">
+                <div class="blogosphere-featured-body body-fill outsideborder win-bluebutton" style="border-width: 5px;">
+                        <div class="blogosphere-recent-title" style="font-size: 1.1em">{post['title']}</div>
+                        <div class="blogosphere-recent-date">{dateconvert(post['date'])}</div>
+                        <span class="blogosphere-featured-description">{post["description"]}</span>
+                </div>
+            </a>
+        </div>
+        """)
+
 """tags for posts
 <div style="padding-top: 4px; font-size: 0.7em; font-style:italic;">
 {postTags}
 </div>
 """
-
 
 recent_posts_index = 0;
 for post in blog_index:

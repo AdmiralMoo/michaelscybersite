@@ -31,6 +31,33 @@
                     <div class="content-box-sidebar">
                         <div class="insideborder content-fill" style="height:100%;">
 
+                            <!--header for new sections-->  
+                            <div class="blog-subheading">
+                                <h4>Browse by Section</h4>
+                            </div>
+                            
+                            <!--buttons for sections-->
+                            <div class="blogosphere-category-flex noformat">
+                                <a class="noformat" href="/blog/index.html#featured">
+                                    <div class="bg-general outsideborder win-bluebutton">
+                                        <span>Featured Posts</span>
+                                        <img src="/assets/icons/icon_file_globes.png">
+                                    </div>
+                                </a>
+                                <a class="noformat" href="/blog/index.html#new">
+                                    <div class="bg-general outsideborder win-bluebutton">
+                                        <span>New Posts</span>
+                                        <img src="/assets/icons/icon_folder_globe.png">
+                                    </div>
+                                </a>
+                                <a class="noformat" href="/blog/index.html#all">
+                                    <div class="bg-general outsideborder win-bluebutton">
+                                        <span>All Posts</span>
+                                        <img src="/assets/icons/icon_folderfile_old.png">
+                                    </div>
+                                </a>
+                            </div>
+
                             <!--header for new posts-->  
                             <div class="blog-subheading">
                                 <h4>Browse by Category</h4>
@@ -84,7 +111,7 @@
                         </div>
                         
                         <!--header for new posts-->  
-                        <div class="blog-subheading blog-subheading-rainborder">
+                        <div id="new" class="blog-subheading blog-subheading-rainborder">
                             <h3>New from The Blogosphere...</h3>
                         </div>
                         
@@ -92,9 +119,20 @@
                         <div class="blogosphere-recent-container">
                             {{ recent_posts }}
                         </div>
+                        
+                        <!--header for featured posts-->  
+                        <div id="featured" class="blog-subheading">
+                            <h3>Featured Posts</h3>
+                        </div>
+                        
+                        <!--show featured poasts-->  
+                        <div class="blogosphere-featured-container">
+                            {{ featured_post_1 }}
+                            {{ featured_post_2 }}
+                        </div>
 
                         <!--header for all of the posts-->  
-                        <div class="blog-subheading">
+                        <div id="all"  class="blog-subheading">
                             <h3>All Posts</h3>
                         </div>
 

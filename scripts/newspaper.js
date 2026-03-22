@@ -339,10 +339,10 @@ function retrieveBlogpost(blogIndex)
         const { category, title, description, date, slug } = targetBlogpost;
 
         return {
-            headline: title,
-            body: "...",
+            headline: String(title),
+            body: String(description),
             image: `/blog/resources/${date}_0.webp`,
-            link: `/blog/generated/${slug}.html`
+            link: `/blog/generated/${slug}.html`,
         }
     })
 }
