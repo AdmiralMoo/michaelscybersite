@@ -694,5 +694,13 @@
         "monthread": "March",
         "yearread": "2026",
         "cover": "/assets/books/untilthenight.webp"
+    },
+    {
+        "name":"Wild Dark Shore",
+        "author": "Charlotte McConaghy",
+        "year": "2025",
+        "monthread": "March",
+        "yearread": "2026",
+        "cover": "/assets/books/wilddarkshore.webp"
     }
 ]
