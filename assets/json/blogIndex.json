@@ -1,5 +1,16 @@
 [
   {
+    "title": "The Redemption of Creed in Popular Culture",
+    "date": "2026-03-22",
+    "slug": "2026-03-22-the-creed-renaissance",
+    "category": "music",
+    "tags": [
+      "music",
+      "creed"
+    ],
+    "description": "How Creed went from one of the most hated bands to a well-loved classic"
+  },
+  {
     "title": "Loving Books in A Generation That Doesn\u2019t Read",
     "date": "2026-03-20",
     "slug": "2026-03-20-gen-z-doesnt-read",
@@ -70,15 +81,16 @@
     "description": "Reflections on the experience of skating the Rideau Canal as the season ends."
   },
   {
-    "title": "Two Months At The Mayfair",
+    "title": "The Mayfair Theatre \u2013 What a Movie Theatre Is Supposed to Be",
     "date": "2026-02-27",
     "slug": "2026-02-27-two-months-mayfair",
     "category": "movies",
     "tags": [
       "retrospective",
-      "rambling"
+      "mayfair",
+      "essay"
     ],
-    "description": "Reflecting on two months of seeing movies at The Mayfair Theatre"
+    "description": "How a historic theatre put the joy back in going to the movies"
   },
   {
     "title": "A Blog From Scratch",

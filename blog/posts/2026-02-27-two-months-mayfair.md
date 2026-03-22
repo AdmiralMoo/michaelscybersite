@@ -1,12 +1,13 @@
 ---
-title: Two Months At The Mayfair
+title: The Mayfair Theatre – What a Movie Theatre Is Supposed to Be
 date: 2026-02-27
 slug: 2026-02-27-two-months-mayfair
 category: movies
-description: Reflecting on two months of seeing movies at The Mayfair Theatre
+description: How a historic theatre put the joy back in going to the movies
 tags:
     - retrospective
-    - rambling
+    - mayfair
+    - essay
 ---
 
 Almost two months ago, I was walking south down Bank St. returning from the New Years fireworks at Lansdowne when I saw a poster for *Logan’s Run (1976)* at the Mayfair Theatre. 
