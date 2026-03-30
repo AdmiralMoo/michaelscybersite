@@ -1095,9 +1095,9 @@
             "description": "Some Test Text"
           },
           {
-            "title": "1984",
+            "title": "5150",
             "artist": "Van Halen",
-            "cover": "./assets/albumart/van halen - 1984.jpg",
+            "cover": "./assets/albumart/van halen - 5150.jpg",
             "description": "Some Test Text"
           },
           {
@@ -1221,9 +1221,9 @@
             "description": "Some Test Text"
           },
           {
-            "title": "Diver Down",
+            "title": "1984",
             "artist": "Van Halen",
-            "cover": "./assets/albumart/van halen - diver down.jpg",
+            "cover": "./assets/albumart/van halen - 1984.jpg",
             "description": "Some Test Text"
           }
         ]

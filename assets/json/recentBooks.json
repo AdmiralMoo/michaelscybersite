@@ -702,5 +702,13 @@
         "monthread": "March",
         "yearread": "2026",
         "cover": "/assets/books/wilddarkshore.webp"
+    },
+    {
+        "name":"To Kill a Mockingbird",
+        "author": "Harper Lee",
+        "year": "1960",
+        "monthread": "March",
+        "yearread": "2026",
+        "cover": "/assets/books/tokillamockingbird.webp"
     }
 ]
