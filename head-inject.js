@@ -154,10 +154,25 @@ function lazyLoadImages() {
 
 //Activate lazy loading
 document.addEventListener("DOMContentLoaded", lazyLoadImages);
+//document.addEventListener("DOMContentLoaded", activeClicks);
 
 //Lazyload shit the bed
 function handleImageError(image)
 {
     console.error(`lazyload img shit the bed! ${realSrc}`, error);
     img.src = "/assets/images/noimage.jpg";
+}
+
+
+function activeClicks()
+{
+    document.querySelectorAll('.album-card').forEach(card => {
+        card.addEventListener('mouseenter', () => {
+            card.classList.add('active');
+        });
+
+        card.addEventListener('mouseleave', () => {
+            card.classList.remove('active');
+        });
+    });
 }

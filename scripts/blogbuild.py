@@ -1,4 +1,4 @@
-import os, markdown, yaml, json
+import os, markdown, yaml, json, re
 from datetime import datetime
 
 def dateconvert(in_date):
@@ -8,6 +8,42 @@ def dateconvert(in_date):
 def daterevert(in_date):
     out_date = str(in_date).replace("/","-")
     return out_date
+
+def replace_music_grids(markdown_text):
+    pattern = r"::music-grid\n(.*?)\n::"
+
+    def replacer(match):
+        block = match.group(1)
+        return build_music_grid(block)
+
+    return re.sub(pattern, replacer, markdown_text, flags=re.DOTALL)
+
+def build_music_grid(block):
+    html = '<div class="music-grid">\n'
+
+    lines = block.strip().split('\n')
+
+    for line in lines:
+        parts = [x.strip() for x in line.split('|')]
+
+        if len(parts) != 5:
+            continue  # skip bad lines
+
+        artist, album, format_, source, img = parts
+
+        html += f'''
+        <div class="album-card">
+            <img src="{img}" alt="{artist}">
+            <div class="meta">
+                <strong>{artist}</strong><br>
+                <i>{album}</i><br>
+                <span>{format_} • {source}</span>
+            </div>
+        </div>
+        '''
+
+    html += '\n</div>'
+    return html
 
 dir_posts = "blog/posts"
 dir_output = "blog/generated"
@@ -77,6 +113,7 @@ for filename in os.listdir(dir_posts):
         tags += '<span class="blog-tag">#'+tag+'</span>\n'
 
     html_body = html_body.replace("{{ tags }}", tags);
+    html_body = replace_music_grids(html_body)
 
     postData = {
         "title":        meta["title"],
