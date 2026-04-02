@@ -15,16 +15,16 @@ March was a great month for my music library! A couple trips to the record store
 
 <div class="blog-image blog-image-med blog-image-right"><img src="/assets/albumart/van halen - 5150.jpg"><span>"It's fifty-one-fifty tiiiiime!" –Sammy Hagar, Live Without a Net</span></div>
 
-1. – x25: Van Halen/5150
-2. – x15: Nickelback/Silver Side Up
-3. – x08: The Cars/The Cars
-4. – x08: Breaking Benjamin/Ember
-5. – x07: Dire Straits/Making Movies
-6. – x07: Eagles/Hotel California
-7. – x05: Foreigner/4
-8. – x05: The Grateful Dead/American Beauty
-9. – x05: R.E.M./Out of Time
-10. – x05: Pink Floyd/Meddle
+1. x25: Van Halen/5150
+2. x15: Nickelback/Silver Side Up
+3. x08: The Cars/The Cars
+4. x08: Breaking Benjamin/Ember
+5. x07: Dire Straits/Making Movies
+6. x07: Eagles/Hotel California
+7. x05: Foreigner/4
+8. x05: The Grateful Dead/American Beauty
+9. x05: R.E.M./Out of Time
+10. x05: Pink Floyd/Meddle
 
 March 2026 was truly the month that *5150* came alive. At the end of February, I was sitting in one of the common spaces at college reading a book about newspapers when I had the odd urge to listen to this Van Hagar album I'd only heard once a couple years ago. Since July 17th, 2024, this album has sat unappreciated in my collection. This month, *I sensed a change, nothin' felt the same, all my dreams felt strange and love came walkin' in*.
 
@@ -54,7 +54,7 @@ Although my stats aren't completely refined for this month, initial reports indi
 
 ::music-grid
 Van Halen | Van Halen III | CD | Record Store | ./assets/albumart/van halen - van halen iii.webp
-Mötley Crüe | Mötley Crüe | CD | Record Store | ./assets/albumart/Mötley Crüe - Mötley Crüe.webp
+Mötley Crüe | Mötley Crüe | CD | Record Store | ./assets/albumart/Motley Crue - Motley Crue.webp
 Nektar | Journey to The Centre of The Eye | CD | Record Store | ./assets/albumart/nektar - journey to the centre of the eye.webp
 Dennis McCarthy | Star Trek The Next Generation: "Encounter At Farpoint" | CD | Thrift | ./assets/albumart/dennis mccarthy - star trek the next generation encounter at farpoint.webp
 Eric Clapton | August | CD | Thrift | ./assets/albumart/eric clapton - august.webp
