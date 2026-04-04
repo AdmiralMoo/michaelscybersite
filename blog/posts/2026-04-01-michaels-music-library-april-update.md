@@ -43,13 +43,17 @@ Although my stats aren't completely refined for this month, initial reports indi
 ## Music Library Stats
 
 **CDs**: 735
+
 **Cassettes**: 63
+
 **Blu-Ray Audio**: 1
+
 **Vinyl**: 1
 
 ## Additions
 
 **CDs**: 18
+
 **Cassettes**: 10
 
 ::music-grid
@@ -124,6 +128,8 @@ Of course, *Trespass* is Genesis' second album, and the first of the Peter Gabri
 *Journey to The Centre of the Eye* is the debut album from English Progressive Rock band Nektar. I'd never heard of them before, but I saw it in the "New Arrivals" bin on the same day as I found the Mötley Crüe and Van Halen albums. I flipped through the booklet and it radiated Progressive Rock—I just had to check it out. I thoroughly enjoyed the album—you can check out my thoughts on the Music Recommendations page!
 
 ### Massive Tape Haul
+
+<div class="blog-image blog-image-right"><img src="/blog/resources/2026-04-01_2.webp"><span>A shoddy backpack photo from the day of the tape haul, including <i>The Ringworld Engineers</i> and BBC's <i>Walking With Cavemen</i> on VHS.</span></div>
 
 The biggest thing this month is the massive haul of cassette tapes. I bring these home every so often, but I don't think I've ever walked out of a thrift store with this many at once! 
 
