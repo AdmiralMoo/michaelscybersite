@@ -288,8 +288,8 @@
 {
   color: #000000;
   background-image: linear-gradient(to right, #ffe200 , #ffe947);
-  font-family: 'Futura Condensed Extra Bold Italic';
-  letter-spacing: -0.05em;
+  /*font-family: 'Futura Condensed Extra Bold Italic';
+  letter-spacing: -0.05em;*/
 }
 
 .bg-music
