@@ -718,5 +718,13 @@
         "monthread": "March",
         "yearread": "2026",
         "cover": "/assets/books/byzantinecivilization.webp"
+    },
+    {
+        "name":"Chimera",
+        "author": "Mary Rosenblum",
+        "year": "1993",
+        "monthread": "April",
+        "yearread": "2026",
+        "cover": "/assets/books/chimera.webp"
     }
 ]
