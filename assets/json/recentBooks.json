@@ -726,5 +726,13 @@
         "monthread": "April",
         "yearread": "2026",
         "cover": "/assets/books/chimera.webp"
+    },
+    {
+        "name":"Saturday Night Fever",
+        "author": "H.B. Gilmour",
+        "year": "1977",
+        "monthread": "April",
+        "yearread": "2026",
+        "cover": "/assets/books/saturdaynightfever.webp"
     }
 ]
