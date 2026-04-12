@@ -374,9 +374,9 @@
         "albums": [
             { "artist": "Van Halen", "album": "5150", "cover": "./assets/albumart/van halen - 5150.jpg" },
             { "artist": "Nickelback", "album": "Silver Side Up", "cover": "./assets/albumart/nickelback - silver side up.webp" },
-            { "artist": "The Cars", "album": "The Cars", "cover": "./assets/albumart/the cars - the cars.webp" },
+            { "artist": "Eagles", "album": "Hotel California", "cover": "./assets/albumart/eagles - hotel california.webp" },
             { "artist": "Breaking Benjamin", "album": "Ember", "cover": "./assets/albumart/breaking benjamin - ember.jpg" },
-            { "artist": "Dire Straits", "album": "Making Movies", "cover": "./assets/albumart/dire straits - making movies.webp" }
+            { "artist": "The Cars", "album": "The Cars", "cover": "./assets/albumart/the cars - the cars.webp" }
         ]
     }
 ]
