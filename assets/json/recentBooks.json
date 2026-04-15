@@ -734,5 +734,13 @@
         "monthread": "April",
         "yearread": "2026",
         "cover": "/assets/books/saturdaynightfever.webp"
+    },
+    {
+        "name":"The Man on The Blue",
+        "author": "Luke Short",
+        "year": "1936",
+        "monthread": "April",
+        "yearread": "2026",
+        "cover": "/assets/books/manontheblue.webp"
     }
 ]

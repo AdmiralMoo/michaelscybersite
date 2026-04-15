@@ -42,9 +42,11 @@ Although my stats aren't completely refined for this month, initial reports indi
 
 ## Music Library Stats
 
-**CDs**: 735
+Total counts already include additions.
 
-**Cassettes**: 63
+**CDs**: 735 <span style="color: #00D800; font-weight:bold">+18</span>
+
+**Cassettes**: 63 <span style="color: #00D800; font-weight:bold">+10</span>
 
 **Blu-Ray Audio**: 1
 
@@ -52,13 +54,11 @@ Although my stats aren't completely refined for this month, initial reports indi
 
 ## Additions
 
-**CDs**: 18
-
-**Cassettes**: 10
+New albums are listed in chronological order startig from the beginning of the month
 
 ::music-grid
 Van Halen | Van Halen III | CD | Record Store | ./assets/albumart/van halen - van halen iii.webp
-Mötley Crüe | Mötley Crüe | CD | Record Store | ./assets/albumart/Motley Crue - Motley Crue.webp
+Mötley Crüe | Mötley Crüe | CD | Record Store | ./assets/albumart/motley crue - motley crue.webp
 Nektar | Journey to The Centre of The Eye | CD | Record Store | ./assets/albumart/nektar - journey to the centre of the eye.webp
 Dennis McCarthy | Star Trek The Next Generation: "Encounter At Farpoint" | CD | Thrift | ./assets/albumart/dennis mccarthy - star trek the next generation encounter at farpoint.webp
 Eric Clapton | August | CD | Thrift | ./assets/albumart/eric clapton - august.webp
