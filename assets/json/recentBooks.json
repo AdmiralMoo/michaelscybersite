@@ -742,5 +742,13 @@
         "monthread": "April",
         "yearread": "2026",
         "cover": "/assets/books/manontheblue.webp"
+    },
+    {
+        "name":"I Who Have Never Known Men",
+        "author": "Jacqueline Harpman",
+        "year": "1995",
+        "monthread": "April",
+        "yearread": "2026",
+        "cover": "/assets/books/iwhohaveneverknownmen.webp"
     }
 ]
