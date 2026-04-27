@@ -750,5 +750,13 @@
         "monthread": "April",
         "yearread": "2026",
         "cover": "/assets/books/iwhohaveneverknownmen.webp"
+    },
+    {
+        "name":"Wing Commander: Heart of The Tiger",
+        "author": "William R. Forstchen",
+        "year": "1995",
+        "monthread": "April",
+        "yearread": "2026",
+        "cover": "/assets/books/wingcommanderiii.webp"
     }
 ]
