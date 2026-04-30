@@ -758,5 +758,13 @@
         "monthread": "April",
         "yearread": "2026",
         "cover": "/assets/books/wingcommanderiii.webp"
+    },
+    {
+        "name":"A Farewell To Arms",
+        "author": "Ernest Hemingway",
+        "year": "1929",
+        "monthread": "April",
+        "yearread": "2026",
+        "cover": "/assets/books/farewelltoarms.jpg"
     }
 ]
