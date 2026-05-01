@@ -378,5 +378,15 @@
             { "artist": "Breaking Benjamin", "album": "Ember", "cover": "./assets/albumart/breaking benjamin - ember.jpg" },
             { "artist": "The Cars", "album": "The Cars", "cover": "./assets/albumart/the cars - the cars.webp" }
         ]
+    },
+    {
+        "month": "April 2026",
+        "albums": [
+            { "artist": "Creed", "album": "Full Circle", "cover": "./assets/albumart/creed - full circle.webp" },
+            { "artist": "Van Halen", "album": "5150", "cover": "./assets/albumart/van halen - 5150.jpg" },
+            { "artist": "Nickelback", "album": "All The Right Reasons", "cover": "./assets/albumart/nickelback - all the right reasons.webp" },
+            { "artist": "Breaking Benjamin", "album": "Ember", "cover": "./assets/albumart/breaking benjamin - ember.jpg" },
+            { "artist": "Journey", "album": "Escape", "cover": "./assets/albumart/journey - escape.webp" }
+        ]
     }
 ]

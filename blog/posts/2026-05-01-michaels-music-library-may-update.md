@@ -13,32 +13,34 @@ April was a much slower month for my collection than previous ones—other than 
 
 ## Top Albums
 
-<div class="blog-image blog-image-med blog-image-right"><img src="/assets/albumart/van halen - 5150.jpg"><span>"It's fifty-one-fifty tiiiiime!" –Sammy Hagar, Live Without a Net</span></div>
+<div class="blog-image blog-image-med blog-image-right"><img src="/assets/albumart/creed - full circle.webp"><span>"Hell yeah!" - Guys when Creed is mentioned</span></div>
 
-1. x25: Van Halen/5150
-2. x15: Nickelback/Silver Side Up
-3. x08: The Cars/The Cars
-4. x08: Breaking Benjamin/Ember
-5. x07: Dire Straits/Making Movies
-6. x07: Eagles/Hotel California
-7. x05: Foreigner/4
-8. x05: The Grateful Dead/American Beauty
-9. x05: R.E.M./Out of Time
-10. x05: Pink Floyd/Meddle
+1. x23: Creed/Full Circle
+2. x22: Van Halen/5150
+3. x17: Nickelback/All The Right Reasons
+4. x09: Breaking Benjamin/Ember
+5. x08: Journey/Escape
+6. x08: The Grateful Dead/In The Dark
+7. x08: Blind Faith/Blind Faith
+8. x07: Nickelback/Silver Side Up
+9. x07: Creed/My Own Prison 
+10. x06: Dire Straits/Making Movies
 
-March 2026 was truly the month that *5150* came alive. At the end of February, I was sitting in one of the common spaces at college reading a book about newspapers when I had the odd urge to listen to this Van Hagar album I'd only heard once a couple years ago. Since July 17th, 2024, this album has sat unappreciated in my collection. This month, *I sensed a change, nothin' felt the same, all my dreams felt strange and love came walkin' in*.
+April 2026 was a month of obsessive listening dominated by three albums. I knew that I'd listened to *5150*, *Full Circle* and *All The Right Reasons* a lot, but I had no idea which one of the three would come out on top. I really thought it'd be *5150* at the top of the charts, but no—by a single listen, Creed's fourth and final album *Full Circle* took the top spot!
 
-I absolutely love the power and fervor this album comes at you with; Sammy Hagar's extraordinary screaming vocals and Eddie's legendary riffs mixed with slick, glossy synths is such a pleasure to my ears. I truly believe that this is the best Van Halen album of them all—none of them have this kind of power, urgency and sincerity wrapped into one beautiful bundle. 
+It's hard to believe there were days I didn't listen to *5150*. That album has been *my jam* this spring thus far and momentum hasn't yet slowed; I expect to see it near the top again at the end of May. 
 
-After that, we had Nickelback's *Silver Side Up*: a short, fun album that gets too much undeserved hate. Throughout February, I listened to songs off this album piecemeal on playlists while I skated around in circles—they're good sing-along songs. I was doing some schoolwork set up in a shopping mall one day when I decided to listen to this one in full and it really clicked. 
+I got a copy of *Full Circle* in the mail at the end of March after writing a blogpost about my love of Creed, realizing I'd never really listened to it in its entirety. It just clicked into place and I ate it up! *Full Circle* is one hell of an effort—better, I think, than *Weathered*—and I'm shocked that nobody really talks about it. It's a much heavier album with power, momentum and a conviction not found on any other Creed album. They were back with a vengeance, but why didn't they stay? 
 
-*The Cars* is one I picked up at a thrift store a while ago and got around to listening to it for the first time. It's laid back and pretty catchy—some simple 1980s New Wave fun. *Breaking Benjamin/Ember* is an album on its way up—I think it'll be trending towards a renaissance in the month of April. I *loved* this album when it came out back in 2018, and I still can't believe it's been almost eight years since it was released. 
+Further up the order, Breaking Benjamin's *Ember* stayed in the number four spot. I think you could say the same thing about this one as *Full Circle*: it's a late-career album where the band evolved to a more refined but heavy sound, and I'm all for it. 
 
-*Hotel California*, *4* and *Out of Time* are largely carry-over from last month; I'm still really into them so they've found themselves in semi-regular rotation for a second month in a row. *Making Movies* is the most recent and final Dire Straits album I added to my collection, so I'm still getting familiar with it. It's such a pleasure to dive into one of these, though this one is bittersweet since there are no more unfamiliar Dire Straits albums after this. 
+*Escape* is an album I didn't expect to see on there considering I bought it on the 9th of April, but I suppose it built up a lot of momentum later on in the month. The same goes for *Blind Faith*, which I bought on the same day; two very different-sounding records which are fantastic for very different reasons. Tied with the same amount of listens is *In The Dark*—a late-career hit for a struggling band getting back into the studio after a turbulent decade. I'm happy to see *In The Dark* back into the top ten, and equally happy to see the Dead charting rather consistently. 
 
-Finally, we've got *Grateful Dead/American Beauty* and *Pink Floyd/Meddle* making top-ten appearances on this month's listening charts. They're solid albums; I've always got some Pink Floyd going, and there's a whole mix of it in the full monthly ranking—the same goes for The Grateful Dead. Further down the order, there's Boston's *Walk On* just missing out on the top ten along with Rush's *Permanent Waves*, *Eric Clapton/Slowhand*, *Genesis/Invisible Touch*, *Billy Joel/52nd Street*, *Phil Collins/But Seriously*, *Third Eye Blind/Third Eye Blind*, *Genesis/Selling England By The Pound*, *Dire Straits/Dire Straits*, *Derek And The Dominos/Layla And Other Assorted Love Songs*, *Creed/Human Clay*, *Creed/My Own Prison* and The Footloose Soundtrack (of all things) competing for twelfth place with four listens a piece. What a list!
+We've got more Creed in the number nine spot with their debut album, *My Own Prison*, then *Dire Straits/Making Movies* squeaks into the top ten to round things off. 
 
-Although my stats aren't completely refined for this month, initial reports indicate that I listened to 148 unique albums 326 times for a total of 13,831 minutes. 
+Unsurprisingly, Creed was the most listened to band this month taking 12.4% of the listening pie at 34 listens across four different albums. Last month, Van Halen took the top spot with 34 listens and Nickelback was second with 15, but despite having 24 this month, Nickelback finds themselves in third overall because of the resurgence of Creed.
+
+Although my stats aren't completely refined for this month, initial reports indicate that I listened to 116 unique albums 308 times for a total of 13,878 minutes. 
 
 ## Music Library Stats
 
@@ -62,13 +64,13 @@ Deep Purple | Perfect Strangers | CD | Record Store | ./assets/albumart/deep pur
 Eagles | Eagles | CD | Record Store | ./assets/albumart/eagles - eagles.webp
 Journey | Escape | CD | Record Store | ./assets/albumart/journey - escape.webp
 Blind Faith | Blind Faith | CD | Record Store | ./assets/albumart/blind faith - blind faith.webp
-Curved Air | Airconditioning | CD | Record Store | ./assets/albumart/curved air - airconditioning.webp
+Curved Air | Air Conditioning | CD | Record Store | ./assets/albumart/curved air - air conditioning.webp
 Camel | I Can See Your House From Here | CD | Record Store | ./assets/albumart/camel - i can see your house from here.webp
 ::
 
 ### Toronto Record Stores Revisited
 
-<div class="blog-image blog-image-med blog-image-right"><img src="/blog/resources/2026-04-01_1.webp"><span>The Genesis section of my shelf</span></div>
+<div class="blog-image blog-image-med blog-image-right"><img src="/blog/resources/2026-05-01_3.webp"><span>The old (left) and new (right) Paramusic locations. Not my photos.</span></div>
 
 At the beginning of the month, I went to Toronto for the first time in a couple of years and that meant I had a chance to revisit some of my favourite record stores. 
 
@@ -82,6 +84,8 @@ I chatted with the man at the desk—I believe his name is Igor—and he told me
 
 #### My Favourite Record Stores in Toronto
 
+<div class="blog-image blog-image-med blog-image-left"><img src="/blog/resources/2026-05-01_2.webp"><span>Steve's, now defunct. (Nikon Z6)</span></div>
+
 The next stop was *Sonic Boom Records* on Spadina. Unfortunately, because it was the last day of my trip and I had to catch a train, I didn't have time to check out *Dead Dog Records* on Church St, *She Said Boom* or *Neurotica Records* on College St, nor the many *BMV Books* scattered around the city. I would highly recommend those places—I've found some pretty cool things at all those stores. If you find yourself further west of downtown on Bloor St, check out *Zoinks Music And Books*, the other *Dead Dog* location and the adjacent Value Village as well!
 
 Walking down Queen St, I passed *KOPS Records*: they're great if you collect Vinyl, but the only CDs they have are a discount pile outside the store. It's still worth checking out in passing. 
@@ -89,6 +93,8 @@ Walking down Queen St, I passed *KOPS Records*: they're great if you collect Vin
 Not too far down the road is Steve's Music Store. They recently announced they're closing all their locations across Ontario, which included this iconic venue downtown. Another one of Toronto's iconic signs will soon fall! I snapped a photo and I'll hope they put it up in Yonge-Dundas Square like *Sam The Record Man*.
 
 #### Sonic Boom Records
+
+<div class="blog-image blog-image-right"><img src="/blog/resources/2026-05-01_1.webp"><span>Sonic Boom's Basement: downstairs, but closer to heaven (iPhone 12 Mini)</span></div>
 
 Finally, I found myself up Spadina staring at the entrance to *Sonic Boom Records*: a portal into a vast underground world of CDs, Vinyl and Cassettes. I descended into the huge, well-lit basement and got started flipping through. 
 
@@ -119,7 +125,7 @@ I'm so happy to have picked up *Blind Faith*—yet another fantastic release Cla
 
 I'm also quite happy to add some more prog rock releases to my collection. I've wanted to listen to both *Gentle Giant* and *Camel* for a long time so it's very exciting to finally have some of their music around. I've got to say, I enjoyed both albums a lot.
 
-prog rock is starting to feel like Grunge to me in that I can just pick up anything that's adjacent to it and I'll instantly like it. I've always liked it, but I *know* I like it, if that makes sense. *Curved Air* is a band I've never heard of but it seemed like Prog, so I bought it blind. *Airconditioning* is a very pleasant surprise for a blind buy because it's one of the closest things I've been able to find to King Crimson's *Islands*—a release which trends much more in the direction of Symphonic Prog—while still being very funky and fun to listen to. 
+prog rock is starting to feel like Grunge to me in that I can just pick up anything that's adjacent to it and I'll instantly like it. I've always liked it, but I *know* I like it, if that makes sense. *Curved Air* is a band I've never heard of but it seemed like Prog, so I bought it blind. *Air Conditioning* is a very pleasant surprise for a blind buy because it's one of the closest things I've been able to find to King Crimson's *Islands*—a release which trends much more in the direction of Symphonic Prog—while still being very funky and fun to listen to. 
 
 ### Three Other Big Albums For The Collection
 
