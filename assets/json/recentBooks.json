@@ -766,5 +766,13 @@
         "monthread": "April",
         "yearread": "2026",
         "cover": "/assets/books/farewelltoarms.jpg"
+    },
+    {
+        "name":"Ultramarine",
+        "author": "Malcom Lowry",
+        "year": "1933",
+        "monthread": "April",
+        "yearread": "2026",
+        "cover": "/assets/books/ultramarine.webp"
     }
 ]
