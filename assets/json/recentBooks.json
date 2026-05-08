@@ -774,5 +774,13 @@
         "monthread": "April",
         "yearread": "2026",
         "cover": "/assets/books/ultramarine.webp"
+    },
+    {
+        "name":"Papa Hemingway",
+        "author": "A.E. Hotchner",
+        "year": "1966",
+        "monthread": "May",
+        "yearread": "2026",
+        "cover": "/assets/books/papahemingway.webp"
     }
 ]
