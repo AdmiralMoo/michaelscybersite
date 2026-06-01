@@ -782,5 +782,13 @@
         "monthread": "May",
         "yearread": "2026",
         "cover": "/assets/books/papahemingway.webp"
+    },
+    {
+        "name":"Across the River and into the Trees",
+        "author": "Ernest Hemingway",
+        "year": "1950",
+        "monthread": "May",
+        "yearread": "2026",
+        "cover": "/assets/books/acrosstheriver.webp"
     }
 ]
