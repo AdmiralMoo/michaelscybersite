@@ -790,5 +790,13 @@
         "monthread": "May",
         "yearread": "2026",
         "cover": "/assets/books/acrosstheriver.webp"
+    },
+    {
+        "name":"Under The Volcano",
+        "author": "Malcom Lowry",
+        "year": "1947",
+        "monthread": "May",
+        "yearread": "2026",
+        "cover": "/assets/books/underthevolcano.webp"
     }
 ]

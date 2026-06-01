@@ -388,5 +388,15 @@
             { "artist": "Breaking Benjamin", "album": "Ember", "cover": "./assets/albumart/breaking benjamin - ember.jpg" },
             { "artist": "Journey", "album": "Escape", "cover": "./assets/albumart/journey - escape.webp" }
         ]
+    },
+    {
+        "month": "May 2026",
+        "albums": [
+            { "artist": "Van Halen", "album": "5150", "cover": "./assets/albumart/van halen - 5150.jpg" },
+            { "artist": "Eagles", "album": "Eagles", "cover": "./assets/albumart/eagles - eagles.webp" },
+            { "artist": "Pink Floyd", "album": "The Dark Side of The Moon", "cover": "./assets/albumart/pink floyd - the dark side of the moon.jpg" },
+            { "artist": "Nickelback", "album": "Silver Side Up", "cover": "./assets/albumart/nickelback - silver side up.webp" },
+            { "artist": "Supertramp", "album": "Breakfast In America", "cover": "./assets/albumart/supertramp - breakfast in america.jpg" }
+        ]
     }
 ]

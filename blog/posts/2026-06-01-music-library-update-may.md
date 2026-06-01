@@ -1,7 +1,7 @@
 ---
 title: Michael's Music Library – May 2026 Update
-date: 2026-05-01
-slug: 2026-05-01-music-library-update-may
+date: 2026-06-01
+slug: 2026-06-01-music-library-update-may
 category: music
 description: A May 2026 Collection Update in a month where 5150 Reigned Supreme
 tags:
@@ -9,44 +9,52 @@ tags:
     - cds
 ---
 
-April was a much slower month for my collection than previous ones—other than a trip to some record stores in Toronto, I didn't get much! Nevertheless, I listened to a lot of great music and enjoyed what I have. Here's what's new and exciting in my music library this month. 
+In a month where I added tons of exciting new albums and logged significantly more listening time, *5150* still managed to find its way to the top of the charts. Here's what's new and exciting in my music library this month. 
 
 ## Top Albums
 
 <div class="blog-image blog-image-med blog-image-right"><img src="/assets/albumart/creed - full circle.webp"><span>"Hell yeah!" - Guys when Creed is mentioned</span></div>
 
-1. x23: Creed/Full Circle
-2. x22: Van Halen/5150
-3. x17: Nickelback/All The Right Reasons
-4. x09: Breaking Benjamin/Ember
-5. x08: Journey/Escape
-6. x08: The Grateful Dead/In The Dark
-7. x08: Blind Faith/Blind Faith
-8. x07: Nickelback/Silver Side Up
-9. x07: Creed/My Own Prison 
-10. x06: Dire Straits/Making Movies
+1. x24: Van Halen/5150
+2. x15: Eagles/Eagles
+3. x13: Pink Floyd/The Dark Side of The Moon
+4. x12: Nickelback/Silver Side Up
+5. x10: Supertramp/Breakfast In America
+6. x10: Nickelback/All The Right Reasons
+7. x09: R.E.M/Monster
+8. x08: Genesis/Invisible Touch
+9. x08: Creedence Clearwater Revival/Cosmo's Factory
+10. x07: Yes/Talk
 
-April 2026 was a month of obsessive listening dominated by three albums. I knew that I'd listened to *5150*, *Full Circle* and *All The Right Reasons* a lot, but I had no idea which one of the three would come out on top. I really thought it'd be *5150* at the top of the charts, but no—by a single listen, Creed's fourth and final album *Full Circle* took the top spot!
+Although May 2026 saw the return of Van Halen's *5150* to the top of the charts by a comfortable margin, it wasn't as obsessively focused on a few albums as it was in April. I didn't check the stats at all throughout the month, but I had an idea that I'd find *5150* on top with *Eagles* followed somewhere behind. What I didn't expect to see, however, was my all-time favourite album returning to the top five for the first time since August of 2025: *The Dark Side of The Moon*. 
 
-It's hard to believe there were days I didn't listen to *5150*. That album has been *my jam* this spring thus far and momentum hasn't yet slowed; I expect to see it near the top again at the end of May. 
+So, in a lot of ways, you could say that this month's top five was largely dominated by albums in *renaissance*. When I discover an album, there's usually a period when I listen to it a lot—almost obsessively; when it comes back and has a "second wind", I call it a "renaissance". *The Dark Side of The Moon*, *Breakfast In America* and even *Invisible Touch* in a smaller way were in renaissance this month. 
 
-I got a copy of *Full Circle* in the mail at the end of March after writing a blogpost about my love of Creed, realizing I'd never really listened to it in its entirety. It just clicked into place and I ate it up! *Full Circle* is one hell of an effort—better, I think, than *Weathered*—and I'm shocked that nobody really talks about it. It's a much heavier album with power, momentum and a conviction not found on any other Creed album. They were back with a vengeance, but why didn't they stay? 
+*Dark Side* is an album I'm always listening to no matter what I'm into, but there are some months when it comes back in force and re-enters my regular rotation. *Breakfast In America*, on a smaller scale, is another one of those albums—the only other time it charted, though, was in November of 2023 when it took the #5 spot as it did this month. *Invisible Touch* was one of the biggest albums of last summer and is now in its first renaissance. 
 
-Further up the order, Breaking Benjamin's *Ember* stayed in the number four spot. I think you could say the same thing about this one as *Full Circle*: it's a late-career album where the band evolved to a more refined but heavy sound, and I'm all for it. 
+What is there to say about *5150* again, this month's top album? I love the hard-rocking energy and tremendous momentum it carries; it's groovy, it fucks hard and it's exciting to listen to—I just love the way it feels to enjoy this album! It's like lightning in a bottle. 
 
-*Escape* is an album I didn't expect to see on there considering I bought it on the 9th of April, but I suppose it built up a lot of momentum later on in the month. The same goes for *Blind Faith*, which I bought on the same day; two very different-sounding records which are fantastic for very different reasons. Tied with the same amount of listens is *In The Dark*—a late-career hit for a struggling band getting back into the studio after a turbulent decade. I'm happy to see *In The Dark* back into the top ten, and equally happy to see the Dead charting rather consistently. 
+Nickelback's *Silver Side Up* beat out *All The Right Reasons*, which also managed to stay in this month's top ten albums. *R.E.M/Monster* entered the top ten for the first time as I really learned to appreciate and enjoy that album. I've known that I like R.E.M. for well over six years now and I own most of their albums, but I like to take it slow—either way, there will come a day I've listened to all they have to offer and there will be no more R.E.M. to discover. When I have the urge to listen to an album, I do so and it often turns into a pleasant "discovery" phase. I first listened to *Monster* in February and it really picked up steam here in May. 
 
-We've got more Creed in the number nine spot with their debut album, *My Own Prison*, then *Dire Straits/Making Movies* squeaks into the top ten to round things off. 
+The same thing happened for both *Yes/Talk* and *Creedence Clearwater Revival/Cosmo's Factory*. I've owned *Talk* since the end of January when I found it at a bookstore and listened to it once or twice, but it really took off this month. I've definitely enjoyed a lot of Creedence over the years and I've actually owned their first six albums since around 2020 when I found a boxed set at a thrift store, but I've just never gotten around to appreciating *Cosmo's Factory* for some reason. I saw *The Big Lebowski (1998)* in theatres at the end of April and "Lookin' out My Back Door" was on the soundtrack—that movie set this album in motion, and here we find it in this month's #9 spot. 
 
-Unsurprisingly, Creed was the most listened to band this month taking 12.4% of the listening pie at 34 listens across four different albums. Last month, Van Halen took the top spot with 34 listens and Nickelback was second with 15, but despite having 24 this month, Nickelback finds themselves in third overall because of the resurgence of Creed.
+We actually had *Journey/Escape*, *Derek & The Dominos/Layla & Other Assorted Love Songs*, *Phil Collins/Hello, I Must Be Going!*, and *Pink Floyd/Wish You Were Here* tied for tenth place at seven listens a piece—the latter two are coming back after performing very well last Summer and Autumn. *Third Eye Blind/Third Eye Blind*—a hugely listened album in the summer of 2020—came back up the charts with six listens, as did *Foreigner/4*. With five listens a piece, we had *Genesis/Duke*, *Yes/90125*, *ZZ Top/Afterburner*, *Phil Collins/...But Seriously*, *Creed/Full Circle*, *Rush/Permanent Waves* and *Creed/My Own Prison*. 
 
-Although my stats aren't completely refined for this month, initial reports indicate that I listened to 116 unique albums 308 times for a total of 13,878 minutes. 
+*Duke* is a Genesis album that hasn't had a top-five month like *Invisible Touch*, *Genesis*, *Abacab*, *Selling England By The Pound* or *Wind & Wuthering*—I've listened to it a moderate amount recently and I'm enjoying it, but it hasn't had that moment the other albums have had just yet. *90125* has been a mainstay in my listening rotation since October of 2024, *Afterburner* saw a bump in listens since it peaked at the #2 spot in December, and *...But Seriously* is seeing its first build of momentum as I learn to appreciate it. I think it's going to perform well in June. I've owned it since the end of July 2025 when I was at the peak of my Phil Collins/Genesis discovery era and it never stuck like *Hello, I Must Be Going!* or *No Jacket Required*. Recently, though, I've found myself gravitating towards it and loving it.
+
+Although it only garnered three listens, I want to mention *Pocket Full of Kryptonite* by Spin Doctors. It's a very fun, catchy album I want to listen to more because I had some really memorable moments with it this month. You don't really binge-listen to *The Wall*, but when I think back on a month, I'll usually remember what I was doing when I listened to that album—sometimes one or two listens is just as valuable as twenty-five.
+
+Speaking of Pink Floyd, they took the #2 spot overall on the artists chart with 27 listens, tied with Genesis. Nickelback, Eagles, Phil Collins, Yes, Rush, Supertramp and Creedence all featured in this month's top ten. Van Halen was #1 at 29, but if we're going by total time listened per artist, Genesis was #1 with 7.5% of overall listening time. 
+
+The stats for this month reported a whopping 164 unique albums (<span style="color: #00D800; font-weight:bold">+48</span>) 397 times (<span style="color: #00D800; font-weight:bold">+89</span>) for a total of 18,283 minutes (<span style="color: #00D800; font-weight:bold">+4,405</span>). What a great month for the CD library! 
+
+This big jump over last month is because I finished school at the end of April and went back to working full-time in early May—since I work from home, I've got my lovely Hi-Fi stack to enjoy music on for the whole 8.5-hour day. Life is good—work hard 8–5, play hard 5–10!
 
 ## Music Library Stats
 
 Total counts already include additions.
 
-**CDs**: 742 <span style="color: #00D800; font-weight:bold">+7</span>
+**CDs**: 758 <span style="color: #00D800; font-weight:bold">+15</span>
 
 **Cassettes**: 63
 
@@ -59,13 +67,22 @@ Total counts already include additions.
 New albums are listed in chronological order starting from the beginning of the month
 
 ::music-grid
-Gentle Giant | Gentle Giant | CD | Record Store | ./assets/albumart/gentle giant - gentle giant.webp
-Deep Purple | Perfect Strangers | CD | Record Store | ./assets/albumart/deep purple - perfect strangers.webp
-Eagles | Eagles | CD | Record Store | ./assets/albumart/eagles - eagles.webp
-Journey | Escape | CD | Record Store | ./assets/albumart/journey - escape.webp
-Blind Faith | Blind Faith | CD | Record Store | ./assets/albumart/blind faith - blind faith.webp
-Curved Air | Air Conditioning | CD | Record Store | ./assets/albumart/curved air - air conditioning.webp
-Camel | I Can See Your House From Here | CD | Record Store | ./assets/albumart/camel - i can see your house from here.webp
+Ratt | Reach For The Sky | CD | Thrift Store | ./assets/albumart/ratt - reach for the sky.webp
+David Bowie | Let's Dance | CD | Thrift Store | ./assets/albumart/david bowie - lets dance.webp
+The Mamas & The Papas | California Dreaming | CD | Book Store | ./assets/albumart/the mamas and the papas - california dreaming.webp
+Deutsche Grammophon | Adagio | CD | Book Store | ./assets/albumart/bach - air.webp
+Europe | The Final Countdown | CD | Record Store | ./assets/albumart/europe - the final countdown.webp
+Iron Butterfly | In-A-Gadda-Da-Vida | CD | Record Store | ./assets/albumart/iron butterfly - in-a-gadda-da-vida.webp
+Yes | Union | CD | Record Store | ./assets/albumart/yes - union.webp
+Foreigner | Foreigner | CD | Record Store | ./assets/albumart/foreigner - foreigner.webp
+Night Ranger | 7 Wishes | CD | Record Store | ./assets/albumart/night ranger - 7 wishes.webp
+Bad English | Bad English | CD | Record Store | ./assets/albumart/bad english - bad english.webp
+Van Halen | Live: Right Here, Right Now | CD | Garage Sale | ./assets/albumart/van halen - live right here right now.webp
+Mike + The Mechanics | Mike + The Mechanics | CD | Record Store | ./assets/albumart/mike and the mechanics - mike and the mechanics.webp
+Rush | Signals | CD | Record Store | ./assets/albumart/rush - signals.webp
+The Who | The Who Sell Out | CD | Record Store | ./assets/albumart/the who - the who sell out.webp
+Van Halen | Fair Warning | CD | Record Store | ./assets/albumart/van halen - fair warning.webp
+Van Halen | Women And Children First | CD | Record Store | ./assets/albumart/van halen - women and children first.webp
 ::
 
 ### Toronto Record Stores Revisited
