@@ -3,7 +3,7 @@ title: Michael's Music Library – May 2026 Update
 date: 2026-06-01
 slug: 2026-06-01-music-library-update-may
 category: music
-description: A May 2026 Collection Update in a month where 5150 Reigned Supreme
+description: A May 2026 Collection Update with a massive haul from my favourite Ottawa record store
 tags:
     - music-library
     - cds
@@ -13,7 +13,7 @@ In a month where I added tons of exciting new albums and logged significantly mo
 
 ## Top Albums
 
-<div class="blog-image blog-image-med blog-image-right"><img src="/assets/albumart/creed - full circle.webp"><span>"Hell yeah!" - Guys when Creed is mentioned</span></div>
+<div class="blog-image blog-image-med blog-image-right"><img src="/assets/albumart/van halen - 5150.jpg"><span>"It's fifty-one-fifty tiiiiime!" –Sammy Hagar, Live Without a Net</span></div>
 
 1. x24: Van Halen/5150
 2. x15: Eagles/Eagles
@@ -21,10 +21,12 @@ In a month where I added tons of exciting new albums and logged significantly mo
 4. x12: Nickelback/Silver Side Up
 5. x10: Supertramp/Breakfast In America
 6. x10: Nickelback/All The Right Reasons
-7. x09: R.E.M/Monster
+7. x09: R.E.M./Monster
 8. x08: Genesis/Invisible Touch
 9. x08: Creedence Clearwater Revival/Cosmo's Factory
 10. x07: Yes/Talk
+
+#### The Top Three
 
 Although May 2026 saw the return of Van Halen's *5150* to the top of the charts by a comfortable margin, it wasn't as obsessively focused on a few albums as it was in April. I didn't check the stats at all throughout the month, but I had an idea that I'd find *5150* on top with *Eagles* followed somewhere behind. What I didn't expect to see, however, was my all-time favourite album returning to the top five for the first time since August of 2025: *The Dark Side of The Moon*. 
 
@@ -34,15 +36,27 @@ So, in a lot of ways, you could say that this month's top five was largely domin
 
 What is there to say about *5150* again, this month's top album? I love the hard-rocking energy and tremendous momentum it carries; it's groovy, it fucks hard and it's exciting to listen to—I just love the way it feels to enjoy this album! It's like lightning in a bottle. 
 
-Nickelback's *Silver Side Up* beat out *All The Right Reasons*, which also managed to stay in this month's top ten albums. *R.E.M/Monster* entered the top ten for the first time as I really learned to appreciate and enjoy that album. I've known that I like R.E.M. for well over six years now and I own most of their albums, but I like to take it slow—either way, there will come a day I've listened to all they have to offer and there will be no more R.E.M. to discover. When I have the urge to listen to an album, I do so and it often turns into a pleasant "discovery" phase. I first listened to *Monster* in February and it really picked up steam here in May. 
+#### The Top Ten
+
+<div class="blog-image blog-image blog-image-right"><img src="/assets/albumart/rem - monster.jpg"><span><i>Monster</i> is a great album from a great band. My favourite tracks off this one are "What's The Frequency, Kenneth?", "Crush with Eyeliner", "King of Comedy", "Star 69" and "Strange Currencies".</span></div>
+
+Nickelback's *Silver Side Up* beat out *All The Right Reasons*, which also managed to stay in this month's top ten albums. *R.E.M./Monster* entered the top ten for the first time as I really learned to appreciate and enjoy that album. I've known that I like R.E.M. for well over six years now and I own most of their albums, but I like to take it slow—either way, there will come a day I've listened to all they have to offer and there will be no more R.E.M. to discover. When I have the urge to listen to an album, I do so and it often turns into a pleasant "discovery" phase. I first listened to *Monster* in February and it really picked up steam here in May. 
 
 The same thing happened for both *Yes/Talk* and *Creedence Clearwater Revival/Cosmo's Factory*. I've owned *Talk* since the end of January when I found it at a bookstore and listened to it once or twice, but it really took off this month. I've definitely enjoyed a lot of Creedence over the years and I've actually owned their first six albums since around 2020 when I found a boxed set at a thrift store, but I've just never gotten around to appreciating *Cosmo's Factory* for some reason. I saw *The Big Lebowski (1998)* in theatres at the end of April and "Lookin' out My Back Door" was on the soundtrack—that movie set this album in motion, and here we find it in this month's #9 spot. 
 
-We actually had *Journey/Escape*, *Derek & The Dominos/Layla & Other Assorted Love Songs*, *Phil Collins/Hello, I Must Be Going!*, and *Pink Floyd/Wish You Were Here* tied for tenth place at seven listens a piece—the latter two are coming back after performing very well last Summer and Autumn. *Third Eye Blind/Third Eye Blind*—a hugely listened album in the summer of 2020—came back up the charts with six listens, as did *Foreigner/4*. With five listens a piece, we had *Genesis/Duke*, *Yes/90125*, *ZZ Top/Afterburner*, *Phil Collins/...But Seriously*, *Creed/Full Circle*, *Rush/Permanent Waves* and *Creed/My Own Prison*. 
+#### Just Outside The Charts
+
+<div class="blog-image blog-image blog-image-left"><img src="/assets/albumart/phil collins - but seriously.webp"><span>I'm really enjoying "Hang In Long Enough", "Something Happened on the Way to Heaven" and "I Wish It Would Rain Down" in particular off <i>...But Seriously</i></span></div>
+
+We actually had *Journey/Escape*, *Derek & The Dominos/Layla & Other Assorted Love Songs*, *Phil Collins/Hello, I Must Be Going!*, and *Pink Floyd/Wish You Were Here* tied for tenth place at seven listens a piece—the latter two are coming back after performing very well last summer and autumn. *Third Eye Blind/Third Eye Blind*—a hugely listened album in the summer of 2020—came back up the charts with six listens, as did *Foreigner/4*. With five listens a piece, we had *Genesis/Duke*, *Yes/90125*, *ZZ Top/Afterburner*, *Phil Collins/...But Seriously*, *Creed/Full Circle*, *Rush/Permanent Waves* and *Creed/My Own Prison*. 
 
 *Duke* is a Genesis album that hasn't had a top-five month like *Invisible Touch*, *Genesis*, *Abacab*, *Selling England By The Pound* or *Wind & Wuthering*—I've listened to it a moderate amount recently and I'm enjoying it, but it hasn't had that moment the other albums have had just yet. *90125* has been a mainstay in my listening rotation since October of 2024, *Afterburner* saw a bump in listens since it peaked at the #2 spot in December, and *...But Seriously* is seeing its first build of momentum as I learn to appreciate it. I think it's going to perform well in June. I've owned it since the end of July 2025 when I was at the peak of my Phil Collins/Genesis discovery era and it never stuck like *Hello, I Must Be Going!* or *No Jacket Required*. Recently, though, I've found myself gravitating towards it and loving it.
 
+#### An Honourable Mention
+
 Although it only garnered three listens, I want to mention *Pocket Full of Kryptonite* by Spin Doctors. It's a very fun, catchy album I want to listen to more because I had some really memorable moments with it this month. You don't really binge-listen to *The Wall*, but when I think back on a month, I'll usually remember what I was doing when I listened to that album—sometimes one or two listens is just as valuable as twenty-five.
+
+#### Listening Stats
 
 Speaking of Pink Floyd, they took the #2 spot overall on the artists chart with 27 listens, tied with Genesis. Nickelback, Eagles, Phil Collins, Yes, Rush, Supertramp and Creedence all featured in this month's top ten. Van Halen was #1 at 29, but if we're going by total time listened per artist, Genesis was #1 with 7.5% of overall listening time. 
 
@@ -85,71 +99,62 @@ Van Halen | Fair Warning | CD | Record Store | ./assets/albumart/van halen - fai
 Van Halen | Women And Children First | CD | Record Store | ./assets/albumart/van halen - women and children first.webp
 ::
 
-### Toronto Record Stores Revisited
+### A Tale of Two Record Stores (And A Garage Sale In Between)
 
-<div class="blog-image blog-image-med blog-image-right"><img src="/blog/resources/2026-05-01_3.webp"><span>The old (left) and new (right) Paramusic locations. Not my photos.</span></div>
+The majority of this month's finds came from two record stores: *Compact Music* and *Vertigo Records*—the latter of which is my favourite in Ottawa. I toured around Bank St and The Glebe one Saturday and came home with a massive amount of cool stuff!
 
-At the beginning of the month, I went to Toronto for the first time in a couple of years and that meant I had a chance to revisit some of my favourite record stores. 
+#### The Great Glebe Garage Sale
 
-#### Paramusic Records
+May 23rd, 2026, marked the fortieth edition of the annual *Great Glebe Garage Sale* in Ottawa—a massive community-driven event where an entire neighbourhood up and down Bank St. grabs their lawn chairs and puts stuff out on the curb. I toured around on my bike and saw all sorts of really cool things, but I only actually found one album I wanted—*Van Halen/Live: Right Here, Right Now*. It's an exciting addition to the collection, especially with the other Van Halen related finds this month. I've got a copy of this concert on VHS, and it's great to be able to listen to it on CD. 
 
-After the business end of the trip concluded, I took a walk downtown to Yonge-Dundas Square to find 60 Dundas St. East boarded up and seemingly condemned. Behind the boards was *Paramusic Records*: my favourite record store in the city. I walked back to the Eaton Centre and according to The Google, they'd moved down the street into The Atrium—a quiet shopping centre stashed away on the otherwise very busy Bay St. 
+I found that a lot of the houses selling CD's had a mix of odd religious albums and compilations—not exactly the stuff I'm looking for. One of them had a box of empty CD cases on sale for $2 each labelled as "memorabilia"!
 
-Not too long later, I found the store and all was as I remembered, just arranged differently; the same shelves, racks and furnishings were nestled quite comfortably in a bright, clean new space. At the desk, the familiar owner was chatting away with a friend. I looked around for a good half-hour and found all sorts of great stuff: It never ceases to amaze me how good the selection is in Toronto compared to Ottawa!
+Everything was backed up and it was nice to be on a bike; crowds of people milled about and tents were set up everywhere. It was the closest to being in Toronto I've ever felt in Ottawa! You might've thought you were at Taste of The Danforth or something. I stopped at a tent which, for some reason, had grip strength testers. I averaged around 52kg in both hands—a little above average! It's because of all the rock climbing I do, I suppose.
 
-I chatted with the man at the desk—I believe his name is Igor—and he told me that the old building had been bought out last November and will be developed into something else. He said that business is about the same and things are good at the new store—and I'm happy to hear it. I always go every time I'm back in the city. 
+#### Vertigo Records Customer Appreciation Sale
 
-#### My Favourite Record Stores in Toronto
+<div class="blog-image blog-image-med blog-image-left"><img src="/blog/resources/2026-06-01_1.webp"><span>A photo of Vertigo from exactly six months ago on New Year's day.</span></div>
 
-<div class="blog-image blog-image-med blog-image-left"><img src="/blog/resources/2026-05-01_2.webp"><span>Steve's, now defunct. (Nikon Z6)</span></div>
+I headed down Bank Street for what I knew would be the main event: Vertigo Records' Customer Appreciation Sale, where everything in the store was marked down by 20%! I parked by bike outside the store and took a look around. 
 
-The next stop was *Sonic Boom Records* on Spadina. Unfortunately, because it was the last day of my trip and I had to catch a train, I didn't have time to check out *Dead Dog Records* on Church St, *She Said Boom* or *Neurotica Records* on College St, nor the many *BMV Books* scattered around the city. I would highly recommend those places—I've found some pretty cool things at all those stores. If you find yourself further west of downtown on Bloor St, check out *Zoinks Music And Books*, the other *Dead Dog* location and the adjacent Value Village as well!
+First off, I found two pretty exciting albums in the $2 discount bin: *Bad English/Bad English* and *Europe/The Final Countdown*—unbelievable! I'm so happy to have that awesome, iconic Europe album in my collection. These past couple days, I've been listening to it for the first time in its entirety: it's epic! Bad English was a supergroup that featured John Waite singing with members of Journey and Styx in the background. With both in mint condition, I've still got no idea how they ended up in the discount bin. What a start!
 
-Walking down Queen St, I passed *KOPS Records*: they're great if you collect Vinyl, but the only CDs they have are a discount pile outside the store. It's still worth checking out in passing. 
+They had a big selection of Foreigner CD's, but I elected to take home their self-titled debut this time around. Over the past couple months, I've been discovering Foreigner beyond just *4* and I'm really enjoying what I'm hearing. The same can be said with Yes—I've loved *90125* for a couple years now and I greatly enjoyed *Fragile* when I got a copy of it last year. Since then, I've picked up copies of *Big Generator* and *Talk*—having liked the latter of the two Progressive Pop era albums, I'm happy to have added *Union* to the collection. 
 
-Not too far down the road is Steve's Music Store. They recently announced they're closing all their locations across Ontario, which included this iconic venue downtown. Another one of Toronto's iconic signs will soon fall! I snapped a photo and I'll hope they put it up in Yonge-Dundas Square like *Sam The Record Man*.
+The other two albums I got from Vertigo were completely blind buys. A friend of mine from the rock climbing gym recommended Night Ranger, so I grabbed *7 Wishes*. *Iron Butterfly/In-A-Gadda-Da-Vida* looked like some kind of wack-o Progressive Rock/Proto-Metal adjacent album, and what do you know—it is! I love picking up albums like that based on album covers alone, and I've had a great success rate with it. Sometimes just flipping through the booklet and looking at the pictures, the band and album name are enough to convince me.
 
-#### Sonic Boom Records
+<div class="blog-image blog-image-med blog-image-right"><img src="/blog/resources/2026-06-01_2.webp"><span>The side smooth-top case of <i>Europe/The Final Countdown</i>.</span></div>
 
-<div class="blog-image blog-image-right"><img src="/blog/resources/2026-05-01_1.webp"><span>Sonic Boom's Basement: downstairs, but closer to heaven (iPhone 12 Mini)</span></div>
+Okay, maybe it's just me that finds this cool, but my copy of *The Final Countdown* was manufactured by Digital Audio Disc Corporation in the Toronto, Canada—the company which would become Sony DADC after their acquisition of CBS in 1988. The door of this CD case has smooth edges, which is very curious because not a lot of CD releases outside of Germany beyond 1985 used these; many switched over to the ridged-edge cases we still have today, which supposedly offer better grip for opening. These smooth-edge cases were still used well into the early 1990's as old stock—I've just never seen one from Canada before. The tray itself is embossed with the CBS logo, a maple leaf and text saying it was manufactured by CBS records in Canada on Leslie St, Don Mills. 
 
-Finally, I found myself up Spadina staring at the entrance to *Sonic Boom Records*: a portal into a vast underground world of CDs, Vinyl and Cassettes. I descended into the huge, well-lit basement and got started flipping through. 
+#### Compact Music
 
-While Paramusic seems to specialize in obscure and funky albums, *Sonic Boom* is more tailored to the everyday music listener—the classics and more popular stuff, but with enough space to stock up on *all* the classics and regular stuff you could ever think of. They also have a really good "Recent Arrivals" section which sometimes has brand new releases for cheap that someone...returned? I've seen it a couple times, and I just don't understand it, but it's something to look out for if you want to snag $7 new music!
+<div class="blog-image blog-image-med blog-image-left"><img src="/blog/resources/2026-06-01_0.webp"><span>This month's pickups.</span></div>
 
-Unfortunately, due to budgetary constraints, I came home with a few dozen less CDs from both stores than I would've liked to, but I saw so many interesting and cool albums, and I'm really happy with what I came home with.
+After plundering Vertigo Records and leaving with one of the best deals I'll ever have in a record store this late into my CD collection, I rode up Bank St to visit Compact Music. 
 
-### The Unstoppable Eric Clapton
+Compact Music is a much larger store than Vertigo with many more albums, and it seems to cater to a different kind of crowd; I notice a lot more hip, young girls browsing and middle-aged guys coming in to pick up their special requests than the average consumer that seems to browse Vertigo. It too is mostly vinyl, but I'd say their selection of CD's is roughly proportionate to Vertigo Records accounting for the increase in floor space. I like the store, but they're more expensive than Vertigo and they didn't have a sale on. That said, I still found a lot of good stuff I couldn't turn down—I always remind myself that it's okay to spend money on music because A. The price of CD's is going up and B. A copy of *Alice In Chains/Dirt* on vinyl is $50—*extortion!*. 
 
-If you look at the list of albums I added to my collection, you'll see that although there's not a lot of them, what I did add were a lot of big hitters and classic albums—at least in my books!
+Starting off, I found copies of *Van Halen/Fair Warning* and *Van Halen/Women and Children First*. With those two albums, I've completed my Van Halen Discography—at least when it comes to their original run of three vocalists; I've yet to find a copy of *A Different Kind of Truth*, and I suspect that'll have to be something I get online. My first Van Halen albums were *1984* and *Van Halen* which I found at a yard sale one day on cassette in mid 2019. I later got them on CD in July of 2020 as a birthday gift from my now ex-girlfriend. Now, here I am years later finally completing the cycle: *Van Halen, Van Halen II, Women and Children First, Fair Warning, Diver Down, 1984, 5150, OU812, For Unlawful Carnal Knowledge, Balance* and *Van Halen III*. Hell yeah!
 
-The one I was most excited about off the bat was *Blind Faith*'s self-titled debut and only album. Have you ever thought about the terrific run Eric Clapton was on in the 1960's? Think about it like this: 
+<div class="blog-image blog-image blog-image-right"><img src="/blog/resources/2026-06-01_3.webp"><span>Maple leaf logo on the tray of <i>Europe/The Final Countdown</i>.</span></div>
 
-<table>
-    <tr><td><b>1963–1965:</b></td><td>Clapton plays with the <i>Yardbirds</i></td></tr>
-    <tr><td><b>1965–1966:</b></td><td>Clapton plays with <i>John Mayall & The Bluesbreakers</i></td></tr>
-    <tr><td><b>1966–1968:</b></td><td>Clapton plays with the supergroup trio <i>Cream</i>, releasing four albums</td></tr>
-    <tr><td><b>1969     :</b></td><td>Clapton tours with <i>Delaney & Bonnie and Friends</i></td></tr>
-    <tr><td><b>1969–1970:</b></td><td>Clapton releases his debut solo album</td></tr>
-    <tr><td><b>1970–1971:</b></td><td>Clapton plays with Duane Allman in <i>Derek & The Dominos</i></td></tr>
-</table>
+*The Who/The Who Sell Out* is an album I've been on the look out for—"I Can See For Miles" is one of my favourite songs by them and I'm looking forward to hearing the whole album. I've been listening to *Mike + The Mechanics/Living Years* here and there over the past couple months and I've enjoyed it, so I figured I'd might as well give their self-titled debut a shot—I like it too! I think it's fantastic that the Genesis empire ruled the 1980's between the band and Phil Collins, Peter Gabriel, Steve Hackett and Mike Rutherford's solo careers. 
 
-All the while he's contributing solos to the Beatles, working with George Harrison and campaigning to steal his wife. What a decade for him!
+Finally, we've got MORE RUSH! It feels like such a special thing to have another Rush album in my music library. One day, just as with every other band, there will be no more new Rush albums to explore. I'm enjoying *Signals* and it makes me happy from the same country and city as these guys.
 
-I'm so happy to have picked up *Blind Faith*—yet another fantastic release Clapton was involved in. I'd never heard anything off it before, and I'll admit I went in with high expectations, but it did not disappoint! 
+### Thrift Store Pickups
 
-### A Great Month For Progressive Rock
+Early in the month, I found some music at a thrift store and a bookstore. *Ratt/Reach For The Sky* and *David Bowie/Let's Dance* were both shocking albums to find at my local Value Village! This store has come through for me so many times and most of my CD collection comes from there, and really good pulls like this do come up from time to time. I bought *Ratt/Ratt & Roll 81-91* last month at a book sale because I thought "I'm seriously never going to find a full Ratt album at a thrift store at this point..." and here I am. After seven years of CD collecting and frequent thrifting, this is the first time I've ever seen a David Bowie album in person and I'm so glad to finally dig in. 
 
-I'm also quite happy to add some more prog rock releases to my collection. I've wanted to listen to both *Gentle Giant* and *Camel* for a long time so it's very exciting to finally have some of their music around. I've got to say, I enjoyed both albums a lot.
+I added some classical music to my collection at the library's bookstore along with a copy of *The Mamas & The Papas/California Dreaming*. I bought the latter with a similar idea as *Ratt & Roll*—I'm never going to find a full album thrifting, so I might as well get the compilation. What did I end up with? A live album. Oh well. 
 
-prog rock is starting to feel like Grunge to me in that I can just pick up anything that's adjacent to it and I'll instantly like it. I've always liked it, but I *know* I like it, if that makes sense. *Curved Air* is a band I've never heard of but it seemed like Prog, so I bought it blind. *Air Conditioning* is a very pleasant surprise for a blind buy because it's one of the closest things I've been able to find to King Crimson's *Islands*—a release which trends much more in the direction of Symphonic Prog—while still being very funky and fun to listen to. 
+### The Zeppathon
 
-### Three Other Big Albums For The Collection
+<div class="blog-image blog-image blog-image-left"><img src="/blog/resources/2026-06-01_4.webp"><span>For some reason, the only photo I have of the Zeppathon is this really crappy one from a digital camera.</span></div>
 
-I found a very good-looking copy of Deep Purple's *Perfect Strangers*—a smooth-top release manufactured in West Germany. I absolutely love these smooth-top Polygram releases; they're from the first generation of CDs pressed in Germany in the early 1980's, and they always sound really good. It feels nice to buy something that *feels* like something as well, if you catch my drift: these old CD cases are hefty and well-built. Much to my terror, I've dropped one or two but they didn't shatter like a modern case would've.
+Finally, I just wanted to write about one more absurd music-related thing I did this month: a *Zeppathon*. 
 
-*Perfect Strangers* is an album I've wanted for a while now, and I've enjoyed it this month. I'm enjoying Journey's *Escape* even more so! It's an album that I've known about—obviously—because of songs like "Don't Stop Believin'", "Who's Crying Now" and "Still They Ride", but man, it's so good! I've listened to this one a lot this month. 
+I've owned Led Zeppelin's entire discography for a while, and for some reason, I haven't listened to it all back-to-back! I fixed that this month on May 14th, when I spent the entire 8.5 hour work day listening from *Led Zeppelin I* to *CODA*. It really puts everything into perspective and helps you appreciate just how awesome they were—what a band!
 
-Finally, there's Eagles' (*The* Eagles? Or just *Eagles*?) self-titled debut from 1971. I didn't know anything about this album other than the hit leadoff track, "Take It Easy", but my god this is a massive release. I don't think I would've been able to appreciate their laid-back, country/folk rock sound five years ago, but thankfully, I'm in the right place in life that I can (thank the Grateful Dead).
-
-For such a gentle-sounding album, it's got a lot of momentum to it. I loved *Hotel California*, but this album has made me love The Eagles as a band and I'm really looking forward to listening to more from them. 
+There have been days that I've listened to Dire Straits' whole discography back-to-back—they're another one of my favourite bands. I'm not sure if I could squeeze Green Day or Genesis into a single day, but I could certainly try. It's easy to call a day listening to Green Day a Green Day, but what would you call a day listening to Genesis? A Genethon? Genecide? Ha!
