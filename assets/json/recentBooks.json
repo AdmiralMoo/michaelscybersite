@@ -798,5 +798,13 @@
         "monthread": "May",
         "yearread": "2026",
         "cover": "/assets/books/underthevolcano.webp"
+    },
+    {
+        "name":"The Andromeda Strain",
+        "author": "Michael Crichton",
+        "year": "1969",
+        "monthread": "June",
+        "yearread": "2026",
+        "cover": "/assets/books/theandromedastrain.webp"
     }
 ]
