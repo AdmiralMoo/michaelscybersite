@@ -806,5 +806,13 @@
         "monthread": "June",
         "yearread": "2026",
         "cover": "/assets/books/theandromedastrain.webp"
+    },
+    {
+        "name":"Beyond the Fall of Night",
+        "author": "Arthur C. Clarke",
+        "year": "1990",
+        "monthread": "June",
+        "yearread": "2026",
+        "cover": "/assets/books/beyondthefallofthenight.webp"
     }
 ]

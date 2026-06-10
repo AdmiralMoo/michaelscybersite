@@ -18,6 +18,105 @@ def replace_music_grids(markdown_text):
 
     return re.sub(pattern, replacer, markdown_text, flags=re.DOTALL)
 
+carousel_counter = 0
+
+def replace_carousels(markdown_text):
+    pattern = r"::carousel\s+(\w+)\s+(\w+)\n(.*?)\n::"
+
+    def replacer(match):
+        side = match.group(1)
+        size = match.group(2)
+        block = match.group(3)
+
+        return build_carousel(block, side, size)
+
+    return re.sub(pattern, replacer, markdown_text, flags=re.DOTALL)
+
+
+def build_carousel(block, side, size):
+    global carousel_counter
+
+    carousel_id = f"carousel_{carousel_counter}"
+    carousel_counter += 1
+
+    lines = block.strip().split('\n')
+
+    images = []
+
+    for line in lines:
+        parts = [x.strip() for x in line.split('|', 1)]
+
+        if len(parts) != 2:
+            continue
+
+        image, caption = parts
+
+        image = image.replace("\\", "/")
+
+        images.append({
+            "image": image,
+            "caption": caption
+        })
+
+    if len(images) == 0:
+        return ""
+
+    images_json = json.dumps(images)
+
+    return f"""
+        <div class="blog-image blog-image-{size} blog-image-{side} carousel-container">
+
+            <button class="carousel-arrow carousel-left"
+                    onclick="{carousel_id}_prev()">◀</button>
+
+            <img id="{carousel_id}_img"
+                src="{images[0]['image']}">
+
+            <button class="carousel-arrow carousel-right"
+                    onclick="{carousel_id}_next()">▶</button>
+
+            <span id="{carousel_id}_caption">{images[0]['caption']}</span>
+
+            <script>
+
+            const {carousel_id}_images = {images_json};
+
+            let {carousel_id}_index = 0;
+
+            function {carousel_id}_show()
+            {{
+                document.getElementById('{carousel_id}_img').src =
+                    {carousel_id}_images[{carousel_id}_index].image;
+
+                document.getElementById('{carousel_id}_caption').innerText =
+                    {carousel_id}_images[{carousel_id}_index].caption;
+            }}
+
+            function {carousel_id}_next()
+            {{
+                {carousel_id}_index =
+                    ({carousel_id}_index + 1) %
+                    {carousel_id}_images.length;
+
+                {carousel_id}_show();
+            }}
+
+            function {carousel_id}_prev()
+            {{
+                {carousel_id}_index =
+                    ({carousel_id}_index - 1 +
+                    {carousel_id}_images.length)
+                    %
+                    {carousel_id}_images.length;
+
+                {carousel_id}_show();
+            }}
+
+            </script>
+
+        </div>
+        """
+
 def build_music_grid(block):
     html = '<div class="music-grid">\n'
 
@@ -106,7 +205,10 @@ for filename in os.listdir(dir_posts):
     html_body = html_body.replace("{{ date }}", str(meta["date"]))
     html_body = html_body.replace("{{ pubdate }}", dateconvert(meta["date"]))
     html_body = html_body.replace("{{ year }}", str(meta["date"]).split("-")[0])
-    html_body = html_body.replace("{{ content }}", markdown.markdown(crap_body))
+    crap_body = replace_music_grids(crap_body)
+    crap_body = replace_carousels(crap_body)
+
+    html_body = html_body.replace("{{ content }}", markdown.markdown(crap_body, extensions=['extra']))
 
     tags = ''
     for tag in meta["tags"]:
