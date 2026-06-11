@@ -814,5 +814,13 @@
         "monthread": "June",
         "yearread": "2026",
         "cover": "/assets/books/beyondthefallofthenight.webp"
+    },
+    {
+        "name":"Not Dead Yet",
+        "author": "Phil Collins",
+        "year": "2016",
+        "monthread": "June",
+        "yearread": "2026",
+        "cover": "/assets/books/notdeadyet.webp"
     }
 ]
