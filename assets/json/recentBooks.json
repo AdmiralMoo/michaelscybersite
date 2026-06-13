@@ -822,5 +822,13 @@
         "monthread": "June",
         "yearread": "2026",
         "cover": "/assets/books/notdeadyet.webp"
+    },
+    {
+        "name":"Hollywood",
+        "author": "Charles Bukowski",
+        "year": "1989",
+        "monthread": "June",
+        "yearread": "2026",
+        "cover": "/assets/books/hollywood.webp"
     }
 ]
