@@ -830,5 +830,13 @@
         "monthread": "June",
         "yearread": "2026",
         "cover": "/assets/books/hollywood.webp"
+    },
+    {
+        "name":"Memory: A Very Short Introduction",
+        "author": "Jonathan K. Foster",
+        "year": "2008",
+        "monthread": "June",
+        "yearread": "2026",
+        "cover": "/assets/books/memory.webp"
     }
 ]
