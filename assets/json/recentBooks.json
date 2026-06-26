@@ -838,5 +838,13 @@
         "monthread": "June",
         "yearread": "2026",
         "cover": "/assets/books/memory.webp"
+    },
+    {
+        "name":"Ask The Dust",
+        "author": "John Fante",
+        "year": "1939",
+        "monthread": "June",
+        "yearread": "2026",
+        "cover": "/assets/books/askthedust.webp"
     }
 ]
