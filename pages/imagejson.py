@@ -19,18 +19,18 @@ print("A. Books\nB. CDs\nC. Games\nD. Cassettes")
 image_dir = "none"
 uinput = input(">")
 if "a" in uinput.lower():
-    image_dir = "\\assets\\books"
+    image_dir = "/assets/books"
 elif "b" in uinput.lower():
-    image_dir = "\\assets\\albumart"
+    image_dir = "/assets/albumart"
 elif "c" in uinput.lower():
-    image_dir = "\\assets\\games"
-elif "d" in uinput.lower(): 
-    image_dir = "\\assets\\cassettes"
+    image_dir = "/assets/games"
+elif "d" in uinput.lower():
+    image_dir = "/assets/cassettes"
 else:
     print("bad input: " + uinput)
 
 print("alright, " + image_dir)
-output_file = os.getcwd() + image_dir + r"\\images.json"
+output_file = os.getcwd() + image_dir + r"/images.json"
 
 if image_dir != "none":
     BuildFile(image_dir, output_file)
