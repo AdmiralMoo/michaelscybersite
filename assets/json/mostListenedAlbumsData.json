@@ -398,5 +398,15 @@
             { "artist": "Nickelback", "album": "Silver Side Up", "cover": "./assets/albumart/nickelback - silver side up.webp" },
             { "artist": "Supertramp", "album": "Breakfast In America", "cover": "./assets/albumart/supertramp - breakfast in america.jpg" }
         ]
+    },
+    {
+        "month": "June 2026",
+        "albums": [
+            { "artist": "Supertramp", "album": "Even In The Quietest Moments", "cover": "./assets/albumart/supertramp - even in the quietest moments.jpg" },
+            { "artist": "Van Halen", "album": "5150", "cover": "./assets/albumart/van halen - 5150.jpg" },
+            { "artist": "Phil Collins", "album": "Phil Collins", "cover": "./assets/albumart/phil collins - but seriously.webp" },
+            { "artist": "Yes", "album": "Talk", "cover": "./assets/albumart/yes - talk.webp" },
+            { "artist": "Skid Row", "album": "Skid Row", "cover": "./assets/albumart/skidrow - skidrow.webp" }
+        ]
     }
 ]
