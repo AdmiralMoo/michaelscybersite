@@ -3,7 +3,7 @@ title: Michael's Music Library – June 2026 Update
 date: 2026-07-04
 slug: 2026-07-04-music-library-update-june
 category: music
-description: A June 2026 Collection Update
+description: A June 2026 Collection Update and looking back on a year of Genesis
 tags:
     - music-library
     - cds
