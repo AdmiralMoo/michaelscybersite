@@ -846,5 +846,21 @@
         "monthread": "June",
         "yearread": "2026",
         "cover": "/assets/books/askthedust.webp"
+    },
+    {
+        "name":"Life After Life",
+        "author": "Raymond A. Moody Jr.",
+        "year": "1975",
+        "monthread": "July",
+        "yearread": "2026",
+        "cover": "/assets/books/lifeafterlife.webp"
+    },
+    {
+        "name":"Project Hail Mary",
+        "author": "Andy Weir",
+        "year": "2021",
+        "monthread": "July",
+        "yearread": "2026",
+        "cover": "/assets/books/projecthailmary.webp"
     }
 ]
