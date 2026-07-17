@@ -862,5 +862,21 @@
         "monthread": "July",
         "yearread": "2026",
         "cover": "/assets/books/projecthailmary.webp"
+    },
+    {
+        "name":"The Egg",
+        "author": "Andy Weir",
+        "year": "2009",
+        "monthread": "July",
+        "yearread": "2026",
+        "cover": "/assets/books/theegg.webp"
+    },
+    {
+        "name":"Jurassic Park",
+        "author": "Michael Crichton",
+        "year": "1991",
+        "monthread": "July",
+        "yearread": "2026",
+        "cover": "/assets/books/jurassicpark.webp"
     }
 ]
