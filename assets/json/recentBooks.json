@@ -878,5 +878,13 @@
         "monthread": "July",
         "yearread": "2026",
         "cover": "/assets/books/jurassicpark.webp"
+    },
+    {
+        "name":"Dune",
+        "author": "Frank Herbert",
+        "year": "1965",
+        "monthread": "July",
+        "yearread": "2026",
+        "cover": "/assets/books/dune.webp"
     }
 ]
