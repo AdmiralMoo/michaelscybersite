@@ -540,6 +540,42 @@
         "imagespine" : "./assets/vhs/TheWarOfTheWorlds_Spine.webp"
     },
     {
+        "id" : "billyjoelvideo",
+        "name" : "Billy Joel: The Video Album",
+        "year" : "1986",
+        "body" : "",
+        "tags" : "music;",
+        "imagefront" : "./assets/vhs/BillyJoelTheVideoAlbum_Front.webp",
+        "imagespine" : "./assets/vhs/BillyJoelTheVideoAlbum_Spine.webp"
+    },
+    {
+        "id" : "billyjoelussr",
+        "name" : "Billy Joel: Live in Leningrad USSR",
+        "year" : "1987",
+        "body" : "",
+        "tags" : "music;",
+        "imagefront" : "./assets/vhs/BillyJoelLiveFromLenningradUSSR_Front.webp",
+        "imagespine" : "./assets/vhs/BillyJoelLiveFromLenningradUSSR_Spine.webp"
+    },
+    {
+        "id" : "billyjoeltrust",
+        "name" : "Billy Joel: A Matter of Trust",
+        "year" : "1987",
+        "body" : "",
+        "tags" : "music;",
+        "imagefront" : "./assets/vhs/BillyJoelAMatterOfTrust_Front.webp",
+        "imagespine" : "./assets/vhs/BillyJoelAMatterOfTrust_Spine.webp"
+    },
+    {
+        "id" : "billyjoelshades",
+        "name" : "Billy Joel: Shades of Grey",
+        "year" : "1993",
+        "body" : "",
+        "tags" : "music;",
+        "imagefront" : "./assets/vhs/BillyJoelShadesOfGrey_Front.webp",
+        "imagespine" : "./assets/vhs/BillyJoelShadesOfGrey_Spine.webp"
+    },
+    {
         "id" : "deflephistoria",
         "name" : "Def Leppard: Historia",
         "year" : "1988",
@@ -556,6 +592,51 @@
         "tags" : "music;",
         "imagefront" : "./assets/vhs/DefLeppardLive_Front.webp",
         "imagespine" : "./assets/vhs/DefLeppardLive_Spine.webp"
+    },
+    {
+        "id" : "claptonfriends",
+        "name" : "Eric Clapton & Friends",
+        "year" : "1986",
+        "body" : "",
+        "tags" : "music;",
+        "imagefront" : "./assets/vhs/EricClaptonAndFriends_Front.webp",
+        "imagespine" : "./assets/vhs/EricClaptonAndFriends_Spine.webp"
+    },
+    {
+        "id" : "claptontwentyfour",
+        "name" : "Eric Clapton: 24 Nights",
+        "year" : "1991",
+        "body" : "",
+        "tags" : "music;",
+        "imagefront" : "./assets/vhs/EricClapton24Nights_Front.webp",
+        "imagespine" : "./assets/vhs/EricClapton24Nights_Spine.webp"
+    },
+    {
+        "id" : "genesistouch",
+        "name" : "Genesis: The Invisible Touch Tour",
+        "year" : "1988",
+        "body" : "",
+        "tags" : "music;",
+        "imagefront" : "./assets/vhs/GenesisTheInvisibleTouchTour_Front.webp",
+        "imagespine" : "./assets/vhs/GenesisTheInvisibleTouchTour_Spine.webp"
+    },
+    {
+        "id" : "genesisahistory",
+        "name" : "Genesis: A History",
+        "year" : "1991",
+        "body" : "",
+        "tags" : "music;",
+        "imagefront" : "./assets/vhs/GenesisAHistory_Front.webp",
+        "imagespine" : "./assets/vhs/GenesisAHistory_Spine.webp"
+    },
+    {
+        "id" : "genesiswalk",
+        "name" : "Genesis Live: The Way We Walk",
+        "year" : "1993",
+        "body" : "",
+        "tags" : "music;",
+        "imagefront" : "./assets/vhs/GenesisLiveTheWayWeWalk_Front.webp",
+        "imagespine" : "./assets/vhs/GenesisLiveTheWayWeWalk_Spine.webp"
     },
     {
         "id" : "ledzep",
@@ -583,6 +664,33 @@
         "tags" : "music",
         "imagefront" : "./assets/vhs/VanHalenLiveRightHereRightNow_Front.webp",
         "imagespine" : "./assets/vhs/VanHalenLiveRightHereRightNow_Spine.webp"
+    },
+    {
+        "id" : "peterpov",
+        "name" : "Peter Gabriel: POV",
+        "year" : "1990",
+        "body" : "",
+        "tags" : "music",
+        "imagefront" : "./assets/vhs/PeterGabrielPOV_Front.webp",
+        "imagespine" : "./assets/vhs/PeterGabrielPOV_Spine.webp"
+    },
+    {
+        "id" : "philcollinsserously",
+        "name" : "Phil Collins: Seriously Live",
+        "year" : "1990",
+        "body" : "",
+        "tags" : "music",
+        "imagefront" : "./assets/vhs/PhilCollinsSeriouslyLive_Front.webp",
+        "imagespine" : "./assets/vhs/PhilCollinsSeriouslyLive_Spine.webp"
+    },
+    {
+        "id" : "rogerwaterswall",
+        "name" : "Roger Waters: The Wall Live in Berlin",
+        "year" : "1990",
+        "body" : "",
+        "tags" : "music",
+        "imagefront" : "./assets/vhs/RogerWatersTheWallLiveInBerlin_Front.webp",
+        "imagespine" : "./assets/vhs/RogerWatersTheWallLiveInBerlin_Spine.webp"
     },
     {
         "id" : "woodstock",

@@ -886,5 +886,13 @@
         "monthread": "July",
         "yearread": "2026",
         "cover": "/assets/books/dune.webp"
+    },
+    {
+        "name":"Dune: Messiah",
+        "author": "Frank Herbert",
+        "year": "1969",
+        "monthread": "July",
+        "yearread": "2026",
+        "cover": "/assets/books/dunemessiah.webp"
     }
 ]
