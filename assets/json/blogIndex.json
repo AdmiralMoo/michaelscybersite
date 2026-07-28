@@ -1,5 +1,17 @@
 [
   {
+    "title": "The Arrakithon",
+    "date": "2026-07-27",
+    "slug": "2026-07-27-arrakithon",
+    "category": "books",
+    "tags": [
+      "books",
+      "sci-fi",
+      "dune"
+    ],
+    "description": "How my mid-summer has become consumed by Frank Herbert's Dune"
+  },
+  {
     "title": "Michael's Music Library\u00a0\u2013 June 2026 Update",
     "date": "2026-07-04",
     "slug": "2026-07-04-music-library-update-june",
@@ -8,7 +20,7 @@
       "music-library",
       "cds"
     ],
-    "description": "A June 2026 Collection Update"
+    "description": "A June 2026 Collection Update and looking back on a year of Genesis"
   },
   {
     "title": "Book Review \u2013 Under The Volcano",
@@ -52,7 +64,7 @@
     "tags": [
       "camcorder"
     ],
-    "description": "The chunky, impractical camcorder I bought at an auction and was everything I'd hoped for."
+    "description": "The chunky, impractical camcorder I bought at an auction was everything I'd hoped for."
   },
   {
     "title": "Star Wars On The Big Screen",
