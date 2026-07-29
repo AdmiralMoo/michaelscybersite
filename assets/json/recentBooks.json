@@ -894,5 +894,13 @@
         "monthread": "July",
         "yearread": "2026",
         "cover": "/assets/books/dunemessiah.webp"
+    },
+    {
+        "name":"Chilren of Dune",
+        "author": "Frank Herbert",
+        "year": "1976",
+        "monthread": "July",
+        "yearread": "2026",
+        "cover": "/assets/books/childrenofdune.webp"
     }
 ]
