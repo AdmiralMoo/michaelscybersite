@@ -902,5 +902,21 @@
         "monthread": "July",
         "yearread": "2026",
         "cover": "/assets/books/childrenofdune.webp"
+    },
+    {
+        "name":"God Emperor of Dune",
+        "author": "Frank Herbert",
+        "year": "1981",
+        "monthread": "July",
+        "yearread": "2026",
+        "cover": "/assets/books/godemperorofdune.webp"
+    },
+    {
+        "name":"On The Road",
+        "author": "Jack Kerouac",
+        "year": "1957",
+        "monthread": "July",
+        "yearread": "2026",
+        "cover": "/assets/books/ontheroad.webp"
     }
 ]
