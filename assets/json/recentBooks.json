@@ -918,5 +918,13 @@
         "monthread": "July",
         "yearread": "2026",
         "cover": "/assets/books/ontheroad.webp"
+    },
+    {
+        "name":"Heretics of Dune",
+        "author": "Frank Herbert",
+        "year": "1984",
+        "monthread": "August",
+        "yearread": "2026",
+        "cover": "/assets/books/hereticsofdune.webp"
     }
 ]
