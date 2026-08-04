@@ -926,5 +926,13 @@
         "monthread": "August",
         "yearread": "2026",
         "cover": "/assets/books/hereticsofdune.webp"
+    },
+    {
+        "name":"Chapterhouse: Dune",
+        "author": "Frank Herbert",
+        "year": "1985",
+        "monthread": "August",
+        "yearread": "2026",
+        "cover": "/assets/books/chapterhousedune.webp"
     }
 ]
