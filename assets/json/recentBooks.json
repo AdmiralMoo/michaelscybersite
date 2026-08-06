@@ -934,5 +934,13 @@
         "monthread": "August",
         "yearread": "2026",
         "cover": "/assets/books/chapterhousedune.webp"
+    },
+    {
+        "name":"Hunters of Dune",
+        "author": "Brian Herbert",
+        "year": "2006",
+        "monthread": "August",
+        "yearread": "2026",
+        "cover": "/assets/books/huntersofdune.webp"
     }
 ]
