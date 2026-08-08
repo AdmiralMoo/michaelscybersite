@@ -408,5 +408,15 @@
             { "artist": "Yes", "album": "Talk", "cover": "./assets/albumart/yes - talk.webp" },
             { "artist": "Skid Row", "album": "Skid Row", "cover": "./assets/albumart/skidrow - skidrow.webp" }
         ]
+    },
+    {
+        "month": "July 2026",
+        "albums": [
+            { "artist": "Boston", "album": "Walk On", "cover": "./assets/albumart/boston - walk on.webp" },
+            { "artist": "Van Halen", "album": "5150", "cover": "./assets/albumart/van halen - 5150.jpg" },
+            { "artist": "Supertramp", "album": "Even In The Quietest Moments", "cover": "./assets/albumart/supertramp - even in the quietest moments.jpg" },
+            { "artist": "Supertramp", "album": "Crisis? What Crisis?", "cover": "./assets/albumart/supertramp - crisis what crisis.webp" },
+            { "artist": "King Crimson", "album": "Islands", "cover": "./assets/albumart/king crimson - islands.jpg" }
+        ]
     }
 ]

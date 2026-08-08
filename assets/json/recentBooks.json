@@ -942,5 +942,13 @@
         "monthread": "August",
         "yearread": "2026",
         "cover": "/assets/books/huntersofdune.webp"
+    },
+    {
+        "name":"Sandworms of Dune",
+        "author": "Brian Herbert",
+        "year": "2007",
+        "monthread": "August",
+        "yearread": "2026",
+        "cover": "/assets/books/sandwormsofdune.webp"
     }
 ]
