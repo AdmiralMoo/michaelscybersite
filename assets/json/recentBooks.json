@@ -950,5 +950,13 @@
         "monthread": "August",
         "yearread": "2026",
         "cover": "/assets/books/sandwormsofdune.webp"
+    },
+    {
+        "name":"The Odyssey",
+        "author": "Homer",
+        "year": "650 BC",
+        "monthread": "August",
+        "yearread": "2026",
+        "cover": "/assets/books/theodysseyrieu.webp"
     }
 ]
