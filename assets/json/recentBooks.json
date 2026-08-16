@@ -200,6 +200,14 @@
         "cover": "/assets/books/persuasion.jpg"
     },
     {
+        "name":"Persuasion",
+        "author": "Jane Austen",
+        "year": "1817",
+        "monthread": "February",
+        "yearread": "2025",
+        "cover": "/assets/books/persuasion.jpg"
+    },
+    {
         "name":"Factotum",
         "author": "Charles Bukowski",
         "year": "1975",
@@ -958,5 +966,13 @@
         "monthread": "August",
         "yearread": "2026",
         "cover": "/assets/books/theodysseyrieu.webp"
+    },
+    {
+        "name":"Persuasion",
+        "author": "Jane Austen",
+        "year": "1817",
+        "monthread": "August",
+        "yearread": "2026",
+        "cover": "/assets/books/persuasion_2.webp"
     }
 ]
