@@ -32,21 +32,21 @@ Unsurprisingly, *5150* has been either first or second for five consecutive mont
 
 #### The Top Ten
 
-<div class="blog-image blog-image blog-image-right"><img src="/assets/albumart/skidrow - skidrow.webp"><span>"Big Guns" is my favourite from this album—I'm a sucker for a rowdy, energetic leadoff track! "18 and Life", "I Remember You", "Sweet Little Sister" and "Here I Am" are awesome songs I'd consider my favourites off this record as well.</span></div>
+The top album this month was Boston's fourth release: *Walk On*. I think it's the band's best album, and I will die on that hill: it's got polish, conviction and hard-rocking oomph their previous releases only showed glimpses of. For whatever reason, this one really tickled my fancy again in the month of July just as it did in February—something just clicked and it was all I wanted to listen to all day. 
 
-Again, for the first time in four months, there is no Nickelback in the top five. You don't to search far, though, as *Silver Side Up* can still be found in the 10 spot with just six listens. Since last month, it has traded spots with *Yes/Talk* which now ranks fourth overall at thirteen listens. 
+Second, we have *5150*. I don't think there's anything I can write about that album that I haven't said already. 
 
-I really like *Talk*. I was surprised to have found a Yes album at a bookshop attached to my local library in April, and I wondered if it'd be any good since I've seen a lot of negative sentiment towards post-*90125* Yes online in passing. As usual, the internet people are just a bunch of miserable, puppy-kicking haters who don't like to have fun: *Talk* is pretty damn cool. It takes on a much more electronic sound than previous Yes albums and has that clean, digital sheen which comes from it being entirely recorded on Macintosh computers rather than tape. It's a very cool sound which, in some ways, reminds me of later King Crimson.
+Supertramp was a big part of my month: They were my top artist with 22 of 256 listens, making up for 8.3% of all listens. This huge push which kept them in the top spot for the second consecutive month was led by *Crisis? What Crisis?* and *Even In The Quietest Moments...*. Both are really fun, groovy albums. I love Supertramp. 
 
-*Skid Row*—the band's self-titled debut—is an album I bought in May and listened to a lot this June along with albums such as *Europe/The Final Countdown* and particularly *Poison/Flesh & Blood*: I think the coming of the summer sun called for some Sunset Strip vibes! I'd never listened to this band before this album, but I think it's a fantastic debut and I absolutely love it; on this record, they're like Motley Crue's *Dr. Feelgood* but with more speed and youth—it rocks harder and faster, but not too heavily. 
+*King Crimson/Islands* is one of those albums I've loved for years and I've listened to pretty regularly, but it just hasn't had a resurgence like it did this month. This has got to be when mellotrons peaked—I absolutely love the orchestral jazz-fusion instrumentation on this very Crimson prog rock album. The title track is a clear favourite, though every lush, vivid track on this record is such a wonderful experience every time through. 
 
-*Crisis? What Crisis?* is also an album I picked up on CD in May, though I'd listened to it one or two times on cassette previously. This month, though, I really got to know it. I know I'm definitely not done with this one and I'll be listening to it through July as well. My favourite tracks off this one are "Another Man's Woman" (one of the great Supertramp songs!), "Two of Us", "The Meaning" and "Sister Moonshine". 
+*468 Ocean Boulevard* found it's way onto the charts for the first time. I got a copy of this album not too long ago and it finally found itself in my listening rotation. I like Clapton! This is my second of his solo albums I've gotten to know and I think it's just fantastic wherever I look. *An Innocent Man* is another returning favourite from the Autumn of 2024—I listened to this one a hell of a lot at the same time I was into *Yes/90125*, *Nine Inch Nails/Hesitation Marks* and *Prince & The Revolution/Purple Rain*. Good memories of my penultimate fall semester in college!
 
-*Dark Side* is here again—what's there to say about this? It's my favourite album of all time, and it's possibly the greatest album ever recorded—but it's not Pink Floyd's best album. *ha!* 
+*Glass Houses* is a new album to me. I got this one a long time ago—maybe a year and a half or so—but I've just never gotten around to really appreciating it until now. Billy Joel is really going through a resurgence this year and I'm loving it! *Glass Houses* in particular is such a fun, raucous rock n' roll album filled to the brim with singalong worthy energetic tracks. It just feels so damn good to listen to! I bet this one is going to continue on through August, and I really hope I can get my hands on some more Billy Joel in the near future.
 
-*Eagles* self-titled has been a nice easy listen these past couple of months—I've continued to enjoy that soft country rock. *Third Eye Blind* is one that I don't think has been up there on the charts for quite a few years—maybe not even since the summer of 2020 well before I was tracking these stats—but it's an old favourite. I'm going to see them live this September so in anticipation of that, I've listened to it more heavily recently. This is definitely a top twenty-five all-time favourite album, and it gets listened to semi-regularly. 
+Rounding the top ten off are some classic Creed in *Human Clay* and, of course, my favourite album of all-time: *The Dark Side of The Moon*. 
 
-#### Just Outside The Charts
+#### Just Outside The Charts (NOT UPDATED YET)
 
 <div class="blog-image blog-image blog-image-left"><img src="/assets/albumart/kansas - point of know return.jpg"><span>Good stuff! It rocks hard with grandiose symphonic flair on tracks such as "Lightning's Hand" or the titular "Point of Know Return", and also has a softer side on tracks like "Dust in The Wind". Why don't more people know about Kansas?</span></div>
 
@@ -62,21 +62,19 @@ Ah! I guess I could go around saying they're all so great and so fun to listen t
 
 #### Listening Stats
 
-Speaking of Supertramp, they came out well on top of all other artists having racked up 35 listens. 
+The whole reason why this blogpost was published so late into the month of August was due to these listening stats I'm about to rattle off. I'll explain more later—the whole story, really, deserves its own blogpost. 
 
-Van Halen came in 2nd at 26, while Phil Collins had 21 in 3rd. Yes in 4th place is rather interesting since their 17 listens were largely driven by *Talk* alone with a sprinkling of *90125*, whereas many of the other artists had multiple albums to support their numbers. The same can be said for Eagles and especially *Skid Row* and *Third Eye Blind* in 9th and 10th respectively. 
+As I mentioned earlier, Supertrap was the top artist of the month with 22 listens. That's down on last month when they had 13 more listens in the top spot. You'll find that everything this month is down compared to June—but there's a good reason why. 
 
-Pink Floyd and Genesis came in 5th and 6th with 16 and 14 listens respectively—these two bands are staples of my top ten. One that's missing is Rush, which ended a good five or six month streak on the top ten. The previous time their streak was broken, it was only for one month and they were just outside, so I'd expect them to bounce back in the month of July. 
+Boston came in 2nd tied with Billy Joel at 17 listens a piece. Van Halen followed in 4th with 16, Pink Floyd in 5th with 13, Phil Collins and Genesis in 6th and 7th with 12 and 11 listens respectively, King Crimson and Nickelback tied for 8th and 9th with nine each, and finally Mr. Clapton with 8 listens. 
 
-The stats for this month reported 152 unique albums (<span style="color: #d80000; font-weight:bold">-12</span>) 356 times (<span style="color: #d80000; font-weight:bold">-41</span>) for a total of 16,473 minutes (<span style="color: #d80000; font-weight:bold">-1,810</span>). There's a bit of a drop over last month, but that's easily explained. 
-
-As I said in last month's review, I started working from home again full-time since I'm done school; I still have those 8–5 days, but instead of listening to music all the time, I'm mixing in audiobooks!
+The stats for this month reported a mere 113 unique albums (<span style="color: #d80000; font-weight:bold">-39</span>) 256 times (<span style="color: #d80000; font-weight:bold">-100</span>) for a total of 12,047 minutes (<span style="color: #d80000; font-weight:bold">-4,426</span>). Holy cow Batman, that's catastrophic!
 
 ## Music Library Stats
 
 Total counts already include additions.
 
-**CDs**: 759 <span style="color: #00D800; font-weight:bold">+1</span>
+**CDs**: 768 <span style="color: #00D800; font-weight:bold">+9</span>
 
 **Cassettes**: 63
 
@@ -89,53 +87,74 @@ Total counts already include additions.
 New albums are listed in chronological order starting from the beginning of the month
 
 ::music-grid
-Peter Gabriel | 3 | CD | Thrift Store | ./assets/albumart/peter gabriel - 3.webp
+Peter Gabriel | Peter Gabriel | CD | Thrift Store | ./assets/albumart/peter gabriel - peter gabriel.webp
+National Arts Centre Orchestra | Poema 1.Ad Astra | CD | National Arts Centre | ./assets/albumart/naco - poema 1 ad astra.webp
+Peter Gabriel | Security | CD | Thrift Store | ./assets/albumart/peter gabriel - security.webp
+Big Wreck | In Loving Memory Of... | CD | Book Sale | ./assets/albumart/big wreck - in loving memory of.webp
+Roger Waters | The Pros And Cons of Hitch Hiking | CD | Book Sale | ./assets/albumart/roger waters - the pros and cons of hitch hiking.webp
+Various Artists | Heavy Metal: Music From The Motion Picture | CD | Book Sale | ./assets/albumart/soundtrack - heavy metal music from the motion picture.webp
+The Bees | Free The Bees | CD | Book Sale | ./assets/albumart/the bees - free the bees.webp
+Jefferson Airplane | Jefferson Airplane | CD | Book Sale | ./assets/albumart/jefferson airplane - jefferson airplane.webp
+Kool & The Gang | Emergency | CD | Book Sale | ./assets/albumart/kool & the gang - emergency.webp
 ::
 
-### ...Seriously?
+### Why Didn't You Listen to Any Music?
 
 <div class="blog-image blog-image blog-image-right"><img src="/blog/resources/2026-07-04_2.webp"><span>The one album I got this month.</span></div> 
 
-I only bought one album this month.
+It's pretty crazy looking at the stats to see that I've listened to so little music in the month of July. I would say that I've listened to as little music this month than I probably ever have in my adult life! There's a good reason for it, though, as I alluded to earlier: *Dune*. 
 
-I suppose I usually get at least three or four, but the truth is that I just haven't really been going out to thrift stores, and I haven't stopped at a record store. It was on the last day of the month—June 30th—that I found a copy of Peter Gabriel's third self-titled album, often called *Melt* unofficially, when I went to a thrift store. 
+That's right, Frank Herbert's legendary science fiction masterpiece is the reason why I've barely listened to any music, despite music basically being the most important part of my life. 
 
-Though I haven't spent much time with Gabriel in his solo work, I greatly enjoy early Genesis and I thought *So* was a very interesting album I'd like to explore more. It's great to have another one of his in my library! 
+On July 17th, I decided I was going to re-watch *Dune (1984)* and *Dune: Part One (2021)* before seeing *Dune: Part Two (2024)* for the first time. I wrote about this in another blog post titled *The Arrakithon*—the crazy, long-term and currently ongoing "project" which has swept through and taken over my entire life. I wouldn't say it's even a project, really, it's just happening to me and I have no control over it. 
 
-I meant to go to my local library's monthly booksale which oftentimes has an awesome selection of CD's, but I mixed up the dates and showed up a weekend after to an empty building—*ha!* I'll catch it in July. 
+I'm currently reading through Frank Herbert's six *Dune* novels, and I plan to read Brian Herbert and Kevin J Anderson's rendition of *Dune 7* after I'm done. Because I work an office 8–5, I do some of this reading in the form of audiobooks. Throughout the day, I'm constantly switching back and forth between reading physical copies and listening to the audiobooks. I feel like a drug addict: if I'm not consuming *Dune*, I feel restless and it's all I can think about. 
 
-### The Genesis of Genesis: One Year On
+I'm currently working my way through the final original *Dune* book, *Chapterhouse Dune*. I'm really loving the series despite how much its taken over my life. I can't stop until its over!
+
+### What Was That Thing About The Stats, Too? 
 
 <div class="blog-image blog-image blog-image-left"><img src="/blog/resources/2026-07-04_3.webp"><span>My Phil Collins section of the shelf</span></div> 
 
-With the coming of July, it has now been a year since my love for Genesis really blossomed. July 12th will mark a year since I picked up my first Collins solo album—*Hello, I Must Be Going!*—which would be the first of many Genesis-related albums I bought that summer. 
+As if a massive reading project wasn't enough to delay this blogpost, a minor catastrope struck: my main computer died. 
 
-The first two Genesis albums I bought were *Invisible Touch* and *We Can't Dance* on November 16th, 2023. I didn't listen to them right away—in fact, they actually sat around for a long time: I just bought them because I knew that Genesis was a Prog Rock band whose name floated around bands like Pink Floyd, King Crimson and Yes as titans of the genre.
+I turned off the power bar before I left on a trip to Toronto to see Kevin Gausman's final game with the Blue Jays, and when I came back, I turned on the power bar and my computer simply wouldn't start. I know the motherboard is getting power because the power light is on, but something's flipped a breaker somewhere which is preventing the full flow to come through. 
 
-I continued buying them without listening, trusting that I'd enjoy it someday. *Genesis* came around on March 7th, 2024, *Trick of the Tail* on April 15th, and finally *Selling England by The Pound* on September 26th of the same year. I actually listened to *Selling England* around a week after I got it, but I wasn't super into it at first. That month, *90125* was all the rage. 
+It's just a power supply. I built this computer myself—hell, I troubleshoot computers *for a living*—so I know it's not a big deal. I could "easily" swap it out and replace it, except it doesn't feel that easy.
 
-Fast-forward to the spring of 2025: my penultimate year of college has concluded and I'm sitting at the library reading Larry Niven's *Ringworld* for the first time. What a book! If only I could go back and experience it for the first time—my awe at the sheer scale of the novel and the crazy, wacky ideas somehow nudged me to listen to *Selling England* again. 
+It's the middle of summer and it's downright beautiful outside. I want to go rock climbing with my friends, read books under the sun and enjoy some cycling, not spend *more* time working on a computer after I've already done that for 8.5 hours in a day. Especially when I'm not even getting paid to do it!
 
-This time, it clicked right away. *Selling England by The Pound* became the fourth most listened-to album of 2025 with 73 listens. 
+Thus, I'm currently without a Windows machine. I love my M4 MacBook Air, and I'm completely content with it. It was completely fine, in fact, until I realized that my Music Statter—the program which tabulates my janky self-made Spotify Wrapped every month—relies on a very Windows-dependent workflow.
 
-Although you'd think *Trick of the Tail*, being a more similar-sounding album, would be my next choice, it was *Invisible Touch*—an album I now consider to be one of my all-time favourites. It eclipsed *Selling England* to become the second-most listened to album of the year with 82 listens. It was the centerpiece of to soundtrack of my summer that year.
+I had to not only port the software I wrote two years ago on Christmas break to work on Mac, but I also had to change the way that I log my music listening. I used to do it in Microsoft OneNote and use a third party plugin to export the lists and have the program sift through to count my listens, but that couldn't work on Mac at all. I'm now using Apple's Notes app and plain text files with simple list notation to record my listens; I can easily get to it on my Mac or my iPhone, so it serves its purpose well. It also means that I'm no longer using OneNote at all; I stopped using it for journaling a little over a year ago. 
 
-So, the verdict was in: I love Genesis, and I was glad I bought those albums months and years earlier—though I still had a long, long way to go. 
+With the Music Statter finally ported, I was able to put the finishing touches into this blogpost. Here it is!
 
-<div class="blog-image blog-image blog-image-right"><img src="/blog/resources/2026-07-04_4.webp"><span>The well-wrapped package of goods from my dealer.</span></div> 
+### The Other Additions
 
-*...And Then There Were Three*, *Abacab*, *Nursery Cryme*, *...But Seriously*, *No Jacket Required*, *Foxtrot* and *The Lamb Lies down on Broadway* all came in the mail at the end of July from my regular dealer—I pretty much bought out his entire stock. *Abacab* ended up being a really big album towards the end of the summer into Autumn, as was *No Jacket Required*. I found Collins' *Going Back*, *Serious Hits...Live!*, *...Hits*, *Dance Into The Light*, *Face Value*, *Both Sides* as well as *Duke* at thrift shops and record stores throughout August. 
+My music collection saw a curious influx of non-disc media this month: a stack of VHS tapes. 
 
-I found a copy of *Wind & Wuthering* and *...Calling All Stations...* at a record store in October, and the former made the top five in November. It's definitely my favourite Genesis four-piece album, and I think it's much better than *A Trick of The Tail*—though I know general consensus seems to run the opposite way. 
+I found them on Kijiji and quickly set up a time with the seller. One sunny afternoon, I biked over to the house and was greeted by a smiling middle-aged man with the same haircut and music taste as me. 
 
-I completed my Phil Collins solo discography in November with *Testify*—it was amazing to think that I had no Collins in my library at the beginning of July, and now all of his solo albums are there for me to enjoy on my shelf. This was complimented by *A Hot Night In Paris* by the Phil Collins Big Band in December—something I really wasn't expecting to find at a thrift store. 
+"Check this out," he said enthusiastically. He held up a shoebox and opened it. "It all fits in one!"
 
-At the same time, I was closing in on a complete Genesis discography. They'd quickly become one of my all-time favourite bands and I collected their albums at a staggering rate—I suppose, though, the same could be said for Led Zeppelin: I found *Houses of The Holy* at a thrift store in autumn of 2023, and I had a complete discography by before spring of 2024 had ended. 
+"Woah!" I replied. I couldn't help but smile. "Sometimes the perfect box just comes along in life right when you need it, doesn’t it?"
 
-I didn't know where I was going to find a copy of *From Genesis to Revelation*. It was probably an album I'd have to mail order, or so I thought. To my surprise, I found it at my public library's monthly booksale on December 20th, 2025. 
+I couldn't quite believe I said that, but that's what I jotted down in my journal that night. For a moment, we were just two Genesis fans marvelling at some tapes in an Adidas box. 
 
-I wouldn't find a copy of *Trespass* until March 14th of this year. I went out to dinner with some peers from school and there happened to be a record store next to the restaurant. There it was! I had a complete Genesis discography. 
+That's right, *Genesis* fans. I got a massive haul of wicked cool tapes for just $24. 
 
-This band is really something else. They've followed me through every month since I began listening to them a little over a year ago, and I'm now branching off into more of the Genesis Dynasty's side and solo projects. I've been enjoying some *Mike + The Mechanics* as I mentioned earlier in the blogpost, and now I've got two Peter Gabriel solo albums to dig into. I'd really like to get more Rutherford and Banks, and I'm very curious to get my hands on some Hackett. 
+* Genesis Invisible Touch Tour (1987)
+* Genesis Live: The Way We Walk (1992)
+* Genesis: A History 
+* Phil Collins: Seriously Live (1990)
+* Billy Joel: Live From Leningrad 1987
+* Billy Joel: A Matter of Trust (1987)
+* Billy Joel: Shades of Grey
+* Billy Joel: The Video Album 
+* Eric Clapton and Friends (1986)
+* Eric Clapton 24 Nights (1990)
+* Peter Gabriel PoV (1987)
+* Roger Waters: The Wall Live In Berlin (1990)
 
-I'm not in a rush, though: I've got so much music to listen to and I'm really happy with my massive collection. I'm just glad that Genesis is a part of it—I'm glad I figured I'd like this band eventually. 
+Isn't that an *insane* list? I think it is. I'm so excited about all of those—I saw the ad and couldn't believe how oddly specific it was to my taste in music, particularly the exact artists I've been really into this year. I've already enjoyed a couple of them and I can't wait to check out the rest. *Live Without a Net* is probably one of the most watched tapes in my collection, and I have a feeling that some of these are going to become regulars as well. 
