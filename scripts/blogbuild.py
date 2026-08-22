@@ -111,7 +111,6 @@ def build_carousel(block, side, size):
 
                 {carousel_id}_show();
             }}
-
             </script>
 
         </div>

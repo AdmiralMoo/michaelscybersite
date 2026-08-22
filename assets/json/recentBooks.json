@@ -974,5 +974,13 @@
         "monthread": "August",
         "yearread": "2026",
         "cover": "/assets/books/persuasion_2.webp"
+    },
+    {
+        "name":"The Disaster Artist",
+        "author": "Greg Sestero",
+        "year": "2013",
+        "monthread": "August",
+        "yearread": "2026",
+        "cover": "/assets/books/disasterartist.webp"
     }
 ]
