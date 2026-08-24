@@ -3,13 +3,13 @@ title: Michael's Music Library – July 2026 Update
 date: 2026-08-09
 slug: 2026-08-09-music-library-update-july
 category: music
-description: July's Music Update Amidst a Reading Marathon and Computer Failure
+description: Computer Failures, Signed CDs & a Reading Marathon (With Disco Music!)
 tags:
     - music-library
     - cds
 ---
 
-This July, I listened to the least-ever music in my adult life due to a massive reading marathon. The NAC Orchestra ended and I got a signed copy of a fantastic performance, I went back to my favourite record store in Toronto and I finally visited the local library's booksale again. 
+This July, I listened to the least amount of music in my adult life due to a massive reading marathon. The NAC Orchestra ended and I got a signed copy of a fantastic performance and I finally visited the local library's booksale again. 
 
 ## Top Albums
 
@@ -25,10 +25,6 @@ This July, I listened to the least-ever music in my adult life due to a massive 
 8. x06: Billy Joel/Glass Houses
 9. x06: Creed/Human Clay
 10. x06: Pink Floyd/The Dark Side of The Moon
-
-#### The Top Three
-
-Unsurprisingly, *5150* has been either first or second for five consecutive months now. Taking the top spot in July is February's number one album, Boston's *Walk On*. What a killer record! This one has a kind of conviction that 
 
 #### The Top Ten
 
@@ -46,25 +42,11 @@ Supertramp was a big part of my month: They were my top artist with 22 of 256 li
 
 Rounding the top ten off are some classic Creed in *Human Clay* and, of course, my favourite album of all-time: *The Dark Side of The Moon*. 
 
-#### Just Outside The Charts (NOT UPDATED YET)
-
-<div class="blog-image blog-image blog-image-left"><img src="/assets/albumart/kansas - point of know return.jpg"><span>Good stuff! It rocks hard with grandiose symphonic flair on tracks such as "Lightning's Hand" or the titular "Point of Know Return", and also has a softer side on tracks like "Dust in The Wind". Why don't more people know about Kansas?</span></div>
-
-In eleventh place, we had Billy Joel's *The Stranger* back up there with a small resurgence—this was a top five album back in January when I first got into it. All tied with five listens a piece for twelfth place, we have *Kansas/Point of Know Return*, *Creed/Weathered*, *Eagles/Hotel California*, *Spin Doctors/Pocket Full of Kryptonite*, *Europe/The Final Countdown*, *Pink Floyd/Wish You Were Here*, *Mike + The Mechanics/Mike + The Mechanics*, and last but not least, *Genesis/Invisible Touch*. 
-
-Those are all great albums! 
-
-A surprising number of people I've talked to who like Styx haven't listened to Kansas—I'd highly recommend *Point of Know Return* for those who like *Styx I*. Creed has been big in my rotation these past couple months, as has *Hotel California*. *Invisible Touch* is coming back because of the warm weather and summer associations, and that *Mike + The Mechanics* album is a new discovery from the batch of albums I bought in May. I'm really liking Mike Rutherford's side project! I think that listening to their self-titled album and *Living Years* has helped me appreciate *Genesis/Calling All Stations* much more—that one really has the feeling of a Mechanics album because of the heavy Rutherford influence with Banks. 
-
-The albums with four listens apiece bring us down to the twenty-five spot: *King Crimson/Islands*, *Toto/Toto*, *Journey/Escape*, *Supertramp/Breakfast in America*, *R.E.M./Automatic For The People*, *Phil Collins/Hello, I Must Be Going!*. 
-
-Ah! I guess I could go around saying they're all so great and so fun to listen to, but I shouldn't have to say that because why else would they be on this list? *Islands* is my favourite King Crimson album and I would say it's the greatest use of mellotrons in the history of recorded music. *Toto* and *Escape* are two groovy 80's masterpieces which are relatively new to me from the April batch of albums. *Breakfast In America* is a classic which has been in regular rotation since around 2022 or 2023. *Automatic For The People* is an album I hold dear to my heart, and I listen to this one often when it rains—it just feels like a rainy day album. 
-
 #### Listening Stats
 
 The whole reason why this blogpost was published so late into the month of August was due to these listening stats I'm about to rattle off. I'll explain more later—the whole story, really, deserves its own blogpost. 
 
-As I mentioned earlier, Supertrap was the top artist of the month with 22 listens. That's down on last month when they had 13 more listens in the top spot. You'll find that everything this month is down compared to June—but there's a good reason why. 
+As I mentioned earlier, Supertramp was the top artist of the month with 22 listens. That's down on last month when they had 13 more listens in the top spot. You'll find that everything this month is down compared to June—but there's a good reason why. 
 
 Boston came in 2nd tied with Billy Joel at 17 listens a piece. Van Halen followed in 4th with 16, Pink Floyd in 5th with 13, Phil Collins and Genesis in 6th and 7th with 12 and 11 listens respectively, King Crimson and Nickelback tied for 8th and 9th with nine each, and finally Mr. Clapton with 8 listens. 
 
@@ -88,7 +70,7 @@ New albums are listed in chronological order starting from the beginning of the 
 
 ::music-grid
 Peter Gabriel | Peter Gabriel | CD | Thrift Store | ./assets/albumart/peter gabriel - peter gabriel.webp
-National Arts Centre Orchestra | Poema 1.Ad Astra | CD | National Arts Centre | ./assets/albumart/naco - poema 1 ad astra.webp
+National Arts Centre Orchestra | Poema 1. Ad Astra | CD | National Arts Centre | ./assets/albumart/naco - poema 1 ad astra.webp
 Peter Gabriel | Security | CD | Thrift Store | ./assets/albumart/peter gabriel - security.webp
 Big Wreck | In Loving Memory Of... | CD | Book Sale | ./assets/albumart/big wreck - in loving memory of.webp
 Roger Waters | The Pros And Cons of Hitch Hiking | CD | Book Sale | ./assets/albumart/roger waters - the pros and cons of hitch hiking.webp
@@ -96,6 +78,8 @@ Various Artists | Heavy Metal: Music From The Motion Picture | CD | Book Sale | 
 The Bees | Free The Bees | CD | Book Sale | ./assets/albumart/the bees - free the bees.webp
 Jefferson Airplane | Jefferson Airplane | CD | Book Sale | ./assets/albumart/jefferson airplane - jefferson airplane.webp
 Kool & The Gang | Emergency | CD | Book Sale | ./assets/albumart/kool & the gang - emergency.webp
+Henryk Wieniawski | Violinkonzerte | CD | Book Sale | ./assets/albumart/Henryk Wieniawski - violinkonzerte.webp
+National Arts Centre Orchestra | Poema 2. Terra Nova | CD | National Arts Centre | ./assets/albumart/naco - poema 2 terra nova.webp
 ::
 
 ### Why Didn't You Listen to Any Music?
@@ -116,7 +100,7 @@ I'm currently working my way through the final original *Dune* book, *Chapterhou
 
 <div class="blog-image blog-image blog-image-left"><img src="/blog/resources/2026-07-04_3.webp"><span>My Phil Collins section of the shelf</span></div> 
 
-As if a massive reading project wasn't enough to delay this blogpost, a minor catastrope struck: my main computer died. 
+As if a massive reading project wasn't enough to delay this blogpost, a minor catastrophe struck: my main computer died. 
 
 I turned off the power bar before I left on a trip to Toronto to see Kevin Gausman's final game with the Blue Jays, and when I came back, I turned on the power bar and my computer simply wouldn't start. I know the motherboard is getting power because the power light is on, but something's flipped a breaker somewhere which is preventing the full flow to come through. 
 
@@ -130,7 +114,35 @@ I had to not only port the software I wrote two years ago on Christmas break to 
 
 With the Music Statter finally ported, I was able to put the finishing touches into this blogpost. Here it is!
 
-### The Other Additions
+### The National Arts Orchestra Season Concludes
+
+In another blogpost, I wrote about how the end of the 2025–2026 NAC Orchestra season ended in early July. That night, the final concert of conductor and program director Alexander Shelley, I got a copy of *Poema 1. Ad Astra* on CD signed by the man himself. 
+
+This volume is the first release in a series of recorded concerts featuring Richard Strauss and companion pieces written by Canadian artists. *Poema 1* features Strauss' "Don Juan", "Dark Night, Bright Stars, Vast Universe" by Kelly-Marie Murphy, "The Infinite Reaches" by Kevin Lau and Strauss' "Tod Und Verklarung". 
+
+Quite happily, I was there on the days this release was recorded! 
+
+Something I've dreamt about since I was a kid looking through my parents' classical music concerts was to go to those legendary concerts which eventually ended up on CD, Vinyl and whatnot. Imagine how cool it would've been to see Karajan's "Eine Kleine Nachtmusik" or "Also Sprach Zarathustra" in the flesh? 
+
+Well, I've had my own moments like that this year. Ottawa isn't Vienna or Berlin, but this is my symphony, and I felt a hell of a lot when I went to those concerts. I have the physical memory of feeling this music in my bones—and there's nothing more powerful than that. 
+
+When they played "Also Sprach Zarathustra" last year, I went to both shows on consecutive nights. I felt things that I didn't think were possible for a sober person to feel; it was beyond words, really. The closest thing I can think of is *transcendence*, and that falls short of how the music affected me. I was in a state of utter disarray and euphoria—it was beyond anything I've ever felt. 
+
+*Also Sprach Zarathustra* has always been one of my all-time favourite works since I was a kid, and seeing it live was something so extraordinarily special. The NAC released that concert on CD as well, and it arrived in my mailbox in late July. It's just stunning listening to that recording and remembering what it was like to be there. I so vividly remember Yosuke Kawasaki playing with such passion and fervour that he couldn't stay seated. It was so, so moving—so powerful! The best experiences of my life are now on this simple plastic disc.
+
+The companion piece to *Also Sprach Zarathustra* commissioned by the NAC-O is based on *1Q84* by Haruki Murakami. Shelley recommended that we read the book if we hadn't yet, so as soon as I got home that night, I put it on hold at the library. I read it a couple months later in September. 
+
+### Exciting Additions to The Collection
+
+This month brought a couple of interesting additions to the collection. At a thrift store and the monthly library booksale, I picked up some more Peter Gabriel. Being already very well versed in Phil Collins and, to a degree, Mike Rutherford, it's been very interesting to dig into the Gabriel parts of Genesis. He's a splendid solo artist just as he was in the band and these two new albums—*Peter Gabriel III* and *Security*—are quite exciting. 
+
+I was both surprised and excited to have found Roger Waters' solo album, *The Pros and Cons of Hitchhiking* at the same booksale. I guess it shouldn't be much of a surprise considering I got copies of *Amused to Death* and *Radio K.A.O.S* there a couple months ago, but this one feels like his biggest and most popular album so you wouldn't expect it to still be there after I arrived an hour late. 
+
+I had to renew my driver's license and my health card. 
+
+The other find I'm super excited about from this booksale is *Kool & The Gang/Emergency*. It's a super catchy disco album I've had a great time listening to; you *really* don't see any Kool & The Gang on CD out at the thrifts, and even in the music shops! They were very much relegated to the Vinyl era along with a lot of other disco and glam metal. 
+
+### The VHS Haul of The Century
 
 My music collection saw a curious influx of non-disc media this month: a stack of VHS tapes. 
 

@@ -982,5 +982,13 @@
         "monthread": "August",
         "yearread": "2026",
         "cover": "/assets/books/disasterartist.webp"
+    },
+    {
+        "name":"The Hitchhiker's Guide to The Galaxy",
+        "author": "Douglas Adams",
+        "year": "1979",
+        "monthread": "August",
+        "yearread": "2026",
+        "cover": "/assets/books/thehitchhikersguidetothegalaxy.webp"
     }
 ]
