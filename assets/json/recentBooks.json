@@ -990,5 +990,13 @@
         "monthread": "August",
         "yearread": "2026",
         "cover": "/assets/books/thehitchhikersguidetothegalaxy.webp"
+    },
+    {
+        "name":"This Is Why You Dream",
+        "author": "Rahul Jandial",
+        "year": "2025",
+        "monthread": "August",
+        "yearread": "2026",
+        "cover": "/assets/books/whyyoudream.webp"
     }
 ]
