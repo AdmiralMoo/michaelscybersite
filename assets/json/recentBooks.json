@@ -998,5 +998,13 @@
         "monthread": "August",
         "yearread": "2026",
         "cover": "/assets/books/whyyoudream.webp"
+    },
+    {
+        "name":"May Our Joy Endure",
+        "author": "Kevin Lambert",
+        "year": "2024",
+        "monthread": "August",
+        "yearread": "2026",
+        "cover": "/assets/books/mayourjoyendure.webp"
     }
 ]
