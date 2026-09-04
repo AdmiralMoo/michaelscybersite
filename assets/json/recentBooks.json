@@ -1006,5 +1006,13 @@
         "monthread": "August",
         "yearread": "2026",
         "cover": "/assets/books/mayourjoyendure.webp"
+    },
+    {
+        "name":"Siddhartha",
+        "author": "Herman Hesse",
+        "year": "1922",
+        "monthread": "September",
+        "yearread": "2026",
+        "cover": "/assets/books/siddhartha.webp"
     }
 ]

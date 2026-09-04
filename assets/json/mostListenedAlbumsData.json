@@ -418,5 +418,15 @@
             { "artist": "Supertramp", "album": "Crisis? What Crisis?", "cover": "./assets/albumart/supertramp - crisis what crisis.webp" },
             { "artist": "King Crimson", "album": "Islands", "cover": "./assets/albumart/king crimson - islands.jpg" }
         ]
+    },
+    {
+        "month": "August 2026",
+        "albums": [
+            { "artist": "Billy Joel", "album": "Glass Houses", "cover": "./assets/albumart/billy joel - glass houses.jpg" },
+            { "artist": "Van Halen", "album": "5150", "cover": "./assets/albumart/van halen - 5150.jpg" },
+            { "artist": "Huey Lewis And The News", "album": "Picture This", "cover": "./assets/albumart/huey lewis and the news - picture this.webp" },
+            { "artist": "Genesis", "album": "Invisible Touch", "cover": "./assets/albumart/genesis - invisible touch.jpg" },
+            { "artist": "Pink Floyd", "album": "The Dark Side of The Moon", "cover": "./assets/albumart/pink floyd - the dark side of the moon.jpg" }
+        ]
     }
 ]
