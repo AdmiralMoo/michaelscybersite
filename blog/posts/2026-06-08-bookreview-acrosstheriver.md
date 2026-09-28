@@ -10,7 +10,7 @@ tags:
     - fiction
 ---
 
-<div class="blog-image blog-image-med blog-image-right"><img src="/assets/books/acrosstheriver.webp"><span>The cover of the edition of <i>The Ringworld Engineers</i> I read. It was a library book.</span></div>
+<div class="blog-image blog-image-med blog-image-right"><img src="/assets/books/acrosstheriver.webp"><span>The cover of the edition of <i>Across The River</i> I read. It was a library book.</span></div>
 
 I picked up this book because I’ve greatly enjoyed Hemingway; I’ve read The Sun Also Rises, The Old Man and The Sea, To Have and Have Not, A Farewell To Arms twice and A.E. Hotchner’s Papa Hemingway—a book documenting the last decade of his life from the perspective of a close friend. I’d say that Hemingway has quickly become one of my favourite authors; I love his prose and writing style, and I enjoy what his books make me feel. 
 

@@ -1014,5 +1014,29 @@
         "monthread": "September",
         "yearread": "2026",
         "cover": "/assets/books/siddhartha.webp"
+    },
+    {
+        "name":"Heads",
+        "author": "Greg Bear",
+        "year": "1990",
+        "monthread": "September",
+        "yearread": "2026",
+        "cover": "/assets/books/heads.webp"
+    },
+    {
+        "name":"Probe",
+        "author": "Margaret Wander Bonanno",
+        "year": "1991",
+        "monthread": "September",
+        "yearread": "2026",
+        "cover": "/assets/books/probe.webp"
+    },
+    {
+        "name":"Rage",
+        "author": "Richard Bachman",
+        "year": "1977",
+        "monthread": "September",
+        "yearread": "2026",
+        "cover": "/assets/books/rage.webp"
     }
 ]
