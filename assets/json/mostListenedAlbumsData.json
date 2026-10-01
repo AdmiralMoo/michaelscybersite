@@ -428,5 +428,15 @@
             { "artist": "Genesis", "album": "Invisible Touch", "cover": "./assets/albumart/genesis - invisible touch.jpg" },
             { "artist": "Pink Floyd", "album": "The Dark Side of The Moon", "cover": "./assets/albumart/pink floyd - the dark side of the moon.jpg" }
         ]
+    },
+    {
+        "month": "September 2026",
+        "albums": [
+            { "artist": "Yes", "album": "Talk", "cover": "./assets/albumart/yes - talk.webp" },
+            { "artist": "Billy Joel", "album": "Piano Man", "cover": "./assets/albumart/billy joel - piano man.webp" },
+            { "artist": "Van Halen", "album": "5150", "cover": "./assets/albumart/van halen - 5150.jpg" },
+            { "artist": "Pink Floyd", "album": "The Dark Side of The Moon", "cover": "./assets/albumart/pink floyd - the dark side of the moon.jpg" },
+            { "artist": "Third Eye Blind", "album": "Third Eye Blind", "cover": "./assets/albumart/third eye blind - third eye blind.jpg" }
+        ]
     }
 ]

@@ -1038,5 +1038,13 @@
         "monthread": "September",
         "yearread": "2026",
         "cover": "/assets/books/rage.webp"
+    },
+    {
+        "name":"Where The Long Grass Blows",
+        "author": "Louis L'Amour",
+        "year": "1976",
+        "monthread": "September",
+        "yearread": "2026",
+        "cover": "/assets/books/wherethelonggrassblows.webp"
     }
 ]
