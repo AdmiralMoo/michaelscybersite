@@ -1046,5 +1046,13 @@
         "monthread": "September",
         "yearread": "2026",
         "cover": "/assets/books/wherethelonggrassblows.webp"
+    },
+    {
+        "name":"Pulp",
+        "author": "Charles Bukowski",
+        "year": "1996",
+        "monthread": "October",
+        "yearread": "2026",
+        "cover": "/assets/books/pulp.webp"
     }
 ]
