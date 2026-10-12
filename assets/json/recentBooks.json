@@ -1054,5 +1054,13 @@
         "monthread": "October",
         "yearread": "2026",
         "cover": "/assets/books/pulp.webp"
+    },
+    {
+        "name":"Berserker",
+        "author": "Fred Saberhagen",
+        "year": "1967",
+        "monthread": "October",
+        "yearread": "2026",
+        "cover": "/assets/books/berserker.webp"
     }
 ]
