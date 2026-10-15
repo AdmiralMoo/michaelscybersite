@@ -1062,5 +1062,21 @@
         "monthread": "October",
         "yearread": "2026",
         "cover": "/assets/books/berserker.webp"
+    },
+    {
+        "name":"Six Days of The Condor",
+        "author": "James Grady",
+        "year": "1974",
+        "monthread": "October",
+        "yearread": "2026",
+        "cover": "/assets/books/sixdaysofthecondor.webp"
+    },
+    {
+        "name":"Two Under Par",
+        "author": "Kevin Henkes",
+        "year": "1987",
+        "monthread": "October",
+        "yearread": "2026",
+        "cover": "/assets/books/twounderpar.webp"
     }
 ]
