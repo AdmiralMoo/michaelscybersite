@@ -1086,5 +1086,21 @@
         "monthread": "October",
         "yearread": "2026",
         "cover": "/assets/books/wonderfultonight.webp"
+    },
+    {
+        "name":"The Gods Themselves",
+        "author": "Isaac Asimov",
+        "year": "1972",
+        "monthread": "October",
+        "yearread": "2026",
+        "cover": "/assets/books/thegodsthemselves.webp"
+    },
+    {
+        "name":"Carrie",
+        "author": "Stephen King",
+        "year": "1974",
+        "monthread": "October",
+        "yearread": "2026",
+        "cover": "/assets/books/carrie.webp"
     }
 ]
